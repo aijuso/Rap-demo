@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "JapaneseRapOrchestrationState",
+  "type": "object",
+  "required": [
+    "request_id", "brief", "generation_brief",
+    "reference_brief", "tasks", "gates"
+  ],
+  "properties": {
+    "request_id": {"type": "string"},
+    "brief": {"type": "object"},
+    "generation_brief": {"type": "object"},
+    "reference_brief": {"type": ["object", "null"]},
+    "tasks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id", "role", "depends_on", "artifact", "input_brief",
+          "allowed_references", "write_scope", "status", "contract"
+        ],
+        "properties": {
+          "id": {"type": "string"},
+          "role": {"type": "string"},
+          "depends_on": {"type": "array", "items": {"type": "string"}},
+          "artifact": {"type": "string"},
+          "input_brief": {"enum": ["reference_brief", "generation_brief"]},
+          "allowed_references": {"type": "array", "items": {"type": "string"}},
+          "write_scope": {"type": "array", "items": {"type": "string"}},
+          "status": {"enum": ["pending", "running", "complete", "failed", "skipped"]},
+          "contract": {"type": "array", "items": {"type": "string"}}
+        },
+        "additionalProperties": false
+      }
+    },
+    "gates": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "after", "requirements"],
+        "properties": {
+          "id": {"type": "string"},
+          "after": {"type": "array", "items": {"type": "string"}},
+          "requirements": {"type": "array", "items": {"type": "string"}}
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

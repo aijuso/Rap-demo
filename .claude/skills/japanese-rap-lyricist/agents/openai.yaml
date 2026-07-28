@@ -1,0 +1,11 @@
+interface:
+  display_name: "日本語ラップ制作ラボ"
+  short_description: "専門工程で作詞・語義・韻・笑い・フローを設計監査"
+  default_prompt: "Use $japanese-rap-lyricist to orchestrate independent narrative, vocabulary, humor, rhyme-graph, and flow stages; integrate an original Japanese rap draft; run a blind professional audit, repair, and fresh reaudit; and clearly label all audio-dependent claims unverified."
+policy:
+  products:
+    - chatgpt
+    - codex
+    - api
+    - atlas
+  allow_implicit_invocation: true

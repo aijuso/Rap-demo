@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "JapaneseRapRequest",
+  "type": "object",
+  "required": ["mode", "language"],
+  "properties": {
+    "mode": {
+      "enum": [
+        "create", "analyze", "rewrite", "rhyme-bank",
+        "flow-map", "audit", "teach", "production"
+      ]
+    },
+    "language": {"const": "ja"},
+    "theme": {"type": "string"},
+    "core_message": {"type": "string"},
+    "facts_and_images": {"type": "array", "items": {"type": "string"}},
+    "fiction_or_lived": {"enum": ["lived", "fictional", "mixed"]},
+    "persona": {"type": "string"},
+    "point_of_view": {"type": "string"},
+    "addressee": {"type": "string"},
+    "tone": {"type": "string"},
+    "register": {"type": "string"},
+    "dialect": {"type": "string"},
+    "bpm": {"type": ["number", "null"], "minimum": 30, "maximum": 300},
+    "meter": {"type": "string", "default": "4/4"},
+    "bars": {"type": ["integer", "null"], "minimum": 1},
+    "structure": {"type": "string"},
+    "rhyme_density": {"enum": ["low", "medium", "high"]},
+    "rhyme_methods": {"type": "array", "items": {"type": "string"}},
+    "rhyme_scheme": {"type": "string"},
+    "humor_intensity": {"enum": ["none", "light", "medium", "high"]},
+    "flow_preferences": {"type": "array", "items": {"type": "string"}},
+    "hook_requirement": {"type": ["string", "boolean", "null"]},
+    "explicitness": {"type": "string"},
+    "required_words": {"type": "array", "items": {"type": "string"}},
+    "forbidden_words": {"type": "array", "items": {"type": "string"}},
+    "reference_traits": {"type": "array", "items": {"type": "string"}},
+    "reference_requests": {"type": "array", "items": {"type": "string"}},
+    "copyright_input_class": {
+      "enum": [
+        "original_prompt", "user_supplied_text",
+        "original_generated_text", "commercial_work"
+      ]
+    },
+    "generation_target": {"enum": ["none", "suno", "other"], "default": "none"},
+    "production_handoff": {"enum": ["auto", "required", "omit"], "default": "auto"},
+    "key_feel": {"type": ["string", "null"]},
+    "groove": {"type": ["string", "null"]},
+    "vocal_profile": {"type": ["string", "null"]},
+    "instrument_palette": {"type": "array", "items": {"type": "string"}},
+    "exclude_elements": {"type": "array", "items": {"type": "string"}},
+    "style_character_limit": {"type": ["integer", "null"], "minimum": 1}
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AnnotatedJapaneseRapVerse",
+  "type": "object",
+  "required": ["bars", "verification"],
+  "properties": {
+    "bars": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["index", "surface"],
+        "properties": {
+          "index": {"type": "integer", "minimum": 1},
+          "surface": {"type": "string"},
+          "reading": {"type": ["string", "null"]},
+          "moras": {"type": "array", "items": {"type": "string"}},
+          "rhyme_families": {"type": "array", "items": {"type": "string"}},
+          "semantic_function": {"type": "string"},
+          "breath_after": {"type": ["boolean", "null"]},
+          "warnings": {"type": "array", "items": {"type": "string"}}
+        },
+        "additionalProperties": true
+      }
+    },
+    "verification": {
+      "type": "object",
+      "properties": {
+        "reading": {"enum": ["verified", "manual", "provisional", "missing"]},
+        "beat": {"enum": ["verified", "proposed", "missing"]},
+        "performance": {"enum": ["verified", "unverified"]}
+      },
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": true
+}

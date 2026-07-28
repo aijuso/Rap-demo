@@ -1,0 +1,123 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "JapaneseRapHumorPlan",
+  "type": "object",
+  "required": [
+    "mode", "purpose", "target_policy", "density_map", "punch_cards",
+    "callback_map", "character_knowledge", "voice_cast",
+    "reveal_schedule", "rights_origin", "risk_flags"
+  ],
+  "properties": {
+    "mode": {"enum": ["general", "character_driven"]},
+    "purpose": {"type": "string", "minLength": 1},
+    "target_policy": {
+      "type": "object",
+      "required": ["allowed", "avoided"],
+      "properties": {
+        "allowed": {"type": "array", "items": {"type": "string"}},
+        "avoided": {"type": "array", "items": {"type": "string"}}
+      },
+      "additionalProperties": false
+    },
+    "density_map": {"type": "array", "items": {"type": "object"}},
+    "punch_cards": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id", "technique", "prediction", "violation", "reframe",
+          "benignizer", "target", "timing", "meaning_without_joke"
+        ],
+        "properties": {
+          "id": {"type": "string"},
+          "technique": {"type": "string"},
+          "prediction": {"type": "string"},
+          "violation": {"type": "string"},
+          "reframe": {"type": "string"},
+          "benignizer": {"type": "string"},
+          "target": {"type": "string"},
+          "timing": {"type": "object"},
+          "meaning_without_joke": {"type": "string"}
+        },
+        "additionalProperties": true
+      }
+    },
+    "callback_map": {"type": "array", "items": {"type": "object"}},
+    "character_knowledge": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["character_id", "knows", "misunderstands"],
+        "properties": {
+          "character_id": {"type": "string"},
+          "knows": {"type": "array", "items": {"type": "string"}},
+          "misunderstands": {"type": "array", "items": {"type": "string"}}
+        },
+        "additionalProperties": false
+      }
+    },
+    "voice_cast": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["character_id", "register", "pitch", "speed", "knowledge_scope"],
+        "properties": {
+          "character_id": {"type": "string"},
+          "register": {"type": "string"},
+          "pitch": {"type": "string"},
+          "speed": {"type": "string"},
+          "knowledge_scope": {"type": "array", "items": {"type": "string"}}
+        },
+        "additionalProperties": false
+      }
+    },
+    "reveal_schedule": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["bar", "fact", "audience_knows", "characters_who_learn"],
+        "properties": {
+          "bar": {"type": "integer", "minimum": 1},
+          "fact": {"type": "string"},
+          "audience_knows": {"type": "boolean"},
+          "characters_who_learn": {"type": "array", "items": {"type": "string"}}
+        },
+        "additionalProperties": false
+      }
+    },
+    "rights_origin": {
+      "type": "object",
+      "required": ["characters_original", "commercial_world_reused", "evidence"],
+      "properties": {
+        "characters_original": {"type": "boolean"},
+        "commercial_world_reused": {"type": "boolean"},
+        "evidence": {"type": "array", "minItems": 1, "items": {"type": "string"}}
+      },
+      "additionalProperties": false
+    },
+    "risk_flags": {"type": "array", "items": {"type": "string"}}
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {"mode": {"const": "character_driven"}},
+        "required": ["mode"]
+      },
+      "then": {
+        "properties": {
+          "character_knowledge": {"minItems": 1},
+          "voice_cast": {"minItems": 1},
+          "reveal_schedule": {"minItems": 1},
+          "punch_cards": {"minItems": 1},
+          "rights_origin": {
+            "properties": {
+              "characters_original": {"const": true},
+              "commercial_world_reused": {"const": false}
+            }
+          }
+        }
+      }
+    }
+  ],
+  "additionalProperties": false
+}

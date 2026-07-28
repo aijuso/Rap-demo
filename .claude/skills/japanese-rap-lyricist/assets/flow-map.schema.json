@@ -1,0 +1,61 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "JapaneseRapFlowMap",
+  "type": "object",
+  "required": ["status", "verification", "bpm", "meter", "bars", "unknowns"],
+  "properties": {
+    "status": {"enum": ["proposal", "audio_verified"]},
+    "verification": {"enum": ["text_only", "spoken", "recorded_on_beat"]},
+    "bpm": {"type": ["number", "null"], "minimum": 30, "maximum": 300},
+    "meter": {"type": "string"},
+    "bars": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "index", "subdivision", "mora_count", "density", "rests",
+          "accents", "held_vowels", "breath", "voice", "function",
+          "entry", "fast_zone", "repeat_count", "character_voice",
+          "narrative_reason"
+        ],
+        "properties": {
+          "index": {"type": "integer", "minimum": 1},
+          "subdivision": {"enum": ["eighth", "sixteenth", "triplet", "mixed"]},
+          "mora_count": {"type": ["integer", "null"], "minimum": 0},
+          "density": {"enum": ["sparse", "medium", "dense", "burst"]},
+          "rests": {"type": "array", "items": {"type": "string"}},
+          "accents": {"type": "array", "items": {"type": "string"}},
+          "held_vowels": {"type": "array", "items": {"type": "string"}},
+          "breath": {"enum": ["none", "light_after", "full_after", "before"]},
+          "voice": {"type": "string"},
+          "function": {"type": "string"},
+          "entry": {"type": "string"},
+          "fast_zone": {"type": ["string", "null"]},
+          "repeat_count": {"type": "integer", "minimum": 0},
+          "character_voice": {"type": "string"},
+          "narrative_reason": {"type": "string"},
+          "repeat_pattern": {"type": ["string", "null"]},
+          "switch": {"type": ["string", "null"]},
+          "pre_punch_silence": {"type": ["string", "null"]},
+          "confidence": {"type": "number", "minimum": 0, "maximum": 1}
+        },
+        "additionalProperties": false
+      }
+    },
+    "verification_evidence": {
+      "type": ["object", "null"],
+      "properties": {
+        "beat_id": {"type": "string", "minLength": 1},
+        "audio_id": {"type": "string", "minLength": 1},
+        "take_count": {"type": "integer", "minimum": 1},
+        "reviewer": {"type": "string", "minLength": 1},
+        "timestamp": {"type": "string", "minLength": 1}
+      },
+      "required": ["beat_id", "audio_id", "take_count", "reviewer", "timestamp"],
+      "additionalProperties": false
+    },
+    "unknowns": {"type": "array", "items": {"type": "string"}}
+  },
+  "additionalProperties": false
+}

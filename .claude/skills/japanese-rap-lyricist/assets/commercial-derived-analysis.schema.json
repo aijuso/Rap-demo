@@ -1,0 +1,102 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CommercialRapDerivedAnalysis",
+  "type": "object",
+  "required": [
+    "source_policy", "work", "section_functions", "derived_sound_events",
+    "technique_claims", "sources", "copyright_scope", "non_reconstructive_check"
+  ],
+  "properties": {
+    "source_policy": {"const": "commercial_work"},
+    "work": {
+      "type": "object",
+      "required": ["title", "creator"],
+      "properties": {
+        "title": {"type": "string", "minLength": 1},
+        "creator": {"type": "string", "minLength": 1},
+        "official_source": {"type": ["string", "null"]}
+      },
+      "additionalProperties": false
+    },
+    "section_functions": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["section_id", "bar_range", "paraphrased_function", "claim_status", "confidence"],
+        "properties": {
+          "section_id": {"type": "string"},
+          "bar_range": {"type": "string"},
+          "paraphrased_function": {"type": "string", "minLength": 1},
+          "claim_status": {"enum": ["observed", "artist_stated", "inferred", "unknown"]},
+          "confidence": {"type": "number", "minimum": 0, "maximum": 1}
+        },
+        "additionalProperties": false
+      }
+    },
+    "derived_sound_events": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "event_id", "bar_range", "abstract_pattern", "relation",
+          "placement", "mora_span_length", "claim_status", "confidence", "evidence"
+        ],
+        "properties": {
+          "event_id": {"type": "string"},
+          "bar_range": {"type": "string"},
+          "abstract_pattern": {"type": "string", "minLength": 1},
+          "relation": {"type": "string", "minLength": 1},
+          "placement": {"type": "array", "items": {"type": "string"}},
+          "mora_span_length": {"type": ["integer", "null"], "minimum": 1},
+          "claim_status": {"enum": ["observed", "inferred", "unknown"]},
+          "confidence": {"type": "number", "minimum": 0, "maximum": 1},
+          "evidence": {"type": "array", "minItems": 1, "items": {"type": "string"}}
+        },
+        "additionalProperties": false
+      }
+    },
+    "technique_claims": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["operation", "conditions", "effect", "claim_status", "confidence", "sources"],
+        "properties": {
+          "operation": {"type": "string", "minLength": 1},
+          "conditions": {"type": "array", "items": {"type": "string"}},
+          "effect": {"type": "string", "minLength": 1},
+          "claim_status": {"enum": ["artist_stated", "observed", "inferred", "unknown"]},
+          "confidence": {"type": "number", "minimum": 0, "maximum": 1},
+          "sources": {"type": "array", "minItems": 1, "items": {"type": "string"}}
+        },
+        "additionalProperties": false
+      }
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["url", "source_type", "supports"],
+        "properties": {
+          "url": {"type": "string", "minLength": 1},
+          "source_type": {"type": "string", "minLength": 1},
+          "supports": {"type": "array", "minItems": 1, "items": {"type": "string"}}
+        },
+        "additionalProperties": false
+      }
+    },
+    "copyright_scope": {"const": "derived_non_reconstructive_analysis"},
+    "non_reconstructive_check": {
+      "type": "object",
+      "required": ["ordered_tokens_absent", "adjacent_lyric_spans_absent", "full_transcript_absent"],
+      "properties": {
+        "ordered_tokens_absent": {"const": true},
+        "adjacent_lyric_spans_absent": {"const": true},
+        "full_transcript_absent": {"const": true}
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

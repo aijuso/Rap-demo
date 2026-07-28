@@ -1,0 +1,92 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "JapaneseRapWordAnalysis",
+  "type": "object",
+  "required": ["source_policy", "bars"],
+  "properties": {
+    "source_policy": {
+      "enum": ["user_supplied_text", "original_generated_text", "commercial_work"]
+    },
+    "work": {
+      "type": "object",
+      "properties": {
+        "title": {"type": ["string", "null"]},
+        "creator": {"type": ["string", "null"]},
+        "source_url": {"type": ["string", "null"]}
+      },
+      "additionalProperties": false
+    },
+    "bars": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["index", "paraphrase", "function", "tokens"],
+        "properties": {
+          "index": {"type": "integer", "minimum": 1},
+          "surface": {"type": ["string", "null"]},
+          "paraphrase": {"type": "string", "minLength": 1},
+          "function": {
+            "enum": [
+              "setup", "development", "misdirection", "turn", "payoff",
+              "callback", "bridge", "hook", "texture", "other"
+            ]
+          },
+          "new_information": {"type": "string"},
+          "emotion": {"type": "string"},
+          "image": {"type": "string"},
+          "ambiguities": {"type": "array", "items": {"type": "string"}},
+          "rhyme_domains": {"type": "array", "items": {"type": "string"}},
+          "flow_notes": {"type": "array", "items": {"type": "string"}},
+          "tokens": {
+            "type": "array",
+            "items": {"$ref": "#/$defs/token"}
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "$defs": {
+    "token": {
+      "type": "object",
+      "required": [
+        "surface", "normalized", "reading", "morae", "literal_sense",
+        "contextual_sense", "plain_explanation", "speaker_attitude", "ambiguity",
+        "part_of_speech", "syntax_role", "register",
+        "semantic_domain", "concreteness", "sound_role", "rhyme_role",
+        "humor_role", "narrative_role", "prominence", "confidence",
+        "connotation", "referent", "claim_status", "evidence"
+      ],
+      "properties": {
+        "surface": {"type": "string", "minLength": 1},
+        "normalized": {"type": "string", "minLength": 1},
+        "reading": {"type": ["string", "null"], "minLength": 1},
+        "morae": {"type": "array", "items": {"type": "string"}},
+        "literal_sense": {"type": "string", "minLength": 1},
+        "contextual_sense": {"type": "string", "minLength": 1},
+        "plain_explanation": {"type": "string", "minLength": 1},
+        "speaker_attitude": {"type": "string", "minLength": 1},
+        "ambiguity": {"type": "array", "items": {"type": "string"}},
+        "connotation": {"type": "array", "items": {"type": "string"}},
+        "referent": {"type": ["string", "null"]},
+        "part_of_speech": {"type": "string", "minLength": 1},
+        "syntax_role": {"type": "string", "minLength": 1},
+        "register": {"type": "string", "minLength": 1},
+        "semantic_domain": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+        "concreteness": {"type": "number", "minimum": 0, "maximum": 1},
+        "sound_role": {"type": "array", "items": {"type": "string"}},
+        "rhyme_role": {"type": "array", "items": {"type": "string"}},
+        "rhyme_family": {"type": ["string", "null"]},
+        "humor_role": {"type": "array", "items": {"type": "string"}},
+        "narrative_role": {"type": "array", "items": {"type": "string"}},
+        "prominence": {"enum": ["background", "normal", "accented", "held", "rest-adjacent"]},
+        "claim_status": {"enum": ["observed", "inferred", "proposed", "unknown"]},
+        "confidence": {"type": "number", "minimum": 0, "maximum": 1},
+        "evidence": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}}
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

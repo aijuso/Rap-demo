@@ -1,0 +1,897 @@
+schema_version: "1.0"
+last_verified: "2026-07-27"
+scope: "Japanese rap lyric writing, word semantics, humor, rhyme graphs, flow, orchestration, professional audit, Suno production handoff, originality, and source provenance"
+usage_notes:
+  - "Source IDs are cited from sibling reference files as [src:<id>]."
+  - "The ledger stores bibliographic metadata and synthesized claims, not copyrighted lyrics or full-text copies."
+  - "A source marked secondary may organize practice but should not override primary phonology, music-theory, or legal sources."
+
+sources:
+  - id: "edwards-2009"
+    title: "How to Rap: The Art and Science of the Hip-Hop MC"
+    authors:
+      - "Paul Edwards"
+    year: 2009
+    source_type: "practitioner_interview_book"
+    publisher: "Chicago Review Press"
+    url: "https://www.ipgbook.com/how-to-rap-products-9781556528163.php"
+    access: "publisher_metadata"
+    reliability: "high_for_practitioner_process"
+    primary_for:
+      - "content_and_subject_matter"
+      - "flow_and_rhythm"
+      - "rhyme_and_delivery"
+      - "editing_and_performance"
+    transfer_notes:
+      - "Use interview-derived process categories, not any quoted lyric passages."
+      - "Translate English syllable and stress advice into Japanese mora placement and perceptual prominence."
+    bundled: false
+    copyright_note: "Do not bundle book text or extended excerpts."
+
+  - id: "bradley-2009"
+    title: "Book of Rhymes: The Poetics of Hip Hop"
+    authors:
+      - "Adam Bradley"
+    year: 2009
+    source_type: "scholarly_critical_book"
+    publisher: "Basic Books"
+    url: "https://www.basicbooks.com/titles/adam-bradley/book-of-rhymes/9780465094400/"
+    access: "publisher_metadata"
+    reliability: "high_for_poetics_and_close_reading"
+    primary_for:
+      - "rhythm"
+      - "rhyme"
+      - "wordplay"
+      - "storytelling"
+      - "signifying"
+    transfer_notes:
+      - "Transfer poetic functions and analytic categories rather than English rhyme shapes."
+      - "Pair with Japanese phonology sources before operationalizing rhyme."
+    bundled: false
+    copyright_note: "Cite bibliographic facts and paraphrased concepts only."
+
+  - id: "bradley-storytelling-ch5"
+    title: "Book of Rhymes, Chapter 5: Storytelling"
+    authors:
+      - "Adam Bradley"
+    year: 2009
+    source_type: "book_chapter_author_copy"
+    publisher: "Basic Books"
+    url: "https://cpb-us-e1.wpmucdn.com/blogs.uoregon.edu/dist/1/11699/files/2016/10/Book-of-Rhymes-Chp-5-Storytelling-Adam-Bradley-1f3m7d4.pdf"
+    access: "public_author_or_course_copy"
+    reliability: "high_for_narrative_poetics"
+    primary_for:
+      - "scene"
+      - "narrative_voice"
+      - "character"
+      - "plot_in_verse"
+    transfer_notes:
+      - "Use to define narrative functions; construct all examples independently."
+    bundled: false
+    copyright_note: "Link only; do not redistribute the chapter."
+
+  - id: "adams-2009"
+    title: "On the Metrical Techniques of Flow in Rap Music"
+    authors:
+      - "Kyle Adams"
+    year: 2009
+    source_type: "peer_reviewed_music_theory_article"
+    publisher: "Music Theory Online"
+    url: "https://www.mtosmt.org/issues/mto.09.15.5/mto.09.15.5.adams.html"
+    access: "open_access"
+    reliability: "high"
+    primary_for:
+      - "metrical_placement"
+      - "accent"
+      - "phrase_rhythm"
+      - "flow_analysis"
+    transfer_notes:
+      - "Represent Japanese mora onsets, duration, and accentual prominence separately."
+      - "Do not assume English lexical stress has a one-to-one Japanese equivalent."
+    bundled: false
+    copyright_note: "Paraphrase analysis; do not reproduce extensive transcriptions."
+
+  - id: "ohriner-2019"
+    title: "Metric Ambiguity and Flow in Rap Music: A Corpus-Assisted Study of Outkast's 'Mainstream' (1996)"
+    authors:
+      - "Mitchell Ohriner"
+    year: 2019
+    source_type: "peer_reviewed_music_theory_article"
+    publisher: "Music Theory Online"
+    url: "https://mtosmt.org/issues/mto.19.25.1/mto.19.25.1.ohriner.html"
+    access: "open_access"
+    reliability: "high"
+    primary_for:
+      - "metric_ambiguity"
+      - "flow_beat_alignment"
+      - "sixteenth_note_representation"
+      - "corpus_assisted_flow_analysis"
+    transfer_notes:
+      - "The positional representation can hold Japanese mora onsets without claiming identical prosody."
+      - "Use beat-relative timing as one layer; keep meaning and breath segmentation separate."
+    bundled: false
+    copyright_note: "Do not copy copyrighted lyric transcriptions from examples."
+
+  - id: "duinker-2022"
+    title: "Functions of Expressive Timing in Hip-Hop Flow"
+    authors:
+      - "Ben Duinker"
+    year: 2022
+    source_type: "peer_reviewed_music_article"
+    publisher: "Journal of Popular Music Studies"
+    url: "https://online.ucpress.edu/jpms/article-abstract/34/1/90/120447/Functions-of-Expressive-Timing-in-Hip-Hop-Flow"
+    access: "abstract_and_publisher_page"
+    reliability: "high"
+    primary_for:
+      - "expressive_timing"
+      - "swing"
+      - "lagging"
+      - "conversational_timing"
+    transfer_notes:
+      - "Preserve timing as performed behavior, not merely a notation-grid deviation."
+      - "Test Japanese lines through recorded variants rather than text-only scoring."
+    bundled: false
+    copyright_note: "Use summarized findings within publisher access limits."
+
+  - id: "kawahara-2007"
+    title: "Half Rhymes in Japanese Rap Lyrics and Knowledge of Similarity"
+    authors:
+      - "Shigeto Kawahara"
+    year: 2007
+    source_type: "peer_reviewed_phonology_article"
+    publisher: "Journal of East Asian Linguistics"
+    url: "https://link.springer.com/article/10.1007/s10831-007-9009-1"
+    alternate_url: "https://user.keio.ac.jp/~kawahara/pdf/JEAL16_kawahara.pdf"
+    access: "publisher_abstract_and_author_pdf"
+    reliability: "high"
+    primary_for:
+      - "japanese_half_rhyme"
+      - "consonant_similarity"
+      - "phonological_knowledge"
+      - "gradient_rhyme_evaluation"
+    transfer_notes:
+      - "Use gradient consonant similarity rather than a binary match."
+      - "Combine consonant similarity with vowel, mora, metrical, semantic, and grammatical fit."
+    bundled: false
+    copyright_note: "Link to authorized access; do not bundle the PDF."
+
+  - id: "tsujimura-davis-2009"
+    title: "Dragon Ash and the Reconsideration of Japanese Rhyme"
+    authors:
+      - "Natsuko Tsujimura"
+      - "Stuart Davis"
+    year: 2009
+    source_type: "linguistics_article"
+    publisher: "Indiana University author-hosted paper"
+    url: "https://cl.indiana.edu/davis/TsujimuraDavisDragonAsh2009.pdf"
+    access: "author_hosted_pdf"
+    reliability: "high_for_japanese_rhyme_analysis"
+    primary_for:
+      - "japanese_rhyme"
+      - "loanword_and_language_contact"
+      - "rhyme_unit_analysis"
+    transfer_notes:
+      - "Use as evidence that Japanese rap rhyme cannot be reduced to English orthographic or syllabic templates."
+    bundled: false
+    copyright_note: "Link only; do not redistribute the paper."
+
+  - id: "cambridge-mora-syllable"
+    title: "Moras and Syllables"
+    authors:
+      - "Haruo Kubozono"
+    year: 2018
+    source_type: "scholarly_handbook_chapter"
+    publisher: "Cambridge University Press"
+    url: "https://www.cambridge.org/core/books/cambridge-handbook-of-japanese-linguistics/moras-and-syllables/F9213E649E5536ACE32E209AE7E11185"
+    access: "publisher_abstract"
+    reliability: "high"
+    primary_for:
+      - "japanese_mora"
+      - "syllable_structure"
+      - "special_morae"
+      - "prosodic_units"
+    transfer_notes:
+      - "Use mora counts and syllable structure as distinct representations."
+      - "Do not equate kana character count with performed duration."
+    bundled: false
+    copyright_note: "Use bibliographic metadata and paraphrased concepts."
+
+  - id: "manabe-2006"
+    title: "Globalization and Japanese Creativity: Adaptations of Japanese Language to Rap"
+    authors:
+      - "Noriko Manabe"
+    year: 2006
+    source_type: "peer_reviewed_ethnomusicology_article"
+    publisher: "Ethnomusicology"
+    url: "https://www.norikomanabe.com/publications/globalization-and-japanese-creativity"
+    access: "author_publication_page"
+    reliability: "high"
+    primary_for:
+      - "english_japanese_prosodic_contrast"
+      - "localization"
+      - "language_adaptation"
+      - "cultural_context"
+    transfer_notes:
+      - "Treat Japanese rap as creative localization, not deficient imitation of English."
+      - "Do not import AAVE or US cultural markers as substitutes for rhythmic technique."
+    bundled: false
+    copyright_note: "Use the author's summary and lawful article access; no full-text bundling."
+
+  - id: "mibayashi-2025"
+    title: "Japanese Rhyme Generation Based on Mora Similarity and Generation Probability"
+    authors:
+      - "Ryota Mibayashi"
+      - "Takehiro Yamamoto"
+      - "Hiroaki Ohshima"
+    year: 2026
+    source_type: "peer_reviewed_conference_chapter"
+    publisher: "Springer"
+    url: "https://link.springer.com/chapter/10.1007/978-3-032-11976-6_7"
+    access: "publisher_abstract"
+    reliability: "high_for_computational_method"
+    primary_for:
+      - "japanese_rhyme_generation"
+      - "mora_similarity"
+      - "phoneme_constrained_generation"
+      - "computational_evaluation"
+    transfer_notes:
+      - "Use mora similarity and generation probability as separate signals."
+      - "Add syntactic, semantic, metrical, and originality checks beyond the paper's phonetic generation objective."
+    bundled: false
+    copyright_note: "Do not bundle the chapter."
+
+  - id: "xue-2021-deep-rapper"
+    title: "DeepRapper: Neural Rap Generation with Rhyme and Rhythm Modeling"
+    authors:
+      - "Lanqing Xue"
+      - "Kaitao Song"
+      - "Duocai Wu"
+      - "Xu Tan"
+      - "Nei Wen"
+      - "Tao Qin"
+      - "Wei-Qiang Zhang"
+      - "Tie-Yan Liu"
+    year: 2021
+    source_type: "peer_reviewed_acl_paper"
+    publisher: "Association for Computational Linguistics"
+    url: "https://aclanthology.org/2021.acl-long.6/"
+    access: "open_access"
+    reliability: "high_for_computational_rap_generation"
+    primary_for:
+      - "rhyme_modeling"
+      - "rhythm_modeling"
+      - "generation_architecture"
+      - "automatic_evaluation"
+    transfer_notes:
+      - "Architectural separation of rhyme and rhythm is transferable."
+      - "Language-specific rhyme representation must be rebuilt for Japanese mora and phonology."
+      - "Avoid training or evaluation datasets whose lyric rights and provenance are unclear."
+    bundled: false
+    copyright_note: "Paper is linkable; third-party lyric datasets require separate rights review."
+
+  - id: "malmi-2016-deepbeat"
+    title: "DopeLearning: A Computational Approach to Rap Lyrics Generation"
+    authors:
+      - "Eric Malmi"
+      - "Pyry Takala"
+      - "Hannu Toivonen"
+      - "Tapani Raiko"
+      - "Aristides Gionis"
+    year: 2016
+    source_type: "peer_reviewed_kdd_paper"
+    publisher: "ACM SIGKDD"
+    url: "https://www.kdd.org/kdd2016/papers/files/adf0399-malmiA.pdf"
+    access: "open_access_conference_pdf"
+    reliability: "high_for_computational_baseline"
+    primary_for:
+      - "rhyme_density"
+      - "next_line_generation"
+      - "data_driven_rhyme_modeling"
+      - "evaluation_baselines"
+    transfer_notes:
+      - "Use evaluation ideas cautiously; English phonetic models do not directly apply to Japanese."
+      - "Do not copy generated or corpus lyric passages into skill examples."
+    bundled: false
+    copyright_note: "Paper access does not imply rights to its lyric corpus."
+
+  - id: "tian-2023-lyra"
+    title: "Unsupervised Melody-to-Lyrics Generation"
+    authors:
+      - "Yufei Tian"
+      - "Anjali Narayan-Chen"
+      - "Shereen Oraby"
+      - "Alessandra Cervone"
+      - "Gunnar Sigurdsson"
+      - "Chenyang Tao"
+      - "Wenbo Zhao"
+      - "Yiwen Chen"
+      - "Tagyoung Chung"
+      - "Jing Huang"
+      - "Nanyun Peng"
+    year: 2023
+    source_type: "peer_reviewed_acl_paper"
+    publisher: "Association for Computational Linguistics"
+    url: "https://aclanthology.org/2023.acl-long.513/"
+    access: "open_access"
+    reliability: "high_for_evaluation_design"
+    primary_for:
+      - "melody_conditioned_lyric_generation"
+      - "hierarchical_outline_then_write_generation"
+      - "human_evaluation"
+      - "controllability"
+      - "singability_and_coherence"
+    transfer_notes:
+      - "Adapt its outline-then-write separation and human quality dimensions to Japanese rap."
+      - "Melody-conditioned song lyrics are not identical to beat-conditioned rap; add flow, mora, rhyme-network, and delivery evaluation."
+    bundled: false
+    copyright_note: "Inspect dataset licenses independently before reuse."
+
+  - id: "usco-copyright-basics"
+    title: "What Is Copyright?"
+    authors:
+      - "U.S. Copyright Office"
+    year: null
+    source_type: "government_guidance"
+    publisher: "U.S. Copyright Office"
+    url: "https://www.copyright.gov/what-is-copyright/"
+    access: "open_web"
+    reliability: "authoritative_for_us_copyright_overview"
+    primary_for:
+      - "idea_expression_distinction"
+      - "protected_expression"
+      - "copyright_basics"
+    transfer_notes:
+      - "Use as general US background, not jurisdiction-specific legal advice for Japan."
+      - "Separate general technique abstraction from copying concrete expression."
+    bundled: false
+    copyright_note: "Government guidance may be summarized; verify current page date and jurisdiction."
+
+  - id: "usco-digital-replicas-2024"
+    title: "Copyright and Artificial Intelligence, Part 1: Digital Replicas"
+    authors:
+      - "U.S. Copyright Office"
+    year: 2024
+    source_type: "government_report"
+    publisher: "U.S. Copyright Office"
+    url: "https://www.copyright.gov/ai/Copyright-and-Artificial-Intelligence-Part-1-Digital-Replicas-Report.pdf"
+    access: "open_access_pdf"
+    reliability: "authoritative_for_us_policy_analysis"
+    primary_for:
+      - "digital_replicas"
+      - "voice_and_likeness"
+      - "identity_mimicry"
+      - "policy_distinctions"
+    transfer_notes:
+      - "Treat voice or identity simulation as distinct from lyric-technique abstraction."
+      - "Avoid deceptive attribution even where copyright analysis alone is inconclusive."
+    bundled: false
+    copyright_note: "Link to official report; verify applicable local personality and publicity rights."
+
+  - id: "usco-generative-ai-training-2025"
+    title: "Copyright and Artificial Intelligence, Part 3: Generative AI Training"
+    authors:
+      - "U.S. Copyright Office"
+    year: 2025
+    source_type: "government_report"
+    publisher: "U.S. Copyright Office"
+    url: "https://www.copyright.gov/ai/Copyright-and-Artificial-Intelligence-Part-3-Generative-AI-Training-Report-Pre-Publication-Version.pdf"
+    access: "official_prepublication_pdf"
+    reliability: "authoritative_for_us_policy_analysis"
+    primary_for:
+      - "generative_ai_training"
+      - "licensing"
+      - "dataset_provenance"
+      - "copyright_policy"
+    transfer_notes:
+      - "Track provenance and licensing separately from output originality."
+      - "Do not infer that public web access grants permission to train on or bundle lyrics."
+    bundled: false
+    copyright_note: "Policy status may change; verify the latest official version before legal reliance."
+
+  - id: "r-shitei-method-switching"
+    title: "R-指定が語る、意味・韻・フロウから始める複数の作詞法"
+    authors:
+      - "R-指定"
+    year: 2020
+    source_type: "artist_interview_transcript"
+    publisher: "miyearnZZ Labo"
+    url: "https://miyearnzzlabo.com/archives/66634"
+    access: "open_web"
+    reliability: "high_for_named_artist_process"
+    primary_for:
+      - "meaning_first"
+      - "rhyme_first"
+      - "flow_first"
+      - "deliberate_sparse_rhyme"
+    transfer_notes:
+      - "Use as evidence that several starting modes are valid, not as a template for imitating the artist."
+    bundled: false
+    copyright_note: "Paraphrase process; do not bundle interview text or lyrics."
+
+  - id: "kreva-rhyme-trigger"
+    title: "KREVAが語る韻から発想を展開する作詞"
+    authors:
+      - "KREVA"
+    year: 2023
+    source_type: "artist_interview"
+    publisher: "文化放送"
+    url: "https://www.joqr.co.jp/qr/article/86327/"
+    access: "open_web"
+    reliability: "high_for_named_artist_process"
+    primary_for:
+      - "rhyme_as_idea_trigger"
+      - "association"
+      - "composition_process"
+    transfer_notes:
+      - "Use rhyme to generate semantic options, then reject filler and forced syntax."
+    bundled: false
+    copyright_note: "Paraphrase process; do not reproduce published lyrics."
+
+  - id: "zorn-revision-balance"
+    title: "ZORN interview"
+    authors:
+      - "ZORN"
+    year: null
+    source_type: "artist_interview"
+    publisher: "A-FILES"
+    url: "https://a-files.jp/zorn-interview.html"
+    access: "open_web"
+    reliability: "high_for_named_artist_process"
+    primary_for:
+      - "word_choice"
+      - "word_order"
+      - "addition_and_subtraction"
+      - "whole_song_balance"
+    transfer_notes:
+      - "Treat revision as simultaneous work on meaning, flow, voice, beat, and balance."
+    bundled: false
+    copyright_note: "Paraphrase process; do not reproduce published lyrics."
+
+  - id: "bonbero-notes-coherence"
+    title: "Bonbero interview"
+    authors:
+      - "Bonbero"
+    year: 2022
+    source_type: "artist_interview"
+    publisher: "FNMNL"
+    url: "https://fnmnl.tv/2022/12/13/149988"
+    access: "open_web"
+    reliability: "high_for_named_artist_process"
+    primary_for:
+      - "note_capture"
+      - "bounded_retrieval"
+      - "coherence"
+      - "originality_check"
+    transfer_notes:
+      - "Limit imported note fragments so the song can form a new coherent arc."
+    bundled: false
+    copyright_note: "Paraphrase process; do not reproduce published lyrics."
+
+  - id: "punpee-story-hooks"
+    title: "PUNPEE interview"
+    authors:
+      - "PUNPEE"
+    year: 2022
+    source_type: "artist_interview"
+    publisher: "EYESCREAM"
+    url: "https://eyescream.jp/music/125820/"
+    access: "open_web"
+    reliability: "high_for_named_artist_process"
+    primary_for:
+      - "unexpected_hooks"
+      - "fictional_devices"
+      - "guest_as_character"
+      - "humor"
+    transfer_notes:
+      - "Preserve useful strangeness while building an independent setting and speaker."
+    bundled: false
+    copyright_note: "Paraphrase process; do not reproduce published lyrics."
+
+  - id: "mummyd-recording-loop"
+    title: "Mummy-D interview on writing and recording"
+    authors:
+      - "Mummy-D"
+    year: 2019
+    source_type: "artist_interview"
+    publisher: "Fika / CINRA"
+    url: "https://fika.cinra.net/article/201910-mummyd_kngsh"
+    access: "open_web"
+    reliability: "high_for_named_artist_process"
+    primary_for:
+      - "performance_first_revision"
+      - "recording"
+      - "discarding_weak_verses"
+    transfer_notes:
+      - "A page-level draft remains provisional until recorded and listened back."
+    bundled: false
+    copyright_note: "Paraphrase process; do not reproduce published lyrics."
+
+  - id: "vigorman-adjacent-rewrite"
+    title: "VIGORMAN: Behind The Bars"
+    authors:
+      - "VIGORMAN"
+    year: null
+    source_type: "artist_process_interview"
+    publisher: "Red Bull Japan"
+    url: "https://www.redbull.com/jp-ja/64bars-vigorman"
+    access: "open_web"
+    reliability: "high_for_named_artist_process"
+    primary_for:
+      - "multi_day_writing"
+      - "record_replace_repeat"
+      - "adjacent_line_revision"
+    transfer_notes:
+      - "After replacing one line, retest neighboring lines for changed stress and meaning."
+    bundled: false
+    copyright_note: "Paraphrase process; do not reproduce lyrics or video transcripts."
+
+  - id: "utamaru-emotional-viewpoint"
+    title: "宇多丸が語る説明から感情表現への変換"
+    authors:
+      - "宇多丸"
+    year: null
+    source_type: "artist_interview"
+    publisher: "生きのびるブックス"
+    url: "https://ikinobirubooks.jp/series/sasaki-tomoko/1998/"
+    access: "open_web"
+    reliability: "high_for_named_artist_process"
+    primary_for:
+      - "point_of_view"
+      - "emotional_expression"
+      - "feedback_revision"
+    transfer_notes:
+      - "Replace explanatory summary with the affected speaker's observable situation and reaction."
+    bundled: false
+    copyright_note: "Paraphrase process; do not reproduce published lyrics."
+
+  - id: "unidic-official"
+    title: "UniDic"
+    authors:
+      - "国立国語研究所"
+    year: null
+    source_type: "official_dictionary_documentation"
+    publisher: "国立国語研究所"
+    url: "https://clrd.ninjal.ac.jp/unidic/"
+    access: "open_web"
+    reliability: "authoritative_for_dictionary_design"
+    primary_for:
+      - "morphological_analysis"
+      - "lexeme_reading"
+      - "pronunciation_metadata"
+    transfer_notes:
+      - "Dictionary readings are candidates; verify context-sensitive pronunciation and artist delivery."
+    bundled: false
+    copyright_note: "Respect each dictionary package license; do not bundle dictionary data."
+
+  - id: "sudachi-official"
+    title: "SudachiPy"
+    authors:
+      - "Works Applications"
+    year: null
+    source_type: "official_software_documentation"
+    publisher: "Works Applications"
+    url: "https://github.com/WorksApplications/SudachiPy"
+    access: "open_source_repository"
+    reliability: "authoritative_for_tool_behavior"
+    primary_for:
+      - "tokenization"
+      - "normalized_form"
+      - "dictionary_reading"
+    transfer_notes:
+      - "Expose dictionary and split-mode choices because segmentation changes rhyme candidates."
+    bundled: false
+    copyright_note: "Follow repository and dictionary licenses separately."
+
+  - id: "pyopenjtalk-official"
+    title: "pyopenjtalk"
+    authors:
+      - "r9y9"
+      - "contributors"
+    year: null
+    source_type: "official_software_documentation"
+    publisher: "GitHub"
+    url: "https://github.com/r9y9/pyopenjtalk"
+    access: "open_source_repository"
+    reliability: "authoritative_for_tool_behavior"
+    primary_for:
+      - "grapheme_to_phoneme"
+      - "full_context_labels"
+      - "japanese_pronunciation"
+    transfer_notes:
+      - "Treat generated pronunciation as a hypothesis and allow manual performance readings to override it."
+    bundled: false
+    copyright_note: "Follow software and dictionary licenses; do not bundle model or dictionary assets by default."
+
+  - id: "suno-custom-mode"
+    title: "Android Create: Custom Mode"
+    authors:
+      - "Suno"
+    year: 2025
+    source_type: "official_product_documentation"
+    publisher: "Suno"
+    url: "https://help.suno.com/en/articles/3726721"
+    access: "open_web"
+    reliability: "authoritative_for_product_fields"
+    primary_for:
+      - "custom_lyrics"
+      - "styles_field"
+      - "advanced_options"
+    transfer_notes:
+      - "Use to establish available input surfaces, not guaranteed musical adherence."
+    bundled: false
+    copyright_note: "Link and paraphrase only."
+
+  - id: "suno-better-lyrics-prompts"
+    title: "Create in V4.5: Better Prompts in Lyrics"
+    authors:
+      - "Suno"
+    year: 2025
+    source_type: "official_product_documentation"
+    publisher: "Suno"
+    url: "https://help.suno.com/en/articles/5782977"
+    access: "open_web"
+    reliability: "authoritative_for_lyrics_prompting"
+    primary_for:
+      - "lyrics_context"
+      - "styles_lyrics_separation"
+    transfer_notes:
+      - "Place genre-level context in Styles and concise section context in Lyrics."
+    bundled: false
+    copyright_note: "Link and paraphrase only."
+
+  - id: "suno-exclude"
+    title: "How do I exclude elements of a song?"
+    authors:
+      - "Suno"
+    year: 2025
+    source_type: "official_product_documentation"
+    publisher: "Suno"
+    url: "https://help.suno.com/en/articles/3161921"
+    access: "open_web"
+    reliability: "authoritative_for_exclude_field"
+    primary_for:
+      - "negative_prompting"
+      - "unwanted_instruments"
+      - "unwanted_song_elements"
+    transfer_notes:
+      - "Use Exclude for global unwanted behavior instead of repeating negatives in Lyrics."
+    bundled: false
+    copyright_note: "Link and paraphrase only."
+
+  - id: "suno-creative-sliders"
+    title: "How to Use: Creative Sliders"
+    authors:
+      - "Suno"
+    year: 2025
+    source_type: "official_product_documentation"
+    publisher: "Suno"
+    url: "https://help.suno.com/en/articles/6141377"
+    access: "open_web"
+    reliability: "authoritative_for_slider_meaning"
+    primary_for:
+      - "weirdness"
+      - "style_influence"
+      - "audio_influence"
+    transfer_notes:
+      - "Treat recommended numerical settings beyond the documented midpoint as heuristics."
+    bundled: false
+    copyright_note: "Link and paraphrase only."
+
+  - id: "suno-jp-metatags"
+    title: "Suno AI メタタグ一覧"
+    authors:
+      - "SunoAI まとめ Wiki"
+    year: null
+    source_type: "community_reference"
+    publisher: "ai.suno.jp"
+    url: "https://ai.suno.jp/metatag/"
+    access: "open_web"
+    reliability: "secondary_for_community_conventions"
+    primary_for:
+      - "community_metatags"
+      - "structural_tag_examples"
+      - "parenthesis_behavior_reports"
+    transfer_notes:
+      - "Label all tag behavior as probabilistic and subordinate it to official field documentation."
+      - "Prefer basic structural tags; do not treat chord, BPM, or instrument tags as deterministic."
+    bundled: false
+    copyright_note: "Link and paraphrase only."
+
+  - id: "suno-jp-prompts"
+    title: "Suno AI プロンプト"
+    authors:
+      - "SunoAI まとめ Wiki"
+    year: null
+    source_type: "community_reference"
+    publisher: "ai.suno.jp"
+    url: "https://ai.suno.jp/prompt/"
+    access: "open_web"
+    reliability: "secondary_for_prompt_vocabulary"
+    primary_for:
+      - "style_prompt_vocabulary"
+      - "genre_labels"
+      - "community_prompt_patterns"
+    transfer_notes:
+      - "Use vocabulary suggestions as hypotheses and verify them by controlled generations."
+    bundled: false
+    copyright_note: "Link and paraphrase only."
+
+  - id: "creepynuts-stable-cadence-2022"
+    title: "Creepy Nuts『アンサンブル・プレイ』インタビュー"
+    authors:
+      - "R-指定"
+      - "DJ松永"
+    year: 2022
+    source_type: "artist_interview"
+    publisher: "音楽ナタリー"
+    url: "https://natalie.mu/music/pp/creepynuts05"
+    access: "open_web"
+    reliability: "high_for_artist_stated_process"
+    primary_for:
+      - "stable_cadence"
+      - "rhyme_density"
+      - "groove"
+    transfer_notes:
+      - "Separate cadence complexity from rhyme density; do not copy lyric phrases."
+    bundled: false
+    copyright_note: "Paraphrase process only."
+
+  - id: "gadoro-rhyme-melody-2025"
+    title: "GADORO『HOME』インタビュー"
+    authors:
+      - "GADORO"
+    year: 2025
+    source_type: "artist_interview"
+    publisher: "音楽ナタリー"
+    url: "https://natalie.mu/music/pp/gadoro03"
+    access: "open_web"
+    reliability: "high_for_artist_stated_process"
+    primary_for:
+      - "dense_rhyme"
+      - "melodic_delivery"
+      - "revision"
+    transfer_notes:
+      - "Model rhyme density and melodic delivery as separate controls."
+    bundled: false
+    copyright_note: "Paraphrase process only."
+
+  - id: "kreva-always-open-capture-2025"
+    title: "KREVAが語る手書きとリリックの棚"
+    authors:
+      - "KREVA"
+    year: 2025
+    source_type: "artist_interview"
+    publisher: "ABCマガジン"
+    url: "https://abc-magazine.asahi.co.jp/post-45561/"
+    access: "open_web"
+    reliability: "high_for_artist_stated_process"
+    primary_for:
+      - "handwriting"
+      - "continuous_note_capture"
+      - "composition_habit"
+    transfer_notes:
+      - "Store dated phrase, image, sound, and contradiction notes with provenance."
+    bundled: false
+    copyright_note: "Paraphrase process only."
+
+  - id: "umeda-cypher-official-profile"
+    title: "梅田サイファー公式プロフィール"
+    authors:
+      - "Sony Music"
+    year: null
+    source_type: "official_artist_profile"
+    publisher: "Sony Music"
+    url: "https://www.sonymusic.co.jp/artist/UMEDACYPHER/profile/"
+    access: "open_web"
+    reliability: "authoritative_for_group_structure"
+    primary_for:
+      - "ensemble_independence"
+      - "cypher_structure"
+      - "member_context"
+    transfer_notes:
+      - "Analyze individual MC contrast and handoff rather than inventing one averaged group style."
+    bundled: false
+    copyright_note: "Use metadata and paraphrased profile facts."
+
+  - id: "skryu-process-2025"
+    title: "SKRYU interview Parts 1 and 2"
+    authors:
+      - "SKRYU"
+    year: 2025
+    source_type: "artist_interview"
+    publisher: "Warner Music Japan"
+    url: "https://wmg.jp/skryu/news/90599/"
+    alternate_url: "https://wmg.jp/skryu/news/90600/"
+    access: "open_web"
+    reliability: "high_for_artist_stated_process"
+    primary_for:
+      - "fiction_and_diary_mix"
+      - "character_life_story"
+      - "semantic_reframing"
+    transfer_notes:
+      - "Transfer ratios and narrative operations, not character names or signature wording."
+    bundled: false
+    copyright_note: "Paraphrase process only."
+
+  - id: "sdp-story-before-rhyme-2025"
+    title: "ANI×川原繁人 日本語ラップと言葉"
+    authors:
+      - "ANI"
+      - "川原繁人"
+    year: 2025
+    source_type: "artist_researcher_conversation"
+    publisher: "クロワッサンオンライン"
+    url: "https://croissant-online.jp/life/243511/"
+    access: "open_web"
+    reliability: "high_for_artist_statement_and_linguistic_context"
+    primary_for:
+      - "story_priority"
+      - "ordinary_subjects"
+      - "japanese_rhyme"
+    transfer_notes:
+      - "Keep required story actions fixed before searching surrounding rhyme candidates."
+    bundled: false
+    copyright_note: "Paraphrase discussion only."
+
+  - id: "miyachi-character-universality-2025"
+    title: "MIYACHI interview"
+    authors:
+      - "MIYACHI"
+    year: 2025
+    source_type: "artist_interview"
+    publisher: "マイナビニュース"
+    url: "https://news.mynavi.jp/article/20251017-3559741/"
+    access: "open_web"
+    reliability: "high_for_artist_stated_process"
+    primary_for:
+      - "ordinary_character"
+      - "universal_conflict"
+      - "phonetic_hook"
+      - "humor_and_message"
+    transfer_notes:
+      - "Use character function and sound-temperature contrast without copying persona or hooks."
+    bundled: false
+    copyright_note: "Paraphrase process only."
+
+  - id: "mcgraw-warren-2010"
+    title: "Benign Violations: Making Immoral Behavior Funny"
+    authors:
+      - "A. Peter McGraw"
+      - "Caleb Warren"
+    year: 2010
+    source_type: "peer_reviewed_psychology_article"
+    publisher: "Psychological Science"
+    url: "https://doi.org/10.1177/0956797610376073"
+    access: "publisher_metadata"
+    reliability: "high_for_humor_theory"
+    primary_for:
+      - "benign_violation"
+      - "humor_target_safety"
+    transfer_notes:
+      - "Use as one design lens; cultural reception and power relations still require review."
+    bundled: false
+    copyright_note: "Cite and paraphrase; do not bundle article text."
+
+  - id: "shibata-humor-2017"
+    title: "Time course and localization of brain activity in humor comprehension"
+    authors:
+      - "Midori Shibata"
+      - "Yuri Terasawa"
+      - "Takahiro Osumi"
+      - "Keita Masui"
+      - "Yuichi Ito"
+      - "Arisa Sato"
+      - "Satoshi Umeda"
+    year: 2017
+    source_type: "peer_reviewed_neuroscience_article"
+    publisher: "Brain Research"
+    url: "https://doi.org/10.1016/j.brainres.2016.12.010"
+    access: "publisher_metadata"
+    reliability: "high_for_incongruity_resolution_model"
+    primary_for:
+      - "incongruity_detection"
+      - "reinterpretation"
+    transfer_notes:
+      - "Use prediction and reinterpretation as separate writing checks, not as a guarantee of funniness."
+    bundled: false
+    copyright_note: "Cite and paraphrase only."

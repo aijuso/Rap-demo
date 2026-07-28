@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "JapaneseRapAudioReviewEvidence",
+  "type": "object",
+  "required": [
+    "flow_map_sha256", "beat", "audio", "reviewer", "reviewed_at",
+    "host_inspection", "bar_reviews"
+  ],
+  "properties": {
+    "flow_map_sha256": {"type": "string", "minLength": 64, "maxLength": 64},
+    "beat": {
+      "type": "object",
+      "required": ["id", "sha256"],
+      "properties": {
+        "id": {"type": "string", "minLength": 1},
+        "sha256": {"type": "string", "minLength": 64, "maxLength": 64}
+      },
+      "additionalProperties": false
+    },
+    "audio": {
+      "type": "object",
+      "required": ["id", "sha256", "take_count"],
+      "properties": {
+        "id": {"type": "string", "minLength": 1},
+        "sha256": {"type": "string", "minLength": 64, "maxLength": 64},
+        "take_count": {"type": "integer", "minimum": 1}
+      },
+      "additionalProperties": false
+    },
+    "reviewer": {
+      "type": "object",
+      "required": ["id", "independent"],
+      "properties": {
+        "id": {"type": "string", "minLength": 1},
+        "independent": {"type": "boolean"}
+      },
+      "additionalProperties": false
+    },
+    "reviewed_at": {"type": "string", "minLength": 1},
+    "host_inspection": {
+      "type": "object",
+      "required": ["audio_opened", "beat_opened"],
+      "properties": {
+        "audio_opened": {"const": true},
+        "beat_opened": {"const": true}
+      },
+      "additionalProperties": false
+    },
+    "bar_reviews": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["bar", "accent", "pocket", "breath", "articulation", "evidence"],
+        "properties": {
+          "bar": {"type": "integer", "minimum": 1},
+          "accent": {"enum": ["pass", "fail", "unknown"]},
+          "pocket": {"enum": ["pass", "fail", "unknown"]},
+          "breath": {"enum": ["pass", "fail", "unknown"]},
+          "articulation": {"enum": ["pass", "fail", "unknown"]},
+          "evidence": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}}
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}
