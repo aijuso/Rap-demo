@@ -10,6 +10,9 @@ quality from rhyme density, vocabulary rarity, named references, or a self-award
 
 ## Non-negotiable rules
 
+- No black-box runs: a substantive `create` or `rewrite` must pass the user checkpoints
+  (CP1 brief, CP2 concept, CP3 draft) unless the user explicitly delegated the whole run.
+  A finished lyric the user never steered is a failed run, not a convenience.
 - Preserve meaning, natural Japanese, speaker truth, and performability before technique density.
 - Treat text, reading, mora, accent, beat placement, and recorded delivery as different evidence.
 - Label every important claim `observed`, `inferred`, `proposed`, or `unknown`.
@@ -62,8 +65,73 @@ Select one or more modes:
 - `teach`: original demonstrations and exercises without commercial lyric reproduction;
 - `production`: recording or Suno handoff after lyric reaudit.
 
-Ask at most three focused questions when an answer changes the result materially. Otherwise use
-restrained defaults, list assumptions, and mark missing performance data unknown.
+Intake questions and all further user interaction follow the checkpoint protocol below. Use
+restrained defaults only for gaps the user has explicitly delegated; mark missing performance
+data unknown.
+
+## User checkpoints — no black-box runs
+
+Substantive `create` and `rewrite` runs are collaborative by default. Never jump from a thin
+request straight to a finished, audited lyric: the user must see and steer the direction while
+it can still be changed cheaply. Pause at each checkpoint, present a compact human-readable
+summary in the conversation (never raw JSON), and wait for the user's reply before continuing.
+
+Interaction modes:
+
+- `collaborative` (default): every mandatory checkpoint stops and waits for the user.
+- `autonomous`: only when the user explicitly delegates the whole run ("お任せ", "全部任せる",
+  "確認不要で最後まで"). Record `interaction_mode: autonomous` in the brief assumptions, still
+  announce each stage transition in one line, and still deliver the CP1 summary (without
+  blocking) so the user can interrupt early.
+- A reply like "続けて" or "OK" at a checkpoint approves the current proposal only. It is not a
+  standing delegation for the remaining checkpoints.
+
+### CP1 — Brief alignment (mandatory)
+
+After intake, present the proposed brief as a short bullet list: theme, core message, speaker,
+tone, deliverable and structure, BPM, rhyme density and methods, humor level, explicitness, and
+intended use (text only / Suno / self-performance). List the defaults you chose and at most
+three open questions that materially change the result. Freeze the brief only after the user
+approves or edits it. If the brief changes later, return here, re-freeze, and mark downstream
+artifacts stale.
+
+### CP2 — Concept selection (mandatory)
+
+Before full drafting, offer two or three genuinely different concept sketches. Each sketch:
+
+- one-line premise;
+- the central device (pun, idiom literalization, setup/payoff, frame reversal, etc.);
+- a title or hook-phrase candidate;
+- the main rhyme families with two or three example pairs;
+- two to four sample bars.
+
+The user picks one, mixes elements, or redirects. Discard unchosen sketches; do not smuggle
+their material into the draft without saying so.
+
+### CP3 — Draft review (mandatory)
+
+Present the integrated draft with only the notes needed to judge it: the central devices, and
+any bars you are unsure about. Invite section- or line-level feedback (keep / rewrite / drop).
+Run the blind audit only after the user has reacted to the draft or explicitly skipped review.
+When both `conservative` and `experimental` drafts exist, show both and let the user choose.
+
+### CP4 — Repair alignment
+
+After the audit, translate the issues (max 5) into plain language with the proposed repair for
+each, and let the user decide per issue: apply, accept as-is, or override with their own fix.
+Reaudit after repairs as usual. Score changes are reported with their evidence.
+
+### Between checkpoints
+
+- Announce each stage transition in one line with a concrete result
+  ("韻グラフ完成: 候補14ペア、最強は 先輩/限界 0.94").
+- Keep artifacts under `run/` and reference them by path; do not dump JSON into chat.
+- Mirror checkpoint status in the TodoList together with the orchestration stages so no
+  checkpoint is silently skipped.
+
+`analyze`, `rhyme-bank`, `flow-map`, `audit`, and `teach` need CP1 only when the request is
+ambiguous; a small, clearly scoped request may proceed directly. `production` requires a CP3-style
+confirmation of the final lyric before the handoff is generated.
 
 ## Load the minimum complete reference set
 
@@ -110,6 +178,8 @@ Create a brief with:
 schema: japanese-rap-brief/v2
 run_id: ""
 mode: create
+interaction_mode: collaborative
+checkpoint_log: []   # e.g. "CP1 approved as proposed", "CP2: user chose sketch B + hook from A"
 deliverable: verse
 theme: ""
 core_message: ""
@@ -143,6 +213,7 @@ unknowns: []
 ```
 
 Hash or otherwise identify the frozen brief. Mark downstream artifacts stale if it changes.
+Do not freeze before CP1 approval unless `interaction_mode: autonomous` was explicitly granted.
 
 ## Compile the orchestration
 
@@ -422,7 +493,8 @@ For creation, return:
 2. clean performance draft;
 3. concise word/rhyme/flow annotations requested by the user;
 4. conservative audit with hard gates, evidence, score caps, and unknowns;
-5. production handoff only when relevant.
+5. a checkpoint log: what was proposed, what the user chose or changed at each CP;
+6. production handoff only when relevant.
 
 For analysis, return:
 
@@ -438,6 +510,9 @@ evidence and cap.
 
 ## Definition of done
 
+- Every mandatory checkpoint (CP1–CP3, CP4 when an audit found issues) was either approved by
+  the user or explicitly delegated via `interaction_mode: autonomous`; the choices are recorded
+  in `checkpoint_log`.
 - The brief and artifact revisions agree.
 - Required specialist artifacts are ready or explicitly unverified.
 - Named references were converted to anonymous multi-source techniques.
