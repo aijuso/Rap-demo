@@ -1,0 +1,636 @@
+{
+  "status": "proposal",
+  "verification": "text_only",
+  "bpm": 88,
+  "meter": "4/4",
+  "bars": [
+    {
+      "index": 1,
+      "subdivision": "eighth",
+      "mora_count": 18,
+      "density": "medium",
+      "rests": [],
+      "accents": [
+        "beat_4裏: ゼロコンマ前の一瞬"
+      ],
+      "held_vowels": [
+        "ゼロコンマ=敗因の単位"
+      ],
+      "breath": "none",
+      "voice": "冷静な語り出し",
+      "function": "場面提示",
+      "entry": "downbeat",
+      "fast_zone": null,
+      "repeat_count": 0,
+      "character_voice": "narrator",
+      "narrative_reason": "事故の瞬間を1小節で確定させる",
+      "repeat_pattern": null,
+      "switch": null,
+      "pre_punch_silence": null,
+      "confidence": 0.5,
+      "reading": "メノマエデドアガシマルサワゼロコンマ"
+    },
+    {
+      "index": 2,
+      "subdivision": "eighth",
+      "mora_count": 17,
+      "density": "medium",
+      "rests": [],
+      "accents": [
+        "beat_3裏: 顔 の後"
+      ],
+      "held_vowels": [
+        "へこんだ=ガラスの凹みと落胆の二重"
+      ],
+      "breath": "light_after",
+      "voice": "半笑いの独白",
+      "function": "自己観察と軽い笑い",
+      "entry": "pickup_and_of_4",
+      "fast_zone": null,
+      "repeat_count": 0,
+      "character_voice": "narrator",
+      "narrative_reason": "顔の反射で敗北を見せ、深刻さを一段下げる",
+      "repeat_pattern": "H1と同型セル",
+      "switch": null,
+      "pre_punch_silence": null,
+      "confidence": 0.5,
+      "reading": "ガラスニウツッタカオダイブヘコンダ"
+    },
+    {
+      "index": 3,
+      "subdivision": "eighth",
+      "mora_count": 15,
+      "density": "medium",
+      "rests": [],
+      "accents": [
+        "beat_4: 買うか の前"
+      ],
+      "held_vowels": [
+        "買うか=語尾上げ"
+      ],
+      "breath": "none",
+      "voice": "問いかけ",
+      "function": "選択肢A提示",
+      "entry": "downbeat",
+      "fast_zone": null,
+      "repeat_count": 1,
+      "character_voice": "narrator",
+      "narrative_reason": "選択肢を対句で並べる",
+      "repeat_pattern": "2小節対句セル開始",
+      "switch": null,
+      "pre_punch_silence": null,
+      "confidence": 0.5,
+      "reading": "シチセンエンダシテラクオカウカ"
+    },
+    {
+      "index": 4,
+      "subdivision": "eighth",
+      "mora_count": 16,
+      "density": "medium",
+      "rests": [],
+      "accents": [
+        "beat_4: 回すか の前"
+      ],
+      "held_vowels": [
+        "回すか=語尾上げ"
+      ],
+      "breath": "full_after",
+      "voice": "問いかけ",
+      "function": "選択肢B提示",
+      "entry": "downbeat",
+      "fast_zone": null,
+      "repeat_count": 2,
+      "character_voice": "narrator",
+      "narrative_reason": "対句の反復で予測を作る",
+      "repeat_pattern": "2小節対句セル反復",
+      "switch": "なし",
+      "pre_punch_silence": null,
+      "confidence": 0.5,
+      "reading": "ニジカンアルイテアシタニマワスカ"
+    },
+    {
+      "index": 5,
+      "subdivision": "sixteenth",
+      "mora_count": 17,
+      "density": "medium",
+      "rests": [],
+      "accents": [
+        "beat_2: 機械が"
+      ],
+      "held_vowels": [
+        "精算=機械側"
+      ],
+      "breath": "none",
+      "voice": "説明調・低め",
+      "function": "主張の前半",
+      "entry": "pickup_of_4",
+      "fast_zone": "beat_1-2に9モーラ",
+      "repeat_count": 1,
+      "character_voice": "narrator",
+      "narrative_reason": "制度が処理できる領域を先に置く",
+      "repeat_pattern": "前置き長→着地短",
+      "switch": null,
+      "pre_punch_silence": null,
+      "confidence": 0.5,
+      "reading": "ノリコシタブンナラキカイガセーサン"
+    },
+    {
+      "index": 6,
+      "subdivision": "sixteenth",
+      "mora_count": 18,
+      "density": "medium",
+      "rests": [],
+      "accents": [
+        "beat_2裏: 誰が"
+      ],
+      "held_vowels": [
+        "精算=不在の主語"
+      ],
+      "breath": "full_after",
+      "voice": "詰め寄る",
+      "function": "主張の反転",
+      "entry": "pickup_of_4",
+      "fast_zone": "beat_1-2に11モーラ",
+      "repeat_count": 2,
+      "character_voice": "narrator",
+      "narrative_reason": "同型を延ばして焦らし、主語不在を突く",
+      "repeat_pattern": "前置き長→着地短",
+      "switch": "subdivisionを16分へ、密度を上げてから空ける",
+      "pre_punch_silence": null,
+      "confidence": 0.5,
+      "reading": "ノリコエラレナイヨルワダレガセーサン"
+    },
+    {
+      "index": 7,
+      "subdivision": "eighth",
+      "mora_count": 13,
+      "density": "sparse",
+      "rests": [
+        "beat_1をまるごと空ける"
+      ],
+      "accents": [
+        "beat_4: 出た"
+      ],
+      "held_vowels": [
+        "出た=短く切る"
+      ],
+      "breath": "before",
+      "voice": "ぶっきらぼう・小声",
+      "function": "パンチライン",
+      "entry": "beat_2から",
+      "fast_zone": null,
+      "repeat_count": 0,
+      "character_voice": "narrator",
+      "narrative_reason": "慣用句を字義化する落とし所",
+      "repeat_pattern": "セル破棄",
+      "switch": "1小節丸ごと密度を落とす（13モーラ）",
+      "pre_punch_silence": "beat_1をまるごと空ける",
+      "confidence": 0.5,
+      "reading": "アシガデルマエニアシガデタ"
+    },
+    {
+      "index": 8,
+      "subdivision": "eighth",
+      "mora_count": 18,
+      "density": "medium",
+      "rests": [
+        "領収書の直前に8分休符"
+      ],
+      "accents": [
+        "beat_4: 領収書"
+      ],
+      "held_vowels": [
+        "リョーシューショ=最後を伸ばさず置く"
+      ],
+      "breath": "full_after",
+      "voice": "静かに置く",
+      "function": "タイトル着地",
+      "entry": "downbeat",
+      "fast_zone": null,
+      "repeat_count": 0,
+      "character_voice": "narrator",
+      "narrative_reason": "フックの主題語を無韻で置き、記憶点を作る",
+      "repeat_pattern": null,
+      "switch": null,
+      "pre_punch_silence": "領収書の直前に8分休符",
+      "confidence": 0.5,
+      "reading": "コンヤノトリブンニジカンノリョーシューショ"
+    },
+    {
+      "index": 9,
+      "subdivision": "sixteenth",
+      "mora_count": 19,
+      "density": "dense",
+      "rests": [],
+      "accents": [
+        "beat_1: 二次会",
+        "beat_2: 三次会"
+      ],
+      "held_vowels": [],
+      "breath": "none",
+      "voice": "早口・愚痴",
+      "function": "原因説明の開始",
+      "entry": "pickup_of_4",
+      "fast_zone": "beat_1-3",
+      "repeat_count": 0,
+      "character_voice": "narrator",
+      "narrative_reason": "二次会→三次会の増殖で時間の浪費を見せる",
+      "repeat_pattern": "二次会/三次会の反復セル",
+      "switch": null,
+      "pre_punch_silence": null,
+      "confidence": 0.5,
+      "reading": "ニジカイサンジカイサソッテクルセンパイ"
+    },
+    {
+      "index": 10,
+      "subdivision": "sixteenth",
+      "mora_count": 17,
+      "density": "medium",
+      "rests": [],
+      "accents": [
+        "beat_2裏: 断れないのが"
+      ],
+      "held_vowels": [
+        "限界=言い切る"
+      ],
+      "breath": "light_after",
+      "voice": "引用→地の声",
+      "function": "自己分析",
+      "entry": "downbeat",
+      "fast_zone": null,
+      "repeat_count": 1,
+      "character_voice": "quoted_then_narrator",
+      "narrative_reason": "他人の声を1拍だけ挟み、断れなさを露呈させる",
+      "repeat_pattern": null,
+      "switch": "1拍だけ引用の声色に切り替える",
+      "pre_punch_silence": null,
+      "confidence": 0.5,
+      "reading": "マダイケルコトワレナイノガゲンカイ"
+    },
+    {
+      "index": 11,
+      "subdivision": "eighth",
+      "mora_count": 17,
+      "density": "medium",
+      "rests": [],
+      "accents": [
+        "beat_3: 一円単位"
+      ],
+      "held_vowels": [],
+      "breath": "none",
+      "voice": "几帳面な語り",
+      "function": "対比の前半",
+      "entry": "downbeat",
+      "fast_zone": null,
+      "repeat_count": 0,
+      "character_voice": "narrator",
+      "narrative_reason": "金銭の精度を提示する",
+      "repeat_pattern": "一円セル",
+      "switch": null,
+      "pre_punch_silence": null,
+      "confidence": 0.5,
+      "reading": "カイケーワイチエンタンイデワリカン"
+    },
+    {
+      "index": 12,
+      "subdivision": "sixteenth",
+      "mora_count": 19,
+      "density": "dense",
+      "rests": [],
+      "accents": [
+        "beat_1: 一円は",
+        "beat_3: 一秒は"
+      ],
+      "held_vowels": [
+        "間に合わん=投げる"
+      ],
+      "breath": "full_after",
+      "voice": "苦笑",
+      "function": "対比の反転",
+      "entry": "downbeat",
+      "fast_zone": null,
+      "repeat_count": 1,
+      "character_voice": "narrator",
+      "narrative_reason": "同じ「一」で金と時間を並べ、精度の無力を出す",
+      "repeat_pattern": "一円/一秒の対句",
+      "switch": "話題を金から時間へ移す",
+      "pre_punch_silence": null,
+      "confidence": 0.5,
+      "reading": "イチエンワワレテモイチビョーワマニアワン"
+    },
+    {
+      "index": 13,
+      "subdivision": "sixteenth",
+      "mora_count": 18,
+      "density": "medium",
+      "rests": [],
+      "accents": [
+        "beat_3裏: 六台"
+      ],
+      "held_vowels": [],
+      "breath": "none",
+      "voice": "観察",
+      "function": "場面転換",
+      "entry": "pickup_of_4",
+      "fast_zone": null,
+      "repeat_count": 0,
+      "character_voice": "narrator",
+      "narrative_reason": "タクシーが実在する＝選択肢が現実であることを示す",
+      "repeat_pattern": null,
+      "switch": "視線を車道へ移す",
+      "pre_punch_silence": null,
+      "confidence": 0.5,
+      "reading": "カイサツノソトクーシャノランプロクダイ"
+    },
+    {
+      "index": 14,
+      "subdivision": "sixteenth",
+      "mora_count": 21,
+      "density": "burst",
+      "rests": [],
+      "accents": [
+        "beat_3: メーターと",
+        "beat_4: 後悔"
+      ],
+      "held_vowels": [],
+      "breath": "full_after",
+      "voice": "早口",
+      "function": "損得のシミュレーション",
+      "entry": "downbeat",
+      "fast_zone": "小節全域（21モーラ）",
+      "repeat_count": 0,
+      "character_voice": "narrator",
+      "narrative_reason": "最密小節でメーターの回転感を身体化する",
+      "repeat_pattern": null,
+      "switch": "ヴァースの密度ピーク",
+      "pre_punch_silence": null,
+      "confidence": 0.5,
+      "reading": "ノッタシュンカンマワリダスメータートコーカイ"
+    },
+    {
+      "index": 15,
+      "subdivision": "sixteenth",
+      "mora_count": 19,
+      "density": "dense",
+      "rests": [],
+      "accents": [
+        "beat_2裏: なんだかんだで",
+        "beat_4: 四桁"
+      ],
+      "held_vowels": [],
+      "breath": "none",
+      "voice": "独白",
+      "function": "金額の現実",
+      "entry": "downbeat",
+      "fast_zone": "beat_1-3",
+      "repeat_count": 0,
+      "character_voice": "narrator",
+      "narrative_reason": "残高を数字で開示する",
+      "repeat_pattern": "ザンダカ/ナンダカンダの内的反復",
+      "switch": null,
+      "pre_punch_silence": null,
+      "confidence": 0.5,
+      "reading": "スマホノザンダカナンダカンダデヨンケタ"
+    },
+    {
+      "index": 16,
+      "subdivision": "eighth",
+      "mora_count": 17,
+      "density": "medium",
+      "rests": [],
+      "accents": [
+        "beat_4: 三桁"
+      ],
+      "held_vowels": [
+        "三桁=短く落とす"
+      ],
+      "breath": "full_after",
+      "voice": "乾いた笑い",
+      "function": "bathos着地",
+      "entry": "downbeat",
+      "fast_zone": null,
+      "repeat_count": 1,
+      "character_voice": "narrator",
+      "narrative_reason": "桁が一つ落ちる笑いで、支払わない理由を確定させる",
+      "repeat_pattern": "四桁→三桁の対句",
+      "switch": null,
+      "pre_punch_silence": null,
+      "confidence": 0.5,
+      "reading": "シチセンヌイタラアシタカラサンケタ"
+    },
+    {
+      "index": 17,
+      "subdivision": "sixteenth",
+      "mora_count": 18,
+      "density": "medium",
+      "rests": [],
+      "accents": [
+        "beat_4: 湯たんぽ"
+      ],
+      "held_vowels": [],
+      "breath": "none",
+      "voice": "柔らかい",
+      "function": "身体感覚への転換",
+      "entry": "pickup_of_4",
+      "fast_zone": null,
+      "repeat_count": 0,
+      "character_voice": "narrator",
+      "narrative_reason": "支出の話から手のひらの温度へ、画角を寄せる",
+      "repeat_pattern": null,
+      "switch": "語り口を観察モードへ落とす",
+      "pre_punch_silence": null,
+      "confidence": 0.5,
+      "reading": "ヒャクエンノコーヒーテノヒラノユタンポ"
+    },
+    {
+      "index": 18,
+      "subdivision": "sixteenth",
+      "mora_count": 20,
+      "density": "dense",
+      "rests": [],
+      "accents": [
+        "beat_3: 折って"
+      ],
+      "held_vowels": [],
+      "breath": "light_after",
+      "voice": "ていねい",
+      "function": "小道具の設置",
+      "entry": "downbeat",
+      "fast_zone": null,
+      "repeat_count": 0,
+      "character_voice": "narrator",
+      "narrative_reason": "レシートを捨てない不自然な丁寧さを仕込む（後半で回収）",
+      "repeat_pattern": null,
+      "switch": null,
+      "pre_punch_silence": null,
+      "confidence": 0.5,
+      "reading": "レシートワマルメズオッテポケットニシマウ"
+    },
+    {
+      "index": 19,
+      "subdivision": "sixteenth",
+      "mora_count": 19,
+      "density": "dense",
+      "rests": [],
+      "accents": [
+        "beat_3裏: 起きてる",
+        "beat_4: 真夜中"
+      ],
+      "held_vowels": [],
+      "breath": "none",
+      "voice": "静か",
+      "function": "街の観察",
+      "entry": "pickup_of_4",
+      "fast_zone": "beat_1-2に11モーラ",
+      "repeat_count": 0,
+      "character_voice": "narrator",
+      "narrative_reason": "起きているのが自分と機械だけ、という孤独を外部化する",
+      "repeat_pattern": null,
+      "switch": null,
+      "pre_punch_silence": null,
+      "confidence": 0.5,
+      "reading": "コインランドリーダケガオキテルマヨナカ"
+    },
+    {
+      "index": 20,
+      "subdivision": "eighth",
+      "mora_count": 18,
+      "density": "medium",
+      "rests": [],
+      "accents": [
+        "beat_4: 歩幅"
+      ],
+      "held_vowels": [
+        "ホハバ=区切って置く"
+      ],
+      "breath": "full_after",
+      "voice": "低く安定",
+      "function": "自己の速度",
+      "entry": "downbeat",
+      "fast_zone": null,
+      "repeat_count": 0,
+      "character_voice": "narrator",
+      "narrative_reason": "時速4キロという測定値で意地を数値化する",
+      "repeat_pattern": null,
+      "switch": "密度を落として歩行のテンポに寄せる",
+      "pre_punch_silence": null,
+      "confidence": 0.5,
+      "reading": "カワラナイジソクヨンキロオレノホハバ"
+    },
+    {
+      "index": 21,
+      "subdivision": "sixteenth",
+      "mora_count": 20,
+      "density": "dense",
+      "rests": [],
+      "accents": [
+        "beat_4: 喋り出す"
+      ],
+      "held_vowels": [],
+      "breath": "none",
+      "voice": "語り",
+      "function": "キャラクター導入",
+      "entry": "downbeat",
+      "fast_zone": null,
+      "repeat_count": 0,
+      "character_voice": "narrator",
+      "narrative_reason": "足を話者から独立した声にする",
+      "repeat_pattern": "なし",
+      "switch": "地の声から会話へ橋渡し",
+      "pre_punch_silence": null,
+      "confidence": 0.5,
+      "reading": "イチジカンアルクトアシノウラガシャベリダス"
+    },
+    {
+      "index": 22,
+      "subdivision": "eighth",
+      "mora_count": 18,
+      "density": "medium",
+      "rests": [
+        "惜しかったか の後に4分休符"
+      ],
+      "accents": [
+        "beat_2: 七千円",
+        "beat_4: 惜しかったか"
+      ],
+      "held_vowels": [
+        "か=語尾上げ"
+      ],
+      "breath": "before",
+      "voice": "足の声（高め・軽い）",
+      "function": "問い",
+      "entry": "pickup_of_4",
+      "fast_zone": null,
+      "repeat_count": 0,
+      "character_voice": "character_soles",
+      "narrative_reason": "もう一人の視点から金額を再提示する",
+      "repeat_pattern": null,
+      "switch": "声色を切り替える",
+      "pre_punch_silence": "惜しかったか の後に4分休符",
+      "confidence": 0.5,
+      "reading": "ナーシチセンエンソンナニオシカッタカ"
+    },
+    {
+      "index": 23,
+      "subdivision": "sixteenth",
+      "mora_count": 19,
+      "density": "dense",
+      "rests": [],
+      "accents": [
+        "beat_1: 惜しくはない",
+        "beat_4: 勘定"
+      ],
+      "held_vowels": [],
+      "breath": "none",
+      "voice": "地の声・低く",
+      "function": "応答と結論",
+      "entry": "downbeat",
+      "fast_zone": "beat_2-3",
+      "repeat_count": 0,
+      "character_voice": "narrator",
+      "narrative_reason": "足の問いを語頭で引き取り、精算の対象を限定する",
+      "repeat_pattern": null,
+      "switch": "会話から地の声へ戻す",
+      "pre_punch_silence": null,
+      "confidence": 0.5,
+      "reading": "オシクワナイセーサンデキルノワカンジョー"
+    },
+    {
+      "index": 24,
+      "subdivision": "sixteenth",
+      "mora_count": 19,
+      "density": "dense",
+      "rests": [
+        "感情 の直前に16分休符"
+      ],
+      "accents": [
+        "beat_3: レシートと",
+        "beat_4: 感情"
+      ],
+      "held_vowels": [
+        "カンジョー=伸ばして終わる"
+      ],
+      "breath": "full_after",
+      "voice": "静か",
+      "function": "payoff着地",
+      "entry": "downbeat",
+      "fast_zone": null,
+      "repeat_count": 1,
+      "character_voice": "narrator",
+      "narrative_reason": "同音異義で勘定→感情へ移し、レシートを証拠に変える",
+      "repeat_pattern": "カンジョーの対句",
+      "switch": null,
+      "pre_punch_silence": "感情 の直前に16分休符",
+      "confidence": 0.5,
+      "reading": "ポケットニノコルノワレシートトカンジョー"
+    }
+  ],
+  "verification_evidence": null,
+  "unknowns": [
+    "実ビート未提供のため pocket / microtiming は判定不能",
+    "録音がないため呼吸位置・スタミナ・声色切替の可聴性は未検証",
+    "B14(21モーラ) と B18(20モーラ) が88BPMで潰れずに発音できるかは要録音",
+    "B22の足の声とB23の地の声の識別可能性は要録音",
+    "全読みは手動指定（G2Pバックエンド不在）"
+  ]
+}

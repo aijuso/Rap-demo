@@ -1,0 +1,1546 @@
+{
+  "bars": [
+    {
+      "index": 1,
+      "surface": "目の前で ドアが閉まる 差は ゼロコンマ",
+      "tokens": [
+        {
+          "surface": "目の前",
+          "reading": "メノマエ",
+          "concreteness": 0.9,
+          "plain_sense": "話者のすぐ前",
+          "reading_source": "manual",
+          "reading_confidence": 0.95
+        },
+        {
+          "surface": "ドア",
+          "reading": "ドア",
+          "concreteness": 1.0,
+          "plain_sense": "電車の扉",
+          "reading_source": "manual",
+          "reading_confidence": 0.95
+        },
+        {
+          "surface": "閉まる",
+          "reading": "シマル",
+          "concreteness": 0.9,
+          "plain_sense": "扉が閉じる",
+          "reading_source": "manual",
+          "reading_confidence": 0.95
+        },
+        {
+          "surface": "差",
+          "reading": "サ",
+          "concreteness": 0.3,
+          "plain_sense": "間に合わなかった時間差",
+          "reading_source": "manual",
+          "reading_confidence": 0.95
+        },
+        {
+          "surface": "ゼロコンマ",
+          "reading": "ゼロコンマ",
+          "concreteness": 0.6,
+          "plain_sense": "1秒未満の単位",
+          "reading_source": "manual",
+          "reading_confidence": 0.95
+        }
+      ],
+      "rhyme_hits": [
+        {
+          "family": "o-o-N-a / ゼロコンマ・へこんだ",
+          "position": "end",
+          "meaning_bearing": true,
+          "grammar_tail_only": false,
+          "reading_confidence": 0.95
+        }
+      ],
+      "changes": [
+        "information"
+      ],
+      "naturalness_review": {
+        "status": "pass",
+        "evidence": "「差はゼロコンマ」は体言止めの省略だが、直前の「ドアが閉まる」が主語述語を確定させており、口語として通る。"
+      },
+      "interesting_without_rhyme_review": {
+        "status": "pass",
+        "evidence": "韻を外しても「一瞬の差で終電に乗れなかった」という命題が残る。"
+      },
+      "ai_pattern_flags": []
+    },
+    {
+      "index": 2,
+      "surface": "ガラスに映った 顔 だいぶ へこんだ",
+      "tokens": [
+        {
+          "surface": "ガラス",
+          "reading": "ガラス",
+          "concreteness": 1.0,
+          "plain_sense": "車両の窓",
+          "reading_source": "manual",
+          "reading_confidence": 0.95
+        },
+        {
+          "surface": "映った",
+          "reading": "ウツッタ",
+          "concreteness": 0.8,
+          "plain_sense": "反射して見えた",
+          "reading_source": "manual",
+          "reading_confidence": 0.95
+        },
+        {
+          "surface": "顔",
+          "reading": "カオ",
+          "concreteness": 1.0,
+          "plain_sense": "自分の顔",
+          "reading_source": "manual",
+          "reading_confidence": 0.95
+        },
+        {
+          "surface": "だいぶ",
+          "reading": "ダイブ",
+          "concreteness": 0.2,
+          "plain_sense": "かなり",
+          "reading_source": "manual",
+          "reading_confidence": 0.95
+        },
+        {
+          "surface": "へこんだ",
+          "reading": "ヘコンダ",
+          "concreteness": 0.7,
+          "plain_sense": "落ち込んだ／凹んで見えた",
+          "reading_source": "manual",
+          "reading_confidence": 0.95
+        }
+      ],
+      "rhyme_hits": [
+        {
+          "family": "o-o-N-a / ゼロコンマ・へこんだ",
+          "position": "end",
+          "meaning_bearing": true,
+          "grammar_tail_only": false,
+          "reading_confidence": 0.95
+        }
+      ],
+      "changes": [
+        "information",
+        "emotion"
+      ],
+      "naturalness_review": {
+        "status": "pass",
+        "evidence": "「ガラスに映った顔」の連体修飾は自然。「だいぶへこんだ」は主語省略が口語規範内。"
+      },
+      "interesting_without_rhyme_review": {
+        "status": "pass",
+        "evidence": "「窓ガラスに映った自分の顔で落ち込んだ」という観察が残る。"
+      },
+      "ai_pattern_flags": []
+    },
+    {
+      "index": 3,
+      "surface": "七千円 出して 楽を 買うか",
+      "tokens": [
+        {
+          "surface": "七千円",
+          "reading": "シチセンエン",
+          "concreteness": 1.0,
+          "plain_sense": "タクシー代の概算",
+          "reading_source": "manual",
+          "reading_confidence": 0.95
+        },
+        {
+          "surface": "出して",
+          "reading": "ダシテ",
+          "concreteness": 0.8,
+          "plain_sense": "支払って",
+          "reading_source": "manual",
+          "reading_confidence": 0.95
+        },
+        {
+          "surface": "楽",
+          "reading": "ラク",
+          "concreteness": 0.35,
+          "plain_sense": "座って帰れる状態",
+          "reading_source": "manual",
+          "reading_confidence": 0.95
+        },
+        {
+          "surface": "買うか",
+          "reading": "カウカ",
+          "concreteness": 0.7,
+          "plain_sense": "金で手に入れるか",
+          "reading_source": "manual",
+          "reading_confidence": 0.95
+        }
+      ],
+      "rhyme_hits": [
+        {
+          "family": "a-u-a / 買うか・回すか",
+          "position": "end",
+          "meaning_bearing": true,
+          "grammar_tail_only": false,
+          "reading_confidence": 0.98
+        }
+      ],
+      "changes": [
+        "information"
+      ],
+      "naturalness_review": {
+        "status": "pass",
+        "evidence": "「七千円出して楽を買う」は助詞・語順とも標準。"
+      },
+      "interesting_without_rhyme_review": {
+        "status": "pass",
+        "evidence": "「金を払って楽をする選択肢」という命題が残る。"
+      },
+      "ai_pattern_flags": []
+    },
+    {
+      "index": 4,
+      "surface": "二時間 歩いて 明日に 回すか",
+      "tokens": [
+        {
+          "surface": "二時間",
+          "reading": "ニジカン",
+          "concreteness": 1.0,
+          "plain_sense": "徒歩の所要時間",
+          "reading_source": "manual",
+          "reading_confidence": 0.95
+        },
+        {
+          "surface": "歩いて",
+          "reading": "アルイテ",
+          "concreteness": 1.0,
+          "plain_sense": "徒歩で移動して",
+          "reading_source": "manual",
+          "reading_confidence": 0.95
+        },
+        {
+          "surface": "明日",
+          "reading": "アシタ",
+          "concreteness": 0.8,
+          "plain_sense": "翌日",
+          "reading_source": "manual",
+          "reading_confidence": 0.95
+        },
+        {
+          "surface": "回すか",
+          "reading": "マワスカ",
+          "concreteness": 0.6,
+          "plain_sense": "疲労を翌日に先送りするか",
+          "reading_source": "manual",
+          "reading_confidence": 0.95
+        }
+      ],
+      "rhyme_hits": [
+        {
+          "family": "a-u-a / 買うか・回すか",
+          "position": "end",
+          "meaning_bearing": true,
+          "grammar_tail_only": false,
+          "reading_confidence": 0.98
+        }
+      ],
+      "changes": [
+        "information",
+        "flow"
+      ],
+      "naturalness_review": {
+        "status": "pass",
+        "evidence": "「明日に回す」は先送りの慣用表現として自然。"
+      },
+      "interesting_without_rhyme_review": {
+        "status": "pass",
+        "evidence": "「歩いて疲労を翌日に先送りする選択肢」という命題が残る。"
+      },
+      "ai_pattern_flags": []
+    },
+    {
+      "index": 5,
+      "surface": "乗り越した分なら 機械が 精算",
+      "tokens": [
+        {
+          "surface": "乗り越した",
+          "reading": "ノリコシタ",
+          "concreteness": 0.9,
+          "plain_sense": "降車駅を過ぎた",
+          "reading_source": "manual",
+          "reading_confidence": 0.95
+        },
+        {
+          "surface": "分",
+          "reading": "ブン",
+          "concreteness": 0.5,
+          "plain_sense": "超過区間の運賃",
+          "reading_source": "manual",
+          "reading_confidence": 0.95
+        },
+        {
+          "surface": "機械",
+          "reading": "キカイ",
+          "concreteness": 1.0,
+          "plain_sense": "乗り越し精算機",
+          "reading_source": "manual",
+          "reading_confidence": 0.95
+        },
+        {
+          "surface": "精算",
+          "reading": "セーサン",
+          "concreteness": 0.7,
+          "plain_sense": "差額を払って清算する",
+          "reading_source": "manual",
+          "reading_confidence": 0.95
+        }
+      ],
+      "rhyme_hits": [
+        {
+          "family": "ノリコシ／ノリコエ paronomasia",
+          "position": "initial",
+          "meaning_bearing": true,
+          "grammar_tail_only": false,
+          "reading_confidence": 0.95
+        }
+      ],
+      "changes": [
+        "information",
+        "flow"
+      ],
+      "naturalness_review": {
+        "status": "pass",
+        "evidence": "「乗り越した分なら機械が精算」は乗り越し精算機の実在語彙に基づき、係り受けが明瞭。"
+      },
+      "interesting_without_rhyme_review": {
+        "status": "pass",
+        "evidence": "「運賃超過は機械が処理してくれる」という事実が残る。"
+      },
+      "ai_pattern_flags": []
+    },
+    {
+      "index": 6,
+      "surface": "乗り越えられない夜は 誰が 精算",
+      "tokens": [
+        {
+          "surface": "乗り越えられない",
+          "reading": "ノリコエラレナイ",
+          "concreteness": 0.4,
+          "plain_sense": "気持ちの上で越えられない",
+          "reading_source": "manual",
+          "reading_confidence": 0.95
+        },
+        {
+          "surface": "夜",
+          "reading": "ヨル",
+          "concreteness": 0.8,
+          "plain_sense": "この夜",
+          "reading_source": "manual",
+          "reading_confidence": 0.95
+        },
+        {
+          "surface": "誰が",
+          "reading": "ダレガ",
+          "concreteness": 0.3,
+          "plain_sense": "主語の不在",
+          "reading_source": "manual",
+          "reading_confidence": 0.95
+        },
+        {
+          "surface": "精算",
+          "reading": "セーサン",
+          "concreteness": 0.7,
+          "plain_sense": "清算する",
+          "reading_source": "manual",
+          "reading_confidence": 0.95
+        }
+      ],
+      "rhyme_hits": [
+        {
+          "family": "ノリコシ／ノリコエ paronomasia",
+          "position": "initial",
+          "meaning_bearing": true,
+          "grammar_tail_only": false,
+          "reading_confidence": 0.95
+        }
+      ],
+      "changes": [
+        "emotion",
+        "flow"
+      ],
+      "naturalness_review": {
+        "status": "pass",
+        "evidence": "「乗り越えられない夜は誰が精算」は倒置なし。B05との対句で主語不在が意図的に読める。"
+      },
+      "interesting_without_rhyme_review": {
+        "status": "pass",
+        "evidence": "「感情の超過を処理する主体がいない」という問いが残る。"
+      },
+      "ai_pattern_flags": [
+        "同語反復『精算』（B05/B06）。refrainとして意図。韻イベントには計上していない。"
+      ]
+    },
+    {
+      "index": 7,
+      "surface": "足が出る前に 足が出た",
+      "tokens": [
+        {
+          "surface": "足が出る",
+          "reading": "アシガデル",
+          "concreteness": 0.5,
+          "plain_sense": "予算を超過する（慣用句）",
+          "reading_source": "manual",
+          "reading_confidence": 0.95
+        },
+        {
+          "surface": "前に",
+          "reading": "マエニ",
+          "concreteness": 0.4,
+          "plain_sense": "〜する前に",
+          "reading_source": "manual",
+          "reading_confidence": 0.95
+        },
+        {
+          "surface": "足",
+          "reading": "アシ",
+          "concreteness": 1.0,
+          "plain_sense": "自分の脚",
+          "reading_source": "manual",
+          "reading_confidence": 0.95
+        },
+        {
+          "surface": "出た",
+          "reading": "デタ",
+          "concreteness": 0.9,
+          "plain_sense": "歩き出した",
+          "reading_source": "manual",
+          "reading_confidence": 0.95
+        }
+      ],
+      "rhyme_hits": [
+        {
+          "family": "足が出る／足が出た 慣用句の字義化",
+          "position": "internal",
+          "meaning_bearing": true,
+          "grammar_tail_only": false,
+          "reading_confidence": 1.0
+        }
+      ],
+      "changes": [
+        "information",
+        "emotion",
+        "flow"
+      ],
+      "naturalness_review": {
+        "status": "pass",
+        "evidence": "「足が出る前に足が出た」は同語反復だが慣用句と字義の対比として文法上自然。"
+      },
+      "interesting_without_rhyme_review": {
+        "status": "pass",
+        "evidence": "慣用句と字義の衝突そのものが内容であり、韻に依存していない。"
+      },
+      "ai_pattern_flags": []
+    },
+    {
+      "index": 8,
+      "surface": "今夜の取り分 二時間の 領収書",
+      "tokens": [
+        {
+          "surface": "今夜",
+          "reading": "コンヤ",
+          "concreteness": 0.8,
+          "plain_sense": "この夜",
+          "reading_source": "manual",
+          "reading_confidence": 0.95
+        },
+        {
+          "surface": "取り分",
+          "reading": "トリブン",
+          "concreteness": 0.5,
+          "plain_sense": "自分の分け前",
+          "reading_source": "manual",
+          "reading_confidence": 0.95
+        },
+        {
+          "surface": "二時間",
+          "reading": "ニジカン",
+          "concreteness": 1.0,
+          "plain_sense": "歩いた時間",
+          "reading_source": "manual",
+          "reading_confidence": 0.95
+        },
+        {
+          "surface": "領収書",
+          "reading": "リョーシューショ",
+          "concreteness": 1.0,
+          "plain_sense": "支払いの証拠書類",
+          "reading_source": "manual",
+          "reading_confidence": 0.95
+        }
+      ],
+      "rhyme_hits": [],
+      "changes": [
+        "information",
+        "emotion"
+      ],
+      "naturalness_review": {
+        "status": "pass",
+        "evidence": "「今夜の取り分」→「領収書」の同格的な体言止め。口語ラップの範囲内。"
+      },
+      "interesting_without_rhyme_review": {
+        "status": "pass",
+        "evidence": "「歩いた二時間が今夜の取り分だ」という結論が残る。"
+      },
+      "ai_pattern_flags": []
+    },
+    {
+      "index": 9,
+      "surface": "二次会 三次会 誘ってくる 先輩",
+      "tokens": [
+        {
+          "surface": "二次会",
+          "reading": "ニジカイ",
+          "concreteness": 1.0,
+          "plain_sense": "一次会後の飲み会",
+          "reading_source": "manual",
+          "reading_confidence": 0.95
+        },
+        {
+          "surface": "三次会",
+          "reading": "サンジカイ",
+          "concreteness": 1.0,
+          "plain_sense": "さらに続く飲み会",
+          "reading_source": "manual",
+          "reading_confidence": 0.95
+        },
+        {
+          "surface": "誘ってくる",
+          "reading": "サソッテクル",
+          "concreteness": 0.8,
+          "plain_sense": "参加を促してくる",
+          "reading_source": "manual",
+          "reading_confidence": 0.95
+        },
+        {
+          "surface": "先輩",
+          "reading": "センパイ",
+          "concreteness": 0.9,
+          "plain_sense": "職場の年長者",
+          "reading_source": "manual",
+          "reading_confidence": 0.95
+        }
+      ],
+      "rhyme_hits": [
+        {
+          "family": "e-N-a-i / 先輩・限界",
+          "position": "end",
+          "meaning_bearing": true,
+          "grammar_tail_only": false,
+          "reading_confidence": 0.98
+        },
+        {
+          "family": "二次会／三次会 内的反復",
+          "position": "internal",
+          "meaning_bearing": true,
+          "grammar_tail_only": false,
+          "reading_confidence": 0.98
+        }
+      ],
+      "changes": [
+        "information",
+        "flow"
+      ],
+      "naturalness_review": {
+        "status": "pass",
+        "evidence": "「誘ってくる先輩」の連体修飾は自然。"
+      },
+      "interesting_without_rhyme_review": {
+        "status": "pass",
+        "evidence": "「先輩が二次会三次会に誘ってくる」という具体的状況が残る。"
+      },
+      "ai_pattern_flags": []
+    },
+    {
+      "index": 10,
+      "surface": "「まだいける」 断れないのが 限界",
+      "tokens": [
+        {
+          "surface": "まだいける",
+          "reading": "マダイケル",
+          "concreteness": 0.6,
+          "plain_sense": "まだ飲めるという発言",
+          "reading_source": "manual",
+          "reading_confidence": 0.95
+        },
+        {
+          "surface": "断れない",
+          "reading": "コトワレナイ",
+          "concreteness": 0.6,
+          "plain_sense": "拒否できない",
+          "reading_source": "manual",
+          "reading_confidence": 0.95
+        },
+        {
+          "surface": "限界",
+          "reading": "ゲンカイ",
+          "concreteness": 0.25,
+          "plain_sense": "自分の能力の上限",
+          "reading_source": "manual",
+          "reading_confidence": 0.95
+        }
+      ],
+      "rhyme_hits": [
+        {
+          "family": "e-N-a-i / 先輩・限界",
+          "position": "end",
+          "meaning_bearing": true,
+          "grammar_tail_only": false,
+          "reading_confidence": 0.98
+        }
+      ],
+      "changes": [
+        "information",
+        "emotion"
+      ],
+      "naturalness_review": {
+        "status": "pass",
+        "evidence": "引用「まだいける」＋「断れないのが限界」。「〜のが限界」は口語として通る。"
+      },
+      "interesting_without_rhyme_review": {
+        "status": "pass",
+        "evidence": "「断れないことが自分の限界だ」という自己認識が残る。"
+      },
+      "ai_pattern_flags": []
+    },
+    {
+      "index": 11,
+      "surface": "会計は 一円単位で 割り勘",
+      "tokens": [
+        {
+          "surface": "会計",
+          "reading": "カイケー",
+          "concreteness": 1.0,
+          "plain_sense": "店での支払い",
+          "reading_source": "manual",
+          "reading_confidence": 0.95
+        },
+        {
+          "surface": "一円単位",
+          "reading": "イチエンタンイ",
+          "concreteness": 1.0,
+          "plain_sense": "1円まで細かく",
+          "reading_source": "manual",
+          "reading_confidence": 0.95
+        },
+        {
+          "surface": "割り勘",
+          "reading": "ワリカン",
+          "concreteness": 1.0,
+          "plain_sense": "人数で等分する支払い",
+          "reading_source": "manual",
+          "reading_confidence": 0.95
+        }
+      ],
+      "rhyme_hits": [
+        {
+          "family": "a-i-a-N / 割り勘・間に合わん",
+          "position": "end",
+          "meaning_bearing": true,
+          "grammar_tail_only": false,
+          "reading_confidence": 0.95
+        }
+      ],
+      "changes": [
+        "information"
+      ],
+      "naturalness_review": {
+        "status": "pass",
+        "evidence": "「一円単位で割り勘」は日常語として自然。"
+      },
+      "interesting_without_rhyme_review": {
+        "status": "pass",
+        "evidence": "「一円単位で割り勘した」という具体的行動が残る。"
+      },
+      "ai_pattern_flags": []
+    },
+    {
+      "index": 12,
+      "surface": "一円は 割れても 一秒は 間に合わん",
+      "tokens": [
+        {
+          "surface": "一円",
+          "reading": "イチエン",
+          "concreteness": 1.0,
+          "plain_sense": "最小の通貨単位",
+          "reading_source": "manual",
+          "reading_confidence": 0.95
+        },
+        {
+          "surface": "割れても",
+          "reading": "ワレテモ",
+          "concreteness": 0.7,
+          "plain_sense": "等分できても",
+          "reading_source": "manual",
+          "reading_confidence": 0.95
+        },
+        {
+          "surface": "一秒",
+          "reading": "イチビョー",
+          "concreteness": 1.0,
+          "plain_sense": "最小の時間単位",
+          "reading_source": "manual",
+          "reading_confidence": 0.95
+        },
+        {
+          "surface": "間に合わん",
+          "reading": "マニアワン",
+          "concreteness": 0.7,
+          "plain_sense": "到着が遅れる",
+          "reading_source": "manual",
+          "reading_confidence": 0.95
+        }
+      ],
+      "rhyme_hits": [
+        {
+          "family": "a-i-a-N / 割り勘・間に合わん",
+          "position": "end",
+          "meaning_bearing": true,
+          "grammar_tail_only": false,
+          "reading_confidence": 0.95
+        },
+        {
+          "family": "イチ〜 頭韻 / 一円・一秒",
+          "position": "initial",
+          "meaning_bearing": true,
+          "grammar_tail_only": false,
+          "reading_confidence": 0.98
+        }
+      ],
+      "changes": [
+        "information",
+        "emotion",
+        "flow"
+      ],
+      "naturalness_review": {
+        "status": "pass",
+        "evidence": "「一円は割れても」「一秒は間に合わん」はそれぞれ述語が主語に自然に係る。対比の非対称は意図。"
+      },
+      "interesting_without_rhyme_review": {
+        "status": "pass",
+        "evidence": "「金は割れるが時間は取り返せない」という対比が残る。"
+      },
+      "ai_pattern_flags": []
+    },
+    {
+      "index": 13,
+      "surface": "改札の外 空車のランプ 六台",
+      "tokens": [
+        {
+          "surface": "改札",
+          "reading": "カイサツ",
+          "concreteness": 1.0,
+          "plain_sense": "駅の改札口",
+          "reading_source": "manual",
+          "reading_confidence": 0.95
+        },
+        {
+          "surface": "外",
+          "reading": "ソト",
+          "concreteness": 0.9,
+          "plain_sense": "改札の外側",
+          "reading_source": "manual",
+          "reading_confidence": 0.95
+        },
+        {
+          "surface": "空車",
+          "reading": "クーシャ",
+          "concreteness": 1.0,
+          "plain_sense": "客のいないタクシー",
+          "reading_source": "manual",
+          "reading_confidence": 0.95
+        },
+        {
+          "surface": "ランプ",
+          "reading": "ランプ",
+          "concreteness": 1.0,
+          "plain_sense": "空車表示灯",
+          "reading_source": "manual",
+          "reading_confidence": 0.95
+        },
+        {
+          "surface": "六台",
+          "reading": "ロクダイ",
+          "concreteness": 1.0,
+          "plain_sense": "タクシー6台",
+          "reading_source": "manual",
+          "reading_confidence": 0.95
+        }
+      ],
+      "rhyme_hits": [
+        {
+          "family": "o-(u|o)-a-i / 六台・後悔",
+          "position": "end",
+          "meaning_bearing": true,
+          "grammar_tail_only": false,
+          "reading_confidence": 0.95
+        }
+      ],
+      "changes": [
+        "information",
+        "flow"
+      ],
+      "naturalness_review": {
+        "status": "pass",
+        "evidence": "「改札の外 空車のランプ 六台」は名詞句の列挙だが、係り受けは一意。"
+      },
+      "interesting_without_rhyme_review": {
+        "status": "pass",
+        "evidence": "「改札の外にタクシーが六台いる」という観察が残る。"
+      },
+      "ai_pattern_flags": []
+    },
+    {
+      "index": 14,
+      "surface": "乗った瞬間 回り出す メーターと 後悔",
+      "tokens": [
+        {
+          "surface": "乗った",
+          "reading": "ノッタ",
+          "concreteness": 0.9,
+          "plain_sense": "乗車した",
+          "reading_source": "manual",
+          "reading_confidence": 0.95
+        },
+        {
+          "surface": "瞬間",
+          "reading": "シュンカン",
+          "concreteness": 0.6,
+          "plain_sense": "その時点",
+          "reading_source": "manual",
+          "reading_confidence": 0.95
+        },
+        {
+          "surface": "回り出す",
+          "reading": "マワリダス",
+          "concreteness": 0.8,
+          "plain_sense": "作動し始める",
+          "reading_source": "manual",
+          "reading_confidence": 0.95
+        },
+        {
+          "surface": "メーター",
+          "reading": "メーター",
+          "concreteness": 1.0,
+          "plain_sense": "料金メーター",
+          "reading_source": "manual",
+          "reading_confidence": 0.95
+        },
+        {
+          "surface": "後悔",
+          "reading": "コーカイ",
+          "concreteness": 0.2,
+          "plain_sense": "悔やむ気持ち",
+          "reading_source": "manual",
+          "reading_confidence": 0.95
+        }
+      ],
+      "rhyme_hits": [
+        {
+          "family": "o-(u|o)-a-i / 六台・後悔",
+          "position": "end",
+          "meaning_bearing": true,
+          "grammar_tail_only": false,
+          "reading_confidence": 0.95
+        }
+      ],
+      "changes": [
+        "information",
+        "emotion",
+        "flow"
+      ],
+      "naturalness_review": {
+        "status": "pass",
+        "evidence": "「回り出すメーターと後悔」は zeugma だが両名詞とも「回り出す」を自然に取れる。"
+      },
+      "interesting_without_rhyme_review": {
+        "status": "pass",
+        "evidence": "「乗れば料金と後悔が同時に増える」という判断が残る。"
+      },
+      "ai_pattern_flags": []
+    },
+    {
+      "index": 15,
+      "surface": "スマホの残高 なんだかんだで 四桁",
+      "tokens": [
+        {
+          "surface": "スマホ",
+          "reading": "スマホ",
+          "concreteness": 1.0,
+          "plain_sense": "携帯端末",
+          "reading_source": "manual",
+          "reading_confidence": 0.95
+        },
+        {
+          "surface": "残高",
+          "reading": "ザンダカ",
+          "concreteness": 1.0,
+          "plain_sense": "口座の残り金額",
+          "reading_source": "manual",
+          "reading_confidence": 0.95
+        },
+        {
+          "surface": "なんだかんだ",
+          "reading": "ナンダカンダ",
+          "concreteness": 0.2,
+          "plain_sense": "結局のところ",
+          "reading_source": "manual",
+          "reading_confidence": 0.95
+        },
+        {
+          "surface": "四桁",
+          "reading": "ヨンケタ",
+          "concreteness": 1.0,
+          "plain_sense": "1000〜9999円",
+          "reading_source": "manual",
+          "reading_confidence": 0.95
+        }
+      ],
+      "rhyme_hits": [
+        {
+          "family": "N-e-a / 四桁・三桁",
+          "position": "end",
+          "meaning_bearing": true,
+          "grammar_tail_only": false,
+          "reading_confidence": 0.98
+        },
+        {
+          "family": "a-N-a-a / 残高・なんだかんだ",
+          "position": "internal",
+          "meaning_bearing": true,
+          "grammar_tail_only": false,
+          "reading_confidence": 0.95
+        }
+      ],
+      "changes": [
+        "information"
+      ],
+      "naturalness_review": {
+        "status": "pass",
+        "evidence": "「なんだかんだで四桁」は口語として自然。"
+      },
+      "interesting_without_rhyme_review": {
+        "status": "pass",
+        "evidence": "「残高が四桁しかない」という事実が残る。"
+      },
+      "ai_pattern_flags": []
+    },
+    {
+      "index": 16,
+      "surface": "七千 抜いたら 明日から 三桁",
+      "tokens": [
+        {
+          "surface": "七千",
+          "reading": "シチセン",
+          "concreteness": 1.0,
+          "plain_sense": "7000円",
+          "reading_source": "manual",
+          "reading_confidence": 0.95
+        },
+        {
+          "surface": "抜いたら",
+          "reading": "ヌイタラ",
+          "concreteness": 0.8,
+          "plain_sense": "差し引いたら",
+          "reading_source": "manual",
+          "reading_confidence": 0.95
+        },
+        {
+          "surface": "明日から",
+          "reading": "アシタカラ",
+          "concreteness": 0.8,
+          "plain_sense": "翌日以降",
+          "reading_source": "manual",
+          "reading_confidence": 0.95
+        },
+        {
+          "surface": "三桁",
+          "reading": "サンケタ",
+          "concreteness": 1.0,
+          "plain_sense": "100〜999円",
+          "reading_source": "manual",
+          "reading_confidence": 0.95
+        }
+      ],
+      "rhyme_hits": [
+        {
+          "family": "N-e-a / 四桁・三桁",
+          "position": "end",
+          "meaning_bearing": true,
+          "grammar_tail_only": false,
+          "reading_confidence": 0.98
+        }
+      ],
+      "changes": [
+        "information",
+        "emotion"
+      ],
+      "naturalness_review": {
+        "status": "pass",
+        "evidence": "「七千抜いたら明日から三桁」は条件節＋帰結で自然。"
+      },
+      "interesting_without_rhyme_review": {
+        "status": "pass",
+        "evidence": "「七千円払えば三桁になる」という計算が残る。"
+      },
+      "ai_pattern_flags": [
+        "『四桁／三桁』は同一形態素『桁』の反復。対句としての意図はあるが freshness は低い。"
+      ]
+    },
+    {
+      "index": 17,
+      "surface": "百円のコーヒー 手のひらの 湯たんぽ",
+      "tokens": [
+        {
+          "surface": "百円",
+          "reading": "ヒャクエン",
+          "concreteness": 1.0,
+          "plain_sense": "100円",
+          "reading_source": "manual",
+          "reading_confidence": 0.95
+        },
+        {
+          "surface": "コーヒー",
+          "reading": "コーヒー",
+          "concreteness": 1.0,
+          "plain_sense": "缶／カップの飲料",
+          "reading_source": "manual",
+          "reading_confidence": 0.95
+        },
+        {
+          "surface": "手のひら",
+          "reading": "テノヒラ",
+          "concreteness": 1.0,
+          "plain_sense": "掌",
+          "reading_source": "manual",
+          "reading_confidence": 0.95
+        },
+        {
+          "surface": "湯たんぽ",
+          "reading": "ユタンポ",
+          "concreteness": 1.0,
+          "plain_sense": "暖を取る道具",
+          "reading_source": "manual",
+          "reading_confidence": 0.95
+        }
+      ],
+      "rhyme_hits": [
+        {
+          "family": "N-o／Q-o / 湯たんぽ・ポケット",
+          "position": "end",
+          "meaning_bearing": true,
+          "grammar_tail_only": false,
+          "reading_confidence": 0.9
+        }
+      ],
+      "changes": [
+        "information",
+        "emotion",
+        "flow"
+      ],
+      "naturalness_review": {
+        "status": "pass",
+        "evidence": "「手のひらの湯たんぽ」は比喩の同格。自然。"
+      },
+      "interesting_without_rhyme_review": {
+        "status": "pass",
+        "evidence": "「百円のコーヒーを手の暖房として使っている」という行動が残る。"
+      },
+      "ai_pattern_flags": [
+        "B13〜B17で体言止めが5小節連続。B18の述語終止で分断しているが、体言止め比率は全24小節中15（62%）と高め。"
+      ]
+    },
+    {
+      "index": 18,
+      "surface": "レシートは 丸めず 折って ポケットに しまう",
+      "tokens": [
+        {
+          "surface": "レシート",
+          "reading": "レシート",
+          "concreteness": 1.0,
+          "plain_sense": "買い物の控え",
+          "reading_source": "manual",
+          "reading_confidence": 0.95
+        },
+        {
+          "surface": "丸めず",
+          "reading": "マルメズ",
+          "concreteness": 0.9,
+          "plain_sense": "くしゃくしゃにせず",
+          "reading_source": "manual",
+          "reading_confidence": 0.95
+        },
+        {
+          "surface": "折って",
+          "reading": "オッテ",
+          "concreteness": 0.9,
+          "plain_sense": "折り目をつけて",
+          "reading_source": "manual",
+          "reading_confidence": 0.95
+        },
+        {
+          "surface": "ポケット",
+          "reading": "ポケット",
+          "concreteness": 1.0,
+          "plain_sense": "衣類の物入れ",
+          "reading_source": "manual",
+          "reading_confidence": 0.95
+        },
+        {
+          "surface": "しまう",
+          "reading": "シマウ",
+          "concreteness": 0.8,
+          "plain_sense": "収める",
+          "reading_source": "manual",
+          "reading_confidence": 0.95
+        }
+      ],
+      "rhyme_hits": [
+        {
+          "family": "N-o／Q-o / 湯たんぽ・ポケット",
+          "position": "internal",
+          "meaning_bearing": true,
+          "grammar_tail_only": false,
+          "reading_confidence": 0.9
+        }
+      ],
+      "changes": [
+        "information"
+      ],
+      "naturalness_review": {
+        "status": "pass",
+        "evidence": "「丸めず折ってポケットにしまう」は連用中止＋述語で自然。"
+      },
+      "interesting_without_rhyme_review": {
+        "status": "pass",
+        "evidence": "「レシートを丁寧に扱っている」という不自然な所作が残り、後半の伏線になる。"
+      },
+      "ai_pattern_flags": []
+    },
+    {
+      "index": 19,
+      "surface": "コインランドリーだけが 起きてる 真夜中",
+      "tokens": [
+        {
+          "surface": "コインランドリー",
+          "reading": "コインランドリー",
+          "concreteness": 1.0,
+          "plain_sense": "24時間営業の洗濯店",
+          "reading_source": "manual",
+          "reading_confidence": 0.95
+        },
+        {
+          "surface": "起きてる",
+          "reading": "オキテル",
+          "concreteness": 0.7,
+          "plain_sense": "明かりがついて稼働している",
+          "reading_source": "manual",
+          "reading_confidence": 0.95
+        },
+        {
+          "surface": "真夜中",
+          "reading": "マヨナカ",
+          "concreteness": 0.9,
+          "plain_sense": "深夜",
+          "reading_source": "manual",
+          "reading_confidence": 0.95
+        }
+      ],
+      "rhyme_hits": [
+        {
+          "family": "o-a-a / 真夜中・歩幅",
+          "position": "end",
+          "meaning_bearing": true,
+          "grammar_tail_only": false,
+          "reading_confidence": 0.98
+        }
+      ],
+      "changes": [
+        "information",
+        "emotion"
+      ],
+      "naturalness_review": {
+        "status": "pass",
+        "evidence": "「〜だけが起きてる真夜中」の連体修飾は自然。"
+      },
+      "interesting_without_rhyme_review": {
+        "status": "pass",
+        "evidence": "「深夜に起きているのはコインランドリーだけ」という情景が残る。"
+      },
+      "ai_pattern_flags": []
+    },
+    {
+      "index": 20,
+      "surface": "変わらない 時速四キロ 俺の 歩幅",
+      "tokens": [
+        {
+          "surface": "変わらない",
+          "reading": "カワラナイ",
+          "concreteness": 0.4,
+          "plain_sense": "一定である",
+          "reading_source": "manual",
+          "reading_confidence": 0.95
+        },
+        {
+          "surface": "時速四キロ",
+          "reading": "ジソクヨンキロ",
+          "concreteness": 1.0,
+          "plain_sense": "徒歩の速度",
+          "reading_source": "manual",
+          "reading_confidence": 0.95
+        },
+        {
+          "surface": "俺",
+          "reading": "オレ",
+          "concreteness": 0.7,
+          "plain_sense": "話者",
+          "reading_source": "manual",
+          "reading_confidence": 0.95
+        },
+        {
+          "surface": "歩幅",
+          "reading": "ホハバ",
+          "concreteness": 1.0,
+          "plain_sense": "一歩の長さ",
+          "reading_source": "manual",
+          "reading_confidence": 0.95
+        }
+      ],
+      "rhyme_hits": [
+        {
+          "family": "o-a-a / 真夜中・歩幅",
+          "position": "end",
+          "meaning_bearing": true,
+          "grammar_tail_only": false,
+          "reading_confidence": 0.98
+        }
+      ],
+      "changes": [
+        "information",
+        "flow"
+      ],
+      "naturalness_review": {
+        "status": "pass",
+        "evidence": "「変わらない時速四キロ 俺の歩幅」は同格の並置。口語で通る。"
+      },
+      "interesting_without_rhyme_review": {
+        "status": "pass",
+        "evidence": "「自分の速度は時速四キロで変わらない」という自己測定が残る。"
+      },
+      "ai_pattern_flags": []
+    },
+    {
+      "index": 21,
+      "surface": "一時間 歩くと 足の裏が 喋り出す",
+      "tokens": [
+        {
+          "surface": "一時間",
+          "reading": "イチジカン",
+          "concreteness": 1.0,
+          "plain_sense": "経過時間",
+          "reading_source": "manual",
+          "reading_confidence": 0.95
+        },
+        {
+          "surface": "歩くと",
+          "reading": "アルクト",
+          "concreteness": 1.0,
+          "plain_sense": "徒歩を続けると",
+          "reading_source": "manual",
+          "reading_confidence": 0.95
+        },
+        {
+          "surface": "足の裏",
+          "reading": "アシノウラ",
+          "concreteness": 1.0,
+          "plain_sense": "足底",
+          "reading_source": "manual",
+          "reading_confidence": 0.95
+        },
+        {
+          "surface": "喋り出す",
+          "reading": "シャベリダス",
+          "concreteness": 0.7,
+          "plain_sense": "話し始める（擬人化）",
+          "reading_source": "manual",
+          "reading_confidence": 0.95
+        }
+      ],
+      "rhyme_hits": [],
+      "changes": [
+        "information",
+        "flow"
+      ],
+      "naturalness_review": {
+        "status": "pass",
+        "evidence": "「足の裏が喋り出す」は擬人化だが文法的に自然。"
+      },
+      "interesting_without_rhyme_review": {
+        "status": "pass",
+        "evidence": "「一時間歩いて足の裏が主張し始めた」という身体変化が残る。"
+      },
+      "ai_pattern_flags": []
+    },
+    {
+      "index": 22,
+      "surface": "「なあ 七千円 そんなに 惜しかったか」",
+      "tokens": [
+        {
+          "surface": "なあ",
+          "reading": "ナー",
+          "concreteness": 0.3,
+          "plain_sense": "呼びかけ",
+          "reading_source": "manual",
+          "reading_confidence": 0.95
+        },
+        {
+          "surface": "七千円",
+          "reading": "シチセンエン",
+          "concreteness": 1.0,
+          "plain_sense": "タクシー代",
+          "reading_source": "manual",
+          "reading_confidence": 0.95
+        },
+        {
+          "surface": "そんなに",
+          "reading": "ソンナニ",
+          "concreteness": 0.2,
+          "plain_sense": "それほど",
+          "reading_source": "manual",
+          "reading_confidence": 0.95
+        },
+        {
+          "surface": "惜しかったか",
+          "reading": "オシカッタカ",
+          "concreteness": 0.5,
+          "plain_sense": "手放したくなかったのか",
+          "reading_source": "manual",
+          "reading_confidence": 0.95
+        }
+      ],
+      "rhyme_hits": [
+        {
+          "family": "anadiplosis / 惜しかったか→惜しくはない",
+          "position": "cross_bar",
+          "meaning_bearing": true,
+          "grammar_tail_only": false,
+          "reading_confidence": 1.0
+        }
+      ],
+      "changes": [
+        "emotion",
+        "flow"
+      ],
+      "naturalness_review": {
+        "status": "pass",
+        "evidence": "引用文。「そんなに惜しかったか」は口語疑問として自然。"
+      },
+      "interesting_without_rhyme_review": {
+        "status": "pass",
+        "evidence": "「七千円がそんなに惜しかったのか」という問いが残る。"
+      },
+      "ai_pattern_flags": []
+    },
+    {
+      "index": 23,
+      "surface": "惜しくはない 精算できるのは 勘定",
+      "tokens": [
+        {
+          "surface": "惜しくはない",
+          "reading": "オシクワナイ",
+          "concreteness": 0.5,
+          "plain_sense": "手放して構わない",
+          "reading_source": "manual",
+          "reading_confidence": 0.95
+        },
+        {
+          "surface": "精算",
+          "reading": "セーサン",
+          "concreteness": 0.7,
+          "plain_sense": "清算する",
+          "reading_source": "manual",
+          "reading_confidence": 0.95
+        },
+        {
+          "surface": "できるのは",
+          "reading": "デキルノワ",
+          "concreteness": 0.3,
+          "plain_sense": "可能なのは",
+          "reading_source": "manual",
+          "reading_confidence": 0.95
+        },
+        {
+          "surface": "勘定",
+          "reading": "カンジョー",
+          "concreteness": 0.9,
+          "plain_sense": "飲食代の支払い／計算",
+          "reading_source": "manual",
+          "reading_confidence": 0.95
+        }
+      ],
+      "rhyme_hits": [
+        {
+          "family": "a-N-o-o 同音異義 / 勘定・感情",
+          "position": "end",
+          "meaning_bearing": true,
+          "grammar_tail_only": false,
+          "reading_confidence": 0.98
+        }
+      ],
+      "changes": [
+        "emotion",
+        "information"
+      ],
+      "naturalness_review": {
+        "status": "pass",
+        "evidence": "「精算できるのは勘定」は主題化構文として自然。"
+      },
+      "interesting_without_rhyme_review": {
+        "status": "pass",
+        "evidence": "「精算できるのは金銭だけだ」という主張が残る。"
+      },
+      "ai_pattern_flags": []
+    },
+    {
+      "index": 24,
+      "surface": "ポケットに 残るのは レシートと 感情",
+      "tokens": [
+        {
+          "surface": "ポケット",
+          "reading": "ポケット",
+          "concreteness": 1.0,
+          "plain_sense": "衣類の物入れ",
+          "reading_source": "manual",
+          "reading_confidence": 0.95
+        },
+        {
+          "surface": "残るのは",
+          "reading": "ノコルノワ",
+          "concreteness": 0.4,
+          "plain_sense": "手元に残るもの",
+          "reading_source": "manual",
+          "reading_confidence": 0.95
+        },
+        {
+          "surface": "レシート",
+          "reading": "レシート",
+          "concreteness": 1.0,
+          "plain_sense": "買い物の控え",
+          "reading_source": "manual",
+          "reading_confidence": 0.95
+        },
+        {
+          "surface": "感情",
+          "reading": "カンジョー",
+          "concreteness": 0.15,
+          "plain_sense": "気持ち",
+          "reading_source": "manual",
+          "reading_confidence": 0.95
+        }
+      ],
+      "rhyme_hits": [
+        {
+          "family": "a-N-o-o 同音異義 / 勘定・感情",
+          "position": "end",
+          "meaning_bearing": true,
+          "grammar_tail_only": false,
+          "reading_confidence": 0.98
+        }
+      ],
+      "changes": [
+        "information",
+        "emotion"
+      ],
+      "naturalness_review": {
+        "status": "pass",
+        "evidence": "「残るのはレシートと感情」は並列助詞「と」が異種の名詞を結ぶが、意図的な語域衝突として読める。"
+      },
+      "interesting_without_rhyme_review": {
+        "status": "pass",
+        "evidence": "「手元に残ったのはレシートと感情だ」という結末が残る。"
+      },
+      "ai_pattern_flags": []
+    }
+  ],
+  "expected_bar_count": 24,
+  "independent_review": false,
+  "audio_reviewed": false,
+  "technical_rhyme_brief": false,
+  "intentional_end_rhyme_reason": "briefのrhyme_densityはmedium。行末韻に加えB05/B06頭韻、B07内部韻、B09/B12/B15/B18内部韻、B22→B23 cross_barを配置し、B08とB21は意図的に踏まない着地としている。",
+  "setups": [
+    {
+      "id": "S1",
+      "bar": 5,
+      "expected_payoff_id": "P1"
+    },
+    {
+      "id": "S2",
+      "bar": 7,
+      "expected_payoff_id": "P2"
+    },
+    {
+      "id": "S3",
+      "bar": 11,
+      "expected_payoff_id": "P3"
+    },
+    {
+      "id": "S4",
+      "bar": 15,
+      "expected_payoff_id": "P4"
+    },
+    {
+      "id": "S5",
+      "bar": 18,
+      "expected_payoff_id": "P5"
+    },
+    {
+      "id": "S6",
+      "bar": 22,
+      "expected_payoff_id": "P6"
+    }
+  ],
+  "payoffs": [
+    {
+      "id": "P1",
+      "bar": 23,
+      "setup_id": "S1",
+      "mechanism": "『機械が精算する』という制度的枠を提示しておき、精算可能な対象を『勘定だけ』に限定し直す反転。"
+    },
+    {
+      "id": "P2",
+      "bar": 7,
+      "setup_id": "S2",
+      "mechanism": "慣用句『足が出る（予算超過）』を字義の『足が出る（歩き出す）』へ落とす。共有項は『足』、着地語は『出た』。"
+    },
+    {
+      "id": "P3",
+      "bar": 12,
+      "setup_id": "S3",
+      "mechanism": "一円単位の几帳面さを提示し、同じ『一』の精度を時間に適用して無効化する。"
+    },
+    {
+      "id": "P4",
+      "bar": 16,
+      "setup_id": "S4",
+      "mechanism": "残高の桁を四→三へ落とす bathos。支払わない理由を数字だけで確定させる。"
+    },
+    {
+      "id": "P5",
+      "bar": 24,
+      "setup_id": "S5",
+      "mechanism": "レシートを丸めず折る不自然な所作を先に置き、最終行でそれを『残ったもの』＝証拠に変換する。"
+    },
+    {
+      "id": "P6",
+      "bar": 23,
+      "setup_id": "S6",
+      "mechanism": "足の声の問い『惜しかったか』を語頭で引き取る anadiplosis による直接応答。"
+    }
+  ],
+  "named_entities": []
+}
