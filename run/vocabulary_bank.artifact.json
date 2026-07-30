@@ -1,0 +1,5459 @@
+{
+  "schema": "vocabulary-bank/v2",
+  "run_id": "isekai-satire-001",
+  "brief_hash": "9602021d191f44e6343f277e0b139131b404808537630daf871ffe8c0ba3a2d6",
+  "producer": {
+    "role": "vocabulary_director",
+    "instance_id": "vocab-1"
+  },
+  "status": "ready",
+  "inputs": [
+    {
+      "artifact": "brief.json"
+    }
+  ],
+  "evidence": [],
+  "warnings": [],
+  "payload": {
+    "schema": "vocabulary-bank/v2",
+    "run_id": "isekai-satire-001",
+    "status": "ready",
+    "notes": "第一便・並列フェーズ。narrative_plan未受領のため、bar割当とprominenceはすべてproposal扱い。",
+    "scene_packets": [
+      {
+        "scene_id": "SC01",
+        "theme_label": "終電後の駅 — 帰宅の締切に取り残される",
+        "time": "平日24時すぎ、終電が出た直後",
+        "place": "都心のターミナル駅、改札前からホーム",
+        "camera_visible": [
+          "行き先表示が消えた電光掲示板",
+          "半分だけ降りたシャッター",
+          "『回送』表示のまま通過する電車",
+          "誰もいないホームの黄色い線"
+        ],
+        "microphone_audible": [
+          "シャッターの降りる金属音",
+          "最終アナウンスの残響",
+          "自分だけの靴音"
+        ],
+        "body": [
+          "駆け込みで切れた息",
+          "ICタッチの直前で止まる手"
+        ],
+        "institution": [
+          "終電時刻",
+          "タクシーの深夜料金"
+        ],
+        "relationship": [
+          "同じ終電を逃した他人と目を合わせない"
+        ],
+        "contradiction": [
+          "ホーム(platform/home)に立っているのに家に帰れない"
+        ],
+        "unknowns": [
+          "話者の具体的な職種は未指定(非正規労働という実感のみbriefで保証)"
+        ]
+      },
+      {
+        "scene_id": "SC02",
+        "theme_label": "深夜のコンビニとワンルーム — 夜勤明けの生活圏",
+        "time": "夜勤明けの午前2時台",
+        "place": "コンビニのバックヤードとレジ、徒歩10分のワンルーム",
+        "camera_visible": [
+          "二重に貼られた半額シール",
+          "胸の名札",
+          "白すぎる蛍光灯",
+          "レシートの数字"
+        ],
+        "microphone_audible": [
+          "レンジの終了音",
+          "冷蔵庫の低い唸り",
+          "自動ドアのチャイム"
+        ],
+        "body": [
+          "布団に落ちる背中",
+          "蛍光灯の下で白く見える指"
+        ],
+        "institution": [
+          "時給",
+          "深夜手当",
+          "シフト表"
+        ],
+        "relationship": [
+          "『いらっしゃいませ』を言う相手だけが今日の会話量のほぼ全部"
+        ],
+        "contradiction": [
+          "食べ物を売る側の自分が、値引きの時刻を一番よく知っている"
+        ],
+        "unknowns": [
+          "コンビニ勤務が本人の職かどうかは架空設定(fictionラベル)"
+        ]
+      },
+      {
+        "scene_id": "SC03",
+        "theme_label": "スマホ画面の中 — ガチャとおすすめ欄という設計された逃避",
+        "time": "布団の中の午前3時、バッテリー残り19%",
+        "place": "ワンルームの暗闇、顔だけ照らす画面の中",
+        "camera_visible": [
+          "ガチャ演出の虹色の光",
+          "おすすめ欄の無限スクロール",
+          "口座残高の数字",
+          "天井(ガチャ)までの残り回数表示"
+        ],
+        "microphone_audible": [
+          "通知音",
+          "ガチャ演出の効果音",
+          "振動のブブッ"
+        ],
+        "body": [
+          "スワイプし続ける親指",
+          "画面の光で乾いていく目"
+        ],
+        "institution": [
+          "課金",
+          "排出率",
+          "天井(上限救済)"
+        ],
+        "relationship": [
+          "おすすめ欄のアルゴリズムだけが俺の好みを把握している",
+          "『親ガチャ』という言い方でしか親を語れない距離感"
+        ],
+        "contradiction": [
+          "現実逃避のためのガチャで、現実の残高が減っていく"
+        ],
+        "unknowns": [
+          "課金額の具体的な数字は創作しない(実話らしさの偽装を避ける)"
+        ]
+      },
+      {
+        "scene_id": "SC04",
+        "theme_label": "異世界トロープと昼の労働の合わせ鏡 — 配役への抵抗",
+        "time": "平日朝8時台の通勤から夜の帰宅まで",
+        "place": "満員電車、タイムレコーダー前、面接室、そして毎晩のアニメ視聴",
+        "camera_visible": [
+          "タイムカードの打刻印字",
+          "履歴書の証明写真",
+          "求人票の『経験者優遇』",
+          "奨学金残高の通知"
+        ],
+        "microphone_audible": [
+          "タイムレコーダーの打刻音",
+          "車内アナウンス"
+        ],
+        "body": [
+          "満員電車で床から浮く爪先",
+          "面接で下げる頭の角度"
+        ],
+        "institution": [
+          "残業",
+          "シフト",
+          "奨学金",
+          "求人票"
+        ],
+        "relationship": [
+          "配役を一方的に決めてくる面接官",
+          "モブ同士は互いの顔を覚えない"
+        ],
+        "contradiction": [
+          "転生ものを観て眠り、翌朝また同じ周回(通勤)に戻る"
+        ],
+        "unknowns": [
+          "ビート実音源が無いため8モーラ語の置き場所は未検証"
+        ]
+      }
+    ],
+    "words": [
+      {
+        "word_id": "W01",
+        "surface": "終電",
+        "tier": "must_use",
+        "scene_id": "SC01",
+        "reading": {
+          "kana": "シューデン",
+          "source": "manual",
+          "confidence": "high"
+        },
+        "mora": {
+          "sequence": [
+            "シュ",
+            "ー",
+            "デ",
+            "ン"
+          ],
+          "count": 4
+        },
+        "meaning": {
+          "literal": "その日の最後の電車",
+          "contextual": "帰宅の締切線。逃した瞬間に都市から締め出される制度の時計",
+          "connotation": [
+            "締切",
+            "残業の帰結",
+            "取り残され"
+          ]
+        },
+        "grammar": {
+          "pos": "noun",
+          "syntax_roles": [
+            "subject",
+            "object",
+            "time_marker"
+          ],
+          "particles_before": [
+            "の"
+          ],
+          "particles_after": [
+            "が",
+            "を",
+            "に",
+            "後"
+          ]
+        },
+        "register": {
+          "level": "conversational",
+          "persona_fit": "high"
+        },
+        "semantic": {
+          "domains": [
+            "transit",
+            "time",
+            "labor"
+          ],
+          "concreteness": 5
+        },
+        "sound": {
+          "vowels": [
+            "u",
+            "u",
+            "e",
+            "N"
+          ],
+          "articulation_cost": 1,
+          "rhyme_roles": [
+            "line_end_anchor",
+            "internal"
+          ],
+          "rhyme_note": "充電(ジューデン)とほぼ完全韻。W29とペア運用推奨"
+        },
+        "craft": {
+          "humor_roles": [
+            "deadpan_evidence"
+          ],
+          "narrative_roles": [
+            "time_marker",
+            "evidence"
+          ],
+          "prominence": "accented"
+        },
+        "evidence": [
+          {
+            "kind": "dictionary"
+          }
+        ],
+        "confidence": {
+          "meaning": "high",
+          "reading": "high",
+          "persona_fit": "high"
+        }
+      },
+      {
+        "word_id": "W02",
+        "surface": "改札",
+        "tier": "candidate",
+        "scene_id": "SC01",
+        "reading": {
+          "kana": "カイサツ",
+          "source": "manual",
+          "confidence": "high"
+        },
+        "mora": {
+          "sequence": [
+            "カ",
+            "イ",
+            "サ",
+            "ツ"
+          ],
+          "count": 4
+        },
+        "meaning": {
+          "literal": "駅の出入りを確認するゲート",
+          "contextual": "通過を許可/拒否される境界。ゲート審査の日常版",
+          "connotation": [
+            "選別",
+            "通過",
+            "境界"
+          ]
+        },
+        "grammar": {
+          "pos": "noun",
+          "syntax_roles": [
+            "object",
+            "location"
+          ],
+          "particles_before": [
+            "の"
+          ],
+          "particles_after": [
+            "を",
+            "で",
+            "前"
+          ]
+        },
+        "register": {
+          "level": "conversational",
+          "persona_fit": "high"
+        },
+        "semantic": {
+          "domains": [
+            "transit",
+            "gatekeeping"
+          ],
+          "concreteness": 5
+        },
+        "sound": {
+          "vowels": [
+            "a",
+            "i",
+            "a",
+            "u"
+          ],
+          "articulation_cost": 1,
+          "rhyme_roles": [
+            "internal",
+            "line_end"
+          ],
+          "rhyme_note": "配役(ハイヤク a-i-a-u)と母音完全一致。W53とペア"
+        },
+        "craft": {
+          "humor_roles": [
+            "scale_shift"
+          ],
+          "narrative_roles": [
+            "evidence",
+            "threshold_image"
+          ],
+          "prominence": "normal"
+        },
+        "evidence": [
+          {
+            "kind": "dictionary"
+          }
+        ],
+        "confidence": {
+          "meaning": "high",
+          "reading": "high",
+          "persona_fit": "high"
+        }
+      },
+      {
+        "word_id": "W03",
+        "surface": "電光掲示板",
+        "tier": "candidate",
+        "scene_id": "SC01",
+        "reading": {
+          "kana": "デンコーケイジバン",
+          "source": "manual",
+          "confidence": "high"
+        },
+        "mora": {
+          "sequence": [
+            "デ",
+            "ン",
+            "コ",
+            "ー",
+            "ケ",
+            "イ",
+            "ジ",
+            "バ",
+            "ン"
+          ],
+          "count": 9
+        },
+        "meaning": {
+          "literal": "行き先や時刻を光で表示する掲示板",
+          "contextual": "行き先が消える瞬間を見せる装置。選択肢の消滅を映像で示す",
+          "connotation": [
+            "情報",
+            "消滅",
+            "非情"
+          ]
+        },
+        "grammar": {
+          "pos": "noun",
+          "syntax_roles": [
+            "subject",
+            "object"
+          ],
+          "particles_before": [
+            "の"
+          ],
+          "particles_after": [
+            "が",
+            "を",
+            "から"
+          ]
+        },
+        "register": {
+          "level": "neutral",
+          "persona_fit": "medium"
+        },
+        "semantic": {
+          "domains": [
+            "transit",
+            "information"
+          ],
+          "concreteness": 5
+        },
+        "sound": {
+          "vowels": [
+            "e",
+            "N",
+            "o",
+            "o",
+            "e",
+            "i",
+            "i",
+            "a",
+            "N"
+          ],
+          "articulation_cost": 3,
+          "rhyme_roles": [
+            "phrase_component"
+          ],
+          "rhyme_note": "9モーラで長い。1小節の頭から置く前提"
+        },
+        "craft": {
+          "humor_roles": [],
+          "narrative_roles": [
+            "evidence",
+            "scene_setter"
+          ],
+          "prominence": "background"
+        },
+        "evidence": [
+          {
+            "kind": "dictionary"
+          }
+        ],
+        "confidence": {
+          "meaning": "high",
+          "reading": "high",
+          "persona_fit": "medium"
+        }
+      },
+      {
+        "word_id": "W04",
+        "surface": "回送",
+        "tier": "candidate",
+        "scene_id": "SC01",
+        "reading": {
+          "kana": "カイソー",
+          "source": "manual",
+          "confidence": "high"
+        },
+        "mora": {
+          "sequence": [
+            "カ",
+            "イ",
+            "ソ",
+            "ー"
+          ],
+          "count": 4
+        },
+        "meaning": {
+          "literal": "客を乗せずに車庫等へ走る電車の表示",
+          "contextual": "目の前を走るのに乗せてくれない車両=社会に乗車拒否される自分の比喩",
+          "connotation": [
+            "拒絶",
+            "空走",
+            "無用扱い"
+          ],
+          "ambiguity": [
+            "同音の『階層』『快走』と聞き分けが必要。意図的ダブルミーニングとして使うならsetup必須"
+          ]
+        },
+        "grammar": {
+          "pos": "noun",
+          "syntax_roles": [
+            "subject",
+            "predicate_noun",
+            "modifier"
+          ],
+          "particles_before": [],
+          "particles_after": [
+            "の",
+            "が",
+            "って"
+          ]
+        },
+        "register": {
+          "level": "neutral",
+          "persona_fit": "high"
+        },
+        "semantic": {
+          "domains": [
+            "transit",
+            "exclusion"
+          ],
+          "concreteness": 4
+        },
+        "sound": {
+          "vowels": [
+            "a",
+            "i",
+            "o",
+            "o"
+          ],
+          "articulation_cost": 1,
+          "rhyme_roles": [
+            "line_end_anchor",
+            "double_meaning_pivot"
+          ],
+          "rhyme_note": "階層(カイソー)と完全同音。格差テーマへの掛詞候補"
+        },
+        "craft": {
+          "humor_roles": [
+            "double_meaning",
+            "deadpan_evidence"
+          ],
+          "narrative_roles": [
+            "metaphor",
+            "turn"
+          ],
+          "prominence": "accented"
+        },
+        "evidence": [
+          {
+            "kind": "dictionary"
+          }
+        ],
+        "confidence": {
+          "meaning": "high",
+          "reading": "high",
+          "persona_fit": "high"
+        }
+      },
+      {
+        "word_id": "W05",
+        "surface": "駆け込む",
+        "tier": "candidate",
+        "scene_id": "SC01",
+        "reading": {
+          "kana": "カケコム",
+          "source": "manual",
+          "confidence": "high"
+        },
+        "mora": {
+          "sequence": [
+            "カ",
+            "ケ",
+            "コ",
+            "ム"
+          ],
+          "count": 4
+        },
+        "meaning": {
+          "literal": "急いで中に走り入る",
+          "contextual": "閉まるドアへの全力疾走。間に合わなさの身体化",
+          "connotation": [
+            "焦り",
+            "ギリギリ",
+            "敗北の予感"
+          ]
+        },
+        "grammar": {
+          "pos": "verb",
+          "syntax_roles": [
+            "predicate"
+          ],
+          "particles_before": [
+            "に",
+            "へ"
+          ],
+          "particles_after": []
+        },
+        "register": {
+          "level": "conversational",
+          "persona_fit": "high"
+        },
+        "semantic": {
+          "domains": [
+            "motion",
+            "body"
+          ],
+          "concreteness": 5
+        },
+        "sound": {
+          "vowels": [
+            "a",
+            "e",
+            "o",
+            "u"
+          ],
+          "articulation_cost": 1,
+          "rhyme_roles": [
+            "internal"
+          ],
+          "rhyme_note": "k音の頭韻(改札/回送/課金と連鎖可)"
+        },
+        "craft": {
+          "humor_roles": [
+            "bathos"
+          ],
+          "narrative_roles": [
+            "action",
+            "evidence"
+          ],
+          "prominence": "normal"
+        },
+        "evidence": [
+          {
+            "kind": "dictionary"
+          }
+        ],
+        "confidence": {
+          "meaning": "high",
+          "reading": "high",
+          "persona_fit": "high"
+        }
+      },
+      {
+        "word_id": "W06",
+        "surface": "シャッター",
+        "tier": "candidate",
+        "scene_id": "SC01",
+        "reading": {
+          "kana": "シャッター",
+          "source": "manual",
+          "confidence": "high"
+        },
+        "mora": {
+          "sequence": [
+            "シャ",
+            "ッ",
+            "タ",
+            "ー"
+          ],
+          "count": 4
+        },
+        "meaning": {
+          "literal": "巻き上げ式の金属製の戸",
+          "contextual": "駅や店が一日を終える音。閉め出される側の効果音",
+          "connotation": [
+            "終了",
+            "閉鎖",
+            "拒絶"
+          ]
+        },
+        "grammar": {
+          "pos": "noun",
+          "syntax_roles": [
+            "subject",
+            "object"
+          ],
+          "particles_before": [
+            "の"
+          ],
+          "particles_after": [
+            "が",
+            "を"
+          ]
+        },
+        "register": {
+          "level": "conversational",
+          "persona_fit": "high"
+        },
+        "semantic": {
+          "domains": [
+            "object",
+            "sound",
+            "closure"
+          ],
+          "concreteness": 5
+        },
+        "sound": {
+          "vowels": [
+            "a",
+            "Q",
+            "a",
+            "a"
+          ],
+          "articulation_cost": 1,
+          "rhyme_roles": [
+            "internal",
+            "onomatopoeic_anchor"
+          ],
+          "rhyme_note": "促音がビートのキメと相性良い"
+        },
+        "craft": {
+          "humor_roles": [],
+          "narrative_roles": [
+            "sound_evidence",
+            "closure_image"
+          ],
+          "prominence": "normal"
+        },
+        "evidence": [
+          {
+            "kind": "dictionary"
+          }
+        ],
+        "confidence": {
+          "meaning": "high",
+          "reading": "high",
+          "persona_fit": "high"
+        }
+      },
+      {
+        "word_id": "W07",
+        "surface": "ホーム",
+        "tier": "candidate",
+        "scene_id": "SC01",
+        "reading": {
+          "kana": "ホーム",
+          "source": "manual",
+          "confidence": "high"
+        },
+        "mora": {
+          "sequence": [
+            "ホ",
+            "ー",
+            "ム"
+          ],
+          "count": 3
+        },
+        "meaning": {
+          "literal": "駅の乗降場(platformの略)",
+          "contextual": "『ホームにいるのに家(home)がない』という同音のねじれを作れる場所",
+          "connotation": [
+            "待機",
+            "宙吊り",
+            "居場所の不在"
+          ],
+          "ambiguity": [
+            "platform/homeの二義。文脈で切り替え必須"
+          ]
+        },
+        "grammar": {
+          "pos": "noun",
+          "syntax_roles": [
+            "location",
+            "subject"
+          ],
+          "particles_before": [
+            "の"
+          ],
+          "particles_after": [
+            "に",
+            "で",
+            "から"
+          ]
+        },
+        "register": {
+          "level": "conversational",
+          "persona_fit": "high"
+        },
+        "semantic": {
+          "domains": [
+            "transit",
+            "housing"
+          ],
+          "concreteness": 5
+        },
+        "sound": {
+          "vowels": [
+            "o",
+            "o",
+            "u"
+          ],
+          "articulation_cost": 1,
+          "rhyme_roles": [
+            "double_meaning_pivot",
+            "internal"
+          ],
+          "rhyme_note": "英語homeとの掛詞はsetup1行で成立"
+        },
+        "craft": {
+          "humor_roles": [
+            "double_meaning"
+          ],
+          "narrative_roles": [
+            "irony_pivot"
+          ],
+          "prominence": "accented"
+        },
+        "evidence": [
+          {
+            "kind": "dictionary"
+          }
+        ],
+        "confidence": {
+          "meaning": "high",
+          "reading": "high",
+          "persona_fit": "high"
+        }
+      },
+      {
+        "word_id": "W08",
+        "surface": "始発",
+        "tier": "candidate",
+        "scene_id": "SC01",
+        "reading": {
+          "kana": "シハツ",
+          "source": "manual",
+          "confidence": "high"
+        },
+        "mora": {
+          "sequence": [
+            "シ",
+            "ハ",
+            "ツ"
+          ],
+          "count": 3
+        },
+        "meaning": {
+          "literal": "その日最初の電車",
+          "contextual": "終電を逃した者の次の希望であり、夜を明かす罰の単位",
+          "connotation": [
+            "夜明かし",
+            "リセット",
+            "皮肉な希望"
+          ]
+        },
+        "grammar": {
+          "pos": "noun",
+          "syntax_roles": [
+            "object",
+            "time_marker"
+          ],
+          "particles_before": [
+            "の"
+          ],
+          "particles_after": [
+            "まで",
+            "を",
+            "で"
+          ]
+        },
+        "register": {
+          "level": "conversational",
+          "persona_fit": "high"
+        },
+        "semantic": {
+          "domains": [
+            "transit",
+            "time"
+          ],
+          "concreteness": 5
+        },
+        "sound": {
+          "vowels": [
+            "i",
+            "a",
+            "u"
+          ],
+          "articulation_cost": 1,
+          "rhyme_roles": [
+            "internal"
+          ],
+          "rhyme_note": "終電との対語。対句の両端に置ける"
+        },
+        "craft": {
+          "humor_roles": [
+            "bathos"
+          ],
+          "narrative_roles": [
+            "time_marker",
+            "false_hope"
+          ],
+          "prominence": "normal"
+        },
+        "evidence": [
+          {
+            "kind": "dictionary"
+          }
+        ],
+        "confidence": {
+          "meaning": "high",
+          "reading": "high",
+          "persona_fit": "high"
+        }
+      },
+      {
+        "word_id": "W09",
+        "surface": "深夜料金",
+        "tier": "candidate",
+        "scene_id": "SC01",
+        "reading": {
+          "kana": "シンヤリョーキン",
+          "source": "manual",
+          "confidence": "high"
+        },
+        "mora": {
+          "sequence": [
+            "シ",
+            "ン",
+            "ヤ",
+            "リョ",
+            "ー",
+            "キ",
+            "ン"
+          ],
+          "count": 7
+        },
+        "meaning": {
+          "literal": "深夜帯に割増になる料金",
+          "contextual": "夜に生きること自体に課される追加コスト。時間への課金",
+          "connotation": [
+            "割増",
+            "罰金感",
+            "制度の非情"
+          ]
+        },
+        "grammar": {
+          "pos": "noun",
+          "syntax_roles": [
+            "subject",
+            "object"
+          ],
+          "particles_before": [
+            "の"
+          ],
+          "particles_after": [
+            "が",
+            "を",
+            "で"
+          ]
+        },
+        "register": {
+          "level": "neutral",
+          "persona_fit": "high"
+        },
+        "semantic": {
+          "domains": [
+            "money",
+            "institution",
+            "night"
+          ],
+          "concreteness": 4
+        },
+        "sound": {
+          "vowels": [
+            "i",
+            "N",
+            "a",
+            "o",
+            "o",
+            "i",
+            "N"
+          ],
+          "articulation_cost": 2,
+          "rhyme_roles": [
+            "phrase_component"
+          ],
+          "rhyme_note": "語尾キンで課金/奨学金と緩く連鎖"
+        },
+        "craft": {
+          "humor_roles": [
+            "register_collision"
+          ],
+          "narrative_roles": [
+            "institutional_evidence"
+          ],
+          "prominence": "normal"
+        },
+        "evidence": [
+          {
+            "kind": "dictionary"
+          }
+        ],
+        "confidence": {
+          "meaning": "high",
+          "reading": "high",
+          "persona_fit": "high"
+        }
+      },
+      {
+        "word_id": "W10",
+        "surface": "アナウンス",
+        "tier": "candidate",
+        "scene_id": "SC01",
+        "reading": {
+          "kana": "アナウンス",
+          "source": "manual",
+          "confidence": "high"
+        },
+        "mora": {
+          "sequence": [
+            "ア",
+            "ナ",
+            "ウ",
+            "ン",
+            "ス"
+          ],
+          "count": 5
+        },
+        "meaning": {
+          "literal": "駅や車内の音声案内",
+          "contextual": "誰にでも同じ声で流れる非人称の声。個人を見ないシステムの声",
+          "connotation": [
+            "非人称",
+            "反復",
+            "機械的丁寧さ"
+          ]
+        },
+        "grammar": {
+          "pos": "noun",
+          "syntax_roles": [
+            "subject",
+            "object"
+          ],
+          "particles_before": [
+            "の"
+          ],
+          "particles_after": [
+            "が",
+            "を"
+          ]
+        },
+        "register": {
+          "level": "conversational",
+          "persona_fit": "high"
+        },
+        "semantic": {
+          "domains": [
+            "sound",
+            "transit",
+            "system"
+          ],
+          "concreteness": 4
+        },
+        "sound": {
+          "vowels": [
+            "a",
+            "a",
+            "u",
+            "N",
+            "u"
+          ],
+          "articulation_cost": 1,
+          "rhyme_roles": [
+            "internal"
+          ],
+          "rhyme_note": "NPCの『声』側の現実対応としても機能"
+        },
+        "craft": {
+          "humor_roles": [
+            "deadpan_evidence"
+          ],
+          "narrative_roles": [
+            "sound_evidence"
+          ],
+          "prominence": "background"
+        },
+        "evidence": [
+          {
+            "kind": "dictionary"
+          }
+        ],
+        "confidence": {
+          "meaning": "high",
+          "reading": "high",
+          "persona_fit": "high"
+        }
+      },
+      {
+        "word_id": "W11",
+        "surface": "半額シール",
+        "tier": "candidate",
+        "scene_id": "SC02",
+        "reading": {
+          "kana": "ハンガクシール",
+          "source": "manual",
+          "confidence": "high"
+        },
+        "mora": {
+          "sequence": [
+            "ハ",
+            "ン",
+            "ガ",
+            "ク",
+            "シ",
+            "ー",
+            "ル"
+          ],
+          "count": 7
+        },
+        "meaning": {
+          "literal": "値段を半分にしたことを示す貼り紙",
+          "contextual": "期限と節約と小さな勝利を一枚で見せる物。売る側が貼り、帰りに買う",
+          "connotation": [
+            "生活感",
+            "期限",
+            "小さな勝利"
+          ]
+        },
+        "grammar": {
+          "pos": "noun",
+          "syntax_roles": [
+            "object",
+            "subject"
+          ],
+          "particles_before": [
+            "の"
+          ],
+          "particles_after": [
+            "が",
+            "を",
+            "の"
+          ]
+        },
+        "register": {
+          "level": "conversational",
+          "persona_fit": "high"
+        },
+        "semantic": {
+          "domains": [
+            "shopping",
+            "scarcity",
+            "time"
+          ],
+          "concreteness": 5
+        },
+        "sound": {
+          "vowels": [
+            "a",
+            "N",
+            "a",
+            "u",
+            "i",
+            "i",
+            "u"
+          ],
+          "articulation_cost": 2,
+          "rhyme_roles": [
+            "phrase_component",
+            "internal_anchor"
+          ],
+          "rhyme_note": "『貼る/待つ/剥がす』と動詞連結"
+        },
+        "craft": {
+          "humor_roles": [
+            "status_gap",
+            "deadpan_evidence"
+          ],
+          "narrative_roles": [
+            "evidence",
+            "recurring_image"
+          ],
+          "prominence": "normal"
+        },
+        "evidence": [
+          {
+            "kind": "dictionary"
+          }
+        ],
+        "confidence": {
+          "meaning": "high",
+          "reading": "high",
+          "persona_fit": "high"
+        }
+      },
+      {
+        "word_id": "W12",
+        "surface": "レンジ",
+        "tier": "candidate",
+        "scene_id": "SC02",
+        "reading": {
+          "kana": "レンジ",
+          "source": "manual",
+          "confidence": "high"
+        },
+        "mora": {
+          "sequence": [
+            "レ",
+            "ン",
+            "ジ"
+          ],
+          "count": 3
+        },
+        "meaning": {
+          "literal": "電子レンジの略",
+          "contextual": "深夜の一人の食事の効果音源。『チン』が食卓の合図の全て",
+          "connotation": [
+            "即席",
+            "独り",
+            "省略された生活"
+          ]
+        },
+        "grammar": {
+          "pos": "noun",
+          "syntax_roles": [
+            "object",
+            "instrument"
+          ],
+          "particles_before": [
+            "の"
+          ],
+          "particles_after": [
+            "で",
+            "に",
+            "が"
+          ]
+        },
+        "register": {
+          "level": "conversational",
+          "persona_fit": "high"
+        },
+        "semantic": {
+          "domains": [
+            "household",
+            "sound",
+            "food"
+          ],
+          "concreteness": 5
+        },
+        "sound": {
+          "vowels": [
+            "e",
+            "N",
+            "i"
+          ],
+          "articulation_cost": 1,
+          "rhyme_roles": [
+            "internal"
+          ],
+          "rhyme_note": "『チン』のオノマトペと併用可"
+        },
+        "craft": {
+          "humor_roles": [
+            "bathos"
+          ],
+          "narrative_roles": [
+            "sound_evidence"
+          ],
+          "prominence": "background"
+        },
+        "evidence": [
+          {
+            "kind": "dictionary"
+          }
+        ],
+        "confidence": {
+          "meaning": "high",
+          "reading": "high",
+          "persona_fit": "high"
+        }
+      },
+      {
+        "word_id": "W13",
+        "surface": "ワンルーム",
+        "tier": "candidate",
+        "scene_id": "SC02",
+        "reading": {
+          "kana": "ワンルーム",
+          "source": "manual",
+          "confidence": "high"
+        },
+        "mora": {
+          "sequence": [
+            "ワ",
+            "ン",
+            "ル",
+            "ー",
+            "ム"
+          ],
+          "count": 5
+        },
+        "meaning": {
+          "literal": "一部屋だけの賃貸住居",
+          "contextual": "話者の全世界の物理サイズ。異世界の広大さとの対比項",
+          "connotation": [
+            "狭さ",
+            "単身",
+            "都市の標準装備"
+          ]
+        },
+        "grammar": {
+          "pos": "noun",
+          "syntax_roles": [
+            "location",
+            "subject"
+          ],
+          "particles_before": [],
+          "particles_after": [
+            "に",
+            "で",
+            "の"
+          ]
+        },
+        "register": {
+          "level": "conversational",
+          "persona_fit": "high"
+        },
+        "semantic": {
+          "domains": [
+            "housing",
+            "urban"
+          ],
+          "concreteness": 5
+        },
+        "sound": {
+          "vowels": [
+            "a",
+            "N",
+            "u",
+            "u",
+            "u"
+          ],
+          "articulation_cost": 1,
+          "rhyme_roles": [
+            "line_end",
+            "internal"
+          ],
+          "rhyme_note": "語尾ウームの伸びがハーフタイムの伸ばしに合う"
+        },
+        "craft": {
+          "humor_roles": [
+            "scale_shift"
+          ],
+          "narrative_roles": [
+            "scene_setter",
+            "contrast_pole"
+          ],
+          "prominence": "normal"
+        },
+        "evidence": [
+          {
+            "kind": "dictionary"
+          }
+        ],
+        "confidence": {
+          "meaning": "high",
+          "reading": "high",
+          "persona_fit": "high"
+        }
+      },
+      {
+        "word_id": "W14",
+        "surface": "蛍光灯",
+        "tier": "candidate",
+        "scene_id": "SC02",
+        "reading": {
+          "kana": "ケイコートー",
+          "source": "manual",
+          "confidence": "high"
+        },
+        "mora": {
+          "sequence": [
+            "ケ",
+            "イ",
+            "コ",
+            "ー",
+            "ト",
+            "ー"
+          ],
+          "count": 6
+        },
+        "meaning": {
+          "literal": "白い光を出す照明器具",
+          "contextual": "コンビニとワンルームを同じ色にする光。昼夜の区別を消す装置",
+          "connotation": [
+            "無機質",
+            "眠れなさ",
+            "均質"
+          ]
+        },
+        "grammar": {
+          "pos": "noun",
+          "syntax_roles": [
+            "subject",
+            "modifier"
+          ],
+          "particles_before": [
+            "の"
+          ],
+          "particles_after": [
+            "が",
+            "の",
+            "に"
+          ]
+        },
+        "register": {
+          "level": "neutral",
+          "persona_fit": "high"
+        },
+        "semantic": {
+          "domains": [
+            "object",
+            "light",
+            "urban"
+          ],
+          "concreteness": 5
+        },
+        "sound": {
+          "vowels": [
+            "e",
+            "i",
+            "o",
+            "o",
+            "o",
+            "o"
+          ],
+          "articulation_cost": 2,
+          "rhyme_roles": [
+            "internal"
+          ],
+          "rhyme_note": "オ段長音の連続が浮遊感を出す"
+        },
+        "craft": {
+          "humor_roles": [],
+          "narrative_roles": [
+            "scene_setter",
+            "recurring_image"
+          ],
+          "prominence": "background"
+        },
+        "evidence": [
+          {
+            "kind": "dictionary"
+          }
+        ],
+        "confidence": {
+          "meaning": "high",
+          "reading": "high",
+          "persona_fit": "high"
+        }
+      },
+      {
+        "word_id": "W15",
+        "surface": "唸る",
+        "tier": "candidate",
+        "scene_id": "SC02",
+        "reading": {
+          "kana": "ウナル",
+          "source": "manual",
+          "confidence": "high"
+        },
+        "mora": {
+          "sequence": [
+            "ウ",
+            "ナ",
+            "ル"
+          ],
+          "count": 3
+        },
+        "meaning": {
+          "literal": "低い音を続けて出す",
+          "contextual": "冷蔵庫が唸る=部屋の生活音が機械音しかない状態",
+          "connotation": [
+            "低音",
+            "不満の擬人化",
+            "孤独の環境音"
+          ]
+        },
+        "grammar": {
+          "pos": "verb",
+          "syntax_roles": [
+            "predicate"
+          ],
+          "particles_before": [
+            "が"
+          ],
+          "particles_after": []
+        },
+        "register": {
+          "level": "conversational",
+          "persona_fit": "high"
+        },
+        "semantic": {
+          "domains": [
+            "sound",
+            "household"
+          ],
+          "concreteness": 4
+        },
+        "sound": {
+          "vowels": [
+            "u",
+            "a",
+            "u"
+          ],
+          "articulation_cost": 1,
+          "rhyme_roles": [
+            "internal"
+          ],
+          "rhyme_note": "808ベースの説明語としても二重に効く"
+        },
+        "craft": {
+          "humor_roles": [
+            "deadpan_evidence"
+          ],
+          "narrative_roles": [
+            "sound_evidence"
+          ],
+          "prominence": "background"
+        },
+        "evidence": [
+          {
+            "kind": "dictionary"
+          }
+        ],
+        "confidence": {
+          "meaning": "high",
+          "reading": "high",
+          "persona_fit": "high"
+        }
+      },
+      {
+        "word_id": "W16",
+        "surface": "レシート",
+        "tier": "candidate",
+        "scene_id": "SC02",
+        "reading": {
+          "kana": "レシート",
+          "source": "manual",
+          "confidence": "high"
+        },
+        "mora": {
+          "sequence": [
+            "レ",
+            "シ",
+            "ー",
+            "ト"
+          ],
+          "count": 4
+        },
+        "meaning": {
+          "literal": "購入記録の紙片",
+          "contextual": "一日の生活が数字で印字される紙。俺のログはここにしか残らない",
+          "connotation": [
+            "記録",
+            "少額",
+            "証拠"
+          ]
+        },
+        "grammar": {
+          "pos": "noun",
+          "syntax_roles": [
+            "object",
+            "subject"
+          ],
+          "particles_before": [
+            "の"
+          ],
+          "particles_after": [
+            "を",
+            "が",
+            "に"
+          ]
+        },
+        "register": {
+          "level": "conversational",
+          "persona_fit": "high"
+        },
+        "semantic": {
+          "domains": [
+            "money",
+            "record",
+            "shopping"
+          ],
+          "concreteness": 5
+        },
+        "sound": {
+          "vowels": [
+            "e",
+            "i",
+            "i",
+            "o"
+          ],
+          "articulation_cost": 1,
+          "rhyme_roles": [
+            "internal",
+            "line_end"
+          ],
+          "rhyme_note": "履歴書(i-e-i-o)と母音近似。『紙に残る俺』つながり"
+        },
+        "craft": {
+          "humor_roles": [
+            "deadpan_evidence"
+          ],
+          "narrative_roles": [
+            "evidence",
+            "log_image"
+          ],
+          "prominence": "normal"
+        },
+        "evidence": [
+          {
+            "kind": "dictionary"
+          }
+        ],
+        "confidence": {
+          "meaning": "high",
+          "reading": "high",
+          "persona_fit": "high"
+        }
+      },
+      {
+        "word_id": "W17",
+        "surface": "布団",
+        "tier": "candidate",
+        "scene_id": "SC02",
+        "reading": {
+          "kana": "フトン",
+          "source": "manual",
+          "confidence": "high"
+        },
+        "mora": {
+          "sequence": [
+            "フ",
+            "ト",
+            "ン"
+          ],
+          "count": 3
+        },
+        "meaning": {
+          "literal": "寝るための寝具",
+          "contextual": "一日の終点であり、スマホ画面=異世界への入口が開く場所",
+          "connotation": [
+            "逃避",
+            "回復しない休息",
+            "定位置"
+          ]
+        },
+        "grammar": {
+          "pos": "noun",
+          "syntax_roles": [
+            "location",
+            "object"
+          ],
+          "particles_before": [
+            "の"
+          ],
+          "particles_after": [
+            "に",
+            "で",
+            "から"
+          ]
+        },
+        "register": {
+          "level": "conversational",
+          "persona_fit": "high"
+        },
+        "semantic": {
+          "domains": [
+            "body",
+            "household",
+            "rest"
+          ],
+          "concreteness": 5
+        },
+        "sound": {
+          "vowels": [
+            "u",
+            "o",
+            "N"
+          ],
+          "articulation_cost": 1,
+          "rhyme_roles": [
+            "internal"
+          ],
+          "rhyme_note": "台本(a-i-o-N)と語尾oN一致の緩い韻"
+        },
+        "craft": {
+          "humor_roles": [],
+          "narrative_roles": [
+            "scene_anchor",
+            "portal_image"
+          ],
+          "prominence": "normal"
+        },
+        "evidence": [
+          {
+            "kind": "dictionary"
+          }
+        ],
+        "confidence": {
+          "meaning": "high",
+          "reading": "high",
+          "persona_fit": "high"
+        }
+      },
+      {
+        "word_id": "W18",
+        "surface": "夜勤",
+        "tier": "candidate",
+        "scene_id": "SC02",
+        "reading": {
+          "kana": "ヤキン",
+          "source": "manual",
+          "confidence": "high"
+        },
+        "mora": {
+          "sequence": [
+            "ヤ",
+            "キ",
+            "ン"
+          ],
+          "count": 3
+        },
+        "meaning": {
+          "literal": "夜間の勤務",
+          "contextual": "昼夜逆転を制度として引き受けること。夜の労働の総称",
+          "connotation": [
+            "逆転生活",
+            "割増と引き換えの消耗",
+            "不可視の労働"
+          ]
+        },
+        "grammar": {
+          "pos": "noun",
+          "syntax_roles": [
+            "object",
+            "time_marker"
+          ],
+          "particles_before": [
+            "の"
+          ],
+          "particles_after": [
+            "明け",
+            "が",
+            "を",
+            "で"
+          ]
+        },
+        "register": {
+          "level": "conversational",
+          "persona_fit": "high"
+        },
+        "semantic": {
+          "domains": [
+            "labor",
+            "time",
+            "night"
+          ],
+          "concreteness": 4
+        },
+        "sound": {
+          "vowels": [
+            "a",
+            "i",
+            "N"
+          ],
+          "articulation_cost": 1,
+          "rhyme_roles": [
+            "line_end_anchor",
+            "internal"
+          ],
+          "rhyme_note": "課金(カキン)・無課金と母音一致の強い韻族"
+        },
+        "craft": {
+          "humor_roles": [
+            "register_collision"
+          ],
+          "narrative_roles": [
+            "institutional_evidence"
+          ],
+          "prominence": "accented"
+        },
+        "evidence": [
+          {
+            "kind": "dictionary"
+          }
+        ],
+        "confidence": {
+          "meaning": "high",
+          "reading": "high",
+          "persona_fit": "high"
+        }
+      },
+      {
+        "word_id": "W19",
+        "surface": "名札",
+        "tier": "candidate",
+        "scene_id": "SC02",
+        "reading": {
+          "kana": "ナフダ",
+          "source": "manual",
+          "confidence": "high"
+        },
+        "mora": {
+          "sequence": [
+            "ナ",
+            "フ",
+            "ダ"
+          ],
+          "count": 3
+        },
+        "meaning": {
+          "literal": "名前を書いて身につける札",
+          "contextual": "名前が胸にしか存在しない=誰にも名前を呼ばれないモブの証明",
+          "connotation": [
+            "匿名性",
+            "役割としての名前",
+            "制服の一部"
+          ]
+        },
+        "grammar": {
+          "pos": "noun",
+          "syntax_roles": [
+            "object",
+            "subject"
+          ],
+          "particles_before": [
+            "の"
+          ],
+          "particles_after": [
+            "を",
+            "が",
+            "に"
+          ]
+        },
+        "register": {
+          "level": "conversational",
+          "persona_fit": "high"
+        },
+        "semantic": {
+          "domains": [
+            "object",
+            "identity",
+            "labor"
+          ],
+          "concreteness": 5
+        },
+        "sound": {
+          "vowels": [
+            "a",
+            "u",
+            "a"
+          ],
+          "articulation_cost": 1,
+          "rhyme_roles": [
+            "internal"
+          ],
+          "rhyme_note": "モブ/NPCの現実側アンカーとして意味韻で機能"
+        },
+        "craft": {
+          "humor_roles": [
+            "status_gap",
+            "deadpan_evidence"
+          ],
+          "narrative_roles": [
+            "identity_evidence",
+            "recurring_image"
+          ],
+          "prominence": "accented"
+        },
+        "evidence": [
+          {
+            "kind": "dictionary"
+          }
+        ],
+        "confidence": {
+          "meaning": "high",
+          "reading": "high",
+          "persona_fit": "high"
+        }
+      },
+      {
+        "word_id": "W20",
+        "surface": "時給",
+        "tier": "candidate",
+        "scene_id": "SC02",
+        "reading": {
+          "kana": "ジキュー",
+          "source": "manual",
+          "confidence": "high"
+        },
+        "mora": {
+          "sequence": [
+            "ジ",
+            "キュ",
+            "ー"
+          ],
+          "count": 3
+        },
+        "meaning": {
+          "literal": "1時間あたりの賃金",
+          "contextual": "人生の時間の値札。レベル上げの現実版レート",
+          "connotation": [
+            "換算",
+            "安さ",
+            "時間の切り売り"
+          ]
+        },
+        "grammar": {
+          "pos": "noun",
+          "syntax_roles": [
+            "subject",
+            "object"
+          ],
+          "particles_before": [
+            "の"
+          ],
+          "particles_after": [
+            "が",
+            "で",
+            "に"
+          ]
+        },
+        "register": {
+          "level": "conversational",
+          "persona_fit": "high"
+        },
+        "semantic": {
+          "domains": [
+            "money",
+            "labor",
+            "time"
+          ],
+          "concreteness": 4
+        },
+        "sound": {
+          "vowels": [
+            "i",
+            "u",
+            "u"
+          ],
+          "articulation_cost": 1,
+          "rhyme_roles": [
+            "internal"
+          ],
+          "rhyme_note": "自給/需給と同音。『自給(自足)できない』の掛詞候補"
+        },
+        "craft": {
+          "humor_roles": [
+            "scale_shift"
+          ],
+          "narrative_roles": [
+            "institutional_evidence"
+          ],
+          "prominence": "normal"
+        },
+        "evidence": [
+          {
+            "kind": "dictionary"
+          }
+        ],
+        "confidence": {
+          "meaning": "high",
+          "reading": "high",
+          "persona_fit": "high"
+        }
+      },
+      {
+        "word_id": "W21",
+        "surface": "ガチャ",
+        "tier": "candidate",
+        "scene_id": "SC03",
+        "reading": {
+          "kana": "ガチャ",
+          "source": "manual",
+          "confidence": "high"
+        },
+        "mora": {
+          "sequence": [
+            "ガ",
+            "チャ"
+          ],
+          "count": 2
+        },
+        "meaning": {
+          "literal": "ランダムに景品が出る課金抽選の俗称",
+          "contextual": "確率に金を払う行為の代名詞。運を売る商売の最小単位",
+          "connotation": [
+            "運任せ",
+            "射幸",
+            "諦めと期待の混合"
+          ]
+        },
+        "grammar": {
+          "pos": "noun",
+          "syntax_roles": [
+            "object",
+            "subject",
+            "suffix_component"
+          ],
+          "particles_before": [],
+          "particles_after": [
+            "を",
+            "が",
+            "で"
+          ]
+        },
+        "register": {
+          "level": "slang",
+          "persona_fit": "high"
+        },
+        "semantic": {
+          "domains": [
+            "gacha_economy",
+            "game",
+            "chance"
+          ],
+          "concreteness": 4
+        },
+        "sound": {
+          "vowels": [
+            "a",
+            "a"
+          ],
+          "articulation_cost": 1,
+          "rhyme_roles": [
+            "internal",
+            "onomatopoeic_anchor"
+          ],
+          "rhyme_note": "擬音由来なので連打(ガチャガチャ)でリズム化可能"
+        },
+        "craft": {
+          "humor_roles": [
+            "scale_shift"
+          ],
+          "narrative_roles": [
+            "system_symbol"
+          ],
+          "prominence": "normal"
+        },
+        "evidence": [
+          {
+            "kind": "dictionary"
+          },
+          {
+            "kind": "inference",
+            "note": "一般スラングとして扱い特定サービス名は含めない"
+          }
+        ],
+        "confidence": {
+          "meaning": "high",
+          "reading": "high",
+          "persona_fit": "high"
+        }
+      },
+      {
+        "word_id": "W22",
+        "surface": "親ガチャ",
+        "tier": "must_use",
+        "scene_id": "SC03",
+        "reading": {
+          "kana": "オヤガチャ",
+          "source": "manual",
+          "confidence": "high"
+        },
+        "mora": {
+          "sequence": [
+            "オ",
+            "ヤ",
+            "ガ",
+            "チャ"
+          ],
+          "count": 4
+        },
+        "meaning": {
+          "literal": "生まれる家庭は選べないことをガチャに喩えた俗語",
+          "contextual": "初期ステータス配布の現実名。briefの対応構造の中心語",
+          "connotation": [
+            "宿命論",
+            "自嘲",
+            "世代の共通語"
+          ],
+          "ambiguity": [
+            "親個人への攻撃と誤読されうる。標的は配布システムだと文脈で明示する"
+          ]
+        },
+        "grammar": {
+          "pos": "noun",
+          "syntax_roles": [
+            "subject",
+            "object",
+            "topic"
+          ],
+          "particles_before": [],
+          "particles_after": [
+            "が",
+            "で",
+            "の",
+            "って"
+          ]
+        },
+        "register": {
+          "level": "slang",
+          "persona_fit": "high"
+        },
+        "semantic": {
+          "domains": [
+            "gacha_economy",
+            "family",
+            "inequality"
+          ],
+          "concreteness": 4
+        },
+        "sound": {
+          "vowels": [
+            "o",
+            "a",
+            "a",
+            "a"
+          ],
+          "articulation_cost": 1,
+          "rhyme_roles": [
+            "line_end_anchor",
+            "hook_word"
+          ],
+          "rhyme_note": "ア段連続で叫びやすい。hook向き"
+        },
+        "craft": {
+          "humor_roles": [
+            "scale_shift",
+            "deadpan_evidence"
+          ],
+          "narrative_roles": [
+            "thesis_word",
+            "hook_anchor"
+          ],
+          "prominence": "accented"
+        },
+        "evidence": [
+          {
+            "kind": "user_input",
+            "note": "brief facts_and_images に明記"
+          }
+        ],
+        "confidence": {
+          "meaning": "high",
+          "reading": "high",
+          "persona_fit": "high"
+        }
+      },
+      {
+        "word_id": "W23",
+        "surface": "リセマラ",
+        "tier": "must_use",
+        "scene_id": "SC03",
+        "reading": {
+          "kana": "リセマラ",
+          "source": "manual",
+          "confidence": "high"
+        },
+        "mora": {
+          "sequence": [
+            "リ",
+            "セ",
+            "マ",
+            "ラ"
+          ],
+          "count": 4
+        },
+        "meaning": {
+          "literal": "リセットマラソンの略。良い初期結果が出るまでゲームを初期化し直すこと",
+          "contextual": "人生ではできないやり直しの象徴。転職=現実のリセマラという対応の軸",
+          "connotation": [
+            "やり直し願望",
+            "徒労",
+            "最適化強迫"
+          ],
+          "ambiguity": [
+            "非ゲーマーには説明が要る語。hookで使うならsetup必須"
+          ]
+        },
+        "grammar": {
+          "pos": "noun",
+          "syntax_roles": [
+            "object",
+            "predicate_component"
+          ],
+          "particles_before": [],
+          "particles_after": [
+            "を",
+            "する",
+            "できない"
+          ]
+        },
+        "register": {
+          "level": "slang",
+          "persona_fit": "high"
+        },
+        "semantic": {
+          "domains": [
+            "gacha_economy",
+            "game",
+            "restart"
+          ],
+          "concreteness": 4
+        },
+        "sound": {
+          "vowels": [
+            "i",
+            "e",
+            "a",
+            "a"
+          ],
+          "articulation_cost": 1,
+          "rhyme_roles": [
+            "line_end_anchor",
+            "hook_word"
+          ],
+          "rhyme_note": "4モーラ軽快。『できない』を付けた否定形が核"
+        },
+        "craft": {
+          "humor_roles": [
+            "scale_shift",
+            "bathos"
+          ],
+          "narrative_roles": [
+            "thesis_word",
+            "turn"
+          ],
+          "prominence": "accented"
+        },
+        "evidence": [
+          {
+            "kind": "user_input",
+            "note": "brief facts_and_images に明記"
+          }
+        ],
+        "confidence": {
+          "meaning": "high",
+          "reading": "high",
+          "persona_fit": "high"
+        }
+      },
+      {
+        "word_id": "W24",
+        "surface": "課金",
+        "tier": "candidate",
+        "scene_id": "SC03",
+        "reading": {
+          "kana": "カキン",
+          "source": "manual",
+          "confidence": "high"
+        },
+        "mora": {
+          "sequence": [
+            "カ",
+            "キ",
+            "ン"
+          ],
+          "count": 3
+        },
+        "meaning": {
+          "literal": "料金を課すこと。転じて自分が金を払うことの俗用",
+          "contextual": "設計された出費。祈りに値段がつく行為",
+          "connotation": [
+            "自発的搾取",
+            "熱量の証明",
+            "後悔の前借り"
+          ],
+          "ambiguity": [
+            "本来は『課す』側の語だが俗用の『払う』側で使う"
+          ]
+        },
+        "grammar": {
+          "pos": "noun",
+          "syntax_roles": [
+            "object",
+            "predicate_component"
+          ],
+          "particles_before": [],
+          "particles_after": [
+            "する",
+            "が",
+            "で"
+          ]
+        },
+        "register": {
+          "level": "slang",
+          "persona_fit": "high"
+        },
+        "semantic": {
+          "domains": [
+            "gacha_economy",
+            "money"
+          ],
+          "concreteness": 4
+        },
+        "sound": {
+          "vowels": [
+            "a",
+            "i",
+            "N"
+          ],
+          "articulation_cost": 1,
+          "rhyme_roles": [
+            "line_end_anchor",
+            "internal"
+          ],
+          "rhyme_note": "夜勤(ヤキン)と母音完全一致。労働と課金の往復韻が組める"
+        },
+        "craft": {
+          "humor_roles": [
+            "register_collision"
+          ],
+          "narrative_roles": [
+            "system_symbol",
+            "evidence"
+          ],
+          "prominence": "accented"
+        },
+        "evidence": [
+          {
+            "kind": "dictionary"
+          }
+        ],
+        "confidence": {
+          "meaning": "high",
+          "reading": "high",
+          "persona_fit": "high"
+        }
+      },
+      {
+        "word_id": "W25",
+        "surface": "無課金",
+        "tier": "candidate",
+        "scene_id": "SC03",
+        "reading": {
+          "kana": "ムカキン",
+          "source": "manual",
+          "confidence": "high"
+        },
+        "mora": {
+          "sequence": [
+            "ム",
+            "カ",
+            "キ",
+            "ン"
+          ],
+          "count": 4
+        },
+        "meaning": {
+          "literal": "課金をしないでゲームを遊ぶこと・人",
+          "contextual": "無資本の現実対応。金を出さない=出せない側の自称",
+          "connotation": [
+            "縛りプレイ",
+            "痩せ我慢",
+            "階級の婉曲語"
+          ]
+        },
+        "grammar": {
+          "pos": "noun",
+          "syntax_roles": [
+            "predicate_noun",
+            "modifier",
+            "topic"
+          ],
+          "particles_before": [],
+          "particles_after": [
+            "で",
+            "の",
+            "でも"
+          ]
+        },
+        "register": {
+          "level": "slang",
+          "persona_fit": "high"
+        },
+        "semantic": {
+          "domains": [
+            "gacha_economy",
+            "money",
+            "class"
+          ],
+          "concreteness": 4
+        },
+        "sound": {
+          "vowels": [
+            "u",
+            "a",
+            "i",
+            "N"
+          ],
+          "articulation_cost": 1,
+          "rhyme_roles": [
+            "line_end",
+            "internal"
+          ],
+          "rhyme_note": "課金/夜勤の韻族の4モーラ変化形"
+        },
+        "craft": {
+          "humor_roles": [
+            "status_gap"
+          ],
+          "narrative_roles": [
+            "self_position"
+          ],
+          "prominence": "normal"
+        },
+        "evidence": [
+          {
+            "kind": "user_input",
+            "note": "brief 対応構造の例: 無課金=無資本"
+          }
+        ],
+        "confidence": {
+          "meaning": "high",
+          "reading": "high",
+          "persona_fit": "high"
+        }
+      },
+      {
+        "word_id": "W26",
+        "surface": "おすすめ欄",
+        "tier": "candidate",
+        "scene_id": "SC03",
+        "reading": {
+          "kana": "オススメラン",
+          "source": "manual",
+          "confidence": "high"
+        },
+        "mora": {
+          "sequence": [
+            "オ",
+            "ス",
+            "ス",
+            "メ",
+            "ラ",
+            "ン"
+          ],
+          "count": 6
+        },
+        "meaning": {
+          "literal": "アルゴリズムが選んだ表示枠",
+          "contextual": "俺より俺の欲望に詳しい他者。選ばされているのに選んでいる気になる場所",
+          "connotation": [
+            "受動",
+            "最適化",
+            "気味の良い監視"
+          ]
+        },
+        "grammar": {
+          "pos": "noun",
+          "syntax_roles": [
+            "subject",
+            "location"
+          ],
+          "particles_before": [
+            "の"
+          ],
+          "particles_after": [
+            "が",
+            "に",
+            "を"
+          ]
+        },
+        "register": {
+          "level": "conversational",
+          "persona_fit": "high"
+        },
+        "semantic": {
+          "domains": [
+            "smartphone",
+            "algorithm",
+            "attention"
+          ],
+          "concreteness": 4
+        },
+        "sound": {
+          "vowels": [
+            "o",
+            "u",
+            "u",
+            "e",
+            "a",
+            "N"
+          ],
+          "articulation_cost": 2,
+          "rhyme_roles": [
+            "phrase_component"
+          ],
+          "rhyme_note": "ス連続の摩擦音がささやきに向く"
+        },
+        "craft": {
+          "humor_roles": [
+            "deadpan_evidence"
+          ],
+          "narrative_roles": [
+            "system_symbol",
+            "relationship_evidence"
+          ],
+          "prominence": "normal"
+        },
+        "evidence": [
+          {
+            "kind": "user_input",
+            "note": "brief 現実側の対応物に明記"
+          }
+        ],
+        "confidence": {
+          "meaning": "high",
+          "reading": "high",
+          "persona_fit": "high"
+        }
+      },
+      {
+        "word_id": "W27",
+        "surface": "スワイプ",
+        "tier": "candidate",
+        "scene_id": "SC03",
+        "reading": {
+          "kana": "スワイプ",
+          "source": "manual",
+          "confidence": "high"
+        },
+        "mora": {
+          "sequence": [
+            "ス",
+            "ワ",
+            "イ",
+            "プ"
+          ],
+          "count": 4
+        },
+        "meaning": {
+          "literal": "画面を指で払う操作",
+          "contextual": "無限に続く最小の労働。深夜の唯一の運動",
+          "connotation": [
+            "反復",
+            "無意識",
+            "消費の身体化"
+          ]
+        },
+        "grammar": {
+          "pos": "noun",
+          "syntax_roles": [
+            "predicate_component",
+            "object"
+          ],
+          "particles_before": [],
+          "particles_after": [
+            "する",
+            "で"
+          ]
+        },
+        "register": {
+          "level": "conversational",
+          "persona_fit": "high"
+        },
+        "semantic": {
+          "domains": [
+            "smartphone",
+            "body",
+            "motion"
+          ],
+          "concreteness": 5
+        },
+        "sound": {
+          "vowels": [
+            "u",
+            "a",
+            "i",
+            "u"
+          ],
+          "articulation_cost": 1,
+          "rhyme_roles": [
+            "internal"
+          ],
+          "rhyme_note": "周回(u-u-a-i)と母音構成が近く並置しやすい"
+        },
+        "craft": {
+          "humor_roles": [
+            "bathos"
+          ],
+          "narrative_roles": [
+            "action",
+            "loop_image"
+          ],
+          "prominence": "normal"
+        },
+        "evidence": [
+          {
+            "kind": "dictionary"
+          }
+        ],
+        "confidence": {
+          "meaning": "high",
+          "reading": "high",
+          "persona_fit": "high"
+        }
+      },
+      {
+        "word_id": "W28",
+        "surface": "通知",
+        "tier": "candidate",
+        "scene_id": "SC03",
+        "reading": {
+          "kana": "ツーチ",
+          "source": "manual",
+          "confidence": "high"
+        },
+        "mora": {
+          "sequence": [
+            "ツ",
+            "ー",
+            "チ"
+          ],
+          "count": 3
+        },
+        "meaning": {
+          "literal": "アプリ等からの知らせ",
+          "contextual": "深夜に鳴る唯一の呼びかけ。ただし相手は人間ではない",
+          "connotation": [
+            "擬似的な用事",
+            "中断",
+            "孤独の可視化"
+          ]
+        },
+        "grammar": {
+          "pos": "noun",
+          "syntax_roles": [
+            "subject",
+            "object"
+          ],
+          "particles_before": [
+            "の"
+          ],
+          "particles_after": [
+            "が",
+            "を",
+            "で"
+          ]
+        },
+        "register": {
+          "level": "conversational",
+          "persona_fit": "high"
+        },
+        "semantic": {
+          "domains": [
+            "smartphone",
+            "sound",
+            "relationship"
+          ],
+          "concreteness": 4
+        },
+        "sound": {
+          "vowels": [
+            "u",
+            "u",
+            "i"
+          ],
+          "articulation_cost": 1,
+          "rhyme_roles": [
+            "internal"
+          ],
+          "rhyme_note": "時給(i-u-u)と母音の鏡像でスラント可"
+        },
+        "craft": {
+          "humor_roles": [
+            "deadpan_evidence"
+          ],
+          "narrative_roles": [
+            "sound_evidence",
+            "relationship_evidence"
+          ],
+          "prominence": "background"
+        },
+        "evidence": [
+          {
+            "kind": "dictionary"
+          }
+        ],
+        "confidence": {
+          "meaning": "high",
+          "reading": "high",
+          "persona_fit": "high"
+        }
+      },
+      {
+        "word_id": "W29",
+        "surface": "充電",
+        "tier": "must_use",
+        "scene_id": "SC03",
+        "reading": {
+          "kana": "ジューデン",
+          "source": "manual",
+          "confidence": "high"
+        },
+        "mora": {
+          "sequence": [
+            "ジュ",
+            "ー",
+            "デ",
+            "ン"
+          ],
+          "count": 4
+        },
+        "meaning": {
+          "literal": "電池に電気を蓄えること",
+          "contextual": "スマホは満充電、持ち主は空のまま。回復の皮肉な非対称",
+          "connotation": [
+            "回復",
+            "依存",
+            "命綱"
+          ]
+        },
+        "grammar": {
+          "pos": "noun",
+          "syntax_roles": [
+            "object",
+            "predicate_component"
+          ],
+          "particles_before": [
+            "の"
+          ],
+          "particles_after": [
+            "する",
+            "が",
+            "切れ"
+          ]
+        },
+        "register": {
+          "level": "conversational",
+          "persona_fit": "high"
+        },
+        "semantic": {
+          "domains": [
+            "smartphone",
+            "energy",
+            "body"
+          ],
+          "concreteness": 5
+        },
+        "sound": {
+          "vowels": [
+            "u",
+            "u",
+            "e",
+            "N"
+          ],
+          "articulation_cost": 1,
+          "rhyme_roles": [
+            "line_end_anchor",
+            "hook_word"
+          ],
+          "rhyme_note": "終電(シューデン)とほぼ完全韻。この曲の看板ライム候補"
+        },
+        "craft": {
+          "humor_roles": [
+            "double_meaning",
+            "bathos"
+          ],
+          "narrative_roles": [
+            "recurring_image",
+            "irony_pivot"
+          ],
+          "prominence": "accented"
+        },
+        "evidence": [
+          {
+            "kind": "dictionary"
+          }
+        ],
+        "confidence": {
+          "meaning": "high",
+          "reading": "high",
+          "persona_fit": "high"
+        }
+      },
+      {
+        "word_id": "W30",
+        "surface": "残高",
+        "tier": "candidate",
+        "scene_id": "SC03",
+        "reading": {
+          "kana": "ザンダカ",
+          "source": "manual",
+          "confidence": "high"
+        },
+        "mora": {
+          "sequence": [
+            "ザ",
+            "ン",
+            "ダ",
+            "カ"
+          ],
+          "count": 4
+        },
+        "meaning": {
+          "literal": "口座やアプリに残っている金額",
+          "contextual": "現実のHPバー。減る一方のステータス表示",
+          "connotation": [
+            "不安",
+            "数値化された生活",
+            "月末"
+          ]
+        },
+        "grammar": {
+          "pos": "noun",
+          "syntax_roles": [
+            "subject",
+            "object"
+          ],
+          "particles_before": [
+            "の"
+          ],
+          "particles_after": [
+            "が",
+            "を",
+            "で"
+          ]
+        },
+        "register": {
+          "level": "neutral",
+          "persona_fit": "high"
+        },
+        "semantic": {
+          "domains": [
+            "money",
+            "number",
+            "anxiety"
+          ],
+          "concreteness": 5
+        },
+        "sound": {
+          "vowels": [
+            "a",
+            "N",
+            "a",
+            "a"
+          ],
+          "articulation_cost": 1,
+          "rhyme_roles": [
+            "internal",
+            "line_end"
+          ],
+          "rhyme_note": "濁音先頭でビートに刺さる。ア段連続"
+        },
+        "craft": {
+          "humor_roles": [
+            "deadpan_evidence"
+          ],
+          "narrative_roles": [
+            "evidence",
+            "hp_bar_image"
+          ],
+          "prominence": "normal"
+        },
+        "evidence": [
+          {
+            "kind": "user_input",
+            "note": "brief: 奨学金の残高"
+          }
+        ],
+        "confidence": {
+          "meaning": "high",
+          "reading": "high",
+          "persona_fit": "high"
+        }
+      },
+      {
+        "word_id": "W31",
+        "surface": "排出率",
+        "tier": "candidate",
+        "scene_id": "SC03",
+        "reading": {
+          "kana": "ハイシュツリツ",
+          "source": "manual",
+          "confidence": "high"
+        },
+        "mora": {
+          "sequence": [
+            "ハ",
+            "イ",
+            "シュ",
+            "ツ",
+            "リ",
+            "ツ"
+          ],
+          "count": 6
+        },
+        "meaning": {
+          "literal": "ガチャで対象が出る確率の表記",
+          "contextual": "ゲームは確率を公表するが、人生の当選確率は非公表という皮肉の軸",
+          "connotation": [
+            "透明性の偽装",
+            "確率の壁",
+            "小数点の絶望"
+          ]
+        },
+        "grammar": {
+          "pos": "noun",
+          "syntax_roles": [
+            "subject",
+            "object"
+          ],
+          "particles_before": [
+            "の"
+          ],
+          "particles_after": [
+            "が",
+            "を",
+            "は"
+          ]
+        },
+        "register": {
+          "level": "slang",
+          "persona_fit": "high"
+        },
+        "semantic": {
+          "domains": [
+            "gacha_economy",
+            "number",
+            "institution"
+          ],
+          "concreteness": 4
+        },
+        "sound": {
+          "vowels": [
+            "a",
+            "i",
+            "u",
+            "u",
+            "i",
+            "u"
+          ],
+          "articulation_cost": 4,
+          "rhyme_roles": [
+            "phrase_component"
+          ],
+          "rhyme_note": "ツ連続で滑舌負荷が高い。速いフローでは事故リスク"
+        },
+        "craft": {
+          "humor_roles": [
+            "register_collision",
+            "deadpan_evidence"
+          ],
+          "narrative_roles": [
+            "satire_evidence"
+          ],
+          "prominence": "normal"
+        },
+        "evidence": [
+          {
+            "kind": "inference",
+            "note": "ガチャ文化の一般語。特定タイトルに依存しない"
+          }
+        ],
+        "confidence": {
+          "meaning": "high",
+          "reading": "medium",
+          "persona_fit": "high"
+        }
+      },
+      {
+        "word_id": "W32",
+        "surface": "天井",
+        "tier": "must_use",
+        "scene_id": "SC03",
+        "reading": {
+          "kana": "テンジョー",
+          "source": "manual",
+          "confidence": "high"
+        },
+        "mora": {
+          "sequence": [
+            "テ",
+            "ン",
+            "ジョ",
+            "ー"
+          ],
+          "count": 4
+        },
+        "meaning": {
+          "literal": "部屋の上面。ガチャ用語では『一定回数で確定入手できる救済上限』",
+          "contextual": "ワンルームで見上げる天井と、ガチャの天井の二義。『こっちの天井は保証してくれない』の軸",
+          "connotation": [
+            "上限",
+            "行き止まり",
+            "皮肉な救済"
+          ],
+          "ambiguity": [
+            "ガチャ用法は文化前提知識が必要。部屋の天井を先に見せてから反転させるsetup必須"
+          ]
+        },
+        "grammar": {
+          "pos": "noun",
+          "syntax_roles": [
+            "object",
+            "subject"
+          ],
+          "particles_before": [
+            "の"
+          ],
+          "particles_after": [
+            "を",
+            "が",
+            "まで",
+            "に"
+          ]
+        },
+        "register": {
+          "level": "conversational",
+          "persona_fit": "high"
+        },
+        "semantic": {
+          "domains": [
+            "housing",
+            "gacha_economy",
+            "limit"
+          ],
+          "concreteness": 5
+        },
+        "sound": {
+          "vowels": [
+            "e",
+            "N",
+            "o",
+            "o"
+          ],
+          "articulation_cost": 1,
+          "rhyme_roles": [
+            "line_end_anchor",
+            "double_meaning_pivot"
+          ],
+          "rhyme_note": "残業(ザンギョー a-N-o-o)とスラント韻。W46とペア"
+        },
+        "craft": {
+          "humor_roles": [
+            "double_meaning",
+            "callback_object"
+          ],
+          "narrative_roles": [
+            "recurring_image",
+            "payoff"
+          ],
+          "prominence": "accented"
+        },
+        "evidence": [
+          {
+            "kind": "dictionary"
+          },
+          {
+            "kind": "inference",
+            "note": "ガチャ用語としての用法は一般スラング"
+          }
+        ],
+        "confidence": {
+          "meaning": "high",
+          "reading": "high",
+          "persona_fit": "high"
+        }
+      },
+      {
+        "word_id": "W33",
+        "surface": "異世界",
+        "tier": "candidate",
+        "scene_id": "SC04",
+        "reading": {
+          "kana": "イセカイ",
+          "source": "manual",
+          "confidence": "high"
+        },
+        "mora": {
+          "sequence": [
+            "イ",
+            "セ",
+            "カ",
+            "イ"
+          ],
+          "count": 4
+        },
+        "meaning": {
+          "literal": "この世界とは別の世界",
+          "contextual": "ジャンル名と化した逃避先。行けない前提で語られる楽園",
+          "connotation": [
+            "逃避",
+            "ジャンル消費",
+            "ここではないどこか"
+          ]
+        },
+        "grammar": {
+          "pos": "noun",
+          "syntax_roles": [
+            "object",
+            "modifier",
+            "topic"
+          ],
+          "particles_before": [],
+          "particles_after": [
+            "に",
+            "へ",
+            "の",
+            "なら"
+          ]
+        },
+        "register": {
+          "level": "slang",
+          "persona_fit": "high"
+        },
+        "semantic": {
+          "domains": [
+            "rpg_trope",
+            "escape"
+          ],
+          "concreteness": 3
+        },
+        "sound": {
+          "vowels": [
+            "i",
+            "e",
+            "a",
+            "i"
+          ],
+          "articulation_cost": 1,
+          "rhyme_roles": [
+            "line_end_anchor",
+            "internal"
+          ],
+          "rhyme_note": "語尾カイ族(周回/改札/回送)の中心。i-e-a-iは世界(セカイ)を内包"
+        },
+        "craft": {
+          "humor_roles": [
+            "scale_shift"
+          ],
+          "narrative_roles": [
+            "genre_frame",
+            "contrast_pole"
+          ],
+          "prominence": "accented"
+        },
+        "evidence": [
+          {
+            "kind": "user_input",
+            "note": "briefテーマ語"
+          }
+        ],
+        "confidence": {
+          "meaning": "high",
+          "reading": "high",
+          "persona_fit": "high"
+        }
+      },
+      {
+        "word_id": "W34",
+        "surface": "転生",
+        "tier": "must_use",
+        "scene_id": "SC04",
+        "reading": {
+          "kana": "テンセイ",
+          "source": "manual",
+          "confidence": "high"
+        },
+        "mora": {
+          "sequence": [
+            "テ",
+            "ン",
+            "セ",
+            "イ"
+          ],
+          "count": 4
+        },
+        "meaning": {
+          "literal": "生まれ変わること",
+          "contextual": "『やり直しは死後にしか設定されていない』という残酷な希望の商品名",
+          "connotation": [
+            "リセット願望",
+            "宗教のゲーム化",
+            "現実の全否定"
+          ]
+        },
+        "grammar": {
+          "pos": "noun",
+          "syntax_roles": [
+            "object",
+            "predicate_component",
+            "topic"
+          ],
+          "particles_before": [],
+          "particles_after": [
+            "する",
+            "に",
+            "したら",
+            "なんて"
+          ]
+        },
+        "register": {
+          "level": "slang",
+          "persona_fit": "high"
+        },
+        "semantic": {
+          "domains": [
+            "rpg_trope",
+            "afterlife",
+            "escape"
+          ],
+          "concreteness": 3
+        },
+        "sound": {
+          "vowels": [
+            "e",
+            "N",
+            "e",
+            "i"
+          ],
+          "articulation_cost": 1,
+          "rhyme_roles": [
+            "line_end_anchor",
+            "hook_word"
+          ],
+          "rhyme_note": "人生(ジンセイ i-N-e-i)と強スラント。テーマの核となる韻ペア"
+        },
+        "craft": {
+          "humor_roles": [
+            "scale_shift",
+            "bathos"
+          ],
+          "narrative_roles": [
+            "thesis_word",
+            "hook_anchor"
+          ],
+          "prominence": "accented"
+        },
+        "evidence": [
+          {
+            "kind": "user_input",
+            "note": "briefテーマ語"
+          }
+        ],
+        "confidence": {
+          "meaning": "high",
+          "reading": "high",
+          "persona_fit": "high"
+        }
+      },
+      {
+        "word_id": "W35",
+        "surface": "ステータス画面",
+        "tier": "candidate",
+        "scene_id": "SC04",
+        "reading": {
+          "kana": "ステータスガメン",
+          "source": "manual",
+          "confidence": "high"
+        },
+        "mora": {
+          "sequence": [
+            "ス",
+            "テ",
+            "ー",
+            "タ",
+            "ス",
+            "ガ",
+            "メ",
+            "ン"
+          ],
+          "count": 8
+        },
+        "meaning": {
+          "literal": "RPGで能力値を一覧表示する画面",
+          "contextual": "自分の価値が数値で見える幻想。現実対応は履歴書と残高",
+          "connotation": [
+            "可視化への憧れ",
+            "数値主義",
+            "自己査定"
+          ]
+        },
+        "grammar": {
+          "pos": "noun",
+          "syntax_roles": [
+            "object",
+            "subject"
+          ],
+          "particles_before": [],
+          "particles_after": [
+            "を",
+            "が",
+            "に"
+          ]
+        },
+        "register": {
+          "level": "slang",
+          "persona_fit": "high"
+        },
+        "semantic": {
+          "domains": [
+            "rpg_trope",
+            "number",
+            "identity"
+          ],
+          "concreteness": 4
+        },
+        "sound": {
+          "vowels": [
+            "u",
+            "e",
+            "e",
+            "a",
+            "u",
+            "a",
+            "e",
+            "N"
+          ],
+          "articulation_cost": 3,
+          "rhyme_roles": [
+            "phrase_component"
+          ],
+          "rhyme_note": "8モーラ。小節頭から置き、語尾ガメンで画面系と連鎖"
+        },
+        "craft": {
+          "humor_roles": [
+            "scale_shift"
+          ],
+          "narrative_roles": [
+            "trope_frame",
+            "mapping_evidence"
+          ],
+          "prominence": "normal"
+        },
+        "evidence": [
+          {
+            "kind": "user_input",
+            "note": "brief facts_and_images に明記"
+          }
+        ],
+        "confidence": {
+          "meaning": "high",
+          "reading": "high",
+          "persona_fit": "high"
+        }
+      },
+      {
+        "word_id": "W36",
+        "surface": "スキルツリー",
+        "tier": "candidate",
+        "scene_id": "SC04",
+        "reading": {
+          "kana": "スキルツリー",
+          "source": "manual",
+          "confidence": "high"
+        },
+        "mora": {
+          "sequence": [
+            "ス",
+            "キ",
+            "ル",
+            "ツ",
+            "リ",
+            "ー"
+          ],
+          "count": 6
+        },
+        "meaning": {
+          "literal": "能力習得の分岐図",
+          "contextual": "成長が設計図として保証されている世界の象徴。現実の研修や資格欄の理想版",
+          "connotation": [
+            "保証された成長",
+            "選択の自由の幻想"
+          ]
+        },
+        "grammar": {
+          "pos": "noun",
+          "syntax_roles": [
+            "subject",
+            "object"
+          ],
+          "particles_before": [],
+          "particles_after": [
+            "が",
+            "を",
+            "に"
+          ]
+        },
+        "register": {
+          "level": "slang",
+          "persona_fit": "high"
+        },
+        "semantic": {
+          "domains": [
+            "rpg_trope",
+            "growth"
+          ],
+          "concreteness": 4
+        },
+        "sound": {
+          "vowels": [
+            "u",
+            "i",
+            "u",
+            "u",
+            "i",
+            "i"
+          ],
+          "articulation_cost": 2,
+          "rhyme_roles": [
+            "phrase_component"
+          ],
+          "rhyme_note": "ウ・イ段のこもった響き。ささやきパートに合う"
+        },
+        "craft": {
+          "humor_roles": [
+            "scale_shift"
+          ],
+          "narrative_roles": [
+            "trope_frame"
+          ],
+          "prominence": "background"
+        },
+        "evidence": [
+          {
+            "kind": "user_input",
+            "note": "brief facts_and_images に明記"
+          }
+        ],
+        "confidence": {
+          "meaning": "high",
+          "reading": "high",
+          "persona_fit": "high"
+        }
+      },
+      {
+        "word_id": "W37",
+        "surface": "レベル上げ",
+        "tier": "candidate",
+        "scene_id": "SC04",
+        "reading": {
+          "kana": "レベルアゲ",
+          "source": "manual",
+          "confidence": "high"
+        },
+        "mora": {
+          "sequence": [
+            "レ",
+            "ベ",
+            "ル",
+            "ア",
+            "ゲ"
+          ],
+          "count": 5
+        },
+        "meaning": {
+          "literal": "経験値を稼いでキャラを強くする作業",
+          "contextual": "努力が必ず数値に変わる世界の労働。現実の時給労働との対比項",
+          "connotation": [
+            "報われる努力",
+            "単純作業の美化"
+          ]
+        },
+        "grammar": {
+          "pos": "noun",
+          "syntax_roles": [
+            "object",
+            "predicate_component"
+          ],
+          "particles_before": [],
+          "particles_after": [
+            "する",
+            "の",
+            "より"
+          ]
+        },
+        "register": {
+          "level": "slang",
+          "persona_fit": "high"
+        },
+        "semantic": {
+          "domains": [
+            "rpg_trope",
+            "labor",
+            "growth"
+          ],
+          "concreteness": 4
+        },
+        "sound": {
+          "vowels": [
+            "e",
+            "e",
+            "u",
+            "a",
+            "e"
+          ],
+          "articulation_cost": 1,
+          "rhyme_roles": [
+            "internal"
+          ],
+          "rhyme_note": "『上げ』を賃上げ/棚上げ等と語尾で共鳴させられる"
+        },
+        "craft": {
+          "humor_roles": [
+            "scale_shift",
+            "bathos"
+          ],
+          "narrative_roles": [
+            "mapping_evidence"
+          ],
+          "prominence": "normal"
+        },
+        "evidence": [
+          {
+            "kind": "user_input",
+            "note": "brief facts_and_images に明記"
+          }
+        ],
+        "confidence": {
+          "meaning": "high",
+          "reading": "high",
+          "persona_fit": "high"
+        }
+      },
+      {
+        "word_id": "W38",
+        "surface": "チート",
+        "tier": "candidate",
+        "scene_id": "SC04",
+        "reading": {
+          "kana": "チート",
+          "source": "manual",
+          "confidence": "high"
+        },
+        "mora": {
+          "sequence": [
+            "チ",
+            "ー",
+            "ト"
+          ],
+          "count": 3
+        },
+        "meaning": {
+          "literal": "不正・規格外の強さ(cheat)",
+          "contextual": "主人公だけに配られる例外。現実対応は生まれつきのコネと実家の太さ",
+          "connotation": [
+            "ずる",
+            "羨望",
+            "配布の不平等"
+          ]
+        },
+        "grammar": {
+          "pos": "noun",
+          "syntax_roles": [
+            "modifier",
+            "object",
+            "predicate_noun"
+          ],
+          "particles_before": [],
+          "particles_after": [
+            "の",
+            "を",
+            "って"
+          ]
+        },
+        "register": {
+          "level": "slang",
+          "persona_fit": "high"
+        },
+        "semantic": {
+          "domains": [
+            "rpg_trope",
+            "inequality"
+          ],
+          "concreteness": 3
+        },
+        "sound": {
+          "vowels": [
+            "i",
+            "i",
+            "o"
+          ],
+          "articulation_cost": 1,
+          "rhyme_roles": [
+            "internal",
+            "line_end"
+          ],
+          "rhyme_note": "レシート/履歴書とイ・オ系で緩く連鎖"
+        },
+        "craft": {
+          "humor_roles": [
+            "status_gap"
+          ],
+          "narrative_roles": [
+            "inequality_symbol"
+          ],
+          "prominence": "normal"
+        },
+        "evidence": [
+          {
+            "kind": "user_input",
+            "note": "brief facts_and_images に明記"
+          }
+        ],
+        "confidence": {
+          "meaning": "high",
+          "reading": "high",
+          "persona_fit": "high"
+        }
+      },
+      {
+        "word_id": "W39",
+        "surface": "モブ",
+        "tier": "must_use",
+        "scene_id": "SC04",
+        "reading": {
+          "kana": "モブ",
+          "source": "manual",
+          "confidence": "high"
+        },
+        "mora": {
+          "sequence": [
+            "モ",
+            "ブ"
+          ],
+          "count": 2
+        },
+        "meaning": {
+          "literal": "群衆役。名前のない背景キャラ",
+          "contextual": "話者の自称であり、拒否すべき配役。曲全体のアイデンティティ語",
+          "connotation": [
+            "匿名",
+            "使い捨て",
+            "自嘲からの反転可能性"
+          ]
+        },
+        "grammar": {
+          "pos": "noun",
+          "syntax_roles": [
+            "predicate_noun",
+            "topic",
+            "modifier"
+          ],
+          "particles_before": [],
+          "particles_after": [
+            "の",
+            "で",
+            "は",
+            "扱い"
+          ]
+        },
+        "register": {
+          "level": "slang",
+          "persona_fit": "high"
+        },
+        "semantic": {
+          "domains": [
+            "rpg_trope",
+            "identity",
+            "class"
+          ],
+          "concreteness": 3
+        },
+        "sound": {
+          "vowels": [
+            "o",
+            "u"
+          ],
+          "articulation_cost": 1,
+          "rhyme_roles": [
+            "internal",
+            "hook_word"
+          ],
+          "rhyme_note": "2モーラで打点が強い。両唇音m-bの連続で口が閉じる=無名の身体化"
+        },
+        "craft": {
+          "humor_roles": [
+            "status_gap",
+            "deadpan_evidence"
+          ],
+          "narrative_roles": [
+            "identity_word",
+            "arc_pivot"
+          ],
+          "prominence": "accented"
+        },
+        "evidence": [
+          {
+            "kind": "user_input",
+            "note": "brief speaker.identity に明記"
+          }
+        ],
+        "confidence": {
+          "meaning": "high",
+          "reading": "high",
+          "persona_fit": "high"
+        }
+      },
+      {
+        "word_id": "W40",
+        "surface": "NPC",
+        "tier": "candidate",
+        "scene_id": "SC04",
+        "reading": {
+          "kana": "エヌピーシー",
+          "source": "manual",
+          "confidence": "medium"
+        },
+        "mora": {
+          "sequence": [
+            "エ",
+            "ヌ",
+            "ピ",
+            "ー",
+            "シ",
+            "ー"
+          ],
+          "count": 6
+        },
+        "meaning": {
+          "literal": "ノンプレイヤーキャラクター。操作されない住人",
+          "contextual": "決められた台詞しか話せない存在。マニュアル接客の自分と重なる",
+          "connotation": [
+            "自動応答",
+            "意志の不在",
+            "台本労働"
+          ]
+        },
+        "grammar": {
+          "pos": "noun",
+          "syntax_roles": [
+            "predicate_noun",
+            "modifier"
+          ],
+          "particles_before": [],
+          "particles_after": [
+            "の",
+            "みたい",
+            "扱い"
+          ]
+        },
+        "register": {
+          "level": "slang",
+          "persona_fit": "high"
+        },
+        "semantic": {
+          "domains": [
+            "rpg_trope",
+            "identity",
+            "labor"
+          ],
+          "concreteness": 3
+        },
+        "sound": {
+          "vowels": [
+            "e",
+            "u",
+            "i",
+            "i",
+            "i",
+            "i"
+          ],
+          "articulation_cost": 2,
+          "rhyme_roles": [
+            "phrase_component"
+          ],
+          "rhyme_note": "読みが6モーラと重い。演者により『エヌピーシ』等に縮む揺れあり"
+        },
+        "craft": {
+          "humor_roles": [
+            "status_gap",
+            "deadpan_evidence"
+          ],
+          "narrative_roles": [
+            "identity_word"
+          ],
+          "prominence": "normal"
+        },
+        "evidence": [
+          {
+            "kind": "user_input",
+            "note": "brief facts_and_images に明記"
+          }
+        ],
+        "confidence": {
+          "meaning": "high",
+          "reading": "medium",
+          "persona_fit": "high"
+        }
+      },
+      {
+        "word_id": "W41",
+        "surface": "主人公補正",
+        "tier": "candidate",
+        "scene_id": "SC04",
+        "reading": {
+          "kana": "シュジンコーホセイ",
+          "source": "manual",
+          "confidence": "high"
+        },
+        "mora": {
+          "sequence": [
+            "シュ",
+            "ジ",
+            "ン",
+            "コ",
+            "ー",
+            "ホ",
+            "セ",
+            "イ"
+          ],
+          "count": 8
+        },
+        "meaning": {
+          "literal": "主人公だから助かる・勝てるという物語上の優遇",
+          "contextual": "世界がひいきする力。現実には配布されない保険",
+          "connotation": [
+            "ご都合主義",
+            "特権の物語的正当化"
+          ]
+        },
+        "grammar": {
+          "pos": "noun",
+          "syntax_roles": [
+            "subject",
+            "object"
+          ],
+          "particles_before": [],
+          "particles_after": [
+            "が",
+            "は",
+            "なんて"
+          ]
+        },
+        "register": {
+          "level": "slang",
+          "persona_fit": "high"
+        },
+        "semantic": {
+          "domains": [
+            "rpg_trope",
+            "privilege"
+          ],
+          "concreteness": 3
+        },
+        "sound": {
+          "vowels": [
+            "u",
+            "i",
+            "N",
+            "o",
+            "o",
+            "o",
+            "e",
+            "i"
+          ],
+          "articulation_cost": 3,
+          "rhyme_roles": [
+            "phrase_component",
+            "line_end"
+          ],
+          "rhyme_note": "語尾セイが転生/人生の韻族に接続。8モーラは小節頭から"
+        },
+        "craft": {
+          "humor_roles": [
+            "status_gap",
+            "register_collision"
+          ],
+          "narrative_roles": [
+            "privilege_symbol"
+          ],
+          "prominence": "normal"
+        },
+        "evidence": [
+          {
+            "kind": "user_input",
+            "note": "brief facts_and_images に明記"
+          }
+        ],
+        "confidence": {
+          "meaning": "high",
+          "reading": "high",
+          "persona_fit": "high"
+        }
+      },
+      {
+        "word_id": "W42",
+        "surface": "周回",
+        "tier": "candidate",
+        "scene_id": "SC04",
+        "reading": {
+          "kana": "シューカイ",
+          "source": "manual",
+          "confidence": "high"
+        },
+        "mora": {
+          "sequence": [
+            "シュ",
+            "ー",
+            "カ",
+            "イ"
+          ],
+          "count": 4
+        },
+        "meaning": {
+          "literal": "同じステージを繰り返し攻略すること",
+          "contextual": "通勤とシフトのループの言い換え。娯楽の反復と労働の反復が同じ形をしている証拠",
+          "connotation": [
+            "反復",
+            "作業感",
+            "抜け出せなさ"
+          ]
+        },
+        "grammar": {
+          "pos": "noun",
+          "syntax_roles": [
+            "object",
+            "predicate_component"
+          ],
+          "particles_before": [],
+          "particles_after": [
+            "する",
+            "の",
+            "に"
+          ]
+        },
+        "register": {
+          "level": "slang",
+          "persona_fit": "high"
+        },
+        "semantic": {
+          "domains": [
+            "rpg_trope",
+            "loop",
+            "labor"
+          ],
+          "concreteness": 3
+        },
+        "sound": {
+          "vowels": [
+            "u",
+            "u",
+            "a",
+            "i"
+          ],
+          "articulation_cost": 1,
+          "rhyme_roles": [
+            "line_end_anchor",
+            "internal"
+          ],
+          "rhyme_note": "異世界/改札/回送のカイ族。終電(u-u-e-N)とも頭2モーラ一致"
+        },
+        "craft": {
+          "humor_roles": [
+            "double_meaning"
+          ],
+          "narrative_roles": [
+            "loop_image",
+            "mapping_evidence"
+          ],
+          "prominence": "accented"
+        },
+        "evidence": [
+          {
+            "kind": "user_input",
+            "note": "brief facts_and_images に明記"
+          }
+        ],
+        "confidence": {
+          "meaning": "high",
+          "reading": "high",
+          "persona_fit": "high"
+        }
+      },
+      {
+        "word_id": "W43",
+        "surface": "クエスト",
+        "tier": "candidate",
+        "scene_id": "SC04",
+        "reading": {
+          "kana": "クエスト",
+          "source": "manual",
+          "confidence": "high"
+        },
+        "mora": {
+          "sequence": [
+            "ク",
+            "エ",
+            "ス",
+            "ト"
+          ],
+          "count": 4
+        },
+        "meaning": {
+          "literal": "ゲーム内の依頼・任務",
+          "contextual": "報酬が明示された仕事の理想形。現実対応は報酬の見えない残業=強制クエスト",
+          "connotation": [
+            "達成感の設計",
+            "引き受けさせられる形式"
+          ]
+        },
+        "grammar": {
+          "pos": "noun",
+          "syntax_roles": [
+            "object",
+            "subject"
+          ],
+          "particles_before": [],
+          "particles_after": [
+            "を",
+            "が",
+            "扱い"
+          ]
+        },
+        "register": {
+          "level": "slang",
+          "persona_fit": "high"
+        },
+        "semantic": {
+          "domains": [
+            "rpg_trope",
+            "labor"
+          ],
+          "concreteness": 4
+        },
+        "sound": {
+          "vowels": [
+            "u",
+            "e",
+            "u",
+            "o"
+          ],
+          "articulation_cost": 1,
+          "rhyme_roles": [
+            "internal"
+          ],
+          "rhyme_note": "駆け込む(a-e-o-u)と子音kで頭韻"
+        },
+        "craft": {
+          "humor_roles": [
+            "register_collision"
+          ],
+          "narrative_roles": [
+            "mapping_evidence"
+          ],
+          "prominence": "normal"
+        },
+        "evidence": [
+          {
+            "kind": "user_input",
+            "note": "brief 対応構造の例: 残業=強制クエスト"
+          }
+        ],
+        "confidence": {
+          "meaning": "high",
+          "reading": "high",
+          "persona_fit": "high"
+        }
+      },
+      {
+        "word_id": "W44",
+        "surface": "ギルド",
+        "tier": "candidate",
+        "scene_id": "SC04",
+        "reading": {
+          "kana": "ギルド",
+          "source": "manual",
+          "confidence": "high"
+        },
+        "mora": {
+          "sequence": [
+            "ギ",
+            "ル",
+            "ド"
+          ],
+          "count": 3
+        },
+        "meaning": {
+          "literal": "冒険者の組合・受付組織",
+          "contextual": "就活=ギルド審査という対応の異世界側。ランク付けして仕事を割り振る窓口",
+          "connotation": [
+            "選別",
+            "所属",
+            "ランク社会"
+          ]
+        },
+        "grammar": {
+          "pos": "noun",
+          "syntax_roles": [
+            "subject",
+            "location"
+          ],
+          "particles_before": [],
+          "particles_after": [
+            "の",
+            "が",
+            "で"
+          ]
+        },
+        "register": {
+          "level": "slang",
+          "persona_fit": "high"
+        },
+        "semantic": {
+          "domains": [
+            "rpg_trope",
+            "institution"
+          ],
+          "concreteness": 3
+        },
+        "sound": {
+          "vowels": [
+            "i",
+            "u",
+            "o"
+          ],
+          "articulation_cost": 1,
+          "rhyme_roles": [
+            "internal"
+          ],
+          "rhyme_note": "シフト(i-u-o)と母音完全一致。異世界語と労働語の対韻"
+        },
+        "craft": {
+          "humor_roles": [
+            "register_collision"
+          ],
+          "narrative_roles": [
+            "mapping_evidence"
+          ],
+          "prominence": "normal"
+        },
+        "evidence": [
+          {
+            "kind": "user_input",
+            "note": "brief 対応構造の例: 就活=ギルド審査"
+          }
+        ],
+        "confidence": {
+          "meaning": "high",
+          "reading": "high",
+          "persona_fit": "high"
+        }
+      },
+      {
+        "word_id": "W45",
+        "surface": "タイムカード",
+        "tier": "must_use",
+        "scene_id": "SC04",
+        "reading": {
+          "kana": "タイムカード",
+          "source": "manual",
+          "confidence": "high"
+        },
+        "mora": {
+          "sequence": [
+            "タ",
+            "イ",
+            "ム",
+            "カ",
+            "ー",
+            "ド"
+          ],
+          "count": 6
+        },
+        "meaning": {
+          "literal": "出退勤時刻を打刻する紙・装置",
+          "contextual": "存在が時刻でだけ記録される装置。俺のステータス画面の現実版",
+          "connotation": [
+            "管理",
+            "時間の切り売り",
+            "打刻音の従順さ"
+          ]
+        },
+        "grammar": {
+          "pos": "noun",
+          "syntax_roles": [
+            "object",
+            "subject"
+          ],
+          "particles_before": [],
+          "particles_after": [
+            "を",
+            "が",
+            "に"
+          ]
+        },
+        "register": {
+          "level": "neutral",
+          "persona_fit": "high"
+        },
+        "semantic": {
+          "domains": [
+            "labor",
+            "institution",
+            "time"
+          ],
+          "concreteness": 5
+        },
+        "sound": {
+          "vowels": [
+            "a",
+            "i",
+            "u",
+            "a",
+            "a",
+            "o"
+          ],
+          "articulation_cost": 2,
+          "rhyme_roles": [
+            "phrase_component",
+            "line_end"
+          ],
+          "rhyme_note": "打刻の『ガチャン』とガチャの音を故意に重ねられる"
+        },
+        "craft": {
+          "humor_roles": [
+            "register_collision",
+            "deadpan_evidence"
+          ],
+          "narrative_roles": [
+            "institutional_evidence",
+            "mapping_evidence"
+          ],
+          "prominence": "accented"
+        },
+        "evidence": [
+          {
+            "kind": "user_input",
+            "note": "brief 現実側の対応物に明記"
+          }
+        ],
+        "confidence": {
+          "meaning": "high",
+          "reading": "high",
+          "persona_fit": "high"
+        }
+      },
+      {
+        "word_id": "W46",
+        "surface": "残業",
+        "tier": "candidate",
+        "scene_id": "SC04",
+        "reading": {
+          "kana": "ザンギョー",
+          "source": "manual",
+          "confidence": "high"
+        },
+        "mora": {
+          "sequence": [
+            "ザ",
+            "ン",
+            "ギョ",
+            "ー"
+          ],
+          "count": 4
+        },
+        "meaning": {
+          "literal": "定時後も働くこと",
+          "contextual": "断る選択肢が形式上しかない強制クエスト。終電の原因",
+          "connotation": [
+            "強制の婉曲",
+            "疲弊",
+            "サービス=無償の含み"
+          ]
+        },
+        "grammar": {
+          "pos": "noun",
+          "syntax_roles": [
+            "object",
+            "subject"
+          ],
+          "particles_before": [],
+          "particles_after": [
+            "が",
+            "を",
+            "で",
+            "代"
+          ]
+        },
+        "register": {
+          "level": "neutral",
+          "persona_fit": "high"
+        },
+        "semantic": {
+          "domains": [
+            "labor",
+            "institution",
+            "time"
+          ],
+          "concreteness": 4
+        },
+        "sound": {
+          "vowels": [
+            "a",
+            "N",
+            "o",
+            "o"
+          ],
+          "articulation_cost": 1,
+          "rhyme_roles": [
+            "line_end_anchor"
+          ],
+          "rhyme_note": "天井(e-N-o-o)とスラント韻。W32とペア運用"
+        },
+        "craft": {
+          "humor_roles": [
+            "register_collision"
+          ],
+          "narrative_roles": [
+            "institutional_evidence",
+            "cause_of_SC01"
+          ],
+          "prominence": "accented"
+        },
+        "evidence": [
+          {
+            "kind": "user_input",
+            "note": "brief 対応構造の例: 残業=強制クエスト"
+          }
+        ],
+        "confidence": {
+          "meaning": "high",
+          "reading": "high",
+          "persona_fit": "high"
+        }
+      },
+      {
+        "word_id": "W47",
+        "surface": "求人票",
+        "tier": "candidate",
+        "scene_id": "SC04",
+        "reading": {
+          "kana": "キュージンヒョー",
+          "source": "manual",
+          "confidence": "high"
+        },
+        "mora": {
+          "sequence": [
+            "キュ",
+            "ー",
+            "ジ",
+            "ン",
+            "ヒョ",
+            "ー"
+          ],
+          "count": 6
+        },
+        "meaning": {
+          "literal": "募集条件を記した書面",
+          "contextual": "世界からの配役通知。『経験者優遇』の一行で初期ステータスを問われる紙",
+          "connotation": [
+            "条件",
+            "ふるい",
+            "他人が書いた俺の未来"
+          ]
+        },
+        "grammar": {
+          "pos": "noun",
+          "syntax_roles": [
+            "object",
+            "subject"
+          ],
+          "particles_before": [
+            "の"
+          ],
+          "particles_after": [
+            "を",
+            "が",
+            "の"
+          ]
+        },
+        "register": {
+          "level": "neutral",
+          "persona_fit": "high"
+        },
+        "semantic": {
+          "domains": [
+            "labor",
+            "institution",
+            "document"
+          ],
+          "concreteness": 5
+        },
+        "sound": {
+          "vowels": [
+            "u",
+            "u",
+            "i",
+            "N",
+            "o",
+            "o"
+          ],
+          "articulation_cost": 2,
+          "rhyme_roles": [
+            "phrase_component"
+          ],
+          "rhyme_note": "拗音+長音が2箇所。ゆっくりのフロー向け"
+        },
+        "craft": {
+          "humor_roles": [
+            "deadpan_evidence"
+          ],
+          "narrative_roles": [
+            "institutional_evidence"
+          ],
+          "prominence": "normal"
+        },
+        "evidence": [
+          {
+            "kind": "user_input",
+            "note": "brief 現実側の対応物に明記"
+          }
+        ],
+        "confidence": {
+          "meaning": "high",
+          "reading": "high",
+          "persona_fit": "high"
+        }
+      },
+      {
+        "word_id": "W48",
+        "surface": "奨学金",
+        "tier": "candidate",
+        "scene_id": "SC04",
+        "reading": {
+          "kana": "ショーガクキン",
+          "source": "manual",
+          "confidence": "high"
+        },
+        "mora": {
+          "sequence": [
+            "ショ",
+            "ー",
+            "ガ",
+            "ク",
+            "キ",
+            "ン"
+          ],
+          "count": 6
+        },
+        "meaning": {
+          "literal": "学費のための貸与・給付金",
+          "contextual": "名前は奨励、実態は借金。スタート地点からのマイナス残高=初期デバフ",
+          "connotation": [
+            "借金の婉曲語",
+            "若さへの前貸し請求",
+            "制度の欺瞞"
+          ]
+        },
+        "grammar": {
+          "pos": "noun",
+          "syntax_roles": [
+            "subject",
+            "object"
+          ],
+          "particles_before": [
+            "の"
+          ],
+          "particles_after": [
+            "が",
+            "を",
+            "の"
+          ]
+        },
+        "register": {
+          "level": "neutral",
+          "persona_fit": "high"
+        },
+        "semantic": {
+          "domains": [
+            "money",
+            "institution",
+            "debt"
+          ],
+          "concreteness": 4
+        },
+        "sound": {
+          "vowels": [
+            "o",
+            "o",
+            "a",
+            "u",
+            "i",
+            "N"
+          ],
+          "articulation_cost": 2,
+          "rhyme_roles": [
+            "line_end",
+            "phrase_component"
+          ],
+          "rhyme_note": "語尾キンで課金/夜勤の韻族に合流。『借金』との言い換え落差も武器"
+        },
+        "craft": {
+          "humor_roles": [
+            "register_collision",
+            "deadpan_evidence"
+          ],
+          "narrative_roles": [
+            "institutional_evidence",
+            "initial_debuff_image"
+          ],
+          "prominence": "accented"
+        },
+        "evidence": [
+          {
+            "kind": "user_input",
+            "note": "brief 現実側の対応物に明記"
+          }
+        ],
+        "confidence": {
+          "meaning": "high",
+          "reading": "high",
+          "persona_fit": "high"
+        }
+      },
+      {
+        "word_id": "W49",
+        "surface": "履歴書",
+        "tier": "must_use",
+        "scene_id": "SC04",
+        "reading": {
+          "kana": "リレキショ",
+          "source": "manual",
+          "confidence": "high"
+        },
+        "mora": {
+          "sequence": [
+            "リ",
+            "レ",
+            "キ",
+            "ショ"
+          ],
+          "count": 4
+        },
+        "meaning": {
+          "literal": "経歴を記入して提出する書類",
+          "contextual": "現実のステータス画面。空欄が多いほど審査に落ちる自分の数値化",
+          "connotation": [
+            "審査",
+            "空欄の恐怖",
+            "手書き文化の理不尽"
+          ]
+        },
+        "grammar": {
+          "pos": "noun",
+          "syntax_roles": [
+            "object",
+            "subject"
+          ],
+          "particles_before": [
+            "の"
+          ],
+          "particles_after": [
+            "を",
+            "に",
+            "が"
+          ]
+        },
+        "register": {
+          "level": "neutral",
+          "persona_fit": "high"
+        },
+        "semantic": {
+          "domains": [
+            "document",
+            "labor",
+            "identity"
+          ],
+          "concreteness": 5
+        },
+        "sound": {
+          "vowels": [
+            "i",
+            "e",
+            "i",
+            "o"
+          ],
+          "articulation_cost": 2,
+          "rhyme_roles": [
+            "line_end_anchor",
+            "internal"
+          ],
+          "rhyme_note": "レシート(e-i-i-o)と近似母音。ラ行連続は滑舌注意"
+        },
+        "craft": {
+          "humor_roles": [
+            "register_collision",
+            "status_gap"
+          ],
+          "narrative_roles": [
+            "mapping_evidence",
+            "identity_evidence"
+          ],
+          "prominence": "accented"
+        },
+        "evidence": [
+          {
+            "kind": "user_input",
+            "note": "brief 現実側の対応物に明記"
+          }
+        ],
+        "confidence": {
+          "meaning": "high",
+          "reading": "high",
+          "persona_fit": "high"
+        }
+      },
+      {
+        "word_id": "W50",
+        "surface": "満員電車",
+        "tier": "candidate",
+        "scene_id": "SC04",
+        "reading": {
+          "kana": "マンインデンシャ",
+          "source": "manual",
+          "confidence": "high"
+        },
+        "mora": {
+          "sequence": [
+            "マ",
+            "ン",
+            "イ",
+            "ン",
+            "デ",
+            "ン",
+            "シャ"
+          ],
+          "count": 7
+        },
+        "meaning": {
+          "literal": "定員を超えて混雑した電車",
+          "contextual": "トラック転生の現実対応。毎朝の圧死未遂で異世界には行けない皮肉",
+          "connotation": [
+            "圧迫",
+            "匿名の群れ",
+            "日常化した異常"
+          ]
+        },
+        "grammar": {
+          "pos": "noun",
+          "syntax_roles": [
+            "location",
+            "subject"
+          ],
+          "particles_before": [],
+          "particles_after": [
+            "に",
+            "で",
+            "から"
+          ]
+        },
+        "register": {
+          "level": "conversational",
+          "persona_fit": "high"
+        },
+        "semantic": {
+          "domains": [
+            "transit",
+            "body",
+            "urban"
+          ],
+          "concreteness": 5
+        },
+        "sound": {
+          "vowels": [
+            "a",
+            "N",
+            "i",
+            "N",
+            "e",
+            "N",
+            "a"
+          ],
+          "articulation_cost": 2,
+          "rhyme_roles": [
+            "phrase_component"
+          ],
+          "rhyme_note": "ン3連で刻みが跳ねる。7モーラは前半小節向け"
+        },
+        "craft": {
+          "humor_roles": [
+            "scale_shift",
+            "deadpan_evidence"
+          ],
+          "narrative_roles": [
+            "mapping_evidence",
+            "scene_setter"
+          ],
+          "prominence": "normal"
+        },
+        "evidence": [
+          {
+            "kind": "user_input",
+            "note": "brief 現実側の対応物に明記"
+          }
+        ],
+        "confidence": {
+          "meaning": "high",
+          "reading": "high",
+          "persona_fit": "high"
+        }
+      },
+      {
+        "word_id": "W51",
+        "surface": "シフト",
+        "tier": "candidate",
+        "scene_id": "SC04",
+        "reading": {
+          "kana": "シフト",
+          "source": "manual",
+          "confidence": "high"
+        },
+        "mora": {
+          "sequence": [
+            "シ",
+            "フ",
+            "ト"
+          ],
+          "count": 3
+        },
+        "meaning": {
+          "literal": "交代制勤務の割り当て",
+          "contextual": "他人に決められる俺の時間割。周回スケジュールの現実名",
+          "connotation": [
+            "不安定",
+            "被決定",
+            "穴を埋める駒"
+          ]
+        },
+        "grammar": {
+          "pos": "noun",
+          "syntax_roles": [
+            "object",
+            "subject"
+          ],
+          "particles_before": [
+            "の"
+          ],
+          "particles_after": [
+            "に",
+            "が",
+            "を",
+            "表"
+          ]
+        },
+        "register": {
+          "level": "conversational",
+          "persona_fit": "high"
+        },
+        "semantic": {
+          "domains": [
+            "labor",
+            "time",
+            "institution"
+          ],
+          "concreteness": 4
+        },
+        "sound": {
+          "vowels": [
+            "i",
+            "u",
+            "o"
+          ],
+          "articulation_cost": 1,
+          "rhyme_roles": [
+            "internal"
+          ],
+          "rhyme_note": "ギルド(i-u-o)と母音完全一致。異世界/労働の対応を韻でも示せる"
+        },
+        "craft": {
+          "humor_roles": [],
+          "narrative_roles": [
+            "institutional_evidence",
+            "loop_image"
+          ],
+          "prominence": "normal"
+        },
+        "evidence": [
+          {
+            "kind": "inference",
+            "note": "briefの非正規労働の実感から自然に導かれる一般語"
+          }
+        ],
+        "confidence": {
+          "meaning": "high",
+          "reading": "high",
+          "persona_fit": "high"
+        }
+      },
+      {
+        "word_id": "W52",
+        "surface": "台本",
+        "tier": "must_use",
+        "scene_id": "SC04",
+        "reading": {
+          "kana": "ダイホン",
+          "source": "manual",
+          "confidence": "high"
+        },
+        "mora": {
+          "sequence": [
+            "ダ",
+            "イ",
+            "ホ",
+            "ン"
+          ],
+          "count": 4
+        },
+        "meaning": {
+          "literal": "芝居や番組の進行と台詞を書いた本",
+          "contextual": "core messageの中心比喩。モブには台詞が書かれていない=なら自分で書く、の対象物",
+          "connotation": [
+            "決められた役",
+            "書き手の不在",
+            "奪回可能な物"
+          ]
+        },
+        "grammar": {
+          "pos": "noun",
+          "syntax_roles": [
+            "object",
+            "subject"
+          ],
+          "particles_before": [
+            "の"
+          ],
+          "particles_after": [
+            "を",
+            "に",
+            "ごと",
+            "通り"
+          ]
+        },
+        "register": {
+          "level": "conversational",
+          "persona_fit": "high"
+        },
+        "semantic": {
+          "domains": [
+            "theater_meta",
+            "identity",
+            "narrative"
+          ],
+          "concreteness": 5
+        },
+        "sound": {
+          "vowels": [
+            "a",
+            "i",
+            "o",
+            "N"
+          ],
+          "articulation_cost": 1,
+          "rhyme_roles": [
+            "line_end_anchor",
+            "hook_word"
+          ],
+          "rhyme_note": "配役/改札のa-i頭と連鎖。『書き換える』との共起が本体"
+        },
+        "craft": {
+          "humor_roles": [
+            "callback_object"
+          ],
+          "narrative_roles": [
+            "thesis_object",
+            "payoff"
+          ],
+          "prominence": "accented"
+        },
+        "evidence": [
+          {
+            "kind": "user_input",
+            "note": "brief core_message: 自分の台本を書き換える"
+          }
+        ],
+        "confidence": {
+          "meaning": "high",
+          "reading": "high",
+          "persona_fit": "high"
+        }
+      },
+      {
+        "word_id": "W53",
+        "surface": "配役",
+        "tier": "candidate",
+        "scene_id": "SC04",
+        "reading": {
+          "kana": "ハイヤク",
+          "source": "manual",
+          "confidence": "high"
+        },
+        "mora": {
+          "sequence": [
+            "ハ",
+            "イ",
+            "ヤ",
+            "ク"
+          ],
+          "count": 4
+        },
+        "meaning": {
+          "literal": "役を割り当てること・その割り当て",
+          "contextual": "誰かが勝手に決めた俺の役どころ。モブ役の発注元を指す制度語",
+          "connotation": [
+            "被決定",
+            "オーディションなき採用",
+            "拒否可能性"
+          ]
+        },
+        "grammar": {
+          "pos": "noun",
+          "syntax_roles": [
+            "object",
+            "subject"
+          ],
+          "particles_before": [
+            "の"
+          ],
+          "particles_after": [
+            "を",
+            "が",
+            "に",
+            "ミス"
+          ]
+        },
+        "register": {
+          "level": "neutral",
+          "persona_fit": "medium"
+        },
+        "semantic": {
+          "domains": [
+            "theater_meta",
+            "institution",
+            "identity"
+          ],
+          "concreteness": 4
+        },
+        "sound": {
+          "vowels": [
+            "a",
+            "i",
+            "a",
+            "u"
+          ],
+          "articulation_cost": 1,
+          "rhyme_roles": [
+            "line_end_anchor",
+            "internal"
+          ],
+          "rhyme_note": "改札(カイサツ a-i-a-u)と母音完全一致。駅シーンと接続する対韻"
+        },
+        "craft": {
+          "humor_roles": [
+            "register_collision"
+          ],
+          "narrative_roles": [
+            "thesis_word",
+            "turn"
+          ],
+          "prominence": "accented"
+        },
+        "evidence": [
+          {
+            "kind": "user_input",
+            "note": "brief speaker.identity: その配役自体を拒否し始めている"
+          }
+        ],
+        "confidence": {
+          "meaning": "high",
+          "reading": "high",
+          "persona_fit": "medium"
+        }
+      },
+      {
+        "word_id": "W54",
+        "surface": "書き換える",
+        "tier": "must_use",
+        "scene_id": "SC04",
+        "reading": {
+          "kana": "カキカエル",
+          "source": "manual",
+          "confidence": "high"
+        },
+        "mora": {
+          "sequence": [
+            "カ",
+            "キ",
+            "カ",
+            "エ",
+            "ル"
+          ],
+          "count": 5
+        },
+        "meaning": {
+          "literal": "書いてある内容を書き直す",
+          "contextual": "core messageの動詞。転生(交換)ではなく上書き(編集)を選ぶ意志",
+          "connotation": [
+            "主体性の奪回",
+            "破壊ではなく編集",
+            "現在地からの反撃"
+          ]
+        },
+        "grammar": {
+          "pos": "verb",
+          "syntax_roles": [
+            "predicate"
+          ],
+          "particles_before": [
+            "を",
+            "ごと"
+          ],
+          "particles_after": []
+        },
+        "register": {
+          "level": "conversational",
+          "persona_fit": "high"
+        },
+        "semantic": {
+          "domains": [
+            "theater_meta",
+            "action",
+            "agency"
+          ],
+          "concreteness": 4
+        },
+        "sound": {
+          "vowels": [
+            "a",
+            "i",
+            "a",
+            "e",
+            "u"
+          ],
+          "articulation_cost": 2,
+          "rhyme_roles": [
+            "line_end_anchor",
+            "payoff_word"
+          ],
+          "rhyme_note": "カ行3連の頭韻。『カエル』部分は帰る/変えると三重の掛詞候補"
+        },
+        "craft": {
+          "humor_roles": [
+            "double_meaning"
+          ],
+          "narrative_roles": [
+            "payoff",
+            "thesis_verb"
+          ],
+          "prominence": "accented"
+        },
+        "evidence": [
+          {
+            "kind": "user_input",
+            "note": "brief core_message に明記"
+          }
+        ],
+        "confidence": {
+          "meaning": "high",
+          "reading": "high",
+          "persona_fit": "high"
+        }
+      }
+    ],
+    "must_use": [
+      "W01",
+      "W22",
+      "W23",
+      "W29",
+      "W32",
+      "W34",
+      "W39",
+      "W45",
+      "W49",
+      "W52",
+      "W54"
+    ],
+    "phrase_candidates": [
+      {
+        "phrase_id": "P01",
+        "surface": "終電を逃して充電も切れる",
+        "literal_composition": "終電(W01)+充電(W29)の並置",
+        "contextual_paraphrase": "帰る手段と外部とつながる手段が同時に失われる",
+        "implication": "都市生活のライフラインは電気とダイヤに握られている",
+        "craft": {
+          "double_meaning": [
+            "シューデン/ジューデンのほぼ完全韻"
+          ],
+          "setup_id": null,
+          "payoff_id": null
+        },
+        "confidence": "high"
+      },
+      {
+        "phrase_id": "P02",
+        "surface": "ガチャにも部屋にも天井がある",
+        "literal_composition": "天井(W32)の二義の明示",
+        "contextual_paraphrase": "ガチャは上限で救済されるが、俺の部屋の天井は何も保証しない",
+        "implication": "商品の方が人生より親切に設計されている",
+        "craft": {
+          "double_meaning": [
+            "天井=上限救済/物理的天井"
+          ],
+          "setup_id": "P02",
+          "payoff_id": null
+        },
+        "confidence": "high"
+      },
+      {
+        "phrase_id": "P03",
+        "surface": "ホームにいるのに家が遠い",
+        "literal_composition": "ホーム(W07)の音の二義",
+        "contextual_paraphrase": "駅のホームに立ち尽くし、home=帰る場所を持たない感覚",
+        "implication": "居場所の不在をダジャレの温度で言う照れ隠し",
+        "craft": {
+          "double_meaning": [
+            "platform/home"
+          ],
+          "setup_id": null,
+          "payoff_id": null
+        },
+        "confidence": "high"
+      },
+      {
+        "phrase_id": "P04",
+        "surface": "回送——乗せる気のない車両だけ走る",
+        "literal_composition": "回送(W04)の擬人化",
+        "contextual_paraphrase": "システムは動いているのに俺は乗せてもらえない",
+        "implication": "同音の『階層』を重ねれば格差の掛詞になる",
+        "craft": {
+          "double_meaning": [
+            "回送/階層"
+          ],
+          "setup_id": null,
+          "payoff_id": null
+        },
+        "confidence": "medium"
+      },
+      {
+        "phrase_id": "P05",
+        "surface": "タイムカードが俺のステータス画面",
+        "literal_composition": "タイムカード(W45)=ステータス画面(W35)の同定",
+        "contextual_paraphrase": "俺の能力値は打刻時刻としてしか記録されない",
+        "implication": "対応構造(トロープ=現実)を1行で見せるマッピング句",
+        "craft": {
+          "double_meaning": [],
+          "setup_id": null,
+          "payoff_id": null
+        },
+        "confidence": "high"
+      },
+      {
+        "phrase_id": "P06",
+        "surface": "人生にリセマラ画面はない",
+        "literal_composition": "リセマラ(W23)の否定形",
+        "contextual_paraphrase": "初期配布が気に入らなくてもやり直せない",
+        "implication": "親ガチャ(W22)の直後に置くと因果が閉じる",
+        "craft": {
+          "double_meaning": [],
+          "setup_id": "W22",
+          "payoff_id": null
+        },
+        "confidence": "high"
+      },
+      {
+        "phrase_id": "P07",
+        "surface": "いらっしゃいませ、が今日最初の台詞",
+        "literal_composition": "接客定型句+台詞(台本W52の伏線)",
+        "contextual_paraphrase": "台本に書かれた一言しか発話していない一日",
+        "implication": "NPC(W40)の生活実装。deadpanで言うほど効く",
+        "craft": {
+          "double_meaning": [],
+          "setup_id": null,
+          "payoff_id": "P08"
+        },
+        "confidence": "high"
+      },
+      {
+        "phrase_id": "P08",
+        "surface": "モブに台詞はない、なら自分で書く",
+        "literal_composition": "モブ(W39)+台本(W52)+書き換える(W54)の結論形",
+        "contextual_paraphrase": "配役への拒否と自作の宣言",
+        "implication": "core messageの歌詞化候補。最終フックのpayoff",
+        "craft": {
+          "double_meaning": [],
+          "setup_id": "P07",
+          "payoff_id": "P08"
+        },
+        "confidence": "high"
+      },
+      {
+        "phrase_id": "P09",
+        "surface": "配役に文句があるなら台本ごと",
+        "literal_composition": "配役(W53)+台本(W52)+省略された『書き換える』",
+        "contextual_paraphrase": "役の交渉ではなく脚本自体の奪取へ",
+        "implication": "省略で聴き手に動詞を補わせる参加型パンチライン",
+        "craft": {
+          "double_meaning": [],
+          "setup_id": "P08",
+          "payoff_id": null
+        },
+        "confidence": "medium"
+      }
+    ],
+    "semantic_fields": [
+      {
+        "field": "rpg_trope",
+        "word_ids": [
+          "W33",
+          "W34",
+          "W35",
+          "W36",
+          "W37",
+          "W38",
+          "W39",
+          "W40",
+          "W41",
+          "W42",
+          "W43",
+          "W44"
+        ]
+      },
+      {
+        "field": "gacha_economy",
+        "word_ids": [
+          "W21",
+          "W22",
+          "W23",
+          "W24",
+          "W25",
+          "W30",
+          "W31",
+          "W32"
+        ]
+      },
+      {
+        "field": "night_transit",
+        "word_ids": [
+          "W01",
+          "W02",
+          "W03",
+          "W04",
+          "W05",
+          "W06",
+          "W07",
+          "W08",
+          "W09",
+          "W10",
+          "W50"
+        ]
+      },
+      {
+        "field": "convenience_night_labor",
+        "word_ids": [
+          "W11",
+          "W12",
+          "W14",
+          "W15",
+          "W16",
+          "W18",
+          "W19",
+          "W20"
+        ]
+      },
+      {
+        "field": "documents_institution",
+        "word_ids": [
+          "W45",
+          "W46",
+          "W47",
+          "W48",
+          "W49",
+          "W51"
+        ]
+      },
+      {
+        "field": "room_and_body",
+        "word_ids": [
+          "W13",
+          "W17",
+          "W26",
+          "W27",
+          "W28",
+          "W29",
+          "W32"
+        ]
+      },
+      {
+        "field": "theater_meta",
+        "word_ids": [
+          "W39",
+          "W52",
+          "W53",
+          "W54"
+        ]
+      }
+    ],
+    "rhyme_family_hints": [
+      {
+        "family": "u-u-e-N",
+        "members": [
+          "終電(W01)",
+          "充電(W29)"
+        ],
+        "note": "ほぼ完全韻。曲の看板ペア候補"
+      },
+      {
+        "family": "a-i-N",
+        "members": [
+          "夜勤(W18)",
+          "課金(W24)",
+          "無課金(W25・末尾)"
+        ],
+        "note": "労働と課金を往復する韻族"
+      },
+      {
+        "family": "-N-o-o",
+        "members": [
+          "天井(W32)",
+          "残業(W46)"
+        ],
+        "note": "スラント。上限と強制の対"
+      },
+      {
+        "family": "a-i-a-u",
+        "members": [
+          "改札(W02)",
+          "配役(W53)"
+        ],
+        "note": "母音完全一致。駅と劇場メタの橋"
+      },
+      {
+        "family": "i-u-o",
+        "members": [
+          "ギルド(W44)",
+          "シフト(W51)"
+        ],
+        "note": "母音完全一致。異世界語と労働語の対韻"
+      },
+      {
+        "family": "語尾カイ",
+        "members": [
+          "異世界(W33)",
+          "周回(W42)",
+          "回送(W04)"
+        ],
+        "note": "セカイ/カイの脚韻族。人生/世界系の語と拡張可"
+      },
+      {
+        "family": "e-N-e-i",
+        "members": [
+          "転生(W34)",
+          "(人生=バンク外だが接続前提)",
+          "主人公補正(W41・末尾セイ)"
+        ],
+        "note": "テーマの核となる脚韻族"
+      },
+      {
+        "family": "e-i-i-o近似",
+        "members": [
+          "レシート(W16)",
+          "履歴書(W49)",
+          "チート(W38)"
+        ],
+        "note": "紙とズルの緩い連鎖"
+      }
+    ],
+    "contrast_pairs": [
+      {
+        "pair_id": "CP01",
+        "trope": "トラック転生",
+        "reality": "満員電車(W50)",
+        "mapping": "物語では事故が異世界への扉、現実では毎朝の圧迫が日常。死の直接描写はcleanのため避け、『轢かれる代わりに詰め込まれる』方向で処理",
+        "usage_note": "verse1冒頭の導入向き"
+      },
+      {
+        "pair_id": "CP02",
+        "trope": "初期ステータス配布",
+        "reality": "親ガチャ(W22)",
+        "mapping": "briefの対応構造そのまま。配布=生まれの偶然",
+        "usage_note": "標的は配布システムであり親個人ではないと文脈で明示"
+      },
+      {
+        "pair_id": "CP03",
+        "trope": "ステータス画面(W35)",
+        "reality": "履歴書(W49)/残高(W30)",
+        "mapping": "能力の数値表示 vs 空欄と減る数字",
+        "usage_note": "P05と併用可"
+      },
+      {
+        "pair_id": "CP04",
+        "trope": "強制クエスト(W43)",
+        "reality": "残業(W46)",
+        "mapping": "報酬明示の任務 vs 報酬の見えない拘束",
+        "usage_note": "brief対応構造に明記"
+      },
+      {
+        "pair_id": "CP05",
+        "trope": "ギルド審査(W44)",
+        "reality": "就活/求人票(W47)/履歴書(W49)",
+        "mapping": "ランク査定の窓口 vs 面接と書類選考",
+        "usage_note": "brief対応構造に明記"
+      },
+      {
+        "pair_id": "CP06",
+        "trope": "リセマラ(W23)",
+        "reality": "転職",
+        "mapping": "無料でやり直せる初期化 vs コストと空白期間を要する転職",
+        "usage_note": "『人生にリセマラはない』の否定形が本命"
+      },
+      {
+        "pair_id": "CP07",
+        "trope": "無課金(W25)",
+        "reality": "無資本/奨学金(W48)",
+        "mapping": "縛りプレイの自称 vs 選べない初期マイナス",
+        "usage_note": "brief対応構造に明記"
+      },
+      {
+        "pair_id": "CP08",
+        "trope": "モブ(W39)/NPC(W40)",
+        "reality": "名札(W19)の店員/マニュアル接客",
+        "mapping": "名前のない背景 vs 胸にだけ名前がある労働者",
+        "usage_note": "P07-P08のsetup/payoffで使用"
+      },
+      {
+        "pair_id": "CP09",
+        "trope": "周回プレイ(W42)",
+        "reality": "通勤とシフト(W51)のループ",
+        "mapping": "自発的な反復 vs 強制された反復が同じ形",
+        "usage_note": "hookの反復構造と相性が良い"
+      },
+      {
+        "pair_id": "CP10",
+        "trope": "レベル上げ(W37)",
+        "reality": "時給(W20)",
+        "mapping": "努力が必ず数値化される世界 vs 数十円の昇給",
+        "usage_note": "数字の創作はしない(具体額を出さない)"
+      },
+      {
+        "pair_id": "CP11",
+        "trope": "チート(W38)/主人公補正(W41)",
+        "reality": "生まれつきのコネ・実家の太さ",
+        "mapping": "例外の才能 vs 相続される優遇",
+        "usage_note": "punch-up維持。特定個人を指さない"
+      },
+      {
+        "pair_id": "CP12",
+        "trope": "ガチャの天井(W32)",
+        "reality": "ワンルーム(W13)の天井",
+        "mapping": "課金には救済上限がある vs 現実の天井は見上げるだけ",
+        "usage_note": "P02で明示化。回収はhook3候補"
+      }
+    ],
+    "proper_noun_candidates": [],
+    "rejected": [
+      {
+        "surface": "社畜",
+        "reason": "使用頻度が高すぎ cliché risk 高。deadpanトーンには自嘲が直接的すぎる"
+      },
+      {
+        "surface": "底辺",
+        "reason": "自嘲を超えて聴衆への punch-down に転びやすい。briefの assumption に抵触"
+      },
+      {
+        "surface": "ブラック企業",
+        "reason": "標語化して具体性がない。制度語は残業/シフト/求人票など観察可能語で代替"
+      },
+      {
+        "surface": "トラック",
+        "reason": "轢死の直接描写に接続しやすく explicitness: clean と衝突。CP01の通り満員電車側で処理"
+      },
+      {
+        "surface": "実在アニメ作品名・キャラ名・企業名・人物名 全般",
+        "reason": "brief forbidden_words。ジャンル共通トロープ語のみ使用"
+      }
+    ],
+    "warnings": [
+      "narrative_plan 未受領(並列フェーズ第一便)のため、candidate_bar_ids は未割当。prominence と rhyme_note はすべて proposal 扱い。",
+      "NPC(W40)の読みはエヌピーシー(6モーラ)としたが、演者により『エヌピーシ』等に縮む揺れがある。reading confidence: medium。",
+      "排出率(W31)は調音コスト4。BPM140の速いフローでは事故リスクがあるため、ハーフタイムの遅いポケット推奨。",
+      "天井(W32)のガチャ用法(上限救済)はガチャ文化の前提知識が必要。部屋の天井を先に見せるsetupなしで使わない。",
+      "回送(W04)は同音語(階層/快走)が多く、耳だけでは意味が揺れる。意図的ダブルミーニングとして使う場合もsetup必須。",
+      "親ガチャ(W22)は親個人への攻撃と誤読されうる。標的は配布システム(制度)であることを文脈で担保する。",
+      "課金(W24)は本来『課す側』の語。俗用(払う側)で使うことを前提とし、ambiguityに記載済み。",
+      "ガチャ/リセマラ/天井などは特定サービスに依存しない一般スラングとして扱い、ブランド名・実在作品名は一切含めていない。",
+      "8-9モーラ語(電光掲示板W03、ステータス画面W35、主人公補正W41)は1小節内の置き場所が限られる。小節頭からの配置前提。",
+      "コンビニ勤務・夜勤設定は brief speaker(非正規労働の実感)からの創作でありfictionラベル。実在の個人・店舗を指さない。"
+    ]
+  }
+}
