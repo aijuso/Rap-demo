@@ -1,0 +1,1424 @@
+[
+ {
+  "surface_a": "転生",
+  "surface_b": "人生",
+  "reading_a": "テンセー",
+  "reading_b": "ジンセー",
+  "best_domain": {
+   "domain_length": 4,
+   "vowel_or_coda": 0.993,
+   "special_mora": 1.0,
+   "onset": 0.9,
+   "length_bonus": 0.732,
+   "raw_sound_score": 0.946,
+   "alignment": [
+    {
+     "a": "テ",
+     "b": "ジ",
+     "vowel_or_coda_similarity": 0.8,
+     "onset_similarity": 0.0
+    },
+    {
+     "a": "ン",
+     "b": "ン",
+     "vowel_or_coda_similarity": 1.0,
+     "onset_similarity": 0.5
+    },
+    {
+     "a": "セ",
+     "b": "セ",
+     "vowel_or_coda_similarity": 1.0,
+     "onset_similarity": 1.0
+    },
+    {
+     "a": "ー",
+     "b": "ー",
+     "vowel_or_coda_similarity": 1.0,
+     "onset_similarity": 1.0
+    }
+   ],
+   "span_a": "テンセー",
+   "span_b": "ジンセー"
+  },
+  "trivial_repetition_penalty": 0.0,
+  "sound_score_after_penalty": 0.946,
+  "label": "strong",
+  "limitations": [
+   "Meaning, naturalness, placement, beat salience, and performance are not scored.",
+   "A high sound score is not a high lyric-quality score."
+  ],
+  "warnings": []
+ },
+ {
+  "surface_a": "転生",
+  "surface_b": "設定",
+  "reading_a": "テンセー",
+  "reading_b": "セッテー",
+  "best_domain": {
+   "domain_length": 2,
+   "vowel_or_coda": 1.0,
+   "special_mora": 1.0,
+   "onset": 0.933,
+   "length_bonus": 0.5,
+   "raw_sound_score": 0.918,
+   "alignment": [
+    {
+     "a": "セ",
+     "b": "テ",
+     "vowel_or_coda_similarity": 1.0,
+     "onset_similarity": 0.667
+    },
+    {
+     "a": "ー",
+     "b": "ー",
+     "vowel_or_coda_similarity": 1.0,
+     "onset_similarity": 1.0
+    }
+   ],
+   "span_a": "セー",
+   "span_b": "テー"
+  },
+  "trivial_repetition_penalty": 0.0,
+  "sound_score_after_penalty": 0.918,
+  "label": "usable",
+  "limitations": [
+   "Meaning, naturalness, placement, beat salience, and performance are not scored.",
+   "A high sound score is not a high lyric-quality score."
+  ],
+  "warnings": []
+ },
+ {
+  "surface_a": "転生",
+  "surface_b": "面接",
+  "reading_a": "テンセー",
+  "reading_b": "メンセツ",
+  "best_domain": {
+   "domain_length": 4,
+   "vowel_or_coda": 0.68,
+   "special_mora": 0.84,
+   "onset": 0.367,
+   "length_bonus": 0.732,
+   "raw_sound_score": 0.673,
+   "alignment": [
+    {
+     "a": "テ",
+     "b": "メ",
+     "vowel_or_coda_similarity": 1.0,
+     "onset_similarity": 0.0
+    },
+    {
+     "a": "ン",
+     "b": "ン",
+     "vowel_or_coda_similarity": 1.0,
+     "onset_similarity": 0.5
+    },
+    {
+     "a": "セ",
+     "b": "セ",
+     "vowel_or_coda_similarity": 1.0,
+     "onset_similarity": 1.0
+    },
+    {
+     "a": "ー",
+     "b": "ツ",
+     "vowel_or_coda_similarity": 0.4,
+     "onset_similarity": 0.0
+    }
+   ],
+   "span_a": "テンセー",
+   "span_b": "メンセツ"
+  },
+  "trivial_repetition_penalty": 0.0,
+  "sound_score_after_penalty": 0.673,
+  "label": "usable",
+  "limitations": [
+   "Meaning, naturalness, placement, beat salience, and performance are not scored.",
+   "A high sound score is not a high lyric-quality score."
+  ],
+  "warnings": []
+ },
+ {
+  "surface_a": "転職",
+  "surface_b": "天職",
+  "reading_a": "テンショク",
+  "reading_b": "テンショク",
+  "best_domain": {
+   "domain_length": 4,
+   "vowel_or_coda": 1.0,
+   "special_mora": 1.0,
+   "onset": 0.933,
+   "length_bonus": 0.732,
+   "raw_sound_score": 0.953,
+   "alignment": [
+    {
+     "a": "テ",
+     "b": "テ",
+     "vowel_or_coda_similarity": 1.0,
+     "onset_similarity": 1.0
+    },
+    {
+     "a": "ン",
+     "b": "ン",
+     "vowel_or_coda_similarity": 1.0,
+     "onset_similarity": 0.5
+    },
+    {
+     "a": "ショ",
+     "b": "ショ",
+     "vowel_or_coda_similarity": 1.0,
+     "onset_similarity": 1.0
+    },
+    {
+     "a": "ク",
+     "b": "ク",
+     "vowel_or_coda_similarity": 1.0,
+     "onset_similarity": 1.0
+    }
+   ],
+   "span_a": "テンショク",
+   "span_b": "テンショク"
+  },
+  "trivial_repetition_penalty": 0.12,
+  "sound_score_after_penalty": 0.833,
+  "label": "strong",
+  "limitations": [
+   "Meaning, naturalness, placement, beat salience, and performance are not scored.",
+   "A high sound score is not a high lyric-quality score."
+  ],
+  "warnings": []
+ },
+ {
+  "surface_a": "残業",
+  "surface_b": "天井",
+  "reading_a": "ザンギョー",
+  "reading_b": "テンジョー",
+  "best_domain": {
+   "domain_length": 4,
+   "vowel_or_coda": 0.987,
+   "special_mora": 1.0,
+   "onset": 0.911,
+   "length_bonus": 0.732,
+   "raw_sound_score": 0.942,
+   "alignment": [
+    {
+     "a": "ザ",
+     "b": "テ",
+     "vowel_or_coda_similarity": 0.6,
+     "onset_similarity": 0.333
+    },
+    {
+     "a": "ン",
+     "b": "ン",
+     "vowel_or_coda_similarity": 1.0,
+     "onset_similarity": 0.5
+    },
+    {
+     "a": "ギョ",
+     "b": "ジョ",
+     "vowel_or_coda_similarity": 1.0,
+     "onset_similarity": 1.0
+    },
+    {
+     "a": "ー",
+     "b": "ー",
+     "vowel_or_coda_similarity": 1.0,
+     "onset_similarity": 1.0
+    }
+   ],
+   "span_a": "ザンギョー",
+   "span_b": "テンジョー"
+  },
+  "trivial_repetition_penalty": 0.0,
+  "sound_score_after_penalty": 0.942,
+  "label": "strong",
+  "limitations": [
+   "Meaning, naturalness, placement, beat salience, and performance are not scored.",
+   "A high sound score is not a high lyric-quality score."
+  ],
+  "warnings": []
+ },
+ {
+  "surface_a": "残業",
+  "surface_b": "ダンジョン",
+  "reading_a": "ザンギョー",
+  "reading_b": "ダンジョン",
+  "best_domain": {
+   "domain_length": 4,
+   "vowel_or_coda": 0.467,
+   "special_mora": 0.467,
+   "onset": 0.656,
+   "length_bonus": 0.732,
+   "raw_sound_score": 0.525,
+   "alignment": [
+    {
+     "a": "ザ",
+     "b": "ダ",
+     "vowel_or_coda_similarity": 1.0,
+     "onset_similarity": 0.667
+    },
+    {
+     "a": "ン",
+     "b": "ン",
+     "vowel_or_coda_similarity": 1.0,
+     "onset_similarity": 0.5
+    },
+    {
+     "a": "ギョ",
+     "b": "ジョ",
+     "vowel_or_coda_similarity": 1.0,
+     "onset_similarity": 1.0
+    },
+    {
+     "a": "ー",
+     "b": "ン",
+     "vowel_or_coda_similarity": 0.0,
+     "onset_similarity": 0.5
+    }
+   ],
+   "span_a": "ザンギョー",
+   "span_b": "ダンジョン"
+  },
+  "trivial_repetition_penalty": 0.0,
+  "sound_score_after_penalty": 0.525,
+  "label": "weak-or-contextual",
+  "limitations": [
+   "Meaning, naturalness, placement, beat salience, and performance are not scored.",
+   "A high sound score is not a high lyric-quality score."
+  ],
+  "warnings": []
+ },
+ {
+  "surface_a": "課金",
+  "surface_b": "家賃",
+  "reading_a": "カキン",
+  "reading_b": "ヤチン",
+  "best_domain": {
+   "domain_length": 3,
+   "vowel_or_coda": 1.0,
+   "special_mora": 1.0,
+   "onset": 0.417,
+   "length_bonus": 0.631,
+   "raw_sound_score": 0.886,
+   "alignment": [
+    {
+     "a": "カ",
+     "b": "ヤ",
+     "vowel_or_coda_similarity": 1.0,
+     "onset_similarity": 0.0
+    },
+    {
+     "a": "キ",
+     "b": "チ",
+     "vowel_or_coda_similarity": 1.0,
+     "onset_similarity": 0.333
+    },
+    {
+     "a": "ン",
+     "b": "ン",
+     "vowel_or_coda_similarity": 1.0,
+     "onset_similarity": 0.5
+    }
+   ],
+   "span_a": "カキン",
+   "span_b": "ヤチン"
+  },
+  "trivial_repetition_penalty": 0.0,
+  "sound_score_after_penalty": 0.886,
+  "label": "strong",
+  "limitations": [
+   "Meaning, naturalness, placement, beat salience, and performance are not scored.",
+   "A high sound score is not a high lyric-quality score."
+  ],
+  "warnings": []
+ },
+ {
+  "surface_a": "周回",
+  "surface_b": "就活",
+  "reading_a": "シューカイ",
+  "reading_b": "シューカツ",
+  "best_domain": {
+   "domain_length": 4,
+   "vowel_or_coda": 0.787,
+   "special_mora": 1.0,
+   "onset": 0.467,
+   "length_bonus": 0.732,
+   "raw_sound_score": 0.768,
+   "alignment": [
+    {
+     "a": "シュ",
+     "b": "シュ",
+     "vowel_or_coda_similarity": 1.0,
+     "onset_similarity": 1.0
+    },
+    {
+     "a": "ー",
+     "b": "ー",
+     "vowel_or_coda_similarity": 1.0,
+     "onset_similarity": 1.0
+    },
+    {
+     "a": "カ",
+     "b": "カ",
+     "vowel_or_coda_similarity": 1.0,
+     "onset_similarity": 1.0
+    },
+    {
+     "a": "イ",
+     "b": "ツ",
+     "vowel_or_coda_similarity": 0.6,
+     "onset_similarity": 0.0
+    }
+   ],
+   "span_a": "シューカイ",
+   "span_b": "シューカツ"
+  },
+  "trivial_repetition_penalty": 0.0,
+  "sound_score_after_penalty": 0.768,
+  "label": "usable",
+  "limitations": [
+   "Meaning, naturalness, placement, beat salience, and performance are not scored.",
+   "A high sound score is not a high lyric-quality score."
+  ],
+  "warnings": []
+ },
+ {
+  "surface_a": "チート",
+  "surface_b": "ニート",
+  "reading_a": "チート",
+  "reading_b": "ニート",
+  "best_domain": {
+   "domain_length": 3,
+   "vowel_or_coda": 1.0,
+   "special_mora": 1.0,
+   "onset": 0.929,
+   "length_bonus": 0.631,
+   "raw_sound_score": 0.937,
+   "alignment": [
+    {
+     "a": "チ",
+     "b": "ニ",
+     "vowel_or_coda_similarity": 1.0,
+     "onset_similarity": 0.0
+    },
+    {
+     "a": "ー",
+     "b": "ー",
+     "vowel_or_coda_similarity": 1.0,
+     "onset_similarity": 1.0
+    },
+    {
+     "a": "ト",
+     "b": "ト",
+     "vowel_or_coda_similarity": 1.0,
+     "onset_similarity": 1.0
+    }
+   ],
+   "span_a": "チート",
+   "span_b": "ニート"
+  },
+  "trivial_repetition_penalty": 0.0,
+  "sound_score_after_penalty": 0.937,
+  "label": "strong",
+  "limitations": [
+   "Meaning, naturalness, placement, beat salience, and performance are not scored.",
+   "A high sound score is not a high lyric-quality score."
+  ],
+  "warnings": []
+ },
+ {
+  "surface_a": "無双",
+  "surface_b": "無償",
+  "reading_a": "ムソー",
+  "reading_b": "ムショー",
+  "best_domain": {
+   "domain_length": 3,
+   "vowel_or_coda": 1.0,
+   "special_mora": 1.0,
+   "onset": 0.714,
+   "length_bonus": 0.631,
+   "raw_sound_score": 0.916,
+   "alignment": [
+    {
+     "a": "ム",
+     "b": "ム",
+     "vowel_or_coda_similarity": 1.0,
+     "onset_similarity": 1.0
+    },
+    {
+     "a": "ソ",
+     "b": "ショ",
+     "vowel_or_coda_similarity": 1.0,
+     "onset_similarity": 0.0
+    },
+    {
+     "a": "ー",
+     "b": "ー",
+     "vowel_or_coda_similarity": 1.0,
+     "onset_similarity": 1.0
+    }
+   ],
+   "span_a": "ムソー",
+   "span_b": "ムショー"
+  },
+  "trivial_repetition_penalty": 0.0,
+  "sound_score_after_penalty": 0.916,
+  "label": "strong",
+  "limitations": [
+   "Meaning, naturalness, placement, beat salience, and performance are not scored.",
+   "A high sound score is not a high lyric-quality score."
+  ],
+  "warnings": []
+ },
+ {
+  "surface_a": "労働",
+  "surface_b": "消耗",
+  "reading_a": "ロードー",
+  "reading_b": "ショーモー",
+  "best_domain": {
+   "domain_length": 4,
+   "vowel_or_coda": 1.0,
+   "special_mora": 1.0,
+   "onset": 0.767,
+   "length_bonus": 0.732,
+   "raw_sound_score": 0.937,
+   "alignment": [
+    {
+     "a": "ロ",
+     "b": "ショ",
+     "vowel_or_coda_similarity": 1.0,
+     "onset_similarity": 0.0
+    },
+    {
+     "a": "ー",
+     "b": "ー",
+     "vowel_or_coda_similarity": 1.0,
+     "onset_similarity": 1.0
+    },
+    {
+     "a": "ド",
+     "b": "モ",
+     "vowel_or_coda_similarity": 1.0,
+     "onset_similarity": 0.333
+    },
+    {
+     "a": "ー",
+     "b": "ー",
+     "vowel_or_coda_similarity": 1.0,
+     "onset_similarity": 1.0
+    }
+   ],
+   "span_a": "ロードー",
+   "span_b": "ショーモー"
+  },
+  "trivial_repetition_penalty": 0.0,
+  "sound_score_after_penalty": 0.937,
+  "label": "strong",
+  "limitations": [
+   "Meaning, naturalness, placement, beat salience, and performance are not scored.",
+   "A high sound score is not a high lyric-quality score."
+  ],
+  "warnings": []
+ },
+ {
+  "surface_a": "魔王",
+  "surface_b": "課長",
+  "reading_a": "マオー",
+  "reading_b": "カチョー",
+  "best_domain": {
+   "domain_length": 3,
+   "vowel_or_coda": 1.0,
+   "special_mora": 1.0,
+   "onset": 0.643,
+   "length_bonus": 0.631,
+   "raw_sound_score": 0.909,
+   "alignment": [
+    {
+     "a": "マ",
+     "b": "カ",
+     "vowel_or_coda_similarity": 1.0,
+     "onset_similarity": 0.0
+    },
+    {
+     "a": "オ",
+     "b": "チョ",
+     "vowel_or_coda_similarity": 1.0,
+     "onset_similarity": 0.0
+    },
+    {
+     "a": "ー",
+     "b": "ー",
+     "vowel_or_coda_similarity": 1.0,
+     "onset_similarity": 1.0
+    }
+   ],
+   "span_a": "マオー",
+   "span_b": "カチョー"
+  },
+  "trivial_repetition_penalty": 0.0,
+  "sound_score_after_penalty": 0.909,
+  "label": "strong",
+  "limitations": [
+   "Meaning, naturalness, placement, beat salience, and performance are not scored.",
+   "A high sound score is not a high lyric-quality score."
+  ],
+  "warnings": []
+ },
+ {
+  "surface_a": "主人公",
+  "surface_b": "求人票",
+  "reading_a": "シュジンコー",
+  "reading_b": "キュージンヒョー",
+  "best_domain": {
+   "domain_length": 5,
+   "vowel_or_coda": 1.0,
+   "special_mora": 0.995,
+   "onset": 0.609,
+   "length_bonus": 0.815,
+   "raw_sound_score": 0.933,
+   "alignment": [
+    {
+     "a": "シュ",
+     "b": "ー",
+     "vowel_or_coda_similarity": 1.0,
+     "onset_similarity": 0.0
+    },
+    {
+     "a": "ジ",
+     "b": "ジ",
+     "vowel_or_coda_similarity": 1.0,
+     "onset_similarity": 1.0
+    },
+    {
+     "a": "ン",
+     "b": "ン",
+     "vowel_or_coda_similarity": 1.0,
+     "onset_similarity": 0.5
+    },
+    {
+     "a": "コ",
+     "b": "ヒョ",
+     "vowel_or_coda_similarity": 1.0,
+     "onset_similarity": 0.0
+    },
+    {
+     "a": "ー",
+     "b": "ー",
+     "vowel_or_coda_similarity": 1.0,
+     "onset_similarity": 1.0
+    }
+   ],
+   "span_a": "シュジンコー",
+   "span_b": "ージンヒョー"
+  },
+  "trivial_repetition_penalty": 0.0,
+  "sound_score_after_penalty": 0.933,
+  "label": "strong",
+  "limitations": [
+   "Meaning, naturalness, placement, beat salience, and performance are not scored.",
+   "A high sound score is not a high lyric-quality score."
+  ],
+  "warnings": []
+ },
+ {
+  "surface_a": "主人公",
+  "surface_b": "終身雇用",
+  "reading_a": "シュジンコー",
+  "reading_b": "シューシンコヨー",
+  "best_domain": {
+   "domain_length": 2,
+   "vowel_or_coda": 1.0,
+   "special_mora": 1.0,
+   "onset": 0.8,
+   "length_bonus": 0.5,
+   "raw_sound_score": 0.905,
+   "alignment": [
+    {
+     "a": "コ",
+     "b": "ヨ",
+     "vowel_or_coda_similarity": 1.0,
+     "onset_similarity": 0.0
+    },
+    {
+     "a": "ー",
+     "b": "ー",
+     "vowel_or_coda_similarity": 1.0,
+     "onset_similarity": 1.0
+    }
+   ],
+   "span_a": "コー",
+   "span_b": "ヨー"
+  },
+  "trivial_repetition_penalty": 0.0,
+  "sound_score_after_penalty": 0.905,
+  "label": "usable",
+  "limitations": [
+   "Meaning, naturalness, placement, beat salience, and performance are not scored.",
+   "A high sound score is not a high lyric-quality score."
+  ],
+  "warnings": []
+ },
+ {
+  "surface_a": "トラック",
+  "surface_b": "ブラック",
+  "reading_a": "トラック",
+  "reading_b": "ブラック",
+  "best_domain": {
+   "domain_length": 4,
+   "vowel_or_coda": 0.993,
+   "special_mora": 1.0,
+   "onset": 0.828,
+   "length_bonus": 0.732,
+   "raw_sound_score": 0.938,
+   "alignment": [
+    {
+     "a": "ト",
+     "b": "ブ",
+     "vowel_or_coda_similarity": 0.8,
+     "onset_similarity": 0.333
+    },
+    {
+     "a": "ラ",
+     "b": "ラ",
+     "vowel_or_coda_similarity": 1.0,
+     "onset_similarity": 1.0
+    },
+    {
+     "a": "ッ",
+     "b": "ッ",
+     "vowel_or_coda_similarity": 1.0,
+     "onset_similarity": 0.5
+    },
+    {
+     "a": "ク",
+     "b": "ク",
+     "vowel_or_coda_similarity": 1.0,
+     "onset_similarity": 1.0
+    }
+   ],
+   "span_a": "トラック",
+   "span_b": "ブラック"
+  },
+  "trivial_repetition_penalty": 0.0,
+  "sound_score_after_penalty": 0.938,
+  "label": "strong",
+  "limitations": [
+   "Meaning, naturalness, placement, beat salience, and performance are not scored.",
+   "A high sound score is not a high lyric-quality score."
+  ],
+  "warnings": []
+ },
+ {
+  "surface_a": "ギルド",
+  "surface_b": "シフト",
+  "reading_a": "ギルド",
+  "reading_b": "シフト",
+  "best_domain": {
+   "domain_length": 3,
+   "vowel_or_coda": 1.0,
+   "special_mora": 1.0,
+   "onset": 0.429,
+   "length_bonus": 0.631,
+   "raw_sound_score": 0.887,
+   "alignment": [
+    {
+     "a": "ギ",
+     "b": "シ",
+     "vowel_or_coda_similarity": 1.0,
+     "onset_similarity": 0.0
+    },
+    {
+     "a": "ル",
+     "b": "フ",
+     "vowel_or_coda_similarity": 1.0,
+     "onset_similarity": 0.0
+    },
+    {
+     "a": "ド",
+     "b": "ト",
+     "vowel_or_coda_similarity": 1.0,
+     "onset_similarity": 0.667
+    }
+   ],
+   "span_a": "ギルド",
+   "span_b": "シフト"
+  },
+  "trivial_repetition_penalty": 0.0,
+  "sound_score_after_penalty": 0.887,
+  "label": "strong",
+  "limitations": [
+   "Meaning, naturalness, placement, beat salience, and performance are not scored.",
+   "A high sound score is not a high lyric-quality score."
+  ],
+  "warnings": []
+ },
+ {
+  "surface_a": "コンビニ",
+  "surface_b": "ゾンビに",
+  "reading_a": "コンビニ",
+  "reading_b": "ゾンビニ",
+  "best_domain": {
+   "domain_length": 4,
+   "vowel_or_coda": 1.0,
+   "special_mora": 1.0,
+   "onset": 0.9,
+   "length_bonus": 0.732,
+   "raw_sound_score": 0.95,
+   "alignment": [
+    {
+     "a": "コ",
+     "b": "ゾ",
+     "vowel_or_coda_similarity": 1.0,
+     "onset_similarity": 0.0
+    },
+    {
+     "a": "ン",
+     "b": "ン",
+     "vowel_or_coda_similarity": 1.0,
+     "onset_similarity": 0.5
+    },
+    {
+     "a": "ビ",
+     "b": "ビ",
+     "vowel_or_coda_similarity": 1.0,
+     "onset_similarity": 1.0
+    },
+    {
+     "a": "ニ",
+     "b": "ニ",
+     "vowel_or_coda_similarity": 1.0,
+     "onset_similarity": 1.0
+    }
+   ],
+   "span_a": "コンビニ",
+   "span_b": "ゾンビニ"
+  },
+  "trivial_repetition_penalty": 0.0,
+  "sound_score_after_penalty": 0.95,
+  "label": "strong",
+  "limitations": [
+   "Meaning, naturalness, placement, beat salience, and performance are not scored.",
+   "A high sound score is not a high lyric-quality score."
+  ],
+  "warnings": []
+ },
+ {
+  "surface_a": "異世界",
+  "surface_b": "見せかけ",
+  "reading_a": "イセカイ",
+  "reading_b": "ミセカケ",
+  "best_domain": {
+   "domain_length": 4,
+   "vowel_or_coda": 0.893,
+   "special_mora": 1.0,
+   "onset": 0.433,
+   "length_bonus": 0.732,
+   "raw_sound_score": 0.834,
+   "alignment": [
+    {
+     "a": "イ",
+     "b": "ミ",
+     "vowel_or_coda_similarity": 1.0,
+     "onset_similarity": 0.0
+    },
+    {
+     "a": "セ",
+     "b": "セ",
+     "vowel_or_coda_similarity": 1.0,
+     "onset_similarity": 1.0
+    },
+    {
+     "a": "カ",
+     "b": "カ",
+     "vowel_or_coda_similarity": 1.0,
+     "onset_similarity": 1.0
+    },
+    {
+     "a": "イ",
+     "b": "ケ",
+     "vowel_or_coda_similarity": 0.8,
+     "onset_similarity": 0.0
+    }
+   ],
+   "span_a": "イセカイ",
+   "span_b": "ミセカケ"
+  },
+  "trivial_repetition_penalty": 0.0,
+  "sound_score_after_penalty": 0.834,
+  "label": "strong",
+  "limitations": [
+   "Meaning, naturalness, placement, beat salience, and performance are not scored.",
+   "A high sound score is not a high lyric-quality score."
+  ],
+  "warnings": []
+ },
+ {
+  "surface_a": "クエスト",
+  "surface_b": "食えずに",
+  "reading_a": "クエスト",
+  "reading_b": "クエズニ",
+  "best_domain": {
+   "domain_length": 4,
+   "vowel_or_coda": 0.68,
+   "special_mora": 1.0,
+   "onset": 0.544,
+   "length_bonus": 0.732,
+   "raw_sound_score": 0.706,
+   "alignment": [
+    {
+     "a": "ク",
+     "b": "ク",
+     "vowel_or_coda_similarity": 1.0,
+     "onset_similarity": 1.0
+    },
+    {
+     "a": "エ",
+     "b": "エ",
+     "vowel_or_coda_similarity": 1.0,
+     "onset_similarity": 1.0
+    },
+    {
+     "a": "ス",
+     "b": "ズ",
+     "vowel_or_coda_similarity": 1.0,
+     "onset_similarity": 0.667
+    },
+    {
+     "a": "ト",
+     "b": "ニ",
+     "vowel_or_coda_similarity": 0.4,
+     "onset_similarity": 0.333
+    }
+   ],
+   "span_a": "クエスト",
+   "span_b": "クエズニ"
+  },
+  "trivial_repetition_penalty": 0.0,
+  "sound_score_after_penalty": 0.706,
+  "label": "usable",
+  "limitations": [
+   "Meaning, naturalness, placement, beat salience, and performance are not scored.",
+   "A high sound score is not a high lyric-quality score."
+  ],
+  "warnings": []
+ },
+ {
+  "surface_a": "レベル上げ",
+  "surface_b": "寝れる前",
+  "reading_a": "レベルアゲ",
+  "reading_b": "ネレルマエ",
+  "best_domain": {
+   "domain_length": 5,
+   "vowel_or_coda": 1.0,
+   "special_mora": 1.0,
+   "onset": 0.2,
+   "length_bonus": 0.815,
+   "raw_sound_score": 0.892,
+   "alignment": [
+    {
+     "a": "レ",
+     "b": "ネ",
+     "vowel_or_coda_similarity": 1.0,
+     "onset_similarity": 0.667
+    },
+    {
+     "a": "ベ",
+     "b": "レ",
+     "vowel_or_coda_similarity": 1.0,
+     "onset_similarity": 0.333
+    },
+    {
+     "a": "ル",
+     "b": "ル",
+     "vowel_or_coda_similarity": 1.0,
+     "onset_similarity": 1.0
+    },
+    {
+     "a": "ア",
+     "b": "マ",
+     "vowel_or_coda_similarity": 1.0,
+     "onset_similarity": 0.0
+    },
+    {
+     "a": "ゲ",
+     "b": "エ",
+     "vowel_or_coda_similarity": 1.0,
+     "onset_similarity": 0.0
+    }
+   ],
+   "span_a": "レベルアゲ",
+   "span_b": "ネレルマエ"
+  },
+  "trivial_repetition_penalty": 0.0,
+  "sound_score_after_penalty": 0.892,
+  "label": "strong",
+  "limitations": [
+   "Meaning, naturalness, placement, beat salience, and performance are not scored.",
+   "A high sound score is not a high lyric-quality score."
+  ],
+  "warnings": []
+ },
+ {
+  "surface_a": "経験値",
+  "surface_b": "底辺",
+  "reading_a": "ケーケンチ",
+  "reading_b": "テーヘン",
+  "best_domain": {
+   "domain_length": 4,
+   "vowel_or_coda": 0.167,
+   "special_mora": 0.117,
+   "onset": 0.417,
+   "length_bonus": 0.732,
+   "raw_sound_score": 0.272,
+   "alignment": [
+    {
+     "a": "ー",
+     "b": "テ",
+     "vowel_or_coda_similarity": 1.0,
+     "onset_similarity": 0.0
+    },
+    {
+     "a": "ケ",
+     "b": "ー",
+     "vowel_or_coda_similarity": 1.0,
+     "onset_similarity": 0.0
+    },
+    {
+     "a": "ン",
+     "b": "ヘ",
+     "vowel_or_coda_similarity": 0.0,
+     "onset_similarity": 0.5
+    },
+    {
+     "a": "チ",
+     "b": "ン",
+     "vowel_or_coda_similarity": 0.0,
+     "onset_similarity": 0.5
+    }
+   ],
+   "span_a": "ーケンチ",
+   "span_b": "テーヘン"
+  },
+  "trivial_repetition_penalty": 0.0,
+  "sound_score_after_penalty": 0.272,
+  "label": "not-established",
+  "limitations": [
+   "Meaning, naturalness, placement, beat salience, and performance are not scored.",
+   "A high sound score is not a high lyric-quality score."
+  ],
+  "warnings": []
+ },
+ {
+  "surface_a": "現実",
+  "surface_b": "天引き",
+  "reading_a": "ゲンジツ",
+  "reading_b": "テンビキ",
+  "best_domain": {
+   "domain_length": 4,
+   "vowel_or_coda": 0.787,
+   "special_mora": 1.0,
+   "onset": 0.356,
+   "length_bonus": 0.732,
+   "raw_sound_score": 0.757,
+   "alignment": [
+    {
+     "a": "ゲ",
+     "b": "テ",
+     "vowel_or_coda_similarity": 1.0,
+     "onset_similarity": 0.333
+    },
+    {
+     "a": "ン",
+     "b": "ン",
+     "vowel_or_coda_similarity": 1.0,
+     "onset_similarity": 0.5
+    },
+    {
+     "a": "ジ",
+     "b": "ビ",
+     "vowel_or_coda_similarity": 1.0,
+     "onset_similarity": 0.333
+    },
+    {
+     "a": "ツ",
+     "b": "キ",
+     "vowel_or_coda_similarity": 0.6,
+     "onset_similarity": 0.333
+    }
+   ],
+   "span_a": "ゲンジツ",
+   "span_b": "テンビキ"
+  },
+  "trivial_repetition_penalty": 0.0,
+  "sound_score_after_penalty": 0.757,
+  "label": "usable",
+  "limitations": [
+   "Meaning, naturalness, placement, beat salience, and performance are not scored.",
+   "A high sound score is not a high lyric-quality score."
+  ],
+  "warnings": []
+ },
+ {
+  "surface_a": "時給",
+  "surface_b": "地球",
+  "reading_a": "ジキュー",
+  "reading_b": "チキュー",
+  "best_domain": {
+   "domain_length": 3,
+   "vowel_or_coda": 1.0,
+   "special_mora": 1.0,
+   "onset": 0.976,
+   "length_bonus": 0.631,
+   "raw_sound_score": 0.942,
+   "alignment": [
+    {
+     "a": "ジ",
+     "b": "チ",
+     "vowel_or_coda_similarity": 1.0,
+     "onset_similarity": 0.667
+    },
+    {
+     "a": "キュ",
+     "b": "キュ",
+     "vowel_or_coda_similarity": 1.0,
+     "onset_similarity": 1.0
+    },
+    {
+     "a": "ー",
+     "b": "ー",
+     "vowel_or_coda_similarity": 1.0,
+     "onset_similarity": 1.0
+    }
+   ],
+   "span_a": "ジキュー",
+   "span_b": "チキュー"
+  },
+  "trivial_repetition_penalty": 0.0,
+  "sound_score_after_penalty": 0.942,
+  "label": "strong",
+  "limitations": [
+   "Meaning, naturalness, placement, beat salience, and performance are not scored.",
+   "A high sound score is not a high lyric-quality score."
+  ],
+  "warnings": []
+ },
+ {
+  "surface_a": "履歴書",
+  "surface_b": "非正規",
+  "reading_a": "リレキショ",
+  "reading_b": "ヒセーキ",
+  "best_domain": {
+   "domain_length": 4,
+   "vowel_or_coda": 0.62,
+   "special_mora": 0.91,
+   "onset": 0.044,
+   "length_bonus": 0.732,
+   "raw_sound_score": 0.608,
+   "alignment": [
+    {
+     "a": "リ",
+     "b": "ヒ",
+     "vowel_or_coda_similarity": 1.0,
+     "onset_similarity": 0.0
+    },
+    {
+     "a": "レ",
+     "b": "セ",
+     "vowel_or_coda_similarity": 1.0,
+     "onset_similarity": 0.333
+    },
+    {
+     "a": "キ",
+     "b": "ー",
+     "vowel_or_coda_similarity": 0.8,
+     "onset_similarity": 0.0
+    },
+    {
+     "a": "ショ",
+     "b": "キ",
+     "vowel_or_coda_similarity": 0.4,
+     "onset_similarity": 0.0
+    }
+   ],
+   "span_a": "リレキショ",
+   "span_b": "ヒセーキ"
+  },
+  "trivial_repetition_penalty": 0.0,
+  "sound_score_after_penalty": 0.608,
+  "label": "weak-or-contextual",
+  "limitations": [
+   "Meaning, naturalness, placement, beat salience, and performance are not scored.",
+   "A high sound score is not a high lyric-quality score."
+  ],
+  "warnings": []
+ },
+ {
+  "surface_a": "台本",
+  "surface_b": "大損",
+  "reading_a": "ダイホン",
+  "reading_b": "ダイソン",
+  "best_domain": {
+   "domain_length": 4,
+   "vowel_or_coda": 1.0,
+   "special_mora": 1.0,
+   "onset": 0.633,
+   "length_bonus": 0.732,
+   "raw_sound_score": 0.923,
+   "alignment": [
+    {
+     "a": "ダ",
+     "b": "ダ",
+     "vowel_or_coda_similarity": 1.0,
+     "onset_similarity": 1.0
+    },
+    {
+     "a": "イ",
+     "b": "イ",
+     "vowel_or_coda_similarity": 1.0,
+     "onset_similarity": 1.0
+    },
+    {
+     "a": "ホ",
+     "b": "ソ",
+     "vowel_or_coda_similarity": 1.0,
+     "onset_similarity": 0.667
+    },
+    {
+     "a": "ン",
+     "b": "ン",
+     "vowel_or_coda_similarity": 1.0,
+     "onset_similarity": 0.5
+    }
+   ],
+   "span_a": "ダイホン",
+   "span_b": "ダイソン"
+  },
+  "trivial_repetition_penalty": 0.0,
+  "sound_score_after_penalty": 0.923,
+  "label": "strong",
+  "limitations": [
+   "Meaning, naturalness, placement, beat salience, and performance are not scored.",
+   "A high sound score is not a high lyric-quality score."
+  ],
+  "warnings": []
+ },
+ {
+  "surface_a": "配役",
+  "surface_b": "契約",
+  "reading_a": "ハイヤク",
+  "reading_b": "ケーヤク",
+  "best_domain": {
+   "domain_length": 3,
+   "vowel_or_coda": 0.986,
+   "special_mora": 0.979,
+   "onset": 1.0,
+   "length_bonus": 0.631,
+   "raw_sound_score": 0.933,
+   "alignment": [
+    {
+     "a": "イ",
+     "b": "ー",
+     "vowel_or_coda_similarity": 0.8,
+     "onset_similarity": 1.0
+    },
+    {
+     "a": "ヤ",
+     "b": "ヤ",
+     "vowel_or_coda_similarity": 1.0,
+     "onset_similarity": 1.0
+    },
+    {
+     "a": "ク",
+     "b": "ク",
+     "vowel_or_coda_similarity": 1.0,
+     "onset_similarity": 1.0
+    }
+   ],
+   "span_a": "イヤク",
+   "span_b": "ーヤク"
+  },
+  "trivial_repetition_penalty": 0.0,
+  "sound_score_after_penalty": 0.933,
+  "label": "strong",
+  "limitations": [
+   "Meaning, naturalness, placement, beat salience, and performance are not scored.",
+   "A high sound score is not a high lyric-quality score."
+  ],
+  "warnings": []
+ },
+ {
+  "surface_a": "悪役",
+  "surface_b": "攻略",
+  "reading_a": "アクヤク",
+  "reading_b": "コーリャク",
+  "best_domain": {
+   "domain_length": 2,
+   "vowel_or_coda": 1.0,
+   "special_mora": 1.0,
+   "onset": 0.8,
+   "length_bonus": 0.5,
+   "raw_sound_score": 0.905,
+   "alignment": [
+    {
+     "a": "ヤ",
+     "b": "リャ",
+     "vowel_or_coda_similarity": 1.0,
+     "onset_similarity": 0.0
+    },
+    {
+     "a": "ク",
+     "b": "ク",
+     "vowel_or_coda_similarity": 1.0,
+     "onset_similarity": 1.0
+    }
+   ],
+   "span_a": "ヤク",
+   "span_b": "リャク"
+  },
+  "trivial_repetition_penalty": 0.0,
+  "sound_score_after_penalty": 0.905,
+  "label": "usable",
+  "limitations": [
+   "Meaning, naturalness, placement, beat salience, and performance are not scored.",
+   "A high sound score is not a high lyric-quality score."
+  ],
+  "warnings": []
+ },
+ {
+  "surface_a": "異世界",
+  "surface_b": "リセマラ",
+  "reading_a": "イセカイ",
+  "reading_b": "リセマラ",
+  "best_domain": {
+   "domain_length": 4,
+   "vowel_or_coda": 0.68,
+   "special_mora": 1.0,
+   "onset": 0.133,
+   "length_bonus": 0.732,
+   "raw_sound_score": 0.665,
+   "alignment": [
+    {
+     "a": "イ",
+     "b": "リ",
+     "vowel_or_coda_similarity": 1.0,
+     "onset_similarity": 0.0
+    },
+    {
+     "a": "セ",
+     "b": "セ",
+     "vowel_or_coda_similarity": 1.0,
+     "onset_similarity": 1.0
+    },
+    {
+     "a": "カ",
+     "b": "マ",
+     "vowel_or_coda_similarity": 1.0,
+     "onset_similarity": 0.0
+    },
+    {
+     "a": "イ",
+     "b": "ラ",
+     "vowel_or_coda_similarity": 0.4,
+     "onset_similarity": 0.0
+    }
+   ],
+   "span_a": "イセカイ",
+   "span_b": "リセマラ"
+  },
+  "trivial_repetition_penalty": 0.0,
+  "sound_score_after_penalty": 0.665,
+  "label": "usable",
+  "limitations": [
+   "Meaning, naturalness, placement, beat salience, and performance are not scored.",
+   "A high sound score is not a high lyric-quality score."
+  ],
+  "warnings": []
+ },
+ {
+  "surface_a": "天井",
+  "surface_b": "求人票",
+  "reading_a": "テンジョー",
+  "reading_b": "キュージンヒョー",
+  "best_domain": {
+   "domain_length": 4,
+   "vowel_or_coda": 0.993,
+   "special_mora": 1.0,
+   "onset": 0.9,
+   "length_bonus": 0.732,
+   "raw_sound_score": 0.946,
+   "alignment": [
+    {
+     "a": "テ",
+     "b": "ジ",
+     "vowel_or_coda_similarity": 0.8,
+     "onset_similarity": 0.0
+    },
+    {
+     "a": "ン",
+     "b": "ン",
+     "vowel_or_coda_similarity": 1.0,
+     "onset_similarity": 0.5
+    },
+    {
+     "a": "ジョ",
+     "b": "ヒョ",
+     "vowel_or_coda_similarity": 1.0,
+     "onset_similarity": 1.0
+    },
+    {
+     "a": "ー",
+     "b": "ー",
+     "vowel_or_coda_similarity": 1.0,
+     "onset_similarity": 1.0
+    }
+   ],
+   "span_a": "テンジョー",
+   "span_b": "ジンヒョー"
+  },
+  "trivial_repetition_penalty": 0.0,
+  "sound_score_after_penalty": 0.946,
+  "label": "strong",
+  "limitations": [
+   "Meaning, naturalness, placement, beat salience, and performance are not scored.",
+   "A high sound score is not a high lyric-quality score."
+  ],
+  "warnings": []
+ },
+ {
+  "surface_a": "モブ",
+  "surface_b": "転職",
+  "reading_a": "モブ",
+  "reading_b": "テンショク",
+  "best_domain": {
+   "domain_length": 2,
+   "vowel_or_coda": 1.0,
+   "special_mora": 1.0,
+   "onset": 0.267,
+   "length_bonus": 0.5,
+   "raw_sound_score": 0.852,
+   "alignment": [
+    {
+     "a": "モ",
+     "b": "ショ",
+     "vowel_or_coda_similarity": 1.0,
+     "onset_similarity": 0.0
+    },
+    {
+     "a": "ブ",
+     "b": "ク",
+     "vowel_or_coda_similarity": 1.0,
+     "onset_similarity": 0.333
+    }
+   ],
+   "span_a": "モブ",
+   "span_b": "ショク"
+  },
+  "trivial_repetition_penalty": 0.0,
+  "sound_score_after_penalty": 0.852,
+  "label": "usable",
+  "limitations": [
+   "Meaning, naturalness, placement, beat salience, and performance are not scored.",
+   "A high sound score is not a high lyric-quality score."
+  ],
+  "warnings": []
+ }
+]

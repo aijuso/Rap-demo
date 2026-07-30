@@ -1,0 +1,1562 @@
+{
+  "nodes": [
+    {
+      "id": "tensei",
+      "surface": "転生",
+      "reading": "テンセー",
+      "part_of_speech": "noun_suru",
+      "semantic_domains": [
+        "isekai_trope",
+        "rebirth",
+        "side:isekai"
+      ],
+      "register": "neutral",
+      "frequency": "common",
+      "freshness": 0.35,
+      "articulation_cost": 0.2,
+      "reading_confidence": 0.85,
+      "particles_before": [
+        "異世界に"
+      ],
+      "particles_after": [
+        "する",
+        "したい",
+        "先"
+      ],
+      "proper_noun": false,
+      "source": "manual",
+      "position": "unplaced",
+      "meta_note": "辞書形テンセイ/演奏読みで長音化"
+    },
+    {
+      "id": "isekai",
+      "surface": "異世界",
+      "reading": "イセカイ",
+      "part_of_speech": "noun",
+      "semantic_domains": [
+        "isekai_trope",
+        "world",
+        "side:isekai"
+      ],
+      "register": "neutral",
+      "frequency": "common",
+      "freshness": 0.3,
+      "articulation_cost": 0.2,
+      "reading_confidence": 0.85,
+      "particles_before": [
+        "この"
+      ],
+      "particles_after": [
+        "へ",
+        "行き"
+      ],
+      "proper_noun": false,
+      "source": "manual",
+      "position": "unplaced",
+      "meta_note": ""
+    },
+    {
+      "id": "gacha",
+      "surface": "ガチャ",
+      "reading": "ガチャ",
+      "part_of_speech": "noun",
+      "semantic_domains": [
+        "gacha",
+        "game_mechanics",
+        "money",
+        "side:isekai"
+      ],
+      "register": "colloquial",
+      "frequency": "common",
+      "freshness": 0.3,
+      "articulation_cost": 0.1,
+      "reading_confidence": 1.0,
+      "particles_before": [
+        "十連"
+      ],
+      "particles_after": [
+        "回す",
+        "運"
+      ],
+      "proper_noun": false,
+      "source": "manual",
+      "position": "unplaced",
+      "meta_note": ""
+    },
+    {
+      "id": "oyagacha",
+      "surface": "親ガチャ",
+      "reading": "オヤガチャ",
+      "part_of_speech": "noun",
+      "semantic_domains": [
+        "gacha",
+        "inequality",
+        "side:bridge"
+      ],
+      "register": "slang",
+      "frequency": "common",
+      "freshness": 0.4,
+      "articulation_cost": 0.2,
+      "reading_confidence": 0.85,
+      "particles_before": [],
+      "particles_after": [
+        "外れ",
+        "のせい"
+      ],
+      "proper_noun": false,
+      "source": "manual",
+      "position": "unplaced",
+      "meta_note": "ガチャと語幹共有"
+    },
+    {
+      "id": "tenjo",
+      "surface": "天井",
+      "reading": "テンジョー",
+      "part_of_speech": "noun",
+      "semantic_domains": [
+        "gacha",
+        "money",
+        "room_interior",
+        "side:bridge"
+      ],
+      "register": "neutral",
+      "frequency": "common",
+      "freshness": 0.55,
+      "articulation_cost": 0.2,
+      "reading_confidence": 0.85,
+      "particles_before": [
+        "課金の"
+      ],
+      "particles_after": [
+        "まで",
+        "を見る"
+      ],
+      "proper_noun": false,
+      "source": "manual",
+      "position": "unplaced",
+      "meta_note": "多義: ガチャ天井/部屋の天井"
+    },
+    {
+      "id": "mobu",
+      "surface": "モブ",
+      "reading": "モブ",
+      "part_of_speech": "noun",
+      "semantic_domains": [
+        "isekai_trope",
+        "character_role",
+        "side:isekai"
+      ],
+      "register": "slang",
+      "frequency": "common",
+      "freshness": 0.35,
+      "articulation_cost": 0.1,
+      "reading_confidence": 1.0,
+      "particles_before": [
+        "ただの"
+      ],
+      "particles_after": [
+        "キャラ",
+        "扱い"
+      ],
+      "proper_noun": false,
+      "source": "manual",
+      "position": "unplaced",
+      "meta_note": ""
+    },
+    {
+      "id": "shukai",
+      "surface": "周回",
+      "reading": "シューカイ",
+      "part_of_speech": "noun_suru",
+      "semantic_domains": [
+        "game_mechanics",
+        "repetition",
+        "side:isekai"
+      ],
+      "register": "neutral",
+      "frequency": "marked",
+      "freshness": 0.5,
+      "articulation_cost": 0.2,
+      "reading_confidence": 0.85,
+      "particles_before": [
+        "デイリー"
+      ],
+      "particles_after": [
+        "プレイ",
+        "する"
+      ],
+      "proper_noun": false,
+      "source": "manual",
+      "position": "unplaced",
+      "meta_note": ""
+    },
+    {
+      "id": "chiito",
+      "surface": "チート",
+      "reading": "チート",
+      "part_of_speech": "noun",
+      "semantic_domains": [
+        "game_mechanics",
+        "privilege",
+        "side:isekai"
+      ],
+      "register": "colloquial",
+      "frequency": "common",
+      "freshness": 0.3,
+      "articulation_cost": 0.1,
+      "reading_confidence": 1.0,
+      "particles_before": [],
+      "particles_after": [
+        "能力",
+        "級"
+      ],
+      "proper_noun": false,
+      "source": "manual",
+      "position": "unplaced",
+      "meta_note": ""
+    },
+    {
+      "id": "reberuage",
+      "surface": "レベル上げ",
+      "reading": "レベルアゲ",
+      "part_of_speech": "phrase_noun",
+      "semantic_domains": [
+        "game_mechanics",
+        "growth",
+        "side:isekai"
+      ],
+      "register": "colloquial",
+      "frequency": "common",
+      "freshness": 0.4,
+      "articulation_cost": 0.3,
+      "reading_confidence": 0.85,
+      "particles_before": [
+        "深夜の"
+      ],
+      "particles_after": [
+        "に飽きた"
+      ],
+      "proper_noun": false,
+      "source": "manual",
+      "position": "unplaced",
+      "meta_note": "句ノード"
+    },
+    {
+      "id": "suteetasu",
+      "surface": "ステータス",
+      "reading": "ステータス",
+      "part_of_speech": "noun",
+      "semantic_domains": [
+        "game_mechanics",
+        "status",
+        "side:isekai"
+      ],
+      "register": "neutral",
+      "frequency": "common",
+      "freshness": 0.3,
+      "articulation_cost": 0.3,
+      "reading_confidence": 1.0,
+      "particles_before": [],
+      "particles_after": [
+        "画面",
+        "隠す"
+      ],
+      "proper_noun": false,
+      "source": "manual",
+      "position": "unplaced",
+      "meta_note": ""
+    },
+    {
+      "id": "kuesuto",
+      "surface": "クエスト",
+      "reading": "クエスト",
+      "part_of_speech": "noun",
+      "semantic_domains": [
+        "game_mechanics",
+        "task",
+        "side:isekai"
+      ],
+      "register": "neutral",
+      "frequency": "common",
+      "freshness": 0.3,
+      "articulation_cost": 0.2,
+      "reading_confidence": 1.0,
+      "particles_before": [
+        "強制"
+      ],
+      "particles_after": [
+        "受注",
+        "消化"
+      ],
+      "proper_noun": false,
+      "source": "manual",
+      "position": "unplaced",
+      "meta_note": ""
+    },
+    {
+      "id": "girudo",
+      "surface": "ギルド",
+      "reading": "ギルド",
+      "part_of_speech": "noun",
+      "semantic_domains": [
+        "isekai_trope",
+        "organization",
+        "side:isekai"
+      ],
+      "register": "neutral",
+      "frequency": "marked",
+      "freshness": 0.4,
+      "articulation_cost": 0.2,
+      "reading_confidence": 1.0,
+      "particles_before": [],
+      "particles_after": [
+        "の受付",
+        "審査"
+      ],
+      "proper_noun": false,
+      "source": "manual",
+      "position": "unplaced",
+      "meta_note": ""
+    },
+    {
+      "id": "shujinko",
+      "surface": "主人公",
+      "reading": "シュジンコー",
+      "part_of_speech": "noun",
+      "semantic_domains": [
+        "character_role",
+        "protagonism",
+        "side:isekai"
+      ],
+      "register": "neutral",
+      "frequency": "common",
+      "freshness": 0.3,
+      "articulation_cost": 0.3,
+      "reading_confidence": 0.85,
+      "particles_before": [
+        "物語の"
+      ],
+      "particles_after": [
+        "補正",
+        "面"
+      ],
+      "proper_noun": false,
+      "source": "manual",
+      "position": "unplaced",
+      "meta_note": ""
+    },
+    {
+      "id": "akuyaku",
+      "surface": "悪役",
+      "reading": "アクヤク",
+      "part_of_speech": "noun",
+      "semantic_domains": [
+        "character_role",
+        "side:isekai"
+      ],
+      "register": "neutral",
+      "frequency": "common",
+      "freshness": 0.35,
+      "articulation_cost": 0.2,
+      "reading_confidence": 0.85,
+      "particles_before": [],
+      "particles_after": [
+        "令嬢",
+        "顔"
+      ],
+      "proper_noun": false,
+      "source": "manual",
+      "position": "unplaced",
+      "meta_note": ""
+    },
+    {
+      "id": "koryaku",
+      "surface": "攻略",
+      "reading": "コーリャク",
+      "part_of_speech": "noun_suru",
+      "semantic_domains": [
+        "game_mechanics",
+        "strategy",
+        "side:isekai"
+      ],
+      "register": "neutral",
+      "frequency": "common",
+      "freshness": 0.35,
+      "articulation_cost": 0.3,
+      "reading_confidence": 0.85,
+      "particles_before": [],
+      "particles_after": [
+        "本",
+        "する"
+      ],
+      "proper_noun": false,
+      "source": "manual",
+      "position": "unplaced",
+      "meta_note": ""
+    },
+    {
+      "id": "mao",
+      "surface": "魔王",
+      "reading": "マオー",
+      "part_of_speech": "noun",
+      "semantic_domains": [
+        "character_role",
+        "authority",
+        "side:isekai"
+      ],
+      "register": "neutral",
+      "frequency": "common",
+      "freshness": 0.3,
+      "articulation_cost": 0.1,
+      "reading_confidence": 0.85,
+      "particles_before": [],
+      "particles_after": [
+        "討伐",
+        "城"
+      ],
+      "proper_noun": false,
+      "source": "manual",
+      "position": "unplaced",
+      "meta_note": ""
+    },
+    {
+      "id": "muso",
+      "surface": "無双",
+      "reading": "ムソー",
+      "part_of_speech": "noun_suru",
+      "semantic_domains": [
+        "isekai_trope",
+        "dominance",
+        "side:isekai"
+      ],
+      "register": "colloquial",
+      "frequency": "common",
+      "freshness": 0.35,
+      "articulation_cost": 0.1,
+      "reading_confidence": 0.85,
+      "particles_before": [
+        "俺だけ"
+      ],
+      "particles_after": [
+        "する",
+        "状態"
+      ],
+      "proper_noun": false,
+      "source": "manual",
+      "position": "unplaced",
+      "meta_note": ""
+    },
+    {
+      "id": "risemara",
+      "surface": "リセマラ",
+      "reading": "リセマラ",
+      "part_of_speech": "noun_suru",
+      "semantic_domains": [
+        "gacha",
+        "retry",
+        "side:bridge"
+      ],
+      "register": "slang",
+      "frequency": "marked",
+      "freshness": 0.5,
+      "articulation_cost": 0.3,
+      "reading_confidence": 1.0,
+      "particles_before": [
+        "人生を"
+      ],
+      "particles_after": [
+        "する",
+        "不可"
+      ],
+      "proper_noun": false,
+      "source": "manual",
+      "position": "unplaced",
+      "meta_note": "リセットマラソンの略"
+    },
+    {
+      "id": "kakin",
+      "surface": "課金",
+      "reading": "カキン",
+      "part_of_speech": "noun_suru",
+      "semantic_domains": [
+        "gacha",
+        "money",
+        "side:bridge"
+      ],
+      "register": "neutral",
+      "frequency": "common",
+      "freshness": 0.3,
+      "articulation_cost": 0.1,
+      "reading_confidence": 0.85,
+      "particles_before": [
+        "月末に"
+      ],
+      "particles_after": [
+        "する",
+        "圧"
+      ],
+      "proper_noun": false,
+      "source": "manual",
+      "position": "unplaced",
+      "meta_note": ""
+    },
+    {
+      "id": "mukakin",
+      "surface": "無課金",
+      "reading": "ムカキン",
+      "part_of_speech": "noun",
+      "semantic_domains": [
+        "gacha",
+        "money",
+        "poverty",
+        "side:bridge"
+      ],
+      "register": "colloquial",
+      "frequency": "common",
+      "freshness": 0.4,
+      "articulation_cost": 0.2,
+      "reading_confidence": 0.85,
+      "particles_before": [],
+      "particles_after": [
+        "勢",
+        "の意地"
+      ],
+      "proper_noun": false,
+      "source": "manual",
+      "position": "unplaced",
+      "meta_note": "課金と語幹共有"
+    },
+    {
+      "id": "torakku",
+      "surface": "トラック",
+      "reading": "トラック",
+      "part_of_speech": "noun",
+      "semantic_domains": [
+        "isekai_trope",
+        "death_trigger",
+        "vehicle",
+        "side:isekai"
+      ],
+      "register": "neutral",
+      "frequency": "common",
+      "freshness": 0.3,
+      "articulation_cost": 0.2,
+      "reading_confidence": 1.0,
+      "particles_before": [
+        "異世界行きの"
+      ],
+      "particles_after": [
+        "に轢かれ",
+        "待ち"
+      ],
+      "proper_noun": false,
+      "source": "manual",
+      "position": "unplaced",
+      "meta_note": "転生の定番トリガー"
+    },
+    {
+      "id": "danjon",
+      "surface": "ダンジョン",
+      "reading": "ダンジョン",
+      "part_of_speech": "noun",
+      "semantic_domains": [
+        "isekai_trope",
+        "place",
+        "side:isekai"
+      ],
+      "register": "neutral",
+      "frequency": "common",
+      "freshness": 0.3,
+      "articulation_cost": 0.2,
+      "reading_confidence": 1.0,
+      "particles_before": [
+        "自動生成の"
+      ],
+      "particles_after": [
+        "攻略",
+        "の奥"
+      ],
+      "proper_noun": false,
+      "source": "manual",
+      "position": "unplaced",
+      "meta_note": ""
+    },
+    {
+      "id": "settei",
+      "surface": "設定",
+      "reading": "セッテー",
+      "part_of_speech": "noun_suru",
+      "semantic_domains": [
+        "narrative_device",
+        "side:bridge"
+      ],
+      "register": "neutral",
+      "frequency": "common",
+      "freshness": 0.3,
+      "articulation_cost": 0.2,
+      "reading_confidence": 0.85,
+      "particles_before": [
+        "初期"
+      ],
+      "particles_after": [
+        "ミス",
+        "資料"
+      ],
+      "proper_noun": false,
+      "source": "manual",
+      "position": "unplaced",
+      "meta_note": "辞書形セッテイ"
+    },
+    {
+      "id": "keikenchi",
+      "surface": "経験値",
+      "reading": "ケーケンチ",
+      "part_of_speech": "noun",
+      "semantic_domains": [
+        "game_mechanics",
+        "growth",
+        "side:isekai"
+      ],
+      "register": "neutral",
+      "frequency": "common",
+      "freshness": 0.35,
+      "articulation_cost": 0.3,
+      "reading_confidence": 0.85,
+      "particles_before": [],
+      "particles_after": [
+        "ゼロ",
+        "稼ぎ"
+      ],
+      "proper_noun": false,
+      "source": "manual",
+      "position": "unplaced",
+      "meta_note": "辞書形ケイケンチ"
+    },
+    {
+      "id": "zonbi",
+      "surface": "ゾンビ",
+      "reading": "ゾンビ",
+      "part_of_speech": "noun",
+      "semantic_domains": [
+        "monster",
+        "exhaustion_metaphor",
+        "side:bridge"
+      ],
+      "register": "neutral",
+      "frequency": "common",
+      "freshness": 0.35,
+      "articulation_cost": 0.2,
+      "reading_confidence": 1.0,
+      "particles_before": [
+        "歩く"
+      ],
+      "particles_after": [
+        "みたい",
+        "の列"
+      ],
+      "proper_noun": false,
+      "source": "manual",
+      "position": "unplaced",
+      "meta_note": ""
+    },
+    {
+      "id": "tenshoku_calling",
+      "surface": "天職",
+      "reading": "テンショク",
+      "part_of_speech": "noun",
+      "semantic_domains": [
+        "work",
+        "aspiration",
+        "side:reality"
+      ],
+      "register": "neutral",
+      "frequency": "marked",
+      "freshness": 0.5,
+      "articulation_cost": 0.2,
+      "reading_confidence": 0.85,
+      "particles_before": [
+        "これが"
+      ],
+      "particles_after": [
+        "だと",
+        "探し"
+      ],
+      "proper_noun": false,
+      "source": "manual",
+      "position": "unplaced",
+      "meta_note": ""
+    },
+    {
+      "id": "zangyo",
+      "surface": "残業",
+      "reading": "ザンギョー",
+      "part_of_speech": "noun_suru",
+      "semantic_domains": [
+        "labor",
+        "overtime",
+        "side:reality"
+      ],
+      "register": "neutral",
+      "frequency": "common",
+      "freshness": 0.3,
+      "articulation_cost": 0.2,
+      "reading_confidence": 0.85,
+      "particles_before": [
+        "サービス"
+      ],
+      "particles_after": [
+        "代",
+        "続き"
+      ],
+      "proper_noun": false,
+      "source": "manual",
+      "position": "unplaced",
+      "meta_note": ""
+    },
+    {
+      "id": "shuden",
+      "surface": "終電",
+      "reading": "シューデン",
+      "part_of_speech": "noun",
+      "semantic_domains": [
+        "commute",
+        "night",
+        "side:reality"
+      ],
+      "register": "neutral",
+      "frequency": "common",
+      "freshness": 0.3,
+      "articulation_cost": 0.2,
+      "reading_confidence": 0.85,
+      "particles_before": [],
+      "particles_after": [
+        "逃し",
+        "間際"
+      ],
+      "proper_noun": false,
+      "source": "manual",
+      "position": "unplaced",
+      "meta_note": ""
+    },
+    {
+      "id": "shukatsu",
+      "surface": "就活",
+      "reading": "シューカツ",
+      "part_of_speech": "noun_suru",
+      "semantic_domains": [
+        "job_hunting",
+        "side:reality"
+      ],
+      "register": "colloquial",
+      "frequency": "common",
+      "freshness": 0.3,
+      "articulation_cost": 0.2,
+      "reading_confidence": 0.85,
+      "particles_before": [],
+      "particles_after": [
+        "生",
+        "戦線"
+      ],
+      "proper_noun": false,
+      "source": "manual",
+      "position": "unplaced",
+      "meta_note": ""
+    },
+    {
+      "id": "kyujinhyo",
+      "surface": "求人票",
+      "reading": "キュージンヒョー",
+      "part_of_speech": "noun",
+      "semantic_domains": [
+        "job_hunting",
+        "document",
+        "side:reality"
+      ],
+      "register": "neutral",
+      "frequency": "marked",
+      "freshness": 0.55,
+      "articulation_cost": 0.4,
+      "reading_confidence": 0.85,
+      "particles_before": [],
+      "particles_after": [
+        "の嘘",
+        "眺め"
+      ],
+      "proper_noun": false,
+      "source": "manual",
+      "position": "unplaced",
+      "meta_note": ""
+    },
+    {
+      "id": "shushinkoyo",
+      "surface": "終身雇用",
+      "reading": "シューシンコヨー",
+      "part_of_speech": "noun",
+      "semantic_domains": [
+        "labor_system",
+        "side:reality"
+      ],
+      "register": "formal",
+      "frequency": "marked",
+      "freshness": 0.5,
+      "articulation_cost": 0.4,
+      "reading_confidence": 0.85,
+      "particles_before": [],
+      "particles_after": [
+        "の幻",
+        "は伝説"
+      ],
+      "proper_noun": false,
+      "source": "manual",
+      "position": "unplaced",
+      "meta_note": ""
+    },
+    {
+      "id": "mensetsu",
+      "surface": "面接",
+      "reading": "メンセツ",
+      "part_of_speech": "noun_suru",
+      "semantic_domains": [
+        "job_hunting",
+        "side:reality"
+      ],
+      "register": "neutral",
+      "frequency": "common",
+      "freshness": 0.3,
+      "articulation_cost": 0.2,
+      "reading_confidence": 0.85,
+      "particles_before": [
+        "最終"
+      ],
+      "particles_after": [
+        "官",
+        "で落ち"
+      ],
+      "proper_noun": false,
+      "source": "manual",
+      "position": "unplaced",
+      "meta_note": ""
+    },
+    {
+      "id": "tenshoku_change",
+      "surface": "転職",
+      "reading": "テンショク",
+      "part_of_speech": "noun_suru",
+      "semantic_domains": [
+        "labor",
+        "retry",
+        "side:reality"
+      ],
+      "register": "neutral",
+      "frequency": "common",
+      "freshness": 0.3,
+      "articulation_cost": 0.2,
+      "reading_confidence": 0.85,
+      "particles_before": [],
+      "particles_after": [
+        "サイト",
+        "を繰り返す"
+      ],
+      "proper_noun": false,
+      "source": "manual",
+      "position": "unplaced",
+      "meta_note": "天職と同音"
+    },
+    {
+      "id": "rirekisho",
+      "surface": "履歴書",
+      "reading": "リレキショ",
+      "part_of_speech": "noun",
+      "semantic_domains": [
+        "job_hunting",
+        "document",
+        "side:reality"
+      ],
+      "register": "neutral",
+      "frequency": "common",
+      "freshness": 0.35,
+      "articulation_cost": 0.4,
+      "reading_confidence": 0.85,
+      "particles_before": [],
+      "particles_after": [
+        "を盛る",
+        "の空欄"
+      ],
+      "proper_noun": false,
+      "source": "manual",
+      "position": "unplaced",
+      "meta_note": ""
+    },
+    {
+      "id": "hiseiki",
+      "surface": "非正規",
+      "reading": "ヒセーキ",
+      "part_of_speech": "noun",
+      "semantic_domains": [
+        "labor_status",
+        "precarity",
+        "side:reality"
+      ],
+      "register": "neutral",
+      "frequency": "common",
+      "freshness": 0.45,
+      "articulation_cost": 0.3,
+      "reading_confidence": 0.85,
+      "particles_before": [],
+      "particles_after": [
+        "雇用",
+        "のまま"
+      ],
+      "proper_noun": false,
+      "source": "manual",
+      "position": "unplaced",
+      "meta_note": "辞書形ヒセイキ"
+    },
+    {
+      "id": "shogakukin",
+      "surface": "奨学金",
+      "reading": "ショーガクキン",
+      "part_of_speech": "noun",
+      "semantic_domains": [
+        "debt",
+        "education",
+        "side:reality"
+      ],
+      "register": "neutral",
+      "frequency": "common",
+      "freshness": 0.4,
+      "articulation_cost": 0.4,
+      "reading_confidence": 0.85,
+      "particles_before": [],
+      "particles_after": [
+        "の残高",
+        "返済"
+      ],
+      "proper_noun": false,
+      "source": "manual",
+      "position": "unplaced",
+      "meta_note": ""
+    },
+    {
+      "id": "yachin",
+      "surface": "家賃",
+      "reading": "ヤチン",
+      "part_of_speech": "noun",
+      "semantic_domains": [
+        "money",
+        "housing",
+        "side:reality"
+      ],
+      "register": "neutral",
+      "frequency": "common",
+      "freshness": 0.3,
+      "articulation_cost": 0.1,
+      "reading_confidence": 0.85,
+      "particles_before": [
+        "今月の"
+      ],
+      "particles_after": [
+        "の督促",
+        "を払う"
+      ],
+      "proper_noun": false,
+      "source": "manual",
+      "position": "unplaced",
+      "meta_note": ""
+    },
+    {
+      "id": "tenbiki",
+      "surface": "天引き",
+      "reading": "テンビキ",
+      "part_of_speech": "noun_suru",
+      "semantic_domains": [
+        "money",
+        "wage",
+        "side:reality"
+      ],
+      "register": "neutral",
+      "frequency": "marked",
+      "freshness": 0.55,
+      "articulation_cost": 0.2,
+      "reading_confidence": 0.85,
+      "particles_before": [
+        "給料から"
+      ],
+      "particles_after": [
+        "される",
+        "の明細"
+      ],
+      "proper_noun": false,
+      "source": "manual",
+      "position": "unplaced",
+      "meta_note": ""
+    },
+    {
+      "id": "jikyu",
+      "surface": "時給",
+      "reading": "ジキュー",
+      "part_of_speech": "noun",
+      "semantic_domains": [
+        "money",
+        "wage",
+        "side:reality"
+      ],
+      "register": "neutral",
+      "frequency": "common",
+      "freshness": 0.3,
+      "articulation_cost": 0.1,
+      "reading_confidence": 0.85,
+      "particles_before": [
+        "深夜の"
+      ],
+      "particles_after": [
+        "換算",
+        "で売る"
+      ],
+      "proper_noun": false,
+      "source": "manual",
+      "position": "unplaced",
+      "meta_note": ""
+    },
+    {
+      "id": "chikyu",
+      "surface": "地球",
+      "reading": "チキュー",
+      "part_of_speech": "noun",
+      "semantic_domains": [
+        "world",
+        "reality",
+        "side:bridge"
+      ],
+      "register": "neutral",
+      "frequency": "common",
+      "freshness": 0.35,
+      "articulation_cost": 0.1,
+      "reading_confidence": 0.85,
+      "particles_before": [
+        "この"
+      ],
+      "particles_after": [
+        "という現場",
+        "産"
+      ],
+      "proper_noun": false,
+      "source": "manual",
+      "position": "unplaced",
+      "meta_note": "現実側の「異世界」"
+    },
+    {
+      "id": "shinya",
+      "surface": "深夜",
+      "reading": "シンヤ",
+      "part_of_speech": "noun",
+      "semantic_domains": [
+        "night",
+        "time",
+        "side:reality"
+      ],
+      "register": "neutral",
+      "frequency": "common",
+      "freshness": 0.3,
+      "articulation_cost": 0.1,
+      "reading_confidence": 0.85,
+      "particles_before": [],
+      "particles_after": [
+        "勤務",
+        "のレジ"
+      ],
+      "proper_noun": false,
+      "source": "manual",
+      "position": "unplaced",
+      "meta_note": ""
+    },
+    {
+      "id": "inkya",
+      "surface": "陰キャ",
+      "reading": "インキャ",
+      "part_of_speech": "noun",
+      "semantic_domains": [
+        "character_role",
+        "self_image",
+        "side:reality"
+      ],
+      "register": "slang",
+      "frequency": "common",
+      "freshness": 0.4,
+      "articulation_cost": 0.2,
+      "reading_confidence": 0.85,
+      "particles_before": [],
+      "particles_after": [
+        "扱い",
+        "の隅"
+      ],
+      "proper_noun": false,
+      "source": "manual",
+      "position": "unplaced",
+      "meta_note": ""
+    },
+    {
+      "id": "konbini",
+      "surface": "コンビニ",
+      "reading": "コンビニ",
+      "part_of_speech": "noun",
+      "semantic_domains": [
+        "place",
+        "night_work",
+        "side:reality"
+      ],
+      "register": "neutral",
+      "frequency": "common",
+      "freshness": 0.3,
+      "articulation_cost": 0.2,
+      "reading_confidence": 1.0,
+      "particles_before": [
+        "深夜の"
+      ],
+      "particles_after": [
+        "の灯り",
+        "のレジ"
+      ],
+      "proper_noun": false,
+      "source": "manual",
+      "position": "unplaced",
+      "meta_note": ""
+    },
+    {
+      "id": "shifuto",
+      "surface": "シフト",
+      "reading": "シフト",
+      "part_of_speech": "noun",
+      "semantic_domains": [
+        "labor",
+        "schedule",
+        "side:reality"
+      ],
+      "register": "neutral",
+      "frequency": "common",
+      "freshness": 0.3,
+      "articulation_cost": 0.1,
+      "reading_confidence": 1.0,
+      "particles_before": [
+        "穴埋め"
+      ],
+      "particles_after": [
+        "を組まれ",
+        "表"
+      ],
+      "proper_noun": false,
+      "source": "manual",
+      "position": "unplaced",
+      "meta_note": ""
+    },
+    {
+      "id": "niito",
+      "surface": "ニート",
+      "reading": "ニート",
+      "part_of_speech": "noun",
+      "semantic_domains": [
+        "labor_status",
+        "self_image",
+        "side:reality"
+      ],
+      "register": "colloquial",
+      "frequency": "common",
+      "freshness": 0.3,
+      "articulation_cost": 0.1,
+      "reading_confidence": 1.0,
+      "particles_before": [],
+      "particles_after": [
+        "寸前",
+        "呼ばわり"
+      ],
+      "proper_noun": false,
+      "source": "manual",
+      "position": "unplaced",
+      "meta_note": ""
+    },
+    {
+      "id": "kacho",
+      "surface": "課長",
+      "reading": "カチョー",
+      "part_of_speech": "noun",
+      "semantic_domains": [
+        "authority",
+        "office",
+        "side:reality"
+      ],
+      "register": "neutral",
+      "frequency": "common",
+      "freshness": 0.3,
+      "articulation_cost": 0.1,
+      "reading_confidence": 0.85,
+      "particles_before": [
+        "うちの"
+      ],
+      "particles_after": [
+        "の説教",
+        "の椅子"
+      ],
+      "proper_noun": false,
+      "source": "manual",
+      "position": "unplaced",
+      "meta_note": "役職の一般名詞"
+    },
+    {
+      "id": "rodo",
+      "surface": "労働",
+      "reading": "ロードー",
+      "part_of_speech": "noun_suru",
+      "semantic_domains": [
+        "labor",
+        "side:reality"
+      ],
+      "register": "formal",
+      "frequency": "common",
+      "freshness": 0.3,
+      "articulation_cost": 0.2,
+      "reading_confidence": 0.85,
+      "particles_before": [
+        "単純"
+      ],
+      "particles_after": [
+        "力",
+        "時間"
+      ],
+      "proper_noun": false,
+      "source": "manual",
+      "position": "unplaced",
+      "meta_note": ""
+    },
+    {
+      "id": "shomo",
+      "surface": "消耗",
+      "reading": "ショーモー",
+      "part_of_speech": "noun_suru",
+      "semantic_domains": [
+        "exhaustion",
+        "side:reality"
+      ],
+      "register": "neutral",
+      "frequency": "common",
+      "freshness": 0.35,
+      "articulation_cost": 0.2,
+      "reading_confidence": 0.85,
+      "particles_before": [],
+      "particles_after": [
+        "戦",
+        "品"
+      ],
+      "proper_noun": false,
+      "source": "manual",
+      "position": "unplaced",
+      "meta_note": ""
+    },
+    {
+      "id": "musho",
+      "surface": "無償",
+      "reading": "ムショー",
+      "part_of_speech": "noun",
+      "semantic_domains": [
+        "labor",
+        "money",
+        "side:reality"
+      ],
+      "register": "formal",
+      "frequency": "marked",
+      "freshness": 0.5,
+      "articulation_cost": 0.1,
+      "reading_confidence": 0.85,
+      "particles_before": [],
+      "particles_after": [
+        "労働",
+        "の愛"
+      ],
+      "proper_noun": false,
+      "source": "manual",
+      "position": "unplaced",
+      "meta_note": ""
+    },
+    {
+      "id": "teihen",
+      "surface": "底辺",
+      "reading": "テーヘン",
+      "part_of_speech": "noun",
+      "semantic_domains": [
+        "hierarchy",
+        "self_image",
+        "side:reality"
+      ],
+      "register": "colloquial",
+      "frequency": "common",
+      "freshness": 0.35,
+      "articulation_cost": 0.2,
+      "reading_confidence": 0.85,
+      "particles_before": [],
+      "particles_after": [
+        "職",
+        "からの視界"
+      ],
+      "proper_noun": false,
+      "source": "manual",
+      "position": "unplaced",
+      "meta_note": "辞書形テイヘン"
+    },
+    {
+      "id": "genjitsu",
+      "surface": "現実",
+      "reading": "ゲンジツ",
+      "part_of_speech": "noun",
+      "semantic_domains": [
+        "reality",
+        "side:reality"
+      ],
+      "register": "neutral",
+      "frequency": "common",
+      "freshness": 0.25,
+      "articulation_cost": 0.2,
+      "reading_confidence": 0.85,
+      "particles_before": [
+        "この"
+      ],
+      "particles_after": [
+        "逃避",
+        "に戻る"
+      ],
+      "proper_noun": false,
+      "source": "manual",
+      "position": "unplaced",
+      "meta_note": ""
+    },
+    {
+      "id": "jinsei",
+      "surface": "人生",
+      "reading": "ジンセー",
+      "part_of_speech": "noun",
+      "semantic_domains": [
+        "life",
+        "side:reality"
+      ],
+      "register": "neutral",
+      "frequency": "common",
+      "freshness": 0.25,
+      "articulation_cost": 0.1,
+      "reading_confidence": 0.85,
+      "particles_before": [
+        "一度きりの"
+      ],
+      "particles_after": [
+        "設計",
+        "の主役"
+      ],
+      "proper_noun": false,
+      "source": "manual",
+      "position": "unplaced",
+      "meta_note": "辞書形ジンセイ"
+    },
+    {
+      "id": "burakku",
+      "surface": "ブラック",
+      "reading": "ブラック",
+      "part_of_speech": "noun",
+      "semantic_domains": [
+        "labor",
+        "exploitation",
+        "side:reality"
+      ],
+      "register": "slang",
+      "frequency": "common",
+      "freshness": 0.35,
+      "articulation_cost": 0.2,
+      "reading_confidence": 1.0,
+      "particles_before": [],
+      "particles_after": [
+        "な現場",
+        "認定"
+      ],
+      "proper_noun": false,
+      "source": "manual",
+      "position": "unplaced",
+      "meta_note": "劣悪労働の一般語"
+    },
+    {
+      "id": "haiyaku",
+      "surface": "配役",
+      "reading": "ハイヤク",
+      "part_of_speech": "noun",
+      "semantic_domains": [
+        "narrative_device",
+        "role_assignment",
+        "side:bridge"
+      ],
+      "register": "neutral",
+      "frequency": "marked",
+      "freshness": 0.55,
+      "articulation_cost": 0.2,
+      "reading_confidence": 0.85,
+      "particles_before": [
+        "勝手な"
+      ],
+      "particles_after": [
+        "ミス",
+        "を拒む"
+      ],
+      "proper_noun": false,
+      "source": "manual",
+      "position": "unplaced",
+      "meta_note": ""
+    },
+    {
+      "id": "keiyaku",
+      "surface": "契約",
+      "reading": "ケーヤク",
+      "part_of_speech": "noun_suru",
+      "semantic_domains": [
+        "labor",
+        "document",
+        "side:reality"
+      ],
+      "register": "neutral",
+      "frequency": "common",
+      "freshness": 0.3,
+      "articulation_cost": 0.2,
+      "reading_confidence": 0.85,
+      "particles_before": [
+        "有期"
+      ],
+      "particles_after": [
+        "更新",
+        "書"
+      ],
+      "proper_noun": false,
+      "source": "manual",
+      "position": "unplaced",
+      "meta_note": "辞書形ケイヤク"
+    },
+    {
+      "id": "daison",
+      "surface": "大損",
+      "reading": "ダイソン",
+      "part_of_speech": "noun_suru",
+      "semantic_domains": [
+        "money",
+        "loss",
+        "side:reality"
+      ],
+      "register": "colloquial",
+      "frequency": "marked",
+      "freshness": 0.5,
+      "articulation_cost": 0.2,
+      "reading_confidence": 0.85,
+      "particles_before": [
+        "十連で"
+      ],
+      "particles_after": [
+        "こいた"
+      ],
+      "proper_noun": false,
+      "source": "manual",
+      "position": "unplaced",
+      "meta_note": ""
+    },
+    {
+      "id": "nererumae",
+      "surface": "寝れる前",
+      "reading": "ネレルマエ",
+      "part_of_speech": "phrase",
+      "semantic_domains": [
+        "night",
+        "exhaustion",
+        "side:reality"
+      ],
+      "register": "colloquial",
+      "frequency": "marked",
+      "freshness": 0.55,
+      "articulation_cost": 0.3,
+      "reading_confidence": 0.85,
+      "particles_before": [],
+      "particles_after": [
+        "に朝"
+      ],
+      "proper_noun": false,
+      "source": "manual",
+      "position": "unplaced",
+      "meta_note": "ら抜き口語。句ノード"
+    },
+    {
+      "id": "kuezuni",
+      "surface": "食えずに",
+      "reading": "クエズニ",
+      "part_of_speech": "phrase",
+      "semantic_domains": [
+        "poverty",
+        "side:reality"
+      ],
+      "register": "colloquial",
+      "frequency": "marked",
+      "freshness": 0.55,
+      "articulation_cost": 0.2,
+      "reading_confidence": 0.85,
+      "particles_before": [
+        "夢じゃ"
+      ],
+      "particles_after": [
+        "並ぶ"
+      ],
+      "proper_noun": false,
+      "source": "manual",
+      "position": "unplaced",
+      "meta_note": "句ノード"
+    },
+    {
+      "id": "misekake",
+      "surface": "見せかけ",
+      "reading": "ミセカケ",
+      "part_of_speech": "noun",
+      "semantic_domains": [
+        "deception",
+        "side:reality"
+      ],
+      "register": "neutral",
+      "frequency": "common",
+      "freshness": 0.4,
+      "articulation_cost": 0.2,
+      "reading_confidence": 0.85,
+      "particles_before": [],
+      "particles_after": [
+        "の自由",
+        "の福利"
+      ],
+      "proper_noun": false,
+      "source": "manual",
+      "position": "unplaced",
+      "meta_note": ""
+    },
+    {
+      "id": "daihon",
+      "surface": "台本",
+      "reading": "ダイホン",
+      "part_of_speech": "noun",
+      "semantic_domains": [
+        "narrative_device",
+        "script",
+        "side:bridge"
+      ],
+      "register": "neutral",
+      "frequency": "common",
+      "freshness": 0.35,
+      "articulation_cost": 0.2,
+      "reading_confidence": 0.85,
+      "particles_before": [
+        "他人の"
+      ],
+      "particles_after": [
+        "を破る",
+        "通り"
+      ],
+      "proper_noun": false,
+      "source": "manual",
+      "position": "unplaced",
+      "meta_note": ""
+    }
+  ]
+}
