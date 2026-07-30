@@ -1,0 +1,5112 @@
+{
+ "schema": "rhyme-graph/v2",
+ "graph_scope": "テーマ中核語(異世界転生トロープ×現実労働)からの独立構築。vocabulary_bank/flow_map未参照(並列フェーズ第一便)",
+ "seed_terms": [
+  "転生",
+  "ガチャ",
+  "モブ",
+  "周回",
+  "残業",
+  "課金",
+  "異世界",
+  "労働"
+ ],
+ "nodes": [
+  {
+   "node_id": "tensei",
+   "surface": "転生",
+   "reading": "テンセー",
+   "morae": [
+    "テ",
+    "ン",
+    "セ",
+    "ー"
+   ],
+   "mora_count": 4,
+   "vowel_sequence": [
+    "e",
+    "N",
+    "e",
+    "e"
+   ],
+   "consonant_sequence": [
+    "t",
+    null,
+    "s",
+    null
+   ],
+   "special_morae": [
+    null,
+    "N",
+    null,
+    "R"
+   ],
+   "accent": "unknown",
+   "pos": "noun_suru",
+   "semantic_domain": [
+    "isekai_trope",
+    "rebirth"
+   ],
+   "side": "isekai",
+   "register": "neutral",
+   "proper_noun": false,
+   "frequency_band": "common",
+   "freshness": 0.35,
+   "particles_before": [
+    "異世界に"
+   ],
+   "particles_after": [
+    "する",
+    "したい",
+    "先"
+   ],
+   "articulation_cost": 0.2,
+   "reading_confidence": "medium",
+   "reading_source": "manual+g2p.py mora解析(辞書バックエンド無しのため未照合)",
+   "notes": [
+    "辞書形テンセイ/演奏読みで長音化",
+    "エイ→エーの長音演奏読みを採用(long_vowel_performance_variant)"
+   ]
+  },
+  {
+   "node_id": "isekai",
+   "surface": "異世界",
+   "reading": "イセカイ",
+   "morae": [
+    "イ",
+    "セ",
+    "カ",
+    "イ"
+   ],
+   "mora_count": 4,
+   "vowel_sequence": [
+    "i",
+    "e",
+    "a",
+    "i"
+   ],
+   "consonant_sequence": [
+    null,
+    "s",
+    "k",
+    null
+   ],
+   "special_morae": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "accent": "unknown",
+   "pos": "noun",
+   "semantic_domain": [
+    "isekai_trope",
+    "world"
+   ],
+   "side": "isekai",
+   "register": "neutral",
+   "proper_noun": false,
+   "frequency_band": "common",
+   "freshness": 0.3,
+   "particles_before": [
+    "この"
+   ],
+   "particles_after": [
+    "へ",
+    "行き"
+   ],
+   "articulation_cost": 0.2,
+   "reading_confidence": "medium",
+   "reading_source": "manual+g2p.py mora解析(辞書バックエンド無しのため未照合)",
+   "notes": []
+  },
+  {
+   "node_id": "gacha",
+   "surface": "ガチャ",
+   "reading": "ガチャ",
+   "morae": [
+    "ガ",
+    "チャ"
+   ],
+   "mora_count": 2,
+   "vowel_sequence": [
+    "a",
+    "a"
+   ],
+   "consonant_sequence": [
+    "g",
+    "chy"
+   ],
+   "special_morae": [
+    null,
+    null
+   ],
+   "accent": "unknown",
+   "pos": "noun",
+   "semantic_domain": [
+    "gacha",
+    "game_mechanics",
+    "money"
+   ],
+   "side": "isekai",
+   "register": "colloquial",
+   "proper_noun": false,
+   "frequency_band": "common",
+   "freshness": 0.3,
+   "particles_before": [
+    "十連"
+   ],
+   "particles_after": [
+    "回す",
+    "運"
+   ],
+   "articulation_cost": 0.1,
+   "reading_confidence": "high",
+   "reading_source": "surface-kana+g2p.py",
+   "notes": []
+  },
+  {
+   "node_id": "oyagacha",
+   "surface": "親ガチャ",
+   "reading": "オヤガチャ",
+   "morae": [
+    "オ",
+    "ヤ",
+    "ガ",
+    "チャ"
+   ],
+   "mora_count": 4,
+   "vowel_sequence": [
+    "o",
+    "a",
+    "a",
+    "a"
+   ],
+   "consonant_sequence": [
+    null,
+    "y",
+    "g",
+    "chy"
+   ],
+   "special_morae": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "accent": "unknown",
+   "pos": "noun",
+   "semantic_domain": [
+    "gacha",
+    "inequality"
+   ],
+   "side": "bridge",
+   "register": "slang",
+   "proper_noun": false,
+   "frequency_band": "common",
+   "freshness": 0.4,
+   "particles_before": [],
+   "particles_after": [
+    "外れ",
+    "のせい"
+   ],
+   "articulation_cost": 0.2,
+   "reading_confidence": "medium",
+   "reading_source": "manual+g2p.py mora解析(辞書バックエンド無しのため未照合)",
+   "notes": [
+    "ガチャと語幹共有"
+   ]
+  },
+  {
+   "node_id": "tenjo",
+   "surface": "天井",
+   "reading": "テンジョー",
+   "morae": [
+    "テ",
+    "ン",
+    "ジョ",
+    "ー"
+   ],
+   "mora_count": 4,
+   "vowel_sequence": [
+    "e",
+    "N",
+    "o",
+    "o"
+   ],
+   "consonant_sequence": [
+    "t",
+    null,
+    "jy",
+    null
+   ],
+   "special_morae": [
+    null,
+    "N",
+    null,
+    "R"
+   ],
+   "accent": "unknown",
+   "pos": "noun",
+   "semantic_domain": [
+    "gacha",
+    "money",
+    "room_interior"
+   ],
+   "side": "bridge",
+   "register": "neutral",
+   "proper_noun": false,
+   "frequency_band": "common",
+   "freshness": 0.55,
+   "particles_before": [
+    "課金の"
+   ],
+   "particles_after": [
+    "まで",
+    "を見る"
+   ],
+   "articulation_cost": 0.2,
+   "reading_confidence": "medium",
+   "reading_source": "manual+g2p.py mora解析(辞書バックエンド無しのため未照合)",
+   "notes": [
+    "多義: ガチャ天井/部屋の天井"
+   ]
+  },
+  {
+   "node_id": "mobu",
+   "surface": "モブ",
+   "reading": "モブ",
+   "morae": [
+    "モ",
+    "ブ"
+   ],
+   "mora_count": 2,
+   "vowel_sequence": [
+    "o",
+    "u"
+   ],
+   "consonant_sequence": [
+    "m",
+    "b"
+   ],
+   "special_morae": [
+    null,
+    null
+   ],
+   "accent": "unknown",
+   "pos": "noun",
+   "semantic_domain": [
+    "isekai_trope",
+    "character_role"
+   ],
+   "side": "isekai",
+   "register": "slang",
+   "proper_noun": false,
+   "frequency_band": "common",
+   "freshness": 0.35,
+   "particles_before": [
+    "ただの"
+   ],
+   "particles_after": [
+    "キャラ",
+    "扱い"
+   ],
+   "articulation_cost": 0.1,
+   "reading_confidence": "high",
+   "reading_source": "surface-kana+g2p.py",
+   "notes": []
+  },
+  {
+   "node_id": "shukai",
+   "surface": "周回",
+   "reading": "シューカイ",
+   "morae": [
+    "シュ",
+    "ー",
+    "カ",
+    "イ"
+   ],
+   "mora_count": 4,
+   "vowel_sequence": [
+    "u",
+    "u",
+    "a",
+    "i"
+   ],
+   "consonant_sequence": [
+    "shy",
+    null,
+    "k",
+    null
+   ],
+   "special_morae": [
+    null,
+    "R",
+    null,
+    null
+   ],
+   "accent": "unknown",
+   "pos": "noun_suru",
+   "semantic_domain": [
+    "game_mechanics",
+    "repetition"
+   ],
+   "side": "isekai",
+   "register": "neutral",
+   "proper_noun": false,
+   "frequency_band": "marked",
+   "freshness": 0.5,
+   "particles_before": [
+    "デイリー"
+   ],
+   "particles_after": [
+    "プレイ",
+    "する"
+   ],
+   "articulation_cost": 0.2,
+   "reading_confidence": "medium",
+   "reading_source": "manual+g2p.py mora解析(辞書バックエンド無しのため未照合)",
+   "notes": []
+  },
+  {
+   "node_id": "chiito",
+   "surface": "チート",
+   "reading": "チート",
+   "morae": [
+    "チ",
+    "ー",
+    "ト"
+   ],
+   "mora_count": 3,
+   "vowel_sequence": [
+    "i",
+    "i",
+    "o"
+   ],
+   "consonant_sequence": [
+    "ch",
+    null,
+    "t"
+   ],
+   "special_morae": [
+    null,
+    "R",
+    null
+   ],
+   "accent": "unknown",
+   "pos": "noun",
+   "semantic_domain": [
+    "game_mechanics",
+    "privilege"
+   ],
+   "side": "isekai",
+   "register": "colloquial",
+   "proper_noun": false,
+   "frequency_band": "common",
+   "freshness": 0.3,
+   "particles_before": [],
+   "particles_after": [
+    "能力",
+    "級"
+   ],
+   "articulation_cost": 0.1,
+   "reading_confidence": "high",
+   "reading_source": "surface-kana+g2p.py",
+   "notes": []
+  },
+  {
+   "node_id": "reberuage",
+   "surface": "レベル上げ",
+   "reading": "レベルアゲ",
+   "morae": [
+    "レ",
+    "ベ",
+    "ル",
+    "ア",
+    "ゲ"
+   ],
+   "mora_count": 5,
+   "vowel_sequence": [
+    "e",
+    "e",
+    "u",
+    "a",
+    "e"
+   ],
+   "consonant_sequence": [
+    "r",
+    "b",
+    "r",
+    null,
+    "g"
+   ],
+   "special_morae": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "accent": "unknown",
+   "pos": "phrase_noun",
+   "semantic_domain": [
+    "game_mechanics",
+    "growth"
+   ],
+   "side": "isekai",
+   "register": "colloquial",
+   "proper_noun": false,
+   "frequency_band": "common",
+   "freshness": 0.4,
+   "particles_before": [
+    "深夜の"
+   ],
+   "particles_after": [
+    "に飽きた"
+   ],
+   "articulation_cost": 0.3,
+   "reading_confidence": "medium",
+   "reading_source": "manual+g2p.py mora解析(辞書バックエンド無しのため未照合)",
+   "notes": [
+    "句ノード"
+   ]
+  },
+  {
+   "node_id": "suteetasu",
+   "surface": "ステータス",
+   "reading": "ステータス",
+   "morae": [
+    "ス",
+    "テ",
+    "ー",
+    "タ",
+    "ス"
+   ],
+   "mora_count": 5,
+   "vowel_sequence": [
+    "u",
+    "e",
+    "e",
+    "a",
+    "u"
+   ],
+   "consonant_sequence": [
+    "s",
+    "t",
+    null,
+    "t",
+    "s"
+   ],
+   "special_morae": [
+    null,
+    null,
+    "R",
+    null,
+    null
+   ],
+   "accent": "unknown",
+   "pos": "noun",
+   "semantic_domain": [
+    "game_mechanics",
+    "status"
+   ],
+   "side": "isekai",
+   "register": "neutral",
+   "proper_noun": false,
+   "frequency_band": "common",
+   "freshness": 0.3,
+   "particles_before": [],
+   "particles_after": [
+    "画面",
+    "隠す"
+   ],
+   "articulation_cost": 0.3,
+   "reading_confidence": "high",
+   "reading_source": "surface-kana+g2p.py",
+   "notes": []
+  },
+  {
+   "node_id": "kuesuto",
+   "surface": "クエスト",
+   "reading": "クエスト",
+   "morae": [
+    "ク",
+    "エ",
+    "ス",
+    "ト"
+   ],
+   "mora_count": 4,
+   "vowel_sequence": [
+    "u",
+    "e",
+    "u",
+    "o"
+   ],
+   "consonant_sequence": [
+    "k",
+    null,
+    "s",
+    "t"
+   ],
+   "special_morae": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "accent": "unknown",
+   "pos": "noun",
+   "semantic_domain": [
+    "game_mechanics",
+    "task"
+   ],
+   "side": "isekai",
+   "register": "neutral",
+   "proper_noun": false,
+   "frequency_band": "common",
+   "freshness": 0.3,
+   "particles_before": [
+    "強制"
+   ],
+   "particles_after": [
+    "受注",
+    "消化"
+   ],
+   "articulation_cost": 0.2,
+   "reading_confidence": "high",
+   "reading_source": "surface-kana+g2p.py",
+   "notes": []
+  },
+  {
+   "node_id": "girudo",
+   "surface": "ギルド",
+   "reading": "ギルド",
+   "morae": [
+    "ギ",
+    "ル",
+    "ド"
+   ],
+   "mora_count": 3,
+   "vowel_sequence": [
+    "i",
+    "u",
+    "o"
+   ],
+   "consonant_sequence": [
+    "g",
+    "r",
+    "d"
+   ],
+   "special_morae": [
+    null,
+    null,
+    null
+   ],
+   "accent": "unknown",
+   "pos": "noun",
+   "semantic_domain": [
+    "isekai_trope",
+    "organization"
+   ],
+   "side": "isekai",
+   "register": "neutral",
+   "proper_noun": false,
+   "frequency_band": "marked",
+   "freshness": 0.4,
+   "particles_before": [],
+   "particles_after": [
+    "の受付",
+    "審査"
+   ],
+   "articulation_cost": 0.2,
+   "reading_confidence": "high",
+   "reading_source": "surface-kana+g2p.py",
+   "notes": []
+  },
+  {
+   "node_id": "shujinko",
+   "surface": "主人公",
+   "reading": "シュジンコー",
+   "morae": [
+    "シュ",
+    "ジ",
+    "ン",
+    "コ",
+    "ー"
+   ],
+   "mora_count": 5,
+   "vowel_sequence": [
+    "u",
+    "i",
+    "N",
+    "o",
+    "o"
+   ],
+   "consonant_sequence": [
+    "shy",
+    "j",
+    null,
+    "k",
+    null
+   ],
+   "special_morae": [
+    null,
+    null,
+    "N",
+    null,
+    "R"
+   ],
+   "accent": "unknown",
+   "pos": "noun",
+   "semantic_domain": [
+    "character_role",
+    "protagonism"
+   ],
+   "side": "isekai",
+   "register": "neutral",
+   "proper_noun": false,
+   "frequency_band": "common",
+   "freshness": 0.3,
+   "particles_before": [
+    "物語の"
+   ],
+   "particles_after": [
+    "補正",
+    "面"
+   ],
+   "articulation_cost": 0.3,
+   "reading_confidence": "medium",
+   "reading_source": "manual+g2p.py mora解析(辞書バックエンド無しのため未照合)",
+   "notes": []
+  },
+  {
+   "node_id": "akuyaku",
+   "surface": "悪役",
+   "reading": "アクヤク",
+   "morae": [
+    "ア",
+    "ク",
+    "ヤ",
+    "ク"
+   ],
+   "mora_count": 4,
+   "vowel_sequence": [
+    "a",
+    "u",
+    "a",
+    "u"
+   ],
+   "consonant_sequence": [
+    null,
+    "k",
+    "y",
+    "k"
+   ],
+   "special_morae": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "accent": "unknown",
+   "pos": "noun",
+   "semantic_domain": [
+    "character_role"
+   ],
+   "side": "isekai",
+   "register": "neutral",
+   "proper_noun": false,
+   "frequency_band": "common",
+   "freshness": 0.35,
+   "particles_before": [],
+   "particles_after": [
+    "令嬢",
+    "顔"
+   ],
+   "articulation_cost": 0.2,
+   "reading_confidence": "medium",
+   "reading_source": "manual+g2p.py mora解析(辞書バックエンド無しのため未照合)",
+   "notes": []
+  },
+  {
+   "node_id": "koryaku",
+   "surface": "攻略",
+   "reading": "コーリャク",
+   "morae": [
+    "コ",
+    "ー",
+    "リャ",
+    "ク"
+   ],
+   "mora_count": 4,
+   "vowel_sequence": [
+    "o",
+    "o",
+    "a",
+    "u"
+   ],
+   "consonant_sequence": [
+    "k",
+    null,
+    "ry",
+    "k"
+   ],
+   "special_morae": [
+    null,
+    "R",
+    null,
+    null
+   ],
+   "accent": "unknown",
+   "pos": "noun_suru",
+   "semantic_domain": [
+    "game_mechanics",
+    "strategy"
+   ],
+   "side": "isekai",
+   "register": "neutral",
+   "proper_noun": false,
+   "frequency_band": "common",
+   "freshness": 0.35,
+   "particles_before": [],
+   "particles_after": [
+    "本",
+    "する"
+   ],
+   "articulation_cost": 0.3,
+   "reading_confidence": "medium",
+   "reading_source": "manual+g2p.py mora解析(辞書バックエンド無しのため未照合)",
+   "notes": []
+  },
+  {
+   "node_id": "mao",
+   "surface": "魔王",
+   "reading": "マオー",
+   "morae": [
+    "マ",
+    "オ",
+    "ー"
+   ],
+   "mora_count": 3,
+   "vowel_sequence": [
+    "a",
+    "o",
+    "o"
+   ],
+   "consonant_sequence": [
+    "m",
+    null,
+    null
+   ],
+   "special_morae": [
+    null,
+    null,
+    "R"
+   ],
+   "accent": "unknown",
+   "pos": "noun",
+   "semantic_domain": [
+    "character_role",
+    "authority"
+   ],
+   "side": "isekai",
+   "register": "neutral",
+   "proper_noun": false,
+   "frequency_band": "common",
+   "freshness": 0.3,
+   "particles_before": [],
+   "particles_after": [
+    "討伐",
+    "城"
+   ],
+   "articulation_cost": 0.1,
+   "reading_confidence": "medium",
+   "reading_source": "manual+g2p.py mora解析(辞書バックエンド無しのため未照合)",
+   "notes": []
+  },
+  {
+   "node_id": "muso",
+   "surface": "無双",
+   "reading": "ムソー",
+   "morae": [
+    "ム",
+    "ソ",
+    "ー"
+   ],
+   "mora_count": 3,
+   "vowel_sequence": [
+    "u",
+    "o",
+    "o"
+   ],
+   "consonant_sequence": [
+    "m",
+    "s",
+    null
+   ],
+   "special_morae": [
+    null,
+    null,
+    "R"
+   ],
+   "accent": "unknown",
+   "pos": "noun_suru",
+   "semantic_domain": [
+    "isekai_trope",
+    "dominance"
+   ],
+   "side": "isekai",
+   "register": "colloquial",
+   "proper_noun": false,
+   "frequency_band": "common",
+   "freshness": 0.35,
+   "particles_before": [
+    "俺だけ"
+   ],
+   "particles_after": [
+    "する",
+    "状態"
+   ],
+   "articulation_cost": 0.1,
+   "reading_confidence": "medium",
+   "reading_source": "manual+g2p.py mora解析(辞書バックエンド無しのため未照合)",
+   "notes": []
+  },
+  {
+   "node_id": "risemara",
+   "surface": "リセマラ",
+   "reading": "リセマラ",
+   "morae": [
+    "リ",
+    "セ",
+    "マ",
+    "ラ"
+   ],
+   "mora_count": 4,
+   "vowel_sequence": [
+    "i",
+    "e",
+    "a",
+    "a"
+   ],
+   "consonant_sequence": [
+    "r",
+    "s",
+    "m",
+    "r"
+   ],
+   "special_morae": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "accent": "unknown",
+   "pos": "noun_suru",
+   "semantic_domain": [
+    "gacha",
+    "retry"
+   ],
+   "side": "bridge",
+   "register": "slang",
+   "proper_noun": false,
+   "frequency_band": "marked",
+   "freshness": 0.5,
+   "particles_before": [
+    "人生を"
+   ],
+   "particles_after": [
+    "する",
+    "不可"
+   ],
+   "articulation_cost": 0.3,
+   "reading_confidence": "high",
+   "reading_source": "surface-kana+g2p.py",
+   "notes": [
+    "リセットマラソンの略"
+   ]
+  },
+  {
+   "node_id": "kakin",
+   "surface": "課金",
+   "reading": "カキン",
+   "morae": [
+    "カ",
+    "キ",
+    "ン"
+   ],
+   "mora_count": 3,
+   "vowel_sequence": [
+    "a",
+    "i",
+    "N"
+   ],
+   "consonant_sequence": [
+    "k",
+    "k",
+    null
+   ],
+   "special_morae": [
+    null,
+    null,
+    "N"
+   ],
+   "accent": "unknown",
+   "pos": "noun_suru",
+   "semantic_domain": [
+    "gacha",
+    "money"
+   ],
+   "side": "bridge",
+   "register": "neutral",
+   "proper_noun": false,
+   "frequency_band": "common",
+   "freshness": 0.3,
+   "particles_before": [
+    "月末に"
+   ],
+   "particles_after": [
+    "する",
+    "圧"
+   ],
+   "articulation_cost": 0.1,
+   "reading_confidence": "medium",
+   "reading_source": "manual+g2p.py mora解析(辞書バックエンド無しのため未照合)",
+   "notes": []
+  },
+  {
+   "node_id": "mukakin",
+   "surface": "無課金",
+   "reading": "ムカキン",
+   "morae": [
+    "ム",
+    "カ",
+    "キ",
+    "ン"
+   ],
+   "mora_count": 4,
+   "vowel_sequence": [
+    "u",
+    "a",
+    "i",
+    "N"
+   ],
+   "consonant_sequence": [
+    "m",
+    "k",
+    "k",
+    null
+   ],
+   "special_morae": [
+    null,
+    null,
+    null,
+    "N"
+   ],
+   "accent": "unknown",
+   "pos": "noun",
+   "semantic_domain": [
+    "gacha",
+    "money",
+    "poverty"
+   ],
+   "side": "bridge",
+   "register": "colloquial",
+   "proper_noun": false,
+   "frequency_band": "common",
+   "freshness": 0.4,
+   "particles_before": [],
+   "particles_after": [
+    "勢",
+    "の意地"
+   ],
+   "articulation_cost": 0.2,
+   "reading_confidence": "medium",
+   "reading_source": "manual+g2p.py mora解析(辞書バックエンド無しのため未照合)",
+   "notes": [
+    "課金と語幹共有"
+   ]
+  },
+  {
+   "node_id": "torakku",
+   "surface": "トラック",
+   "reading": "トラック",
+   "morae": [
+    "ト",
+    "ラ",
+    "ッ",
+    "ク"
+   ],
+   "mora_count": 4,
+   "vowel_sequence": [
+    "o",
+    "a",
+    "Q",
+    "u"
+   ],
+   "consonant_sequence": [
+    "t",
+    "r",
+    null,
+    "k"
+   ],
+   "special_morae": [
+    null,
+    null,
+    "Q",
+    null
+   ],
+   "accent": "unknown",
+   "pos": "noun",
+   "semantic_domain": [
+    "isekai_trope",
+    "death_trigger",
+    "vehicle"
+   ],
+   "side": "isekai",
+   "register": "neutral",
+   "proper_noun": false,
+   "frequency_band": "common",
+   "freshness": 0.3,
+   "particles_before": [
+    "異世界行きの"
+   ],
+   "particles_after": [
+    "に轢かれ",
+    "待ち"
+   ],
+   "articulation_cost": 0.2,
+   "reading_confidence": "high",
+   "reading_source": "surface-kana+g2p.py",
+   "notes": [
+    "転生の定番トリガー"
+   ]
+  },
+  {
+   "node_id": "danjon",
+   "surface": "ダンジョン",
+   "reading": "ダンジョン",
+   "morae": [
+    "ダ",
+    "ン",
+    "ジョ",
+    "ン"
+   ],
+   "mora_count": 4,
+   "vowel_sequence": [
+    "a",
+    "N",
+    "o",
+    "N"
+   ],
+   "consonant_sequence": [
+    "d",
+    null,
+    "jy",
+    null
+   ],
+   "special_morae": [
+    null,
+    "N",
+    null,
+    "N"
+   ],
+   "accent": "unknown",
+   "pos": "noun",
+   "semantic_domain": [
+    "isekai_trope",
+    "place"
+   ],
+   "side": "isekai",
+   "register": "neutral",
+   "proper_noun": false,
+   "frequency_band": "common",
+   "freshness": 0.3,
+   "particles_before": [
+    "自動生成の"
+   ],
+   "particles_after": [
+    "攻略",
+    "の奥"
+   ],
+   "articulation_cost": 0.2,
+   "reading_confidence": "high",
+   "reading_source": "surface-kana+g2p.py",
+   "notes": []
+  },
+  {
+   "node_id": "settei",
+   "surface": "設定",
+   "reading": "セッテー",
+   "morae": [
+    "セ",
+    "ッ",
+    "テ",
+    "ー"
+   ],
+   "mora_count": 4,
+   "vowel_sequence": [
+    "e",
+    "Q",
+    "e",
+    "e"
+   ],
+   "consonant_sequence": [
+    "s",
+    null,
+    "t",
+    null
+   ],
+   "special_morae": [
+    null,
+    "Q",
+    null,
+    "R"
+   ],
+   "accent": "unknown",
+   "pos": "noun_suru",
+   "semantic_domain": [
+    "narrative_device"
+   ],
+   "side": "bridge",
+   "register": "neutral",
+   "proper_noun": false,
+   "frequency_band": "common",
+   "freshness": 0.3,
+   "particles_before": [
+    "初期"
+   ],
+   "particles_after": [
+    "ミス",
+    "資料"
+   ],
+   "articulation_cost": 0.2,
+   "reading_confidence": "medium",
+   "reading_source": "manual+g2p.py mora解析(辞書バックエンド無しのため未照合)",
+   "notes": [
+    "辞書形セッテイ",
+    "エイ→エーの長音演奏読みを採用(long_vowel_performance_variant)"
+   ]
+  },
+  {
+   "node_id": "keikenchi",
+   "surface": "経験値",
+   "reading": "ケーケンチ",
+   "morae": [
+    "ケ",
+    "ー",
+    "ケ",
+    "ン",
+    "チ"
+   ],
+   "mora_count": 5,
+   "vowel_sequence": [
+    "e",
+    "e",
+    "e",
+    "N",
+    "i"
+   ],
+   "consonant_sequence": [
+    "k",
+    null,
+    "k",
+    null,
+    "ch"
+   ],
+   "special_morae": [
+    null,
+    "R",
+    null,
+    "N",
+    null
+   ],
+   "accent": "unknown",
+   "pos": "noun",
+   "semantic_domain": [
+    "game_mechanics",
+    "growth"
+   ],
+   "side": "isekai",
+   "register": "neutral",
+   "proper_noun": false,
+   "frequency_band": "common",
+   "freshness": 0.35,
+   "particles_before": [],
+   "particles_after": [
+    "ゼロ",
+    "稼ぎ"
+   ],
+   "articulation_cost": 0.3,
+   "reading_confidence": "medium",
+   "reading_source": "manual+g2p.py mora解析(辞書バックエンド無しのため未照合)",
+   "notes": [
+    "辞書形ケイケンチ",
+    "エイ→エーの長音演奏読みを採用(long_vowel_performance_variant)"
+   ]
+  },
+  {
+   "node_id": "zonbi",
+   "surface": "ゾンビ",
+   "reading": "ゾンビ",
+   "morae": [
+    "ゾ",
+    "ン",
+    "ビ"
+   ],
+   "mora_count": 3,
+   "vowel_sequence": [
+    "o",
+    "N",
+    "i"
+   ],
+   "consonant_sequence": [
+    "z",
+    null,
+    "b"
+   ],
+   "special_morae": [
+    null,
+    "N",
+    null
+   ],
+   "accent": "unknown",
+   "pos": "noun",
+   "semantic_domain": [
+    "monster",
+    "exhaustion_metaphor"
+   ],
+   "side": "bridge",
+   "register": "neutral",
+   "proper_noun": false,
+   "frequency_band": "common",
+   "freshness": 0.35,
+   "particles_before": [
+    "歩く"
+   ],
+   "particles_after": [
+    "みたい",
+    "の列"
+   ],
+   "articulation_cost": 0.2,
+   "reading_confidence": "high",
+   "reading_source": "surface-kana+g2p.py",
+   "notes": []
+  },
+  {
+   "node_id": "tenshoku_calling",
+   "surface": "天職",
+   "reading": "テンショク",
+   "morae": [
+    "テ",
+    "ン",
+    "ショ",
+    "ク"
+   ],
+   "mora_count": 4,
+   "vowel_sequence": [
+    "e",
+    "N",
+    "o",
+    "u"
+   ],
+   "consonant_sequence": [
+    "t",
+    null,
+    "shy",
+    "k"
+   ],
+   "special_morae": [
+    null,
+    "N",
+    null,
+    null
+   ],
+   "accent": "unknown",
+   "pos": "noun",
+   "semantic_domain": [
+    "work",
+    "aspiration"
+   ],
+   "side": "reality",
+   "register": "neutral",
+   "proper_noun": false,
+   "frequency_band": "marked",
+   "freshness": 0.5,
+   "particles_before": [
+    "これが"
+   ],
+   "particles_after": [
+    "だと",
+    "探し"
+   ],
+   "articulation_cost": 0.2,
+   "reading_confidence": "medium",
+   "reading_source": "manual+g2p.py mora解析(辞書バックエンド無しのため未照合)",
+   "notes": []
+  },
+  {
+   "node_id": "zangyo",
+   "surface": "残業",
+   "reading": "ザンギョー",
+   "morae": [
+    "ザ",
+    "ン",
+    "ギョ",
+    "ー"
+   ],
+   "mora_count": 4,
+   "vowel_sequence": [
+    "a",
+    "N",
+    "o",
+    "o"
+   ],
+   "consonant_sequence": [
+    "z",
+    null,
+    "gy",
+    null
+   ],
+   "special_morae": [
+    null,
+    "N",
+    null,
+    "R"
+   ],
+   "accent": "unknown",
+   "pos": "noun_suru",
+   "semantic_domain": [
+    "labor",
+    "overtime"
+   ],
+   "side": "reality",
+   "register": "neutral",
+   "proper_noun": false,
+   "frequency_band": "common",
+   "freshness": 0.3,
+   "particles_before": [
+    "サービス"
+   ],
+   "particles_after": [
+    "代",
+    "続き"
+   ],
+   "articulation_cost": 0.2,
+   "reading_confidence": "medium",
+   "reading_source": "manual+g2p.py mora解析(辞書バックエンド無しのため未照合)",
+   "notes": []
+  },
+  {
+   "node_id": "shuden",
+   "surface": "終電",
+   "reading": "シューデン",
+   "morae": [
+    "シュ",
+    "ー",
+    "デ",
+    "ン"
+   ],
+   "mora_count": 4,
+   "vowel_sequence": [
+    "u",
+    "u",
+    "e",
+    "N"
+   ],
+   "consonant_sequence": [
+    "shy",
+    null,
+    "d",
+    null
+   ],
+   "special_morae": [
+    null,
+    "R",
+    null,
+    "N"
+   ],
+   "accent": "unknown",
+   "pos": "noun",
+   "semantic_domain": [
+    "commute",
+    "night"
+   ],
+   "side": "reality",
+   "register": "neutral",
+   "proper_noun": false,
+   "frequency_band": "common",
+   "freshness": 0.3,
+   "particles_before": [],
+   "particles_after": [
+    "逃し",
+    "間際"
+   ],
+   "articulation_cost": 0.2,
+   "reading_confidence": "medium",
+   "reading_source": "manual+g2p.py mora解析(辞書バックエンド無しのため未照合)",
+   "notes": []
+  },
+  {
+   "node_id": "shukatsu",
+   "surface": "就活",
+   "reading": "シューカツ",
+   "morae": [
+    "シュ",
+    "ー",
+    "カ",
+    "ツ"
+   ],
+   "mora_count": 4,
+   "vowel_sequence": [
+    "u",
+    "u",
+    "a",
+    "u"
+   ],
+   "consonant_sequence": [
+    "shy",
+    null,
+    "k",
+    "ts"
+   ],
+   "special_morae": [
+    null,
+    "R",
+    null,
+    null
+   ],
+   "accent": "unknown",
+   "pos": "noun_suru",
+   "semantic_domain": [
+    "job_hunting"
+   ],
+   "side": "reality",
+   "register": "colloquial",
+   "proper_noun": false,
+   "frequency_band": "common",
+   "freshness": 0.3,
+   "particles_before": [],
+   "particles_after": [
+    "生",
+    "戦線"
+   ],
+   "articulation_cost": 0.2,
+   "reading_confidence": "medium",
+   "reading_source": "manual+g2p.py mora解析(辞書バックエンド無しのため未照合)",
+   "notes": []
+  },
+  {
+   "node_id": "kyujinhyo",
+   "surface": "求人票",
+   "reading": "キュージンヒョー",
+   "morae": [
+    "キュ",
+    "ー",
+    "ジ",
+    "ン",
+    "ヒョ",
+    "ー"
+   ],
+   "mora_count": 6,
+   "vowel_sequence": [
+    "u",
+    "u",
+    "i",
+    "N",
+    "o",
+    "o"
+   ],
+   "consonant_sequence": [
+    "ky",
+    null,
+    "j",
+    null,
+    "hy",
+    null
+   ],
+   "special_morae": [
+    null,
+    "R",
+    null,
+    "N",
+    null,
+    "R"
+   ],
+   "accent": "unknown",
+   "pos": "noun",
+   "semantic_domain": [
+    "job_hunting",
+    "document"
+   ],
+   "side": "reality",
+   "register": "neutral",
+   "proper_noun": false,
+   "frequency_band": "marked",
+   "freshness": 0.55,
+   "particles_before": [],
+   "particles_after": [
+    "の嘘",
+    "眺め"
+   ],
+   "articulation_cost": 0.4,
+   "reading_confidence": "medium",
+   "reading_source": "manual+g2p.py mora解析(辞書バックエンド無しのため未照合)",
+   "notes": []
+  },
+  {
+   "node_id": "shushinkoyo",
+   "surface": "終身雇用",
+   "reading": "シューシンコヨー",
+   "morae": [
+    "シュ",
+    "ー",
+    "シ",
+    "ン",
+    "コ",
+    "ヨ",
+    "ー"
+   ],
+   "mora_count": 7,
+   "vowel_sequence": [
+    "u",
+    "u",
+    "i",
+    "N",
+    "o",
+    "o",
+    "o"
+   ],
+   "consonant_sequence": [
+    "shy",
+    null,
+    "sh",
+    null,
+    "k",
+    "y",
+    null
+   ],
+   "special_morae": [
+    null,
+    "R",
+    null,
+    "N",
+    null,
+    null,
+    "R"
+   ],
+   "accent": "unknown",
+   "pos": "noun",
+   "semantic_domain": [
+    "labor_system"
+   ],
+   "side": "reality",
+   "register": "formal",
+   "proper_noun": false,
+   "frequency_band": "marked",
+   "freshness": 0.5,
+   "particles_before": [],
+   "particles_after": [
+    "の幻",
+    "は伝説"
+   ],
+   "articulation_cost": 0.4,
+   "reading_confidence": "medium",
+   "reading_source": "manual+g2p.py mora解析(辞書バックエンド無しのため未照合)",
+   "notes": []
+  },
+  {
+   "node_id": "mensetsu",
+   "surface": "面接",
+   "reading": "メンセツ",
+   "morae": [
+    "メ",
+    "ン",
+    "セ",
+    "ツ"
+   ],
+   "mora_count": 4,
+   "vowel_sequence": [
+    "e",
+    "N",
+    "e",
+    "u"
+   ],
+   "consonant_sequence": [
+    "m",
+    null,
+    "s",
+    "ts"
+   ],
+   "special_morae": [
+    null,
+    "N",
+    null,
+    null
+   ],
+   "accent": "unknown",
+   "pos": "noun_suru",
+   "semantic_domain": [
+    "job_hunting"
+   ],
+   "side": "reality",
+   "register": "neutral",
+   "proper_noun": false,
+   "frequency_band": "common",
+   "freshness": 0.3,
+   "particles_before": [
+    "最終"
+   ],
+   "particles_after": [
+    "官",
+    "で落ち"
+   ],
+   "articulation_cost": 0.2,
+   "reading_confidence": "medium",
+   "reading_source": "manual+g2p.py mora解析(辞書バックエンド無しのため未照合)",
+   "notes": []
+  },
+  {
+   "node_id": "tenshoku_change",
+   "surface": "転職",
+   "reading": "テンショク",
+   "morae": [
+    "テ",
+    "ン",
+    "ショ",
+    "ク"
+   ],
+   "mora_count": 4,
+   "vowel_sequence": [
+    "e",
+    "N",
+    "o",
+    "u"
+   ],
+   "consonant_sequence": [
+    "t",
+    null,
+    "shy",
+    "k"
+   ],
+   "special_morae": [
+    null,
+    "N",
+    null,
+    null
+   ],
+   "accent": "unknown",
+   "pos": "noun_suru",
+   "semantic_domain": [
+    "labor",
+    "retry"
+   ],
+   "side": "reality",
+   "register": "neutral",
+   "proper_noun": false,
+   "frequency_band": "common",
+   "freshness": 0.3,
+   "particles_before": [],
+   "particles_after": [
+    "サイト",
+    "を繰り返す"
+   ],
+   "articulation_cost": 0.2,
+   "reading_confidence": "medium",
+   "reading_source": "manual+g2p.py mora解析(辞書バックエンド無しのため未照合)",
+   "notes": [
+    "天職と同音"
+   ]
+  },
+  {
+   "node_id": "rirekisho",
+   "surface": "履歴書",
+   "reading": "リレキショ",
+   "morae": [
+    "リ",
+    "レ",
+    "キ",
+    "ショ"
+   ],
+   "mora_count": 4,
+   "vowel_sequence": [
+    "i",
+    "e",
+    "i",
+    "o"
+   ],
+   "consonant_sequence": [
+    "r",
+    "r",
+    "k",
+    "shy"
+   ],
+   "special_morae": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "accent": "unknown",
+   "pos": "noun",
+   "semantic_domain": [
+    "job_hunting",
+    "document"
+   ],
+   "side": "reality",
+   "register": "neutral",
+   "proper_noun": false,
+   "frequency_band": "common",
+   "freshness": 0.35,
+   "particles_before": [],
+   "particles_after": [
+    "を盛る",
+    "の空欄"
+   ],
+   "articulation_cost": 0.4,
+   "reading_confidence": "medium",
+   "reading_source": "manual+g2p.py mora解析(辞書バックエンド無しのため未照合)",
+   "notes": []
+  },
+  {
+   "node_id": "hiseiki",
+   "surface": "非正規",
+   "reading": "ヒセーキ",
+   "morae": [
+    "ヒ",
+    "セ",
+    "ー",
+    "キ"
+   ],
+   "mora_count": 4,
+   "vowel_sequence": [
+    "i",
+    "e",
+    "e",
+    "i"
+   ],
+   "consonant_sequence": [
+    "h",
+    "s",
+    null,
+    "k"
+   ],
+   "special_morae": [
+    null,
+    null,
+    "R",
+    null
+   ],
+   "accent": "unknown",
+   "pos": "noun",
+   "semantic_domain": [
+    "labor_status",
+    "precarity"
+   ],
+   "side": "reality",
+   "register": "neutral",
+   "proper_noun": false,
+   "frequency_band": "common",
+   "freshness": 0.45,
+   "particles_before": [],
+   "particles_after": [
+    "雇用",
+    "のまま"
+   ],
+   "articulation_cost": 0.3,
+   "reading_confidence": "medium",
+   "reading_source": "manual+g2p.py mora解析(辞書バックエンド無しのため未照合)",
+   "notes": [
+    "辞書形ヒセイキ",
+    "エイ→エーの長音演奏読みを採用(long_vowel_performance_variant)"
+   ]
+  },
+  {
+   "node_id": "shogakukin",
+   "surface": "奨学金",
+   "reading": "ショーガクキン",
+   "morae": [
+    "ショ",
+    "ー",
+    "ガ",
+    "ク",
+    "キ",
+    "ン"
+   ],
+   "mora_count": 6,
+   "vowel_sequence": [
+    "o",
+    "o",
+    "a",
+    "u",
+    "i",
+    "N"
+   ],
+   "consonant_sequence": [
+    "shy",
+    null,
+    "g",
+    "k",
+    "k",
+    null
+   ],
+   "special_morae": [
+    null,
+    "R",
+    null,
+    null,
+    null,
+    "N"
+   ],
+   "accent": "unknown",
+   "pos": "noun",
+   "semantic_domain": [
+    "debt",
+    "education"
+   ],
+   "side": "reality",
+   "register": "neutral",
+   "proper_noun": false,
+   "frequency_band": "common",
+   "freshness": 0.4,
+   "particles_before": [],
+   "particles_after": [
+    "の残高",
+    "返済"
+   ],
+   "articulation_cost": 0.4,
+   "reading_confidence": "medium",
+   "reading_source": "manual+g2p.py mora解析(辞書バックエンド無しのため未照合)",
+   "notes": []
+  },
+  {
+   "node_id": "yachin",
+   "surface": "家賃",
+   "reading": "ヤチン",
+   "morae": [
+    "ヤ",
+    "チ",
+    "ン"
+   ],
+   "mora_count": 3,
+   "vowel_sequence": [
+    "a",
+    "i",
+    "N"
+   ],
+   "consonant_sequence": [
+    "y",
+    "ch",
+    null
+   ],
+   "special_morae": [
+    null,
+    null,
+    "N"
+   ],
+   "accent": "unknown",
+   "pos": "noun",
+   "semantic_domain": [
+    "money",
+    "housing"
+   ],
+   "side": "reality",
+   "register": "neutral",
+   "proper_noun": false,
+   "frequency_band": "common",
+   "freshness": 0.3,
+   "particles_before": [
+    "今月の"
+   ],
+   "particles_after": [
+    "の督促",
+    "を払う"
+   ],
+   "articulation_cost": 0.1,
+   "reading_confidence": "medium",
+   "reading_source": "manual+g2p.py mora解析(辞書バックエンド無しのため未照合)",
+   "notes": []
+  },
+  {
+   "node_id": "tenbiki",
+   "surface": "天引き",
+   "reading": "テンビキ",
+   "morae": [
+    "テ",
+    "ン",
+    "ビ",
+    "キ"
+   ],
+   "mora_count": 4,
+   "vowel_sequence": [
+    "e",
+    "N",
+    "i",
+    "i"
+   ],
+   "consonant_sequence": [
+    "t",
+    null,
+    "b",
+    "k"
+   ],
+   "special_morae": [
+    null,
+    "N",
+    null,
+    null
+   ],
+   "accent": "unknown",
+   "pos": "noun_suru",
+   "semantic_domain": [
+    "money",
+    "wage"
+   ],
+   "side": "reality",
+   "register": "neutral",
+   "proper_noun": false,
+   "frequency_band": "marked",
+   "freshness": 0.55,
+   "particles_before": [
+    "給料から"
+   ],
+   "particles_after": [
+    "される",
+    "の明細"
+   ],
+   "articulation_cost": 0.2,
+   "reading_confidence": "medium",
+   "reading_source": "manual+g2p.py mora解析(辞書バックエンド無しのため未照合)",
+   "notes": []
+  },
+  {
+   "node_id": "jikyu",
+   "surface": "時給",
+   "reading": "ジキュー",
+   "morae": [
+    "ジ",
+    "キュ",
+    "ー"
+   ],
+   "mora_count": 3,
+   "vowel_sequence": [
+    "i",
+    "u",
+    "u"
+   ],
+   "consonant_sequence": [
+    "j",
+    "ky",
+    null
+   ],
+   "special_morae": [
+    null,
+    null,
+    "R"
+   ],
+   "accent": "unknown",
+   "pos": "noun",
+   "semantic_domain": [
+    "money",
+    "wage"
+   ],
+   "side": "reality",
+   "register": "neutral",
+   "proper_noun": false,
+   "frequency_band": "common",
+   "freshness": 0.3,
+   "particles_before": [
+    "深夜の"
+   ],
+   "particles_after": [
+    "換算",
+    "で売る"
+   ],
+   "articulation_cost": 0.1,
+   "reading_confidence": "medium",
+   "reading_source": "manual+g2p.py mora解析(辞書バックエンド無しのため未照合)",
+   "notes": []
+  },
+  {
+   "node_id": "chikyu",
+   "surface": "地球",
+   "reading": "チキュー",
+   "morae": [
+    "チ",
+    "キュ",
+    "ー"
+   ],
+   "mora_count": 3,
+   "vowel_sequence": [
+    "i",
+    "u",
+    "u"
+   ],
+   "consonant_sequence": [
+    "ch",
+    "ky",
+    null
+   ],
+   "special_morae": [
+    null,
+    null,
+    "R"
+   ],
+   "accent": "unknown",
+   "pos": "noun",
+   "semantic_domain": [
+    "world",
+    "reality"
+   ],
+   "side": "bridge",
+   "register": "neutral",
+   "proper_noun": false,
+   "frequency_band": "common",
+   "freshness": 0.35,
+   "particles_before": [
+    "この"
+   ],
+   "particles_after": [
+    "という現場",
+    "産"
+   ],
+   "articulation_cost": 0.1,
+   "reading_confidence": "medium",
+   "reading_source": "manual+g2p.py mora解析(辞書バックエンド無しのため未照合)",
+   "notes": [
+    "現実側の「異世界」"
+   ]
+  },
+  {
+   "node_id": "shinya",
+   "surface": "深夜",
+   "reading": "シンヤ",
+   "morae": [
+    "シ",
+    "ン",
+    "ヤ"
+   ],
+   "mora_count": 3,
+   "vowel_sequence": [
+    "i",
+    "N",
+    "a"
+   ],
+   "consonant_sequence": [
+    "sh",
+    null,
+    "y"
+   ],
+   "special_morae": [
+    null,
+    "N",
+    null
+   ],
+   "accent": "unknown",
+   "pos": "noun",
+   "semantic_domain": [
+    "night",
+    "time"
+   ],
+   "side": "reality",
+   "register": "neutral",
+   "proper_noun": false,
+   "frequency_band": "common",
+   "freshness": 0.3,
+   "particles_before": [],
+   "particles_after": [
+    "勤務",
+    "のレジ"
+   ],
+   "articulation_cost": 0.1,
+   "reading_confidence": "medium",
+   "reading_source": "manual+g2p.py mora解析(辞書バックエンド無しのため未照合)",
+   "notes": []
+  },
+  {
+   "node_id": "inkya",
+   "surface": "陰キャ",
+   "reading": "インキャ",
+   "morae": [
+    "イ",
+    "ン",
+    "キャ"
+   ],
+   "mora_count": 3,
+   "vowel_sequence": [
+    "i",
+    "N",
+    "a"
+   ],
+   "consonant_sequence": [
+    null,
+    null,
+    "ky"
+   ],
+   "special_morae": [
+    null,
+    "N",
+    null
+   ],
+   "accent": "unknown",
+   "pos": "noun",
+   "semantic_domain": [
+    "character_role",
+    "self_image"
+   ],
+   "side": "reality",
+   "register": "slang",
+   "proper_noun": false,
+   "frequency_band": "common",
+   "freshness": 0.4,
+   "particles_before": [],
+   "particles_after": [
+    "扱い",
+    "の隅"
+   ],
+   "articulation_cost": 0.2,
+   "reading_confidence": "medium",
+   "reading_source": "manual+g2p.py mora解析(辞書バックエンド無しのため未照合)",
+   "notes": []
+  },
+  {
+   "node_id": "konbini",
+   "surface": "コンビニ",
+   "reading": "コンビニ",
+   "morae": [
+    "コ",
+    "ン",
+    "ビ",
+    "ニ"
+   ],
+   "mora_count": 4,
+   "vowel_sequence": [
+    "o",
+    "N",
+    "i",
+    "i"
+   ],
+   "consonant_sequence": [
+    "k",
+    null,
+    "b",
+    "n"
+   ],
+   "special_morae": [
+    null,
+    "N",
+    null,
+    null
+   ],
+   "accent": "unknown",
+   "pos": "noun",
+   "semantic_domain": [
+    "place",
+    "night_work"
+   ],
+   "side": "reality",
+   "register": "neutral",
+   "proper_noun": false,
+   "frequency_band": "common",
+   "freshness": 0.3,
+   "particles_before": [
+    "深夜の"
+   ],
+   "particles_after": [
+    "の灯り",
+    "のレジ"
+   ],
+   "articulation_cost": 0.2,
+   "reading_confidence": "high",
+   "reading_source": "surface-kana+g2p.py",
+   "notes": []
+  },
+  {
+   "node_id": "shifuto",
+   "surface": "シフト",
+   "reading": "シフト",
+   "morae": [
+    "シ",
+    "フ",
+    "ト"
+   ],
+   "mora_count": 3,
+   "vowel_sequence": [
+    "i",
+    "u",
+    "o"
+   ],
+   "consonant_sequence": [
+    "sh",
+    "f",
+    "t"
+   ],
+   "special_morae": [
+    null,
+    null,
+    null
+   ],
+   "accent": "unknown",
+   "pos": "noun",
+   "semantic_domain": [
+    "labor",
+    "schedule"
+   ],
+   "side": "reality",
+   "register": "neutral",
+   "proper_noun": false,
+   "frequency_band": "common",
+   "freshness": 0.3,
+   "particles_before": [
+    "穴埋め"
+   ],
+   "particles_after": [
+    "を組まれ",
+    "表"
+   ],
+   "articulation_cost": 0.1,
+   "reading_confidence": "high",
+   "reading_source": "surface-kana+g2p.py",
+   "notes": []
+  },
+  {
+   "node_id": "niito",
+   "surface": "ニート",
+   "reading": "ニート",
+   "morae": [
+    "ニ",
+    "ー",
+    "ト"
+   ],
+   "mora_count": 3,
+   "vowel_sequence": [
+    "i",
+    "i",
+    "o"
+   ],
+   "consonant_sequence": [
+    "n",
+    null,
+    "t"
+   ],
+   "special_morae": [
+    null,
+    "R",
+    null
+   ],
+   "accent": "unknown",
+   "pos": "noun",
+   "semantic_domain": [
+    "labor_status",
+    "self_image"
+   ],
+   "side": "reality",
+   "register": "colloquial",
+   "proper_noun": false,
+   "frequency_band": "common",
+   "freshness": 0.3,
+   "particles_before": [],
+   "particles_after": [
+    "寸前",
+    "呼ばわり"
+   ],
+   "articulation_cost": 0.1,
+   "reading_confidence": "high",
+   "reading_source": "surface-kana+g2p.py",
+   "notes": []
+  },
+  {
+   "node_id": "kacho",
+   "surface": "課長",
+   "reading": "カチョー",
+   "morae": [
+    "カ",
+    "チョ",
+    "ー"
+   ],
+   "mora_count": 3,
+   "vowel_sequence": [
+    "a",
+    "o",
+    "o"
+   ],
+   "consonant_sequence": [
+    "k",
+    "chy",
+    null
+   ],
+   "special_morae": [
+    null,
+    null,
+    "R"
+   ],
+   "accent": "unknown",
+   "pos": "noun",
+   "semantic_domain": [
+    "authority",
+    "office"
+   ],
+   "side": "reality",
+   "register": "neutral",
+   "proper_noun": false,
+   "frequency_band": "common",
+   "freshness": 0.3,
+   "particles_before": [
+    "うちの"
+   ],
+   "particles_after": [
+    "の説教",
+    "の椅子"
+   ],
+   "articulation_cost": 0.1,
+   "reading_confidence": "medium",
+   "reading_source": "manual+g2p.py mora解析(辞書バックエンド無しのため未照合)",
+   "notes": [
+    "役職の一般名詞"
+   ]
+  },
+  {
+   "node_id": "rodo",
+   "surface": "労働",
+   "reading": "ロードー",
+   "morae": [
+    "ロ",
+    "ー",
+    "ド",
+    "ー"
+   ],
+   "mora_count": 4,
+   "vowel_sequence": [
+    "o",
+    "o",
+    "o",
+    "o"
+   ],
+   "consonant_sequence": [
+    "r",
+    null,
+    "d",
+    null
+   ],
+   "special_morae": [
+    null,
+    "R",
+    null,
+    "R"
+   ],
+   "accent": "unknown",
+   "pos": "noun_suru",
+   "semantic_domain": [
+    "labor"
+   ],
+   "side": "reality",
+   "register": "formal",
+   "proper_noun": false,
+   "frequency_band": "common",
+   "freshness": 0.3,
+   "particles_before": [
+    "単純"
+   ],
+   "particles_after": [
+    "力",
+    "時間"
+   ],
+   "articulation_cost": 0.2,
+   "reading_confidence": "medium",
+   "reading_source": "manual+g2p.py mora解析(辞書バックエンド無しのため未照合)",
+   "notes": []
+  },
+  {
+   "node_id": "shomo",
+   "surface": "消耗",
+   "reading": "ショーモー",
+   "morae": [
+    "ショ",
+    "ー",
+    "モ",
+    "ー"
+   ],
+   "mora_count": 4,
+   "vowel_sequence": [
+    "o",
+    "o",
+    "o",
+    "o"
+   ],
+   "consonant_sequence": [
+    "shy",
+    null,
+    "m",
+    null
+   ],
+   "special_morae": [
+    null,
+    "R",
+    null,
+    "R"
+   ],
+   "accent": "unknown",
+   "pos": "noun_suru",
+   "semantic_domain": [
+    "exhaustion"
+   ],
+   "side": "reality",
+   "register": "neutral",
+   "proper_noun": false,
+   "frequency_band": "common",
+   "freshness": 0.35,
+   "particles_before": [],
+   "particles_after": [
+    "戦",
+    "品"
+   ],
+   "articulation_cost": 0.2,
+   "reading_confidence": "medium",
+   "reading_source": "manual+g2p.py mora解析(辞書バックエンド無しのため未照合)",
+   "notes": []
+  },
+  {
+   "node_id": "musho",
+   "surface": "無償",
+   "reading": "ムショー",
+   "morae": [
+    "ム",
+    "ショ",
+    "ー"
+   ],
+   "mora_count": 3,
+   "vowel_sequence": [
+    "u",
+    "o",
+    "o"
+   ],
+   "consonant_sequence": [
+    "m",
+    "shy",
+    null
+   ],
+   "special_morae": [
+    null,
+    null,
+    "R"
+   ],
+   "accent": "unknown",
+   "pos": "noun",
+   "semantic_domain": [
+    "labor",
+    "money"
+   ],
+   "side": "reality",
+   "register": "formal",
+   "proper_noun": false,
+   "frequency_band": "marked",
+   "freshness": 0.5,
+   "particles_before": [],
+   "particles_after": [
+    "労働",
+    "の愛"
+   ],
+   "articulation_cost": 0.1,
+   "reading_confidence": "medium",
+   "reading_source": "manual+g2p.py mora解析(辞書バックエンド無しのため未照合)",
+   "notes": []
+  },
+  {
+   "node_id": "teihen",
+   "surface": "底辺",
+   "reading": "テーヘン",
+   "morae": [
+    "テ",
+    "ー",
+    "ヘ",
+    "ン"
+   ],
+   "mora_count": 4,
+   "vowel_sequence": [
+    "e",
+    "e",
+    "e",
+    "N"
+   ],
+   "consonant_sequence": [
+    "t",
+    null,
+    "h",
+    null
+   ],
+   "special_morae": [
+    null,
+    "R",
+    null,
+    "N"
+   ],
+   "accent": "unknown",
+   "pos": "noun",
+   "semantic_domain": [
+    "hierarchy",
+    "self_image"
+   ],
+   "side": "reality",
+   "register": "colloquial",
+   "proper_noun": false,
+   "frequency_band": "common",
+   "freshness": 0.35,
+   "particles_before": [],
+   "particles_after": [
+    "職",
+    "からの視界"
+   ],
+   "articulation_cost": 0.2,
+   "reading_confidence": "medium",
+   "reading_source": "manual+g2p.py mora解析(辞書バックエンド無しのため未照合)",
+   "notes": [
+    "辞書形テイヘン",
+    "エイ→エーの長音演奏読みを採用(long_vowel_performance_variant)"
+   ]
+  },
+  {
+   "node_id": "genjitsu",
+   "surface": "現実",
+   "reading": "ゲンジツ",
+   "morae": [
+    "ゲ",
+    "ン",
+    "ジ",
+    "ツ"
+   ],
+   "mora_count": 4,
+   "vowel_sequence": [
+    "e",
+    "N",
+    "i",
+    "u"
+   ],
+   "consonant_sequence": [
+    "g",
+    null,
+    "j",
+    "ts"
+   ],
+   "special_morae": [
+    null,
+    "N",
+    null,
+    null
+   ],
+   "accent": "unknown",
+   "pos": "noun",
+   "semantic_domain": [
+    "reality"
+   ],
+   "side": "reality",
+   "register": "neutral",
+   "proper_noun": false,
+   "frequency_band": "common",
+   "freshness": 0.25,
+   "particles_before": [
+    "この"
+   ],
+   "particles_after": [
+    "逃避",
+    "に戻る"
+   ],
+   "articulation_cost": 0.2,
+   "reading_confidence": "medium",
+   "reading_source": "manual+g2p.py mora解析(辞書バックエンド無しのため未照合)",
+   "notes": []
+  },
+  {
+   "node_id": "jinsei",
+   "surface": "人生",
+   "reading": "ジンセー",
+   "morae": [
+    "ジ",
+    "ン",
+    "セ",
+    "ー"
+   ],
+   "mora_count": 4,
+   "vowel_sequence": [
+    "i",
+    "N",
+    "e",
+    "e"
+   ],
+   "consonant_sequence": [
+    "j",
+    null,
+    "s",
+    null
+   ],
+   "special_morae": [
+    null,
+    "N",
+    null,
+    "R"
+   ],
+   "accent": "unknown",
+   "pos": "noun",
+   "semantic_domain": [
+    "life"
+   ],
+   "side": "reality",
+   "register": "neutral",
+   "proper_noun": false,
+   "frequency_band": "common",
+   "freshness": 0.25,
+   "particles_before": [
+    "一度きりの"
+   ],
+   "particles_after": [
+    "設計",
+    "の主役"
+   ],
+   "articulation_cost": 0.1,
+   "reading_confidence": "medium",
+   "reading_source": "manual+g2p.py mora解析(辞書バックエンド無しのため未照合)",
+   "notes": [
+    "辞書形ジンセイ",
+    "エイ→エーの長音演奏読みを採用(long_vowel_performance_variant)"
+   ]
+  },
+  {
+   "node_id": "burakku",
+   "surface": "ブラック",
+   "reading": "ブラック",
+   "morae": [
+    "ブ",
+    "ラ",
+    "ッ",
+    "ク"
+   ],
+   "mora_count": 4,
+   "vowel_sequence": [
+    "u",
+    "a",
+    "Q",
+    "u"
+   ],
+   "consonant_sequence": [
+    "b",
+    "r",
+    null,
+    "k"
+   ],
+   "special_morae": [
+    null,
+    null,
+    "Q",
+    null
+   ],
+   "accent": "unknown",
+   "pos": "noun",
+   "semantic_domain": [
+    "labor",
+    "exploitation"
+   ],
+   "side": "reality",
+   "register": "slang",
+   "proper_noun": false,
+   "frequency_band": "common",
+   "freshness": 0.35,
+   "particles_before": [],
+   "particles_after": [
+    "な現場",
+    "認定"
+   ],
+   "articulation_cost": 0.2,
+   "reading_confidence": "high",
+   "reading_source": "surface-kana+g2p.py",
+   "notes": [
+    "劣悪労働の一般語"
+   ]
+  },
+  {
+   "node_id": "haiyaku",
+   "surface": "配役",
+   "reading": "ハイヤク",
+   "morae": [
+    "ハ",
+    "イ",
+    "ヤ",
+    "ク"
+   ],
+   "mora_count": 4,
+   "vowel_sequence": [
+    "a",
+    "i",
+    "a",
+    "u"
+   ],
+   "consonant_sequence": [
+    "h",
+    null,
+    "y",
+    "k"
+   ],
+   "special_morae": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "accent": "unknown",
+   "pos": "noun",
+   "semantic_domain": [
+    "narrative_device",
+    "role_assignment"
+   ],
+   "side": "bridge",
+   "register": "neutral",
+   "proper_noun": false,
+   "frequency_band": "marked",
+   "freshness": 0.55,
+   "particles_before": [
+    "勝手な"
+   ],
+   "particles_after": [
+    "ミス",
+    "を拒む"
+   ],
+   "articulation_cost": 0.2,
+   "reading_confidence": "medium",
+   "reading_source": "manual+g2p.py mora解析(辞書バックエンド無しのため未照合)",
+   "notes": []
+  },
+  {
+   "node_id": "keiyaku",
+   "surface": "契約",
+   "reading": "ケーヤク",
+   "morae": [
+    "ケ",
+    "ー",
+    "ヤ",
+    "ク"
+   ],
+   "mora_count": 4,
+   "vowel_sequence": [
+    "e",
+    "e",
+    "a",
+    "u"
+   ],
+   "consonant_sequence": [
+    "k",
+    null,
+    "y",
+    "k"
+   ],
+   "special_morae": [
+    null,
+    "R",
+    null,
+    null
+   ],
+   "accent": "unknown",
+   "pos": "noun_suru",
+   "semantic_domain": [
+    "labor",
+    "document"
+   ],
+   "side": "reality",
+   "register": "neutral",
+   "proper_noun": false,
+   "frequency_band": "common",
+   "freshness": 0.3,
+   "particles_before": [
+    "有期"
+   ],
+   "particles_after": [
+    "更新",
+    "書"
+   ],
+   "articulation_cost": 0.2,
+   "reading_confidence": "medium",
+   "reading_source": "manual+g2p.py mora解析(辞書バックエンド無しのため未照合)",
+   "notes": [
+    "辞書形ケイヤク",
+    "エイ→エーの長音演奏読みを採用(long_vowel_performance_variant)"
+   ]
+  },
+  {
+   "node_id": "daison",
+   "surface": "大損",
+   "reading": "ダイソン",
+   "morae": [
+    "ダ",
+    "イ",
+    "ソ",
+    "ン"
+   ],
+   "mora_count": 4,
+   "vowel_sequence": [
+    "a",
+    "i",
+    "o",
+    "N"
+   ],
+   "consonant_sequence": [
+    "d",
+    null,
+    "s",
+    null
+   ],
+   "special_morae": [
+    null,
+    null,
+    null,
+    "N"
+   ],
+   "accent": "unknown",
+   "pos": "noun_suru",
+   "semantic_domain": [
+    "money",
+    "loss"
+   ],
+   "side": "reality",
+   "register": "colloquial",
+   "proper_noun": false,
+   "frequency_band": "marked",
+   "freshness": 0.5,
+   "particles_before": [
+    "十連で"
+   ],
+   "particles_after": [
+    "こいた"
+   ],
+   "articulation_cost": 0.2,
+   "reading_confidence": "medium",
+   "reading_source": "manual+g2p.py mora解析(辞書バックエンド無しのため未照合)",
+   "notes": []
+  },
+  {
+   "node_id": "nererumae",
+   "surface": "寝れる前",
+   "reading": "ネレルマエ",
+   "morae": [
+    "ネ",
+    "レ",
+    "ル",
+    "マ",
+    "エ"
+   ],
+   "mora_count": 5,
+   "vowel_sequence": [
+    "e",
+    "e",
+    "u",
+    "a",
+    "e"
+   ],
+   "consonant_sequence": [
+    "n",
+    "r",
+    "r",
+    "m",
+    null
+   ],
+   "special_morae": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "accent": "unknown",
+   "pos": "phrase",
+   "semantic_domain": [
+    "night",
+    "exhaustion"
+   ],
+   "side": "reality",
+   "register": "colloquial",
+   "proper_noun": false,
+   "frequency_band": "marked",
+   "freshness": 0.55,
+   "particles_before": [],
+   "particles_after": [
+    "に朝"
+   ],
+   "articulation_cost": 0.3,
+   "reading_confidence": "medium",
+   "reading_source": "manual+g2p.py mora解析(辞書バックエンド無しのため未照合)",
+   "notes": [
+    "ら抜き口語。句ノード"
+   ]
+  },
+  {
+   "node_id": "kuezuni",
+   "surface": "食えずに",
+   "reading": "クエズニ",
+   "morae": [
+    "ク",
+    "エ",
+    "ズ",
+    "ニ"
+   ],
+   "mora_count": 4,
+   "vowel_sequence": [
+    "u",
+    "e",
+    "u",
+    "i"
+   ],
+   "consonant_sequence": [
+    "k",
+    null,
+    "z",
+    "n"
+   ],
+   "special_morae": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "accent": "unknown",
+   "pos": "phrase",
+   "semantic_domain": [
+    "poverty"
+   ],
+   "side": "reality",
+   "register": "colloquial",
+   "proper_noun": false,
+   "frequency_band": "marked",
+   "freshness": 0.55,
+   "particles_before": [
+    "夢じゃ"
+   ],
+   "particles_after": [
+    "並ぶ"
+   ],
+   "articulation_cost": 0.2,
+   "reading_confidence": "medium",
+   "reading_source": "manual+g2p.py mora解析(辞書バックエンド無しのため未照合)",
+   "notes": [
+    "句ノード"
+   ]
+  },
+  {
+   "node_id": "misekake",
+   "surface": "見せかけ",
+   "reading": "ミセカケ",
+   "morae": [
+    "ミ",
+    "セ",
+    "カ",
+    "ケ"
+   ],
+   "mora_count": 4,
+   "vowel_sequence": [
+    "i",
+    "e",
+    "a",
+    "e"
+   ],
+   "consonant_sequence": [
+    "m",
+    "s",
+    "k",
+    "k"
+   ],
+   "special_morae": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "accent": "unknown",
+   "pos": "noun",
+   "semantic_domain": [
+    "deception"
+   ],
+   "side": "reality",
+   "register": "neutral",
+   "proper_noun": false,
+   "frequency_band": "common",
+   "freshness": 0.4,
+   "particles_before": [],
+   "particles_after": [
+    "の自由",
+    "の福利"
+   ],
+   "articulation_cost": 0.2,
+   "reading_confidence": "medium",
+   "reading_source": "manual+g2p.py mora解析(辞書バックエンド無しのため未照合)",
+   "notes": []
+  },
+  {
+   "node_id": "daihon",
+   "surface": "台本",
+   "reading": "ダイホン",
+   "morae": [
+    "ダ",
+    "イ",
+    "ホ",
+    "ン"
+   ],
+   "mora_count": 4,
+   "vowel_sequence": [
+    "a",
+    "i",
+    "o",
+    "N"
+   ],
+   "consonant_sequence": [
+    "d",
+    null,
+    "h",
+    null
+   ],
+   "special_morae": [
+    null,
+    null,
+    null,
+    "N"
+   ],
+   "accent": "unknown",
+   "pos": "noun",
+   "semantic_domain": [
+    "narrative_device",
+    "script"
+   ],
+   "side": "bridge",
+   "register": "neutral",
+   "proper_noun": false,
+   "frequency_band": "common",
+   "freshness": 0.35,
+   "particles_before": [
+    "他人の"
+   ],
+   "particles_after": [
+    "を破る",
+    "通り"
+   ],
+   "articulation_cost": 0.2,
+   "reading_confidence": "medium",
+   "reading_source": "manual+g2p.py mora解析(辞書バックエンド無しのため未照合)",
+   "notes": []
+  }
+ ],
+ "edges": [
+  {
+   "edge_id": "E001",
+   "from": "tensei",
+   "to": "jinsei",
+   "relation": "assonance",
+   "matched_morae": 4,
+   "vowel_similarity": 0.993,
+   "consonant_similarity": 0.9,
+   "mora_length_delta": 0,
+   "accent_compatibility": "unknown",
+   "sound_score": 0.946,
+   "sound_score_source": "rhyme_score.py(CLI)",
+   "tool_label": "strong",
+   "semantic_fit": 0.85,
+   "syntactic_fit": 0.8,
+   "novelty": 0.55,
+   "transition_cost": 0.25,
+   "placement_options": [
+    "internal",
+    "end",
+    "cross_bar"
+   ],
+   "cautions": [],
+   "notes": "中核対: 転生への夢/一度きりの人生。既出例も多く novelty は中"
+  },
+  {
+   "edge_id": "E002",
+   "from": "tensei",
+   "to": "settei",
+   "relation": "slant",
+   "matched_morae": 2,
+   "vowel_similarity": 1.0,
+   "consonant_similarity": 0.933,
+   "mora_length_delta": 0,
+   "accent_compatibility": "unknown",
+   "sound_score": 0.918,
+   "sound_score_source": "rhyme_score.py(CLI)",
+   "tool_label": "usable",
+   "semantic_fit": 0.85,
+   "syntactic_fit": 0.85,
+   "novelty": 0.7,
+   "transition_cost": 0.25,
+   "placement_options": [
+    "internal"
+   ],
+   "cautions": [
+    "短スパン(2モーラ)。単独では弱テクスチャ"
+   ],
+   "notes": "N/Q置換(テン/セッ)。「最初からハードモードの設定」文脈で機能"
+  },
+  {
+   "edge_id": "E003",
+   "from": "tensei",
+   "to": "mensetsu",
+   "relation": "slant",
+   "matched_morae": 4,
+   "vowel_similarity": 0.68,
+   "consonant_similarity": 0.367,
+   "mora_length_delta": 0,
+   "accent_compatibility": "unknown",
+   "sound_score": 0.673,
+   "sound_score_source": "rhyme_score.py(CLI)",
+   "tool_label": "usable",
+   "semantic_fit": 0.8,
+   "syntactic_fit": 0.85,
+   "novelty": 0.75,
+   "transition_cost": 0.25,
+   "placement_options": [
+    "internal",
+    "end",
+    "cross_bar"
+   ],
+   "cautions": [],
+   "notes": "転生願望と面接落ちの対置。末尾ツ処理は内部置き推奨"
+  },
+  {
+   "edge_id": "E004",
+   "from": "tenshoku_calling",
+   "to": "tenshoku_change",
+   "relation": "exact",
+   "matched_morae": 4,
+   "vowel_similarity": 1.0,
+   "consonant_similarity": 0.933,
+   "mora_length_delta": 0,
+   "accent_compatibility": "unknown",
+   "sound_score": 0.833,
+   "sound_score_source": "rhyme_score.py(CLI)",
+   "tool_label": "strong",
+   "semantic_fit": 0.75,
+   "syntactic_fit": 0.8,
+   "novelty": 0.35,
+   "transition_cost": 0.25,
+   "placement_options": [
+    "internal",
+    "end",
+    "cross_bar"
+   ],
+   "cautions": [
+    "同音異義+形態素「職」共有。低価値ラベル、高価値韻へ昇格禁止",
+    "表層反復ペナルティあり(同音/同語幹)"
+   ],
+   "notes": "同音異義パン(天職/転職)。identity扱いで1回限りの掛詞に限定"
+  },
+  {
+   "edge_id": "E005",
+   "from": "zangyo",
+   "to": "tenjo",
+   "relation": "assonance",
+   "matched_morae": 4,
+   "vowel_similarity": 0.987,
+   "consonant_similarity": 0.911,
+   "mora_length_delta": 0,
+   "accent_compatibility": "unknown",
+   "sound_score": 0.942,
+   "sound_score_source": "rhyme_score.py(CLI)",
+   "tool_label": "strong",
+   "semantic_fit": 0.9,
+   "syntactic_fit": 0.8,
+   "novelty": 0.85,
+   "transition_cost": 0.25,
+   "placement_options": [
+    "internal",
+    "end",
+    "cross_bar"
+   ],
+   "cautions": [],
+   "notes": "残業とガチャ天井=どちらも上限の見えない搾取。多義語天井が軸"
+  },
+  {
+   "edge_id": "E006",
+   "from": "zangyo",
+   "to": "danjon",
+   "relation": "slant",
+   "matched_morae": 4,
+   "vowel_similarity": 0.467,
+   "consonant_similarity": 0.656,
+   "mora_length_delta": 0,
+   "accent_compatibility": "unknown",
+   "sound_score": 0.525,
+   "sound_score_source": "rhyme_score.py(CLI)",
+   "tool_label": "weak-or-contextual",
+   "semantic_fit": 0.85,
+   "syntactic_fit": 0.8,
+   "novelty": 0.8,
+   "transition_cost": 0.25,
+   "placement_options": [
+    "internal",
+    "end",
+    "cross_bar"
+   ],
+   "cautions": [
+    "ツール判定weak。文脈・演奏補助が前提"
+   ],
+   "notes": "残業=ダンジョン周回。末尾ン/ーのNQR不一致、演奏で伸ばして寄せる"
+  },
+  {
+   "edge_id": "E007",
+   "from": "kakin",
+   "to": "yachin",
+   "relation": "assonance",
+   "matched_morae": 3,
+   "vowel_similarity": 1.0,
+   "consonant_similarity": 0.417,
+   "mora_length_delta": 0,
+   "accent_compatibility": "unknown",
+   "sound_score": 0.886,
+   "sound_score_source": "rhyme_score.py(CLI)",
+   "tool_label": "strong",
+   "semantic_fit": 0.9,
+   "syntactic_fit": 0.8,
+   "novelty": 0.8,
+   "transition_cost": 0.25,
+   "placement_options": [
+    "internal",
+    "end"
+   ],
+   "cautions": [],
+   "notes": "課金と家賃=可処分所得の奪い合い。a-i-N完全一致"
+  },
+  {
+   "edge_id": "E008",
+   "from": "shukai",
+   "to": "shukatsu",
+   "relation": "slant",
+   "matched_morae": 4,
+   "vowel_similarity": 0.787,
+   "consonant_similarity": 0.467,
+   "mora_length_delta": 0,
+   "accent_compatibility": "unknown",
+   "sound_score": 0.768,
+   "sound_score_source": "rhyme_score.py(CLI)",
+   "tool_label": "usable",
+   "semantic_fit": 0.85,
+   "syntactic_fit": 0.85,
+   "novelty": 0.75,
+   "transition_cost": 0.25,
+   "placement_options": [
+    "internal",
+    "end",
+    "cross_bar"
+   ],
+   "cautions": [],
+   "notes": "周回プレイと就活=同じ画面の繰り返し。末尾イ/ツのみ差"
+  },
+  {
+   "edge_id": "E009",
+   "from": "chiito",
+   "to": "niito",
+   "relation": "exact",
+   "matched_morae": 3,
+   "vowel_similarity": 1.0,
+   "consonant_similarity": 0.929,
+   "mora_length_delta": 0,
+   "accent_compatibility": "unknown",
+   "sound_score": 0.937,
+   "sound_score_source": "rhyme_score.py(CLI)",
+   "tool_label": "strong",
+   "semantic_fit": 0.9,
+   "syntactic_fit": 0.8,
+   "novelty": 0.85,
+   "transition_cost": 0.25,
+   "placement_options": [
+    "internal",
+    "end"
+   ],
+   "cautions": [],
+   "notes": "チート/ニート=能力の過剰と欠如。1子音差の対義的ミニマルペア"
+  },
+  {
+   "edge_id": "E010",
+   "from": "muso",
+   "to": "musho",
+   "relation": "assonance",
+   "matched_morae": 3,
+   "vowel_similarity": 1.0,
+   "consonant_similarity": 0.714,
+   "mora_length_delta": 0,
+   "accent_compatibility": "unknown",
+   "sound_score": 0.916,
+   "sound_score_source": "rhyme_score.py(CLI)",
+   "tool_label": "strong",
+   "semantic_fit": 0.85,
+   "syntactic_fit": 0.8,
+   "novelty": 0.35,
+   "transition_cost": 0.4,
+   "placement_options": [
+    "internal",
+    "end"
+   ],
+   "cautions": [
+    "接頭辞「無」共有。低価値ラベル、高価値韻へ昇格禁止"
+   ],
+   "notes": "無双する主人公/無償で働く俺。接頭辞「無」共有につき使用は1回"
+  },
+  {
+   "edge_id": "E011",
+   "from": "rodo",
+   "to": "shomo",
+   "relation": "assonance",
+   "matched_morae": 4,
+   "vowel_similarity": 1.0,
+   "consonant_similarity": 0.767,
+   "mora_length_delta": 0,
+   "accent_compatibility": "unknown",
+   "sound_score": 0.937,
+   "sound_score_source": "rhyme_score.py(CLI)",
+   "tool_label": "strong",
+   "semantic_fit": 0.85,
+   "syntactic_fit": 0.85,
+   "novelty": 0.7,
+   "transition_cost": 0.25,
+   "placement_options": [
+    "internal",
+    "end",
+    "cross_bar"
+   ],
+   "cautions": [],
+   "notes": "労働=消耗。o-R-o-R完全一致、同一領域なので意味距離は近め"
+  },
+  {
+   "edge_id": "E012",
+   "from": "mao",
+   "to": "kacho",
+   "relation": "assonance",
+   "matched_morae": 3,
+   "vowel_similarity": 1.0,
+   "consonant_similarity": 0.643,
+   "mora_length_delta": 0,
+   "accent_compatibility": "unknown",
+   "sound_score": 0.909,
+   "sound_score_source": "rhyme_score.py(CLI)",
+   "tool_label": "strong",
+   "semantic_fit": 0.9,
+   "syntactic_fit": 0.8,
+   "novelty": 0.9,
+   "transition_cost": 0.25,
+   "placement_options": [
+    "internal",
+    "end"
+   ],
+   "cautions": [],
+   "notes": "魔王討伐/課長の説教。権力者の格落とし対比が主眼"
+  },
+  {
+   "edge_id": "E013",
+   "from": "shujinko",
+   "to": "kyujinhyo",
+   "relation": "assonance",
+   "matched_morae": 5,
+   "vowel_similarity": 1.0,
+   "consonant_similarity": 0.609,
+   "mora_length_delta": 1,
+   "accent_compatibility": "unknown",
+   "sound_score": 0.933,
+   "sound_score_source": "rhyme_score.py(CLI)",
+   "tool_label": "strong",
+   "semantic_fit": 0.9,
+   "syntactic_fit": 0.8,
+   "novelty": 0.85,
+   "transition_cost": 0.25,
+   "placement_options": [
+    "internal",
+    "end",
+    "cross_bar"
+   ],
+   "cautions": [],
+   "notes": "主人公になれる求人は無い。5モーラ対応の主力ペア"
+  },
+  {
+   "edge_id": "E014",
+   "from": "shujinko",
+   "to": "shushinkoyo",
+   "relation": "slant",
+   "matched_morae": 2,
+   "vowel_similarity": 1.0,
+   "consonant_similarity": 0.8,
+   "mora_length_delta": 2,
+   "accent_compatibility": "unknown",
+   "sound_score": 0.905,
+   "sound_score_source": "rhyme_score.py(CLI)",
+   "tool_label": "usable",
+   "semantic_fit": 0.85,
+   "syntactic_fit": 0.8,
+   "novelty": 0.8,
+   "transition_cost": 0.35,
+   "placement_options": [
+    "internal"
+   ],
+   "cautions": [
+    "モーラ数差が大きい(分割/延伸で吸収)",
+    "短スパン(2モーラ)。単独では弱テクスチャ"
+   ],
+   "notes": "主人公補正/終身雇用=どちらも幻想。モーラ数差2は分割配置で吸収"
+  },
+  {
+   "edge_id": "E015",
+   "from": "torakku",
+   "to": "burakku",
+   "relation": "assonance",
+   "matched_morae": 4,
+   "vowel_similarity": 0.993,
+   "consonant_similarity": 0.828,
+   "mora_length_delta": 0,
+   "accent_compatibility": "unknown",
+   "sound_score": 0.938,
+   "sound_score_source": "rhyme_score.py(CLI)",
+   "tool_label": "strong",
+   "semantic_fit": 0.9,
+   "syntactic_fit": 0.8,
+   "novelty": 0.85,
+   "transition_cost": 0.25,
+   "placement_options": [
+    "internal",
+    "end",
+    "cross_bar"
+   ],
+   "cautions": [],
+   "notes": "トラック転生/ブラック労働=入口の対比。Q含む4モーラ"
+  },
+  {
+   "edge_id": "E016",
+   "from": "girudo",
+   "to": "shifuto",
+   "relation": "assonance",
+   "matched_morae": 3,
+   "vowel_similarity": 1.0,
+   "consonant_similarity": 0.429,
+   "mora_length_delta": 0,
+   "accent_compatibility": "unknown",
+   "sound_score": 0.887,
+   "sound_score_source": "rhyme_score.py(CLI)",
+   "tool_label": "strong",
+   "semantic_fit": 0.85,
+   "syntactic_fit": 0.8,
+   "novelty": 0.8,
+   "transition_cost": 0.25,
+   "placement_options": [
+    "internal",
+    "end"
+   ],
+   "cautions": [],
+   "notes": "ギルドの受付/シフト表。i-u-o一致、子音は遠い"
+  },
+  {
+   "edge_id": "E017",
+   "from": "konbini",
+   "to": "zonbi",
+   "relation": "mosaic",
+   "matched_morae": 4,
+   "vowel_similarity": 1.0,
+   "consonant_similarity": 0.9,
+   "mora_length_delta": 1,
+   "accent_compatibility": "unknown",
+   "sound_score": 0.95,
+   "sound_score_source": "rhyme_score.py(CLI)",
+   "tool_label": "strong",
+   "semantic_fit": 0.9,
+   "syntactic_fit": 0.8,
+   "novelty": 0.85,
+   "transition_cost": 0.25,
+   "placement_options": [
+    "internal",
+    "end",
+    "cross_bar"
+   ],
+   "cautions": [],
+   "notes": "コンビニ/ゾンビ+に(助詞込みモザイク)。深夜レジの死んだ目"
+  },
+  {
+   "edge_id": "E018",
+   "from": "isekai",
+   "to": "misekake",
+   "relation": "assonance",
+   "matched_morae": 4,
+   "vowel_similarity": 0.893,
+   "consonant_similarity": 0.433,
+   "mora_length_delta": 0,
+   "accent_compatibility": "unknown",
+   "sound_score": 0.834,
+   "sound_score_source": "rhyme_score.py(CLI)",
+   "tool_label": "strong",
+   "semantic_fit": 0.85,
+   "syntactic_fit": 0.8,
+   "novelty": 0.8,
+   "transition_cost": 0.25,
+   "placement_options": [
+    "internal",
+    "end",
+    "cross_bar"
+   ],
+   "cautions": [],
+   "notes": "異世界/見せかけ=誇大広告としての転生譚"
+  },
+  {
+   "edge_id": "E019",
+   "from": "kuesuto",
+   "to": "kuezuni",
+   "relation": "phrase",
+   "matched_morae": 4,
+   "vowel_similarity": 0.68,
+   "consonant_similarity": 0.544,
+   "mora_length_delta": 0,
+   "accent_compatibility": "unknown",
+   "sound_score": 0.706,
+   "sound_score_source": "rhyme_score.py(CLI)",
+   "tool_label": "usable",
+   "semantic_fit": 0.85,
+   "syntactic_fit": 0.6,
+   "novelty": 0.8,
+   "transition_cost": 0.35,
+   "placement_options": [
+    "internal",
+    "end",
+    "cross_bar"
+   ],
+   "cautions": [],
+   "notes": "クエスト/食えずに=タスクは湧くのに飯が食えない。句モザイク"
+  },
+  {
+   "edge_id": "E020",
+   "from": "reberuage",
+   "to": "nererumae",
+   "relation": "phrase",
+   "matched_morae": 5,
+   "vowel_similarity": 1.0,
+   "consonant_similarity": 0.2,
+   "mora_length_delta": 0,
+   "accent_compatibility": "unknown",
+   "sound_score": 0.892,
+   "sound_score_source": "rhyme_score.py(CLI)",
+   "tool_label": "strong",
+   "semantic_fit": 0.85,
+   "syntactic_fit": 0.6,
+   "novelty": 0.85,
+   "transition_cost": 0.35,
+   "placement_options": [
+    "internal",
+    "end",
+    "cross_bar"
+   ],
+   "cautions": [],
+   "notes": "レベル上げ/寝れる前=5モーラ完全母音一致の句対。ら抜き口語注意"
+  },
+  {
+   "edge_id": "E021",
+   "from": "keikenchi",
+   "to": "teihen",
+   "relation": "split",
+   "matched_morae": 4,
+   "vowel_similarity": 0.167,
+   "consonant_similarity": 0.417,
+   "mora_length_delta": 1,
+   "accent_compatibility": "unknown",
+   "sound_score": 0.272,
+   "sound_score_source": "rhyme_score.py(CLI)",
+   "tool_label": "not-established",
+   "semantic_fit": 0.85,
+   "syntactic_fit": 0.8,
+   "novelty": 0.8,
+   "transition_cost": 0.25,
+   "placement_options": [
+    "internal",
+    "end",
+    "cross_bar"
+   ],
+   "cautions": [
+    "ツール判定weak。文脈・演奏補助が前提"
+   ],
+   "notes": "経験値/底辺=頭アンカーの分割韻(ケーケン/テーヘン)。余りチは次拍へ送る。suffix採点ツールでは0.272と過小評価"
+  },
+  {
+   "edge_id": "E022",
+   "from": "genjitsu",
+   "to": "tenbiki",
+   "relation": "slant",
+   "matched_morae": 4,
+   "vowel_similarity": 0.787,
+   "consonant_similarity": 0.356,
+   "mora_length_delta": 0,
+   "accent_compatibility": "unknown",
+   "sound_score": 0.757,
+   "sound_score_source": "rhyme_score.py(CLI)",
+   "tool_label": "usable",
+   "semantic_fit": 0.85,
+   "syntactic_fit": 0.8,
+   "novelty": 0.8,
+   "transition_cost": 0.25,
+   "placement_options": [
+    "internal",
+    "end",
+    "cross_bar"
+   ],
+   "cautions": [],
+   "notes": "現実/天引き=手取りから引かれる現実。e-N-i-x対応"
+  },
+  {
+   "edge_id": "E023",
+   "from": "jikyu",
+   "to": "chikyu",
+   "relation": "exact",
+   "matched_morae": 3,
+   "vowel_similarity": 1.0,
+   "consonant_similarity": 0.976,
+   "mora_length_delta": 0,
+   "accent_compatibility": "unknown",
+   "sound_score": 0.942,
+   "sound_score_source": "rhyme_score.py(CLI)",
+   "tool_label": "strong",
+   "semantic_fit": 0.9,
+   "syntactic_fit": 0.8,
+   "novelty": 0.9,
+   "transition_cost": 0.25,
+   "placement_options": [
+    "internal",
+    "end"
+   ],
+   "cautions": [],
+   "notes": "時給/地球=この惑星こそ低時給の異世界。1子音差(j/ch調音近接)"
+  },
+  {
+   "edge_id": "E024",
+   "from": "rirekisho",
+   "to": "hiseiki",
+   "relation": "slant",
+   "matched_morae": 4,
+   "vowel_similarity": 0.62,
+   "consonant_similarity": 0.044,
+   "mora_length_delta": 0,
+   "accent_compatibility": "unknown",
+   "sound_score": 0.608,
+   "sound_score_source": "rhyme_score.py(CLI)",
+   "tool_label": "weak-or-contextual",
+   "semantic_fit": 0.85,
+   "syntactic_fit": 0.8,
+   "novelty": 0.75,
+   "transition_cost": 0.25,
+   "placement_options": [
+    "internal",
+    "end",
+    "cross_bar"
+   ],
+   "cautions": [
+    "ツール判定weak。文脈・演奏補助が前提"
+   ],
+   "notes": "履歴書/非正規=書類と身分。母音のみ弱対応、内部置き推奨"
+  },
+  {
+   "edge_id": "E025",
+   "from": "daihon",
+   "to": "daison",
+   "relation": "assonance",
+   "matched_morae": 4,
+   "vowel_similarity": 1.0,
+   "consonant_similarity": 0.633,
+   "mora_length_delta": 0,
+   "accent_compatibility": "unknown",
+   "sound_score": 0.923,
+   "sound_score_source": "rhyme_score.py(CLI)",
+   "tool_label": "strong",
+   "semantic_fit": 0.85,
+   "syntactic_fit": 0.8,
+   "novelty": 0.8,
+   "transition_cost": 0.25,
+   "placement_options": [
+    "internal",
+    "end",
+    "cross_bar"
+   ],
+   "cautions": [],
+   "notes": "他人の台本/十連で大損。a-i-o-N一致"
+  },
+  {
+   "edge_id": "E026",
+   "from": "haiyaku",
+   "to": "keiyaku",
+   "relation": "consonance",
+   "matched_morae": 3,
+   "vowel_similarity": 0.986,
+   "consonant_similarity": 1.0,
+   "mora_length_delta": 0,
+   "accent_compatibility": "unknown",
+   "sound_score": 0.933,
+   "sound_score_source": "rhyme_score.py(CLI)",
+   "tool_label": "strong",
+   "semantic_fit": 0.9,
+   "syntactic_fit": 0.8,
+   "novelty": 0.85,
+   "transition_cost": 0.25,
+   "placement_options": [
+    "internal",
+    "end"
+   ],
+   "cautions": [],
+   "notes": "配役/契約=配られた役と有期契約。ヤク2モーラ完全+子音一致"
+  },
+  {
+   "edge_id": "E027",
+   "from": "akuyaku",
+   "to": "koryaku",
+   "relation": "consonance",
+   "matched_morae": 2,
+   "vowel_similarity": 1.0,
+   "consonant_similarity": 0.8,
+   "mora_length_delta": 0,
+   "accent_compatibility": "unknown",
+   "sound_score": 0.905,
+   "sound_score_source": "rhyme_score.py(CLI)",
+   "tool_label": "usable",
+   "semantic_fit": 0.8,
+   "syntactic_fit": 0.8,
+   "novelty": 0.7,
+   "transition_cost": 0.25,
+   "placement_options": [
+    "internal"
+   ],
+   "cautions": [
+    "短スパン(2モーラ)。単独では弱テクスチャ"
+   ],
+   "notes": "悪役/攻略。ヤク着地の連鎖用リンク"
+  },
+  {
+   "edge_id": "E028",
+   "from": "akuyaku",
+   "to": "haiyaku",
+   "relation": "consonance",
+   "matched_morae": 2,
+   "vowel_similarity": 1.0,
+   "consonant_similarity": 1.0,
+   "mora_length_delta": 0,
+   "accent_compatibility": "unknown",
+   "sound_score": 0.925,
+   "sound_score_source": "rhyme_graph.py(score_pair)",
+   "tool_label": "usable",
+   "semantic_fit": 0.85,
+   "syntactic_fit": 0.8,
+   "novelty": 0.75,
+   "transition_cost": 0.25,
+   "placement_options": [
+    "internal"
+   ],
+   "cautions": [
+    "短スパン(2モーラ)。単独では弱テクスチャ"
+   ],
+   "notes": "悪役/配役=配役への抗議の軸。形態素「役」共有につき連発禁止"
+  },
+  {
+   "edge_id": "E029",
+   "from": "isekai",
+   "to": "risemara",
+   "relation": "slant",
+   "matched_morae": 4,
+   "vowel_similarity": 0.68,
+   "consonant_similarity": 0.133,
+   "mora_length_delta": 0,
+   "accent_compatibility": "unknown",
+   "sound_score": 0.665,
+   "sound_score_source": "rhyme_score.py(CLI)",
+   "tool_label": "usable",
+   "semantic_fit": 0.8,
+   "syntactic_fit": 0.8,
+   "novelty": 0.7,
+   "transition_cost": 0.25,
+   "placement_options": [
+    "internal",
+    "end",
+    "cross_bar"
+   ],
+   "cautions": [],
+   "notes": "異世界/リセマラ=やり直し願望。i-e-a対応"
+  },
+  {
+   "edge_id": "E030",
+   "from": "mobu",
+   "to": "tenshoku_change",
+   "relation": "assonance",
+   "matched_morae": 2,
+   "vowel_similarity": 1.0,
+   "consonant_similarity": 0.267,
+   "mora_length_delta": 2,
+   "accent_compatibility": "unknown",
+   "sound_score": 0.852,
+   "sound_score_source": "rhyme_score.py(CLI)",
+   "tool_label": "usable",
+   "semantic_fit": 0.75,
+   "syntactic_fit": 0.8,
+   "novelty": 0.6,
+   "transition_cost": 0.35,
+   "placement_options": [
+    "internal"
+   ],
+   "cautions": [
+    "モーラ数差が大きい(分割/延伸で吸収)",
+    "短スパン(2モーラ)。単独では弱テクスチャ"
+   ],
+   "notes": "モブ/転職(ショク)。2モーラ内部テクスチャ限定"
+  },
+  {
+   "edge_id": "E031",
+   "from": "tenjo",
+   "to": "kyujinhyo",
+   "relation": "assonance",
+   "matched_morae": 4,
+   "vowel_similarity": 0.993,
+   "consonant_similarity": 0.9,
+   "mora_length_delta": 2,
+   "accent_compatibility": "unknown",
+   "sound_score": 0.946,
+   "sound_score_source": "rhyme_score.py(CLI)",
+   "tool_label": "strong",
+   "semantic_fit": 0.85,
+   "syntactic_fit": 0.8,
+   "novelty": 0.8,
+   "transition_cost": 0.35,
+   "placement_options": [
+    "internal",
+    "end",
+    "cross_bar"
+   ],
+   "cautions": [
+    "モーラ数差が大きい(分割/延伸で吸収)"
+   ],
+   "notes": "天井/求人票=見上げる紙とスクロールする画面"
+  },
+  {
+   "edge_id": "E032",
+   "from": "gacha",
+   "to": "risemara",
+   "relation": "assonance",
+   "matched_morae": 2,
+   "vowel_similarity": 1.0,
+   "consonant_similarity": 0.167,
+   "mora_length_delta": 2,
+   "accent_compatibility": "unknown",
+   "sound_score": 0.832,
+   "sound_score_source": "rhyme_graph.py(score_pair)",
+   "tool_label": "usable",
+   "semantic_fit": 0.8,
+   "syntactic_fit": 0.8,
+   "novelty": 0.6,
+   "transition_cost": 0.35,
+   "placement_options": [
+    "internal"
+   ],
+   "cautions": [
+    "モーラ数差が大きい(分割/延伸で吸収)",
+    "短スパン(2モーラ)。単独では弱テクスチャ"
+   ],
+   "notes": "ガチャ/リセマラ。同領域2モーラ、内部テクスチャ"
+  },
+  {
+   "edge_id": "E033",
+   "from": "gacha",
+   "to": "inkya",
+   "relation": "slant",
+   "matched_morae": 2,
+   "vowel_similarity": 0.5,
+   "consonant_similarity": 0.75,
+   "mora_length_delta": 1,
+   "accent_compatibility": "unknown",
+   "sound_score": 0.765,
+   "sound_score_source": "rhyme_graph.py(score_pair)",
+   "tool_label": "usable",
+   "semantic_fit": 0.7,
+   "syntactic_fit": 0.8,
+   "novelty": 0.65,
+   "transition_cost": 0.25,
+   "placement_options": [
+    "internal"
+   ],
+   "cautions": [
+    "短スパン(2モーラ)。単独では弱テクスチャ"
+   ],
+   "notes": "ガチャ運/陰キャ。拗音チャ/キャの口蓋近接"
+  },
+  {
+   "edge_id": "E034",
+   "from": "mensetsu",
+   "to": "genjitsu",
+   "relation": "slant",
+   "matched_morae": 4,
+   "vowel_similarity": 0.95,
+   "consonant_similarity": 0.458,
+   "mora_length_delta": 0,
+   "accent_compatibility": "unknown",
+   "sound_score": 0.882,
+   "sound_score_source": "rhyme_graph.py(score_pair)",
+   "tool_label": "strong",
+   "semantic_fit": 0.85,
+   "syntactic_fit": 0.8,
+   "novelty": 0.75,
+   "transition_cost": 0.25,
+   "placement_options": [
+    "internal",
+    "end",
+    "cross_bar"
+   ],
+   "cautions": [],
+   "notes": "面接/現実=e-N-x-u対応。落選通知の現実"
+  },
+  {
+   "edge_id": "E035",
+   "from": "shinya",
+   "to": "inkya",
+   "relation": "assonance",
+   "matched_morae": 3,
+   "vowel_similarity": 1.0,
+   "consonant_similarity": 0.167,
+   "mora_length_delta": 0,
+   "accent_compatibility": "unknown",
+   "sound_score": 0.859,
+   "sound_score_source": "rhyme_graph.py(score_pair)",
+   "tool_label": "strong",
+   "semantic_fit": 0.8,
+   "syntactic_fit": 0.8,
+   "novelty": 0.7,
+   "transition_cost": 0.25,
+   "placement_options": [
+    "internal",
+    "end"
+   ],
+   "cautions": [],
+   "notes": "深夜/陰キャ=i-N-a一致。深夜帯の自画像"
+  },
+  {
+   "edge_id": "E036",
+   "from": "tenbiki",
+   "to": "konbini",
+   "relation": "slant",
+   "matched_morae": 4,
+   "vowel_similarity": 0.9,
+   "consonant_similarity": 0.542,
+   "mora_length_delta": 0,
+   "accent_compatibility": "unknown",
+   "sound_score": 0.89,
+   "sound_score_source": "rhyme_graph.py(score_pair)",
+   "tool_label": "strong",
+   "semantic_fit": 0.8,
+   "syntactic_fit": 0.8,
+   "novelty": 0.75,
+   "transition_cost": 0.25,
+   "placement_options": [
+    "internal",
+    "end",
+    "cross_bar"
+   ],
+   "cautions": [],
+   "notes": "天引き/コンビニ=給与明細と深夜バイト"
+  },
+  {
+   "edge_id": "E037",
+   "from": "keikenchi",
+   "to": "zonbi",
+   "relation": "slant",
+   "matched_morae": 3,
+   "vowel_similarity": 0.867,
+   "consonant_similarity": 0.167,
+   "mora_length_delta": 2,
+   "accent_compatibility": "unknown",
+   "sound_score": 0.84,
+   "sound_score_source": "rhyme_graph.py(score_pair)",
+   "tool_label": "strong",
+   "semantic_fit": 0.75,
+   "syntactic_fit": 0.8,
+   "novelty": 0.7,
+   "transition_cost": 0.35,
+   "placement_options": [
+    "internal",
+    "end"
+   ],
+   "cautions": [
+    "モーラ数差が大きい(分割/延伸で吸収)"
+   ],
+   "notes": "経験値ゼロ/ゾンビ=鼻音コーダの近接(ンチ/ンビ)"
+  },
+  {
+   "edge_id": "E038",
+   "from": "suteetasu",
+   "to": "keiyaku",
+   "relation": "slant",
+   "matched_morae": 4,
+   "vowel_similarity": 1.0,
+   "consonant_similarity": 0.5,
+   "mora_length_delta": 1,
+   "accent_compatibility": "unknown",
+   "sound_score": 0.893,
+   "sound_score_source": "rhyme_graph.py(score_pair)",
+   "tool_label": "strong",
+   "semantic_fit": 0.75,
+   "syntactic_fit": 0.8,
+   "novelty": 0.7,
+   "transition_cost": 0.25,
+   "placement_options": [
+    "internal",
+    "end",
+    "cross_bar"
+   ],
+   "cautions": [],
+   "notes": "ステータス画面/契約(更新)。タス/ヤク弱対応+アク?要文脈"
+  },
+  {
+   "edge_id": "E039",
+   "from": "shuden",
+   "to": "shogakukin",
+   "relation": "slant",
+   "matched_morae": 3,
+   "vowel_similarity": 0.933,
+   "consonant_similarity": 0.278,
+   "mora_length_delta": 2,
+   "accent_compatibility": "unknown",
+   "sound_score": 0.847,
+   "sound_score_source": "rhyme_graph.py(score_pair)",
+   "tool_label": "strong",
+   "semantic_fit": 0.75,
+   "syntactic_fit": 0.8,
+   "novelty": 0.7,
+   "transition_cost": 0.35,
+   "placement_options": [
+    "internal",
+    "end"
+   ],
+   "cautions": [
+    "モーラ数差が大きい(分割/延伸で吸収)"
+   ],
+   "notes": "終電/奨学金=夜と借金。対応列は弱く内部置き"
+  },
+  {
+   "edge_id": "E040",
+   "from": "kakin",
+   "to": "mukakin",
+   "relation": "performance_variant",
+   "matched_morae": 3,
+   "vowel_similarity": 1.0,
+   "consonant_similarity": 0.833,
+   "mora_length_delta": 1,
+   "accent_compatibility": "unknown",
+   "sound_score": 0.612,
+   "sound_score_source": "rhyme_graph.py(score_pair)",
+   "tool_label": "weak-or-contextual",
+   "semantic_fit": 0.5,
+   "syntactic_fit": 0.8,
+   "novelty": 0.1,
+   "transition_cost": 0.25,
+   "placement_options": [
+    "internal",
+    "end"
+   ],
+   "cautions": [
+    "同語幹(課金)派生ペア。低価値ラベル、高価値韻へ昇格禁止",
+    "ツール判定weak。文脈・演奏補助が前提"
+   ],
+   "notes": "派生ペア。韻としては低価値、対句(課金圧/無課金の意地)専用"
+  },
+  {
+   "edge_id": "E041",
+   "from": "gacha",
+   "to": "oyagacha",
+   "relation": "performance_variant",
+   "matched_morae": 2,
+   "vowel_similarity": 1.0,
+   "consonant_similarity": 1.0,
+   "mora_length_delta": 2,
+   "accent_compatibility": "unknown",
+   "sound_score": 0.625,
+   "sound_score_source": "rhyme_graph.py(score_pair)",
+   "tool_label": "weak-or-contextual",
+   "semantic_fit": 0.5,
+   "syntactic_fit": 0.8,
+   "novelty": 0.1,
+   "transition_cost": 0.35,
+   "placement_options": [
+    "internal"
+   ],
+   "cautions": [
+    "同語幹(ガチャ)派生ペア。低価値ラベル、高価値韻へ昇格禁止",
+    "モーラ数差が大きい(分割/延伸で吸収)",
+    "短スパン(2モーラ)。単独では弱テクスチャ",
+    "ツール判定weak。文脈・演奏補助が前提"
+   ],
+   "notes": "派生ペア。韻でなくフックの反復素材"
+  },
+  {
+   "edge_id": "E042",
+   "from": "zangyo",
+   "to": "kyujinhyo",
+   "relation": "assonance",
+   "matched_morae": 3,
+   "vowel_similarity": 1.0,
+   "consonant_similarity": 0.833,
+   "mora_length_delta": 2,
+   "accent_compatibility": "unknown",
+   "sound_score": 0.941,
+   "sound_score_source": "rhyme_graph.py(score_pair)",
+   "tool_label": "strong",
+   "semantic_fit": 0.6,
+   "syntactic_fit": 0.8,
+   "novelty": 0.4,
+   "transition_cost": 0.35,
+   "placement_options": [
+    "internal",
+    "end"
+   ],
+   "cautions": [
+    "モーラ数差が大きい(分割/延伸で吸収)"
+   ],
+   "notes": null
+  },
+  {
+   "edge_id": "E043",
+   "from": "kuesuto",
+   "to": "shifuto",
+   "relation": "slant",
+   "matched_morae": 3,
+   "vowel_similarity": 0.933,
+   "consonant_similarity": 0.556,
+   "mora_length_delta": 1,
+   "accent_compatibility": "unknown",
+   "sound_score": 0.919,
+   "sound_score_source": "rhyme_graph.py(score_pair)",
+   "tool_label": "strong",
+   "semantic_fit": 0.75,
+   "syntactic_fit": 0.8,
+   "novelty": 0.65,
+   "transition_cost": 0.25,
+   "placement_options": [
+    "internal",
+    "end"
+   ],
+   "cautions": [],
+   "notes": null
+  },
+  {
+   "edge_id": "E044",
+   "from": "tenjo",
+   "to": "shujinko",
+   "relation": "slant",
+   "matched_morae": 4,
+   "vowel_similarity": 0.95,
+   "consonant_similarity": 0.375,
+   "mora_length_delta": 1,
+   "accent_compatibility": "unknown",
+   "sound_score": 0.916,
+   "sound_score_source": "rhyme_graph.py(score_pair)",
+   "tool_label": "strong",
+   "semantic_fit": 0.75,
+   "syntactic_fit": 0.8,
+   "novelty": 0.65,
+   "transition_cost": 0.25,
+   "placement_options": [
+    "internal",
+    "end",
+    "cross_bar"
+   ],
+   "cautions": [],
+   "notes": null
+  },
+  {
+   "edge_id": "E045",
+   "from": "shushinkoyo",
+   "to": "rodo",
+   "relation": "assonance",
+   "matched_morae": 3,
+   "vowel_similarity": 1.0,
+   "consonant_similarity": 0.444,
+   "mora_length_delta": 3,
+   "accent_compatibility": "unknown",
+   "sound_score": 0.916,
+   "sound_score_source": "rhyme_graph.py(score_pair)",
+   "tool_label": "strong",
+   "semantic_fit": 0.6,
+   "syntactic_fit": 0.8,
+   "novelty": 0.4,
+   "transition_cost": 0.35,
+   "placement_options": [
+    "internal",
+    "end"
+   ],
+   "cautions": [
+    "モーラ数差が大きい(分割/延伸で吸収)"
+   ],
+   "notes": null
+  },
+  {
+   "edge_id": "E046",
+   "from": "shushinkoyo",
+   "to": "shomo",
+   "relation": "assonance",
+   "matched_morae": 3,
+   "vowel_similarity": 1.0,
+   "consonant_similarity": 0.444,
+   "mora_length_delta": 3,
+   "accent_compatibility": "unknown",
+   "sound_score": 0.916,
+   "sound_score_source": "rhyme_graph.py(score_pair)",
+   "tool_label": "strong",
+   "semantic_fit": 0.6,
+   "syntactic_fit": 0.8,
+   "novelty": 0.4,
+   "transition_cost": 0.35,
+   "placement_options": [
+    "internal",
+    "end"
+   ],
+   "cautions": [
+    "モーラ数差が大きい(分割/延伸で吸収)"
+   ],
+   "notes": null
+  },
+  {
+   "edge_id": "E047",
+   "from": "shujinko",
+   "to": "zangyo",
+   "relation": "assonance",
+   "matched_morae": 3,
+   "vowel_similarity": 1.0,
+   "consonant_similarity": 0.5,
+   "mora_length_delta": 1,
+   "accent_compatibility": "unknown",
+   "sound_score": 0.912,
+   "sound_score_source": "rhyme_graph.py(score_pair)",
+   "tool_label": "strong",
+   "semantic_fit": 0.75,
+   "syntactic_fit": 0.8,
+   "novelty": 0.65,
+   "transition_cost": 0.25,
+   "placement_options": [
+    "internal",
+    "end"
+   ],
+   "cautions": [],
+   "notes": null
+  },
+  {
+   "edge_id": "E048",
+   "from": "kuesuto",
+   "to": "girudo",
+   "relation": "slant",
+   "matched_morae": 3,
+   "vowel_similarity": 0.933,
+   "consonant_similarity": 0.333,
+   "mora_length_delta": 1,
+   "accent_compatibility": "unknown",
+   "sound_score": 0.888,
+   "sound_score_source": "rhyme_graph.py(score_pair)",
+   "tool_label": "strong",
+   "semantic_fit": 0.6,
+   "syntactic_fit": 0.8,
+   "novelty": 0.4,
+   "transition_cost": 0.25,
+   "placement_options": [
+    "internal",
+    "end"
+   ],
+   "cautions": [],
+   "notes": null
+  },
+  {
+   "edge_id": "E049",
+   "from": "mukakin",
+   "to": "yachin",
+   "relation": "assonance",
+   "matched_morae": 3,
+   "vowel_similarity": 1.0,
+   "consonant_similarity": 0.278,
+   "mora_length_delta": 1,
+   "accent_compatibility": "unknown",
+   "sound_score": 0.886,
+   "sound_score_source": "rhyme_graph.py(score_pair)",
+   "tool_label": "strong",
+   "semantic_fit": 0.75,
+   "syntactic_fit": 0.8,
+   "novelty": 0.65,
+   "transition_cost": 0.25,
+   "placement_options": [
+    "internal",
+    "end"
+   ],
+   "cautions": [],
+   "notes": null
+  },
+  {
+   "edge_id": "E050",
+   "from": "koryaku",
+   "to": "shukatsu",
+   "relation": "slant",
+   "matched_morae": 4,
+   "vowel_similarity": 0.9,
+   "consonant_similarity": 0.333,
+   "mora_length_delta": 0,
+   "accent_compatibility": "unknown",
+   "sound_score": 0.869,
+   "sound_score_source": "rhyme_graph.py(score_pair)",
+   "tool_label": "strong",
+   "semantic_fit": 0.75,
+   "syntactic_fit": 0.85,
+   "novelty": 0.65,
+   "transition_cost": 0.25,
+   "placement_options": [
+    "internal",
+    "end",
+    "cross_bar"
+   ],
+   "cautions": [],
+   "notes": null
+  },
+  {
+   "edge_id": "E051",
+   "from": "akuyaku",
+   "to": "shukatsu",
+   "relation": "assonance",
+   "matched_morae": 3,
+   "vowel_similarity": 1.0,
+   "consonant_similarity": 0.111,
+   "mora_length_delta": 0,
+   "accent_compatibility": "unknown",
+   "sound_score": 0.864,
+   "sound_score_source": "rhyme_graph.py(score_pair)",
+   "tool_label": "strong",
+   "semantic_fit": 0.75,
+   "syntactic_fit": 0.8,
+   "novelty": 0.65,
+   "transition_cost": 0.25,
+   "placement_options": [
+    "internal",
+    "end"
+   ],
+   "cautions": [],
+   "notes": null
+  },
+  {
+   "edge_id": "E052",
+   "from": "suteetasu",
+   "to": "haiyaku",
+   "relation": "slant",
+   "matched_morae": 4,
+   "vowel_similarity": 0.85,
+   "consonant_similarity": 0.416,
+   "mora_length_delta": 1,
+   "accent_compatibility": "unknown",
+   "sound_score": 0.862,
+   "sound_score_source": "rhyme_graph.py(score_pair)",
+   "tool_label": "strong",
+   "semantic_fit": 0.75,
+   "syntactic_fit": 0.8,
+   "novelty": 0.65,
+   "transition_cost": 0.25,
+   "placement_options": [
+    "internal",
+    "end",
+    "cross_bar"
+   ],
+   "cautions": [],
+   "notes": null
+  },
+  {
+   "edge_id": "E053",
+   "from": "suteetasu",
+   "to": "koryaku",
+   "relation": "slant",
+   "matched_morae": 3,
+   "vowel_similarity": 0.867,
+   "consonant_similarity": 0.444,
+   "mora_length_delta": 1,
+   "accent_compatibility": "unknown",
+   "sound_score": 0.855,
+   "sound_score_source": "rhyme_graph.py(score_pair)",
+   "tool_label": "strong",
+   "semantic_fit": 0.55,
+   "syntactic_fit": 0.8,
+   "novelty": 0.4,
+   "transition_cost": 0.25,
+   "placement_options": [
+    "internal",
+    "end"
+   ],
+   "cautions": [],
+   "notes": null
+  },
+  {
+   "edge_id": "E054",
+   "from": "shukatsu",
+   "to": "haiyaku",
+   "relation": "slant",
+   "matched_morae": 3,
+   "vowel_similarity": 0.867,
+   "consonant_similarity": 0.444,
+   "mora_length_delta": 0,
+   "accent_compatibility": "unknown",
+   "sound_score": 0.852,
+   "sound_score_source": "rhyme_graph.py(score_pair)",
+   "tool_label": "strong",
+   "semantic_fit": 0.75,
+   "syntactic_fit": 0.8,
+   "novelty": 0.65,
+   "transition_cost": 0.25,
+   "placement_options": [
+    "internal",
+    "end"
+   ],
+   "cautions": [],
+   "notes": null
+  },
+  {
+   "edge_id": "E055",
+   "from": "oyagacha",
+   "to": "risemara",
+   "relation": "slant",
+   "matched_morae": 3,
+   "vowel_similarity": 0.867,
+   "consonant_similarity": 0.111,
+   "mora_length_delta": 0,
+   "accent_compatibility": "unknown",
+   "sound_score": 0.836,
+   "sound_score_source": "rhyme_graph.py(score_pair)",
+   "tool_label": "strong",
+   "semantic_fit": 0.55,
+   "syntactic_fit": 0.8,
+   "novelty": 0.4,
+   "transition_cost": 0.25,
+   "placement_options": [
+    "internal",
+    "end"
+   ],
+   "cautions": [],
+   "notes": null
+  },
+  {
+   "edge_id": "E056",
+   "from": "rirekisho",
+   "to": "niito",
+   "relation": "slant",
+   "matched_morae": 3,
+   "vowel_similarity": 0.933,
+   "consonant_similarity": 0.222,
+   "mora_length_delta": 1,
+   "accent_compatibility": "unknown",
+   "sound_score": 0.832,
+   "sound_score_source": "rhyme_graph.py(score_pair)",
+   "tool_label": "strong",
+   "semantic_fit": 0.6,
+   "syntactic_fit": 0.8,
+   "novelty": 0.4,
+   "transition_cost": 0.25,
+   "placement_options": [
+    "internal",
+    "end"
+   ],
+   "cautions": [],
+   "notes": null
+  },
+  {
+   "edge_id": "E057",
+   "from": "shukai",
+   "to": "nererumae",
+   "relation": "phrase",
+   "matched_morae": 4,
+   "vowel_similarity": 0.8,
+   "consonant_similarity": 0.25,
+   "mora_length_delta": 1,
+   "accent_compatibility": "unknown",
+   "sound_score": 0.827,
+   "sound_score_source": "rhyme_graph.py(score_pair)",
+   "tool_label": "strong",
+   "semantic_fit": 0.75,
+   "syntactic_fit": 0.6,
+   "novelty": 0.65,
+   "transition_cost": 0.35,
+   "placement_options": [
+    "internal",
+    "end",
+    "cross_bar"
+   ],
+   "cautions": [],
+   "notes": null
+  },
+  {
+   "edge_id": "E058",
+   "from": "chiito",
+   "to": "rirekisho",
+   "relation": "slant",
+   "matched_morae": 3,
+   "vowel_similarity": 0.933,
+   "consonant_similarity": 0.0,
+   "mora_length_delta": 1,
+   "accent_compatibility": "unknown",
+   "sound_score": 0.827,
+   "sound_score_source": "rhyme_graph.py(score_pair)",
+   "tool_label": "strong",
+   "semantic_fit": 0.75,
+   "syntactic_fit": 0.8,
+   "novelty": 0.65,
+   "transition_cost": 0.25,
+   "placement_options": [
+    "internal",
+    "end"
+   ],
+   "cautions": [],
+   "notes": null
+  },
+  {
+   "edge_id": "E059",
+   "from": "tenjo",
+   "to": "tenshoku_calling",
+   "relation": "slant",
+   "matched_morae": 4,
+   "vowel_similarity": 0.95,
+   "consonant_similarity": 0.625,
+   "mora_length_delta": 0,
+   "accent_compatibility": "unknown",
+   "sound_score": 0.815,
+   "sound_score_source": "rhyme_graph.py(score_pair)",
+   "tool_label": "usable",
+   "semantic_fit": 0.75,
+   "syntactic_fit": 0.8,
+   "novelty": 0.65,
+   "transition_cost": 0.25,
+   "placement_options": [
+    "internal",
+    "end",
+    "cross_bar"
+   ],
+   "cautions": [],
+   "notes": null
+  },
+  {
+   "edge_id": "E060",
+   "from": "tenjo",
+   "to": "tenshoku_change",
+   "relation": "slant",
+   "matched_morae": 4,
+   "vowel_similarity": 0.95,
+   "consonant_similarity": 0.625,
+   "mora_length_delta": 0,
+   "accent_compatibility": "unknown",
+   "sound_score": 0.815,
+   "sound_score_source": "rhyme_graph.py(score_pair)",
+   "tool_label": "usable",
+   "semantic_fit": 0.75,
+   "syntactic_fit": 0.8,
+   "novelty": 0.65,
+   "transition_cost": 0.25,
+   "placement_options": [
+    "internal",
+    "end",
+    "cross_bar"
+   ],
+   "cautions": [],
+   "notes": null
+  },
+  {
+   "edge_id": "E061",
+   "from": "tenshoku_calling",
+   "to": "kyujinhyo",
+   "relation": "slant",
+   "matched_morae": 4,
+   "vowel_similarity": 0.9,
+   "consonant_similarity": 0.375,
+   "mora_length_delta": 2,
+   "accent_compatibility": "unknown",
+   "sound_score": 0.807,
+   "sound_score_source": "rhyme_graph.py(score_pair)",
+   "tool_label": "usable",
+   "semantic_fit": 0.6,
+   "syntactic_fit": 0.8,
+   "novelty": 0.4,
+   "transition_cost": 0.35,
+   "placement_options": [
+    "internal",
+    "end",
+    "cross_bar"
+   ],
+   "cautions": [
+    "モーラ数差が大きい(分割/延伸で吸収)"
+   ],
+   "notes": null
+  },
+  {
+   "edge_id": "E062",
+   "from": "kyujinhyo",
+   "to": "tenshoku_change",
+   "relation": "slant",
+   "matched_morae": 4,
+   "vowel_similarity": 0.9,
+   "consonant_similarity": 0.375,
+   "mora_length_delta": 2,
+   "accent_compatibility": "unknown",
+   "sound_score": 0.807,
+   "sound_score_source": "rhyme_graph.py(score_pair)",
+   "tool_label": "usable",
+   "semantic_fit": 0.6,
+   "syntactic_fit": 0.8,
+   "novelty": 0.4,
+   "transition_cost": 0.35,
+   "placement_options": [
+    "internal",
+    "end",
+    "cross_bar"
+   ],
+   "cautions": [
+    "モーラ数差が大きい(分割/延伸で吸収)"
+   ],
+   "notes": null
+  },
+  {
+   "edge_id": "E063",
+   "from": "tenshoku_calling",
+   "to": "mensetsu",
+   "relation": "slant",
+   "matched_morae": 4,
+   "vowel_similarity": 0.9,
+   "consonant_similarity": 0.208,
+   "mora_length_delta": 0,
+   "accent_compatibility": "unknown",
+   "sound_score": 0.806,
+   "sound_score_source": "rhyme_graph.py(score_pair)",
+   "tool_label": "usable",
+   "semantic_fit": 0.6,
+   "syntactic_fit": 0.8,
+   "novelty": 0.4,
+   "transition_cost": 0.25,
+   "placement_options": [
+    "internal",
+    "end",
+    "cross_bar"
+   ],
+   "cautions": [],
+   "notes": null
+  },
+  {
+   "edge_id": "E064",
+   "from": "mensetsu",
+   "to": "tenshoku_change",
+   "relation": "slant",
+   "matched_morae": 4,
+   "vowel_similarity": 0.9,
+   "consonant_similarity": 0.208,
+   "mora_length_delta": 0,
+   "accent_compatibility": "unknown",
+   "sound_score": 0.806,
+   "sound_score_source": "rhyme_graph.py(score_pair)",
+   "tool_label": "usable",
+   "semantic_fit": 0.6,
+   "syntactic_fit": 0.85,
+   "novelty": 0.4,
+   "transition_cost": 0.25,
+   "placement_options": [
+    "internal",
+    "end",
+    "cross_bar"
+   ],
+   "cautions": [],
+   "notes": null
+  },
+  {
+   "edge_id": "E065",
+   "from": "tenshoku_calling",
+   "to": "zangyo",
+   "relation": "slant",
+   "matched_morae": 4,
+   "vowel_similarity": 0.85,
+   "consonant_similarity": 0.458,
+   "mora_length_delta": 0,
+   "accent_compatibility": "unknown",
+   "sound_score": 0.804,
+   "sound_score_source": "rhyme_graph.py(score_pair)",
+   "tool_label": "usable",
+   "semantic_fit": 0.6,
+   "syntactic_fit": 0.8,
+   "novelty": 0.4,
+   "transition_cost": 0.25,
+   "placement_options": [
+    "internal",
+    "end",
+    "cross_bar"
+   ],
+   "cautions": [],
+   "notes": null
+  },
+  {
+   "edge_id": "E066",
+   "from": "zangyo",
+   "to": "tenshoku_change",
+   "relation": "slant",
+   "matched_morae": 4,
+   "vowel_similarity": 0.85,
+   "consonant_similarity": 0.458,
+   "mora_length_delta": 0,
+   "accent_compatibility": "unknown",
+   "sound_score": 0.804,
+   "sound_score_source": "rhyme_graph.py(score_pair)",
+   "tool_label": "usable",
+   "semantic_fit": 0.55,
+   "syntactic_fit": 0.85,
+   "novelty": 0.4,
+   "transition_cost": 0.25,
+   "placement_options": [
+    "internal",
+    "end",
+    "cross_bar"
+   ],
+   "cautions": [],
+   "notes": null
+  },
+  {
+   "edge_id": "E067",
+   "from": "jikyu",
+   "to": "musho",
+   "relation": "consonance",
+   "matched_morae": 3,
+   "vowel_similarity": 0.733,
+   "consonant_similarity": 0.778,
+   "mora_length_delta": 0,
+   "accent_compatibility": "unknown",
+   "sound_score": 0.801,
+   "sound_score_source": "rhyme_graph.py(score_pair)",
+   "tool_label": "usable",
+   "semantic_fit": 0.55,
+   "syntactic_fit": 0.8,
+   "novelty": 0.4,
+   "transition_cost": 0.25,
+   "placement_options": [
+    "internal",
+    "end"
+   ],
+   "cautions": [],
+   "notes": null
+  }
+ ],
+ "families": [
+  {
+   "family_id": "fam-01",
+   "label": "エンセー族 (e-N-e-R)",
+   "prototype_vowels": [
+    "e",
+    "N",
+    "e",
+    "e"
+   ],
+   "member_node_ids": [
+    "tensei",
+    "jinsei",
+    "settei"
+   ],
+   "notes": "転生/人生/設定。設定はQ置換のslantメンバー"
+  },
+  {
+   "family_id": "fam-02",
+   "label": "エン〜ウ族 (e-N-x-u)",
+   "prototype_vowels": [
+    "e",
+    "N",
+    "o",
+    "u"
+   ],
+   "member_node_ids": [
+    "tenshoku_calling",
+    "tenshoku_change",
+    "mensetsu",
+    "genjitsu",
+    "tenbiki",
+    "mobu"
+   ],
+   "notes": "転職・天職・面接・現実・天引き。モブは末尾o-uのみの弱メンバー"
+  },
+  {
+   "family_id": "fam-03",
+   "label": "アンヨー族 (a-N-o-R)",
+   "prototype_vowels": [
+    "a",
+    "N",
+    "o",
+    "o"
+   ],
+   "member_node_ids": [
+    "zangyo",
+    "tenjo",
+    "danjon",
+    "mao",
+    "kacho"
+   ],
+   "notes": "残業/天井/ダンジョン+短形の魔王/課長"
+  },
+  {
+   "family_id": "fam-04",
+   "label": "シュー族 (u-R頭)",
+   "prototype_vowels": [
+    "u",
+    "u",
+    "i",
+    "N",
+    "o",
+    "o"
+   ],
+   "member_node_ids": [
+    "shukai",
+    "shukatsu",
+    "shuden",
+    "kyujinhyo",
+    "shushinkoyo",
+    "shujinko"
+   ],
+   "notes": "周回/就活/終電/求人票/終身雇用/主人公"
+  },
+  {
+   "family_id": "fam-05",
+   "label": "キン族 (a-i-N)",
+   "prototype_vowels": [
+    "a",
+    "i",
+    "N"
+   ],
+   "member_node_ids": [
+    "kakin",
+    "mukakin",
+    "yachin",
+    "shogakukin"
+   ],
+   "notes": "課金/家賃が主力。無課金・奨学金は形態素共有注意"
+  },
+  {
+   "family_id": "fam-06",
+   "label": "ヤク族 (a-u+ヤク)",
+   "prototype_vowels": [
+    "a",
+    "i",
+    "a",
+    "u"
+   ],
+   "member_node_ids": [
+    "akuyaku",
+    "haiyaku",
+    "keiyaku",
+    "koryaku"
+   ],
+   "notes": "悪役/配役/契約/攻略。ヤク着地の連鎖用"
+  },
+  {
+   "family_id": "fam-07",
+   "label": "オー重音族 (o-R-o-R)",
+   "prototype_vowels": [
+    "o",
+    "o",
+    "o",
+    "o"
+   ],
+   "member_node_ids": [
+    "rodo",
+    "shomo",
+    "muso",
+    "musho"
+   ],
+   "notes": "労働/消耗+無双/無償(u-o-R)"
+  },
+  {
+   "family_id": "fam-08",
+   "label": "イー音族 (i-R-o / i-u-R)",
+   "prototype_vowels": [
+    "i",
+    "i",
+    "o"
+   ],
+   "member_node_ids": [
+    "chiito",
+    "niito",
+    "jikyu",
+    "chikyu"
+   ],
+   "notes": "チート/ニート、時給/地球の2対"
+  },
+  {
+   "family_id": "fam-09",
+   "label": "イセ族 (i-e-a)",
+   "prototype_vowels": [
+    "i",
+    "e",
+    "a",
+    "i"
+   ],
+   "member_node_ids": [
+    "isekai",
+    "risemara",
+    "misekake"
+   ],
+   "notes": "異世界/リセマラ/見せかけ"
+  },
+  {
+   "family_id": "fam-10",
+   "label": "クエ族 (u-e-u-o)",
+   "prototype_vowels": [
+    "u",
+    "e",
+    "u",
+    "o"
+   ],
+   "member_node_ids": [
+    "kuesuto",
+    "kuezuni",
+    "suteetasu"
+   ],
+   "notes": "クエスト/食えずに。ステータスは頭u-eのみのslantメンバー"
+  },
+  {
+   "family_id": "fam-11",
+   "label": "イウオ族 (i-u-o)",
+   "prototype_vowels": [
+    "i",
+    "u",
+    "o"
+   ],
+   "member_node_ids": [
+    "girudo",
+    "shifuto"
+   ],
+   "notes": "ギルド/シフト"
+  },
+  {
+   "family_id": "fam-12",
+   "label": "レベル句族 (e-e-u-a-e)",
+   "prototype_vowels": [
+    "e",
+    "e",
+    "u",
+    "a",
+    "e"
+   ],
+   "member_node_ids": [
+    "reberuage",
+    "nererumae"
+   ],
+   "notes": "レベル上げ/寝れる前。5モーラ句対"
+  },
+  {
+   "family_id": "fam-13",
+   "label": "オンビ族 (o-N-i)",
+   "prototype_vowels": [
+    "o",
+    "N",
+    "i",
+    "i"
+   ],
+   "member_node_ids": [
+    "konbini",
+    "zonbi"
+   ],
+   "notes": "コンビニ/ゾンビ(+に)"
+  },
+  {
+   "family_id": "fam-14",
+   "label": "インヤ族 (i-N-a)",
+   "prototype_vowels": [
+    "i",
+    "N",
+    "a"
+   ],
+   "member_node_ids": [
+    "shinya",
+    "inkya"
+   ],
+   "notes": "深夜/陰キャ"
+  },
+  {
+   "family_id": "fam-15",
+   "label": "ガチャ族 (a-a)",
+   "prototype_vowels": [
+    "a",
+    "a"
+   ],
+   "member_node_ids": [
+    "gacha",
+    "oyagacha"
+   ],
+   "notes": "同語幹。フック反復素材でありファミリー内は韻加点なし"
+  },
+  {
+   "family_id": "fam-16",
+   "label": "ラック族 (a-Q-u)",
+   "prototype_vowels": [
+    "o",
+    "a",
+    "Q",
+    "u"
+   ],
+   "member_node_ids": [
+    "torakku",
+    "burakku"
+   ],
+   "notes": "トラック/ブラック"
+  },
+  {
+   "family_id": "fam-17",
+   "label": "ダイオン族 (a-i-o-N)",
+   "prototype_vowels": [
+    "a",
+    "i",
+    "o",
+    "N"
+   ],
+   "member_node_ids": [
+    "daihon",
+    "daison"
+   ],
+   "notes": "台本/大損"
+  },
+  {
+   "family_id": "fam-18",
+   "label": "エーエン族 (e-R-e-N)",
+   "prototype_vowels": [
+    "e",
+    "e",
+    "e",
+    "N"
+   ],
+   "member_node_ids": [
+    "keikenchi",
+    "teihen"
+   ],
+   "notes": "経験値/底辺。頭アンカー分割韻"
+  },
+  {
+   "family_id": "fam-19",
+   "label": "イセキ族 (i-e-i)",
+   "prototype_vowels": [
+    "i",
+    "e",
+    "i"
+   ],
+   "member_node_ids": [
+    "rirekisho",
+    "hiseiki"
+   ],
+   "notes": "履歴書/非正規。弱対応"
+  }
+ ],
+ "metrics": {
+  "node_count": 60,
+  "edge_count": 67,
+  "family_count": 19,
+  "vowel_family_heads": [
+   "a",
+   "e",
+   "i",
+   "o",
+   "u"
+  ],
+  "cross_side_edge_ratio": 0.64,
+  "cli_scored_pairs": 30,
+  "proper_noun_nodes": 0
+ },
+ "usage_guidance": [
+  "同語幹・同形態素ペア(cautions記載)はフック反復・対句素材に限定し、韻の実績としてカウントしない",
+  "matched_morae<=2のエッジは内部テクスチャ専用。行末アンカーには4モーラ以上のエッジを使う",
+  "semantic_fit/noveltyはモデル注釈。ライン文脈確定後にflow_map側で再評価すること",
+  "経験値/底辺は頭アンカー分割韻。suffix採点ツールの数値(0.272)をそのまま使わない"
+ ],
+ "warnings": [
+  "g2p辞書バックエンド(pyopenjtalk/UniDic)が本環境に無く、漢字表記の読みは手動付与。g2p.pyのモーラ解析のみ通過(unverified)のためreading_confidence=medium",
+  "エイ→エー等の長音演奏読みを採用(転生・人生・設定・経験値・底辺・非正規・契約)。辞書形は各ノードnotesに記載",
+  "アクセント・無声化・拍位置は全ノードunknown(音源なし)。placement_optionsは提案であり確定ではない",
+  "semantic_fit / syntactic_fit / novelty / transition_cost はモデルによるヒューリスティック+手動キュレーション値",
+  "sound_scoreはrhyme_score.py(suffixアンカー)による。頭アンカー分割韻は過小評価される(該当エッジのcautions参照)"
+ ]
+}

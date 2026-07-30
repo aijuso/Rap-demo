@@ -1,0 +1,2307 @@
+{
+ "tensei": {
+  "surface": "転生",
+  "reading": "テンセー",
+  "moras": [
+   "テ",
+   "ン",
+   "セ",
+   "ー"
+  ],
+  "onsets": [
+   "t",
+   null,
+   "s",
+   null
+  ],
+  "nuclei": [
+   "e",
+   null,
+   "e",
+   "e"
+  ],
+  "specials": [
+   null,
+   "N",
+   null,
+   "R"
+  ],
+  "signature": [
+   "e",
+   "N",
+   "e",
+   "e"
+  ],
+  "mora_count": 4,
+  "g2p_warnings": [
+   "pyopenjtalk unavailable or failed: ModuleNotFoundError",
+   "fugashi/UniDic unavailable or failed: ModuleNotFoundError"
+  ]
+ },
+ "isekai": {
+  "surface": "異世界",
+  "reading": "イセカイ",
+  "moras": [
+   "イ",
+   "セ",
+   "カ",
+   "イ"
+  ],
+  "onsets": [
+   null,
+   "s",
+   "k",
+   null
+  ],
+  "nuclei": [
+   "i",
+   "e",
+   "a",
+   "i"
+  ],
+  "specials": [
+   null,
+   null,
+   null,
+   null
+  ],
+  "signature": [
+   "i",
+   "e",
+   "a",
+   "i"
+  ],
+  "mora_count": 4,
+  "g2p_warnings": [
+   "pyopenjtalk unavailable or failed: ModuleNotFoundError",
+   "fugashi/UniDic unavailable or failed: ModuleNotFoundError"
+  ]
+ },
+ "gacha": {
+  "surface": "ガチャ",
+  "reading": "ガチャ",
+  "moras": [
+   "ガ",
+   "チャ"
+  ],
+  "onsets": [
+   "g",
+   "chy"
+  ],
+  "nuclei": [
+   "a",
+   "a"
+  ],
+  "specials": [
+   null,
+   null
+  ],
+  "signature": [
+   "a",
+   "a"
+  ],
+  "mora_count": 2,
+  "g2p_warnings": [
+   "pyopenjtalk unavailable or failed: ModuleNotFoundError",
+   "fugashi/UniDic unavailable or failed: ModuleNotFoundError"
+  ]
+ },
+ "oyagacha": {
+  "surface": "親ガチャ",
+  "reading": "オヤガチャ",
+  "moras": [
+   "オ",
+   "ヤ",
+   "ガ",
+   "チャ"
+  ],
+  "onsets": [
+   null,
+   "y",
+   "g",
+   "chy"
+  ],
+  "nuclei": [
+   "o",
+   "a",
+   "a",
+   "a"
+  ],
+  "specials": [
+   null,
+   null,
+   null,
+   null
+  ],
+  "signature": [
+   "o",
+   "a",
+   "a",
+   "a"
+  ],
+  "mora_count": 4,
+  "g2p_warnings": [
+   "pyopenjtalk unavailable or failed: ModuleNotFoundError",
+   "fugashi/UniDic unavailable or failed: ModuleNotFoundError"
+  ]
+ },
+ "tenjo": {
+  "surface": "天井",
+  "reading": "テンジョー",
+  "moras": [
+   "テ",
+   "ン",
+   "ジョ",
+   "ー"
+  ],
+  "onsets": [
+   "t",
+   null,
+   "jy",
+   null
+  ],
+  "nuclei": [
+   "e",
+   null,
+   "o",
+   "o"
+  ],
+  "specials": [
+   null,
+   "N",
+   null,
+   "R"
+  ],
+  "signature": [
+   "e",
+   "N",
+   "o",
+   "o"
+  ],
+  "mora_count": 4,
+  "g2p_warnings": [
+   "pyopenjtalk unavailable or failed: ModuleNotFoundError",
+   "fugashi/UniDic unavailable or failed: ModuleNotFoundError"
+  ]
+ },
+ "mobu": {
+  "surface": "モブ",
+  "reading": "モブ",
+  "moras": [
+   "モ",
+   "ブ"
+  ],
+  "onsets": [
+   "m",
+   "b"
+  ],
+  "nuclei": [
+   "o",
+   "u"
+  ],
+  "specials": [
+   null,
+   null
+  ],
+  "signature": [
+   "o",
+   "u"
+  ],
+  "mora_count": 2,
+  "g2p_warnings": [
+   "pyopenjtalk unavailable or failed: ModuleNotFoundError",
+   "fugashi/UniDic unavailable or failed: ModuleNotFoundError"
+  ]
+ },
+ "shukai": {
+  "surface": "周回",
+  "reading": "シューカイ",
+  "moras": [
+   "シュ",
+   "ー",
+   "カ",
+   "イ"
+  ],
+  "onsets": [
+   "shy",
+   null,
+   "k",
+   null
+  ],
+  "nuclei": [
+   "u",
+   "u",
+   "a",
+   "i"
+  ],
+  "specials": [
+   null,
+   "R",
+   null,
+   null
+  ],
+  "signature": [
+   "u",
+   "u",
+   "a",
+   "i"
+  ],
+  "mora_count": 4,
+  "g2p_warnings": [
+   "pyopenjtalk unavailable or failed: ModuleNotFoundError",
+   "fugashi/UniDic unavailable or failed: ModuleNotFoundError"
+  ]
+ },
+ "chiito": {
+  "surface": "チート",
+  "reading": "チート",
+  "moras": [
+   "チ",
+   "ー",
+   "ト"
+  ],
+  "onsets": [
+   "ch",
+   null,
+   "t"
+  ],
+  "nuclei": [
+   "i",
+   "i",
+   "o"
+  ],
+  "specials": [
+   null,
+   "R",
+   null
+  ],
+  "signature": [
+   "i",
+   "i",
+   "o"
+  ],
+  "mora_count": 3,
+  "g2p_warnings": [
+   "pyopenjtalk unavailable or failed: ModuleNotFoundError",
+   "fugashi/UniDic unavailable or failed: ModuleNotFoundError"
+  ]
+ },
+ "reberuage": {
+  "surface": "レベル上げ",
+  "reading": "レベルアゲ",
+  "moras": [
+   "レ",
+   "ベ",
+   "ル",
+   "ア",
+   "ゲ"
+  ],
+  "onsets": [
+   "r",
+   "b",
+   "r",
+   null,
+   "g"
+  ],
+  "nuclei": [
+   "e",
+   "e",
+   "u",
+   "a",
+   "e"
+  ],
+  "specials": [
+   null,
+   null,
+   null,
+   null,
+   null
+  ],
+  "signature": [
+   "e",
+   "e",
+   "u",
+   "a",
+   "e"
+  ],
+  "mora_count": 5,
+  "g2p_warnings": [
+   "pyopenjtalk unavailable or failed: ModuleNotFoundError",
+   "fugashi/UniDic unavailable or failed: ModuleNotFoundError"
+  ]
+ },
+ "suteetasu": {
+  "surface": "ステータス",
+  "reading": "ステータス",
+  "moras": [
+   "ス",
+   "テ",
+   "ー",
+   "タ",
+   "ス"
+  ],
+  "onsets": [
+   "s",
+   "t",
+   null,
+   "t",
+   "s"
+  ],
+  "nuclei": [
+   "u",
+   "e",
+   "e",
+   "a",
+   "u"
+  ],
+  "specials": [
+   null,
+   null,
+   "R",
+   null,
+   null
+  ],
+  "signature": [
+   "u",
+   "e",
+   "e",
+   "a",
+   "u"
+  ],
+  "mora_count": 5,
+  "g2p_warnings": [
+   "pyopenjtalk unavailable or failed: ModuleNotFoundError",
+   "fugashi/UniDic unavailable or failed: ModuleNotFoundError"
+  ]
+ },
+ "kuesuto": {
+  "surface": "クエスト",
+  "reading": "クエスト",
+  "moras": [
+   "ク",
+   "エ",
+   "ス",
+   "ト"
+  ],
+  "onsets": [
+   "k",
+   null,
+   "s",
+   "t"
+  ],
+  "nuclei": [
+   "u",
+   "e",
+   "u",
+   "o"
+  ],
+  "specials": [
+   null,
+   null,
+   null,
+   null
+  ],
+  "signature": [
+   "u",
+   "e",
+   "u",
+   "o"
+  ],
+  "mora_count": 4,
+  "g2p_warnings": [
+   "pyopenjtalk unavailable or failed: ModuleNotFoundError",
+   "fugashi/UniDic unavailable or failed: ModuleNotFoundError"
+  ]
+ },
+ "girudo": {
+  "surface": "ギルド",
+  "reading": "ギルド",
+  "moras": [
+   "ギ",
+   "ル",
+   "ド"
+  ],
+  "onsets": [
+   "g",
+   "r",
+   "d"
+  ],
+  "nuclei": [
+   "i",
+   "u",
+   "o"
+  ],
+  "specials": [
+   null,
+   null,
+   null
+  ],
+  "signature": [
+   "i",
+   "u",
+   "o"
+  ],
+  "mora_count": 3,
+  "g2p_warnings": [
+   "pyopenjtalk unavailable or failed: ModuleNotFoundError",
+   "fugashi/UniDic unavailable or failed: ModuleNotFoundError"
+  ]
+ },
+ "shujinko": {
+  "surface": "主人公",
+  "reading": "シュジンコー",
+  "moras": [
+   "シュ",
+   "ジ",
+   "ン",
+   "コ",
+   "ー"
+  ],
+  "onsets": [
+   "shy",
+   "j",
+   null,
+   "k",
+   null
+  ],
+  "nuclei": [
+   "u",
+   "i",
+   null,
+   "o",
+   "o"
+  ],
+  "specials": [
+   null,
+   null,
+   "N",
+   null,
+   "R"
+  ],
+  "signature": [
+   "u",
+   "i",
+   "N",
+   "o",
+   "o"
+  ],
+  "mora_count": 5,
+  "g2p_warnings": [
+   "pyopenjtalk unavailable or failed: ModuleNotFoundError",
+   "fugashi/UniDic unavailable or failed: ModuleNotFoundError"
+  ]
+ },
+ "akuyaku": {
+  "surface": "悪役",
+  "reading": "アクヤク",
+  "moras": [
+   "ア",
+   "ク",
+   "ヤ",
+   "ク"
+  ],
+  "onsets": [
+   null,
+   "k",
+   "y",
+   "k"
+  ],
+  "nuclei": [
+   "a",
+   "u",
+   "a",
+   "u"
+  ],
+  "specials": [
+   null,
+   null,
+   null,
+   null
+  ],
+  "signature": [
+   "a",
+   "u",
+   "a",
+   "u"
+  ],
+  "mora_count": 4,
+  "g2p_warnings": [
+   "pyopenjtalk unavailable or failed: ModuleNotFoundError",
+   "fugashi/UniDic unavailable or failed: ModuleNotFoundError"
+  ]
+ },
+ "koryaku": {
+  "surface": "攻略",
+  "reading": "コーリャク",
+  "moras": [
+   "コ",
+   "ー",
+   "リャ",
+   "ク"
+  ],
+  "onsets": [
+   "k",
+   null,
+   "ry",
+   "k"
+  ],
+  "nuclei": [
+   "o",
+   "o",
+   "a",
+   "u"
+  ],
+  "specials": [
+   null,
+   "R",
+   null,
+   null
+  ],
+  "signature": [
+   "o",
+   "o",
+   "a",
+   "u"
+  ],
+  "mora_count": 4,
+  "g2p_warnings": [
+   "pyopenjtalk unavailable or failed: ModuleNotFoundError",
+   "fugashi/UniDic unavailable or failed: ModuleNotFoundError"
+  ]
+ },
+ "mao": {
+  "surface": "魔王",
+  "reading": "マオー",
+  "moras": [
+   "マ",
+   "オ",
+   "ー"
+  ],
+  "onsets": [
+   "m",
+   null,
+   null
+  ],
+  "nuclei": [
+   "a",
+   "o",
+   "o"
+  ],
+  "specials": [
+   null,
+   null,
+   "R"
+  ],
+  "signature": [
+   "a",
+   "o",
+   "o"
+  ],
+  "mora_count": 3,
+  "g2p_warnings": [
+   "pyopenjtalk unavailable or failed: ModuleNotFoundError",
+   "fugashi/UniDic unavailable or failed: ModuleNotFoundError"
+  ]
+ },
+ "muso": {
+  "surface": "無双",
+  "reading": "ムソー",
+  "moras": [
+   "ム",
+   "ソ",
+   "ー"
+  ],
+  "onsets": [
+   "m",
+   "s",
+   null
+  ],
+  "nuclei": [
+   "u",
+   "o",
+   "o"
+  ],
+  "specials": [
+   null,
+   null,
+   "R"
+  ],
+  "signature": [
+   "u",
+   "o",
+   "o"
+  ],
+  "mora_count": 3,
+  "g2p_warnings": [
+   "pyopenjtalk unavailable or failed: ModuleNotFoundError",
+   "fugashi/UniDic unavailable or failed: ModuleNotFoundError"
+  ]
+ },
+ "risemara": {
+  "surface": "リセマラ",
+  "reading": "リセマラ",
+  "moras": [
+   "リ",
+   "セ",
+   "マ",
+   "ラ"
+  ],
+  "onsets": [
+   "r",
+   "s",
+   "m",
+   "r"
+  ],
+  "nuclei": [
+   "i",
+   "e",
+   "a",
+   "a"
+  ],
+  "specials": [
+   null,
+   null,
+   null,
+   null
+  ],
+  "signature": [
+   "i",
+   "e",
+   "a",
+   "a"
+  ],
+  "mora_count": 4,
+  "g2p_warnings": [
+   "pyopenjtalk unavailable or failed: ModuleNotFoundError",
+   "fugashi/UniDic unavailable or failed: ModuleNotFoundError"
+  ]
+ },
+ "kakin": {
+  "surface": "課金",
+  "reading": "カキン",
+  "moras": [
+   "カ",
+   "キ",
+   "ン"
+  ],
+  "onsets": [
+   "k",
+   "k",
+   null
+  ],
+  "nuclei": [
+   "a",
+   "i",
+   null
+  ],
+  "specials": [
+   null,
+   null,
+   "N"
+  ],
+  "signature": [
+   "a",
+   "i",
+   "N"
+  ],
+  "mora_count": 3,
+  "g2p_warnings": [
+   "pyopenjtalk unavailable or failed: ModuleNotFoundError",
+   "fugashi/UniDic unavailable or failed: ModuleNotFoundError"
+  ]
+ },
+ "mukakin": {
+  "surface": "無課金",
+  "reading": "ムカキン",
+  "moras": [
+   "ム",
+   "カ",
+   "キ",
+   "ン"
+  ],
+  "onsets": [
+   "m",
+   "k",
+   "k",
+   null
+  ],
+  "nuclei": [
+   "u",
+   "a",
+   "i",
+   null
+  ],
+  "specials": [
+   null,
+   null,
+   null,
+   "N"
+  ],
+  "signature": [
+   "u",
+   "a",
+   "i",
+   "N"
+  ],
+  "mora_count": 4,
+  "g2p_warnings": [
+   "pyopenjtalk unavailable or failed: ModuleNotFoundError",
+   "fugashi/UniDic unavailable or failed: ModuleNotFoundError"
+  ]
+ },
+ "torakku": {
+  "surface": "トラック",
+  "reading": "トラック",
+  "moras": [
+   "ト",
+   "ラ",
+   "ッ",
+   "ク"
+  ],
+  "onsets": [
+   "t",
+   "r",
+   null,
+   "k"
+  ],
+  "nuclei": [
+   "o",
+   "a",
+   null,
+   "u"
+  ],
+  "specials": [
+   null,
+   null,
+   "Q",
+   null
+  ],
+  "signature": [
+   "o",
+   "a",
+   "Q",
+   "u"
+  ],
+  "mora_count": 4,
+  "g2p_warnings": [
+   "pyopenjtalk unavailable or failed: ModuleNotFoundError",
+   "fugashi/UniDic unavailable or failed: ModuleNotFoundError"
+  ]
+ },
+ "danjon": {
+  "surface": "ダンジョン",
+  "reading": "ダンジョン",
+  "moras": [
+   "ダ",
+   "ン",
+   "ジョ",
+   "ン"
+  ],
+  "onsets": [
+   "d",
+   null,
+   "jy",
+   null
+  ],
+  "nuclei": [
+   "a",
+   null,
+   "o",
+   null
+  ],
+  "specials": [
+   null,
+   "N",
+   null,
+   "N"
+  ],
+  "signature": [
+   "a",
+   "N",
+   "o",
+   "N"
+  ],
+  "mora_count": 4,
+  "g2p_warnings": [
+   "pyopenjtalk unavailable or failed: ModuleNotFoundError",
+   "fugashi/UniDic unavailable or failed: ModuleNotFoundError"
+  ]
+ },
+ "settei": {
+  "surface": "設定",
+  "reading": "セッテー",
+  "moras": [
+   "セ",
+   "ッ",
+   "テ",
+   "ー"
+  ],
+  "onsets": [
+   "s",
+   null,
+   "t",
+   null
+  ],
+  "nuclei": [
+   "e",
+   null,
+   "e",
+   "e"
+  ],
+  "specials": [
+   null,
+   "Q",
+   null,
+   "R"
+  ],
+  "signature": [
+   "e",
+   "Q",
+   "e",
+   "e"
+  ],
+  "mora_count": 4,
+  "g2p_warnings": [
+   "pyopenjtalk unavailable or failed: ModuleNotFoundError",
+   "fugashi/UniDic unavailable or failed: ModuleNotFoundError"
+  ]
+ },
+ "keikenchi": {
+  "surface": "経験値",
+  "reading": "ケーケンチ",
+  "moras": [
+   "ケ",
+   "ー",
+   "ケ",
+   "ン",
+   "チ"
+  ],
+  "onsets": [
+   "k",
+   null,
+   "k",
+   null,
+   "ch"
+  ],
+  "nuclei": [
+   "e",
+   "e",
+   "e",
+   null,
+   "i"
+  ],
+  "specials": [
+   null,
+   "R",
+   null,
+   "N",
+   null
+  ],
+  "signature": [
+   "e",
+   "e",
+   "e",
+   "N",
+   "i"
+  ],
+  "mora_count": 5,
+  "g2p_warnings": [
+   "pyopenjtalk unavailable or failed: ModuleNotFoundError",
+   "fugashi/UniDic unavailable or failed: ModuleNotFoundError"
+  ]
+ },
+ "zonbi": {
+  "surface": "ゾンビ",
+  "reading": "ゾンビ",
+  "moras": [
+   "ゾ",
+   "ン",
+   "ビ"
+  ],
+  "onsets": [
+   "z",
+   null,
+   "b"
+  ],
+  "nuclei": [
+   "o",
+   null,
+   "i"
+  ],
+  "specials": [
+   null,
+   "N",
+   null
+  ],
+  "signature": [
+   "o",
+   "N",
+   "i"
+  ],
+  "mora_count": 3,
+  "g2p_warnings": [
+   "pyopenjtalk unavailable or failed: ModuleNotFoundError",
+   "fugashi/UniDic unavailable or failed: ModuleNotFoundError"
+  ]
+ },
+ "tenshoku_calling": {
+  "surface": "天職",
+  "reading": "テンショク",
+  "moras": [
+   "テ",
+   "ン",
+   "ショ",
+   "ク"
+  ],
+  "onsets": [
+   "t",
+   null,
+   "shy",
+   "k"
+  ],
+  "nuclei": [
+   "e",
+   null,
+   "o",
+   "u"
+  ],
+  "specials": [
+   null,
+   "N",
+   null,
+   null
+  ],
+  "signature": [
+   "e",
+   "N",
+   "o",
+   "u"
+  ],
+  "mora_count": 4,
+  "g2p_warnings": [
+   "pyopenjtalk unavailable or failed: ModuleNotFoundError",
+   "fugashi/UniDic unavailable or failed: ModuleNotFoundError"
+  ]
+ },
+ "zangyo": {
+  "surface": "残業",
+  "reading": "ザンギョー",
+  "moras": [
+   "ザ",
+   "ン",
+   "ギョ",
+   "ー"
+  ],
+  "onsets": [
+   "z",
+   null,
+   "gy",
+   null
+  ],
+  "nuclei": [
+   "a",
+   null,
+   "o",
+   "o"
+  ],
+  "specials": [
+   null,
+   "N",
+   null,
+   "R"
+  ],
+  "signature": [
+   "a",
+   "N",
+   "o",
+   "o"
+  ],
+  "mora_count": 4,
+  "g2p_warnings": [
+   "pyopenjtalk unavailable or failed: ModuleNotFoundError",
+   "fugashi/UniDic unavailable or failed: ModuleNotFoundError"
+  ]
+ },
+ "shuden": {
+  "surface": "終電",
+  "reading": "シューデン",
+  "moras": [
+   "シュ",
+   "ー",
+   "デ",
+   "ン"
+  ],
+  "onsets": [
+   "shy",
+   null,
+   "d",
+   null
+  ],
+  "nuclei": [
+   "u",
+   "u",
+   "e",
+   null
+  ],
+  "specials": [
+   null,
+   "R",
+   null,
+   "N"
+  ],
+  "signature": [
+   "u",
+   "u",
+   "e",
+   "N"
+  ],
+  "mora_count": 4,
+  "g2p_warnings": [
+   "pyopenjtalk unavailable or failed: ModuleNotFoundError",
+   "fugashi/UniDic unavailable or failed: ModuleNotFoundError"
+  ]
+ },
+ "shukatsu": {
+  "surface": "就活",
+  "reading": "シューカツ",
+  "moras": [
+   "シュ",
+   "ー",
+   "カ",
+   "ツ"
+  ],
+  "onsets": [
+   "shy",
+   null,
+   "k",
+   "ts"
+  ],
+  "nuclei": [
+   "u",
+   "u",
+   "a",
+   "u"
+  ],
+  "specials": [
+   null,
+   "R",
+   null,
+   null
+  ],
+  "signature": [
+   "u",
+   "u",
+   "a",
+   "u"
+  ],
+  "mora_count": 4,
+  "g2p_warnings": [
+   "pyopenjtalk unavailable or failed: ModuleNotFoundError",
+   "fugashi/UniDic unavailable or failed: ModuleNotFoundError"
+  ]
+ },
+ "kyujinhyo": {
+  "surface": "求人票",
+  "reading": "キュージンヒョー",
+  "moras": [
+   "キュ",
+   "ー",
+   "ジ",
+   "ン",
+   "ヒョ",
+   "ー"
+  ],
+  "onsets": [
+   "ky",
+   null,
+   "j",
+   null,
+   "hy",
+   null
+  ],
+  "nuclei": [
+   "u",
+   "u",
+   "i",
+   null,
+   "o",
+   "o"
+  ],
+  "specials": [
+   null,
+   "R",
+   null,
+   "N",
+   null,
+   "R"
+  ],
+  "signature": [
+   "u",
+   "u",
+   "i",
+   "N",
+   "o",
+   "o"
+  ],
+  "mora_count": 6,
+  "g2p_warnings": [
+   "pyopenjtalk unavailable or failed: ModuleNotFoundError",
+   "fugashi/UniDic unavailable or failed: ModuleNotFoundError"
+  ]
+ },
+ "shushinkoyo": {
+  "surface": "終身雇用",
+  "reading": "シューシンコヨー",
+  "moras": [
+   "シュ",
+   "ー",
+   "シ",
+   "ン",
+   "コ",
+   "ヨ",
+   "ー"
+  ],
+  "onsets": [
+   "shy",
+   null,
+   "sh",
+   null,
+   "k",
+   "y",
+   null
+  ],
+  "nuclei": [
+   "u",
+   "u",
+   "i",
+   null,
+   "o",
+   "o",
+   "o"
+  ],
+  "specials": [
+   null,
+   "R",
+   null,
+   "N",
+   null,
+   null,
+   "R"
+  ],
+  "signature": [
+   "u",
+   "u",
+   "i",
+   "N",
+   "o",
+   "o",
+   "o"
+  ],
+  "mora_count": 7,
+  "g2p_warnings": [
+   "pyopenjtalk unavailable or failed: ModuleNotFoundError",
+   "fugashi/UniDic unavailable or failed: ModuleNotFoundError"
+  ]
+ },
+ "mensetsu": {
+  "surface": "面接",
+  "reading": "メンセツ",
+  "moras": [
+   "メ",
+   "ン",
+   "セ",
+   "ツ"
+  ],
+  "onsets": [
+   "m",
+   null,
+   "s",
+   "ts"
+  ],
+  "nuclei": [
+   "e",
+   null,
+   "e",
+   "u"
+  ],
+  "specials": [
+   null,
+   "N",
+   null,
+   null
+  ],
+  "signature": [
+   "e",
+   "N",
+   "e",
+   "u"
+  ],
+  "mora_count": 4,
+  "g2p_warnings": [
+   "pyopenjtalk unavailable or failed: ModuleNotFoundError",
+   "fugashi/UniDic unavailable or failed: ModuleNotFoundError"
+  ]
+ },
+ "tenshoku_change": {
+  "surface": "転職",
+  "reading": "テンショク",
+  "moras": [
+   "テ",
+   "ン",
+   "ショ",
+   "ク"
+  ],
+  "onsets": [
+   "t",
+   null,
+   "shy",
+   "k"
+  ],
+  "nuclei": [
+   "e",
+   null,
+   "o",
+   "u"
+  ],
+  "specials": [
+   null,
+   "N",
+   null,
+   null
+  ],
+  "signature": [
+   "e",
+   "N",
+   "o",
+   "u"
+  ],
+  "mora_count": 4,
+  "g2p_warnings": [
+   "pyopenjtalk unavailable or failed: ModuleNotFoundError",
+   "fugashi/UniDic unavailable or failed: ModuleNotFoundError"
+  ]
+ },
+ "rirekisho": {
+  "surface": "履歴書",
+  "reading": "リレキショ",
+  "moras": [
+   "リ",
+   "レ",
+   "キ",
+   "ショ"
+  ],
+  "onsets": [
+   "r",
+   "r",
+   "k",
+   "shy"
+  ],
+  "nuclei": [
+   "i",
+   "e",
+   "i",
+   "o"
+  ],
+  "specials": [
+   null,
+   null,
+   null,
+   null
+  ],
+  "signature": [
+   "i",
+   "e",
+   "i",
+   "o"
+  ],
+  "mora_count": 4,
+  "g2p_warnings": [
+   "pyopenjtalk unavailable or failed: ModuleNotFoundError",
+   "fugashi/UniDic unavailable or failed: ModuleNotFoundError"
+  ]
+ },
+ "hiseiki": {
+  "surface": "非正規",
+  "reading": "ヒセーキ",
+  "moras": [
+   "ヒ",
+   "セ",
+   "ー",
+   "キ"
+  ],
+  "onsets": [
+   "h",
+   "s",
+   null,
+   "k"
+  ],
+  "nuclei": [
+   "i",
+   "e",
+   "e",
+   "i"
+  ],
+  "specials": [
+   null,
+   null,
+   "R",
+   null
+  ],
+  "signature": [
+   "i",
+   "e",
+   "e",
+   "i"
+  ],
+  "mora_count": 4,
+  "g2p_warnings": [
+   "pyopenjtalk unavailable or failed: ModuleNotFoundError",
+   "fugashi/UniDic unavailable or failed: ModuleNotFoundError"
+  ]
+ },
+ "shogakukin": {
+  "surface": "奨学金",
+  "reading": "ショーガクキン",
+  "moras": [
+   "ショ",
+   "ー",
+   "ガ",
+   "ク",
+   "キ",
+   "ン"
+  ],
+  "onsets": [
+   "shy",
+   null,
+   "g",
+   "k",
+   "k",
+   null
+  ],
+  "nuclei": [
+   "o",
+   "o",
+   "a",
+   "u",
+   "i",
+   null
+  ],
+  "specials": [
+   null,
+   "R",
+   null,
+   null,
+   null,
+   "N"
+  ],
+  "signature": [
+   "o",
+   "o",
+   "a",
+   "u",
+   "i",
+   "N"
+  ],
+  "mora_count": 6,
+  "g2p_warnings": [
+   "pyopenjtalk unavailable or failed: ModuleNotFoundError",
+   "fugashi/UniDic unavailable or failed: ModuleNotFoundError"
+  ]
+ },
+ "yachin": {
+  "surface": "家賃",
+  "reading": "ヤチン",
+  "moras": [
+   "ヤ",
+   "チ",
+   "ン"
+  ],
+  "onsets": [
+   "y",
+   "ch",
+   null
+  ],
+  "nuclei": [
+   "a",
+   "i",
+   null
+  ],
+  "specials": [
+   null,
+   null,
+   "N"
+  ],
+  "signature": [
+   "a",
+   "i",
+   "N"
+  ],
+  "mora_count": 3,
+  "g2p_warnings": [
+   "pyopenjtalk unavailable or failed: ModuleNotFoundError",
+   "fugashi/UniDic unavailable or failed: ModuleNotFoundError"
+  ]
+ },
+ "tenbiki": {
+  "surface": "天引き",
+  "reading": "テンビキ",
+  "moras": [
+   "テ",
+   "ン",
+   "ビ",
+   "キ"
+  ],
+  "onsets": [
+   "t",
+   null,
+   "b",
+   "k"
+  ],
+  "nuclei": [
+   "e",
+   null,
+   "i",
+   "i"
+  ],
+  "specials": [
+   null,
+   "N",
+   null,
+   null
+  ],
+  "signature": [
+   "e",
+   "N",
+   "i",
+   "i"
+  ],
+  "mora_count": 4,
+  "g2p_warnings": [
+   "pyopenjtalk unavailable or failed: ModuleNotFoundError",
+   "fugashi/UniDic unavailable or failed: ModuleNotFoundError"
+  ]
+ },
+ "jikyu": {
+  "surface": "時給",
+  "reading": "ジキュー",
+  "moras": [
+   "ジ",
+   "キュ",
+   "ー"
+  ],
+  "onsets": [
+   "j",
+   "ky",
+   null
+  ],
+  "nuclei": [
+   "i",
+   "u",
+   "u"
+  ],
+  "specials": [
+   null,
+   null,
+   "R"
+  ],
+  "signature": [
+   "i",
+   "u",
+   "u"
+  ],
+  "mora_count": 3,
+  "g2p_warnings": [
+   "pyopenjtalk unavailable or failed: ModuleNotFoundError",
+   "fugashi/UniDic unavailable or failed: ModuleNotFoundError"
+  ]
+ },
+ "chikyu": {
+  "surface": "地球",
+  "reading": "チキュー",
+  "moras": [
+   "チ",
+   "キュ",
+   "ー"
+  ],
+  "onsets": [
+   "ch",
+   "ky",
+   null
+  ],
+  "nuclei": [
+   "i",
+   "u",
+   "u"
+  ],
+  "specials": [
+   null,
+   null,
+   "R"
+  ],
+  "signature": [
+   "i",
+   "u",
+   "u"
+  ],
+  "mora_count": 3,
+  "g2p_warnings": [
+   "pyopenjtalk unavailable or failed: ModuleNotFoundError",
+   "fugashi/UniDic unavailable or failed: ModuleNotFoundError"
+  ]
+ },
+ "shinya": {
+  "surface": "深夜",
+  "reading": "シンヤ",
+  "moras": [
+   "シ",
+   "ン",
+   "ヤ"
+  ],
+  "onsets": [
+   "sh",
+   null,
+   "y"
+  ],
+  "nuclei": [
+   "i",
+   null,
+   "a"
+  ],
+  "specials": [
+   null,
+   "N",
+   null
+  ],
+  "signature": [
+   "i",
+   "N",
+   "a"
+  ],
+  "mora_count": 3,
+  "g2p_warnings": [
+   "pyopenjtalk unavailable or failed: ModuleNotFoundError",
+   "fugashi/UniDic unavailable or failed: ModuleNotFoundError"
+  ]
+ },
+ "inkya": {
+  "surface": "陰キャ",
+  "reading": "インキャ",
+  "moras": [
+   "イ",
+   "ン",
+   "キャ"
+  ],
+  "onsets": [
+   null,
+   null,
+   "ky"
+  ],
+  "nuclei": [
+   "i",
+   null,
+   "a"
+  ],
+  "specials": [
+   null,
+   "N",
+   null
+  ],
+  "signature": [
+   "i",
+   "N",
+   "a"
+  ],
+  "mora_count": 3,
+  "g2p_warnings": [
+   "pyopenjtalk unavailable or failed: ModuleNotFoundError",
+   "fugashi/UniDic unavailable or failed: ModuleNotFoundError"
+  ]
+ },
+ "konbini": {
+  "surface": "コンビニ",
+  "reading": "コンビニ",
+  "moras": [
+   "コ",
+   "ン",
+   "ビ",
+   "ニ"
+  ],
+  "onsets": [
+   "k",
+   null,
+   "b",
+   "n"
+  ],
+  "nuclei": [
+   "o",
+   null,
+   "i",
+   "i"
+  ],
+  "specials": [
+   null,
+   "N",
+   null,
+   null
+  ],
+  "signature": [
+   "o",
+   "N",
+   "i",
+   "i"
+  ],
+  "mora_count": 4,
+  "g2p_warnings": [
+   "pyopenjtalk unavailable or failed: ModuleNotFoundError",
+   "fugashi/UniDic unavailable or failed: ModuleNotFoundError"
+  ]
+ },
+ "shifuto": {
+  "surface": "シフト",
+  "reading": "シフト",
+  "moras": [
+   "シ",
+   "フ",
+   "ト"
+  ],
+  "onsets": [
+   "sh",
+   "f",
+   "t"
+  ],
+  "nuclei": [
+   "i",
+   "u",
+   "o"
+  ],
+  "specials": [
+   null,
+   null,
+   null
+  ],
+  "signature": [
+   "i",
+   "u",
+   "o"
+  ],
+  "mora_count": 3,
+  "g2p_warnings": [
+   "pyopenjtalk unavailable or failed: ModuleNotFoundError",
+   "fugashi/UniDic unavailable or failed: ModuleNotFoundError"
+  ]
+ },
+ "niito": {
+  "surface": "ニート",
+  "reading": "ニート",
+  "moras": [
+   "ニ",
+   "ー",
+   "ト"
+  ],
+  "onsets": [
+   "n",
+   null,
+   "t"
+  ],
+  "nuclei": [
+   "i",
+   "i",
+   "o"
+  ],
+  "specials": [
+   null,
+   "R",
+   null
+  ],
+  "signature": [
+   "i",
+   "i",
+   "o"
+  ],
+  "mora_count": 3,
+  "g2p_warnings": [
+   "pyopenjtalk unavailable or failed: ModuleNotFoundError",
+   "fugashi/UniDic unavailable or failed: ModuleNotFoundError"
+  ]
+ },
+ "kacho": {
+  "surface": "課長",
+  "reading": "カチョー",
+  "moras": [
+   "カ",
+   "チョ",
+   "ー"
+  ],
+  "onsets": [
+   "k",
+   "chy",
+   null
+  ],
+  "nuclei": [
+   "a",
+   "o",
+   "o"
+  ],
+  "specials": [
+   null,
+   null,
+   "R"
+  ],
+  "signature": [
+   "a",
+   "o",
+   "o"
+  ],
+  "mora_count": 3,
+  "g2p_warnings": [
+   "pyopenjtalk unavailable or failed: ModuleNotFoundError",
+   "fugashi/UniDic unavailable or failed: ModuleNotFoundError"
+  ]
+ },
+ "rodo": {
+  "surface": "労働",
+  "reading": "ロードー",
+  "moras": [
+   "ロ",
+   "ー",
+   "ド",
+   "ー"
+  ],
+  "onsets": [
+   "r",
+   null,
+   "d",
+   null
+  ],
+  "nuclei": [
+   "o",
+   "o",
+   "o",
+   "o"
+  ],
+  "specials": [
+   null,
+   "R",
+   null,
+   "R"
+  ],
+  "signature": [
+   "o",
+   "o",
+   "o",
+   "o"
+  ],
+  "mora_count": 4,
+  "g2p_warnings": [
+   "pyopenjtalk unavailable or failed: ModuleNotFoundError",
+   "fugashi/UniDic unavailable or failed: ModuleNotFoundError"
+  ]
+ },
+ "shomo": {
+  "surface": "消耗",
+  "reading": "ショーモー",
+  "moras": [
+   "ショ",
+   "ー",
+   "モ",
+   "ー"
+  ],
+  "onsets": [
+   "shy",
+   null,
+   "m",
+   null
+  ],
+  "nuclei": [
+   "o",
+   "o",
+   "o",
+   "o"
+  ],
+  "specials": [
+   null,
+   "R",
+   null,
+   "R"
+  ],
+  "signature": [
+   "o",
+   "o",
+   "o",
+   "o"
+  ],
+  "mora_count": 4,
+  "g2p_warnings": [
+   "pyopenjtalk unavailable or failed: ModuleNotFoundError",
+   "fugashi/UniDic unavailable or failed: ModuleNotFoundError"
+  ]
+ },
+ "musho": {
+  "surface": "無償",
+  "reading": "ムショー",
+  "moras": [
+   "ム",
+   "ショ",
+   "ー"
+  ],
+  "onsets": [
+   "m",
+   "shy",
+   null
+  ],
+  "nuclei": [
+   "u",
+   "o",
+   "o"
+  ],
+  "specials": [
+   null,
+   null,
+   "R"
+  ],
+  "signature": [
+   "u",
+   "o",
+   "o"
+  ],
+  "mora_count": 3,
+  "g2p_warnings": [
+   "pyopenjtalk unavailable or failed: ModuleNotFoundError",
+   "fugashi/UniDic unavailable or failed: ModuleNotFoundError"
+  ]
+ },
+ "teihen": {
+  "surface": "底辺",
+  "reading": "テーヘン",
+  "moras": [
+   "テ",
+   "ー",
+   "ヘ",
+   "ン"
+  ],
+  "onsets": [
+   "t",
+   null,
+   "h",
+   null
+  ],
+  "nuclei": [
+   "e",
+   "e",
+   "e",
+   null
+  ],
+  "specials": [
+   null,
+   "R",
+   null,
+   "N"
+  ],
+  "signature": [
+   "e",
+   "e",
+   "e",
+   "N"
+  ],
+  "mora_count": 4,
+  "g2p_warnings": [
+   "pyopenjtalk unavailable or failed: ModuleNotFoundError",
+   "fugashi/UniDic unavailable or failed: ModuleNotFoundError"
+  ]
+ },
+ "genjitsu": {
+  "surface": "現実",
+  "reading": "ゲンジツ",
+  "moras": [
+   "ゲ",
+   "ン",
+   "ジ",
+   "ツ"
+  ],
+  "onsets": [
+   "g",
+   null,
+   "j",
+   "ts"
+  ],
+  "nuclei": [
+   "e",
+   null,
+   "i",
+   "u"
+  ],
+  "specials": [
+   null,
+   "N",
+   null,
+   null
+  ],
+  "signature": [
+   "e",
+   "N",
+   "i",
+   "u"
+  ],
+  "mora_count": 4,
+  "g2p_warnings": [
+   "pyopenjtalk unavailable or failed: ModuleNotFoundError",
+   "fugashi/UniDic unavailable or failed: ModuleNotFoundError"
+  ]
+ },
+ "jinsei": {
+  "surface": "人生",
+  "reading": "ジンセー",
+  "moras": [
+   "ジ",
+   "ン",
+   "セ",
+   "ー"
+  ],
+  "onsets": [
+   "j",
+   null,
+   "s",
+   null
+  ],
+  "nuclei": [
+   "i",
+   null,
+   "e",
+   "e"
+  ],
+  "specials": [
+   null,
+   "N",
+   null,
+   "R"
+  ],
+  "signature": [
+   "i",
+   "N",
+   "e",
+   "e"
+  ],
+  "mora_count": 4,
+  "g2p_warnings": [
+   "pyopenjtalk unavailable or failed: ModuleNotFoundError",
+   "fugashi/UniDic unavailable or failed: ModuleNotFoundError"
+  ]
+ },
+ "burakku": {
+  "surface": "ブラック",
+  "reading": "ブラック",
+  "moras": [
+   "ブ",
+   "ラ",
+   "ッ",
+   "ク"
+  ],
+  "onsets": [
+   "b",
+   "r",
+   null,
+   "k"
+  ],
+  "nuclei": [
+   "u",
+   "a",
+   null,
+   "u"
+  ],
+  "specials": [
+   null,
+   null,
+   "Q",
+   null
+  ],
+  "signature": [
+   "u",
+   "a",
+   "Q",
+   "u"
+  ],
+  "mora_count": 4,
+  "g2p_warnings": [
+   "pyopenjtalk unavailable or failed: ModuleNotFoundError",
+   "fugashi/UniDic unavailable or failed: ModuleNotFoundError"
+  ]
+ },
+ "haiyaku": {
+  "surface": "配役",
+  "reading": "ハイヤク",
+  "moras": [
+   "ハ",
+   "イ",
+   "ヤ",
+   "ク"
+  ],
+  "onsets": [
+   "h",
+   null,
+   "y",
+   "k"
+  ],
+  "nuclei": [
+   "a",
+   "i",
+   "a",
+   "u"
+  ],
+  "specials": [
+   null,
+   null,
+   null,
+   null
+  ],
+  "signature": [
+   "a",
+   "i",
+   "a",
+   "u"
+  ],
+  "mora_count": 4,
+  "g2p_warnings": [
+   "pyopenjtalk unavailable or failed: ModuleNotFoundError",
+   "fugashi/UniDic unavailable or failed: ModuleNotFoundError"
+  ]
+ },
+ "keiyaku": {
+  "surface": "契約",
+  "reading": "ケーヤク",
+  "moras": [
+   "ケ",
+   "ー",
+   "ヤ",
+   "ク"
+  ],
+  "onsets": [
+   "k",
+   null,
+   "y",
+   "k"
+  ],
+  "nuclei": [
+   "e",
+   "e",
+   "a",
+   "u"
+  ],
+  "specials": [
+   null,
+   "R",
+   null,
+   null
+  ],
+  "signature": [
+   "e",
+   "e",
+   "a",
+   "u"
+  ],
+  "mora_count": 4,
+  "g2p_warnings": [
+   "pyopenjtalk unavailable or failed: ModuleNotFoundError",
+   "fugashi/UniDic unavailable or failed: ModuleNotFoundError"
+  ]
+ },
+ "daison": {
+  "surface": "大損",
+  "reading": "ダイソン",
+  "moras": [
+   "ダ",
+   "イ",
+   "ソ",
+   "ン"
+  ],
+  "onsets": [
+   "d",
+   null,
+   "s",
+   null
+  ],
+  "nuclei": [
+   "a",
+   "i",
+   "o",
+   null
+  ],
+  "specials": [
+   null,
+   null,
+   null,
+   "N"
+  ],
+  "signature": [
+   "a",
+   "i",
+   "o",
+   "N"
+  ],
+  "mora_count": 4,
+  "g2p_warnings": [
+   "pyopenjtalk unavailable or failed: ModuleNotFoundError",
+   "fugashi/UniDic unavailable or failed: ModuleNotFoundError"
+  ]
+ },
+ "nererumae": {
+  "surface": "寝れる前",
+  "reading": "ネレルマエ",
+  "moras": [
+   "ネ",
+   "レ",
+   "ル",
+   "マ",
+   "エ"
+  ],
+  "onsets": [
+   "n",
+   "r",
+   "r",
+   "m",
+   null
+  ],
+  "nuclei": [
+   "e",
+   "e",
+   "u",
+   "a",
+   "e"
+  ],
+  "specials": [
+   null,
+   null,
+   null,
+   null,
+   null
+  ],
+  "signature": [
+   "e",
+   "e",
+   "u",
+   "a",
+   "e"
+  ],
+  "mora_count": 5,
+  "g2p_warnings": [
+   "pyopenjtalk unavailable or failed: ModuleNotFoundError",
+   "fugashi/UniDic unavailable or failed: ModuleNotFoundError"
+  ]
+ },
+ "kuezuni": {
+  "surface": "食えずに",
+  "reading": "クエズニ",
+  "moras": [
+   "ク",
+   "エ",
+   "ズ",
+   "ニ"
+  ],
+  "onsets": [
+   "k",
+   null,
+   "z",
+   "n"
+  ],
+  "nuclei": [
+   "u",
+   "e",
+   "u",
+   "i"
+  ],
+  "specials": [
+   null,
+   null,
+   null,
+   null
+  ],
+  "signature": [
+   "u",
+   "e",
+   "u",
+   "i"
+  ],
+  "mora_count": 4,
+  "g2p_warnings": [
+   "pyopenjtalk unavailable or failed: ModuleNotFoundError",
+   "fugashi/UniDic unavailable or failed: ModuleNotFoundError"
+  ]
+ },
+ "misekake": {
+  "surface": "見せかけ",
+  "reading": "ミセカケ",
+  "moras": [
+   "ミ",
+   "セ",
+   "カ",
+   "ケ"
+  ],
+  "onsets": [
+   "m",
+   "s",
+   "k",
+   "k"
+  ],
+  "nuclei": [
+   "i",
+   "e",
+   "a",
+   "e"
+  ],
+  "specials": [
+   null,
+   null,
+   null,
+   null
+  ],
+  "signature": [
+   "i",
+   "e",
+   "a",
+   "e"
+  ],
+  "mora_count": 4,
+  "g2p_warnings": [
+   "pyopenjtalk unavailable or failed: ModuleNotFoundError",
+   "fugashi/UniDic unavailable or failed: ModuleNotFoundError"
+  ]
+ },
+ "daihon": {
+  "surface": "台本",
+  "reading": "ダイホン",
+  "moras": [
+   "ダ",
+   "イ",
+   "ホ",
+   "ン"
+  ],
+  "onsets": [
+   "d",
+   null,
+   "h",
+   null
+  ],
+  "nuclei": [
+   "a",
+   "i",
+   "o",
+   null
+  ],
+  "specials": [
+   null,
+   null,
+   null,
+   "N"
+  ],
+  "signature": [
+   "a",
+   "i",
+   "o",
+   "N"
+  ],
+  "mora_count": 4,
+  "g2p_warnings": [
+   "pyopenjtalk unavailable or failed: ModuleNotFoundError",
+   "fugashi/UniDic unavailable or failed: ModuleNotFoundError"
+  ]
+ }
+}
