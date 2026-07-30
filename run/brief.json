@@ -1,0 +1,59 @@
+{
+  "schema": "japanese-rap-brief/v2",
+  "run_id": "isekai-satire-001",
+  "mode": "create",
+  "deliverable": "full-song",
+  "language": "ja",
+  "theme": "異世界転生アニメのトロープをパロディ化して現代日本社会を風刺する(親ガチャ・労働環境・現実逃避・課金社会)",
+  "core_message": "転生に夢を見るな──この現実こそ最初からハードモード設定のクソシナリオで、モブ扱いされた俺たちが自分の台本を書き換える",
+  "facts_and_images": [
+    "異世界転生トロープ: トラック転生、ステータス画面、スキルツリー、レベル上げ、チート能力、主人公補正、モブキャラ、NPC、悪役令嬢、ギルド、クエスト、周回プレイ",
+    "現実側の対応物: 満員電車、タイムカード、求人票、奨学金の残高、スマホのガチャ課金、深夜のコンビニ、SNSのおすすめ欄、履歴書",
+    "対応構造の例: 親ガチャ=初期ステータス配布、就活=ギルド審査、残業=強制クエスト、リセマラ=転職、無課金=無資本"
+  ],
+  "fiction_or_lived": "fictional",
+  "speaker": {
+    "identity": "転生を夢見てアニメを見続けてきた匿名の若い労働者。自分をモブキャラだと自嘲しつつ、その配役自体を拒否し始めている",
+    "fictional": true,
+    "point_of_view": "first",
+    "knowledge_boundary": [
+      "アニメ・ゲームの一般的なトロープ知識",
+      "非正規労働と都市生活の実感",
+      "特定の実在企業の内部事情は知らない",
+      "実在アニメ作品の固有名詞は口にしない"
+    ]
+  },
+  "listener": "同じくモブ側に配役されたと感じている同世代の聴衆",
+  "setting": {"time": "現代・深夜", "place": "日本の都市。終電後の駅、コンビニ、ワンルーム、スマホ画面の中"},
+  "tone": ["dark", "satirical", "deadpan", "defiant"],
+  "register": "conversational",
+  "dialect": {"name": "none", "confidence": "high"},
+  "bpm": 140,
+  "meter": "4/4",
+  "bars": 56,
+  "structure": [
+    {"section": "hook1", "bars": 8},
+    {"section": "verse1", "bars": 16},
+    {"section": "hook2", "bars": 8},
+    {"section": "verse2", "bars": 16},
+    {"section": "hook3_outro", "bars": 8}
+  ],
+  "rhyme_density": "medium",
+  "rhyme_methods": ["assonance", "multisyllabic", "internal", "phrase", "slant"],
+  "humor_intensity": "medium",
+  "explicitness": "clean",
+  "required_words": [],
+  "forbidden_words": ["実在アニメ作品のタイトル", "実在キャラクター名", "実在アーティスト名", "実在企業の固有名"],
+  "reference_requests": [],
+  "reference_traits": [],
+  "generation_target": "none",
+  "copyright_input_class": "original_prompt",
+  "assumptions": [
+    "トラップ(BPM140表記・ハーフタイム体感70)のダークなビートを想定",
+    "パロディ対象は特定作品ではなくジャンル共通トロープに限定する",
+    "風刺の標的は制度・構造(労働環境・格差・課金設計)であり、個人や弱者を punch-down しない",
+    "フックはキャッチーな反復型、バースは物語+風刺の進行型",
+    "録音・ビート音源が無いため、フロー/ポケットの主張はすべて proposal 扱い"
+  ],
+  "unknowns": ["実際のビート音源", "演者の声域・滑舌", "録音環境"]
+}

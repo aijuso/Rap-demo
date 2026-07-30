@@ -1,0 +1,496 @@
+{
+  "request_id": "9602021d191f",
+  "brief": {
+    "schema": "japanese-rap-brief/v2",
+    "run_id": "isekai-satire-001",
+    "mode": "create",
+    "deliverable": "full-song",
+    "language": "ja",
+    "theme": "異世界転生アニメのトロープをパロディ化して現代日本社会を風刺する(親ガチャ・労働環境・現実逃避・課金社会)",
+    "core_message": "転生に夢を見るな──この現実こそ最初からハードモード設定のクソシナリオで、モブ扱いされた俺たちが自分の台本を書き換える",
+    "facts_and_images": [
+      "異世界転生トロープ: トラック転生、ステータス画面、スキルツリー、レベル上げ、チート能力、主人公補正、モブキャラ、NPC、悪役令嬢、ギルド、クエスト、周回プレイ",
+      "現実側の対応物: 満員電車、タイムカード、求人票、奨学金の残高、スマホのガチャ課金、深夜のコンビニ、SNSのおすすめ欄、履歴書",
+      "対応構造の例: 親ガチャ=初期ステータス配布、就活=ギルド審査、残業=強制クエスト、リセマラ=転職、無課金=無資本"
+    ],
+    "fiction_or_lived": "fictional",
+    "speaker": {
+      "identity": "転生を夢見てアニメを見続けてきた匿名の若い労働者。自分をモブキャラだと自嘲しつつ、その配役自体を拒否し始めている",
+      "fictional": true,
+      "point_of_view": "first",
+      "knowledge_boundary": [
+        "アニメ・ゲームの一般的なトロープ知識",
+        "非正規労働と都市生活の実感",
+        "特定の実在企業の内部事情は知らない",
+        "実在アニメ作品の固有名詞は口にしない"
+      ]
+    },
+    "listener": "同じくモブ側に配役されたと感じている同世代の聴衆",
+    "setting": {
+      "time": "現代・深夜",
+      "place": "日本の都市。終電後の駅、コンビニ、ワンルーム、スマホ画面の中"
+    },
+    "tone": [
+      "dark",
+      "satirical",
+      "deadpan",
+      "defiant"
+    ],
+    "register": "conversational",
+    "dialect": {
+      "name": "none",
+      "confidence": "high"
+    },
+    "bpm": 140,
+    "meter": "4/4",
+    "bars": 56,
+    "structure": [
+      {
+        "section": "hook1",
+        "bars": 8
+      },
+      {
+        "section": "verse1",
+        "bars": 16
+      },
+      {
+        "section": "hook2",
+        "bars": 8
+      },
+      {
+        "section": "verse2",
+        "bars": 16
+      },
+      {
+        "section": "hook3_outro",
+        "bars": 8
+      }
+    ],
+    "rhyme_density": "medium",
+    "rhyme_methods": [
+      "assonance",
+      "multisyllabic",
+      "internal",
+      "phrase",
+      "slant"
+    ],
+    "humor_intensity": "medium",
+    "explicitness": "clean",
+    "required_words": [],
+    "forbidden_words": [
+      "実在アニメ作品のタイトル",
+      "実在キャラクター名",
+      "実在アーティスト名",
+      "実在企業の固有名"
+    ],
+    "reference_traits": [],
+    "generation_target": "none",
+    "copyright_input_class": "original_prompt",
+    "assumptions": [
+      "トラップ(BPM140表記・ハーフタイム体感70)のダークなビートを想定",
+      "パロディ対象は特定作品ではなくジャンル共通トロープに限定する",
+      "風刺の標的は制度・構造(労働環境・格差・課金設計)であり、個人や弱者を punch-down しない",
+      "フックはキャッチーな反復型、バースは物語+風刺の進行型",
+      "録音・ビート音源が無いため、フロー/ポケットの主張はすべて proposal 扱い"
+    ],
+    "unknowns": [
+      "実際のビート音源",
+      "演者の声域・滑舌",
+      "録音環境"
+    ]
+  },
+  "generation_brief": {
+    "schema": "japanese-rap-brief/v2",
+    "run_id": "isekai-satire-001",
+    "mode": "create",
+    "deliverable": "full-song",
+    "language": "ja",
+    "theme": "異世界転生アニメのトロープをパロディ化して現代日本社会を風刺する(親ガチャ・労働環境・現実逃避・課金社会)",
+    "core_message": "転生に夢を見るな──この現実こそ最初からハードモード設定のクソシナリオで、モブ扱いされた俺たちが自分の台本を書き換える",
+    "facts_and_images": [
+      "異世界転生トロープ: トラック転生、ステータス画面、スキルツリー、レベル上げ、チート能力、主人公補正、モブキャラ、NPC、悪役令嬢、ギルド、クエスト、周回プレイ",
+      "現実側の対応物: 満員電車、タイムカード、求人票、奨学金の残高、スマホのガチャ課金、深夜のコンビニ、SNSのおすすめ欄、履歴書",
+      "対応構造の例: 親ガチャ=初期ステータス配布、就活=ギルド審査、残業=強制クエスト、リセマラ=転職、無課金=無資本"
+    ],
+    "fiction_or_lived": "fictional",
+    "speaker": {
+      "identity": "転生を夢見てアニメを見続けてきた匿名の若い労働者。自分をモブキャラだと自嘲しつつ、その配役自体を拒否し始めている",
+      "fictional": true,
+      "point_of_view": "first",
+      "knowledge_boundary": [
+        "アニメ・ゲームの一般的なトロープ知識",
+        "非正規労働と都市生活の実感",
+        "特定の実在企業の内部事情は知らない",
+        "実在アニメ作品の固有名詞は口にしない"
+      ]
+    },
+    "listener": "同じくモブ側に配役されたと感じている同世代の聴衆",
+    "setting": {
+      "time": "現代・深夜",
+      "place": "日本の都市。終電後の駅、コンビニ、ワンルーム、スマホ画面の中"
+    },
+    "tone": [
+      "dark",
+      "satirical",
+      "deadpan",
+      "defiant"
+    ],
+    "register": "conversational",
+    "dialect": {
+      "name": "none",
+      "confidence": "high"
+    },
+    "bpm": 140,
+    "meter": "4/4",
+    "bars": 56,
+    "structure": [
+      {
+        "section": "hook1",
+        "bars": 8
+      },
+      {
+        "section": "verse1",
+        "bars": 16
+      },
+      {
+        "section": "hook2",
+        "bars": 8
+      },
+      {
+        "section": "verse2",
+        "bars": 16
+      },
+      {
+        "section": "hook3_outro",
+        "bars": 8
+      }
+    ],
+    "rhyme_density": "medium",
+    "rhyme_methods": [
+      "assonance",
+      "multisyllabic",
+      "internal",
+      "phrase",
+      "slant"
+    ],
+    "humor_intensity": "medium",
+    "explicitness": "clean",
+    "required_words": [],
+    "forbidden_words": [
+      "実在アニメ作品のタイトル",
+      "実在キャラクター名",
+      "実在アーティスト名",
+      "実在企業の固有名"
+    ],
+    "reference_traits": [],
+    "generation_target": "none",
+    "copyright_input_class": "original_prompt",
+    "assumptions": [
+      "トラップ(BPM140表記・ハーフタイム体感70)のダークなビートを想定",
+      "パロディ対象は特定作品ではなくジャンル共通トロープに限定する",
+      "風刺の標的は制度・構造(労働環境・格差・課金設計)であり、個人や弱者を punch-down しない",
+      "フックはキャッチーな反復型、バースは物語+風刺の進行型",
+      "録音・ビート音源が無いため、フロー/ポケットの主張はすべて proposal 扱い"
+    ],
+    "unknowns": [
+      "実際のビート音源",
+      "演者の声域・滑舌",
+      "録音環境"
+    ]
+  },
+  "reference_brief": null,
+  "tasks": [
+    {
+      "id": "narrative",
+      "role": "narrative_architect",
+      "depends_on": [],
+      "artifact": "narrative_map.json",
+      "input_brief": "generation_brief",
+      "allowed_references": [],
+      "write_scope": [
+        "narrative_map.json"
+      ],
+      "status": "pending",
+      "contract": [
+        "return proposition, pressure, turn, residue, bar functions, and setup/payoff ids"
+      ]
+    },
+    {
+      "id": "vocabulary",
+      "role": "vocabulary_director",
+      "depends_on": [],
+      "artifact": "vocabulary_bank.json",
+      "input_brief": "generation_brief",
+      "allowed_references": [],
+      "write_scope": [
+        "vocabulary_bank.json"
+      ],
+      "status": "pending",
+      "contract": [
+        "return concrete objects/actions before abstractions",
+        "annotate meaning, register, semantic domain, and likely syntax affordances"
+      ]
+    },
+    {
+      "id": "humor",
+      "role": "humor_engineer",
+      "depends_on": [],
+      "artifact": "humor_plan.json",
+      "input_brief": "generation_brief",
+      "allowed_references": [],
+      "write_scope": [
+        "humor_plan.json"
+      ],
+      "status": "pending",
+      "contract": [
+        "return mechanism, setup, violated expectation, target, payoff, and timing",
+        "reject punch-down and reference-only jokes"
+      ]
+    },
+    {
+      "id": "rhyme",
+      "role": "rhyme_graph_engineer",
+      "depends_on": [],
+      "artifact": "rhyme_graph.json",
+      "input_brief": "generation_brief",
+      "allowed_references": [],
+      "write_scope": [
+        "rhyme_graph.json"
+      ],
+      "status": "pending",
+      "contract": [
+        "return readings, morae, rhyme relations, placements, confidence, and penalties",
+        "do not equate sound similarity with lyric quality"
+      ]
+    },
+    {
+      "id": "flow",
+      "role": "flow_mapper",
+      "depends_on": [],
+      "artifact": "flow_map.json",
+      "input_brief": "generation_brief",
+      "allowed_references": [],
+      "write_scope": [
+        "flow_map.json"
+      ],
+      "status": "pending",
+      "contract": [
+        "return density, subdivision, accents, rests, held vowels, breath, voice, and switches",
+        "mark pocket unverified without audio"
+      ]
+    },
+    {
+      "id": "vocabulary_rhyme_reconcile",
+      "role": "specialist_reconciler",
+      "depends_on": [
+        "vocabulary",
+        "rhyme"
+      ],
+      "artifact": "vocabulary_rhyme_reconciliation.json",
+      "input_brief": "generation_brief",
+      "allowed_references": [],
+      "write_scope": [
+        "vocabulary_rhyme_reconciliation.json"
+      ],
+      "status": "pending",
+      "contract": [
+        "resolve cross-artifact ids, readings, bar ranges, setup/payoff links, and rejected options",
+        "do not write finished lyrics"
+      ]
+    },
+    {
+      "id": "narrative_humor_reconcile",
+      "role": "specialist_reconciler",
+      "depends_on": [
+        "narrative",
+        "vocabulary",
+        "humor"
+      ],
+      "artifact": "narrative_humor_reconciliation.json",
+      "input_brief": "generation_brief",
+      "allowed_references": [],
+      "write_scope": [
+        "narrative_humor_reconciliation.json"
+      ],
+      "status": "pending",
+      "contract": [
+        "resolve cross-artifact ids, readings, bar ranges, setup/payoff links, and rejected options",
+        "do not write finished lyrics"
+      ]
+    },
+    {
+      "id": "rhyme_flow_reconcile",
+      "role": "rhyme_flow_reconciler",
+      "depends_on": [
+        "narrative",
+        "vocabulary",
+        "rhyme",
+        "flow"
+      ],
+      "artifact": "rhyme_flow_reconciliation.json",
+      "input_brief": "generation_brief",
+      "allowed_references": [],
+      "write_scope": [
+        "rhyme_flow_reconciliation.json"
+      ],
+      "status": "pending",
+      "contract": [
+        "resolve first-pass rhyme and flow conflicts without changing the brief",
+        "return accepted placements, rejected candidates, and draft-time remap requirements"
+      ]
+    },
+    {
+      "id": "draft",
+      "role": "draft_integrator",
+      "depends_on": [
+        "narrative",
+        "vocabulary",
+        "humor",
+        "rhyme",
+        "flow",
+        "vocabulary_rhyme_reconcile",
+        "narrative_humor_reconcile",
+        "rhyme_flow_reconcile"
+      ],
+      "artifact": "draft.json",
+      "input_brief": "generation_brief",
+      "allowed_references": [],
+      "write_scope": [
+        "draft.json"
+      ],
+      "status": "pending",
+      "contract": [
+        "use accepted artifacts; preserve meaning before maximizing rhyme density",
+        "return clean draft plus traceability to artifact ids"
+      ]
+    },
+    {
+      "id": "flow_remap",
+      "role": "flow_mapper",
+      "depends_on": [
+        "draft"
+      ],
+      "artifact": "final_flow_map.json",
+      "input_brief": "generation_brief",
+      "allowed_references": [],
+      "write_scope": [
+        "final_flow_map.json"
+      ],
+      "status": "pending",
+      "contract": [
+        "return density, subdivision, accents, rests, held vowels, breath, voice, and switches",
+        "mark pocket unverified without audio"
+      ]
+    },
+    {
+      "id": "audit",
+      "role": "professional_auditor",
+      "depends_on": [
+        "draft",
+        "flow_remap"
+      ],
+      "artifact": "audit.json",
+      "input_brief": "generation_brief",
+      "allowed_references": [],
+      "write_scope": [
+        "audit.json"
+      ],
+      "status": "pending",
+      "contract": [
+        "audit independently and cite bar-level evidence",
+        "apply hard gates and label audio-dependent claims unknown"
+      ]
+    },
+    {
+      "id": "repair",
+      "role": "repair_owner",
+      "depends_on": [
+        "audit",
+        "draft",
+        "narrative",
+        "vocabulary",
+        "humor",
+        "rhyme",
+        "flow_remap"
+      ],
+      "artifact": "revised_draft.json",
+      "input_brief": "generation_brief",
+      "allowed_references": [],
+      "write_scope": [
+        "revised_draft.json"
+      ],
+      "status": "pending",
+      "contract": [
+        "repair only prioritized failures; record changed and intentionally unchanged bars"
+      ]
+    },
+    {
+      "id": "post_repair_flow_remap",
+      "role": "flow_mapper",
+      "depends_on": [
+        "repair"
+      ],
+      "artifact": "repaired_flow_map.json",
+      "input_brief": "generation_brief",
+      "allowed_references": [],
+      "write_scope": [
+        "repaired_flow_map.json"
+      ],
+      "status": "pending",
+      "contract": [
+        "return density, subdivision, accents, rests, held vowels, breath, voice, and switches",
+        "mark pocket unverified without audio"
+      ]
+    },
+    {
+      "id": "reaudit",
+      "role": "professional_auditor",
+      "depends_on": [
+        "repair",
+        "post_repair_flow_remap"
+      ],
+      "artifact": "reaudit.json",
+      "input_brief": "generation_brief",
+      "allowed_references": [],
+      "write_scope": [
+        "reaudit.json"
+      ],
+      "status": "pending",
+      "contract": [
+        "audit independently and cite bar-level evidence",
+        "apply hard gates and label audio-dependent claims unknown"
+      ]
+    }
+  ],
+  "gates": [
+    {
+      "id": "integration_ready",
+      "after": [
+        "narrative",
+        "vocabulary",
+        "humor",
+        "rhyme",
+        "flow",
+        "vocabulary_rhyme_reconcile",
+        "narrative_humor_reconcile",
+        "rhyme_flow_reconcile"
+      ],
+      "requirements": [
+        "all required artifacts present",
+        "all readings carry source and confidence",
+        "no named-artist imitation instructions"
+      ]
+    },
+    {
+      "id": "release_ready",
+      "after": [
+        "reaudit"
+      ],
+      "requirements": [
+        "no hard-gate failures",
+        "bar-level evidence attached",
+        "audio-dependent claims marked unknown unless audio was reviewed"
+      ]
+    }
+  ]
+}
