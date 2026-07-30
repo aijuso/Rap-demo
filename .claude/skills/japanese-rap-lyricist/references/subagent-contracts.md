@@ -45,9 +45,14 @@ run/
   brief.yaml
   source_policy.yaml
   technique_vector.yaml
+  scout_research_<round>.json
+  research_bank.json
+  research_keywords.html
   narrative_plan.yaml
   vocabulary_bank.json
   humor_plan.yaml
+  rhyme_bank.json
+  rhyme_bank.html
   rhyme_graph.json
   flow_map.yaml
   draft_candidates.md
@@ -67,8 +72,14 @@ run_id: unique-local-id
 mode: create | analyze | rewrite | audit | teach
 deliverable: hook | verse | full-song | analysis | rhyme-bank
 language: ja
+interaction_mode: collaborative | autonomous
+checkpoint_log: []
 theme: ""
+concept: ""
 core_message: ""
+scout_rounds: []
+selected_keywords: []
+selected_rhyme_pairs: []
 facts_and_images: []
 speaker:
   identity: ""
@@ -116,10 +127,14 @@ run_id: ""
 brief_hash: ""
 revision: 1
 stages:
+  scout_research: pending
   reference_analysis: pending
+  theme_research: pending
+  keyword_selection: pending
   narrative: pending
   vocabulary: pending
   humor: pending
+  rhyme_bank: pending
   rhyme: pending
   flow: pending
   integration: pending
@@ -136,11 +151,17 @@ open_risks: []
 ## 依存関係と並列化
 
 ```text
-brief
+CP1 intake loop:  user input <--> Theme Research Analyst (scout)   ※brief凍結前に走る唯一の役割
   |
-  +--> Reference/Technique Analyst --+
-  |                                  |
-  +--> Narrative Architect ----------+----> Draft Integrator
+brief (frozen)
+  |
+  +--> Theme Research Analyst (deep) --> CP2 keyword selection --> Rhyme Bank Engineer
+  |                                                                    |
+  |                                                          CP3 rhyme-bank review
+  |                                                                    |
+  +--> Reference/Technique Analyst --+                                 |
+  |                                  |                                 |
+  +--> Narrative Architect ----------+----> Draft Integrator <---------+
   |                                  |
   +--> Vocabulary Director ----------+
   |                                  |
@@ -165,6 +186,11 @@ brief
 
 ### 並列実行してよい工程
 
+- Theme Research Analyst (scout) は brief 凍結前、CP1ループの各ラウンドで反復起動する。
+  凍結前に走ってよいのはこの役割だけである。
+- Theme Research Analyst (deep) は brief 凍結直後に単独で走らせ、CP2（キーワード選別）を
+  経てから Rhyme Bank Engineer を起動する。Rhyme Graph Engineer は選別済みの
+  `selected_rhyme_pairs` と `rhyme_bank.json` を入力として受け取る。
 - Narrative、Vocabulary、Humor、Rhyme、Flow は共有brief確定後に並列実行できる。
 - Reference Analyst は名前付き参照がある場合のみ先行させ、一般技法ベクトル確定後に他工程を開始する。
 - Vocabulary と Rhyme は第一便を並列に作り、必要なら第二便で相互参照する。
@@ -202,7 +228,7 @@ inputs:
 assumptions: []
 confidence: high | medium | low
 evidence:
-  - kind: user_input | performed_reading | dictionary | interview | paper | inference
+  - kind: user_input | performed_reading | dictionary | interview | paper | inference | web
     pointer: ""
 warnings: []
 payload: {}
@@ -252,6 +278,25 @@ distance_requirements:
 ```
 
 複数参照に共通する技法と、一人だけに強く結びつく特徴を分離する。後者は原則として生成条件から外す。
+
+### Theme Research Analyst
+
+**目的:** テーマに関する語彙・エピソード・連想キーワードを、出典付きで洗い出す。
+2モードを持つ。`scout` は CP1 ループ内で反復起動され、「このテーマ×この方向性で何が
+できそうか」の切り口3〜5案を返す。`deep` は brief 凍結後に1回だけ走り、8つの探索窓
+（物・動作・場所・時刻/数字・音・身体・制度/金銭・関係）を Web で総当たりする。
+
+**入力:** scout = その時点までに埋まった brief 項目と直前のユーザー選択。
+deep = 凍結 `brief.yaml` と全 `scout_research_*.json`（採用モチーフは必須シード）。
+
+**出力:** scout = `scout_research_<round>.json`（`assets/scout-research.schema.json`）。
+deep = `research_bank.json`（`assets/research-bank.schema.json`）と、
+`scripts/render_research_html.py` が生成する `research_keywords.html`。
+各キーワードには読みと `scripts/skeleton.py` による母音・子音骨格を付ける。
+
+**禁止:** 歌詞サイト・商業歌詞・主題歌の文言の収集（アーティスト名の参照分析は
+Reference/Technique Analyst の専任のまま）。ユーザー未提供の実話・経歴の事実化。
+出典のない web evidence。検証は `python3 scripts/validate_bank.py` で行う。
 
 ### Narrative Architect
 
@@ -335,11 +380,30 @@ callbacks:
 
 パンチラインそのものを書き切るより、期待の設計と壊す軸を渡す。固有名詞は知名度ではなく、文脈との距離と意味的必然性で選ぶ。
 
+### Rhyme Bank Engineer
+
+**目的:** CP2 で選別されたキーワードごとに、種類を漏らさず大量の韻候補を作る。
+1語につき20候補以上。タイプ別最低本数: 母音韻5・子音韻/頭韻3・4モーラ以上3・
+フレーズ/モザイク3・内部/頭/跨ぎ配置提案2。子音韻は `scripts/skeleton.py` の
+子音骨格（カタカタ→`ktkt`）の突き合わせで探す。
+
+**入力:** 凍結 brief の `selected_keywords`, `research_bank.json`,
+`references/rhyme-taxonomy-extended.md` の分類と5段階探索順序。
+
+**出力:** `rhyme_bank.json`（`assets/rhyme-bank.schema.json`）と
+`scripts/render_rhyme_html.py` が生成する `rhyme_bank.html`。全候補は
+`scripts/rhyme_score.py` の3モード（vowel / consonant / balanced）で採点し、
+一文の用例（example_phrase）を必ず付ける。
+
+**禁止:** 読みの捏造。同一語・同一lemmaの水増し。文法語尾だけの一致の無警告計上。
+最低本数の検証は `python3 scripts/validate_bank.py` が行う。
+
 ### Rhyme Graph Engineer
 
 **目的:** 韻候補の羅列ではなく、音、文法、意味、配置の移動可能性を持つグラフを作る。
 
-**入力:** `brief.yaml`, `vocabulary_bank.json`, `flow_map.yaml` の暫定版
+**入力:** `brief.yaml`, `vocabulary_bank.json`, `flow_map.yaml` の暫定版,
+CP3 を経た `selected_rhyme_pairs` と `rhyme_bank.json`（採用ペアはグラフの必須ノード）
 
 **出力:** `rhyme_graph.json`
 
@@ -570,6 +634,9 @@ integrated draft
 | BPM/beatがない | 相対密度、休符、強調だけを設計 | unverified |
 | Referenceの一次資料がない | 参照名を生成条件から外し、一般技法だけで続行 | partial |
 | Vocabularyが抽象語ばかり | scene packetを再取得し、具体物を最低8件集め直す | stale |
+| scoutの切り口が薄い | 検索語を変えて同ラウンドを再実行し、案数3未満なら不足を明示して提示 | partial |
+| deepリサーチが浅い（探索窓が空） | 空の窓ごとに検索語を変えて再収集する | stale |
+| 韻バンクのタイプ欠落（子音韻ゼロ等） | consonantモードと子音骨格索引で該当タイプだけ再探索 | stale |
 | Rhyme graphが疎 | 近似韻、phrase rhyme、内部配置へ探索範囲を広げる | partial |
 | Humorが説明的 | punchline文を削り、予測と違反軸だけ再設計 | stale |
 | Integratorが全候補を詰め込む | 主機能を1 bar 1つに戻す | stale |

@@ -1,0 +1,67 @@
+{
+ "schema": "research-bank/v1",
+ "theme": "テスト用テーマ",
+ "concept": "テスト用コンセプト",
+ "scene_refs": [
+  "S1"
+ ],
+ "scout_seed_motifs": [
+  "モチーフA"
+ ],
+ "keywords": [
+  {
+   "id": "K01",
+   "surface": "改札",
+   "reading": "カイサツ",
+   "mora_count": 4,
+   "vowel_skeleton": "a-i-a-u",
+   "consonant_skeleton": "k-sts",
+   "kind": "vocabulary",
+   "domain": "place",
+   "plain_meaning": "駅の改札口",
+   "evidence": [
+    {
+     "kind": "web",
+     "pointer": "https://example.com/a"
+    }
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "K02",
+   "surface": "割り勘",
+   "reading": "ワリカン",
+   "mora_count": 4,
+   "vowel_skeleton": "a-i-a-N",
+   "consonant_skeleton": "wrkN",
+   "kind": "vocabulary",
+   "domain": "institution_or_money",
+   "plain_meaning": "等分の支払い",
+   "evidence": [
+    {
+     "kind": "web",
+     "pointer": "https://example.com/b"
+    }
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "K03",
+   "surface": "終電を逃す",
+   "reading": "シューデンオノガス",
+   "mora_count": 8,
+   "vowel_skeleton": "u-u-e-N-o-o-a-u",
+   "consonant_skeleton": "shy:dN-ngs",
+   "kind": "episode",
+   "domain": "time_or_number",
+   "plain_meaning": "深夜の失敗談",
+   "evidence": [
+    {
+     "kind": "web",
+     "pointer": "https://example.com/c"
+    }
+   ],
+   "confidence": "medium"
+  }
+ ]
+}

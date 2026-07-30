@@ -1,0 +1,339 @@
+{
+ "schema": "rhyme-bank/v1",
+ "keywords": [
+  {
+   "id": "K01",
+   "surface": "改札",
+   "reading": "カイサツ",
+   "vowel_skeleton": "a-i-a-u",
+   "consonant_skeleton": "k-st"
+  }
+ ],
+ "candidates": [
+  {
+   "keyword_id": "K01",
+   "surface": "母音候補0",
+   "reading": "カイカツ",
+   "vowel_skeleton": "a-i-a-u",
+   "consonant_skeleton": "k-kts",
+   "rhyme_types": [
+    "assonance"
+   ],
+   "domain_length": 3,
+   "score_vowel": 0.9,
+   "score_consonant": 0.5,
+   "score_balanced": 0.8,
+   "example_phrase": "用例",
+   "warnings": []
+  },
+  {
+   "keyword_id": "K01",
+   "surface": "母音候補1",
+   "reading": "カイカツ",
+   "vowel_skeleton": "a-i-a-u",
+   "consonant_skeleton": "k-kts",
+   "rhyme_types": [
+    "assonance"
+   ],
+   "domain_length": 3,
+   "score_vowel": 0.9,
+   "score_consonant": 0.5,
+   "score_balanced": 0.8,
+   "example_phrase": "用例",
+   "warnings": []
+  },
+  {
+   "keyword_id": "K01",
+   "surface": "母音候補2",
+   "reading": "カイカツ",
+   "vowel_skeleton": "a-i-a-u",
+   "consonant_skeleton": "k-kts",
+   "rhyme_types": [
+    "assonance"
+   ],
+   "domain_length": 3,
+   "score_vowel": 0.9,
+   "score_consonant": 0.5,
+   "score_balanced": 0.8,
+   "example_phrase": "用例",
+   "warnings": []
+  },
+  {
+   "keyword_id": "K01",
+   "surface": "母音候補3",
+   "reading": "カイカツ",
+   "vowel_skeleton": "a-i-a-u",
+   "consonant_skeleton": "k-kts",
+   "rhyme_types": [
+    "assonance"
+   ],
+   "domain_length": 3,
+   "score_vowel": 0.9,
+   "score_consonant": 0.5,
+   "score_balanced": 0.8,
+   "example_phrase": "用例",
+   "warnings": []
+  },
+  {
+   "keyword_id": "K01",
+   "surface": "母音候補4",
+   "reading": "カイカツ",
+   "vowel_skeleton": "a-i-a-u",
+   "consonant_skeleton": "k-kts",
+   "rhyme_types": [
+    "assonance"
+   ],
+   "domain_length": 3,
+   "score_vowel": 0.9,
+   "score_consonant": 0.5,
+   "score_balanced": 0.8,
+   "example_phrase": "用例",
+   "warnings": []
+  },
+  {
+   "keyword_id": "K01",
+   "surface": "子音候補0",
+   "reading": "コイセツ",
+   "vowel_skeleton": "o-i-e-u",
+   "consonant_skeleton": "k-sts",
+   "rhyme_types": [
+    "consonance"
+   ],
+   "domain_length": 3,
+   "score_vowel": 0.9,
+   "score_consonant": 0.5,
+   "score_balanced": 0.8,
+   "example_phrase": "用例",
+   "warnings": []
+  },
+  {
+   "keyword_id": "K01",
+   "surface": "子音候補1",
+   "reading": "コイセツ",
+   "vowel_skeleton": "o-i-e-u",
+   "consonant_skeleton": "k-sts",
+   "rhyme_types": [
+    "consonance"
+   ],
+   "domain_length": 3,
+   "score_vowel": 0.9,
+   "score_consonant": 0.5,
+   "score_balanced": 0.8,
+   "example_phrase": "用例",
+   "warnings": []
+  },
+  {
+   "keyword_id": "K01",
+   "surface": "子音候補2",
+   "reading": "コイセツ",
+   "vowel_skeleton": "o-i-e-u",
+   "consonant_skeleton": "k-sts",
+   "rhyme_types": [
+    "consonance"
+   ],
+   "domain_length": 3,
+   "score_vowel": 0.9,
+   "score_consonant": 0.5,
+   "score_balanced": 0.8,
+   "example_phrase": "用例",
+   "warnings": []
+  },
+  {
+   "keyword_id": "K01",
+   "surface": "長尺候補0",
+   "reading": "ダイサツジン",
+   "vowel_skeleton": "a-i-a-u-i-N",
+   "consonant_skeleton": "d-stsjN",
+   "rhyme_types": [
+    "multimora_rhyme",
+    "assonance"
+   ],
+   "domain_length": 3,
+   "score_vowel": 0.9,
+   "score_consonant": 0.5,
+   "score_balanced": 0.8,
+   "example_phrase": "用例",
+   "warnings": []
+  },
+  {
+   "keyword_id": "K01",
+   "surface": "長尺候補1",
+   "reading": "ダイサツジン",
+   "vowel_skeleton": "a-i-a-u-i-N",
+   "consonant_skeleton": "d-stsjN",
+   "rhyme_types": [
+    "multimora_rhyme",
+    "assonance"
+   ],
+   "domain_length": 3,
+   "score_vowel": 0.9,
+   "score_consonant": 0.5,
+   "score_balanced": 0.8,
+   "example_phrase": "用例",
+   "warnings": []
+  },
+  {
+   "keyword_id": "K01",
+   "surface": "長尺候補2",
+   "reading": "ダイサツジン",
+   "vowel_skeleton": "a-i-a-u-i-N",
+   "consonant_skeleton": "d-stsjN",
+   "rhyme_types": [
+    "multimora_rhyme",
+    "assonance"
+   ],
+   "domain_length": 3,
+   "score_vowel": 0.9,
+   "score_consonant": 0.5,
+   "score_balanced": 0.8,
+   "example_phrase": "用例",
+   "warnings": []
+  },
+  {
+   "keyword_id": "K01",
+   "surface": "句候補0",
+   "reading": "ナイフト札",
+   "vowel_skeleton": "a-i-u-o",
+   "consonant_skeleton": "n-ft",
+   "rhyme_types": [
+    "phrase_rhyme"
+   ],
+   "domain_length": 3,
+   "score_vowel": 0.9,
+   "score_consonant": 0.5,
+   "score_balanced": 0.8,
+   "example_phrase": "用例",
+   "warnings": []
+  },
+  {
+   "keyword_id": "K01",
+   "surface": "句候補1",
+   "reading": "ナイフト札",
+   "vowel_skeleton": "a-i-u-o",
+   "consonant_skeleton": "n-ft",
+   "rhyme_types": [
+    "phrase_rhyme"
+   ],
+   "domain_length": 3,
+   "score_vowel": 0.9,
+   "score_consonant": 0.5,
+   "score_balanced": 0.8,
+   "example_phrase": "用例",
+   "warnings": []
+  },
+  {
+   "keyword_id": "K01",
+   "surface": "句候補2",
+   "reading": "ナイフト札",
+   "vowel_skeleton": "a-i-u-o",
+   "consonant_skeleton": "n-ft",
+   "rhyme_types": [
+    "phrase_rhyme"
+   ],
+   "domain_length": 3,
+   "score_vowel": 0.9,
+   "score_consonant": 0.5,
+   "score_balanced": 0.8,
+   "example_phrase": "用例",
+   "warnings": []
+  },
+  {
+   "keyword_id": "K01",
+   "surface": "配置候補0",
+   "reading": "サイハツ",
+   "vowel_skeleton": "a-i-a-u",
+   "consonant_skeleton": "s-hts",
+   "rhyme_types": [
+    "internal_rhyme",
+    "assonance"
+   ],
+   "domain_length": 3,
+   "score_vowel": 0.9,
+   "score_consonant": 0.5,
+   "score_balanced": 0.8,
+   "example_phrase": "用例",
+   "warnings": []
+  },
+  {
+   "keyword_id": "K01",
+   "surface": "配置候補1",
+   "reading": "サイハツ",
+   "vowel_skeleton": "a-i-a-u",
+   "consonant_skeleton": "s-hts",
+   "rhyme_types": [
+    "internal_rhyme",
+    "assonance"
+   ],
+   "domain_length": 3,
+   "score_vowel": 0.9,
+   "score_consonant": 0.5,
+   "score_balanced": 0.8,
+   "example_phrase": "用例",
+   "warnings": []
+  },
+  {
+   "keyword_id": "K01",
+   "surface": "追加候補0",
+   "reading": "マイバツ",
+   "vowel_skeleton": "a-i-a-u",
+   "consonant_skeleton": "m-bts",
+   "rhyme_types": [
+    "near_assonance"
+   ],
+   "domain_length": 3,
+   "score_vowel": 0.9,
+   "score_consonant": 0.5,
+   "score_balanced": 0.8,
+   "example_phrase": "用例",
+   "warnings": []
+  },
+  {
+   "keyword_id": "K01",
+   "surface": "追加候補1",
+   "reading": "マイバツ",
+   "vowel_skeleton": "a-i-a-u",
+   "consonant_skeleton": "m-bts",
+   "rhyme_types": [
+    "near_assonance"
+   ],
+   "domain_length": 3,
+   "score_vowel": 0.9,
+   "score_consonant": 0.5,
+   "score_balanced": 0.8,
+   "example_phrase": "用例",
+   "warnings": []
+  },
+  {
+   "keyword_id": "K01",
+   "surface": "追加候補2",
+   "reading": "マイバツ",
+   "vowel_skeleton": "a-i-a-u",
+   "consonant_skeleton": "m-bts",
+   "rhyme_types": [
+    "near_assonance"
+   ],
+   "domain_length": 3,
+   "score_vowel": 0.9,
+   "score_consonant": 0.5,
+   "score_balanced": 0.8,
+   "example_phrase": "用例",
+   "warnings": []
+  },
+  {
+   "keyword_id": "K01",
+   "surface": "追加候補3",
+   "reading": "マイバツ",
+   "vowel_skeleton": "a-i-a-u",
+   "consonant_skeleton": "m-bts",
+   "rhyme_types": [
+    "near_assonance"
+   ],
+   "domain_length": 3,
+   "score_vowel": 0.9,
+   "score_consonant": 0.5,
+   "score_balanced": 0.8,
+   "example_phrase": "用例",
+   "warnings": []
+  }
+ ]
+}

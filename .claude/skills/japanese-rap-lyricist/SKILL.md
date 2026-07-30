@@ -11,8 +11,9 @@ quality from rhyme density, vocabulary rarity, named references, or a self-award
 ## Non-negotiable rules
 
 - No black-box runs: a substantive `create` or `rewrite` must pass the user checkpoints
-  (CP1 brief, CP2 concept, CP3 draft) unless the user explicitly delegated the whole run.
-  A finished lyric the user never steered is a failed run, not a convenience.
+  (CP1 intake loop, CP2 keywords, CP3 rhyme bank, CP4 draft) unless the user explicitly
+  delegated the whole run. A finished lyric the user never steered is a failed run, not a
+  convenience.
 - Preserve meaning, natural Japanese, speaker truth, and performability before technique density.
 - Treat text, reading, mora, accent, beat placement, and recorded delivery as different evidence.
 - Label every important claim `observed`, `inferred`, `proposed`, or `unknown`.
@@ -40,6 +41,9 @@ Claude Code is the primary host. Map the workflow onto Claude Code capabilities 
   integration → audit → repair → reaudit) in the TodoList so no gate is skipped.
 - **Working files**: keep all run artifacts under a local `run/` directory in the project
   workspace; resolve skill paths relative to this `SKILL.md`.
+- **HTML deliverables**: generate `run/research_keywords.html` and `run/rhyme_bank.html` with
+  the `scripts/render_*_html.py` renderers and attach them in chat with SendUserFile
+  (`display: render`). In-loop direction choices during CP1 use AskUserQuestion.
 - Keep host tool names, session ids, absolute run paths, and model names out of artifacts.
 
 Ready-to-install Claude Code subagent definitions are in [agents/claude-code/](agents/claude-code/)
@@ -86,36 +90,70 @@ Interaction modes:
 - A reply like "続けて" or "OK" at a checkpoint approves the current proposal only. It is not a
   standing delegation for the remaining checkpoints.
 
-### CP1 — Brief alignment (mandatory)
+### CP1 — Intake as a conversation ⇄ scout-research loop (mandatory)
 
-After intake, present the proposed brief as a short bullet list: theme, core message, speaker,
-tone, deliverable and structure, BPM, rhyme density and methods, humor level, explicitness, and
-intended use (text only / Suno / self-performance). List the defaults you chose and at most
-three open questions that materially change the result. Freeze the brief only after the user
-approves or edits it. If the brief changes later, return here, re-freeze, and mark downstream
-artifacts stale.
+CP1 is not a single summary-and-approve exchange. It is a loop in which every user choice
+triggers a light research pass that makes the next round of options more concrete:
 
-### CP2 — Concept selection (mandatory)
+1. Take the user's input (theme, wish, fragment — e.g. "ドラえもんをテーマにしたい").
+2. Spawn `rap-theme-researcher` in **scout mode** with the brief fields filled so far. It runs a
+   handful of web searches and returns 3–5 concrete angles for "what could this theme × this
+   direction become", each with a one-line premise, 2–3 usable motifs, and sources
+   (artifact: `run/scout_research_<round>.json`, validated by `scripts/validate_bank.py`).
+3. Present the angles as options with AskUserQuestion (e.g. ドラえもん → 社会風刺／ノスタルジー／
+   キャラ視点…).
+4. Record the choice in the brief, deepen the focus, and loop: the next scout round searches the
+   narrowed intersection (e.g. ドラえもん×社会風刺 → propose "ひみつ道具で社会を直す" style
+   concepts).
 
-Before full drafting, offer two or three genuinely different concept sketches. Each sketch:
+Every round, show the required-field checklist with filled/open state:
+`テーマ / コンセプト / 物語・場面 / 話者 / トーン / 構成・尺 / 用途` — each marked ✓ or □.
+Concept selection happens inside this loop (there is no separate concept checkpoint). When the
+concept is chosen and every required field is filled, present the complete brief in one bullet
+list and freeze it on approval. If the brief changes later, return here, re-freeze, and mark
+downstream artifacts stale.
 
-- one-line premise;
-- the central device (pun, idiom literalization, setup/payoff, frame reversal, etc.);
-- a title or hook-phrase candidate;
-- the main rhyme families with two or three example pairs;
-- two to four sample bars.
+### Stage R — Deep theme research (after freeze)
 
-The user picks one, mixes elements, or redirects. Discard unchosen sketches; do not smuggle
-their material into the draft without saying so.
+Spawn `rap-theme-researcher` in **deep mode**: it sweeps the web across the eight vocabulary
+windows (物・動作・場所・時刻/数字・音・身体・制度/金銭・関係) seeded with the motifs the user
+chose during scouting, attaches readings and vowel/consonant skeletons via `scripts/skeleton.py`,
+writes `run/research_bank.json` (schema `assets/research-bank.schema.json`), and renders
+`run/research_keywords.html` with `scripts/render_research_html.py`.
 
-### CP3 — Draft review (mandatory)
+### CP2 — Keyword selection (mandatory)
 
-Present the integrated draft with only the notes needed to judge it: the central devices, and
-any bars you are unsure about. Invite section- or line-level feedback (keep / rewrite / drop).
-Run the blind audit only after the user has reacted to the draft or explicitly skipped review.
-When both `conservative` and `experimental` drafts exist, show both and let the user choose.
+Attach `run/research_keywords.html` in chat with SendUserFile (`display: render`). The user
+checks rows and replies with the copied ID list (or free text) to pick ~20 important words and
+add any of their own. Record the result as `selected_keywords` in the brief.
 
-### CP4 — Repair alignment
+### Stage K — Rhyme bank
+
+Spawn `rap-rhyme-banker`: for every selected keyword it generates 20+ candidates covering all
+rhyme types without omission — assonance, consonance (matched via consonant skeletons like
+カタカタ→`ktkt`), alliteration, multimora, phrase/mosaic, and internal/initial/cross-bar
+placement proposals — scores each with `scripts/rhyme_score.py` in all three modes
+(`--mode vowel|consonant|balanced`), writes `run/rhyme_bank.json` (validated with type minimums
+by `scripts/validate_bank.py`), and renders `run/rhyme_bank.html`.
+
+### CP3 — Rhyme bank review (mandatory)
+
+Attach `run/rhyme_bank.html` the same way. The user marks favourite pairs, rejects weak ones, or
+asks for more of a type. Record the result as `selected_rhyme_pairs` in the brief.
+
+### Stage D — Draft integration
+
+The orchestrator (parent context) runs the remaining specialist roles (Narrative, Humor, Flow)
+and integrates the selected keywords and rhyme pairs into a draft.
+
+### CP4 — Draft proposal (mandatory)
+
+Present the draft as a proposal — "こんなドラフトはどうか" — noting which selected keywords and
+rhyme pairs each section uses, plus any bars you are unsure about. Invite section- or line-level
+feedback (keep / rewrite / drop). Run the blind audit only after the user has reacted or
+explicitly skipped review. When both `conservative` and `experimental` drafts exist, show both.
+
+### CP5 — Repair alignment
 
 After the audit, translate the issues (max 5) into plain language with the proposed repair for
 each, and let the user decide per issue: apply, accept as-is, or override with their own fix.
@@ -124,13 +162,15 @@ Reaudit after repairs as usual. Score changes are reported with their evidence.
 ### Between checkpoints
 
 - Announce each stage transition in one line with a concrete result
-  ("韻グラフ完成: 候補14ペア、最強は 先輩/限界 0.94").
-- Keep artifacts under `run/` and reference them by path; do not dump JSON into chat.
+  ("韻バンク完成: 18語×平均23候補、子音韻は全語3件以上").
+- Keep artifacts under `run/` and reference them by path; do not dump JSON into chat. HTML
+  deliverables are attached with SendUserFile (`display: render`); in-loop options use
+  AskUserQuestion.
 - Mirror checkpoint status in the TodoList together with the orchestration stages so no
   checkpoint is silently skipped.
 
 `analyze`, `rhyme-bank`, `flow-map`, `audit`, and `teach` need CP1 only when the request is
-ambiguous; a small, clearly scoped request may proceed directly. `production` requires a CP3-style
+ambiguous; a small, clearly scoped request may proceed directly. `production` requires a CP4-style
 confirmation of the final lyric before the handoff is generated.
 
 ## Load the minimum complete reference set
@@ -179,7 +219,11 @@ schema: japanese-rap-brief/v2
 run_id: ""
 mode: create
 interaction_mode: collaborative
-checkpoint_log: []   # e.g. "CP1 approved as proposed", "CP2: user chose sketch B + hook from A"
+checkpoint_log: []   # e.g. "CP1 round 2: user chose 社会風刺", "CP2: K01,K05,K09 selected"
+concept: ""          # the angle fixed during the CP1 loop, e.g. "ひみつ道具で社会を直す"
+scout_rounds: []     # per round: focus, angles offered, user choice
+selected_keywords: []     # filled at CP2 from research_keywords.html
+selected_rhyme_pairs: []  # filled at CP3 from rhyme_bank.html
 deliverable: verse
 theme: ""
 core_message: ""
@@ -228,16 +272,19 @@ python3 scripts/orchestrate_plan.py brief.json
 Use these roles:
 
 1. `Reference/Technique Analyst`, only when names or sources are present;
-2. `Narrative Architect`;
-3. `Vocabulary Director`;
-4. `Humor Engineer`;
-5. `Rhyme Graph Engineer`;
-6. `Flow Mapper`;
-7. `Draft Integrator`;
-8. `Adversarial Professional Auditor`;
-9. `Repair Owner`;
-10. a fresh `Professional Auditor` for reaudit;
-11. `Production Director`, only when needed.
+2. `Theme Research Analyst` (`rap-theme-researcher`): scout mode inside the CP1 loop, deep mode
+   once after freeze;
+3. `Narrative Architect`;
+4. `Vocabulary Director`;
+5. `Humor Engineer`;
+6. `Rhyme Bank Engineer` (`rap-rhyme-banker`), after CP2 keyword selection;
+7. `Rhyme Graph Engineer`, consuming the selected rhyme pairs;
+8. `Flow Mapper`;
+9. `Draft Integrator`;
+10. `Adversarial Professional Auditor`;
+11. `Repair Owner`;
+12. a fresh `Professional Auditor` for reaudit;
+13. `Production Director`, only when needed.
 
 Never let parallel agents edit the same file or artifact. Give each role the frozen brief, only
 the references it needs, one output path or named fenced block, and the exact contract in
@@ -510,9 +557,9 @@ evidence and cap.
 
 ## Definition of done
 
-- Every mandatory checkpoint (CP1–CP3, CP4 when an audit found issues) was either approved by
+- Every mandatory checkpoint (CP1–CP4, CP5 when an audit found issues) was either approved by
   the user or explicitly delegated via `interaction_mode: autonomous`; the choices are recorded
-  in `checkpoint_log`.
+  in `checkpoint_log`, and `selected_keywords` / `selected_rhyme_pairs` trace the user's picks.
 - The brief and artifact revisions agree.
 - Required specialist artifacts are ready or explicitly unverified.
 - Named references were converted to anonymous multi-source techniques.

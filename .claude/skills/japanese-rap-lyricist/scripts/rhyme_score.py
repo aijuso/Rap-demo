@@ -20,6 +20,15 @@ VOWEL_COST = {
     "o": {"a": 4, "i": 3, "u": 1, "e": 2, "o": 0},
 }
 
+# Weight presets over (vowel, special, onset, length_bonus). "balanced" is the
+# historical default; "consonant" exists for 子音韻/頭韻 hunting, where カタカタ
+# and コトコト should rank as a pair even though every nucleus differs.
+MODE_WEIGHTS = {
+    "balanced": (0.65, 0.10, 0.10, 0.15),
+    "vowel": (0.75, 0.10, 0.00, 0.15),
+    "consonant": (0.15, 0.10, 0.60, 0.15),
+}
+
 ONSET_FEATURES = {
     "": ("none", "none", "none"),
     "k": ("velar", "stop", "voiceless"), "g": ("velar", "stop", "voiced"),
@@ -59,7 +68,11 @@ def score_pair(
     reading_b: str,
     *,
     max_domain: int = 8,
+    mode: str = "balanced",
 ) -> dict:
+    if mode not in MODE_WEIGHTS:
+        raise ValueError(f"unknown mode {mode!r}; choose from {sorted(MODE_WEIGHTS)}")
+    w_vowel, w_special, w_onset, w_length = MODE_WEIGHTS[mode]
     moras_a, warnings_a = parse_morae(reading_a)
     moras_b, warnings_b = parse_morae(reading_b)
     max_len = min(len(moras_a), len(moras_b), max_domain)
@@ -88,7 +101,7 @@ def score_pair(
         special /= denom
         onset /= denom
         length_bonus = min(1.0, math.log2(length + 1) / math.log2(max_domain + 1))
-        sound = 0.65 * vowel + 0.10 * special + 0.10 * onset + 0.15 * length_bonus
+        sound = w_vowel * vowel + w_special * special + w_onset * onset + w_length * length_bonus
         candidate = {
             "domain_length": length,
             "vowel_or_coda": vowel,
@@ -134,11 +147,24 @@ def score_pair(
         label = "weak-or-contextual"
     else:
         label = "not-established"
+    from skeleton import skeletons
+
     return {
         "surface_a": surface_a,
         "surface_b": surface_b,
         "reading_a": normalize_kana(reading_a),
         "reading_b": normalize_kana(reading_b),
+        "mode": mode,
+        "skeleton_a": {
+            key: value
+            for key, value in skeletons(reading_a).items()
+            if key in {"vowel_skeleton", "consonant_skeleton", "consonant_skeleton_dotted"}
+        },
+        "skeleton_b": {
+            key: value
+            for key, value in skeletons(reading_b).items()
+            if key in {"vowel_skeleton", "consonant_skeleton", "consonant_skeleton_dotted"}
+        },
         "best_domain": {
             **best,
             "vowel_or_coda": round(best["vowel_or_coda"], 3),
@@ -165,6 +191,7 @@ def main() -> None:
     parser.add_argument("--reading-a", required=True)
     parser.add_argument("--reading-b", required=True)
     parser.add_argument("--max-domain", type=int, default=8)
+    parser.add_argument("--mode", choices=sorted(MODE_WEIGHTS), default="balanced")
     parser.add_argument("--explain", action="store_true")
     args = parser.parse_args()
     result = score_pair(
@@ -173,6 +200,7 @@ def main() -> None:
         args.reading_a,
         args.reading_b,
         max_domain=args.max_domain,
+        mode=args.mode,
     )
     print(json.dumps(result, ensure_ascii=False, indent=2))
 

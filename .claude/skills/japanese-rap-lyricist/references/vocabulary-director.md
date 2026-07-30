@@ -172,7 +172,7 @@ freshness:
   cliche_risk: low
   local_repetition_count: 0
 evidence:
-  - kind: user_input | dictionary | inference | performed_reading
+  - kind: user_input | dictionary | inference | performed_reading | web
     pointer: ""
 confidence:
   meaning: high

@@ -1,0 +1,64 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "JapaneseRapRhymeBank",
+  "type": "object",
+  "required": ["schema", "keywords", "candidates"],
+  "properties": {
+    "schema": {"const": "rhyme-bank/v1"},
+    "keywords": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["id", "surface", "reading", "vowel_skeleton", "consonant_skeleton"],
+        "properties": {
+          "id": {"type": "string", "minLength": 1},
+          "surface": {"type": "string", "minLength": 1},
+          "reading": {"type": "string", "minLength": 1},
+          "vowel_skeleton": {"type": "string", "minLength": 1},
+          "consonant_skeleton": {"type": "string", "minLength": 1}
+        },
+        "additionalProperties": true
+      }
+    },
+    "candidates": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "keyword_id", "surface", "reading", "vowel_skeleton",
+          "consonant_skeleton", "rhyme_types", "domain_length",
+          "score_vowel", "score_consonant", "score_balanced",
+          "example_phrase", "warnings"
+        ],
+        "properties": {
+          "keyword_id": {"type": "string", "minLength": 1},
+          "surface": {"type": "string", "minLength": 1},
+          "reading": {"type": "string", "minLength": 1},
+          "vowel_skeleton": {"type": "string", "minLength": 1},
+          "consonant_skeleton": {"type": "string", "minLength": 1},
+          "rhyme_types": {
+            "type": "array",
+            "minItems": 1,
+            "items": {"type": "string", "minLength": 1}
+          },
+          "domain_length": {"type": "integer", "minimum": 0},
+          "score_vowel": {"type": "number", "minimum": 0, "maximum": 1},
+          "score_consonant": {"type": "number", "minimum": 0, "maximum": 1},
+          "score_balanced": {"type": "number", "minimum": 0, "maximum": 1},
+          "example_phrase": {"type": "string", "minLength": 1},
+          "placement_suggestion": {"type": ["string", "null"]},
+          "warnings": {"type": "array", "items": {"type": "string"}}
+        },
+        "additionalProperties": true
+      }
+    },
+    "type_minimums": {
+      "type": "object",
+      "additionalProperties": {"type": "integer", "minimum": 0}
+    },
+    "warnings": {"type": "array", "items": {"type": "string"}}
+  },
+  "additionalProperties": true
+}

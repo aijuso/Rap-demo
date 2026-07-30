@@ -18,6 +18,13 @@ cp agents/claude-code/*.md .claude/agents/
   independence from `partial` to `full`.
 - `rap-reference-analyst.md` — the only role allowed to see artist names; returns an
   anonymous technique vector.
+- `rap-theme-researcher.md` — theme web researcher with two modes: `scout` (repeated inside
+  the CP1 intake loop, returns 3-5 concrete angles per round) and `deep` (one exhaustive
+  keyword sweep after the brief freezes, producing `run/research_bank.json` and the
+  `run/research_keywords.html` table).
+- `rap-rhyme-banker.md` — generates 20+ scored rhyme candidates per selected keyword across
+  all rhyme types (assonance, consonance/"ktkt" skeletons, multimora, phrase/mosaic,
+  placement proposals), producing `run/rhyme_bank.json` and `run/rhyme_bank.html`.
 
 The remaining roles (Narrative, Vocabulary, Humor, Rhyme, Flow, Integrator, Repair Owner,
 Production Director) do not need standing definitions: spawn them as ad-hoc Task subagents

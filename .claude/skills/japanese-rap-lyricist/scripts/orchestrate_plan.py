@@ -27,6 +27,14 @@ ROLE_CONTRACTS = {
         "return abstract techniques with evidence; never imitate a named artist",
         "do not reproduce commercial lyrics",
     ],
+    "theme_research_analyst": [
+        "collect theme vocabulary, episodes, and associations from the web with sources",
+        "attach readings plus vowel/consonant skeletons; never collect lyric sites or invent user biography",
+    ],
+    "rhyme_bank_engineer": [
+        "generate 20+ scored candidates per selected keyword across all rhyme types",
+        "meet per-type minimums (assonance, consonance, multimora, phrase, placement); never fabricate readings",
+    ],
     "reference_sanitizer": [
         "remove artist names, signature phrases, biography, ad-libs, and recognizable scene order",
         "rewrap only anonymous technique operations against the generation brief hash",
@@ -120,12 +128,30 @@ def compile_plan(brief: dict) -> dict:
         )
     common_dependencies = ["reference_sanitize"] if tasks else []
     if mode in {"create", "rewrite", "teach"}:
+        # Scout research happens before the brief freezes (CP1 loop), so it is not a
+        # compiled task; deep research and the rhyme bank are.
+        tasks.append(
+            task(
+                "theme_research",
+                "theme_research_analyst",
+                common_dependencies,
+                "research_bank.json",
+            )
+        )
+        tasks.append(
+            task(
+                "rhyme_bank",
+                "rhyme_bank_engineer",
+                ["theme_research"],
+                "rhyme_bank.json",
+            )
+        )
         tasks.extend(
             [
                 task("narrative", "narrative_architect", common_dependencies, "narrative_map.json"),
                 task("vocabulary", "vocabulary_director", common_dependencies, "vocabulary_bank.json"),
                 task("humor", "humor_engineer", common_dependencies, "humor_plan.json"),
-                task("rhyme", "rhyme_graph_engineer", common_dependencies, "rhyme_graph.json"),
+                task("rhyme", "rhyme_graph_engineer", common_dependencies + ["rhyme_bank"], "rhyme_graph.json"),
                 task("flow", "flow_mapper", common_dependencies, "flow_map.json"),
             ]
         )
@@ -355,6 +381,29 @@ def compile_plan(brief: dict) -> dict:
         raise ValueError(f"unsupported mode: {mode}")
     task_ids = {item["id"] for item in tasks}
     gates = []
+    if "theme_research" in task_ids:
+        gates.append(
+            {
+                "id": "keyword_selection",
+                "after": ["theme_research"],
+                "requirements": [
+                    "user reviewed research_keywords.html (CP2)",
+                    "selected_keywords recorded in the brief",
+                ],
+            }
+        )
+    if "rhyme_bank" in task_ids:
+        gates.append(
+            {
+                "id": "rhyme_bank_review",
+                "after": ["rhyme_bank"],
+                "requirements": [
+                    "user reviewed rhyme_bank.html (CP3)",
+                    "selected_rhyme_pairs recorded in the brief",
+                    "per-type minimums validated by validate_bank.py",
+                ],
+            }
+        )
     if {"narrative", "vocabulary", "humor", "rhyme", "flow"} <= task_ids:
         gates.append(
             {
