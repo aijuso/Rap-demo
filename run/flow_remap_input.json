@@ -1,0 +1,458 @@
+{
+ "verification": "text_only",
+ "bpm": 140,
+ "meter": "4/4",
+ "bars": [
+  {
+   "index": 1,
+   "bar_id": "B01",
+   "reading": "マタシューカイナンシューメ",
+   "subdivision": "eighth",
+   "entry": "after_rest",
+   "function": "hook"
+  },
+  {
+   "index": 2,
+   "bar_id": "B02",
+   "reading": "ショキセッテーハードモード",
+   "subdivision": "eighth",
+   "entry": "after_rest",
+   "function": "hook"
+  },
+  {
+   "index": 3,
+   "bar_id": "B03",
+   "reading": "セリフナシノモブハイヤク",
+   "subdivision": "eighth",
+   "entry": "after_rest",
+   "function": "hook"
+  },
+  {
+   "index": 4,
+   "bar_id": "B04",
+   "reading": "マワッテンノワコノカイサツ",
+   "subdivision": "eighth",
+   "entry": "after_rest",
+   "function": "punch"
+  },
+  {
+   "index": 5,
+   "bar_id": "B05",
+   "reading": "トラックワマダコナイ",
+   "subdivision": "eighth",
+   "entry": "after_rest",
+   "function": "hook"
+  },
+  {
+   "index": 6,
+   "bar_id": "B06",
+   "reading": "ステータスガメンワザンダカ",
+   "subdivision": "eighth",
+   "entry": "after_rest",
+   "function": "hook"
+  },
+  {
+   "index": 7,
+   "bar_id": "B07",
+   "reading": "イツカカキカエルダイホン",
+   "subdivision": "eighth",
+   "entry": "after_rest",
+   "function": "hook"
+  },
+  {
+   "index": 8,
+   "bar_id": "B08",
+   "reading": "コノクソシナリオ",
+   "subdivision": "eighth",
+   "entry": "after_rest",
+   "function": "punch"
+  },
+  {
+   "index": 9,
+   "bar_id": "B09",
+   "reading": "ダンジョンワマンインデンシャ",
+   "subdivision": "sixteenth",
+   "entry": "pickup",
+   "function": "development"
+  },
+  {
+   "index": 10,
+   "bar_id": "B10",
+   "reading": "タイムカードキッテクエスト",
+   "subdivision": "sixteenth",
+   "entry": "pickup",
+   "function": "development"
+  },
+  {
+   "index": 11,
+   "bar_id": "B11",
+   "reading": "ステータスオープンケーケンチ",
+   "subdivision": "sixteenth",
+   "entry": "pickup",
+   "function": "setup"
+  },
+  {
+   "index": 12,
+   "bar_id": "B12",
+   "reading": "カンストデモジキュースエオキ",
+   "subdivision": "sixteenth",
+   "entry": "pickup",
+   "function": "punch"
+  },
+  {
+   "index": 13,
+   "bar_id": "B13",
+   "reading": "オヤガチャノケッカワハイフズミ",
+   "subdivision": "sixteenth",
+   "entry": "beat_1",
+   "function": "setup"
+  },
+  {
+   "index": 14,
+   "bar_id": "B14",
+   "reading": "リセマラワヒタイオーデス",
+   "subdivision": "sixteenth",
+   "entry": "beat_1",
+   "function": "development"
+  },
+  {
+   "index": 15,
+   "bar_id": "B15",
+   "reading": "ナオテンジョーワゴザイマセン",
+   "subdivision": "sixteenth",
+   "entry": "beat_1",
+   "function": "development"
+  },
+  {
+   "index": 16,
+   "bar_id": "B16",
+   "reading": "スキップデキネーチュートリアル",
+   "subdivision": "sixteenth",
+   "entry": "beat_1",
+   "function": "punch"
+  },
+  {
+   "index": 17,
+   "bar_id": "B17",
+   "reading": "コンビニノレジワエヌピーシー",
+   "subdivision": "triplet",
+   "entry": "beat_1",
+   "function": "setup"
+  },
+  {
+   "index": 18,
+   "bar_id": "B18",
+   "reading": "ムコーカラミリャオレモキャクエー",
+   "subdivision": "triplet",
+   "entry": "beat_1",
+   "function": "development"
+  },
+  {
+   "index": 19,
+   "bar_id": "B19",
+   "reading": "オススメランガマワスムゲンスクロール",
+   "subdivision": "sixteenth",
+   "entry": "pickup",
+   "function": "development"
+  },
+  {
+   "index": 20,
+   "bar_id": "B20",
+   "reading": "ゲンジツダケガズットロードチュー",
+   "subdivision": "sixteenth",
+   "entry": "pickup",
+   "function": "punch"
+  },
+  {
+   "index": 21,
+   "bar_id": "B21",
+   "reading": "ショーガクキンダケソダツヘヤ",
+   "subdivision": "mixed",
+   "entry": "after_rest",
+   "function": "development"
+  },
+  {
+   "index": 22,
+   "bar_id": "B22",
+   "reading": "ガチャノニジダケガマツリ",
+   "subdivision": "mixed",
+   "entry": "after_rest",
+   "function": "development"
+  },
+  {
+   "index": 23,
+   "bar_id": "B23",
+   "reading": "テンセーシタラホンキダス",
+   "subdivision": "mixed",
+   "entry": "after_rest",
+   "function": "setup"
+  },
+  {
+   "index": 24,
+   "bar_id": "B24",
+   "reading": "マドカラトラックサガスメ",
+   "subdivision": "mixed",
+   "entry": "after_rest",
+   "function": "punch"
+  },
+  {
+   "index": 25,
+   "bar_id": "B25",
+   "reading": "マダシューカイナンシューメ",
+   "subdivision": "eighth",
+   "entry": "beat_1",
+   "function": "hook"
+  },
+  {
+   "index": 26,
+   "bar_id": "B26",
+   "reading": "ショキセッテーヘンコーフカ",
+   "subdivision": "eighth",
+   "entry": "beat_1",
+   "function": "hook"
+  },
+  {
+   "index": 27,
+   "bar_id": "B27",
+   "reading": "マタアシタモモブハイヤク",
+   "subdivision": "eighth",
+   "entry": "beat_1",
+   "function": "hook"
+  },
+  {
+   "index": 28,
+   "bar_id": "B28",
+   "reading": "マワシテンノワオススメラン",
+   "subdivision": "eighth",
+   "entry": "beat_1",
+   "function": "punch"
+  },
+  {
+   "index": 29,
+   "bar_id": "B29",
+   "reading": "トラックワモーコナイ",
+   "subdivision": "eighth",
+   "entry": "beat_1",
+   "function": "hook"
+  },
+  {
+   "index": 30,
+   "bar_id": "B30",
+   "reading": "ミアキタガメンノザンダカ",
+   "subdivision": "eighth",
+   "entry": "beat_1",
+   "function": "hook"
+  },
+  {
+   "index": 31,
+   "bar_id": "B31",
+   "reading": "シュジンコーホセーワドコダヨ",
+   "subdivision": "eighth",
+   "entry": "beat_1",
+   "function": "hook"
+  },
+  {
+   "index": 32,
+   "bar_id": "B32",
+   "reading": "モーソーデテンセーシテミッカ",
+   "subdivision": "eighth",
+   "entry": "beat_1",
+   "function": "turn"
+  },
+  {
+   "index": 33,
+   "bar_id": "B33",
+   "reading": "メヲトジリャシロイヒカリ",
+   "subdivision": "sixteenth",
+   "entry": "after_rest",
+   "function": "development"
+  },
+  {
+   "index": 34,
+   "bar_id": "B34",
+   "reading": "ギルドノウケツケマズシンサ",
+   "subdivision": "sixteenth",
+   "entry": "after_rest",
+   "function": "setup"
+  },
+  {
+   "index": 35,
+   "bar_id": "B35",
+   "reading": "ソービジマエヤチンワハッセー",
+   "subdivision": "sixteenth",
+   "entry": "after_rest",
+   "function": "development"
+  },
+  {
+   "index": 36,
+   "bar_id": "B36",
+   "reading": "ホーシューノランニワヤリガイ",
+   "subdivision": "sixteenth",
+   "entry": "after_rest",
+   "function": "punch"
+  },
+  {
+   "index": 37,
+   "bar_id": "B37",
+   "reading": "チートハイフワカキンシャカラ",
+   "subdivision": "sixteenth",
+   "entry": "beat_1",
+   "function": "development"
+  },
+  {
+   "index": 38,
+   "bar_id": "B38",
+   "reading": "アクヤクレージョーモハイヤクノウチ",
+   "subdivision": "sixteenth",
+   "entry": "beat_1",
+   "function": "development"
+  },
+  {
+   "index": 39,
+   "bar_id": "B39",
+   "reading": "ナンシューシテモオナジショキハイフ",
+   "subdivision": "sixteenth",
+   "entry": "beat_1",
+   "function": "development"
+  },
+  {
+   "index": 40,
+   "bar_id": "B40",
+   "reading": "トラックワキタニダイニワキュージン",
+   "subdivision": "sixteenth",
+   "entry": "beat_1",
+   "function": "punch"
+  },
+  {
+   "index": 41,
+   "bar_id": "B41",
+   "reading": "マッテタノワキューサイジャナクテメンセキ",
+   "subdivision": "sixteenth",
+   "entry": "pickup",
+   "function": "development"
+  },
+  {
+   "index": 42,
+   "bar_id": "B42",
+   "reading": "ヒキナオセネーデモステフリワコノテ",
+   "subdivision": "sixteenth",
+   "entry": "pickup",
+   "function": "punch"
+  },
+  {
+   "index": 43,
+   "bar_id": "B43",
+   "reading": "ナフダノアイツモオナジモブガワ",
+   "subdivision": "triplet",
+   "entry": "beat_1",
+   "function": "development"
+  },
+  {
+   "index": 44,
+   "bar_id": "B44",
+   "reading": "モブモムレレバグンシューノコエ",
+   "subdivision": "triplet",
+   "entry": "beat_1",
+   "function": "punch"
+  },
+  {
+   "index": 45,
+   "bar_id": "B45",
+   "reading": "ホセーワクバラレナイ",
+   "subdivision": "mixed",
+   "entry": "beat_1",
+   "function": "development"
+  },
+  {
+   "index": 46,
+   "bar_id": "B46",
+   "reading": "アルイタブンダケダイホン",
+   "subdivision": "mixed",
+   "entry": "beat_1",
+   "function": "development"
+  },
+  {
+   "index": 47,
+   "bar_id": "B47",
+   "reading": "ガメンヲトジル",
+   "subdivision": "mixed",
+   "entry": "beat_1",
+   "function": "setup"
+  },
+  {
+   "index": 48,
+   "bar_id": "B48",
+   "reading": "ツギノジャナイコノシューカイ",
+   "subdivision": "mixed",
+   "entry": "beat_1",
+   "function": "punch"
+  },
+  {
+   "index": 49,
+   "bar_id": "B49",
+   "reading": "トラックワモーイラナイ",
+   "subdivision": "eighth",
+   "entry": "beat_1",
+   "function": "hook"
+  },
+  {
+   "index": 50,
+   "bar_id": "B50",
+   "reading": "ハードデモソーサワコノテ",
+   "subdivision": "eighth",
+   "entry": "beat_1",
+   "function": "hook"
+  },
+  {
+   "index": 51,
+   "bar_id": "B51",
+   "reading": "ナマエワジブンデカク",
+   "subdivision": "eighth",
+   "entry": "beat_1",
+   "function": "hook"
+  },
+  {
+   "index": 52,
+   "bar_id": "B52",
+   "reading": "カキカエチューノシナリオ",
+   "subdivision": "eighth",
+   "entry": "beat_1",
+   "function": "hook"
+  },
+  {
+   "index": 53,
+   "bar_id": "B53",
+   "reading": "ライトガスギル",
+   "subdivision": "eighth",
+   "entry": "after_rest",
+   "function": "punch"
+  },
+  {
+   "index": 54,
+   "bar_id": "B54",
+   "reading": "ガメンオチタ",
+   "subdivision": "eighth",
+   "entry": "after_rest",
+   "function": "development"
+  },
+  {
+   "index": 55,
+   "bar_id": "B55",
+   "reading": "イチギョーメカラカク",
+   "subdivision": "eighth",
+   "entry": "after_rest",
+   "function": "development"
+  },
+  {
+   "index": 56,
+   "bar_id": "B56",
+   "reading": "デアンタノハイヤクワ",
+   "subdivision": "eighth",
+   "entry": "after_rest",
+   "function": "punch"
+  }
+ ],
+ "unknowns": [
+  "ビート実音源なし。全barはproposal"
+ ]
+}

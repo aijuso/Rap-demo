@@ -1,0 +1,90 @@
+{
+  "schema": "integration-report/v1",
+  "run_id": "isekai-satire-001",
+  "draft_revision": 1,
+  "primary_candidate": "conservative",
+  "inputs": [
+    "narrative_plan.artifact.json",
+    "vocabulary_bank.artifact.json",
+    "humor_plan.artifact.json",
+    "rhyme_graph.artifact.json",
+    "flow_map.artifact.json"
+  ],
+  "reconciliation": {
+    "vocabulary_rhyme": [
+      "must_use 11語のうち10語を採用(終電W01のみ案Bでのみ使用。案Aでは不採用を記録)",
+      "rhyme graphの低価値ラベル(同語幹: ガチャ/親ガチャ、課金/無課金、無双/無償)は韻実績として不使用。ガチャ/親ガチャは別barの意味展開のみ",
+      "ニート/チート、底辺、ブラックは punch-down・cliché リスクにより不採用(vocabulary rejected と整合)"
+    ],
+    "narrative_humor": [
+      "HD03(トラック=物流)のverse1配置案を棄却し、narrative P1(B40)へ統合。理由: S1→P1の一回性を守る(2回転生フェイントは効果が割れる)",
+      "HD06(bathos昇給)は独立deviceとして不採用、B12(カンスト/時給据え置き)へ意味統合。理由: verse2密度上限と経験値ネタの重複回避",
+      "HD07はnarrative B34-B36と完全統合(三段落ち: 装備自前→家賃発生→報酬やりがい)",
+      "hook内の職務移動: クソシナリオ命名 B04→B08、HD01回収 B04、S4設置 B28→B31、HD05回収 B28。narrative bar_jobsからの逸脱として記録"
+    ],
+    "rhyme_flow": [
+      "フック実モーラ11-14はH1提案(8-12)を最大+2超過。ハーフタイム16分の併用で発話可能と判断、remapで機械計数し、超過barはflow_deviationとして残す",
+      "fast zone実モーラ: B19(18)/B20(15)/B41(18)/B42(17)は提案範囲15-18内",
+      "B47は7モーラ+後半2拍沈黙、B48は12モーラでbeat_1着地(提案通り)"
+    ]
+  },
+  "conflicts": [
+    {
+      "conflict_id": "C01",
+      "artifacts": ["vocabulary_bank(rejected: トラック)", "narrative_plan(S1/P1核)", "humor_plan(HD03/HD08)"],
+      "description": "vocabularyはトラックを轢死連想リスクで棄却したが、narrative/humorは物語の反転軸に採用",
+      "decision": "採用。ただし衝突・負傷・轢過の描写を全面禁止し、『来ない/来た(荷台に求人)/もういらない/ライトが過ぎる』のみで扱う(R1・violence_note遵守)",
+      "rule": "narrative_core_with_safety_constraint",
+      "owner": "draft_integrator"
+    },
+    {
+      "conflict_id": "C02",
+      "artifacts": ["humor_plan(HD03 placement)", "narrative_plan(B09-12)"],
+      "description": "HD03はverse1 bar9-12にトラック仕込みを要求、narrativeは同barを通勤・打刻に割当",
+      "decision": "narrative優先。トラック回収はB40に一本化、B24の『探す目』で記憶保持(R9対応)",
+      "rule": "meaning_over_humor_placement",
+      "owner": "draft_integrator"
+    },
+    {
+      "conflict_id": "C03",
+      "artifacts": ["flow_map(H1密度8-12)", "draft実語(11-14)"],
+      "description": "フック行の情報量が提案密度をやや超過",
+      "decision": "実語remapで計数し、+2以内はproposal逸脱として保持。録音検証時の削り候補をB06/B28/B31/B32に指定",
+      "rule": "performability_check_deferred_to_audio",
+      "owner": "draft_integrator"
+    },
+    {
+      "conflict_id": "C04",
+      "artifacts": ["narrative_plan(B46=制度側標的の明確化)", "draft(B46=歩いた分だけ台本)"],
+      "description": "B46の職務(書き換え対象=制度の明確化)を個人の記述行為に置換した",
+      "decision": "B44(群衆の声)とB56(聴衆への問い)で集合性を担保し、B46はP4完結を優先。R7(手段の断定回避)にも適合",
+      "rule": "avoid_empty_promise",
+      "owner": "draft_integrator"
+    }
+  ],
+  "humor_density_check": {
+    "hook1": ["HD01"],
+    "verse1": ["HD02(B11-12)", "HD04(B13-16)", "B20パンチ(軽)"],
+    "hook2": ["HD05(B28)"],
+    "verse2": ["HD07(B34-36)", "P1(B40)"],
+    "hook3_outro": ["HD08(B53)"],
+    "verdict": "全セクションで density_map 上限内"
+  },
+  "safety_checks": [
+    "R1: トラック衝突描写なし(B05/B24/B29/B40/B49/B53を目視確認)",
+    "R2: 親ガチャは配布システム語彙のみ(B13-15)。親個人・家庭像への言及なし",
+    "R3: B17(NPC呼び)とB43(同じモブ側)の切除不可ペアを両方保持",
+    "R6: B32『妄想で』の枠づけを保持。B33-39は妄想内",
+    "R4/R7: 実在企業・作品・人物名ゼロ。書き換えの手段は断定せず意志表明に留める",
+    "punch-down監査: 標的は制度・構造・話者自身のみ。店員・課金者・行列・親個人を嘲笑する行なし"
+  ],
+  "unused_candidates": [
+    "終電/充電ペア(案Aでは不採用、案BでB53-54採用)",
+    "ジキュー/チキュー(時給/地球)exact韻: 文脈が作れず棄却",
+    "コンビニ/ゾンビ+に mosaic(0.95): B17-18の意味優先で棄却",
+    "レベル上げ/寝れる前 phrase韻: 密度上限で棄却",
+    "P02(ガチャにも部屋にも天井がある): 天井はHD04内でガチャ用法のみ使用、二義展開は見送り"
+  ],
+  "priority_rule_applied": "意味 > 話者の自然さ > 演奏可能性 > 構造 > 韻密度",
+  "status": "ready"
+}
