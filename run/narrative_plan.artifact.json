@@ -1,0 +1,731 @@
+{
+  "schema": "narrative-plan/v2",
+  "run_id": "isekai-satire-001",
+  "brief_hash": "9602021d191f44e6343f277e0b139131b404808537630daf871ffe8c0ba3a2d6",
+  "producer": {
+    "role": "narrative_architect",
+    "instance_id": "narr-1"
+  },
+  "status": "ready",
+  "inputs": [
+    {
+      "artifact": "brief.json"
+    }
+  ],
+  "evidence": [],
+  "warnings": [],
+  "payload": {
+    "schema": "narrative-plan/v2",
+    "run_id": "isekai-satire-001",
+    "title_working": "この周回 (Working Title)",
+    "core": {
+      "proposition": "転生は救済ではない。この現実こそ最初からハードモード設定のクソシナリオであり、モブ配役を押し付けられた俺たちは配役を拒否して自分の台本を書き換える。",
+      "pressure": "初期ステータスは出生時に配布済み(親ガチャ)で引き直し不可。労働は強制クエスト、課金設計は無資本の射幸心を搾取し、転生ファンタジーはその現実からの逃避装置として消費される。夢を見るほど現状は固定される。",
+      "turn": "転生を想像の中で実行してみると、転生先にも受付・審査・家賃・運営が存在し(proposed)、構造ごと追ってくると気づく。待っていたトラックは転生装置ではなく配送バイトの求人として現れる。チート=主人公補正は配布されない。ならば補正なしで歩く者の記述こそが台本になる、という再解釈。",
+      "residue": "終電後のホームでステータス画面(スマホ)を閉じ、顔を上げる身体像。『次の周回じゃない、この周回』。最終行は聴衆への問い『あんたの配役は?』を残して無音。",
+      "speaker_knowledge_boundary": [
+        "アニメ・ゲームのジャンル共通トロープ知識のみ。実在作品名・キャラ名・アーティスト名・企業名は知っていても口にしない。",
+        "非正規労働と都市生活(満員電車、タイムカード、深夜コンビニ、ワンルーム、奨学金残高、ガチャ課金)の一人称の実感。",
+        "特定の実在企業の内部事情、統計数値、他人の家計の詳細は知らない=口にしない。",
+        "転生の実在は知り得ない。verse2前半の異世界描写は全て話者の想像(proposed)であり、話者自身もそれを妄想と自覚している。",
+        "制度批判は実感からの推論(inferred)または演出上の断定(proposed)。observedは自分の一日の出来事のみ。"
+      ]
+    },
+    "epistemic_note": "observed=話者の一日の実体験描写(B09-B24, B47-B56の身体動作)。inferred=構造の対応関係(親ガチャ=初期配布等)。proposed=異世界内部の描写・『運営は同じ』『配布は持ってる奴から』等の演出上の断定(B33-B39)。unknown=転生の実在・ビート実音源。",
+    "recurring_images": {
+      "IMG_TRUCK": "トラック: 転生装置への願望 → 来ないまま濃くなる待機 → 配送バイト求人として現実に到着(反転) → 過去形で葬られる",
+      "IMG_STATUS": "ステータス画面: スマホ画面(残高・求人アプリ)との二重写し → 見飽きた画面 → 閉じる動作 → 消灯",
+      "IMG_GACHA": "ガチャ: 親ガチャ=出生時配布 → 課金演出の光=唯一の祝祭 → 引き直せないが割り振りは自分の手に(再解釈)",
+      "IMG_SCRIPT": "台本/配役: 他人の手の台本のモブA → 悪役令嬢すら台本の被害者 → モブの声が上書き → 一行目から自分で書く"
+    },
+    "setups_payoffs": [
+      {
+        "id": "S1",
+        "type": "setup",
+        "bar": "B01",
+        "literal": "トラック(転生装置)を待っていたという告白",
+        "audience_prediction": "転生願望の自嘲ネタとして消化される",
+        "withheld": "トラックが求人として現実に来ること",
+        "payoff_id": "P1"
+      },
+      {
+        "id": "P1",
+        "type": "payoff",
+        "bar": "B40",
+        "transform": "反転+スケール変化: 転生装置のはずのトラックが配送バイト募集として到着。妄想が破れ、逃避先も労働市場だったと判明。",
+        "setup_ids": [
+          "S1"
+        ]
+      },
+      {
+        "id": "S2",
+        "type": "setup",
+        "bar": "B06",
+        "literal": "ステータス画面=スマホ画面(残高・通知)の二重写し",
+        "audience_prediction": "ゲーム画面の比喩装飾",
+        "withheld": "画面を『閉じる』選択肢が話者にあること",
+        "payoff_id": "P2"
+      },
+      {
+        "id": "P2",
+        "type": "payoff",
+        "bar": "B47",
+        "transform": "帰結: 比喩だった画面を身体動作で閉じる。B54で消灯し完了。見る側から書く側への移行を動作で示す。",
+        "setup_ids": [
+          "S2"
+        ]
+      },
+      {
+        "id": "S3",
+        "type": "setup",
+        "bar": "B13",
+        "literal": "親ガチャ=出生時の初期ステータス配布、リセマラ不可",
+        "audience_prediction": "格差への諦めの表明",
+        "withheld": "『引き直し』と『割り振り』が別物であること",
+        "payoff_id": "P3"
+      },
+      {
+        "id": "P3",
+        "type": "payoff",
+        "bar": "B42",
+        "transform": "再解釈: ガチャ結果は引き直せないが、ステ振り(配分)はまだ自分の手にある。諦めの語彙を主体性の語彙に変換。",
+        "setup_ids": [
+          "S3"
+        ]
+      },
+      {
+        "id": "S4",
+        "type": "setup",
+        "bar": "B28",
+        "literal": "『主人公補正はどこ?』という問い",
+        "audience_prediction": "いつか補正が来る/来ない嘆きのどちらか",
+        "withheld": "補正はそもそも配布物ではないという答え",
+        "payoff_id": "P4"
+      },
+      {
+        "id": "P4",
+        "type": "payoff",
+        "bar": "B45",
+        "transform": "再解釈: 補正は配布されない。補正なしで歩く者の記述が台本になる。問いの前提(配布を待つ)自体を破壊。",
+        "setup_ids": [
+          "S4"
+        ]
+      },
+      {
+        "id": "S5",
+        "type": "setup",
+        "bar": "B17",
+        "literal": "深夜コンビニで店員をNPCと見る話者の視線(内面の加害性を含む)",
+        "audience_prediction": "モブの上に立とうとする自嘲ギャグ",
+        "withheld": "話者自身も同じ扱いを受けている対称性",
+        "payoff_id": "P5"
+      },
+      {
+        "id": "P5",
+        "type": "payoff",
+        "bar": "B43",
+        "transform": "視点転換+連帯: NPCと呼んだ相手も同じモブ側。モブは群れれば背景ではなく群衆=声。punch-downの視線を制度への視線に反転。",
+        "setup_ids": [
+          "S5"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "section_id": "hook1",
+        "bars": "B01-B08",
+        "function": "主題宣言。転生待ちの自嘲と『現実=ハードモードのクソシナリオ』命名をキャッチーな反復で刻む。S1/S2を設置。",
+        "new_information": "話者はトラック転生を夢見てきたモブ配役の労働者であり、現実を最初からのクソシナリオと呼ぶ。",
+        "scene": "深夜、終電後の駅ホーム。スマホの光だけが顔を照らす。",
+        "emotion": "deadpanな自嘲 → 底に defiance の火種",
+        "recurring_image_state": {
+          "IMG_TRUCK": "願望として初出",
+          "IMG_STATUS": "スマホと二重写しで初出",
+          "IMG_SCRIPT": "他人の手の台本として初出",
+          "IMG_GACHA": "未出"
+        },
+        "setup_ids": [
+          "S1",
+          "S2"
+        ],
+        "payoff_ids": []
+      },
+      {
+        "section_id": "verse1",
+        "bars": "B09-B24",
+        "function": "現実の一日をゲームUIの語彙でトレースし、対応構造(親ガチャ=初期配布、就活=ギルド審査、残業=強制クエスト、無課金=無資本)を具体で積む。風刺の証拠固め。S3/S5を設置。",
+        "new_information": "話者の一日の実態: 満員電車→タイムカード→換金されないスキル→出生時配布のステータス→深夜コンビニ→奨学金残高→ガチャ課金の光→『転生したら本気出す』の自己欺瞞。",
+        "scene": "朝の満員電車 → 職場 → 深夜のコンビニ → ワンルーム。時系列で一日を圧縮。",
+        "emotion": "疲労の淡々 → 皮肉の鋭さ → 課金の光の虚しい高揚 → 自己欺瞞への冷笑",
+        "recurring_image_state": {
+          "IMG_STATUS": "残高・求人アプリとして日常に浸透",
+          "IMG_GACHA": "親ガチャ(初出)→課金演出の光へ展開",
+          "IMG_TRUCK": "B24で探す視線として再燃",
+          "IMG_SCRIPT": "モブの台詞すら与えられない日常として進行"
+        },
+        "setup_ids": [
+          "S3",
+          "S5"
+        ],
+        "payoff_ids": []
+      },
+      {
+        "section_id": "hook2",
+        "bars": "B25-B32",
+        "function": "hook1の反復で定着させつつ一行変化(『主人公補正はどこ?』S4)を差し込み、末尾でverse2の転生シミュレーションへ転調予告。",
+        "new_information": "補正への問いが初めて言語化される。話者が『なら想像の中で転生してみる』と決める。",
+        "scene": "同じ駅ホーム。ただし話者はもう電車を待っていない。",
+        "emotion": "自嘲の反復が苛立ちに変質 → 実験的な好奇心",
+        "recurring_image_state": {
+          "IMG_TRUCK": "待つ空しさが濃くなる",
+          "IMG_STATUS": "『見飽きた画面』へ進行",
+          "IMG_SCRIPT": "書き換え予告が半歩強く"
+        },
+        "setup_ids": [
+          "S4"
+        ],
+        "payoff_ids": []
+      },
+      {
+        "section_id": "verse2",
+        "bars": "B33-B48",
+        "function": "転生シミュレーション(proposed)→構造は追ってくると判明→P1でトラック反転→覚醒とP3/P5/P4の連続回収→配役拒否宣言。物語のターン本体。",
+        "new_information": "異世界にも受付・審査・家賃・運営がある(proposed)。トラックは求人だった。待っていたのは救済でなく免責。割り振りは自分の手にある。モブは群れれば声。補正なしの記述が台本になる。",
+        "scene": "想像の白い光の異世界(B33-B39) → 現実の路上に引き戻される(B40) → 深夜の街を歩く(B41-B48)。",
+        "emotion": "妄想の浮遊感 → 既視感による冷え → 破裂(B40) → 痛みを伴う自認 → 静かな決意の上昇",
+        "recurring_image_state": {
+          "IMG_TRUCK": "B40で求人として到着=反転完了",
+          "IMG_GACHA": "B42で割り振りの再解釈",
+          "IMG_SCRIPT": "B44-B45で上書き開始",
+          "IMG_STATUS": "B47で閉じる動作"
+        },
+        "setup_ids": [],
+        "payoff_ids": [
+          "P1",
+          "P3",
+          "P5",
+          "P4"
+        ],
+        "note": "B33-B39の異世界内部描写は全て話者の想像であり、歌詞上断定調でも設計上proposed。"
+      },
+      {
+        "section_id": "hook3_outro",
+        "bars": "B49-B56",
+        "function": "hookの変奏で回収を固定。『待つ』動詞を『書く』に置換。B53以降は声数を落としoutro化、P2完了と residue の問いで無音に落とす。",
+        "new_information": "『トラック待ってた』が過去形になる。画面消灯。書き換えは一行目から始まっている。聴衆への問いが残る。",
+        "scene": "終電後のホームから改札を出て夜の街へ。画面消灯後の暗さと静けさ。",
+        "emotion": "defiantな確信 → deadpanな静けさ → 開かれた問い",
+        "recurring_image_state": {
+          "IMG_TRUCK": "過去形で葬送",
+          "IMG_STATUS": "消灯=完了",
+          "IMG_SCRIPT": "一行目を書き始める",
+          "IMG_GACHA": "もう引かない、という不在で完了"
+        },
+        "setup_ids": [],
+        "payoff_ids": [
+          "P2"
+        ]
+      }
+    ],
+    "quatrain_shifts": [
+      {
+        "bars": "B01-B04",
+        "changes": [
+          "information"
+        ],
+        "reason": "主題の四行提示。トラック願望→ハードモード→モブ配役→クソシナリオ命名と、1小節ごとに新規語彙を積んで世界観を確立する。"
+      },
+      {
+        "bars": "B05-B08",
+        "changes": [
+          "information",
+          "flow"
+        ],
+        "reason": "同型反復に一語ずつ変化(来ない/画面/書き換え予告)を入れ、フックの反復快楽を保ちながらS2と turn の種を仕込む。反復による譜割りの固定はフック機能として意図的(proposed)。"
+      },
+      {
+        "bars": "B09-B12",
+        "changes": [
+          "information",
+          "emotion"
+        ],
+        "reason": "場面が駅ホームから朝の通勤へ跳ぶ。ゲームUI語彙×労働描写の衝突が始まり、感情はdeadpanから疲労の淡々へ。"
+      },
+      {
+        "bars": "B13-B16",
+        "changes": [
+          "information",
+          "emotion"
+        ],
+        "reason": "個人の一日から出生時配布(親ガチャ)へスケール拡大。皮肉が鋭くなり、B16で概念パンチ『終わらないチュートリアル』により感情のピークを作る。"
+      },
+      {
+        "bars": "B17-B20",
+        "changes": [
+          "information",
+          "emotion"
+        ],
+        "reason": "場面が深夜コンビニへ転換。話者の視線の加害性(S5)という新情報で聴き手に軽い不快を意図的に残し、B18で対称性の兆しを見せて宙吊りにする。"
+      },
+      {
+        "bars": "B21-B24",
+        "changes": [
+          "information",
+          "emotion",
+          "flow"
+        ],
+        "reason": "ワンルームの密室に収束。奨学金残高→課金の光の虚しい高揚→自己欺瞞の冷笑と感情が三段変化し、B24でトラックを探す視線がhook2への橋になる(フックへ向け譜割りを開く: proposed)。"
+      },
+      {
+        "bars": "B25-B28",
+        "changes": [
+          "information"
+        ],
+        "reason": "hook1の反復で定着させた上で、B28の一行変化『主人公補正はどこ?』(S4)が新情報。反復の中の一点変化なので変化が最大限目立つ。"
+      },
+      {
+        "bars": "B29-B32",
+        "changes": [
+          "emotion",
+          "information"
+        ],
+        "reason": "同型反復の意味が自嘲から苛立ちへ変質(image state進行)。B32で『想像の中で転生してみる』という決定が入り、verse2への転調を予告する。"
+      },
+      {
+        "bars": "B33-B36",
+        "changes": [
+          "information",
+          "emotion",
+          "flow"
+        ],
+        "reason": "想像の異世界へ場面転換。浮遊感のある妄想モード(フロー変化はproposed)だが、受付・審査・家賃と既視感が積もり、B36『異世界の空にも求人票』で冷える。"
+      },
+      {
+        "bars": "B37-B40",
+        "changes": [
+          "information",
+          "emotion"
+        ],
+        "reason": "チート配布の行列(格差の再生産, proposed)→悪役令嬢も台本の被害者→周回=転職の徒労、と風刺が制度批判に深化し、B40のP1(トラック=求人)で妄想が破裂する。感情は冷えから破裂へ。"
+      },
+      {
+        "bars": "B41-B44",
+        "changes": [
+          "information",
+          "emotion"
+        ],
+        "reason": "覚醒パート。『待っていたのは免責』という痛みを伴う自認(B41)からP3(割り振り)、P5(連帯)へ。感情が下降から上昇へ折り返す転換点。"
+      },
+      {
+        "bars": "B45-B48",
+        "changes": [
+          "information",
+          "flow"
+        ],
+        "reason": "P4(補正は配布されない)で問いの前提を破壊し、B47の身体動作(画面を閉じる)、B48の残像フレーズ『この周回』へ。宣言に向けて語数を絞り譜割りを立てる(proposed)。"
+      },
+      {
+        "bars": "B49-B52",
+        "changes": [
+          "information",
+          "emotion"
+        ],
+        "reason": "hook変奏。『待ってた』が過去形になり、動詞が『待つ』から『書く』へ置換される。自嘲だった同型フレーズが確信として鳴る=callbackの意味変化。"
+      },
+      {
+        "bars": "B53-B56",
+        "changes": [
+          "flow",
+          "emotion",
+          "information"
+        ],
+        "reason": "outro化。声数と密度を落とし(proposed)、静けさの中でP2完了(消灯)、独白、最終の問い『あんたの配役は?』で聴衆に開いて無音に落とす。"
+      }
+    ],
+    "bar_jobs": [
+      {
+        "bar_id": "B01",
+        "job": "hook_theme_A",
+        "must_communicate": "トラック(転生装置)を待っていたという自嘲の告白(S1設置)",
+        "withheld_information": "トラックが後に求人として現実に来ること(P1)"
+      },
+      {
+        "bar_id": "B02",
+        "job": "hook_theme_B",
+        "must_communicate": "この現実は最初からハードモード設定だという断言",
+        "withheld_information": "誰が設定したのかという問い(制度への視線は後半まで温存)"
+      },
+      {
+        "bar_id": "B03",
+        "job": "hook_theme_C",
+        "must_communicate": "配役はモブ、台本は他人の手にある(IMG_SCRIPT初出)",
+        "withheld_information": "台本を書き換える可能性"
+      },
+      {
+        "bar_id": "B04",
+        "job": "hook_cap",
+        "must_communicate": "『クソシナリオ』という命名でquatrainを締め、タイトル級フレーズを刻む",
+        "withheld_information": "シナリオを書き換える結末"
+      },
+      {
+        "bar_id": "B05",
+        "job": "hook_theme_A_var",
+        "must_communicate": "待ってもトラック(転生装置)は来ないという半歩の現実",
+        "withheld_information": "来るのは別の形のトラックであること"
+      },
+      {
+        "bar_id": "B06",
+        "job": "hook_theme_B_var",
+        "must_communicate": "ステータス画面=スマホ画面の二重写し(S2設置, IMG_STATUS初出)",
+        "withheld_information": "画面を閉じる選択肢(P2)"
+      },
+      {
+        "bar_id": "B07",
+        "job": "hook_theme_C_var",
+        "must_communicate": "『それでも書き換える』というturnの種の予告(半信半疑のトーン)",
+        "withheld_information": "どうやって書き換えるかの中身"
+      },
+      {
+        "bar_id": "B08",
+        "job": "hook_cap_bridge",
+        "must_communicate": "フックフレーズの固定と、verse1(俺の一日を見せる)への橋",
+        "withheld_information": "一日の具体的な中身"
+      },
+      {
+        "bar_id": "B09",
+        "job": "scene_establish",
+        "must_communicate": "朝の満員電車=ダンジョン入場/護送のイメージで一日が始まる(observed)",
+        "withheld_information": "この一日が転生妄想の燃料になっていること"
+      },
+      {
+        "bar_id": "B10",
+        "job": "detail_advance",
+        "must_communicate": "タイムカード打刻=クエスト受注の効果音という対応(observed+inferred)",
+        "withheld_information": "クエスト報酬が割に合わないこと(B11-B12へ)"
+      },
+      {
+        "bar_id": "B11",
+        "job": "irony_build",
+        "must_communicate": "積んだスキルツリーと求人票の数字が釣り合わない=スキルが換金されない",
+        "withheld_information": "換金されない構造の理由(断定せず実感に留める)"
+      },
+      {
+        "bar_id": "B12",
+        "job": "quatrain_punch",
+        "must_communicate": "経験値は貯まるのにレベル(給料)は上がらない、という皮肉でquatrainを締める",
+        "withheld_information": "レベル制自体を降りる選択肢"
+      },
+      {
+        "bar_id": "B13",
+        "job": "scale_expand",
+        "must_communicate": "親ガチャ=初期ステータスは出生時に配布済み(S3設置, IMG_GACHA初出)。標的は配布の仕組みであり親個人ではない",
+        "withheld_information": "引き直しと割り振りが別物であること(P3)"
+      },
+      {
+        "bar_id": "B14",
+        "job": "pressure_build",
+        "must_communicate": "リセマラ不可、引き直しボタンは存在しない(inferred)",
+        "withheld_information": "同上(P3の温存)"
+      },
+      {
+        "bar_id": "B15",
+        "job": "satire_advance",
+        "must_communicate": "無課金=無資本、スタミナは残業では回復しない(課金設計への風刺)",
+        "withheld_information": "課金の光の誘惑(B22で回収)"
+      },
+      {
+        "bar_id": "B16",
+        "job": "quatrain_punch",
+        "must_communicate": "『チュートリアルが終わらない人生』級の概念パンチで配布制度の理不尽を圧縮",
+        "withheld_information": "チュートリアルを抜ける方法"
+      },
+      {
+        "bar_id": "B17",
+        "job": "scene_shift_setup",
+        "must_communicate": "深夜コンビニ。店員をNPCと見る話者の視線(S5設置)。加害性を含む視線として提示",
+        "withheld_information": "話者自身も同じ扱いを受けている対称性(P5)"
+      },
+      {
+        "bar_id": "B18",
+        "job": "mirror_hint",
+        "must_communicate": "レジの向こうから見れば自分も客Aという名のNPC、という反転の兆し",
+        "withheld_information": "反転の完成(連帯への転換はB43まで温存)"
+      },
+      {
+        "bar_id": "B19",
+        "job": "satire_advance",
+        "must_communicate": "SNSのおすすめ欄は神託ではなくアルゴリズムの誘導(proposed。企業名なし、仕組み一般への風刺)",
+        "withheld_information": "誘導の外に出る選択"
+      },
+      {
+        "bar_id": "B20",
+        "job": "quatrain_punch",
+        "must_communicate": "画面の中の異世界だけが動いていて、現実は読み込み中のまま、という停滞の可視化",
+        "withheld_information": "読み込みを進めるのが自分であること"
+      },
+      {
+        "bar_id": "B21",
+        "job": "scene_shift",
+        "must_communicate": "ワンルーム帰宅。奨学金残高=マイナスからのスタート画面(observed)",
+        "withheld_information": "マイナス表示を見る以外の行動"
+      },
+      {
+        "bar_id": "B22",
+        "job": "irony_peak",
+        "must_communicate": "ガチャ課金の演出光がこの部屋で唯一の祝祭(射幸設計への風刺、課金者を嘲笑しない)",
+        "withheld_information": "祝祭の翌朝の残高"
+      },
+      {
+        "bar_id": "B23",
+        "job": "self_deception",
+        "must_communicate": "『転生したら本気出す』という自己欺瞞をdeadpanで自分に言わせる",
+        "withheld_information": "その台詞自体が配役を固定していること(B41で回収)"
+      },
+      {
+        "bar_id": "B24",
+        "job": "verse_cap_bridge",
+        "must_communicate": "窓の外・道路にトラックを探す視線(S1強化)でverse1を閉じhook2へ渡す",
+        "withheld_information": "探す行為の空しさの正体"
+      },
+      {
+        "bar_id": "B25",
+        "job": "hook_repeat_A",
+        "must_communicate": "hook1主題Aの反復(トラック待ち)。定着が目的の texture bar だが image state は空しさが増している",
+        "withheld_information": "P1"
+      },
+      {
+        "bar_id": "B26",
+        "job": "hook_repeat_B",
+        "must_communicate": "hook1主題Bの反復(ハードモード)",
+        "withheld_information": "設定者への問い"
+      },
+      {
+        "bar_id": "B27",
+        "job": "hook_repeat_C",
+        "must_communicate": "hook1主題Cの反復(モブ配役)",
+        "withheld_information": "書き換えの方法"
+      },
+      {
+        "bar_id": "B28",
+        "job": "hook_variation_punch",
+        "must_communicate": "反復を破る一行変化『主人公補正はどこ?』(S4設置)",
+        "withheld_information": "補正が配布物ではないという答え(P4)"
+      },
+      {
+        "bar_id": "B29",
+        "job": "hook_repeat_A_var",
+        "must_communicate": "A型反復だが『待つ』ことの空しさが濃くなる(感情の変質)",
+        "withheld_information": "待つのをやめる決定"
+      },
+      {
+        "bar_id": "B30",
+        "job": "hook_repeat_B_var",
+        "must_communicate": "B型反復、ステータス画面が『見飽きた』へ進行(IMG_STATUS変化)",
+        "withheld_information": "閉じる動作(P2)"
+      },
+      {
+        "bar_id": "B31",
+        "job": "hook_repeat_C_var",
+        "must_communicate": "C型反復、書き換え予告が半歩強く(疑問形から意志形へ)",
+        "withheld_information": "実行の中身"
+      },
+      {
+        "bar_id": "B32",
+        "job": "hook_cap_modulate",
+        "must_communicate": "『なら試しに転生してみるか——想像の中で』とverse2への転調を予告。以降が妄想であることをここで明示(proposedの枠づけ)",
+        "withheld_information": "妄想の結末が破裂であること"
+      },
+      {
+        "bar_id": "B33",
+        "job": "fantasy_open",
+        "must_communicate": "想像の転生開始: 白い光、ステータス画面が開く(妄想モード, proposed)",
+        "withheld_information": "この世界にも運営がいること"
+      },
+      {
+        "bar_id": "B34",
+        "job": "deja_vu_build",
+        "must_communicate": "異世界の受付=ギルド審査が就活の書類と同じ手触り(proposed satire)",
+        "withheld_information": "既視感の正体(構造が同じ)"
+      },
+      {
+        "bar_id": "B35",
+        "job": "deja_vu_build",
+        "must_communicate": "転生先にも家賃と徴収と運営が存在する(proposed。演出上の断定と設計上明記)",
+        "withheld_information": "逃げ場が地理ではなく構造の問題であること"
+      },
+      {
+        "bar_id": "B36",
+        "job": "quatrain_punch",
+        "must_communicate": "『異世界の空にも求人票』級のパンチ: どこへ行っても構造は追ってくる",
+        "withheld_information": "ならどうするかの答え"
+      },
+      {
+        "bar_id": "B37",
+        "job": "satire_deepen",
+        "must_communicate": "チート能力の配布所に行列、配布は持てる者から(格差の再生産, proposed)。標的は配布の設計であり並ぶ人ではない",
+        "withheld_information": "配布を待たない道"
+      },
+      {
+        "bar_id": "B38",
+        "job": "trope_reframe",
+        "must_communicate": "悪役令嬢すら台本に配役された被害者(IMG_SCRIPT一般化)。個人ではなく台本=構造が標的だと示す",
+        "withheld_information": "台本の書き手を交代させられること"
+      },
+      {
+        "bar_id": "B39",
+        "job": "futility_peak",
+        "must_communicate": "周回プレイ=転職リセマラの徒労。何周しても初期配布が同じなら結果も同じ(inferred)",
+        "withheld_information": "周回ではなくこの周を選ぶ発想(B48)"
+      },
+      {
+        "bar_id": "B40",
+        "job": "payoff_reversal",
+        "must_communicate": "P1回収: トラックは来た——配送バイト募集の求人として。転生装置ではなく労働。妄想がここで破れ現実の路上に戻る",
+        "withheld_information": "なし(破裂は隠さず鳴らす)"
+      },
+      {
+        "bar_id": "B41",
+        "job": "awakening_cost",
+        "must_communicate": "待っていたのは救済ではなく免責だったという痛みを伴う自認(B23の自己欺瞞の回収)",
+        "withheld_information": "自認の先の行動(B42以降)"
+      },
+      {
+        "bar_id": "B42",
+        "job": "payoff_reinterpret",
+        "must_communicate": "P3回収: ガチャは引き直せない、だが割り振り(配分)はまだ自分の手にある。諦めの語彙を主体性の語彙へ変換",
+        "withheld_information": "何に振るのかの具体(聴き手に開く)"
+      },
+      {
+        "bar_id": "B43",
+        "job": "payoff_solidarity",
+        "must_communicate": "P5回収: NPCと呼んだ店員も同じモブ側。視線の加害性を自己批判し、punch-downを制度への視線に反転",
+        "withheld_information": "群衆の力の規模(B44へ)"
+      },
+      {
+        "bar_id": "B44",
+        "job": "quatrain_punch",
+        "must_communicate": "モブは群れれば背景ではなく群衆=声。『モブの声が台本を上書きする』連帯宣言",
+        "withheld_information": "上書きの一行目(B55)"
+      },
+      {
+        "bar_id": "B45",
+        "job": "payoff_thesis",
+        "must_communicate": "P4回収: 主人公補正は配布されない。補正なしで歩く者の記述が台本になる。問いの前提を破壊",
+        "withheld_information": "なし(主題の裸の断言)"
+      },
+      {
+        "bar_id": "B46",
+        "job": "target_clarify",
+        "must_communicate": "書き換える対象は求人票の数字や配布の設計=制度側だと明確化(proposed。実現手段は断定しない)",
+        "withheld_information": "具体的な手段(話者の知識境界の外)"
+      },
+      {
+        "bar_id": "B47",
+        "job": "embodied_action",
+        "must_communicate": "P2前半: ステータス画面(スマホ)を閉じる身体動作。比喩を動作で回収",
+        "withheld_information": "消灯の完了(B54)"
+      },
+      {
+        "bar_id": "B48",
+        "job": "verse_cap_residue",
+        "must_communicate": "『次の周回じゃない、この周回』の残像フレーズでverse2を閉じhook3へ",
+        "withheld_information": "なし(残像として反響させる)"
+      },
+      {
+        "bar_id": "B49",
+        "job": "hook_final_A",
+        "must_communicate": "『トラック待ってた』を過去形で歌い、願望を葬送する(callbackの意味変化)",
+        "withheld_information": "なし"
+      },
+      {
+        "bar_id": "B50",
+        "job": "hook_final_B",
+        "must_communicate": "ハードモードは認める、だがコントローラーはもう自分の手にあるという変奏",
+        "withheld_information": "なし"
+      },
+      {
+        "bar_id": "B51",
+        "job": "hook_final_C",
+        "must_communicate": "配役拒否: モブAの名は台本にない——なら自分で書く(IMG_SCRIPT完了へ)",
+        "withheld_information": "書かれる名前(聴き手それぞれに開く)"
+      },
+      {
+        "bar_id": "B52",
+        "job": "hook_final_cap",
+        "must_communicate": "タイトル級フレーズの最終変奏。『クソシナリオ』が『書き換え中のシナリオ』へ",
+        "withheld_information": "なし"
+      },
+      {
+        "bar_id": "B53",
+        "job": "outro_decompress",
+        "must_communicate": "声数と密度を落とす(proposed)。終電後のホームの静けさ、deadpanに戻る",
+        "withheld_information": "最後の問い"
+      },
+      {
+        "bar_id": "B54",
+        "job": "outro_action",
+        "must_communicate": "P2完了: 画面消灯、顔を上げる。暗くなった分だけ夜の街が見える",
+        "withheld_information": "なし"
+      },
+      {
+        "bar_id": "B55",
+        "job": "outro_whisper",
+        "must_communicate": "独白『書き換えは一行目から』——上書きの一行目が今この曲であることを示唆",
+        "withheld_information": "なし"
+      },
+      {
+        "bar_id": "B56",
+        "job": "final_residue",
+        "must_communicate": "聴衆への問い『あんたの配役は?』を残して無音へ。residue固定",
+        "withheld_information": "答え(聴衆に委ねる)"
+      }
+    ],
+    "continuity_risks": [
+      {
+        "id": "R1",
+        "risk": "トラック転生トロープは実際の交通事故被害を想起させ得る。歌詞化の際、事故そのものを茶化す描写・具体的な事故描写を禁止し、『来ない装置を待つ』抽象イメージに留めること。B40の反転(求人トラック)はこの回避策でもある。",
+        "severity": "high"
+      },
+      {
+        "id": "R2",
+        "risk": "『親ガチャ』は親個人へのpunch-downに滑りやすい。標的は出生時配布という仕組みのメタファーに固定し、親を責める語彙・特定の家庭像を出さない(B13-B14)。",
+        "severity": "high"
+      },
+      {
+        "id": "R3",
+        "risk": "B17のNPC呼びはB43のP5とペアで初めて成立する。改稿でB43が削られるとpunch-downのまま終わる。B17とB43は切除不可のペアとして扱うこと。",
+        "severity": "high"
+      },
+      {
+        "id": "R4",
+        "risk": "B19(おすすめ欄)・B22(課金演出)・B37(配布行列)は実在企業・実在タイトルを連想させる固有の演出名/UI名を使わないこと。仕組み一般の語彙に限定。課金する人・並ぶ人を嘲笑しない。",
+        "severity": "medium"
+      },
+      {
+        "id": "R5",
+        "risk": "hook2の反復(B25-B27)が字面までhook1と同一だと4小節変化則に抵触。各反復行で image state(空しさ・見飽き・意志)を一語レベルで必ず進めること。",
+        "severity": "medium"
+      },
+      {
+        "id": "R6",
+        "risk": "B33-B39の異世界描写とB35『運営は同じ』は演出上の断定(proposed)。B32の枠づけ(『想像の中で』)が改稿で失われると話者の知識境界violation になる。B32は切除不可。",
+        "severity": "medium"
+      },
+      {
+        "id": "R7",
+        "risk": "B45-B46の『台本になる』『書き換えさせる』は手段を断定すると空約束になる。実現手段は話者の知識境界の外なのでproposedの意志表明に留め、扇動・特定行動の指示にしないこと。",
+        "severity": "medium"
+      },
+      {
+        "id": "R8",
+        "risk": "フロー/ポケットに関する指定(B32の転調、B48の語数絞り、B53の減速等)はビート音源未確定のため全てproposal。作詞・音源確定後に再検証が必要。",
+        "severity": "low"
+      },
+      {
+        "id": "R9",
+        "risk": "P1(B40)とS1(B01)の距離が39小節と長い。hook2のB25/B29でトラックを再言及して記憶を保持する設計だが、hook改稿時にトラック語を落とすとpayoffが孤立する。",
+        "severity": "medium"
+      }
+    ]
+  }
+}
