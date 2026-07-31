@@ -59,7 +59,8 @@
 
 ## 監査順序
 
-1. brief、話者、事実境界を確認する。
+1. brief、話者、事実境界を確認する。`checkpoint_log` とユーザー返答の引用を照合し、
+   G8（プロセス証拠）を先に判定する。
 2. originality、意味、自然な日本語、安全のhard gateを適用する。
 3. 1行ごとに意味を平易に言い換える。
 4. 2小節または4小節ごとの新情報、感情、flow変化を記録する。
@@ -147,6 +148,23 @@
 - 架空表現を実在の事実として見せる。
 
 削除または明確なfiction化まで0点とする。
+
+### G8 プロセス証拠（checkpoint evidence）
+
+チェックポイントはユーザーの舵取りの権利であり、仮定の丁寧な記録では代替できない。
+
+失敗条件:
+
+- `interaction_mode` が `collaborative`（または未記録）なのに、CP1〜CP4 のそれぞれについて
+  ユーザーの実際の返答の逐語引用が `checkpoint_log` にない。
+- `autonomous` を主張しているが、ユーザー自身の明示的な委任発言の逐語引用がない。
+  環境が自律実行前提であることは委任の根拠にならない。
+- 最初のユーザー回答と同一ターンで完成稿が納品されている。
+- CP1 が1ラウンドの一括質問（3問まとめ等）だけで凍結されており、ユーザーの依頼が
+  最初から全必須項目を満たしていたわけでもない。
+
+`FAIL` は49点を上限にする。`create` / `rewrite` の監査では audit-evidence の
+`interaction` ブロックを必須とし、欠落は unknowns に記録して conditional_pass 止まりにする。
 
 ## 行・小節・セクション分析
 
@@ -553,7 +571,7 @@ verification:
   spoken_read: false
   recorded_on_beat: false
 hard_gates:
-  - gate_id: G1
+  - gate_id: G1   # G1〜G8。G8はプロセス証拠（checkpoint evidence）
     result: pass | fail | hold | unverified
     evidence: []
     score_cap: null

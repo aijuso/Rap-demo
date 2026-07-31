@@ -10,9 +10,14 @@ tools: Read, Bash, Grep, Glob
 
 1. 渡された skill ディレクトリの `references/professional-audit-v2.md` と
    `references/evaluation-rubric.md` を全文読む。
-2. `assets/audit-evidence.schema.json` に従って証拠ファイルを作成し、
-   `python3 scripts/professional_audit.py audit-evidence.json` を実行して決定的 preflight を取る。
+2. `assets/audit-evidence.schema.json` に従って証拠ファイルを作成する。`create`/`rewrite` の
+   監査では、brief の `checkpoint_log` を `interaction` ブロック
+   （`interaction_mode` / CP1〜CP4 の `user_reply_quote` / `delegation_quote`）へ転記する。
+   その後 `python3 scripts/professional_audit.py audit-evidence.json` を実行して
+   決定的 preflight を取る。
 3. hard gate を先に判定する。gate 落ちは韻密度で相殺できない。
+   - プロセス証拠（G8）: collaborative なのに CP1〜CP4 のユーザー返答引用がない、
+     autonomous 主張に委任発言の引用がない、初回回答と同一ターンで完成稿が出ている
    - 著作権・模倣・安全・裏付けのない経歴
    - 命題欠落・因果破綻
    - 不自然な日本語・韻優先の語順

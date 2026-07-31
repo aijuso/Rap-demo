@@ -13,11 +13,48 @@ from collections import Counter
 from pathlib import Path
 
 
+REQUIRED_CHECKPOINTS = ("CP1", "CP2", "CP3", "CP4")
+
+
+def check_interaction(payload: dict, hard_gates: list[str], warnings: list[str],
+                      unknowns: list[str]) -> None:
+    """Deterministic G8 preflight: checkpoint evidence for collaborative runs."""
+    interaction = payload.get("interaction")
+    if interaction is None:
+        unknowns.append(
+            "interaction block missing; checkpoint evidence (G8) cannot be verified"
+        )
+        warnings.append(
+            "create/rewrite audits must supply an interaction block with checkpoint evidence"
+        )
+        return
+    mode = interaction.get("interaction_mode", "collaborative")
+    evidence = {
+        str(item.get("checkpoint", "")): str(item.get("user_reply_quote", "")).strip()
+        for item in interaction.get("checkpoint_evidence", [])
+    }
+    if mode == "autonomous":
+        if not str(interaction.get("delegation_quote") or "").strip():
+            hard_gates.append(
+                "G8: autonomous claimed without a verbatim user delegation quote"
+            )
+        return
+    if mode != "collaborative":
+        hard_gates.append(f"G8: unknown interaction_mode {mode!r}")
+        return
+    for checkpoint in REQUIRED_CHECKPOINTS:
+        if not evidence.get(checkpoint):
+            hard_gates.append(
+                f"G8: checkpoint evidence missing for {checkpoint} on a collaborative run"
+            )
+
+
 def professional_audit(payload: dict) -> dict:
     bars = payload.get("bars", [])
     hard_gates: list[str] = []
     warnings: list[str] = []
     unknowns: list[str] = []
+    check_interaction(payload, hard_gates, warnings, unknowns)
     if not bars:
         hard_gates.append("no bar-level evidence was supplied")
     expected_bar_count = payload.get("expected_bar_count")
