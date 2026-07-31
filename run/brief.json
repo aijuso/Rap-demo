@@ -1,0 +1,57 @@
+{
+  "schema": "japanese-rap-brief/v2",
+  "run_id": "rap-demo-anime-satire-001",
+  "mode": "create",
+  "deliverable": "verse",
+  "language": "ja",
+  "theme": "アニメと、それを消費する社会への皮肉",
+  "core_message": "アニメを『経済効果』と呼んで持ち上げる社会が、作り手を安く磨り減らし、観る側も倍速で夢を消費している。その矛盾を、アニメを愛する観察者が淡々と撃ち抜く。",
+  "facts_and_images": [
+    "ワンクールごとに入れ替わる深夜アニメの新作ラッシュ",
+    "サブスク配信と倍速視聴、切り抜きでのトレンド消費",
+    "アニメーターの低賃金・長時間労働は広く報道されている事実",
+    "『クールジャパン』という官製ブランディング",
+    "かつて『オタク』と嘲笑した層が、今は経済効果と呼んで持ち上げる手のひら返し",
+    "聖地巡礼、円盤、ガチャ課金といった消費の風景",
+    "作画枚数・原画・動画といった手作業の積み重ねで1秒が作られる"
+  ],
+  "fiction_or_lived": "fictional",
+  "speaker": {
+    "identity": "アニメに救われてきた一視聴者。業界人ではない観察者で、冷静な皮肉屋",
+    "fictional": true,
+    "point_of_view": "first",
+    "knowledge_boundary": [
+      "業界内部の当事者経験はない(報道・公開情報レベルの知識のみ)",
+      "特定の実在作品名・実在人物名を断定的に扱わない"
+    ]
+  },
+  "listener": "アニメを消費だけして作り手を見ない社会全体",
+  "setting": {"time": "深夜、配信の新作が更新される頃", "place": "画面の光だけが点く部屋"},
+  "tone": ["cool", "deadpan", "ironic"],
+  "register": "conversational",
+  "dialect": {"name": "none", "confidence": "high"},
+  "bpm": null,
+  "meter": "4/4",
+  "bars": 8,
+  "structure": [{"section_id": "S1", "bars": "1-8", "function": "verse"}],
+  "rhyme_density": "medium",
+  "rhyme_methods": ["assonance", "slant", "internal", "end"],
+  "humor_intensity": "medium",
+  "explicitness": "clean",
+  "required_words": [],
+  "forbidden_words": [],
+  "reference_requests": [],
+  "reference_traits": [],
+  "generation_target": "none",
+  "copyright_input_class": "original_prompt",
+  "assumptions": [
+    "BPM未指定のため、ミッドテンポ(85〜95想定)のブーンバップ系を仮定。flowは text_only 提案に留める",
+    "8小節お試しのため、フックなしのワンバース構成",
+    "皮肉はユーモアというより satire/deadpan 機構で運用し、笑いより切れ味を優先",
+    "実在の作品名・企業名は使わない(一般名詞と制度名のみ)"
+  ],
+  "unknowns": [
+    "実演時のBPM・ビート",
+    "パフォーマンス時のアクセント・ポケット(音源なしのため unverified)"
+  ]
+}
