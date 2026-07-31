@@ -1,0 +1,1101 @@
+{
+  "schema": "scout-research/v1",
+  "round": 2,
+  "focus": "ドラえもんの世界線で大人になった各キャラが、ひみつ道具1つを軸に現代日本の社会・政治・消費へ意見するバース連作のための素材収集。(1)メジャーなひみつ道具の機能と制約・副作用、(2)構造として語られる社会問題と数字、(3)BreakingDown／LAST CALL／倍速・推し活・転売など『今の空気』、(4)空き地・公園・路上ライブ・恩師のディテール。歌詞・主題歌・原作セリフの文言は一切収集していない。実在政治家の実名と具体的スキャンダルも収集していない。",
+  "note_on_schema": "スキーマ上 angles は最大6件のため、バース候補13案のうち6案を angles に、残り7案を additional_angles に格納した。両者は同じ構造で、優劣ではなく格納先の違いのみ。",
+  "angles": [
+    {
+      "title": "翻訳こんにゃく × 通じているのに噛み合わない外交と国内対話",
+      "gadget": "ほんやくコンニャク",
+      "social_issue": "外国人政策と、対話しない政治",
+      "premise": "食えば宇宙人とも機械の信号とも通じる道具があるのに、この国は全員が同じ日本語で会議して何ひとつ決まらない、と大人になった話者が言う。",
+      "motifs": [
+        "ほんやくコンニャク＝食べると相手の言語が母語に聞こえ、自分の言葉も相手の言語に変換される。文字も、過去の時代の言語も、宇宙人の言語も、機械の音や信号まで訳せる。食べられないロボットには上に載せるだけで効く（ピクシブ百科事典・Wikipedia）",
+        "在留外国人は2025年末で412万5395人・総人口比3.36%（前年末3.04%）で4年連続過去最多。東京だけで約80万1千人（出入国在留管理庁発表／nippon.com）",
+        "国籍別トップ5＝中国約93万人、ベトナム約68.1万人、韓国約40.7万人、フィリピン約35.6万人、ネパール約30万人。コンビニの名札、解体現場、介護シフト表という日常の実装場所"
+      ],
+      "irony_flip": "訳せるのは『言葉』であって『本音』ではない。噛めば宇宙人とも通じる道具があるのに、噛み合わないのは同じ言語で座っている会議のほう。",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://dic.pixiv.net/a/%E3%81%BB%E3%82%93%E3%82%84%E3%81%8F%E3%82%B3%E3%83%B3%E3%83%8B%E3%83%A3%E3%82%AF"
+        },
+        {
+          "kind": "web",
+          "pointer": "https://ja.wikipedia.org/wiki/%E3%81%BB%E3%82%93%E3%82%84%E3%81%8F%E3%82%B3%E3%83%B3%E3%83%8B%E3%83%A3%E3%82%AF"
+        },
+        {
+          "kind": "web",
+          "pointer": "https://www.nippon.com/ja/japan-data/h02750/"
+        },
+        {
+          "kind": "web",
+          "pointer": "https://news.yahoo.co.jp/articles/9376942d6fb001f7e7a1953d05a4979ab5862821"
+        }
+      ]
+    },
+    {
+      "title": "税金鳥 × 手取りが増えない国民負担率46.2%",
+      "gadget": "税金鳥（ぜいきんちょう）",
+      "social_issue": "税・社会保険料と手取りの乖離",
+      "premise": "キャンセルボタンのない取り立て鳥が、給与明細の控除欄に住み着いていて、拒むとビームを撃ってくる、というバース。",
+      "motifs": [
+        "税金鳥＝税金を取り立てるひみつ道具。キャンセル不可で、取り立てを拒むと衝撃ビームで攻撃してくる（ドラえもんチャンネル『てんコミ探偵団』残念な道具特集）",
+        "2025年度の国民負担率は46.2%の見通し（2024年度実績見込み45.8%から0.4ポイント上昇）。うち社会保障負担率は18.0%で、1970年度の5.4%から逓増（財務省の国民負担率／JILPT主要労働統計指標）",
+        "平均年収は1997年467万円→2025年465万円とほぼ横ばい。その間に物価と社会保険料だけが上がった（第一生命経済研究所系レポート・LIMO）",
+        "動作の絵: 明細の『控除計』の行を指で押さえる／定額減税が一年きりで翌年また戻る"
+      ],
+      "irony_flip": "未来のデパートですら『キャンセルボタンが無い』のは欠陥品扱い。現実の徴収には解除ボタンも返品期限も無い。",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://dora-world.com/sp/tencomi_detective/zannen/zannen_vol001.html"
+        },
+        {
+          "kind": "web",
+          "pointer": "https://limo.media/articles/-/88512"
+        },
+        {
+          "kind": "web",
+          "pointer": "https://www.jil.go.jp/kokunai/statistics/shuyo/0603.html"
+        },
+        {
+          "kind": "web",
+          "pointer": "https://isvd.or.jp/columns/national-burden-rate-46-percent-reality"
+        },
+        {
+          "kind": "web",
+          "pointer": "https://www.dlri.co.jp/report/ld/580714.html"
+        }
+      ]
+    },
+    {
+      "title": "どくさいスイッチ × 誰も押してないのに消えている20代の票",
+      "gadget": "どくさいスイッチ",
+      "social_issue": "低投票率・シルバー民主主義・代表の偏り",
+      "premise": "邪魔者を消すスイッチを誰も押していないはずなのに、20代の声はもう半分消えている、と気づくバース。",
+      "motifs": [
+        "どくさいスイッチ＝消したい人間の名前を言いながら押すと存在ごと消え、世界が最初からそうだったように書き換わる。本来は独裁者を懲らしめるための道具（ピクシブ百科事典・ニコニコ大百科）",
+        "第51回衆院選の年代別投票率は20代39.01%、30代50.89%、10代43.45%、全体56.26%。2021年衆院選では20代36.50%に対し60代71.38%とほぼ2倍（総務省・明るい選挙推進協会）",
+        "女性議員比率が20%を超える都道府県は東京を含む4都道府県のみ、44県は20%以下。ジェンダーギャップ指数2025の政治分野は148カ国中125位（スコア0.085）"
+      ],
+      "irony_flip": "スイッチは押した覚えがないのに、名前が消えている。棄権とは、自分で自分の名前を言ってボタンを押す行為だという反転。",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://dic.pixiv.net/a/%E3%81%A9%E3%81%8F%E3%81%95%E3%81%84%E3%82%B9%E3%82%A4%E3%83%83%E3%83%81"
+        },
+        {
+          "kind": "web",
+          "pointer": "https://dic.nicovideo.jp/a/%E3%81%A9%E3%81%8F%E3%81%95%E3%81%84%E3%82%B9%E3%82%A4%E3%83%83%E3%83%81"
+        },
+        {
+          "kind": "web",
+          "pointer": "https://www.soumu.go.jp/senkyo/senkyo_s/news/sonota/nendaibetu/"
+        },
+        {
+          "kind": "web",
+          "pointer": "https://www.akaruisenkyo.or.jp/070various/071syugi/693/"
+        },
+        {
+          "kind": "web",
+          "pointer": "https://www.plan-international.jp/news/20250613_info-51/"
+        }
+      ]
+    },
+    {
+      "title": "どこでもドア × 900万戸の空き家と1億円のマンション",
+      "gadget": "どこでもドア",
+      "social_issue": "住宅価格・家賃高騰と空き家のミスマッチ",
+      "premise": "どこへでも行けるドアを持っていても、入居審査は超えられない。空き家が900万戸あるのに住む場所が無い、という矛盾を突くバース。",
+      "motifs": [
+        "どこでもドアの制約＝10光年以上離れた星、地図に入力されていない場所、超空間にバリアが張られた場所には行けない（Wikipedia）",
+        "東京23区の新築マンション平均価格は1億3613万円（前年比+21.8%）、都心6区は平均1億9503万円。2016年の6629万円から10年で2倍以上（不動産経済研究所／nippon.com）",
+        "全国の空き家は約899.5万戸、空き家率13.8%で過去最多（総務省 住宅・土地統計調査）。1993年の2倍以上",
+        "動作の絵: 内見の帰り道、保証会社の審査、更新料の月、ドアの向こうは他人の名字の表札"
+      ],
+      "irony_flip": "行き先は自由でも『超空間のバリア』は抜けられない。現実のバリアの名前が家賃と与信で、900万戸空いていてもドアの向こうは他人の家。",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://ja.wikipedia.org/wiki/%E3%81%A9%E3%81%93%E3%81%A7%E3%82%82%E3%83%89%E3%82%A2"
+        },
+        {
+          "kind": "web",
+          "pointer": "https://www.nippon.com/ja/japan-data/h02685/"
+        },
+        {
+          "kind": "web",
+          "pointer": "https://www.fudousankeizai.co.jp/share/mansion/654/ss2025.pdf"
+        },
+        {
+          "kind": "web",
+          "pointer": "https://kaiketu-akiya.com/column/9561/"
+        },
+        {
+          "kind": "web",
+          "pointer": "https://www.smtb.jp/-/media/tb/personal/useful/report-economy/pdf/150_2.pdf"
+        }
+      ]
+    },
+    {
+      "title": "もしもボックス × 出生数67万人と、戻すのに必要な自分の声",
+      "gadget": "もしもボックス",
+      "social_issue": "少子化と子育ての原価",
+      "premise": "受話器に『もしも子どもを持てる国だったら』と言う。ただし元に戻すのにも自分の声が要る、というバース。",
+      "motifs": [
+        "もしもボックス＝電話ボックス型。中で受話器を取り『もしも〜だったら』と話すとその世界になる。戻すには受話器に『元に戻して』と言う必要があり、声を失うと二度と戻れない（Wikipedia／ニコニコ大百科／解説記事）",
+        "2025年の出生数は67.1万人で10年連続の過去最少、合計特殊出生率1.14。政府推計より17年早い進行。東京の出生率は3年連続で1を割る（nippon.com／日本経済新聞）",
+        "保育士の平均年収427.6万円に対し全職種平均478万円で約50万円の差。公定価格に上限があり人件費の原資が構造的に圧迫される"
+      ],
+      "irony_flip": "世界の設定は書き換えられるのに、元に戻す操作には『自分の声』が必須。声を上げない限り、変えることも戻すこともできない。",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://ja.wikipedia.org/wiki/%E3%82%82%E3%81%97%E3%82%82%E3%83%9C%E3%83%83%E3%82%AF%E3%82%B9"
+        },
+        {
+          "kind": "web",
+          "pointer": "https://dic.nicovideo.jp/a/%E3%82%82%E3%81%97%E3%82%82%E3%83%9C%E3%83%83%E3%82%AF%E3%82%B9"
+        },
+        {
+          "kind": "web",
+          "pointer": "https://sh-manga-anime.hatenablog.com/entry/doraemon_16"
+        },
+        {
+          "kind": "web",
+          "pointer": "https://www.nippon.com/ja/japan-data/h02802/"
+        },
+        {
+          "kind": "web",
+          "pointer": "https://www.nikkei.com/article/DGXZQOUA197970Z10C26A2000000/"
+        },
+        {
+          "kind": "web",
+          "pointer": "https://www.co-medical.com/knowledge/article365/"
+        }
+      ]
+    },
+    {
+      "title": "アンキパン × 食パン39斤ぶんの学費と、消えない借金",
+      "gadget": "アンキパン",
+      "social_issue": "教育格差と奨学金",
+      "premise": "覚えるだけならパンを食えばいい。だが39斤ぶんの学費は借金で払って、覚えた中身のほうが先に消える、というバース。",
+      "motifs": [
+        "アンキパン＝ノートや本に写して食べると暗記できる。小学4年の国語教科書234ページを覚えるには6枚切りで39斤ぶん食べる必要があり、効き目は永続しない（ドラえもんチャンネル／ピクシブ百科事典）",
+        "世帯年収400万円以下の4年制大学進学率31.4%に対し、年収1000万円超は62.4%と約2倍の差。年収650万円付近に進学の閾値があるという分析（文科省委託研究／りそなグループ解説）",
+        "『経済的困窮』を理由とする大学等の中途退学者13.2%、休学者11.7%"
+      ],
+      "irony_flip": "覚えたことは出せば消えるのに、借りた金だけは消えない。効き目が永続しないのは道具ではなく学費のほう。",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://dora-world.com/sp/tencomi_detective/zannen/zannen_vol001.html"
+        },
+        {
+          "kind": "web",
+          "pointer": "https://dic.pixiv.net/a/%E3%82%A2%E3%83%B3%E3%82%AD%E3%83%91%E3%83%B3"
+        },
+        {
+          "kind": "web",
+          "pointer": "https://www.resonabank.co.jp/kojin/column/teiki/column_0002.html"
+        },
+        {
+          "kind": "web",
+          "pointer": "https://www.mext.go.jp/component/a_menu/education/detail/__icsFiles/afieldfile/2017/11/29/1398333_3.pdf"
+        }
+      ]
+    }
+  ],
+  "additional_angles": [
+    {
+      "title": "タケコプター × 8時間で電池が上がる労働",
+      "gadget": "タケコプター",
+      "social_issue": "長時間労働・有休が取れない同調圧力",
+      "premise": "時速80kmで8時間飛べば電池が上がる。人間の飛べる時間も同じはずなのに、誰も充電しないで飛んでいる、というバース。",
+      "motifs": [
+        "タケコプター＝時速80km・連続8時間の飛行が可能。『時速八十キロで八時間連続運転すると電池があがっちゃう』という制約が作中で説明される。頭に装着してからスイッチを入れないと道具だけが飛んでいく（Wikipedia）",
+        "2024年の年次有給休暇取得率は66.9%で1984年以降最高。付与18.1日に対し取得12.1日。政府目標は令和10年までに70%以上（厚労省 令和7年就労条件総合調査）",
+        "過労死ライン＝発症前1か月におおむね100時間、または2〜6か月平均で月80時間超の時間外労働"
+      ],
+      "irony_flip": "8時間で電池が上がる道具のほうが、この国の職場より正確に労働時間を守っている。",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://ja.wikipedia.org/wiki/%E3%82%BF%E3%82%B1%E3%82%B3%E3%83%97%E3%82%BF%E3%83%BC"
+        },
+        {
+          "kind": "web",
+          "pointer": "https://www.mhlw.go.jp/toukei/itiran/roudou/jikan/syurou/25/dl/gaikyou.pdf"
+        },
+        {
+          "kind": "web",
+          "pointer": "https://www.kaiketsu-j.com/environment/19874/"
+        },
+        {
+          "kind": "web",
+          "pointer": "https://jinjibu.jp/keyword/detl/927/"
+        }
+      ]
+    },
+    {
+      "title": "タイムマシン × 生まれ年だけは選べなかった世代間格差",
+      "gadget": "タイムマシン／タイムパトロール",
+      "social_issue": "年金の世代間格差・就職氷河期世代",
+      "premise": "歴史は変えられて時間犯罪は逮捕されるのに、生まれ年の付け替えだけは合法だ、というバース。",
+      "motifs": [
+        "タイムマシン＝机の引き出しから時空を移動する。タイムパトロールがタイムマシンの走行する時空間を監視し、恐竜ハンターなどの時間犯罪者を逮捕する設定（ピクシブ百科事典／Wikipedia）",
+        "年金の給付負担倍率は1940年生まれで約5.4〜6.2倍、1980年生まれ前後で1倍を割り、2000年生まれは約893万円の負担超過という試算。所得代替率は約50%から最終的に38〜46%へ低下する見通し",
+        "45〜54歳男性の非正規のうち『不本意』な非正規は31.0%で全世代最高。不本意非正規の約95%が年収400万円未満、25〜44歳では半数程度が200万円未満（内閣官房 就職氷河期世代支援資料／TOKYO MX+）"
+      ],
+      "irony_flip": "時間犯罪は取り締まられるのに、世代をまたいだ付け替えにはパトロールが来ない。",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://dic.pixiv.net/a/%E3%82%BF%E3%82%A4%E3%83%A0%E3%83%9E%E3%82%B7%E3%83%B3(%E3%83%89%E3%83%A9%E3%81%88%E3%82%82%E3%82%93)"
+        },
+        {
+          "kind": "web",
+          "pointer": "https://ja.wikipedia.org/wiki/%E3%82%BF%E3%82%A4%E3%83%A0%E3%83%91%E3%83%88%E3%83%AD%E3%83%BC%E3%83%AB_(%E8%97%A4%E5%AD%90%E3%83%BBF%E3%83%BB%E4%B8%8D%E4%BA%8C%E9%9B%84)"
+        },
+        {
+          "kind": "web",
+          "pointer": "https://isvd.or.jp/columns/pension-generation-gap-simulation"
+        },
+        {
+          "kind": "web",
+          "pointer": "https://financial-field.com/pension/entry-132936"
+        },
+        {
+          "kind": "web",
+          "pointer": "https://www.cas.go.jp/jp/seisaku/shushoku_hyogaki_shien/kankeikakuryokaigi/dai1/siryou1.pdf"
+        },
+        {
+          "kind": "web",
+          "pointer": "https://s.mxtv.jp/tokyomxplus/mx/article/202501280650/detail/"
+        }
+      ]
+    },
+    {
+      "title": "スモールライト × 給料じゃなく袋の中身が縮む",
+      "gadget": "スモールライト／ビッグライト",
+      "social_issue": "実質賃金と物価・ステルス値上げ",
+      "premise": "給料にはビッグライトを当ててもらえないのに、袋の中身にだけスモールライトが当たっている、というバース。",
+      "motifs": [
+        "スモールライト＝照射したものの質量を変換して小さくする懐中電灯型の道具。照射時間で縮小率を調節でき、時間が経つと元の大きさに戻るという時間制限がある。対のビッグライトには時間制限の描写が無い（ピクシブ百科事典）",
+        "平均年収は1997年467万円→2025年465万円。同期間に物価と社会保険料は上昇（LIMO／第一生命経済研究所系レポート）",
+        "2025年度の国民負担率46.2%、社会保障負担率18.0%",
+        "動作の絵: レジの合計、内容量の表示、同じ値段で減ったグラム数"
+      ],
+      "irony_flip": "スモールライトは時間が経てば元に戻る。値上げと実質目減りは戻らない。時間制限が付いているのは道具のほうだけ。",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://dic.pixiv.net/a/%E3%82%B9%E3%83%A2%E3%83%BC%E3%83%AB%E3%83%A9%E3%82%A4%E3%83%88"
+        },
+        {
+          "kind": "web",
+          "pointer": "https://dic.pixiv.net/a/%E3%83%93%E3%83%83%E3%82%B0%E3%83%A9%E3%82%A4%E3%83%88"
+        },
+        {
+          "kind": "web",
+          "pointer": "https://limo.media/articles/-/88512"
+        },
+        {
+          "kind": "web",
+          "pointer": "https://www.dlri.co.jp/report/ld/580714.html"
+        }
+      ]
+    },
+    {
+      "title": "石ころぼうし × 誰も気に留めない側に置かれる人たち",
+      "gadget": "石ころぼうし",
+      "social_issue": "貧困・地方の空洞化・社会的な不可視化",
+      "premise": "帽子をかぶらなくても、この社会には勝手に見えなくされている人がいる、というバース。",
+      "motifs": [
+        "石ころぼうし＝帽子に内蔵された無視催眠波発生ペーストの働きで、被った者を他者が気に留めなくなる（Wikipedia／ピクシブ百科事典）",
+        "全国の空き家899.5万戸・空き家率13.8%（過去最多）。使われていないのに数だけ増える場所",
+        "不本意非正規の約95%が年収400万円未満。45〜54歳男性の不本意非正規率31.0%",
+        "空き地等の管理条例を持つ自治体は2024年時点で471自治体まで拡大（Merkmal）"
+      ],
+      "irony_flip": "石ころぼうしは自分の意思で被る道具。現実では他人が勝手に被せてきて、脱ぐスイッチだけが本人に無い。",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://ja.wikipedia.org/wiki/%E7%9F%B3%E3%81%93%E3%82%8D%E3%81%BC%E3%81%86%E3%81%97"
+        },
+        {
+          "kind": "web",
+          "pointer": "https://kaiketu-akiya.com/column/9561/"
+        },
+        {
+          "kind": "web",
+          "pointer": "https://s.mxtv.jp/tokyomxplus/mx/article/202501280650/detail/"
+        },
+        {
+          "kind": "web",
+          "pointer": "https://merkmal-biz.jp/post/110525"
+        }
+      ]
+    },
+    {
+      "title": "フエルミラー／バイバイン × 切り抜きが増えて元ネタに一円も入らない",
+      "gadget": "フエルミラー／バイバイン",
+      "social_issue": "切り抜き文化・炎上・タイパ消費",
+      "premise": "一回の失言が鏡の中で倍に増え続けて、元ネタの俺には一円も入らない、というバース。",
+      "motifs": [
+        "フエルミラー＝映った物を鏡の中で実体化させ取り出すと一つ増える鏡台。ただし複製は鏡像になる。バイバイン＝物体の数を倍に増やす薬品で、増殖が止まらないことが恐ろしさとして語られる（ピクシブ百科事典）",
+        "動画の倍速再生は性年代を問わず約半数、20代男性56.5%・20代女性55.7%。Z世代の55.8%が映画を倍速視聴（Forbes JAPAN／日本経済新聞）",
+        "侮辱罪は2022年7月に法定刑が引き上げられ（1年以下の拘禁刑または30万円以下の罰金等）、ネット中傷への適用は厳罰化後100人超（日本経済新聞）"
+      ],
+      "irony_flip": "複製は『鏡像』＝左右が逆になる。切り抜きは事実の鏡像で、増えれば増えるほど元と逆を向く。",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://moshimodogu.com/item/fueru-mirror"
+        },
+        {
+          "kind": "web",
+          "pointer": "https://dic.pixiv.net/a/%E3%83%90%E3%82%A4%E3%83%90%E3%82%A4%E3%83%B3"
+        },
+        {
+          "kind": "web",
+          "pointer": "https://forbesjapan.com/articles/detail/62595"
+        },
+        {
+          "kind": "web",
+          "pointer": "https://www.nikkei.com/article/DGXZQOUC317YD0R31C24A0000000/"
+        },
+        {
+          "kind": "web",
+          "pointer": "https://www.nikkei.com/article/DGXZQOUD127LE0S5A910C2000000/"
+        }
+      ]
+    },
+    {
+      "title": "通りぬけフープ × 直径80cmの門しか用意されていない政治",
+      "gadget": "通りぬけフープ",
+      "social_issue": "政治とカネの透明性・参入障壁",
+      "premise": "壁は抜けられる。ただし直径80cm。体をちいさくした奴しか通れない、というバース。",
+      "motifs": [
+        "通りぬけフープ＝壁にあてると輪の内側が向こう側まで穴でつながるフラフープ。直径は約80cmで伸縮性が無いため、直径より大きなものは通れない",
+        "政党交付金の使途は5万円以上のみ報告書に個別記載され、5万円未満は領収書の提出義務も情報公開も無い。公費である政党交付金のほうが、その他の政治資金より使途の公開性が低いという構造（情報公開クリアリングハウス／経済同友会 提言2025年3月）",
+        "ジェンダーギャップ指数2025で日本は148カ国中118位、政治分野は125位（スコア0.085）でG7最下位"
+      ],
+      "irony_flip": "門は開いている。ただし穴の直径が決まっていて、伸縮性が無い。通れないのは本人の資質ではなく穴の規格のほう。",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://moshimodogu.com/item/torinuke-hoop"
+        },
+        {
+          "kind": "web",
+          "pointer": "https://clearing-house.org/?p=6604"
+        },
+        {
+          "kind": "web",
+          "pointer": "https://www.doyukai.or.jp/policyproposals/uploads/docs/20250311c%E6%9C%AC%E6%96%87.pdf"
+        },
+        {
+          "kind": "web",
+          "pointer": "https://www.plan-international.jp/news/20250613_info-51/"
+        },
+        {
+          "kind": "web",
+          "pointer": "https://www.joicfp.or.jp/jpn/column/gggr2025/"
+        }
+      ]
+    },
+    {
+      "title": "グルメテーブルかけ × 対価が語られないまま出てくる皿",
+      "gadget": "グルメテーブルかけ",
+      "social_issue": "低賃金セクターと、価格に現れないコスト",
+      "premise": "頼めば料理が出るが、その対価が誰にも語られない。誰かがどこかで払っている、というバース。",
+      "motifs": [
+        "グルメテーブルかけ＝テーブルや床に敷き、食べたい料理をリクエストするとその料理が出現する。原作で対価について語られたことはない（ピクシブ百科事典）",
+        "保育士の平均年収427.6万円 vs 全職種平均478万円、差は約50万円。運営費の公定価格に上限があり人件費の原資が構造的に圧迫される",
+        "在留外国人412万5395人・人口比3.36%。特定技能が人手不足を補って増加している"
+      ],
+      "irony_flip": "皿は出てくるのに、レシートが出てこない。対価が語られない道具＝対価を誰かに押し付けている仕組みそのもの。",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://dic.pixiv.net/a/%E3%82%B0%E3%83%AB%E3%83%A1%E3%83%86%E3%83%BC%E3%83%96%E3%83%AB%E3%81%8B%E3%81%91"
+        },
+        {
+          "kind": "web",
+          "pointer": "https://www.co-medical.com/knowledge/article365/"
+        },
+        {
+          "kind": "web",
+          "pointer": "https://www.nippon.com/ja/japan-data/h02750/"
+        }
+      ]
+    }
+  ],
+  "gadget_specs": [
+    {
+      "name": "ほんやくコンニャク",
+      "function": "食べると外国語が母語に聞こえ、自分の言葉も相手の言語に変換される。文字の解読、過去の時代の言語、宇宙人の言語、機械の音や信号まで訳せる。",
+      "constraint": "食べられないロボットには上に載せるだけで効く（＝食べる必要すら無い）という緩さの一方、訳せるのは言語であって意図ではない。単行本12巻『おばけ城へ引っこし』が初出とされる。",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://dic.pixiv.net/a/%E3%81%BB%E3%82%93%E3%82%84%E3%81%8F%E3%82%B3%E3%83%B3%E3%83%8B%E3%83%A3%E3%82%AF"
+        },
+        {
+          "kind": "web",
+          "pointer": "https://ja.wikipedia.org/wiki/%E3%81%BB%E3%82%93%E3%82%84%E3%81%8F%E3%82%B3%E3%83%B3%E3%83%8B%E3%83%A3%E3%82%AF"
+        }
+      ]
+    },
+    {
+      "name": "どこでもドア",
+      "function": "ドアを開けると任意の場所につながる。",
+      "constraint": "10光年以上離れた星、『地平線テープ』等で作られた特別な世界、地図に入力されていない場所へは行けない。超空間にバリアが張ってあるとドアを通過できない。",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://ja.wikipedia.org/wiki/%E3%81%A9%E3%81%93%E3%81%A7%E3%82%82%E3%83%89%E3%82%A2"
+        }
+      ]
+    },
+    {
+      "name": "アンキパン",
+      "function": "ノートや本に押し当てて写し取り、食べると内容を暗記できる。",
+      "constraint": "6ページ分で6枚切り1斤相当。小学4年の国語教科書234ページを覚えるには39斤ぶん食べる必要がある。効き目は永続しない。",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://dora-world.com/sp/tencomi_detective/zannen/zannen_vol001.html"
+        },
+        {
+          "kind": "web",
+          "pointer": "https://dic.pixiv.net/a/%E3%82%A2%E3%83%B3%E3%82%AD%E3%83%91%E3%83%B3"
+        }
+      ]
+    },
+    {
+      "name": "タケコプター",
+      "function": "頭部などに取り付けて空を飛ぶ小型プロペラ。時速80km、連続8時間の飛行が可能。",
+      "constraint": "時速80kmで8時間連続運転すると電池が上がる。きちんと頭に装着してからスイッチを入れないと、道具だけが飛んでいってしまう。",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://ja.wikipedia.org/wiki/%E3%82%BF%E3%82%B1%E3%82%B3%E3%83%97%E3%82%BF%E3%83%BC"
+        }
+      ]
+    },
+    {
+      "name": "どくさいスイッチ",
+      "function": "消したい人間の名前を言いながらスイッチを押すと、その人間が消え、最初から存在しなかったものとして世界全体が書き換わる。",
+      "constraint": "本来は独裁者を懲らしめるための道具として設計されており、押し続けると最後に誰もいなくなる。良心の呵責が唯一の安全装置。",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://dic.pixiv.net/a/%E3%81%A9%E3%81%8F%E3%81%95%E3%81%84%E3%82%B9%E3%82%A4%E3%83%83%E3%83%81"
+        },
+        {
+          "kind": "web",
+          "pointer": "https://dic.nicovideo.jp/a/%E3%81%A9%E3%81%8F%E3%81%95%E3%81%84%E3%82%B9%E3%82%A4%E3%83%83%E3%83%81"
+        }
+      ]
+    },
+    {
+      "name": "もしもボックス",
+      "function": "電話ボックス型。中で受話器を取り『もしも〜だったら』と話すと、その通りの世界に作り変わる。",
+      "constraint": "元に戻すには受話器に『元に戻して』と話す必要があり、解除には使用者の声が必須。声を失うと二度と戻れない。",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://ja.wikipedia.org/wiki/%E3%82%82%E3%81%97%E3%82%82%E3%83%9C%E3%83%83%E3%82%AF%E3%82%B9"
+        },
+        {
+          "kind": "web",
+          "pointer": "https://dic.nicovideo.jp/a/%E3%82%82%E3%81%97%E3%82%82%E3%83%9C%E3%83%83%E3%82%AF%E3%82%B9"
+        },
+        {
+          "kind": "web",
+          "pointer": "https://sh-manga-anime.hatenablog.com/entry/doraemon_16"
+        }
+      ]
+    },
+    {
+      "name": "スモールライト",
+      "function": "照射したものの質量を変換して小さくする懐中電灯型の道具。照射時間で縮小率を調節できる。",
+      "constraint": "効力に時間制限があり、小さくした物も時間が経つと元の大きさに戻る。",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://dic.pixiv.net/a/%E3%82%B9%E3%83%A2%E3%83%BC%E3%83%AB%E3%83%A9%E3%82%A4%E3%83%88"
+        }
+      ]
+    },
+    {
+      "name": "ビッグライト",
+      "function": "スモールライトの対で、照射したものを大きくする。",
+      "constraint": "スモールライトと違い時間制限の描写が無い（＝大きくしたものは戻らない）。",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://dic.pixiv.net/a/%E3%83%93%E3%83%83%E3%82%B0%E3%83%A9%E3%82%A4%E3%83%88"
+        }
+      ]
+    },
+    {
+      "name": "四次元ポケット",
+      "function": "三次元より次元の高い四次元空間につながっており、無限に物を入れられる。",
+      "constraint": "取り出すには中身を認識して手を突っ込む必要があり、紛失・取り違えが起こる。",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://ja.wikipedia.org/wiki/%E5%9B%9B%E6%AC%A1%E5%85%83%E3%83%9D%E3%82%B1%E3%83%83%E3%83%88"
+        }
+      ]
+    },
+    {
+      "name": "タイムマシン／タイムパトロール",
+      "function": "机の引き出しを入口として時空を移動する。",
+      "constraint": "タイムパトロールがタイムマシンの走行する時空間を監視し、恐竜ハンター等の時間犯罪者を逮捕する。作中ではタイムマシンの発明年が2008年とされる記述がある。",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://dic.pixiv.net/a/%E3%82%BF%E3%82%A4%E3%83%A0%E3%83%9E%E3%82%B7%E3%83%B3(%E3%83%89%E3%83%A9%E3%81%88%E3%82%82%E3%82%93)"
+        },
+        {
+          "kind": "web",
+          "pointer": "https://ja.wikipedia.org/wiki/%E3%82%BF%E3%82%A4%E3%83%A0%E3%83%91%E3%83%88%E3%83%AD%E3%83%BC%E3%83%AB_(%E8%97%A4%E5%AD%90%E3%83%BBF%E3%83%BB%E4%B8%8D%E4%BA%8C%E9%9B%84)"
+        }
+      ]
+    },
+    {
+      "name": "石ころぼうし",
+      "function": "被ると、内蔵された無視催眠波発生ペーストの働きで、他者が被った者を気に留めなくなる。",
+      "constraint": "存在は消えず『無視される』だけ。自分から声をかけても認識されない。",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://ja.wikipedia.org/wiki/%E7%9F%B3%E3%81%93%E3%82%8D%E3%81%BC%E3%81%86%E3%81%97"
+        }
+      ]
+    },
+    {
+      "name": "フエルミラー",
+      "function": "鏡台に映った物を鏡の中で実体化させ、取り出すと一つ増える。",
+      "constraint": "複製は鏡像になる（左右が逆）。同じ複製は一つしか作れないと解釈されている。",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://moshimodogu.com/item/fueru-mirror"
+        }
+      ]
+    },
+    {
+      "name": "バイバイン",
+      "function": "かけた物体の数を倍に増やす薬品。",
+      "constraint": "増殖が止まらず、放置すると際限なく倍加していくことが恐ろしさとして語られる。",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://dic.pixiv.net/a/%E3%83%90%E3%82%A4%E3%83%90%E3%82%A4%E3%83%B3"
+        }
+      ]
+    },
+    {
+      "name": "通りぬけフープ",
+      "function": "壁にあてると輪の内側が壁の向こう側まで穴でつながるフラフープ。",
+      "constraint": "直径は約80cmで伸縮性が無いため、それより大きなものは通れない。",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://moshimodogu.com/item/torinuke-hoop"
+        }
+      ]
+    },
+    {
+      "name": "タイムふろしき",
+      "function": "包んだ物の時間を進めたり戻したりする風呂敷。物なら新品に戻せ、生物なら若返り・老化する。",
+      "constraint": "包めるサイズに限られ、裏表で進む向きが変わる（時間を戻す／進める）。",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://dic.pixiv.net/a/%E3%82%BF%E3%82%A4%E3%83%A0%E3%81%B5%E3%82%8D%E3%81%97%E3%81%8D"
+        }
+      ]
+    },
+    {
+      "name": "グルメテーブルかけ",
+      "function": "テーブルや床に敷き、食べたい料理をリクエストするとその料理が出現する。",
+      "constraint": "原作で対価について語られたことはない（コストが不可視）。",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://dic.pixiv.net/a/%E3%82%B0%E3%83%AB%E3%83%A1%E3%83%86%E3%83%BC%E3%83%96%E3%83%AB%E3%81%8B%E3%81%91"
+        }
+      ]
+    },
+    {
+      "name": "税金鳥（ぜいきんちょう）",
+      "function": "税金を取り立てるひみつ道具。",
+      "constraint": "キャンセル不可。取り立てを拒むと衝撃ビームで攻撃してくる。",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://dora-world.com/sp/tencomi_detective/zannen/zannen_vol001.html"
+        }
+      ]
+    },
+    {
+      "name": "スケジュールどけい／強いイシ",
+      "function": "スケジュールどけい＝予定を管理する。強いイシ＝目標達成を強制する。",
+      "constraint": "どちらもキャンセルボタンが無く、予定・目標を強制執行する。強いイシは空中を飛びながら突撃してくる。",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://dora-world.com/sp/tencomi_detective/zannen/zannen_vol001.html"
+        }
+      ]
+    },
+    {
+      "name": "ウソ800",
+      "function": "飲むと発言した嘘がすべて本当になる。",
+      "constraint": "公式書籍で『他の道具が必要なくなる究極のひみつ道具』『ドラえもんの存在さえ脅かしかねない危険な道具』と紹介される。",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://dic.pixiv.net/a/%E3%82%A6%E3%82%BD800"
+        }
+      ]
+    }
+  ],
+  "social_issues": [
+    {
+      "theme": "低投票率とシルバー民主主義",
+      "number": "第51回衆院選の年代別投票率＝20代39.01%／30代50.89%／10代43.45%、全体56.26%。2021年衆院選は20代36.50%に対し60代71.38%（約2倍）",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://www.soumu.go.jp/senkyo/senkyo_s/news/sonota/nendaibetu/"
+        },
+        {
+          "kind": "web",
+          "pointer": "https://www.akaruisenkyo.or.jp/070various/071syugi/693/"
+        }
+      ]
+    },
+    {
+      "theme": "税・社会保険料と手取りの乖離",
+      "number": "2025年度の国民負担率46.2%（前年度実績見込み45.8%）、社会保障負担率18.0%（1970年度は5.4%）",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://limo.media/articles/-/88512"
+        },
+        {
+          "kind": "web",
+          "pointer": "https://www.jil.go.jp/kokunai/statistics/shuyo/0603.html"
+        },
+        {
+          "kind": "web",
+          "pointer": "https://isvd.or.jp/columns/national-burden-rate-46-percent-reality"
+        }
+      ]
+    },
+    {
+      "theme": "実質賃金の30年停滞",
+      "number": "平均年収は1997年467万円→2025年465万円でほぼ横ばい、その間に物価と社会保険料が上昇",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://limo.media/articles/-/88512"
+        },
+        {
+          "kind": "web",
+          "pointer": "https://www.dlri.co.jp/report/ld/580714.html"
+        }
+      ]
+    },
+    {
+      "theme": "非正規と就職氷河期世代",
+      "number": "45〜54歳男性の不本意非正規率31.0%（全世代最高）。不本意非正規の約95%が年収400万円未満、25〜44歳では半数程度が200万円未満。非正規は2015年1986万人→2024年2126万人",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://s.mxtv.jp/tokyomxplus/mx/article/202501280650/detail/"
+        },
+        {
+          "kind": "web",
+          "pointer": "https://www.cas.go.jp/jp/seisaku/shushoku_hyogaki_shien/kankeikakuryokaigi/dai1/siryou1.pdf"
+        }
+      ]
+    },
+    {
+      "theme": "住宅価格と家賃",
+      "number": "東京23区の新築マンション平均1億3613万円（前年比+21.8%）、都心6区平均1億9503万円、2016年6629万円から10年で2倍以上",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://www.nippon.com/ja/japan-data/h02685/"
+        },
+        {
+          "kind": "web",
+          "pointer": "https://www.fudousankeizai.co.jp/share/mansion/654/ss2025.pdf"
+        }
+      ]
+    },
+    {
+      "theme": "空き家と地方の空洞化",
+      "number": "全国の空き家 約899.5万戸、空き家率13.8%で過去最多（1993年の2倍以上）。空き地等の管理条例は2024年時点で471自治体",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://kaiketu-akiya.com/column/9561/"
+        },
+        {
+          "kind": "web",
+          "pointer": "https://www.smtb.jp/-/media/tb/personal/useful/report-economy/pdf/150_2.pdf"
+        },
+        {
+          "kind": "web",
+          "pointer": "https://merkmal-biz.jp/post/110525"
+        }
+      ]
+    },
+    {
+      "theme": "少子化",
+      "number": "2025年の出生数67.1万人で10年連続過去最少、合計特殊出生率1.14、政府推計より17年早い進行。東京の出生率は3年連続で1未満",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://www.nippon.com/ja/japan-data/h02802/"
+        },
+        {
+          "kind": "web",
+          "pointer": "https://www.nikkei.com/article/DGXZQOUA197970Z10C26A2000000/"
+        }
+      ]
+    },
+    {
+      "theme": "保育・子育ての原価",
+      "number": "保育士の平均年収427.6万円 vs 全職種平均478万円（差 約50万円）。運営費の公定価格に上限があり人件費の原資が圧迫",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://www.co-medical.com/knowledge/article365/"
+        }
+      ]
+    },
+    {
+      "theme": "年金の世代間格差",
+      "number": "給付負担倍率は1940年生まれ約5.4〜6.2倍、1980年生まれ前後で1倍割れ、2000年生まれは約893万円の負担超過。所得代替率は約50%→最終38〜46%見通し",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://isvd.or.jp/columns/pension-generation-gap-simulation"
+        },
+        {
+          "kind": "web",
+          "pointer": "https://financial-field.com/pension/entry-132936"
+        }
+      ]
+    },
+    {
+      "theme": "教育格差と奨学金",
+      "number": "世帯年収400万円以下の4大進学率31.4% vs 1000万円超62.4%（約2倍）。年収650万円付近に進学の閾値。経済的困窮による中退13.2%・休学11.7%",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://www.resonabank.co.jp/kojin/column/teiki/column_0002.html"
+        },
+        {
+          "kind": "web",
+          "pointer": "https://www.mext.go.jp/component/a_menu/education/detail/__icsFiles/afieldfile/2017/11/29/1398333_3.pdf"
+        }
+      ]
+    },
+    {
+      "theme": "政治とカネの透明性（制度の一般論）",
+      "number": "政党交付金の使途は5万円以上のみ個別記載、5万円未満は領収書提出義務も情報公開も無い＝公費のほうが使途の公開性が低い。経済同友会は1万円超の明細・領収書添付とオンライン公開の義務化を提言（2025年3月）",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://clearing-house.org/?p=6604"
+        },
+        {
+          "kind": "web",
+          "pointer": "https://www.doyukai.or.jp/policyproposals/uploads/docs/20250311c%E6%9C%AC%E6%96%87.pdf"
+        }
+      ]
+    },
+    {
+      "theme": "ジェンダーと政治参加",
+      "number": "ジェンダーギャップ指数2025で日本は148カ国中118位、政治分野125位（スコア0.085）でG7最下位。女性議員比率20%超は4都道府県のみ",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://www.plan-international.jp/news/20250613_info-51/"
+        },
+        {
+          "kind": "web",
+          "pointer": "https://www.joicfp.or.jp/jpn/column/gggr2025/"
+        }
+      ]
+    },
+    {
+      "theme": "長時間労働と同調圧力",
+      "number": "2024年の年休取得率66.9%（1984年以降最高）、付与18.1日中12.1日取得。政府目標は70%以上。過労死ライン＝発症前1か月おおむね100時間／2〜6か月平均で月80時間超",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://www.mhlw.go.jp/toukei/itiran/roudou/jikan/syurou/25/dl/gaikyou.pdf"
+        },
+        {
+          "kind": "web",
+          "pointer": "https://www.kaiketsu-j.com/environment/19874/"
+        },
+        {
+          "kind": "web",
+          "pointer": "https://jinjibu.jp/keyword/detl/927/"
+        }
+      ]
+    },
+    {
+      "theme": "外国人政策と入管",
+      "number": "在留外国人412万5395人（2025年末、前年比+9.5%）、人口比3.36%で4年連続過去最多。東京約80万1千人。永住者約94.7万人、技術・人文知識・国際業務約47.5万人、特定技能が増加",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://www.nippon.com/ja/japan-data/h02750/"
+        },
+        {
+          "kind": "web",
+          "pointer": "https://news.yahoo.co.jp/articles/9376942d6fb001f7e7a1953d05a4979ab5862821"
+        }
+      ]
+    },
+    {
+      "theme": "SNSの分断と誹謗中傷の規制",
+      "number": "侮辱罪は2022年7月に厳罰化（1年以下の拘禁刑または30万円以下の罰金等）、ネット中傷への適用は厳罰化後100人超。3年後の運用検証規定が付されている",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://www.nikkei.com/article/DGXZQOUD127LE0S5A910C2000000/"
+        }
+      ]
+    },
+    {
+      "theme": "教員不足と学校の現在",
+      "number": "教員採用試験の全体競争率2.9倍（過去最低、前年度3.2倍）、小学校は2.0倍まで低下。東京都の小学校は1.1倍。68教委等のうち38教委等で志願者数が過去5年で最低",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://www.mext.go.jp/content/20251218-mxt_kyoikujinzai01-000046447_1.pdf"
+        }
+      ]
+    }
+  ],
+  "culture_texture": [
+    {
+      "item": "BreakingDown（ブレイキングダウン）",
+      "note": "『1分1ラウンド』で戦う格闘技エンターテインメント。プロだけでなく素人の喧嘩自慢も出られるオーディション（面接）方式が特徴で、成り上がりを狙う出場者の短期決戦として売られている。賛否が強く、格闘技関係者から『無法者に知名度を与えるな』『格闘技の質を下げている』という批判、複数の逮捕者が出たことへの批判がある一方、興行自体は支持する声もある。",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://ja.wikipedia.org/wiki/BreakingDown"
+        },
+        {
+          "kind": "web",
+          "pointer": "https://breakingdown.jp/"
+        },
+        {
+          "kind": "web",
+          "pointer": "https://www.chunichi.co.jp/article/865871"
+        },
+        {
+          "kind": "web",
+          "pointer": "https://news.yahoo.co.jp/pickup/6454346"
+        }
+      ]
+    },
+    {
+      "item": "LAST CALL（ラストコール）",
+      "note": "ユーザーの言う『ラストコール』の第一候補。国内初のスターキャバ嬢オーディション番組で、ROLANDと溝口勇児がMC。派生イベント『LAST CALL COLLECTION 2026』が2026年6月28日にお台場のTOYOTA ARENA TOKYOで開催されたが、ランウェイ中止・出演者欠席・炎上が重なり、原則払い戻し不可のイベントでチケット全額返金という異例の措置に至った。別候補として一般語の『ラストコール＝閉店前の最後の注文』もあり、二重の意味で使える。",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://lastcall.jp/collection"
+        },
+        {
+          "kind": "web",
+          "pointer": "https://prtimes.jp/main/html/rd/p/000000002.000184124.html"
+        },
+        {
+          "kind": "web",
+          "pointer": "https://coki.jp/article/column/88139/"
+        }
+      ]
+    },
+    {
+      "item": "タイパ・倍速・切り抜き",
+      "note": "動画の倍速再生は性年代を問わず約半数、20代男性56.5%・20代女性55.7%。Z世代の55.8%が映画を倍速視聴。YouTubeショート利用経験者の半数以上が週3日以上利用。『話題についていくために一つあたりの時間を短くする』という動機が語られる。",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://forbesjapan.com/articles/detail/62595"
+        },
+        {
+          "kind": "web",
+          "pointer": "https://www.nikkei.com/article/DGXZQOUC317YD0R31C24A0000000/"
+        }
+      ]
+    },
+    {
+      "item": "推し活と投げ銭",
+      "note": "推し活の市場規模は年間約3.5兆円（別調査では約3.8〜3.9兆円）、推し活人口は推定1384万人で1年に約250万人増。1人あたり年間平均消費額は約25万円。最も支出が多いのは35〜39歳男性44万5565円、次いで40〜44歳男性37万2350円、女性は30〜34歳33万6695円。10代女性の約8割、20代女性の約6割に推しがいる。財務省の広報誌も『若年層を中心に急成長する消費形態』として扱っている。",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://bizpa.net/mag/report-4978/"
+        },
+        {
+          "kind": "web",
+          "pointer": "https://0115765.com/archives/153080"
+        },
+        {
+          "kind": "web",
+          "pointer": "https://www.mof.go.jp/public_relations/finance/2025011/202511f.pdf"
+        }
+      ]
+    },
+    {
+      "item": "転売・リセール・二次流通",
+      "note": "スニーカーの転売市場は2025年までに60億ドル規模との予測。消費者のクローゼットの約28%が中古品で、リセール市場は新品市場の3倍の速さで拡大。Z世代の購買基準が『モノの品質』から『物語・透明性・リセールバリュー』へ広がっている。",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://www.businessinsider.jp/post-195583"
+        },
+        {
+          "kind": "web",
+          "pointer": "https://researto.com/column/gen-z-resale-secondhand/"
+        }
+      ]
+    },
+    {
+      "item": "ラップ語彙（ラウンド1からの要約）",
+      "note": "フレックス＝単なる自慢ではなく『逆境を越えてここまで来た証』として提示される作法。レペゼン＝出身地・ルーツを代表し誇る作法。今回の曲では『空き地に帰る』がレペゼンの正統な型として機能し、フレックスの矛先を既得権益ではなく地元に向ける構造にできる。",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://rude-alpha.com/hiphop/%E3%83%95%E3%83%AC%E3%83%83%E3%82%AF%E3%82%B9%E3%81%A8%E3%81%AF%EF%BC%9F%E3%83%92%E3%83%83%E3%83%97%E3%83%9B%E3%83%83%E3%83%97%E3%81%A7%E3%81%AE%E6%84%8F%E5%91%B3%E3%82%84%E6%AD%B4%E5%8F%B2%E3%80%81/"
+        },
+        {
+          "kind": "web",
+          "pointer": "https://rude-alpha.com/hiphop/%E3%83%AC%E3%83%9A%E3%82%BC%E3%83%B3%E3%81%AE%E6%84%8F%E5%91%B3%E3%81%A8%E3%81%AF%EF%BC%9F%E8%AA%9E%E6%BA%90%E3%83%BB%E4%BD%BF%E3%81%84%E6%96%B9%E3%83%BB%E7%8F%BE%E4%BB%A3%E3%81%A7%E3%81%AE%E4%BD%BF/"
+        }
+      ]
+    }
+  ],
+  "vacant_lot_and_recital": [
+    {
+      "item": "空き地が消えた理由（制度・資本・生活の三層）",
+      "detail": "Merkmalの分析では、空き地は制度・資本・生活構造の三面から削られた。1990年の東京の地価指数は商業地450.6・住宅地438.4（1975年＝100）まで上昇し、空き地は『損を生む資産』と見なされるようになった。制度面では2002年導入の再開発促進区制度、および空き地等の管理条例が2024年時点で471自治体まで拡大し、遊ばせておく経済的負担が明確化された。",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://merkmal-biz.jp/post/110525"
+        }
+      ]
+    },
+    {
+      "item": "外遊びの減少",
+      "detail": "小学生の外遊び時間は1981年の2時間11分から2016年の1時間12分へ、35年で45%減少。",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://merkmal-biz.jp/post/110525"
+        }
+      ]
+    },
+    {
+      "item": "土管が消えた理由と、空き地の変化先",
+      "detail": "昭和30〜40年代は下水道工事の全盛期で、資材（ヒューム管）が空き地の隅に積まれていた。その後、土地利用の評価が厳格になり資材を置く程度では宅地並みの高い税金がかかるようになったため、所有者はコインパーキング化か建売住宅としての売却を選ぶようになった。現在、資材のある空き地はフェンスで囲われ子どもは入れない。",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://note.com/beautifulholiday/n/n9a456d0fffd2"
+        },
+        {
+          "kind": "web",
+          "pointer": "https://merkmal-biz.jp/post/110525"
+        }
+      ]
+    },
+    {
+      "item": "『今じゃ○○』に入る具体的な変化先",
+      "detail": "(1) コインパーキング＝更地・空き地の転用先として初期投資が小さく短期契約で始められる定番（駐車場経営メディア）。(2) 建売住宅／分譲地（税負担を理由に売却）。(3) フェンスで囲われた資材置き場＝立入禁止のまま。(4) 再開発促進区の指定を受けた高度利用地。(5) 空き家・空き地のまま放置され、管理条例の対象になっているケース（471自治体）。",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "http://www.chusyajokeiei.jp/convert-merit/"
+        },
+        {
+          "kind": "web",
+          "pointer": "https://note.com/beautifulholiday/n/n9a456d0fffd2"
+        },
+        {
+          "kind": "web",
+          "pointer": "https://merkmal-biz.jp/post/110525"
+        }
+      ]
+    },
+    {
+      "item": "公園の禁止事項の増加",
+      "detail": "回答自治体の6割が都市公園でのボール遊びを禁止しており、東京は統一的な規制率が他都市より大幅に高い。自治体の公園担当への市民の声はほとんどが苦情で、『子どもの声がうるさい』『ボールが危ない』というクレームが規制につながる。注意看板の存在自体が『公園ではボール遊びは禁止』という認識を市民に浸透させている。",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://allabout.co.jp/gm/gc/501645/"
+        },
+        {
+          "kind": "web",
+          "pointer": "https://www.city.shizuoka.lg.jp/s5392/faq/s000001.html"
+        }
+      ]
+    },
+    {
+      "item": "無料ライブ／路上ライブの現在の規制",
+      "detail": "道路でのライブには所轄警察署への道路使用許可申請が、自治体管理の公園では公園使用許可が必要。無許可は道路の不正使用として摘発対象で、2024年5月には首都圏の主要駅前で道路使用許可を得ずにライブを行ったとして複数人が書類送検された。許可される場合も警備員・交通誘導員の配置などの条件が付くのが実務の現状。",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://works-hub.jp/column1/"
+        },
+        {
+          "kind": "web",
+          "pointer": "https://roronto.jp/business-efficiency/street-performance/"
+        }
+      ]
+    },
+    {
+      "item": "小学校の恩師・学校側の現在",
+      "detail": "教員採用試験の全体競争率は2.9倍で過去最低（前年度3.2倍）、小学校は2.0倍まで低下し、東京都の小学校は1.1倍。68教委等のうち38教委等で志願者数が過去5年で最低。学校現場は正規教員・臨時的任用教員・非常勤講師・再任用教員で構成されており、定年後に再任用で教壇に残る恩師像には制度的な裏付けがある。",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://www.mext.go.jp/content/20251218-mxt_kyoikujinzai01-000046447_1.pdf"
+        }
+      ]
+    }
+  ],
+  "warnings": [
+    "実在政治家の実名・実在の政治スキャンダル・特定の事件名は一切収集していない。ユーザー指示どおり『本当にあった政治の出来事』ではなく、制度の構造と統計だけを素材にしてある。歌詞側でも党名・政治家名・法案名は出さず、『控除の欄』『5万円未満の領収書』『直径80cmの穴』のように制度の形だけを描くこと。",
+    "LAST CALL COLLECTION 2026 の炎上には実在の出演者・運営者の個人名が出典記事に含まれるが、意図的に angles のモチーフからは外してある。歌詞では個人名を出さず『全額返金になったコレクション』『閉店前の最後の注文』のように事象と一般語だけで指すこと。BreakingDownも同様で、批判の内容（逮捕者、質の低下という批判）は一般的な語られ方としてのみ扱い、特定選手には触れない。",
+    "ドラえもんは実名で出す方針だが、他キャラは実名を出さない設計。ひみつ道具名は作品の固有名詞なので、実際の商業リリースでは権利確認が必要。『翻訳こんにゃく』の正式表記は『ほんやくコンニャク』で、歌詞での表記ゆれに注意。",
+    "ひみつ道具の設定出典にはファン運営のwiki（ピクシブ百科事典・ニコニコ大百科・Wikipedia）と公式のドラえもんチャンネルが混在する。数値（タケコプター時速80km・8時間、アンキパン39斤、通りぬけフープ直径80cm、教科書234ページ）は公式ページと二次資料の双方で確認できたものを優先したが、リリックに数字を入れる場合は再確認が望ましい。",
+    "社会統計は2025〜2026年前半時点の公表値。出生数（67.1万人／66.5万人／70.5万人）や23区マンション平均価格（1億3613万円／1億4402万円）のように、集計主体・対象範囲によって数字が割れているものがある。歌詞では『10年連続で過去最少』『1億超え』のように桁と方向で使うほうが安全。",
+    "『ラストコール』はユーザー文脈ではキャバ嬢オーディション番組およびその2026年6月のイベントを指す可能性が高いが、一般語の『ラストコール＝閉店前の最後の注文』とも読める。ダブルミーニングとして使えるが、どちらを主に指すかは CP でユーザーに確認したほうがよい。",
+    "ユーザーが提供していない実話・経歴は一切書いていない。空き地でのリサイタル、恩師、成功後の帰還はすべて fictional な設定であり、実在人物の経歴として扱わないこと。",
+    "『お前らが今ハマってるそれ、俺は小5で飽きた』の一行に使える具体名と数字は、BreakingDown（1分1ラウンド、オーディション）／LAST CALL COLLECTION 2026（全額返金）／倍速視聴（20代男性56.5%）／推し活（年間3.5兆円、1人平均25万円）／スニーカー転売（60億ドル）／中古比率28% に集約してある。ブランド名そのものは今回追加収集していないため、必要ならラウンド3で個別に収集する。"
+  ]
+}
