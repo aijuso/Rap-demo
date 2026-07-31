@@ -1,65 +1,42 @@
 {
   "schema": "japanese-rap-brief/v2",
-  "run_id": "rap-001-receipt",
+  "run_id": "rap-002-flex",
+  "status": "draft-not-frozen",
   "mode": "create",
-  "deliverable": "hook_8bars + verse_16bars",
-  "theme": "終電を逃した深夜、タクシー代7,000円を払わず2時間歩いて帰る一夜",
-  "core_message": "金額は精算できるが、その夜に残った感情は誰も精算してくれない。だから歩いた2時間を自分の取り分として引き受ける。",
-  "facts_and_images": [
-    "終電のドア",
-    "改札外の空車ランプ",
-    "タクシーのメーター",
-    "スマホの残高",
-    "100円コーヒー",
-    "レシート",
-    "コインランドリー",
-    "時速4キロ"
+  "interaction_mode": "collaborative",
+  "checkpoint_log": [
+    {
+      "cp": "CP1",
+      "round": 1,
+      "user_reply": "作品・キャラ題材 / 「普通のラップのようなクオリティ ただユーモアのあるワードなどを使う。アニメのキャラでもこのラップの世界観に生きていて、例えばジャイアンがアルマーニを着てるとかそういうこと のび太がやっと買えたポルシェとか」 / フック8 + バース16"
+    }
   ],
+  "concept": "",
+  "scout_rounds": [],
+  "selected_keywords": [],
+  "selected_rhyme_pairs": [],
+  "deliverable": "hook_8bars + verse_16bars",
+  "theme": "既存アニメのキャラクター設定を現代のラップ／フレックスの世界観に移植する（例: 弱者だったキャラが金と地位を手にしている状態を、地の文ではなく生活の細部で描く）",
+  "core_message": "",
+  "facts_and_images": [],
   "fiction_or_lived": "fictional",
   "speaker": {
-    "identity": "都市部で働く20代後半の会社員（架空）",
+    "identity": "",
     "point_of_view": "first",
-    "knowledge_boundary": [
-      "自分の残高と歩数",
-      "目に見える街の情景",
-      "タクシー料金の概算"
-    ]
+    "knowledge_boundary": []
   },
-  "listener": "同じ夜を経験したことのある同世代",
-  "setting": {
-    "time": "平日深夜0時58分〜3時",
-    "place": "郊外行き終電を逃した駅前と、そこから自宅までの徒歩ルート"
-  },
-  "tone": [
-    "deadpan",
-    "self-deprecating",
-    "観察的",
-    "静かな意地"
-  ],
+  "listener": "",
+  "setting": {"time": "", "place": ""},
+  "tone": ["humorous-wordplay", "普通のラップとして成立する重心", "flex/観察のミックス"],
   "register": "conversational",
-  "dialect": {
-    "name": "none",
-    "confidence": "high"
-  },
-  "bpm": 88,
+  "dialect": {"name": "none", "confidence": "high"},
+  "bpm": null,
   "meter": "4/4",
   "bars": 24,
-  "structure": [
-    "Hook 8",
-    "Verse 16",
-    "(Hook reprise 8 — same text)"
-  ],
+  "structure": ["Hook 8", "Verse 16"],
   "rhyme_density": "medium",
-  "rhyme_methods": [
-    "multi-mora end rhyme",
-    "paronomasia (乗り越し/乗り越え)",
-    "homophone pun (勘定/感情)",
-    "idiom literalization (足が出る)",
-    "internal rhyme",
-    "anadiplosis (惜しかったか→惜しくはない)",
-    "deliberate unrhymed landing"
-  ],
-  "humor_intensity": "light",
+  "rhyme_methods": [],
+  "humor_intensity": "medium",
   "explicitness": "clean",
   "required_words": [],
   "forbidden_words": [],
@@ -68,13 +45,13 @@
   "generation_target": "none",
   "copyright_input_class": "original_prompt",
   "assumptions": [
-    "ユーザーが題材・尺・用途を指定しなかったため、抑制的な既定値を採用した（create / Hook8+Verse16 / 歌詞テキスト）。",
-    "話者は架空。ユーザー本人の経歴・困窮・病歴・方言は一切使用していない。",
-    "BPM88・4/4はテキストからの提案値であり、実ビートは未指定。",
-    "参照アーティストの指定がないため Reference/Technique Analyst は起動していない。"
+    "キャラ題材は設定・道具・関係性のみを素材とし、原作の歌詞・主題歌・セリフの文言は一切収集も引用もしない",
+    "ユーザー例示（ジャイアン×アルマーニ、のび太×ポルシェ）はドラえもん系を想起させるが、作品確定はCP1ラウンド2で行う"
   ],
   "unknowns": [
-    "実ビート、録音、実演読みが未提供のため flow・pocket・呼吸・アクセントは全て proposal。",
-    "pyopenjtalk / fugashi が本環境で利用不可のため、全読みは手動指定（reading_confidence を個別に付与）。"
+    "対象作品の確定",
+    "話者（誰の一人称か）",
+    "BPM",
+    "コンセプト（何を言う曲か）"
   ]
 }
