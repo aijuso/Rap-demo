@@ -1,0 +1,63 @@
+{
+  "schema": "repair-report/v1",
+  "run_id": "isekai-satire-001",
+  "source_revision": 1,
+  "target_revision": 2,
+  "owner": "repair_owner (parent context, Draft Integrator と同一。再監査は別インスタンスで実施)",
+  "changes": [
+    {
+      "issue_id": "A-001",
+      "bar_ids": ["B33", "B34", "B35", "B37"],
+      "layer": "rhyme",
+      "before_summary": "verse2前半6小節に可聴韻イベントがゼロ(光/審査/発生/やりがい/から)",
+      "change_intent": "行末を a-i 系(異世界/サイン/先払い/が先→やりがい)で貫通させ、意味は保持: 異世界=妄想開始、サイン=白紙署名の風刺、先払い=家賃条項、が先=課金者優先の格差",
+      "after_summary": "B33-B37が異世界/サイン/先払い/やりがい/が先の連鎖韻。B38内部の悪役/配役と接続",
+      "collateral_checks": ["HD07三段落ち構造維持(自前・先払い→やりがい)", "R6妄想枠(目を閉じりゃ)維持", "B36は無変更でB40求人との先食い回避を維持"]
+    },
+    {
+      "issue_id": "A-002",
+      "bar_ids": ["B53", "B54"],
+      "layer": "semantics",
+      "before_summary": "「ライトが過ぎる」が『〜が過ぎる=過剰』の慣用と衝突し多義",
+      "change_intent": "案B採用: 終電は出た/充電も切れた(シューデン/ジューデン近完全韻)。P2完了(画面消灯=充電切れ)を一意化",
+      "after_summary": "HD08のライト通過は削除。CB1(トラック)はB49『もういらない』で決着済みと整理",
+      "collateral_checks": ["humor_planのHD08はpartially_realized(不作為の決着はB49が担う)と記録", "P2完了の动作はB47閉じる+B54切れるで二段"]
+    },
+    {
+      "issue_id": "A-003",
+      "bar_ids": ["*"],
+      "layer": "flow",
+      "before_summary": "flow_remapのrests/accents/breathが全bar空欄",
+      "change_intent": "flow_map.yamlのユニット設計とhumor timing(HD01/02/05/07のpre-punch休符)を56小節へ展開して再remap",
+      "after_summary": "全barにrests/accents/breathを付与。B19/B41の18モーラとB35の16モーラは録音2テイク検証が必要な残存リスクとしてunknownsに明記",
+      "collateral_checks": ["録音検証は未実施のまま(text_only proposal)"]
+    },
+    {
+      "issue_id": "A-004",
+      "bar_ids": ["B19"],
+      "layer": "structure",
+      "before_summary": "B19『おすすめ欄が回す』がB28の主体反転を先食い",
+      "change_intent": "B19の主体を『親指(自分)』に変更し、B28『回してんのは おすすめ欄』の主体反転を新情報化",
+      "after_summary": "おすすめ欄を回す親指(自分が回している、と思っている)→B28で実は回されている、の誤導→反転が成立",
+      "collateral_checks": ["『回す』語彙は維持(CB2)", "SC03の具体物(スワイプする親指)を採用"]
+    },
+    {
+      "issue_id": "A-005",
+      "bar_ids": ["B03", "B21", "B28", "B48"],
+      "layer": "originality",
+      "before_summary": "特徴行の類似検索・revision evidenceなし",
+      "change_intent": "特徴4句(セリフなしのモブ配役/奨学金だけ育つ部屋/次のじゃない この周回/回してんのは おすすめ欄)のweb完全一致検索を実施",
+      "after_summary": "完全一致・近接一致なし(検索スニペット確認のみ、網羅性は限定的)。本repair_reportがrevision evidenceとなる",
+      "collateral_checks": ["検索は表層一致の確認であり法的判断ではない"]
+    }
+  ],
+  "additional_adoptions": [
+    {"bar_ids": ["B09"], "change": "案B採用(監査推奨): 朝の護送車 満員電車", "reason": "ゴソーシャ/デンシャ脚韻+護送=強制の風刺強化"},
+    {"bar_ids": ["B20"], "change": "案B条件付き採用: 俺の現実 万年ロード中", "reason": "だけ3連解消、マンネン/ムゲン系→ロード中の響き"}
+  ],
+  "rejected_audit_suggestions": [],
+  "unresolved": [
+    "G6実演可能性: 録音・ビート音源が無いため未検証のまま(最終成果物に残存リスクとして明記)",
+    "B19/B41/B35の高モーラ小節は録音時に削り候補(B19: 親指→指、B41: じゃなくて→じゃなく 等)"
+  ]
+}

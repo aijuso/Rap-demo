@@ -1,0 +1,509 @@
+{
+  "schema": "professional-audit/v2",
+  "run_id": "isekai-satire-001",
+  "brief_hash": "9602021d191f44e6343f277e0b139131b404808537630daf871ffe8c0ba3a2d6",
+  "draft_revision": 1,
+  "audit_target": "案A conservative (audit_target.md primary)",
+  "auditor": {
+    "instance_id": "adversarial-auditor-blind-1",
+    "independence": "full"
+  },
+  "verification": {
+    "text_read": true,
+    "spoken_read": false,
+    "recorded_on_beat": false
+  },
+  "preflight": {
+    "tool": "professional_audit.py",
+    "verdict": "eligible-for-human-release-review",
+    "hard_gate_failures": [],
+    "note": "preflightは構造・証拠カバレッジ判定であり芸術的スコアではない"
+  },
+  "hard_gates": [
+    {
+      "gate_id": "G1",
+      "result": "pass",
+      "evidence": [
+        "パロディはジャンル共通トロープ(トラック転生/ステータス画面/ギルド/周回)に限定。実在作品名・キャラ名・企業名・アーティスト名の使用なし(全56小節確認)",
+        "B23『転生したら本気出す』は『転生したら〜』の一般構文と『明日から本気出す』のネットミーム合成であり特定作品タイトルの再現ではない",
+        "類似検索は未実施のため、公開前に特徴行(B04, B21, B41, B44)のsimilarity checkを推奨(unverified_claims参照)"
+      ],
+      "score_cap": null
+    },
+    {
+      "gate_id": "G2",
+      "result": "pass",
+      "evidence": [
+        "全56小節を平易に言い換え可能。中心行(B04, B40-B45)の因果・指示対象は明確",
+        "境界事例: B53『ライトが過ぎる』は『Xが過ぎる=過剰』の慣用読みと競合し一意に言い換えられないが単発でありgate失敗の『中心2行以上』に該当しない(A-002で修復指示)",
+        "B46『歩いた分だけ台本』は省略構文だがB44-B45の文脈で回復可能"
+      ],
+      "score_cap": null
+    },
+    {
+      "gate_id": "G3",
+      "result": "pass",
+      "evidence": [
+        "倒置・助詞欠落の反復なし。B14-B15の敬体(です/ございません)は運営告知の役割声として動機付けられ、B16『できねぇ』で地の声に戻る切替も明瞭",
+        "口語縮約(回ってんのは/見りゃ/してみっか)は話者の conversational register と一貫",
+        "韻のための読み歪めなし(韻はむしろ疎)"
+      ],
+      "score_cap": null
+    },
+    {
+      "gate_id": "G4",
+      "result": "pass",
+      "evidence": [
+        "56小節・5セクション構成(8/16/8/16/8)がbrief通り。一人称視点・deadpan/defiantトーン維持",
+        "verse2の異世界描写(B33-B39)はB32『妄想で転生してみっか』で想像と枠づけられ、話者の知識境界を守る",
+        "禁止語(実在固有名)違反なし。B37『課金者から』・B15『天井はございません』は仕組み一般への風刺でR4準拠"
+      ],
+      "score_cap": null
+    },
+    {
+      "gate_id": "G5",
+      "result": "pass",
+      "evidence": [
+        "交換可能な自己肯定行はほぼ皆無。トラック3態(B05まだ来ない→B29もう来ない→B49もういらない)、クソシナリオ→書き換え中のシナリオ(B08→B52)等、反復に意味進行がある",
+        "韻を外しても風刺の命題が全行で残る(without-rhyme plain test 56/56 pass)"
+      ],
+      "score_cap": null
+    },
+    {
+      "gate_id": "G6",
+      "result": "unverified",
+      "evidence": [
+        "録音・ビート音源なし(brief unknowns準拠)。BPM140でのB19(18モーラ)・B41(18モーラ)の発話可能性、HD系パンチ前休符、outroの減速はすべてtext_only proposal",
+        "flow_remapは全barでrests/accents/breathが空であり、ユーモア設計が要求するpre-punch休符が譜割り上未指定"
+      ],
+      "score_cap": 84
+    },
+    {
+      "gate_id": "G7",
+      "result": "pass",
+      "evidence": [
+        "実在人物への断定・侮辱なし。punch-down回避を確認: B17のNPC呼びはB43『名札のあいつも同じモブ側』で反転回収(R3ペア維持)",
+        "トラック転生トロープは衝突・負傷を一切描写せず(B40は『荷台には求人』、B53は通過)。ただしB24『窓からトラック探す目』は受動的希死の読みが可能なため、演出でトロープ枠を維持すること(fiction框の維持条件付きでpass)"
+      ],
+      "score_cap": null
+    }
+  ],
+  "line_analysis_summary": {
+    "method": "全56小節の平易言い換え・話者行動・韻イベント・自然さを audit_evidence.json に記録",
+    "paraphrase_failures": [],
+    "ambiguous_lines": [
+      "B53(『〜が過ぎる』慣用競合)",
+      "B46(省略構文・回復可能)"
+    ],
+    "register_switches": [
+      "B14-B15 system_voice(意図的)",
+      "B16 地の声復帰",
+      "B35-B36 求人票引用"
+    ]
+  },
+  "unit_analysis_summary": {
+    "four_bar_units": 14,
+    "stagnant_units": 0,
+    "notes": [
+      "hook2はhook1の同型反復だが全行で一語以上の意味進行(また→まだ、まだ来ない→もう来ない、この改札→おすすめ欄)がありR5をクリア",
+      "B33-B36(異世界シミュレーション)は情報進行はあるが韻イベントがゼロで、音の推進力が register humor に全面依存",
+      "B53-B56のモーラ数減(7/6/9/10)はoutro減圧の設計として妥当(proposal)"
+    ]
+  },
+  "rhyme_audit": {
+    "classified_events": 19,
+    "notable_events": [
+      {
+        "bars": [
+          "B03",
+          "B04"
+        ],
+        "type": "多モーラ行末アソナンス",
+        "family": "a-i-a-u(配役/改札)",
+        "scores": "audibility2 meaning2 naturalness2 placement2 freshness2",
+        "note": "配役と通勤を音で縫合するこの曲の最良イベント"
+      },
+      {
+        "bars": [
+          "B40",
+          "B41"
+        ],
+        "type": "内部ミニマルペア",
+        "family": "キュージン/キューサイ(求人/救済)",
+        "scores": "audibility2 meaning2 naturalness2 placement2 freshness2",
+        "note": "P1の意味反転を音でも駆動"
+      },
+      {
+        "bars": [
+          "B17",
+          "B18"
+        ],
+        "type": "行末slant",
+        "family": "NPC/客A",
+        "scores": "meaning2 naturalness2 audibility1",
+        "note": "匿名性の対称を音で支える"
+      },
+      {
+        "bars": [
+          "B14",
+          "B15"
+        ],
+        "type": "文法語尾一致",
+        "family": "です/ません",
+        "note": "敬体そのものがギャグの膜であり grammar-tail だが機能的"
+      }
+    ],
+    "weaknesses": [
+      "B33-B38に可聴の韻イベントがゼロ(シンサ/ハッセー/ヤリガイ/カラ/ウチは互いに無関係)。brief rhyme_density=medium に対しverse2前半が実質無韻",
+      "hook2はhook1のB03/B04押韻を失う(B27配役/B28おすすめ欄は不一致)。変奏の代償として音のアンカーが消えている",
+      "B21/B22(ヘヤ/マツリ)、hook3(B49-B52)も無韻。hook3は減圧設計として弁護可能だがverse2前半は弁護材料がない"
+    ]
+  },
+  "humor_audit": {
+    "events": [
+      {
+        "id": "HD01相当",
+        "bars": [
+          "B01",
+          "B04"
+        ],
+        "type": "double_meaning",
+        "verdict": "成立。周回→改札の目的語後出しが音声のみで判読可能"
+      },
+      {
+        "id": "HD04相当",
+        "bars": [
+          "B13",
+          "B15"
+        ],
+        "type": "register_collision+satire",
+        "verdict": "成立。『なお、天井はございません』は消費者保護比較の新角度を維持"
+      },
+      {
+        "id": "HD07相当",
+        "bars": [
+          "B34",
+          "B36"
+        ],
+        "type": "deadpan列挙",
+        "verdict": "三段(装備自前/家賃発生/報酬やりがい)は成立するが『やりがい搾取』の既視感は残る。膜(ギルド窓口)が緩和"
+      },
+      {
+        "id": "HD05相当",
+        "bars": [
+          "B28",
+          "B31"
+        ],
+        "type": "hook一語変化",
+        "verdict": "B28の自他動詞反転は良いがB19と情報が重複し驚きが半減"
+      },
+      {
+        "id": "HD08相当",
+        "bars": [
+          "B49",
+          "B53"
+        ],
+        "type": "anticlimax callback",
+        "verdict": "リスク。B53の一意性欠如(A-002)によりアンチクライマックスが『弱い行』に誤読されうる"
+      }
+    ],
+    "punch_down_check": "全標的が制度・構造・話者自身。個人・属性への攻撃なし"
+  },
+  "vocabulary_audit": {
+    "longest_abstract_run": 2,
+    "concrete_scene_coverage": 0.79,
+    "unsupported_specificity_count": 0,
+    "notes": [
+      "改札・残高・名札・荷台・奨学金・虹(SSR演出)など具体物が場面と感情を同時に運ぶ",
+      "AI好み抽象クラスター(未来/運命/覚悟/光と闇)への収束なし。B33『白い光』はトロープ引用として根拠あり",
+      "『だけ』3連(B20-B22)と体言止めの多用は電報体として概ね機能するが、単調化の縁にいる"
+    ]
+  },
+  "ai_smell_audit": {
+    "verdict": "低",
+    "flags": [
+      "B20-B22『だけ』3連(アナフォラと判断、要監視)",
+      "体言止め率が高い(56行中約30行)が、UI読み上げ・電報体の様式として動機付けあり",
+      "行末助動詞への収束なし、比喩の自動収束なし、平熱の観察行(B21, B43)が存在"
+    ]
+  },
+  "proper_noun_audit": {
+    "entities": [
+      {
+        "surface": "NPC",
+        "bars": [
+          "B17"
+        ],
+        "verdict": "保持。B18/B43の対称反転に必須。一般名詞化した略語で知識要求も適切"
+      },
+      {
+        "surface": "客A",
+        "bars": [
+          "B18"
+        ],
+        "verdict": "保持。話者の自己匿名化"
+      }
+    ],
+    "forbidden_violations": []
+  },
+  "diagnostics": {
+    "end_rhyme_bias": 0.42,
+    "dominant_family_reuse": 0.11,
+    "grammar_only_ratio": 0.11,
+    "meaningful_rhyme_ratio": 0.84,
+    "longest_abstract_run": 2,
+    "concrete_scene_coverage": 0.79,
+    "unsupported_specificity_count": 0,
+    "four_bar_change_coverage": 1.0,
+    "note": "韻イベント総数19は56小節に対し少ない。診断値の健全さは分布の偏り(verse2前半の空洞)を隠すため、rhyme_architecture採点で別途減点"
+  },
+  "scores": {
+    "brief_voice_facts": 7,
+    "semantic_clarity": 11,
+    "section_progression": 9,
+    "concrete_vocabulary": 8,
+    "rhyme_architecture": 9,
+    "flow_breath": 7,
+    "humor_surprise": 7,
+    "hook_return": 6,
+    "natural_japanese": 7,
+    "originality_revision": 3
+  },
+  "score_evidence": {
+    "brief_voice_facts": "8点満点中7: 構成・話者・禁止語・知識境界すべて準拠(B32の枠づけ含む)。-1はB24の受動的希死の読みに対する演出条件が残ること",
+    "semantic_clarity": "14点満点中11: 56/56行が言い換え可能。-3はB53の慣用競合、B46の省略、B41『免責』の推論負荷",
+    "section_progression": "10点満点中9: 全14ユニットで情報/感情/flowのいずれかが進行。トラック3態とhook変奏が模範的。-1はB28がB19と情報重複",
+    "concrete_vocabulary": "10点満点中8: B21(奨学金だけ育つ部屋)、B43(名札)等が満点級。-2はB33-B37が条項の列挙に寄り場面の手触りが薄い",
+    "rhyme_architecture": "15点満点中9: B03/B04とB40/B41は満点イベントだが、B33-B38の無韻、hook2での押韻アンカー喪失、B21/B22無韻によりmedium密度指定に対して分布が空洞化",
+    "flow_breath": "13点満点中7: モーラcontour(hook約11-13/verse最大18/outro6-10)は設計意図が読めるが、rests/breath/accentが全bar未指定でパンチ前休符が譜面上存在せず、18モーラ小節は未検証",
+    "humor_surprise": "8点満点中7: 種類が多様(double meaning/register collision/deadpan/callback)でpunch-down回避が徹底。-1はB53アンチクライマックスの判読リスクとB36の既視感",
+    "hook_return": "7点満点中6: 反復が毎回意味を増す設計は高水準。-1はhook2の音のアンカー喪失",
+    "natural_japanese": "8点満点中7: 口語と役割声の切替が耳で追える。-1はB53",
+    "originality_revision": "7点満点中3: 模倣痕跡なしだがrevision evidenceゼロ、特徴行の類似検索未実施"
+  },
+  "raw_total": 74,
+  "applied_cap": 84,
+  "cap_reason": "G6 unverified(録音・ビートなし)による84点上限。raw_total 74は上限未満のため実効影響なし。revision evidence不在の93点上限も同様",
+  "final_score": 74,
+  "issues": [
+    {
+      "issue_id": "A-001",
+      "severity": "major",
+      "bar_ids": [
+        "B33",
+        "B34",
+        "B35",
+        "B36",
+        "B37",
+        "B38"
+      ],
+      "failed_layer": "rhyme_architecture",
+      "evidence": "B33-B38に可聴の韻イベントが1つもない(ヒカリ/シンサ/ハッセー/ヤリガイ/カラ/ウチは母音列が互いに無関係)。brief は rhyme_density=medium と internal/multisyllabic/phrase を指定しており、verse2前半6小節の完全な空洞は指定密度の分布違反。B40/B41(求人/救済)の強イベントが孤立している",
+      "root_cause": "verse2前半をregister humor(求人票引用)だけで駆動する設計にし、音響設計を後回しにした",
+      "must_preserve": [
+        "B35-B36の求人票引用の三段構造と敬体の膜",
+        "B40/B41の求人/救済ミニマルペア",
+        "B32の妄想枠づけ"
+      ],
+      "must_change": [
+        "B33-B38の各2小節ペアに最低1つ、引用レジスターを壊さない2モーラ以上のアソナンスまたは内部韻を追加(例: 審査/発生系のa-i・a-e母音列の整列など、具体語は修復側の裁量)"
+      ],
+      "acceptance_test": [
+        "B33-B40のrhyme eventを音読で列挙したとき、4小節窓ごとに audibility>=1 かつ meaning>=1 のイベントが1つ以上ある",
+        "追加韻によってB34-B36の平易な言い換えが変わらない"
+      ],
+      "collateral_checks": [
+        "humor(三段落ちのタイミング維持)",
+        "flow(モーラ数増加がB19/B41級の過密を生まないこと)"
+      ]
+    },
+    {
+      "issue_id": "A-002",
+      "severity": "major",
+      "bar_ids": [
+        "B53",
+        "B54"
+      ],
+      "failed_layer": "semantics",
+      "evidence": "B53『ライトが過ぎる』は『Xが過ぎる=Xが過剰だ』という慣用構文(冗談が過ぎる)と衝突し、聴取のみでは『ヘッドライトが通り過ぎる』というアンチクライマックスの意図が一意に立たない。この行はトラック葬送(B49)後の決定的な不作為=最大の行動を担うため、誤読はcallback全体(HD08相当)を『単に弱い行』に変える",
+      "root_cause": "アンチクライマックスの静けさを最小語数で書こうとして、通過動詞を省略した",
+      "must_preserve": [
+        "outroの減圧(低モーラ数)とdeadpanトーン",
+        "B54『画面、落ちた』のP2完了",
+        "派手なオチを置かない設計"
+      ],
+      "must_change": [
+        "B53を『車のライトが通過していく』と一意に聴き取れる表現に差し替える(案B B53-B54『終電は出た/充電も切れた』の採用も有効な修復。その場合トラック/ライトのcallback喪失をB49の葬送で許容できるか確認)"
+      ],
+      "acceptance_test": [
+        "文脈を知らない聴者がB53-B54を音声のみで一文に言い換え、『光が強すぎる』と読む者がいないこと"
+      ],
+      "collateral_checks": [
+        "humor(アンチクライマックスの間の設計)",
+        "hook_return(トラックcallbackの残存)",
+        "rhyme(案B採用時はシューデン/ジューデンの韻が加点)"
+      ]
+    },
+    {
+      "issue_id": "A-003",
+      "severity": "major",
+      "bar_ids": [
+        "B04",
+        "B19",
+        "B40",
+        "B41",
+        "B53"
+      ],
+      "failed_layer": "flow_performability",
+      "evidence": "flow_remapは全56barで rests=[]、breath=none、accents=[] のまま提出されており、ユーモア設計が前提とするパンチ前休符(B04頭拍前1/8、B40前後、B53前の丸1拍)が譜割り上どこにも存在しない。B19(18モーラ)とB41(18モーラ)はBPM140の16分グリッドで最密の小節だが2テイク検証がない。すべてtext_only proposalであり断定不能",
+      "root_cause": "ビート音源不在のままflow proposalを空欄で確定させ、休符・呼吸設計を録音工程に先送りした",
+      "must_preserve": [
+        "outroのモーラ減(7/6/9/10)による減圧contour",
+        "hook=8分/verse=16分の密度対比の設計意図"
+      ],
+      "must_change": [
+        "録音(またはメトロノーム2テイク)でB19/B41の重要語(おすすめ欄・免責)が潰れないか検証し、flow_remapにrests/breathを実測で記入する",
+        "B40とB53のパンチ前休符を譜割りに明記する"
+      ],
+      "acceptance_test": [
+        "BPM140で2テイク録り、改札・求人・免責・配役の各語が聴感で判別できる",
+        "breathが助詞と述語を切らない"
+      ],
+      "collateral_checks": [
+        "humor(休符追加でタイミングが変わる)",
+        "semantic(早口化で重要語が潰れないこと)"
+      ]
+    },
+    {
+      "issue_id": "A-004",
+      "severity": "minor",
+      "bar_ids": [
+        "B19",
+        "B28"
+      ],
+      "failed_layer": "section_progression",
+      "evidence": "B19『おすすめ欄が回す無限スクロール』が既に『回す主体=アルゴリズム』を開示しているため、hook2の変化行B28『回してんのは おすすめ欄』は自他動詞の反転はあるが情報として二番煎じになり、hook変奏の一点変化(最も目立つべき差分)の驚きが減衰する",
+      "root_cause": "verse1のquatrain punchとhook2の変化行に同じ発見を割り当てた",
+      "must_change": [
+        "どちらか一方の情報を別の発見に差し替える(hook2側で『補正』系の新情報に振る等)か、B28を意図的なCallbackとして扱いB19側の言い回しを弱める"
+      ],
+      "must_preserve": [
+        "B04→B28の『回ってんのは→回してんのは』の自他反転構造",
+        "hook2の他の変奏(まだ/もう/見飽きた)"
+      ],
+      "acceptance_test": [
+        "hook2の4小節目を初聴した聴者が『新しい情報』を1つ言える"
+      ],
+      "collateral_checks": [
+        "hook_return",
+        "rhyme(B28の差し替えでhook2の音のアンカー回復を同時に検討=A-001と統合可能)"
+      ]
+    },
+    {
+      "issue_id": "A-005",
+      "severity": "minor",
+      "bar_ids": [
+        "B04",
+        "B21",
+        "B41",
+        "B44"
+      ],
+      "failed_layer": "originality_revision",
+      "evidence": "特徴行(『回ってんのは この改札』『奨学金だけ育つ部屋』『救済じゃなくて免責』『モブも群れれば群衆の声』)の類似検索が未実施で、revision evidence(弱行のbefore/after、録音メモ)が一切ない。rubric上、初稿はrevision分の得点を得られない",
+      "root_cause": "revision 1の初回監査であり修復サイクル未実行",
+      "must_change": [
+        "特徴行4行の類似検索を実施し記録する",
+        "A-001〜A-003の修復をbefore/afterで文書化する"
+      ],
+      "must_preserve": [
+        "上記4行の現在の言い回し(検索で問題が出ない限り)"
+      ],
+      "acceptance_test": [
+        "audit_report次版にsimilarity check結果とrevision差分が添付されている"
+      ],
+      "collateral_checks": [
+        "originality"
+      ]
+    }
+  ],
+  "strengths_to_preserve": [
+    "トラックの3態進行(B05まだ来ない→B29もう来ない→B49もういらない)と求人反転(B40)。S1-P1の39小節距離をhook再言及で保持する設計が機能している",
+    "B03/B04『配役/改札』のa-i-a-u完全アソナンス(意味・自然さ・配置すべて満点)",
+    "B40/B41『求人/救済』ミニマルペアとB41『免責』の自己批評",
+    "B17→B18→B43のNPC/客A/名札の対称反転(punch-down回避の構造的解決)",
+    "B14-B15の運営告知敬体(『なお、天井はございません』)のregister collision",
+    "B44『モブも群れれば群衆の声』のmob語源反転",
+    "hook変奏の一語進行(また/まだ/もう、クソシナリオ→書き換え中のシナリオ)"
+  ],
+  "unverified_claims": [
+    "flow/ポケット/アクセント/ブレスに関する全主張(text_onlyのためunverified。断定しない)",
+    "B19・B41の18モーラ小節のBPM140発話可能性",
+    "パンチ前休符・outro減速の実演効果",
+    "特徴行の類似検索(G1は目視確認のみでpass。検索による確認は未実施)",
+    "『周回』『補正』の両義が音声のみで一次解釈成立するか(音読検証未実施)"
+  ],
+  "decision": "revise",
+  "decision_note": "hard gate全通過(G6のみunverified)だが、major 3件(verse2前半の韻空洞、B53の一意性、flow休符設計の不在)が残るためconditional_passではなくrevise。修復は局所で足り、上流artifactの作り直しは不要",
+  "appendix_plan_b_review": [
+    {
+      "bar": "B04",
+      "text": "何周目だ このクソシナリオ",
+      "verdict": "非推奨",
+      "note": "B08との入替でクソシナリオを4小節目パンチに前倒しする狙いは分かるが、hook1最強の押韻B03/B04(配役/改札)が4小節離れ(B03-B08)audibilityが落ちる。『何周目』もB01と重複"
+    },
+    {
+      "bar": "B08",
+      "text": "回ってんのは この改札",
+      "verdict": "非推奨",
+      "note": "B04と一対の入替。同上の理由で案A維持を推奨"
+    },
+    {
+      "bar": "B09",
+      "text": "朝の護送車 満員電車",
+      "verdict": "採用推奨",
+      "note": "ゴソーシャ/デンシャの脚韻+o-o母音列で案Aの無韻ペア(B09/B10)を補強し、『護送車』は通勤=収監の風刺として鋭い。darkトーン範囲内。A-001とは別枠のverse1改善"
+    },
+    {
+      "bar": "B12",
+      "text": "カンスト、時給は据え置きです",
+      "verdict": "非推奨",
+      "note": "です体をB14より早く出すとB14『非対応です』のsystem_voice初出のレジスター衝突が弱まる"
+    },
+    {
+      "bar": "B19",
+      "text": "おすすめ欄の無限スクロール",
+      "verdict": "非推奨",
+      "note": "動詞『回す』を落とすとB04/B28の回る/回すモチーフ連鎖とアルゴリズムの能動性が消える。A-004を解決するならB28側を触るべき"
+    },
+    {
+      "bar": "B20",
+      "text": "俺の現実 万年ロード中",
+      "verdict": "条件付き採用",
+      "note": "『だけ』3連(B20-B22)を崩して単調化リスクを下げ、マンネン/マンイン(B09)の遠隔エコーも生む。ただし『俺の』の所有格が案Aの非人称の冷たさをやや弱める"
+    },
+    {
+      "bar": "B36",
+      "text": "異世界の空にも求人票",
+      "verdict": "非推奨",
+      "note": "画は強いがB40『荷台には求人』とモチーフが重複しP1の新鮮度を先食いする。案Aの『報酬の欄には「やりがい」』の三段落ちを維持"
+    },
+    {
+      "bar": "B53",
+      "text": "終電は出た",
+      "verdict": "採用推奨",
+      "note": "A-002の直接修復。シューデン/ジューデン(B54)のミニマルペア韻で一意性と音を同時に獲得。トラック/ライトcallbackの喪失はB49の葬送で許容範囲"
+    },
+    {
+      "bar": "B54",
+      "text": "充電も切れた",
+      "verdict": "採用推奨",
+      "note": "B53案Bとペア。P2(画面消灯)はB47の能動的『閉じる』が既に実行済みのため、受動的な電池切れでも回収は成立する"
+    },
+    {
+      "bar": "B56",
+      "text": "で、あんたは何周目?",
+      "verdict": "非推奨(僅差)",
+      "note": "周回で開き周回で閉じる円環も成立するが、周回はB48/B52で回収済み。案A『あんたの配役は?』は配役系列(B03/B27/B38/B51)を聴衆に開きcore_message(配役拒否)に直結するため優位"
+    }
+  ]
+}

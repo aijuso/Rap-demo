@@ -1,0 +1,1701 @@
+{
+  "bars": [
+    {
+      "index": 1,
+      "tokens": [
+        {
+          "surface": "周回",
+          "concreteness": 0.5
+        },
+        {
+          "surface": "何周目",
+          "concreteness": 0.5
+        }
+      ],
+      "rhyme_hits": [
+        {
+          "family": "uuai_shuukai",
+          "position": "internal",
+          "meaning_bearing": true,
+          "grammar_tail_only": false,
+          "reading_confidence": 0.9
+        }
+      ],
+      "changes": [
+        "information"
+      ],
+      "naturalness_review": {
+        "status": "pass",
+        "evidence": "口語の自問として自然"
+      },
+      "interesting_without_rhyme_review": {
+        "status": "pass",
+        "evidence": "何度目のループかという問いが命題として立つ"
+      },
+      "ai_pattern_flags": []
+    },
+    {
+      "index": 2,
+      "tokens": [
+        {
+          "surface": "初期設定",
+          "concreteness": 0.45
+        },
+        {
+          "surface": "ハードモード",
+          "concreteness": 0.5
+        }
+      ],
+      "rhyme_hits": [],
+      "changes": [
+        "information"
+      ],
+      "naturalness_review": {
+        "status": "pass",
+        "evidence": "体言止め2連だがフックの電報体として自然"
+      },
+      "interesting_without_rhyme_review": {
+        "status": "pass",
+        "evidence": "人生=難易度固定という命題"
+      },
+      "ai_pattern_flags": []
+    },
+    {
+      "index": 3,
+      "tokens": [
+        {
+          "surface": "セリフ",
+          "concreteness": 0.7
+        },
+        {
+          "surface": "モブ",
+          "concreteness": 0.6
+        },
+        {
+          "surface": "配役",
+          "concreteness": 0.55
+        }
+      ],
+      "rhyme_hits": [
+        {
+          "family": "aiau",
+          "position": "end",
+          "meaning_bearing": true,
+          "grammar_tail_only": false,
+          "reading_confidence": 0.9
+        }
+      ],
+      "changes": [
+        "information"
+      ],
+      "naturalness_review": {
+        "status": "pass",
+        "evidence": "自然"
+      },
+      "interesting_without_rhyme_review": {
+        "status": "pass",
+        "evidence": "台詞なしの端役を割り当てられたという自己規定"
+      },
+      "ai_pattern_flags": []
+    },
+    {
+      "index": 4,
+      "tokens": [
+        {
+          "surface": "改札",
+          "concreteness": 0.9
+        },
+        {
+          "surface": "回る",
+          "concreteness": 0.7
+        }
+      ],
+      "rhyme_hits": [
+        {
+          "family": "aiau",
+          "position": "end",
+          "meaning_bearing": true,
+          "grammar_tail_only": false,
+          "reading_confidence": 0.9
+        }
+      ],
+      "changes": [
+        "information",
+        "emotion"
+      ],
+      "naturalness_review": {
+        "status": "pass",
+        "evidence": "『回ってんのは』の口語縮約は自然"
+      },
+      "interesting_without_rhyme_review": {
+        "status": "pass",
+        "evidence": "周回の正体が通勤の改札だと判明するturn(HD01)"
+      },
+      "ai_pattern_flags": []
+    },
+    {
+      "index": 5,
+      "tokens": [
+        {
+          "surface": "トラック",
+          "concreteness": 0.9
+        },
+        {
+          "surface": "来ない",
+          "concreteness": 0.6
+        }
+      ],
+      "rhyme_hits": [],
+      "changes": [
+        "information"
+      ],
+      "naturalness_review": {
+        "status": "pass",
+        "evidence": "自然"
+      },
+      "interesting_without_rhyme_review": {
+        "status": "pass",
+        "evidence": "転生装置(トラック)は来ないという待機の告白"
+      },
+      "ai_pattern_flags": []
+    },
+    {
+      "index": 6,
+      "tokens": [
+        {
+          "surface": "ステータス画面",
+          "concreteness": 0.8
+        },
+        {
+          "surface": "残高",
+          "concreteness": 0.85
+        }
+      ],
+      "rhyme_hits": [],
+      "changes": [
+        "information"
+      ],
+      "naturalness_review": {
+        "status": "pass",
+        "evidence": "自然"
+      },
+      "interesting_without_rhyme_review": {
+        "status": "pass",
+        "evidence": "ゲームUIと銀行残高の二重写し(S2)"
+      },
+      "ai_pattern_flags": []
+    },
+    {
+      "index": 7,
+      "tokens": [
+        {
+          "surface": "台本",
+          "concreteness": 0.8
+        },
+        {
+          "surface": "書き換える",
+          "concreteness": 0.6
+        }
+      ],
+      "rhyme_hits": [
+        {
+          "family": "aio_slant",
+          "position": "end",
+          "meaning_bearing": true,
+          "grammar_tail_only": false,
+          "reading_confidence": 0.7
+        }
+      ],
+      "changes": [
+        "information",
+        "emotion"
+      ],
+      "naturalness_review": {
+        "status": "pass",
+        "evidence": "自然"
+      },
+      "interesting_without_rhyme_review": {
+        "status": "pass",
+        "evidence": "いつか台本を書き換えるという意志の種"
+      },
+      "ai_pattern_flags": []
+    },
+    {
+      "index": 8,
+      "tokens": [
+        {
+          "surface": "クソシナリオ",
+          "concreteness": 0.6
+        }
+      ],
+      "rhyme_hits": [
+        {
+          "family": "aio_slant",
+          "position": "end",
+          "meaning_bearing": true,
+          "grammar_tail_only": false,
+          "reading_confidence": 0.7
+        }
+      ],
+      "changes": [
+        "emotion"
+      ],
+      "naturalness_review": {
+        "status": "pass",
+        "evidence": "自然"
+      },
+      "interesting_without_rhyme_review": {
+        "status": "pass",
+        "evidence": "現実への命名=タイトル級フレーズ"
+      },
+      "ai_pattern_flags": []
+    },
+    {
+      "index": 9,
+      "tokens": [
+        {
+          "surface": "ダンジョン",
+          "concreteness": 0.7
+        },
+        {
+          "surface": "満員電車",
+          "concreteness": 0.9
+        }
+      ],
+      "rhyme_hits": [],
+      "changes": [
+        "information"
+      ],
+      "naturalness_review": {
+        "status": "pass",
+        "evidence": "自然"
+      },
+      "interesting_without_rhyme_review": {
+        "status": "pass",
+        "evidence": "朝の満員電車をダンジョンと呼ぶ場面転換"
+      },
+      "ai_pattern_flags": []
+    },
+    {
+      "index": 10,
+      "tokens": [
+        {
+          "surface": "タイムカード",
+          "concreteness": 0.9
+        },
+        {
+          "surface": "クエスト",
+          "concreteness": 0.6
+        }
+      ],
+      "rhyme_hits": [],
+      "changes": [
+        "information"
+      ],
+      "naturalness_review": {
+        "status": "pass",
+        "evidence": "『切ってクエスト』は省略的だが口語で回復可能"
+      },
+      "interesting_without_rhyme_review": {
+        "status": "pass",
+        "evidence": "打刻=クエスト受注という対応"
+      },
+      "ai_pattern_flags": []
+    },
+    {
+      "index": 11,
+      "tokens": [
+        {
+          "surface": "ステータスオープン",
+          "concreteness": 0.6
+        },
+        {
+          "surface": "経験値",
+          "concreteness": 0.6
+        }
+      ],
+      "rhyme_hits": [],
+      "changes": [
+        "information"
+      ],
+      "naturalness_review": {
+        "status": "pass",
+        "evidence": "掛け声構文として自然"
+      },
+      "interesting_without_rhyme_review": {
+        "status": "pass",
+        "evidence": "能力値開示の期待を立てる(HD02 setup)"
+      },
+      "ai_pattern_flags": []
+    },
+    {
+      "index": 12,
+      "tokens": [
+        {
+          "surface": "カンスト",
+          "concreteness": 0.6
+        },
+        {
+          "surface": "時給",
+          "concreteness": 0.9
+        },
+        {
+          "surface": "据え置き",
+          "concreteness": 0.6
+        }
+      ],
+      "rhyme_hits": [],
+      "changes": [
+        "information",
+        "emotion"
+      ],
+      "naturalness_review": {
+        "status": "pass",
+        "evidence": "自然"
+      },
+      "interesting_without_rhyme_review": {
+        "status": "pass",
+        "evidence": "経験値は上限でも時給は据え置きという皮肉の着地"
+      },
+      "ai_pattern_flags": []
+    },
+    {
+      "index": 13,
+      "tokens": [
+        {
+          "surface": "親ガチャ",
+          "concreteness": 0.6
+        },
+        {
+          "surface": "配布済み",
+          "concreteness": 0.6
+        }
+      ],
+      "rhyme_hits": [
+        {
+          "family": "aiu_haifu",
+          "position": "cross_bar",
+          "meaning_bearing": true,
+          "grammar_tail_only": false,
+          "reading_confidence": 0.8
+        }
+      ],
+      "changes": [
+        "information"
+      ],
+      "naturalness_review": {
+        "status": "pass",
+        "evidence": "自然"
+      },
+      "interesting_without_rhyme_review": {
+        "status": "pass",
+        "evidence": "初期条件は出生時に配布済み(S3)。親個人を責めない"
+      },
+      "ai_pattern_flags": []
+    },
+    {
+      "index": 14,
+      "tokens": [
+        {
+          "surface": "リセマラ",
+          "concreteness": 0.6
+        },
+        {
+          "surface": "非対応",
+          "concreteness": 0.5
+        }
+      ],
+      "rhyme_hits": [
+        {
+          "family": "desumasu",
+          "position": "end",
+          "meaning_bearing": true,
+          "grammar_tail_only": true,
+          "reading_confidence": 0.9
+        }
+      ],
+      "changes": [
+        "information",
+        "flow"
+      ],
+      "naturalness_review": {
+        "status": "pass",
+        "evidence": "敬体は運営告知の役割声として動機付けられている"
+      },
+      "interesting_without_rhyme_review": {
+        "status": "pass",
+        "evidence": "人生は引き直し不可という告知"
+      },
+      "ai_pattern_flags": []
+    },
+    {
+      "index": 15,
+      "tokens": [
+        {
+          "surface": "天井",
+          "concreteness": 0.7
+        },
+        {
+          "surface": "ございません",
+          "concreteness": 0.3
+        }
+      ],
+      "rhyme_hits": [
+        {
+          "family": "desumasu",
+          "position": "end",
+          "meaning_bearing": true,
+          "grammar_tail_only": true,
+          "reading_confidence": 0.9
+        }
+      ],
+      "changes": [
+        "information"
+      ],
+      "naturalness_review": {
+        "status": "pass",
+        "evidence": "慇懃な告知体は register collision として意図的"
+      },
+      "interesting_without_rhyme_review": {
+        "status": "pass",
+        "evidence": "救済ライン(天井)の不在=課金ガチャ以下の設計"
+      },
+      "ai_pattern_flags": []
+    },
+    {
+      "index": 16,
+      "tokens": [
+        {
+          "surface": "チュートリアル",
+          "concreteness": 0.6
+        },
+        {
+          "surface": "スキップ",
+          "concreteness": 0.6
+        }
+      ],
+      "rhyme_hits": [],
+      "changes": [
+        "emotion",
+        "flow"
+      ],
+      "naturalness_review": {
+        "status": "pass",
+        "evidence": "『できねぇ』で地の声に戻る切替が明瞭"
+      },
+      "interesting_without_rhyme_review": {
+        "status": "pass",
+        "evidence": "終わらない研修=人生の理不尽の圧縮"
+      },
+      "ai_pattern_flags": []
+    },
+    {
+      "index": 17,
+      "tokens": [
+        {
+          "surface": "コンビニ",
+          "concreteness": 0.9
+        },
+        {
+          "surface": "レジ",
+          "concreteness": 0.9
+        },
+        {
+          "surface": "NPC",
+          "concreteness": 0.6
+        }
+      ],
+      "rhyme_hits": [
+        {
+          "family": "iiee_slant",
+          "position": "end",
+          "meaning_bearing": true,
+          "grammar_tail_only": false,
+          "reading_confidence": 0.7
+        }
+      ],
+      "changes": [
+        "information"
+      ],
+      "naturalness_review": {
+        "status": "pass",
+        "evidence": "自然"
+      },
+      "interesting_without_rhyme_review": {
+        "status": "pass",
+        "evidence": "深夜コンビニで店員をNPCと見る加害性含みの視線(S5)"
+      },
+      "ai_pattern_flags": []
+    },
+    {
+      "index": 18,
+      "tokens": [
+        {
+          "surface": "客A",
+          "concreteness": 0.7
+        }
+      ],
+      "rhyme_hits": [
+        {
+          "family": "iiee_slant",
+          "position": "end",
+          "meaning_bearing": true,
+          "grammar_tail_only": false,
+          "reading_confidence": 0.7
+        }
+      ],
+      "changes": [
+        "information",
+        "emotion"
+      ],
+      "naturalness_review": {
+        "status": "pass",
+        "evidence": "自然"
+      },
+      "interesting_without_rhyme_review": {
+        "status": "pass",
+        "evidence": "向こうから見れば自分も客Aという対称性の兆し"
+      },
+      "ai_pattern_flags": []
+    },
+    {
+      "index": 19,
+      "tokens": [
+        {
+          "surface": "おすすめ欄",
+          "concreteness": 0.8
+        },
+        {
+          "surface": "無限スクロール",
+          "concreteness": 0.7
+        }
+      ],
+      "rhyme_hits": [
+        {
+          "family": "oo_long",
+          "position": "internal",
+          "meaning_bearing": true,
+          "grammar_tail_only": false,
+          "reading_confidence": 0.8
+        }
+      ],
+      "changes": [
+        "information"
+      ],
+      "naturalness_review": {
+        "status": "pass",
+        "evidence": "自然"
+      },
+      "interesting_without_rhyme_review": {
+        "status": "pass",
+        "evidence": "回している主体はアルゴリズム側だという反転"
+      },
+      "ai_pattern_flags": []
+    },
+    {
+      "index": 20,
+      "tokens": [
+        {
+          "surface": "現実",
+          "concreteness": 0.3
+        },
+        {
+          "surface": "ロード中",
+          "concreteness": 0.6
+        }
+      ],
+      "rhyme_hits": [
+        {
+          "family": "oo_long",
+          "position": "internal",
+          "meaning_bearing": true,
+          "grammar_tail_only": false,
+          "reading_confidence": 0.8
+        }
+      ],
+      "changes": [
+        "emotion"
+      ],
+      "naturalness_review": {
+        "status": "pass",
+        "evidence": "自然"
+      },
+      "interesting_without_rhyme_review": {
+        "status": "pass",
+        "evidence": "画面の中だけが進み現実は停止という停滞の可視化"
+      },
+      "ai_pattern_flags": []
+    },
+    {
+      "index": 21,
+      "tokens": [
+        {
+          "surface": "奨学金",
+          "concreteness": 0.9
+        },
+        {
+          "surface": "部屋",
+          "concreteness": 0.9
+        },
+        {
+          "surface": "育つ",
+          "concreteness": 0.7
+        }
+      ],
+      "rhyme_hits": [],
+      "changes": [
+        "information"
+      ],
+      "naturalness_review": {
+        "status": "pass",
+        "evidence": "自然"
+      },
+      "interesting_without_rhyme_review": {
+        "status": "pass",
+        "evidence": "部屋で育つのは負債だけという具体の皮肉"
+      },
+      "ai_pattern_flags": []
+    },
+    {
+      "index": 22,
+      "tokens": [
+        {
+          "surface": "ガチャ",
+          "concreteness": 0.7
+        },
+        {
+          "surface": "虹",
+          "concreteness": 0.9
+        },
+        {
+          "surface": "祭り",
+          "concreteness": 0.7
+        }
+      ],
+      "rhyme_hits": [],
+      "changes": [
+        "emotion"
+      ],
+      "naturalness_review": {
+        "status": "pass",
+        "evidence": "自然"
+      },
+      "interesting_without_rhyme_review": {
+        "status": "pass",
+        "evidence": "課金演出の虹が唯一の祝祭という虚しい高揚"
+      },
+      "ai_pattern_flags": [
+        "『だけ』がB20-B22で3連続。アナフォラと判断するが単調化リスク"
+      ]
+    },
+    {
+      "index": 23,
+      "tokens": [
+        {
+          "surface": "転生",
+          "concreteness": 0.5
+        },
+        {
+          "surface": "本気出す",
+          "concreteness": 0.5
+        }
+      ],
+      "rhyme_hits": [
+        {
+          "family": "au_slant",
+          "position": "internal",
+          "meaning_bearing": true,
+          "grammar_tail_only": false,
+          "reading_confidence": 0.6
+        }
+      ],
+      "changes": [
+        "information",
+        "emotion"
+      ],
+      "naturalness_review": {
+        "status": "pass",
+        "evidence": "引用形式で自然"
+      },
+      "interesting_without_rhyme_review": {
+        "status": "pass",
+        "evidence": "自己欺瞞の台詞をdeadpanで引用"
+      },
+      "ai_pattern_flags": []
+    },
+    {
+      "index": 24,
+      "tokens": [
+        {
+          "surface": "窓",
+          "concreteness": 0.9
+        },
+        {
+          "surface": "トラック",
+          "concreteness": 0.9
+        },
+        {
+          "surface": "目",
+          "concreteness": 0.9
+        }
+      ],
+      "rhyme_hits": [
+        {
+          "family": "au_slant",
+          "position": "internal",
+          "meaning_bearing": true,
+          "grammar_tail_only": false,
+          "reading_confidence": 0.6
+        }
+      ],
+      "changes": [
+        "emotion"
+      ],
+      "naturalness_review": {
+        "status": "pass",
+        "evidence": "自然"
+      },
+      "interesting_without_rhyme_review": {
+        "status": "pass",
+        "evidence": "トラックを探す視線=受動的願望の暗部。事故は描かない"
+      },
+      "ai_pattern_flags": []
+    },
+    {
+      "index": 25,
+      "tokens": [
+        {
+          "surface": "周回",
+          "concreteness": 0.5
+        }
+      ],
+      "rhyme_hits": [
+        {
+          "family": "uuai_shuukai",
+          "position": "internal",
+          "meaning_bearing": true,
+          "grammar_tail_only": false,
+          "reading_confidence": 0.9
+        }
+      ],
+      "changes": [
+        "emotion"
+      ],
+      "naturalness_review": {
+        "status": "pass",
+        "evidence": "自然"
+      },
+      "interesting_without_rhyme_review": {
+        "status": "pass",
+        "evidence": "また→まだの一字変化で空しさが進行"
+      },
+      "ai_pattern_flags": []
+    },
+    {
+      "index": 26,
+      "tokens": [
+        {
+          "surface": "初期設定",
+          "concreteness": 0.45
+        },
+        {
+          "surface": "変更不可",
+          "concreteness": 0.4
+        }
+      ],
+      "rhyme_hits": [],
+      "changes": [
+        "information"
+      ],
+      "naturalness_review": {
+        "status": "pass",
+        "evidence": "自然"
+      },
+      "interesting_without_rhyme_review": {
+        "status": "pass",
+        "evidence": "ハードモード→変更不可への言い換えで固定性を強調"
+      },
+      "ai_pattern_flags": []
+    },
+    {
+      "index": 27,
+      "tokens": [
+        {
+          "surface": "明日",
+          "concreteness": 0.6
+        },
+        {
+          "surface": "配役",
+          "concreteness": 0.55
+        }
+      ],
+      "rhyme_hits": [],
+      "changes": [
+        "information"
+      ],
+      "naturalness_review": {
+        "status": "pass",
+        "evidence": "自然"
+      },
+      "interesting_without_rhyme_review": {
+        "status": "pass",
+        "evidence": "明日も同じ配役という時間の延長"
+      },
+      "ai_pattern_flags": []
+    },
+    {
+      "index": 28,
+      "tokens": [
+        {
+          "surface": "おすすめ欄",
+          "concreteness": 0.8
+        }
+      ],
+      "rhyme_hits": [],
+      "changes": [
+        "information"
+      ],
+      "naturalness_review": {
+        "status": "pass",
+        "evidence": "自然"
+      },
+      "interesting_without_rhyme_review": {
+        "status": "pass",
+        "evidence": "回ってる(自動詞)→回してんのは(他動詞)で操作主体が露出"
+      },
+      "ai_pattern_flags": []
+    },
+    {
+      "index": 29,
+      "tokens": [
+        {
+          "surface": "トラック",
+          "concreteness": 0.9
+        }
+      ],
+      "rhyme_hits": [],
+      "changes": [
+        "emotion"
+      ],
+      "naturalness_review": {
+        "status": "pass",
+        "evidence": "自然"
+      },
+      "interesting_without_rhyme_review": {
+        "status": "pass",
+        "evidence": "まだ来ない→もう来ないへの断念の進行"
+      },
+      "ai_pattern_flags": []
+    },
+    {
+      "index": 30,
+      "tokens": [
+        {
+          "surface": "画面",
+          "concreteness": 0.8
+        },
+        {
+          "surface": "残高",
+          "concreteness": 0.85
+        }
+      ],
+      "rhyme_hits": [],
+      "changes": [
+        "emotion"
+      ],
+      "naturalness_review": {
+        "status": "pass",
+        "evidence": "自然"
+      },
+      "interesting_without_rhyme_review": {
+        "status": "pass",
+        "evidence": "見飽きたという感情語で画面の意味が変質"
+      },
+      "ai_pattern_flags": []
+    },
+    {
+      "index": 31,
+      "tokens": [
+        {
+          "surface": "主人公補正",
+          "concreteness": 0.5
+        }
+      ],
+      "rhyme_hits": [],
+      "changes": [
+        "information"
+      ],
+      "naturalness_review": {
+        "status": "pass",
+        "evidence": "『どこだよ』の粗い口語は感情の高まりとして自然"
+      },
+      "interesting_without_rhyme_review": {
+        "status": "pass",
+        "evidence": "補正への問いの初言語化(S4)"
+      },
+      "ai_pattern_flags": []
+    },
+    {
+      "index": 32,
+      "tokens": [
+        {
+          "surface": "妄想",
+          "concreteness": 0.4
+        },
+        {
+          "surface": "転生",
+          "concreteness": 0.5
+        }
+      ],
+      "rhyme_hits": [],
+      "changes": [
+        "information",
+        "flow"
+      ],
+      "naturalness_review": {
+        "status": "pass",
+        "evidence": "『してみっか』の口語縮約は自然"
+      },
+      "interesting_without_rhyme_review": {
+        "status": "pass",
+        "evidence": "verse2が想像だと明示する枠づけ(知識境界の防壁)"
+      },
+      "ai_pattern_flags": []
+    },
+    {
+      "index": 33,
+      "tokens": [
+        {
+          "surface": "目",
+          "concreteness": 0.9
+        },
+        {
+          "surface": "白い光",
+          "concreteness": 0.8
+        }
+      ],
+      "rhyme_hits": [],
+      "changes": [
+        "information",
+        "flow"
+      ],
+      "naturalness_review": {
+        "status": "pass",
+        "evidence": "自然"
+      },
+      "interesting_without_rhyme_review": {
+        "status": "pass",
+        "evidence": "想像の転生開始の場面転換"
+      },
+      "ai_pattern_flags": []
+    },
+    {
+      "index": 34,
+      "tokens": [
+        {
+          "surface": "ギルド",
+          "concreteness": 0.6
+        },
+        {
+          "surface": "受付",
+          "concreteness": 0.8
+        },
+        {
+          "surface": "審査",
+          "concreteness": 0.6
+        }
+      ],
+      "rhyme_hits": [],
+      "changes": [
+        "information"
+      ],
+      "naturalness_review": {
+        "status": "pass",
+        "evidence": "自然"
+      },
+      "interesting_without_rhyme_review": {
+        "status": "pass",
+        "evidence": "転生先にも審査がある既視感"
+      },
+      "ai_pattern_flags": []
+    },
+    {
+      "index": 35,
+      "tokens": [
+        {
+          "surface": "装備",
+          "concreteness": 0.8
+        },
+        {
+          "surface": "家賃",
+          "concreteness": 0.9
+        }
+      ],
+      "rhyme_hits": [],
+      "changes": [
+        "information"
+      ],
+      "naturalness_review": {
+        "status": "pass",
+        "evidence": "求人票引用の体で自然"
+      },
+      "interesting_without_rhyme_review": {
+        "status": "pass",
+        "evidence": "装備自前・家賃発生=雇用条件の読み上げ"
+      },
+      "ai_pattern_flags": []
+    },
+    {
+      "index": 36,
+      "tokens": [
+        {
+          "surface": "報酬",
+          "concreteness": 0.6
+        },
+        {
+          "surface": "やりがい",
+          "concreteness": 0.4
+        }
+      ],
+      "rhyme_hits": [],
+      "changes": [
+        "emotion"
+      ],
+      "naturalness_review": {
+        "status": "pass",
+        "evidence": "自然"
+      },
+      "interesting_without_rhyme_review": {
+        "status": "pass",
+        "evidence": "報酬欄が『やりがい』という空欄の告発"
+      },
+      "ai_pattern_flags": []
+    },
+    {
+      "index": 37,
+      "tokens": [
+        {
+          "surface": "チート",
+          "concreteness": 0.6
+        },
+        {
+          "surface": "課金者",
+          "concreteness": 0.7
+        }
+      ],
+      "rhyme_hits": [],
+      "changes": [
+        "information"
+      ],
+      "naturalness_review": {
+        "status": "pass",
+        "evidence": "自然"
+      },
+      "interesting_without_rhyme_review": {
+        "status": "pass",
+        "evidence": "特権は資本のある者から配布される格差の再生産"
+      },
+      "ai_pattern_flags": []
+    },
+    {
+      "index": 38,
+      "tokens": [
+        {
+          "surface": "悪役令嬢",
+          "concreteness": 0.7
+        },
+        {
+          "surface": "配役",
+          "concreteness": 0.55
+        }
+      ],
+      "rhyme_hits": [],
+      "changes": [
+        "information"
+      ],
+      "naturalness_review": {
+        "status": "pass",
+        "evidence": "自然"
+      },
+      "interesting_without_rhyme_review": {
+        "status": "pass",
+        "evidence": "悪役すら台本の被害者という標的の一般化"
+      },
+      "ai_pattern_flags": []
+    },
+    {
+      "index": 39,
+      "tokens": [
+        {
+          "surface": "初期配布",
+          "concreteness": 0.6
+        }
+      ],
+      "rhyme_hits": [
+        {
+          "family": "aiu_haifu",
+          "position": "cross_bar",
+          "meaning_bearing": true,
+          "grammar_tail_only": false,
+          "reading_confidence": 0.8
+        }
+      ],
+      "changes": [
+        "information"
+      ],
+      "naturalness_review": {
+        "status": "pass",
+        "evidence": "自然"
+      },
+      "interesting_without_rhyme_review": {
+        "status": "pass",
+        "evidence": "何周しても初期配布が同じなら結果も同じ(B13回収)"
+      },
+      "ai_pattern_flags": []
+    },
+    {
+      "index": 40,
+      "tokens": [
+        {
+          "surface": "トラック",
+          "concreteness": 0.9
+        },
+        {
+          "surface": "荷台",
+          "concreteness": 0.9
+        },
+        {
+          "surface": "求人",
+          "concreteness": 0.8
+        }
+      ],
+      "rhyme_hits": [
+        {
+          "family": "kyuu",
+          "position": "internal",
+          "meaning_bearing": true,
+          "grammar_tail_only": false,
+          "reading_confidence": 0.9
+        }
+      ],
+      "changes": [
+        "information",
+        "emotion"
+      ],
+      "naturalness_review": {
+        "status": "pass",
+        "evidence": "自然"
+      },
+      "interesting_without_rhyme_review": {
+        "status": "pass",
+        "evidence": "P1: トラックは来たが積んでいたのは求人=労働。妄想の破裂"
+      },
+      "ai_pattern_flags": []
+    },
+    {
+      "index": 41,
+      "tokens": [
+        {
+          "surface": "救済",
+          "concreteness": 0.4
+        },
+        {
+          "surface": "免責",
+          "concreteness": 0.5
+        }
+      ],
+      "rhyme_hits": [
+        {
+          "family": "kyuu",
+          "position": "internal",
+          "meaning_bearing": true,
+          "grammar_tail_only": false,
+          "reading_confidence": 0.9
+        }
+      ],
+      "changes": [
+        "emotion"
+      ],
+      "naturalness_review": {
+        "status": "pass",
+        "evidence": "自然"
+      },
+      "interesting_without_rhyme_review": {
+        "status": "pass",
+        "evidence": "待っていたのは救済ではなく(努力しない)免責という自認"
+      },
+      "ai_pattern_flags": []
+    },
+    {
+      "index": 42,
+      "tokens": [
+        {
+          "surface": "ステ振り",
+          "concreteness": 0.6
+        },
+        {
+          "surface": "手",
+          "concreteness": 0.9
+        }
+      ],
+      "rhyme_hits": [],
+      "changes": [
+        "information",
+        "emotion"
+      ],
+      "naturalness_review": {
+        "status": "pass",
+        "evidence": "『引き直せねぇ』の口語は一貫"
+      },
+      "interesting_without_rhyme_review": {
+        "status": "pass",
+        "evidence": "P3: 引き直し不可でも配分は自分の手"
+      },
+      "ai_pattern_flags": []
+    },
+    {
+      "index": 43,
+      "tokens": [
+        {
+          "surface": "名札",
+          "concreteness": 0.9
+        },
+        {
+          "surface": "モブ側",
+          "concreteness": 0.6
+        }
+      ],
+      "rhyme_hits": [],
+      "changes": [
+        "information"
+      ],
+      "naturalness_review": {
+        "status": "pass",
+        "evidence": "自然"
+      },
+      "interesting_without_rhyme_review": {
+        "status": "pass",
+        "evidence": "P5: NPCと呼んだ相手も名札をつけた同じモブ側"
+      },
+      "ai_pattern_flags": []
+    },
+    {
+      "index": 44,
+      "tokens": [
+        {
+          "surface": "群衆",
+          "concreteness": 0.6
+        },
+        {
+          "surface": "声",
+          "concreteness": 0.7
+        }
+      ],
+      "rhyme_hits": [
+        {
+          "family": "m_allit",
+          "position": "initial",
+          "meaning_bearing": true,
+          "grammar_tail_only": false,
+          "reading_confidence": 0.6
+        }
+      ],
+      "changes": [
+        "information",
+        "emotion"
+      ],
+      "naturalness_review": {
+        "status": "pass",
+        "evidence": "自然"
+      },
+      "interesting_without_rhyme_review": {
+        "status": "pass",
+        "evidence": "モブ(mob)=群衆の語源反転。群れれば背景でなく声"
+      },
+      "ai_pattern_flags": []
+    },
+    {
+      "index": 45,
+      "tokens": [
+        {
+          "surface": "補正",
+          "concreteness": 0.4
+        },
+        {
+          "surface": "配られない",
+          "concreteness": 0.5
+        }
+      ],
+      "rhyme_hits": [],
+      "changes": [
+        "information"
+      ],
+      "naturalness_review": {
+        "status": "pass",
+        "evidence": "自然"
+      },
+      "interesting_without_rhyme_review": {
+        "status": "pass",
+        "evidence": "P4: 補正は配布物ではないという前提破壊"
+      },
+      "ai_pattern_flags": []
+    },
+    {
+      "index": 46,
+      "tokens": [
+        {
+          "surface": "台本",
+          "concreteness": 0.8
+        },
+        {
+          "surface": "歩く",
+          "concreteness": 0.7
+        }
+      ],
+      "rhyme_hits": [],
+      "changes": [
+        "information"
+      ],
+      "naturalness_review": {
+        "status": "pass",
+        "evidence": "省略構文だが『歩いた分が台本になる』と回復可能"
+      },
+      "interesting_without_rhyme_review": {
+        "status": "pass",
+        "evidence": "補正なしで歩いた記述こそが台本"
+      },
+      "ai_pattern_flags": []
+    },
+    {
+      "index": 47,
+      "tokens": [
+        {
+          "surface": "画面",
+          "concreteness": 0.8
+        },
+        {
+          "surface": "閉じる",
+          "concreteness": 0.8
+        }
+      ],
+      "rhyme_hits": [],
+      "changes": [
+        "information",
+        "flow"
+      ],
+      "naturalness_review": {
+        "status": "pass",
+        "evidence": "自然"
+      },
+      "interesting_without_rhyme_review": {
+        "status": "pass",
+        "evidence": "P2前半: 比喩だった画面を身体動作で閉じる"
+      },
+      "ai_pattern_flags": []
+    },
+    {
+      "index": 48,
+      "tokens": [
+        {
+          "surface": "周回",
+          "concreteness": 0.5
+        }
+      ],
+      "rhyme_hits": [],
+      "changes": [
+        "information",
+        "emotion"
+      ],
+      "naturalness_review": {
+        "status": "pass",
+        "evidence": "自然"
+      },
+      "interesting_without_rhyme_review": {
+        "status": "pass",
+        "evidence": "次の周回ではなくこの周回を選ぶ主題の裸の断言"
+      },
+      "ai_pattern_flags": []
+    },
+    {
+      "index": 49,
+      "tokens": [
+        {
+          "surface": "トラック",
+          "concreteness": 0.9
+        }
+      ],
+      "rhyme_hits": [],
+      "changes": [
+        "information"
+      ],
+      "naturalness_review": {
+        "status": "pass",
+        "evidence": "自然"
+      },
+      "interesting_without_rhyme_review": {
+        "status": "pass",
+        "evidence": "来ない→もう来ない→もういらないの三段でトラック葬送"
+      },
+      "ai_pattern_flags": []
+    },
+    {
+      "index": 50,
+      "tokens": [
+        {
+          "surface": "操作",
+          "concreteness": 0.6
+        },
+        {
+          "surface": "手",
+          "concreteness": 0.9
+        }
+      ],
+      "rhyme_hits": [],
+      "changes": [
+        "information"
+      ],
+      "naturalness_review": {
+        "status": "pass",
+        "evidence": "自然"
+      },
+      "interesting_without_rhyme_review": {
+        "status": "pass",
+        "evidence": "難易度は変わらないが操作権は自分にある"
+      },
+      "ai_pattern_flags": []
+    },
+    {
+      "index": 51,
+      "tokens": [
+        {
+          "surface": "名前",
+          "concreteness": 0.7
+        },
+        {
+          "surface": "書く",
+          "concreteness": 0.7
+        }
+      ],
+      "rhyme_hits": [],
+      "changes": [
+        "information"
+      ],
+      "naturalness_review": {
+        "status": "pass",
+        "evidence": "自然"
+      },
+      "interesting_without_rhyme_review": {
+        "status": "pass",
+        "evidence": "配役名ではなく自分の名前を自分で書く"
+      },
+      "ai_pattern_flags": []
+    },
+    {
+      "index": 52,
+      "tokens": [
+        {
+          "surface": "シナリオ",
+          "concreteness": 0.6
+        },
+        {
+          "surface": "書き換え中",
+          "concreteness": 0.6
+        }
+      ],
+      "rhyme_hits": [],
+      "changes": [
+        "information",
+        "emotion"
+      ],
+      "naturalness_review": {
+        "status": "pass",
+        "evidence": "自然"
+      },
+      "interesting_without_rhyme_review": {
+        "status": "pass",
+        "evidence": "クソシナリオ→書き換え中のシナリオへの命名更新"
+      },
+      "ai_pattern_flags": []
+    },
+    {
+      "index": 53,
+      "tokens": [
+        {
+          "surface": "ライト",
+          "concreteness": 0.8
+        }
+      ],
+      "rhyme_hits": [],
+      "changes": [
+        "flow",
+        "emotion"
+      ],
+      "naturalness_review": {
+        "status": "pass",
+        "evidence": "文法的には自然だが『〜が過ぎる』は過剰の慣用読みと競合し通過の一意解釈が立たない"
+      },
+      "interesting_without_rhyme_review": {
+        "status": "pass",
+        "evidence": "車のライトをやり過ごすアンチクライマックス(意図)"
+      },
+      "ai_pattern_flags": [
+        "『Xが過ぎる』の慣用(=過剰)との衝突で聴取時の一意性が弱い"
+      ]
+    },
+    {
+      "index": 54,
+      "tokens": [
+        {
+          "surface": "画面",
+          "concreteness": 0.8
+        },
+        {
+          "surface": "落ちた",
+          "concreteness": 0.7
+        }
+      ],
+      "rhyme_hits": [],
+      "changes": [
+        "information"
+      ],
+      "naturalness_review": {
+        "status": "pass",
+        "evidence": "自然"
+      },
+      "interesting_without_rhyme_review": {
+        "status": "pass",
+        "evidence": "P2完了: 画面消灯"
+      },
+      "ai_pattern_flags": []
+    },
+    {
+      "index": 55,
+      "tokens": [
+        {
+          "surface": "一行目",
+          "concreteness": 0.7
+        },
+        {
+          "surface": "書く",
+          "concreteness": 0.7
+        }
+      ],
+      "rhyme_hits": [],
+      "changes": [
+        "information"
+      ],
+      "naturalness_review": {
+        "status": "pass",
+        "evidence": "自然"
+      },
+      "interesting_without_rhyme_review": {
+        "status": "pass",
+        "evidence": "書き換えは一行目=この曲から始まる"
+      },
+      "ai_pattern_flags": []
+    },
+    {
+      "index": 56,
+      "tokens": [
+        {
+          "surface": "配役",
+          "concreteness": 0.55
+        },
+        {
+          "surface": "あんた",
+          "concreteness": 0.6
+        }
+      ],
+      "rhyme_hits": [],
+      "changes": [
+        "information",
+        "emotion"
+      ],
+      "naturalness_review": {
+        "status": "pass",
+        "evidence": "自然"
+      },
+      "interesting_without_rhyme_review": {
+        "status": "pass",
+        "evidence": "聴衆への問いで終わるresidue"
+      },
+      "ai_pattern_flags": []
+    }
+  ],
+  "setups": [
+    {
+      "id": "S1",
+      "bar": 5,
+      "expected_payoff_id": "P1"
+    },
+    {
+      "id": "S2",
+      "bar": 6,
+      "expected_payoff_id": "P2"
+    },
+    {
+      "id": "S3",
+      "bar": 13,
+      "expected_payoff_id": "P3"
+    },
+    {
+      "id": "S4",
+      "bar": 31,
+      "expected_payoff_id": "P4"
+    },
+    {
+      "id": "S5",
+      "bar": 17,
+      "expected_payoff_id": "P5"
+    }
+  ],
+  "payoffs": [
+    {
+      "id": "P1",
+      "bar": 40,
+      "setup_id": "S1",
+      "mechanism": "反転: 転生装置のトラックが求人を積んで到着"
+    },
+    {
+      "id": "P2",
+      "bar": 47,
+      "setup_id": "S2",
+      "mechanism": "帰結: 比喩だった画面を身体動作で閉じる(B54で消灯完了)"
+    },
+    {
+      "id": "P3",
+      "bar": 42,
+      "setup_id": "S3",
+      "mechanism": "再解釈: 引き直し不可でもステ振りは自分の手"
+    },
+    {
+      "id": "P4",
+      "bar": 45,
+      "setup_id": "S4",
+      "mechanism": "前提破壊: 補正は配布されない"
+    },
+    {
+      "id": "P5",
+      "bar": 43,
+      "setup_id": "S5",
+      "mechanism": "視点転換: 名札のあいつも同じモブ側"
+    }
+  ],
+  "named_entities": [
+    {
+      "surface": "NPC",
+      "bar": 17,
+      "function": "匿名化された労働者の記号。B18/B43の対称性反転に必須"
+    },
+    {
+      "surface": "客A",
+      "bar": 18,
+      "function": "話者自身の匿名化。NPCとの鏡像で加害性を反転"
+    }
+  ],
+  "independent_review": true,
+  "audio_reviewed": false,
+  "expected_bar_count": 56,
+  "technical_rhyme_brief": false,
+  "intentional_end_rhyme_reason": null
+}

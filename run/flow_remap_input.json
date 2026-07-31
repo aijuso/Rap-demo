@@ -9,7 +9,12 @@
    "reading": "マタシューカイナンシューメ",
    "subdivision": "eighth",
    "entry": "after_rest",
-   "function": "hook"
+   "function": "hook",
+   "rests": [
+    "beat_1前半拍(after_rest)"
+   ],
+   "accents": [],
+   "breath": "none"
   },
   {
    "index": 2,
@@ -17,7 +22,12 @@
    "reading": "ショキセッテーハードモード",
    "subdivision": "eighth",
    "entry": "after_rest",
-   "function": "hook"
+   "function": "hook",
+   "rests": [
+    "beat_1前半拍"
+   ],
+   "accents": [],
+   "breath": "none"
   },
   {
    "index": 3,
@@ -25,7 +35,12 @@
    "reading": "セリフナシノモブハイヤク",
    "subdivision": "eighth",
    "entry": "after_rest",
-   "function": "hook"
+   "function": "hook",
+   "rests": [
+    "beat_1前半拍"
+   ],
+   "accents": [],
+   "breath": "none"
   },
   {
    "index": 4,
@@ -33,7 +48,14 @@
    "reading": "マワッテンノワコノカイサツ",
    "subdivision": "eighth",
    "entry": "after_rest",
-   "function": "punch"
+   "function": "punch",
+   "rests": [
+    "「この改札」直前に1/8休符(HD01 landing)"
+   ],
+   "accents": [
+    "カイサツ頭"
+   ],
+   "breath": "light"
   },
   {
    "index": 5,
@@ -41,7 +63,12 @@
    "reading": "トラックワマダコナイ",
    "subdivision": "eighth",
    "entry": "after_rest",
-   "function": "hook"
+   "function": "hook",
+   "rests": [
+    "beat_1前半拍"
+   ],
+   "accents": [],
+   "breath": "none"
   },
   {
    "index": 6,
@@ -49,7 +76,12 @@
    "reading": "ステータスガメンワザンダカ",
    "subdivision": "eighth",
    "entry": "after_rest",
-   "function": "hook"
+   "function": "hook",
+   "rests": [
+    "beat_1前半拍"
+   ],
+   "accents": [],
+   "breath": "none"
   },
   {
    "index": 7,
@@ -57,7 +89,10 @@
    "reading": "イツカカキカエルダイホン",
    "subdivision": "eighth",
    "entry": "after_rest",
-   "function": "hook"
+   "function": "hook",
+   "rests": [],
+   "accents": [],
+   "breath": "none"
   },
   {
    "index": 8,
@@ -65,15 +100,27 @@
    "reading": "コノクソシナリオ",
    "subdivision": "eighth",
    "entry": "after_rest",
-   "function": "punch"
+   "function": "punch",
+   "rests": [
+    "beat_3以降全休(verse1ピックアップ準備)"
+   ],
+   "accents": [
+    "クソ"
+   ],
+   "breath": "full"
   },
   {
    "index": 9,
    "bar_id": "B09",
-   "reading": "ダンジョンワマンインデンシャ",
+   "reading": "アサノゴソーシャマンインデンシャ",
    "subdivision": "sixteenth",
    "entry": "pickup",
-   "function": "development"
+   "function": "development",
+   "rests": [
+    "beat_4に1/8休符"
+   ],
+   "accents": [],
+   "breath": "none"
   },
   {
    "index": 10,
@@ -81,7 +128,12 @@
    "reading": "タイムカードキッテクエスト",
    "subdivision": "sixteenth",
    "entry": "pickup",
-   "function": "development"
+   "function": "development",
+   "rests": [
+    "beat_4に1/8休符"
+   ],
+   "accents": [],
+   "breath": "light"
   },
   {
    "index": 11,
@@ -89,7 +141,12 @@
    "reading": "ステータスオープンケーケンチ",
    "subdivision": "sixteenth",
    "entry": "pickup",
-   "function": "setup"
+   "function": "setup",
+   "rests": [
+    "beat_4に1/8休符"
+   ],
+   "accents": [],
+   "breath": "none"
   },
   {
    "index": 12,
@@ -97,7 +154,14 @@
    "reading": "カンストデモジキュースエオキ",
    "subdivision": "sixteenth",
    "entry": "pickup",
-   "function": "punch"
+   "function": "punch",
+   "rests": [
+    "「時給据え置き」直前に1/4休符(HD02三項目前)"
+   ],
+   "accents": [
+    "スエオキ"
+   ],
+   "breath": "light"
   },
   {
    "index": 13,
@@ -105,7 +169,10 @@
    "reading": "オヤガチャノケッカワハイフズミ",
    "subdivision": "sixteenth",
    "entry": "beat_1",
-   "function": "setup"
+   "function": "setup",
+   "rests": [],
+   "accents": [],
+   "breath": "none"
   },
   {
    "index": 14,
@@ -113,7 +180,10 @@
    "reading": "リセマラワヒタイオーデス",
    "subdivision": "sixteenth",
    "entry": "beat_1",
-   "function": "development"
+   "function": "development",
+   "rests": [],
+   "accents": [],
+   "breath": "none"
   },
   {
    "index": 15,
@@ -121,7 +191,12 @@
    "reading": "ナオテンジョーワゴザイマセン",
    "subdivision": "sixteenth",
    "entry": "beat_1",
-   "function": "development"
+   "function": "development",
+   "rests": [
+    "beat_4全休(pre_punch)"
+   ],
+   "accents": [],
+   "breath": "full"
   },
   {
    "index": 16,
@@ -129,7 +204,12 @@
    "reading": "スキップデキネーチュートリアル",
    "subdivision": "sixteenth",
    "entry": "beat_1",
-   "function": "punch"
+   "function": "punch",
+   "rests": [],
+   "accents": [
+    "チュートリアル頭"
+   ],
+   "breath": "light"
   },
   {
    "index": 17,
@@ -137,7 +217,10 @@
    "reading": "コンビニノレジワエヌピーシー",
    "subdivision": "triplet",
    "entry": "beat_1",
-   "function": "setup"
+   "function": "setup",
+   "rests": [],
+   "accents": [],
+   "breath": "none"
   },
   {
    "index": 18,
@@ -145,23 +228,38 @@
    "reading": "ムコーカラミリャオレモキャクエー",
    "subdivision": "triplet",
    "entry": "beat_1",
-   "function": "development"
+   "function": "development",
+   "rests": [
+    "beat_4の3連末1つ空け"
+   ],
+   "accents": [],
+   "breath": "light"
   },
   {
    "index": 19,
    "bar_id": "B19",
-   "reading": "オススメランガマワスムゲンスクロール",
+   "reading": "オススメランヲマワスオヤユビ",
    "subdivision": "sixteenth",
    "entry": "pickup",
-   "function": "development"
+   "function": "development",
+   "rests": [],
+   "accents": [],
+   "breath": "none"
   },
   {
    "index": 20,
    "bar_id": "B20",
-   "reading": "ゲンジツダケガズットロードチュー",
+   "reading": "オレノゲンジツマンネンロードチュー",
    "subdivision": "sixteenth",
    "entry": "pickup",
-   "function": "punch"
+   "function": "punch",
+   "rests": [
+    "beat_4裏半拍(リカバリー)"
+   ],
+   "accents": [
+    "マンネン"
+   ],
+   "breath": "full"
   },
   {
    "index": 21,
@@ -169,7 +267,10 @@
    "reading": "ショーガクキンダケソダツヘヤ",
    "subdivision": "mixed",
    "entry": "after_rest",
-   "function": "development"
+   "function": "development",
+   "rests": [],
+   "accents": [],
+   "breath": "none"
   },
   {
    "index": 22,
@@ -177,7 +278,10 @@
    "reading": "ガチャノニジダケガマツリ",
    "subdivision": "mixed",
    "entry": "after_rest",
-   "function": "development"
+   "function": "development",
+   "rests": [],
+   "accents": [],
+   "breath": "none"
   },
   {
    "index": 23,
@@ -185,7 +289,12 @@
    "reading": "テンセーシタラホンキダス",
    "subdivision": "mixed",
    "entry": "after_rest",
-   "function": "setup"
+   "function": "setup",
+   "rests": [
+    "beat_4全休(pre_punch)"
+   ],
+   "accents": [],
+   "breath": "full"
   },
   {
    "index": 24,
@@ -193,7 +302,14 @@
    "reading": "マドカラトラックサガスメ",
    "subdivision": "mixed",
    "entry": "after_rest",
-   "function": "punch"
+   "function": "punch",
+   "rests": [
+    "beat_3以降空け(hook2準備)"
+   ],
+   "accents": [
+    "トラック"
+   ],
+   "breath": "full"
   },
   {
    "index": 25,
@@ -201,7 +317,10 @@
    "reading": "マダシューカイナンシューメ",
    "subdivision": "eighth",
    "entry": "beat_1",
-   "function": "hook"
+   "function": "hook",
+   "rests": [],
+   "accents": [],
+   "breath": "none"
   },
   {
    "index": 26,
@@ -209,7 +328,10 @@
    "reading": "ショキセッテーヘンコーフカ",
    "subdivision": "eighth",
    "entry": "beat_1",
-   "function": "hook"
+   "function": "hook",
+   "rests": [],
+   "accents": [],
+   "breath": "none"
   },
   {
    "index": 27,
@@ -217,7 +339,10 @@
    "reading": "マタアシタモモブハイヤク",
    "subdivision": "eighth",
    "entry": "beat_1",
-   "function": "hook"
+   "function": "hook",
+   "rests": [],
+   "accents": [],
+   "breath": "none"
   },
   {
    "index": 28,
@@ -225,7 +350,14 @@
    "reading": "マワシテンノワオススメラン",
    "subdivision": "eighth",
    "entry": "beat_1",
-   "function": "punch"
+   "function": "punch",
+   "rests": [
+    "「おすすめ欄」直前に1/8休符(HD05はB04と同グリッド)"
+   ],
+   "accents": [
+    "オススメラン頭"
+   ],
+   "breath": "full"
   },
   {
    "index": 29,
@@ -233,7 +365,10 @@
    "reading": "トラックワモーコナイ",
    "subdivision": "eighth",
    "entry": "beat_1",
-   "function": "hook"
+   "function": "hook",
+   "rests": [],
+   "accents": [],
+   "breath": "none"
   },
   {
    "index": 30,
@@ -241,7 +376,10 @@
    "reading": "ミアキタガメンノザンダカ",
    "subdivision": "eighth",
    "entry": "beat_1",
-   "function": "hook"
+   "function": "hook",
+   "rests": [],
+   "accents": [],
+   "breath": "none"
   },
   {
    "index": 31,
@@ -249,7 +387,10 @@
    "reading": "シュジンコーホセーワドコダヨ",
    "subdivision": "eighth",
    "entry": "beat_1",
-   "function": "hook"
+   "function": "hook",
+   "rests": [],
+   "accents": [],
+   "breath": "none"
   },
   {
    "index": 32,
@@ -257,31 +398,53 @@
    "reading": "モーソーデテンセーシテミッカ",
    "subdivision": "eighth",
    "entry": "beat_1",
-   "function": "turn"
+   "function": "turn",
+   "rests": [
+    "beat_3以降空け(verse2のafter_rest準備)"
+   ],
+   "accents": [
+    "テンセー"
+   ],
+   "breath": "full"
   },
   {
    "index": 33,
    "bar_id": "B33",
-   "reading": "メヲトジリャシロイヒカリ",
+   "reading": "メヲトジリャシロイイセカイ",
    "subdivision": "sixteenth",
    "entry": "after_rest",
-   "function": "development"
+   "function": "development",
+   "rests": [
+    "小節頭半拍"
+   ],
+   "accents": [],
+   "breath": "none"
   },
   {
    "index": 34,
    "bar_id": "B34",
-   "reading": "ギルドノウケツケマズシンサ",
+   "reading": "ギルドノウケツケマズサイン",
    "subdivision": "sixteenth",
    "entry": "after_rest",
-   "function": "setup"
+   "function": "setup",
+   "rests": [
+    "小節頭半拍+引用前後に1/8"
+   ],
+   "accents": [],
+   "breath": "light"
   },
   {
    "index": 35,
    "bar_id": "B35",
-   "reading": "ソービジマエヤチンワハッセー",
+   "reading": "ソービワジマエヤチンワサキバライ",
    "subdivision": "sixteenth",
    "entry": "after_rest",
-   "function": "development"
+   "function": "development",
+   "rests": [
+    "引用間に1/8"
+   ],
+   "accents": [],
+   "breath": "none"
   },
   {
    "index": 36,
@@ -289,15 +452,25 @@
    "reading": "ホーシューノランニワヤリガイ",
    "subdivision": "sixteenth",
    "entry": "after_rest",
-   "function": "punch"
+   "function": "punch",
+   "rests": [
+    "「やりがい」直前に1/8休符(HD07三段目)"
+   ],
+   "accents": [
+    "ヤリガイ"
+   ],
+   "breath": "light"
   },
   {
    "index": 37,
    "bar_id": "B37",
-   "reading": "チートハイフワカキンシャカラ",
+   "reading": "チートハイフワカキンシャガサキ",
    "subdivision": "sixteenth",
    "entry": "beat_1",
-   "function": "development"
+   "function": "development",
+   "rests": [],
+   "accents": [],
+   "breath": "none"
   },
   {
    "index": 38,
@@ -305,7 +478,10 @@
    "reading": "アクヤクレージョーモハイヤクノウチ",
    "subdivision": "sixteenth",
    "entry": "beat_1",
-   "function": "development"
+   "function": "development",
+   "rests": [],
+   "accents": [],
+   "breath": "none"
   },
   {
    "index": 39,
@@ -313,7 +489,12 @@
    "reading": "ナンシューシテモオナジショキハイフ",
    "subdivision": "sixteenth",
    "entry": "beat_1",
-   "function": "development"
+   "function": "development",
+   "rests": [
+    "beat_4後半の半拍休符(pre_punch)"
+   ],
+   "accents": [],
+   "breath": "none"
   },
   {
    "index": 40,
@@ -321,7 +502,12 @@
    "reading": "トラックワキタニダイニワキュージン",
    "subdivision": "sixteenth",
    "entry": "beat_1",
-   "function": "punch"
+   "function": "punch",
+   "rests": [],
+   "accents": [
+    "キュージン"
+   ],
+   "breath": "light"
   },
   {
    "index": 41,
@@ -329,7 +515,10 @@
    "reading": "マッテタノワキューサイジャナクテメンセキ",
    "subdivision": "sixteenth",
    "entry": "pickup",
-   "function": "development"
+   "function": "development",
+   "rests": [],
+   "accents": [],
+   "breath": "none"
   },
   {
    "index": 42,
@@ -337,7 +526,10 @@
    "reading": "ヒキナオセネーデモステフリワコノテ",
    "subdivision": "sixteenth",
    "entry": "pickup",
-   "function": "punch"
+   "function": "punch",
+   "rests": [],
+   "accents": [],
+   "breath": "full"
   },
   {
    "index": 43,
@@ -345,7 +537,10 @@
    "reading": "ナフダノアイツモオナジモブガワ",
    "subdivision": "triplet",
    "entry": "beat_1",
-   "function": "development"
+   "function": "development",
+   "rests": [],
+   "accents": [],
+   "breath": "none"
   },
   {
    "index": 44,
@@ -353,7 +548,14 @@
    "reading": "モブモムレレバグンシューノコエ",
    "subdivision": "triplet",
    "entry": "beat_1",
-   "function": "punch"
+   "function": "punch",
+   "rests": [
+    "beat_4全休(呼吸+溜め)"
+   ],
+   "accents": [
+    "グンシュー"
+   ],
+   "breath": "full"
   },
   {
    "index": 45,
@@ -361,7 +563,10 @@
    "reading": "ホセーワクバラレナイ",
    "subdivision": "mixed",
    "entry": "beat_1",
-   "function": "development"
+   "function": "development",
+   "rests": [],
+   "accents": [],
+   "breath": "none"
   },
   {
    "index": 46,
@@ -369,7 +574,10 @@
    "reading": "アルイタブンダケダイホン",
    "subdivision": "mixed",
    "entry": "beat_1",
-   "function": "development"
+   "function": "development",
+   "rests": [],
+   "accents": [],
+   "breath": "none"
   },
   {
    "index": 47,
@@ -377,7 +585,12 @@
    "reading": "ガメンヲトジル",
    "subdivision": "mixed",
    "entry": "beat_1",
-   "function": "setup"
+   "function": "setup",
+   "rests": [
+    "beat_3〜4全休(曲中最長2拍沈黙)"
+   ],
+   "accents": [],
+   "breath": "full"
   },
   {
    "index": 48,
@@ -385,7 +598,12 @@
    "reading": "ツギノジャナイコノシューカイ",
    "subdivision": "mixed",
    "entry": "beat_1",
-   "function": "punch"
+   "function": "punch",
+   "rests": [],
+   "accents": [
+    "コノシューカイ"
+   ],
+   "breath": "light"
   },
   {
    "index": 49,
@@ -393,7 +611,10 @@
    "reading": "トラックワモーイラナイ",
    "subdivision": "eighth",
    "entry": "beat_1",
-   "function": "hook"
+   "function": "hook",
+   "rests": [],
+   "accents": [],
+   "breath": "none"
   },
   {
    "index": 50,
@@ -401,7 +622,10 @@
    "reading": "ハードデモソーサワコノテ",
    "subdivision": "eighth",
    "entry": "beat_1",
-   "function": "hook"
+   "function": "hook",
+   "rests": [],
+   "accents": [],
+   "breath": "none"
   },
   {
    "index": 51,
@@ -409,7 +633,10 @@
    "reading": "ナマエワジブンデカク",
    "subdivision": "eighth",
    "entry": "beat_1",
-   "function": "hook"
+   "function": "hook",
+   "rests": [],
+   "accents": [],
+   "breath": "none"
   },
   {
    "index": 52,
@@ -417,23 +644,38 @@
    "reading": "カキカエチューノシナリオ",
    "subdivision": "eighth",
    "entry": "beat_1",
-   "function": "hook"
+   "function": "hook",
+   "rests": [],
+   "accents": [
+    "カキカエチュー"
+   ],
+   "breath": "full"
   },
   {
    "index": 53,
    "bar_id": "B53",
-   "reading": "ライトガスギル",
+   "reading": "シューデンワデタ",
    "subdivision": "eighth",
    "entry": "after_rest",
-   "function": "punch"
+   "function": "punch",
+   "rests": [
+    "beat_1〜2空け(解体)"
+   ],
+   "accents": [],
+   "breath": "none"
   },
   {
    "index": 54,
    "bar_id": "B54",
-   "reading": "ガメンオチタ",
+   "reading": "ジューデンモキレタ",
    "subdivision": "eighth",
    "entry": "after_rest",
-   "function": "development"
+   "function": "development",
+   "rests": [
+    "beat_1〜2空け"
+   ],
+   "accents": [],
+   "breath": "light"
   },
   {
    "index": 55,
@@ -441,7 +683,12 @@
    "reading": "イチギョーメカラカク",
    "subdivision": "eighth",
    "entry": "after_rest",
-   "function": "development"
+   "function": "development",
+   "rests": [
+    "beat_4全休"
+   ],
+   "accents": [],
+   "breath": "none"
   },
   {
    "index": 56,
@@ -449,10 +696,18 @@
    "reading": "デアンタノハイヤクワ",
    "subdivision": "eighth",
    "entry": "after_rest",
-   "function": "punch"
+   "function": "punch",
+   "rests": [
+    "最終語以外空白(遅延リベール)"
+   ],
+   "accents": [
+    "ハイヤク"
+   ],
+   "breath": "none"
   }
  ],
  "unknowns": [
-  "ビート実音源なし。全barはproposal"
+  "ビート実音源なし。全barはproposal",
+  "B19/B41の18モーラ小節はBPM140で2テイク実測が必要(未実施)"
  ]
 }

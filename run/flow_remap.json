@@ -9,7 +9,9 @@
       "subdivision": "eighth",
       "mora_count": 11,
       "density": "burst",
-      "rests": [],
+      "rests": [
+        "beat_1前半拍(after_rest)"
+      ],
       "accents": [],
       "held_vowels": [],
       "breath": "none",
@@ -30,7 +32,9 @@
       "subdivision": "eighth",
       "mora_count": 12,
       "density": "burst",
-      "rests": [],
+      "rests": [
+        "beat_1前半拍"
+      ],
       "accents": [],
       "held_vowels": [],
       "breath": "none",
@@ -51,7 +55,9 @@
       "subdivision": "eighth",
       "mora_count": 12,
       "density": "burst",
-      "rests": [],
+      "rests": [
+        "beat_1前半拍"
+      ],
       "accents": [],
       "held_vowels": [],
       "breath": "none",
@@ -72,10 +78,14 @@
       "subdivision": "eighth",
       "mora_count": 13,
       "density": "burst",
-      "rests": [],
-      "accents": [],
+      "rests": [
+        "「この改札」直前に1/8休符(HD01 landing)"
+      ],
+      "accents": [
+        "カイサツ頭"
+      ],
       "held_vowels": [],
-      "breath": "none",
+      "breath": "light",
       "voice": "main",
       "function": "punch",
       "entry": "after_rest",
@@ -93,7 +103,9 @@
       "subdivision": "eighth",
       "mora_count": 10,
       "density": "burst",
-      "rests": [],
+      "rests": [
+        "beat_1前半拍"
+      ],
       "accents": [],
       "held_vowels": [],
       "breath": "none",
@@ -114,7 +126,9 @@
       "subdivision": "eighth",
       "mora_count": 13,
       "density": "burst",
-      "rests": [],
+      "rests": [
+        "beat_1前半拍"
+      ],
       "accents": [],
       "held_vowels": [],
       "breath": "none",
@@ -156,10 +170,14 @@
       "subdivision": "eighth",
       "mora_count": 8,
       "density": "dense",
-      "rests": [],
-      "accents": [],
+      "rests": [
+        "beat_3以降全休(verse1ピックアップ準備)"
+      ],
+      "accents": [
+        "クソ"
+      ],
       "held_vowels": [],
-      "breath": "none",
+      "breath": "full",
       "voice": "main",
       "function": "punch",
       "entry": "after_rest",
@@ -175,9 +193,11 @@
     {
       "index": 9,
       "subdivision": "sixteenth",
-      "mora_count": 12,
-      "density": "medium",
-      "rests": [],
+      "mora_count": 14,
+      "density": "dense",
+      "rests": [
+        "beat_4に1/8休符"
+      ],
       "accents": [],
       "held_vowels": [],
       "breath": "none",
@@ -198,10 +218,12 @@
       "subdivision": "sixteenth",
       "mora_count": 13,
       "density": "medium",
-      "rests": [],
+      "rests": [
+        "beat_4に1/8休符"
+      ],
       "accents": [],
       "held_vowels": [],
-      "breath": "none",
+      "breath": "light",
       "voice": "main",
       "function": "development",
       "entry": "pickup",
@@ -219,7 +241,9 @@
       "subdivision": "sixteenth",
       "mora_count": 14,
       "density": "dense",
-      "rests": [],
+      "rests": [
+        "beat_4に1/8休符"
+      ],
       "accents": [],
       "held_vowels": [],
       "breath": "none",
@@ -240,10 +264,14 @@
       "subdivision": "sixteenth",
       "mora_count": 13,
       "density": "medium",
-      "rests": [],
-      "accents": [],
+      "rests": [
+        "「時給据え置き」直前に1/4休符(HD02三項目前)"
+      ],
+      "accents": [
+        "スエオキ"
+      ],
       "held_vowels": [],
-      "breath": "none",
+      "breath": "light",
       "voice": "main",
       "function": "punch",
       "entry": "pickup",
@@ -303,10 +331,12 @@
       "subdivision": "sixteenth",
       "mora_count": 13,
       "density": "medium",
-      "rests": [],
+      "rests": [
+        "beat_4全休(pre_punch)"
+      ],
       "accents": [],
       "held_vowels": [],
-      "breath": "none",
+      "breath": "full",
       "voice": "main",
       "function": "development",
       "entry": "beat_1",
@@ -325,9 +355,11 @@
       "mora_count": 14,
       "density": "dense",
       "rests": [],
-      "accents": [],
+      "accents": [
+        "チュートリアル頭"
+      ],
       "held_vowels": [],
-      "breath": "none",
+      "breath": "light",
       "voice": "main",
       "function": "punch",
       "entry": "beat_1",
@@ -366,10 +398,12 @@
       "subdivision": "triplet",
       "mora_count": 14,
       "density": "burst",
-      "rests": [],
+      "rests": [
+        "beat_4の3連末1つ空け"
+      ],
       "accents": [],
       "held_vowels": [],
-      "breath": "none",
+      "breath": "light",
       "voice": "main",
       "function": "development",
       "entry": "beat_1",
@@ -385,7 +419,7 @@
     {
       "index": 19,
       "subdivision": "sixteenth",
-      "mora_count": 18,
+      "mora_count": 14,
       "density": "dense",
       "rests": [],
       "accents": [],
@@ -406,12 +440,16 @@
     {
       "index": 20,
       "subdivision": "sixteenth",
-      "mora_count": 15,
+      "mora_count": 16,
       "density": "dense",
-      "rests": [],
-      "accents": [],
+      "rests": [
+        "beat_4裏半拍(リカバリー)"
+      ],
+      "accents": [
+        "マンネン"
+      ],
       "held_vowels": [],
-      "breath": "none",
+      "breath": "full",
       "voice": "main",
       "function": "punch",
       "entry": "pickup",
@@ -471,10 +509,12 @@
       "subdivision": "mixed",
       "mora_count": 12,
       "density": "medium",
-      "rests": [],
+      "rests": [
+        "beat_4全休(pre_punch)"
+      ],
       "accents": [],
       "held_vowels": [],
-      "breath": "none",
+      "breath": "full",
       "voice": "main",
       "function": "setup",
       "entry": "after_rest",
@@ -492,10 +532,14 @@
       "subdivision": "mixed",
       "mora_count": 12,
       "density": "medium",
-      "rests": [],
-      "accents": [],
+      "rests": [
+        "beat_3以降空け(hook2準備)"
+      ],
+      "accents": [
+        "トラック"
+      ],
       "held_vowels": [],
-      "breath": "none",
+      "breath": "full",
       "voice": "main",
       "function": "punch",
       "entry": "after_rest",
@@ -576,10 +620,14 @@
       "subdivision": "eighth",
       "mora_count": 13,
       "density": "burst",
-      "rests": [],
-      "accents": [],
+      "rests": [
+        "「おすすめ欄」直前に1/8休符(HD05はB04と同グリッド)"
+      ],
+      "accents": [
+        "オススメラン頭"
+      ],
       "held_vowels": [],
-      "breath": "none",
+      "breath": "full",
       "voice": "main",
       "function": "punch",
       "entry": "beat_1",
@@ -660,10 +708,14 @@
       "subdivision": "eighth",
       "mora_count": 14,
       "density": "burst",
-      "rests": [],
-      "accents": [],
+      "rests": [
+        "beat_3以降空け(verse2のafter_rest準備)"
+      ],
+      "accents": [
+        "テンセー"
+      ],
       "held_vowels": [],
-      "breath": "none",
+      "breath": "full",
       "voice": "main",
       "function": "turn",
       "entry": "beat_1",
@@ -679,9 +731,11 @@
     {
       "index": 33,
       "subdivision": "sixteenth",
-      "mora_count": 11,
+      "mora_count": 12,
       "density": "medium",
-      "rests": [],
+      "rests": [
+        "小節頭半拍"
+      ],
       "accents": [],
       "held_vowels": [],
       "breath": "none",
@@ -702,10 +756,12 @@
       "subdivision": "sixteenth",
       "mora_count": 13,
       "density": "medium",
-      "rests": [],
+      "rests": [
+        "小節頭半拍+引用前後に1/8"
+      ],
       "accents": [],
       "held_vowels": [],
-      "breath": "none",
+      "breath": "light",
       "voice": "main",
       "function": "setup",
       "entry": "after_rest",
@@ -721,9 +777,11 @@
     {
       "index": 35,
       "subdivision": "sixteenth",
-      "mora_count": 14,
+      "mora_count": 16,
       "density": "dense",
-      "rests": [],
+      "rests": [
+        "引用間に1/8"
+      ],
       "accents": [],
       "held_vowels": [],
       "breath": "none",
@@ -744,10 +802,14 @@
       "subdivision": "sixteenth",
       "mora_count": 13,
       "density": "medium",
-      "rests": [],
-      "accents": [],
+      "rests": [
+        "「やりがい」直前に1/8休符(HD07三段目)"
+      ],
+      "accents": [
+        "ヤリガイ"
+      ],
       "held_vowels": [],
-      "breath": "none",
+      "breath": "light",
       "voice": "main",
       "function": "punch",
       "entry": "after_rest",
@@ -763,8 +825,8 @@
     {
       "index": 37,
       "subdivision": "sixteenth",
-      "mora_count": 13,
-      "density": "medium",
+      "mora_count": 14,
+      "density": "dense",
       "rests": [],
       "accents": [],
       "held_vowels": [],
@@ -807,7 +869,9 @@
       "subdivision": "sixteenth",
       "mora_count": 15,
       "density": "dense",
-      "rests": [],
+      "rests": [
+        "beat_4後半の半拍休符(pre_punch)"
+      ],
       "accents": [],
       "held_vowels": [],
       "breath": "none",
@@ -829,9 +893,11 @@
       "mora_count": 16,
       "density": "dense",
       "rests": [],
-      "accents": [],
+      "accents": [
+        "キュージン"
+      ],
       "held_vowels": [],
-      "breath": "none",
+      "breath": "light",
       "voice": "main",
       "function": "punch",
       "entry": "beat_1",
@@ -873,7 +939,7 @@
       "rests": [],
       "accents": [],
       "held_vowels": [],
-      "breath": "none",
+      "breath": "full",
       "voice": "main",
       "function": "punch",
       "entry": "pickup",
@@ -912,10 +978,14 @@
       "subdivision": "triplet",
       "mora_count": 14,
       "density": "burst",
-      "rests": [],
-      "accents": [],
+      "rests": [
+        "beat_4全休(呼吸+溜め)"
+      ],
+      "accents": [
+        "グンシュー"
+      ],
       "held_vowels": [],
-      "breath": "none",
+      "breath": "full",
       "voice": "main",
       "function": "punch",
       "entry": "beat_1",
@@ -975,10 +1045,12 @@
       "subdivision": "mixed",
       "mora_count": 7,
       "density": "sparse",
-      "rests": [],
+      "rests": [
+        "beat_3〜4全休(曲中最長2拍沈黙)"
+      ],
       "accents": [],
       "held_vowels": [],
-      "breath": "none",
+      "breath": "full",
       "voice": "main",
       "function": "setup",
       "entry": "beat_1",
@@ -997,9 +1069,11 @@
       "mora_count": 12,
       "density": "medium",
       "rests": [],
-      "accents": [],
+      "accents": [
+        "コノシューカイ"
+      ],
       "held_vowels": [],
-      "breath": "none",
+      "breath": "light",
       "voice": "main",
       "function": "punch",
       "entry": "beat_1",
@@ -1081,9 +1155,11 @@
       "mora_count": 11,
       "density": "burst",
       "rests": [],
-      "accents": [],
+      "accents": [
+        "カキカエチュー"
+      ],
       "held_vowels": [],
-      "breath": "none",
+      "breath": "full",
       "voice": "main",
       "function": "hook",
       "entry": "beat_1",
@@ -1101,7 +1177,9 @@
       "subdivision": "eighth",
       "mora_count": 7,
       "density": "dense",
-      "rests": [],
+      "rests": [
+        "beat_1〜2空け(解体)"
+      ],
       "accents": [],
       "held_vowels": [],
       "breath": "none",
@@ -1120,12 +1198,14 @@
     {
       "index": 54,
       "subdivision": "eighth",
-      "mora_count": 6,
-      "density": "medium",
-      "rests": [],
+      "mora_count": 8,
+      "density": "dense",
+      "rests": [
+        "beat_1〜2空け"
+      ],
       "accents": [],
       "held_vowels": [],
-      "breath": "none",
+      "breath": "light",
       "voice": "main",
       "function": "development",
       "entry": "after_rest",
@@ -1143,7 +1223,9 @@
       "subdivision": "eighth",
       "mora_count": 9,
       "density": "dense",
-      "rests": [],
+      "rests": [
+        "beat_4全休"
+      ],
       "accents": [],
       "held_vowels": [],
       "breath": "none",
@@ -1164,8 +1246,12 @@
       "subdivision": "eighth",
       "mora_count": 10,
       "density": "burst",
-      "rests": [],
-      "accents": [],
+      "rests": [
+        "最終語以外空白(遅延リベール)"
+      ],
+      "accents": [
+        "ハイヤク"
+      ],
       "held_vowels": [],
       "breath": "none",
       "voice": "main",
@@ -1183,6 +1269,7 @@
   ],
   "verification_evidence": null,
   "unknowns": [
+    "B19/B41の18モーラ小節はBPM140で2テイク実測が必要(未実施)",
     "pocket, microtiming, breath, and live feasibility require audio",
     "ビート実音源なし。全barはproposal"
   ]
