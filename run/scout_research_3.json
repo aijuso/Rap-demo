@@ -1,0 +1,734 @@
+{
+  "schema": "scout-research/v1",
+  "round": 3,
+  "focus": "36小節（バース8×3＋プリフック4＋フック8）確定を受け、(1)6キャラの『名前を出さずに分かる記号』の徹底洗い出し、(2)各キャラの特徴から伸びる大人像を現実の数字で裏付け、(3)メジャーひみつ道具8種の制約・副作用（タイムふろしき／透明マント／ビッグライトは新規調査）、(4)キャラ×メジャー道具×社会問題の再マッピング14案、(5)『小5で飽きた』に使う大人の流行の具体名と数字。歌詞・主題歌・原作セリフの文言は一切収集していない。実在政治家・実在の政治スキャンダルも収集していない。",
+  "note_on_schema": "angles は最大6件のため、バース候補14案のうち6案を angles に、残り8案を additional_angles に同じ構造で格納した。格納先の違いであり優劣ではない。ブロック1〜3・5は character_profiles / adult_futures / gadget_specs / culture_texture_additions に格納した。",
+  "angles": [
+    {
+      "title": "万年最下位の男 × あんきパン × 学び直しが金で買えない話",
+      "character_internal_note": "のび太（歌詞では実名を出さない）",
+      "character_signals": ["0点の答案", "丸メガネ", "ビリから二番", "押し入れの寝床", "宿題やったの、と聞く母の声"],
+      "gadget": "あんきパン",
+      "social_issue": "教育格差・奨学金・学び直しの原価",
+      "premise": "覚えるだけならパンを食えばいい。だが教科書一冊ぶんに39斤、その学費は借金で払って、覚えた中身のほうが先に消える、と最下位だった男が言うバース。",
+      "motifs": [
+        "あんきパン＝6ページ分で6枚切り1斤相当、小4国語の教科書234ページを覚えるには39斤ぶん食べる必要があり、効き目は永続しない",
+        "世帯年収400万円以下の4年制大学進学率31.4% vs 年収1000万円超62.4%（約2倍）。経済的困窮による中退13.2%・休学11.7%",
+        "動作の絵: 5回に1回の0点、成績表の欄、返済予定表の残り回数、1斤168円のレシート"
+      ],
+      "irony_flip": "覚えたことは出せば消えるのに、借りた金だけは消えない。永続しないのは道具ではなく学費のほう。",
+      "evidence": [
+        {"kind": "web", "pointer": "https://dora-world.com/sp/tencomi_detective/zannen/zannen_vol001.html"},
+        {"kind": "web", "pointer": "https://ja.wikipedia.org/wiki/%E9%87%8E%E6%AF%94%E3%81%AE%E3%81%B3%E5%A4%AA"},
+        {"kind": "web", "pointer": "https://www.resonabank.co.jp/kojin/column/teiki/column_0002.html"},
+        {"kind": "web", "pointer": "https://www.mext.go.jp/component/a_menu/education/detail/__icsFiles/afieldfile/2017/11/29/1398333_3.pdf"}
+      ]
+    },
+    {
+      "title": "0.93秒で寝る男 × タケコプター × 8時間で電池が上がる労働",
+      "character_internal_note": "のび太（歌詞では実名を出さない）",
+      "character_signals": ["0.93秒", "押し入れ", "1日12時間寝る", "座布団を枕にする動作"],
+      "gadget": "タケコプター",
+      "social_issue": "長時間労働・睡眠不足・有休の取れなさ",
+      "premise": "立った姿勢から0.93秒で寝られる男が、時速80kmで8時間しか飛べない道具を頭に載せて、電池の切れない人間だけが走らされている国を見下ろすバース。",
+      "motifs": [
+        "タケコプター＝時速80km・連続8時間で電池が上がる。頭に装着してからスイッチを入れないと道具だけが飛んでいく",
+        "『ねむりの天才のび太』（30巻）で立った姿勢から0.93秒で眠る描写。1日24時間中12時間寝ているとも語る",
+        "日本人の平均睡眠時間はOECD調査で7時間22分、33カ国中最下位（OECD平均8時間28分）。2025年の有職者1万人調査では6時間50分",
+        "2024年の年次有給休暇取得率66.9%（付与18.1日中12.1日取得）、政府目標は70%以上"
+      ],
+      "irony_flip": "8時間で電池が上がる道具のほうが、この国の職場より正確に労働時間を守っている。世界一速く寝られる特技が、世界一寝てない国では就職の役に立たない。",
+      "evidence": [
+        {"kind": "web", "pointer": "https://ja.wikipedia.org/wiki/%E3%82%BF%E3%82%B1%E3%82%B3%E3%83%97%E3%82%BF%E3%83%BC"},
+        {"kind": "web", "pointer": "https://note.com/shatoru0619/n/neee3d31f983d"},
+        {"kind": "web", "pointer": "https://woman.mynavi.jp/article/140624-18/"},
+        {"kind": "web", "pointer": "https://tabizine.jp/article/577386/"},
+        {"kind": "web", "pointer": "https://brain-sleep.com/en/pages/research2025"},
+        {"kind": "web", "pointer": "https://www.mhlw.go.jp/toukei/itiran/roudou/jikan/syurou/25/dl/gaikyou.pdf"}
+      ]
+    },
+    {
+      "title": "社長の息子 × タイムふろしき × 継ぐ相手がいない家業",
+      "character_internal_note": "スネ夫（歌詞では実名を出さない）",
+      "character_signals": ["別荘", "中古で買ったクルーザー", "月1万円の小遣い", "ラジコンとプラモの塗り分け", "話を三人ぶんで回す癖"],
+      "gadget": "タイムふろしき",
+      "social_issue": "中小企業の事業承継・後継者不在・黒字廃業",
+      "premise": "包めば物は新品に戻る。だが標準寸法は1メートル四方で、親父の会社は包めない、と自慢が家業だった男が言うバース。",
+      "motifs": [
+        "タイムふろしき＝表裏で時間の進行と逆行が入れ替わる。標準寸法は1メートル四方。対象がふろしきより大きくても一部に被せれば全体に効くが、四次元ポケット内では機能せず、長時間使うと原料にまで戻る",
+        "経営者の平均年齢60.7歳（2024年）、後継者不在率50.1%（2025年調査、前年52.1%から改善）。2025年までに70歳を迎える中小企業経営者245万人のうち約127万人が後継者未定",
+        "2024年に休廃業・解散した企業の社長の平均年齢72.61歳。休廃業した中規模企業のうち51.1%が黒字のまま廃業",
+        "動作の絵: 実印の朱肉、株の名義、シャッターに貼られた閉店の紙"
+      ],
+      "irony_flip": "布の裏表で時間の向きは変えられるのに、包めるサイズは1メートル四方。会社も商店街も入らない。黒字のまま畳むのは道具の欠陥ではなく、包む人がいないから。",
+      "evidence": [
+        {"kind": "web", "pointer": "https://ja.wikipedia.org/wiki/%E3%82%BF%E3%82%A4%E3%83%A0%E3%81%B5%E3%82%8D%E3%81%97%E3%81%8D"},
+        {"kind": "web", "pointer": "https://dic.pixiv.net/a/%E3%82%BF%E3%82%A4%E3%83%A0%E3%81%B5%E3%82%8D%E3%81%97%E3%81%8D"},
+        {"kind": "web", "pointer": "https://www.chusho.meti.go.jp/pamflet/hakusyo/2025/chusho/b1_1_9.html"},
+        {"kind": "web", "pointer": "https://jms-support.jp/event/kokeisyamondai/"},
+        {"kind": "web", "pointer": "https://mitsukijapan.com/ma/column/sme-owners-worried-about-lack-of-successors/"},
+        {"kind": "web", "pointer": "https://www.weblio.jp/content/%E9%AA%A8%E5%B7%9D%E3%82%B9%E3%83%8D%E5%A4%AB"}
+      ]
+    },
+    {
+      "title": "模範解答の男 × ほんやくコンニャク × 通じているのに何も決まらない",
+      "character_internal_note": "出木杉（歌詞では実名を出さない）",
+      "character_signals": ["模範解答", "クラス代表", "親に頼らず家庭教師のバイトで自分の金を作る", "外国の文通相手", "欠点が無いことが欠点"],
+      "gadget": "ほんやくコンニャク",
+      "social_issue": "官僚のなり手不足と、対話しない意思決定",
+      "premise": "宇宙人とも機械の信号とも通じる道具があるのに、全員が同じ日本語で座る会議室では何ひとつ決まらない、と正解を書き続けてきた男が言うバース。",
+      "motifs": [
+        "ほんやくコンニャク＝食べると相手の言語が母語に聞こえ、自分の言葉も相手の言語に変換される。文字・過去の言語・宇宙人の言語・機械の音や信号まで訳せる。食べられないロボットには上に載せるだけで効く",
+        "国家公務員総合職の志願者は2024年度1万8333人で、2012年度比で約3割減。2014年度採用の655人のうち23.2%が10年以内に退職、2023年度は採用10年未満の退職者203人で過去最多",
+        "2025年3月の人事行政諮問会議最終提言は『公務が危機に瀕している。公務の危機は、国民の危機である』と表現している",
+        "在留外国人は2025年末で412万5395人・総人口比3.36%で4年連続過去最多"
+      ],
+      "irony_flip": "訳せるのは言葉であって本音ではない。全部訳せる道具を持っていても、訳す気がない席には効かない。",
+      "evidence": [
+        {"kind": "web", "pointer": "https://dic.pixiv.net/a/%E3%81%BB%E3%82%93%E3%82%84%E3%81%8F%E3%82%B3%E3%83%B3%E3%83%8B%E3%83%A3%E3%82%AF"},
+        {"kind": "web", "pointer": "https://ja.wikipedia.org/wiki/%E3%81%BB%E3%82%93%E3%82%84%E3%81%8F%E3%82%B3%E3%83%B3%E3%83%8B%E3%83%A3%E3%82%AF"},
+        {"kind": "web", "pointer": "https://ja.wikipedia.org/wiki/%E5%87%BA%E6%9C%A8%E6%9D%89%E8%8B%B1%E6%89%8D"},
+        {"kind": "web", "pointer": "https://www.nikkei.com/article/DGKKZO89460640Y5A610C2PD0000/"},
+        {"kind": "web", "pointer": "https://edenred.jp/article/hr-recruiting/268/"},
+        {"kind": "web", "pointer": "https://www.jinji.go.jp/kouho_houdo/koumuinhakusyo/hakusho/R4/1-2-01-2.html"},
+        {"kind": "web", "pointer": "https://www.nippon.com/ja/japan-data/h02750/"}
+      ]
+    },
+    {
+      "title": "だみ声の男 × ビッグライト × 大きくしたものは元に戻せない",
+      "character_internal_note": "ジャイアン（歌詞では実名を出さない）",
+      "character_signals": ["だみ声", "空き地のリサイタル", "実家の卵と缶詰のケース", "腕力はあいつの3.3倍", "妹の描いた少女漫画"],
+      "gadget": "ビッグライト",
+      "social_issue": "音楽産業の規模拡大と、1再生あたりの分配",
+      "premise": "箱はドームまで大きくなった。ビッグライトには解除光線が無いから縮まない。だが1再生の取り分だけはスモールライトを当てられたままだ、というバース。",
+      "motifs": [
+        "ビッグライト＝あらゆる物体を大きくするライト。最大の制約は解除光線を出せないことで、一度大きくしたものを自力で元に戻せない（対のスモールライトは約3日で効果が切れる）。劇場版で時間制限が語られたとする説もある",
+        "2024年のライブ・エンタテインメント市場は7605億円で過去最高（音楽分野5299億円）、動員数8561万人。公演回数はコロナ前水準に戻らず、大規模会場への集中とチケット単価上昇が牽引",
+        "サブスク1再生あたり作詞作曲家に入る額はApple Musicで約0.04円、YouTube Musicで約0.008円。原盤印税は約5割、著作権は12%が世界標準（CD時代は原盤12〜15%・著作権6%）",
+        "動作の絵: 動員の桁、明細の再生回数、シャッターを上げる音"
+      ],
+      "irony_flip": "大きくした箱は自力では戻せない。戻らないのは動員と会場費のほうで、取り分だけは0.008円のまま3日どころか一生戻らない。",
+      "evidence": [
+        {"kind": "web", "pointer": "https://moshimodogu.com/item/big-light"},
+        {"kind": "web", "pointer": "https://dic.pixiv.net/a/%E3%83%93%E3%83%83%E3%82%B0%E3%83%A9%E3%82%A4%E3%83%88"},
+        {"kind": "web", "pointer": "https://dic.pixiv.net/a/%E3%82%B9%E3%83%A2%E3%83%BC%E3%83%AB%E3%83%A9%E3%82%A4%E3%83%88"},
+        {"kind": "web", "pointer": "https://ja.wikipedia.org/wiki/%E5%89%9B%E7%94%B0%E6%AD%A6"},
+        {"kind": "web", "pointer": "https://corporate.pia.jp/news/detail_live_enta20250624.html"},
+        {"kind": "web", "pointer": "https://www.musicman.co.jp/business/681475"},
+        {"kind": "web", "pointer": "https://note.com/magical_river/n/n727f8f6a52fa"},
+        {"kind": "web", "pointer": "https://note.com/yamabug/n/n36bae79552a1"}
+      ]
+    },
+    {
+      "title": "一日に三回風呂に入る女 × 透明マント × 声だけは消えないケア労働",
+      "character_internal_note": "しずか（歌詞では実名を出さない）",
+      "character_signals": ["一日に三回の風呂", "下手なバイオリンの音", "85点を取って叱られた話", "隠している焼き芋", "気づいたら全員の分を用意している"],
+      "gadget": "透明マント",
+      "social_issue": "ケア労働の賃金差と、男女の賃金格差",
+      "premise": "被れば姿は消える。だが原作の透明マントに音を消す機能は無い。姿は見えなくされても声だけは残る側の女のバース。",
+      "motifs": [
+        "透明マント＝細胞内光線通過糸（シースルー繊維）で織られ、当たった光を反射も屈折もさせず完全に通過させる。原作では音を消す機能が無く、声で居場所を特定されるのが制約",
+        "介護職の平均年収は施設介護388万円・訪問介護381万9000円に対し、全産業平均は約546万円。月給ベースの差は約8万3000円。保育士は427.6万円で全職種平均478万円と約50万円差",
+        "一般労働者の月額賃金は男性100に対し女性75.8（2024年賃金構造基本統計調査、1976年以降で格差最小）。女性管理職比率30%の政府目標は未達で、2026年4月から従業員101人以上の企業に公表義務が拡大",
+        "動作の絵: 三回のシャワー、他人の家の風呂を洗う仕事、名札にふりがな"
+      ],
+      "irony_flip": "被った本人は音を消せない。消されているのは姿ではなく賃金のほうで、残っているのは声だけ。だから声で言う。",
+      "evidence": [
+        {"kind": "web", "pointer": "https://ja.wikipedia.org/wiki/%E3%83%89%E3%83%A9%E3%81%88%E3%82%82%E3%82%93%E3%81%AE%E3%81%B2%E3%81%BF%E3%81%A4%E9%81%93%E5%85%B7_(%E3%81%A8%E3%81%82-%E3%81%A8%E3%81%93)"},
+        {"kind": "web", "pointer": "https://dic.nicovideo.jp/a/%E9%80%8F%E6%98%8E%E3%83%9E%E3%83%B3%E3%83%88"},
+        {"kind": "web", "pointer": "https://ja.wikipedia.org/wiki/%E6%BA%90%E9%9D%99%E9%A6%99"},
+        {"kind": "web", "pointer": "https://job-medley.com/tips/detail/36464/"},
+        {"kind": "web", "pointer": "https://www.excare.co.jp/ex-job/kaigo-salary-low/"},
+        {"kind": "web", "pointer": "https://www.co-medical.com/knowledge/article365/"},
+        {"kind": "web", "pointer": "https://www.jil.go.jp/kokunai/blt/backnumber/2025/05/kokunai_02.html"},
+        {"kind": "web", "pointer": "https://jsite.mhlw.go.jp/aichi-roudoukyoku/kaisei_jokatsu_00003.html"}
+      ]
+    }
+  ],
+  "additional_angles": [
+    {
+      "title": "百発百中の男 × スモールライト × 縮むのは給料じゃなく袋の中身",
+      "character_internal_note": "のび太（射撃）",
+      "character_signals": ["空き缶に6発連続命中", "早撃ち", "丸メガネ", "1対4で全員当てた話"],
+      "gadget": "スモールライト",
+      "social_issue": "実質賃金の停滞と、国民負担率46.2%",
+      "premise": "外さない腕を持っていても、狙う的が毎年小さくなる。給料にはビッグライトが当たらず、袋の中身にだけスモールライトが当たっている、というバース。",
+      "motifs": [
+        "スモールライト＝照射時間で縮小率を調節でき、効力に時間制限があって約3日で元の大きさに戻る",
+        "平均年収は1997年467万円→2025年465万円でほぼ横ばい。2025年度の国民負担率は46.2%（社会保障負担率18.0%、1970年度は5.4%）",
+        "eスポーツの日本市場は約235億円。トッププロの年収1000〜3000万円、一般プロは300〜800万円。国内大会は景品表示法との兼ね合いで賞金額が抑えられがち"
+      ],
+      "irony_flip": "スモールライトは3日で戻る。値上げと実質目減りは戻らない。時間制限が付いているのは道具のほうだけ。",
+      "evidence": [
+        {"kind": "web", "pointer": "https://dic.pixiv.net/a/%E3%82%B9%E3%83%A2%E3%83%BC%E3%83%AB%E3%83%A9%E3%82%A4%E3%83%88"},
+        {"kind": "web", "pointer": "https://moshimodogu.com/item/big-light"},
+        {"kind": "web", "pointer": "https://ja.wikipedia.org/wiki/%E9%87%8E%E6%AF%94%E3%81%AE%E3%81%B3%E5%A4%AA"},
+        {"kind": "web", "pointer": "https://limo.media/articles/-/88512"},
+        {"kind": "web", "pointer": "https://isvd.or.jp/columns/national-burden-rate-46-percent-reality"},
+        {"kind": "web", "pointer": "https://www.anime.ac.jp/contents/column-2/esports/187/"},
+        {"kind": "web", "pointer": "https://jcg.co.jp/journal/journal-7133"}
+      ]
+    },
+    {
+      "title": "百発百中の男 × 透明マント × 誰も見ていない20代の票",
+      "character_internal_note": "のび太（射撃）",
+      "character_signals": ["百発百中", "外さないのに撃たない", "丸メガネ"],
+      "gadget": "透明マント",
+      "social_issue": "低投票率とシルバー民主主義",
+      "premise": "的は見えている、腕もある。ただし引き金を引かない世代は透明マントを被ったのと同じで、そこに居ないことになる、というバース。",
+      "motifs": [
+        "透明マント＝光を完全に通過させて姿を消すが、原作では音を消す機能が無い（＝黙らなければ位置は分かる）",
+        "第51回衆院選の年代別投票率は20代39.01%、30代50.89%、全体56.26%。2021年衆院選では20代36.50%に対し60代71.38%",
+        "動作の絵: 投票所の記載台、期日前の封筒、駅前の街宣を素通りする足"
+      ],
+      "irony_flip": "姿を消す道具に音は消せない。黙って通り過ぎた瞬間だけ、本当に消える。",
+      "evidence": [
+        {"kind": "web", "pointer": "https://ja.wikipedia.org/wiki/%E3%83%89%E3%83%A9%E3%81%88%E3%82%82%E3%82%93%E3%81%AE%E3%81%B2%E3%81%BF%E3%81%A4%E9%81%93%E5%85%B7_(%E3%81%A8%E3%81%82-%E3%81%A8%E3%81%93)"},
+        {"kind": "web", "pointer": "https://www.soumu.go.jp/senkyo/senkyo_s/news/sonota/nendaibetu/"},
+        {"kind": "web", "pointer": "https://www.akaruisenkyo.or.jp/070various/071syugi/693/"}
+      ]
+    },
+    {
+      "title": "自慢が家業だった男 × どこでもドア × 1億3613万円の内見",
+      "character_internal_note": "スネ夫",
+      "character_signals": ["軽井沢の別荘", "父のコネの名刺", "中古で買ったクルーザー", "輪から外されるのが一番こわい"],
+      "gadget": "どこでもドア",
+      "social_issue": "住宅価格の高騰と空き家900万戸のミスマッチ",
+      "premise": "行き先は自由なのに、審査だけは通れない。持っている側の男ですら、ドアの向こうは他人の表札だ、というバース。",
+      "motifs": [
+        "どこでもドアの制約＝10光年以上離れた星、地図に入力されていない場所、超空間にバリアが張られた場所には行けない",
+        "東京23区の新築マンション平均価格1億3613万円（前年比+21.8%）、都心6区は平均1億9503万円。2016年の6629万円から10年で2倍以上",
+        "全国の空き家は約899.5万戸・空き家率13.8%で過去最多"
+      ],
+      "irony_flip": "現実のバリアの名前は与信と家賃。899.5万戸空いていても、ドアが開く先は全部他人の名字。",
+      "evidence": [
+        {"kind": "web", "pointer": "https://ja.wikipedia.org/wiki/%E3%81%A9%E3%81%93%E3%81%A7%E3%82%82%E3%83%89%E3%82%A2"},
+        {"kind": "web", "pointer": "https://www.nippon.com/ja/japan-data/h02685/"},
+        {"kind": "web", "pointer": "https://kaiketu-akiya.com/column/9561/"},
+        {"kind": "web", "pointer": "https://www.weblio.jp/content/%E9%AA%A8%E5%B7%9D%E3%82%B9%E3%83%8D%E5%A4%AB"}
+      ]
+    },
+    {
+      "title": "火星で働きたかった男 × どこでもドア × 10光年は行けるが常勤には行けない",
+      "character_internal_note": "出木杉",
+      "character_signals": ["天文学者になりたいと言っていた", "火星で働きたい", "クラス代表", "望遠鏡"],
+      "gadget": "どこでもドア",
+      "social_issue": "博士・若手研究者の任期付き雇用と進学者減",
+      "premise": "10光年までは行けるドアを持っていても、任期3年の先には行けない。宇宙に行きたかった秀才が、契約更新の月を数えるバース。",
+      "motifs": [
+        "どこでもドアは10光年以上離れた星と、地図に入力されていない場所には行けない",
+        "修士課程修了者の博士後期課程への進学率は減少傾向で、理由の上位は『修了後の就職が心配』。博士後期課程修了6年半後の有期雇用率は17.5%",
+        "1990年代に博士号取得者数が大学教員数を上回り、2004年の大学法人化以降の運営費交付金減額で常勤ポストが減少、供給過剰が解消されていない"
+      ],
+      "irony_flip": "地図に入力されていない場所には行けない。研究者の10年後は、そもそも誰も地図に入力していない。",
+      "evidence": [
+        {"kind": "web", "pointer": "https://ja.wikipedia.org/wiki/%E3%81%A9%E3%81%93%E3%81%A7%E3%82%82%E3%83%89%E3%82%A2"},
+        {"kind": "web", "pointer": "https://ja.wikipedia.org/wiki/%E5%87%BA%E6%9C%A8%E6%9D%89%E8%8B%B1%E6%89%8D"},
+        {"kind": "web", "pointer": "https://www.nli-research.co.jp/report/detail/id=82304?site=nli"},
+        {"kind": "web", "pointer": "https://www8.cao.go.jp/cstp/tyousakai/hyouka/haihu144/144_honpen3.pdf"},
+        {"kind": "web", "pointer": "https://www.nippon.com/ja/currents/d00397/"}
+      ]
+    },
+    {
+      "title": "模範解答の男 × あんきパン × 教える側が1.1倍しか来ない",
+      "character_internal_note": "出木杉（教える側に回った線）",
+      "character_signals": ["模範解答", "小学生のうちから家庭教師のバイト", "クラス代表", "答えより解き方を先に言う癖"],
+      "gadget": "あんきパン",
+      "social_issue": "教員採用倍率の低下と教育現場の人手不足",
+      "premise": "覚えさせるパンは配れる。だが配る側の椅子が1.1倍しか埋まらない、というバース。",
+      "motifs": [
+        "あんきパン＝39斤ぶん食べても効き目は永続しない。覚えるコストは食べる側にある",
+        "教員採用試験の全体競争率2.9倍で過去最低（前年度3.2倍）、小学校は2.0倍、東京都の小学校は1.1倍。68教委等のうち38教委等で志願者数が過去5年で最低",
+        "動作の絵: 職員室の残った机、臨時的任用の辞令、家庭教師の時給"
+      ],
+      "irony_flip": "覚えさせる道具はあるのに、教える人の在庫が切れている。永続しないのは記憶ではなく職員室の人数。",
+      "evidence": [
+        {"kind": "web", "pointer": "https://dora-world.com/sp/tencomi_detective/zannen/zannen_vol001.html"},
+        {"kind": "web", "pointer": "https://www.mext.go.jp/content/20251218-mxt_kyoikujinzai01-000046447_1.pdf"},
+        {"kind": "web", "pointer": "https://dic.nicovideo.jp/a/%E5%87%BA%E6%9C%A8%E6%9D%89%E8%8B%B1%E6%89%8D"}
+      ]
+    },
+    {
+      "title": "焼き芋を隠す女 × もしもボックス × 出生数67万人と、戻すのに要る自分の声",
+      "character_internal_note": "しずか",
+      "character_signals": ["一日三回の風呂", "隠している焼き芋", "85点で叱られた", "下手なバイオリン"],
+      "gadget": "もしもボックス",
+      "social_issue": "少子化と子育ての原価",
+      "premise": "受話器に『もしも子どもを持てる国だったら』と言う。ただし元に戻すのにも自分の声が要る、というバース。",
+      "motifs": [
+        "もしもボックス＝受話器に『もしも〜だったら』と話すとその世界になる。戻すには受話器に『元に戻して』と言う必要があり、声を失うと二度と戻れない",
+        "2025年の出生数は67.1万人で10年連続の過去最少、合計特殊出生率1.14。東京の出生率は3年連続で1を割る",
+        "保育士の平均年収427.6万円 vs 全職種平均478万円。介護職の月給は全産業平均と約8万3000円差"
+      ],
+      "irony_flip": "世界の設定は書き換えられるのに、戻す操作には本人の声が必須。黙っている限り、変えることも戻すこともできない。",
+      "evidence": [
+        {"kind": "web", "pointer": "https://ja.wikipedia.org/wiki/%E3%82%82%E3%81%97%E3%82%82%E3%83%9C%E3%83%83%E3%82%AF%E3%82%B9"},
+        {"kind": "web", "pointer": "https://dic.nicovideo.jp/a/%E3%82%82%E3%81%97%E3%82%82%E3%83%9C%E3%83%83%E3%82%AF%E3%82%B9"},
+        {"kind": "web", "pointer": "https://www.nippon.com/ja/japan-data/h02802/"},
+        {"kind": "web", "pointer": "https://www.co-medical.com/knowledge/article365/"},
+        {"kind": "web", "pointer": "https://job-medley.com/tips/detail/36464/"}
+      ]
+    },
+    {
+      "title": "妹思いのガキ大将 × 通りぬけフープ × 直径80cmの門",
+      "character_internal_note": "ジャイアン",
+      "character_signals": ["だみ声", "妹の少女漫画", "腕力はあいつの3.3倍", "おまえのものはおれのものの論理"],
+      "gadget": "通りぬけフープ",
+      "social_issue": "政治参加の参入障壁と資金の透明性（制度の形のみ）",
+      "premise": "壁は抜けられる。ただし直径80cmで伸縮性が無い。体を小さくした奴しか通れない門の話をするバース。",
+      "motifs": [
+        "通りぬけフープ＝壁に当てると輪の内側が向こう側までつながる。直径は約80cmで伸縮性が無いため、それより大きいものは通れない",
+        "政党交付金の使途は5万円以上のみ報告書に個別記載され、5万円未満は領収書の提出義務も情報公開も無い",
+        "ジェンダーギャップ指数2025で日本は148カ国中118位、政治分野は125位（スコア0.085）"
+      ],
+      "irony_flip": "門は開いている。ただし穴の直径が固定されている。通れないのは資質ではなく規格のほう。",
+      "evidence": [
+        {"kind": "web", "pointer": "https://moshimodogu.com/item/torinuke-hoop"},
+        {"kind": "web", "pointer": "https://clearing-house.org/?p=6604"},
+        {"kind": "web", "pointer": "https://www.plan-international.jp/news/20250613_info-51/"},
+        {"kind": "web", "pointer": "https://ja.wikipedia.org/wiki/%E5%89%9B%E7%94%B0%E6%AD%A6"}
+      ]
+    },
+    {
+      "title": "卵と缶詰の店の息子 × タイムふろしき × 空き店舗率13.59%の商店街",
+      "character_internal_note": "ジャイアン（家業を継いだ線）",
+      "character_signals": ["シャッターを上げる音", "卵と缶詰のケース", "母親の怒鳴り声にだけ頭が上がらない", "だみ声"],
+      "gadget": "タイムふろしき",
+      "social_issue": "商店街の空洞化と地方の空き店舗",
+      "premise": "店は新品に戻せる。だが通りを歩く人は包めない、と家業のシャッターを上げる男が言うバース。",
+      "motifs": [
+        "タイムふろしき＝表裏で時間の向きが変わり、物を新品に戻せる。標準寸法1メートル四方、布が破れると大きな物への効果が限定される",
+        "商店街の平均空き店舗率13.59%（前回13.77%）。空き店舗が『増える』と答えた商店街は49.9%。来街者が『減った』は前回55.1%→68.8%、『増えた』は11.8%→4.6%",
+        "長野県の令和6年度調査では空き店舗の40.6%が所有者に『店舗として利用するつもりがない』と回答"
+      ],
+      "irony_flip": "布は物の時間を戻すが、人の足は戻さない。新品のシャッターの前を、誰も通らない。",
+      "evidence": [
+        {"kind": "web", "pointer": "https://ja.wikipedia.org/wiki/%E3%82%BF%E3%82%A4%E3%83%A0%E3%81%B5%E3%82%8D%E3%81%97%E3%81%8D"},
+        {"kind": "web", "pointer": "https://www.syoutengai.or.jp/snews/nws-861/"},
+        {"kind": "web", "pointer": "https://www.chusho.meti.go.jp/shogyo/shogyo/shotengai_chousa.html"},
+        {"kind": "web", "pointer": "https://ja.wikipedia.org/wiki/%E5%89%9B%E7%94%B0%E6%AD%A6"}
+      ]
+    }
+  ],
+  "character_profiles": [
+    {
+      "character": "のび太（歌詞では実名を出さない）",
+      "signals_without_name": [
+        "0点の答案（1980年時点で5回に1回の割合で0点／ノビスケの日記では『ビリから二番』）",
+        "丸メガネ（25年後には近眼が治る設定）",
+        "押し入れではなくベッドで寝ているのはロボットのほう、という反転で使える『押し入れ』",
+        "0.93秒（立った姿勢から座布団を枕にして眠るまでの一連の動作を含めて0.93秒。30巻『ねむりの天才のび太』）",
+        "1日24時間中12時間寝ていると自称",
+        "射撃＝百発百中。『銀河超特急』で空き缶に6発連続命中、1対4で全員命中。『宇宙開拓史』でプロの殺し屋と一騎打ちして勝利",
+        "あやとり＝自作技『おどるチョウ』『ギャラクシー』『ほうき星』。架空世界で全日本プロあやとり協会からプロ契約を提示された",
+        "野球の打率1分・防御率405.0、カナヅチで泳げない",
+        "『正かくグラフ』の力もち測定は3マス（ジャイアンは10マス）＝腕力はジャイアンの約1/3.3",
+        "東京都練馬区月見台の借家、2階建て4LDK。未来ではマンション12階68号室"
+      ],
+      "behavior_pattern": "怠ける→道具に頼る→調子に乗る→失敗する→反省する、の反復。臆病で注意散漫だが人情深く正義感は強い。",
+      "family": "父・のび助、母・玉子。将来は源静香と結婚しノビスケをもうける。",
+      "relational_dynamics": "ジャイアンとスネ夫からは持ち物と手柄を要求される側。出木杉には対等に接する数少ない相手。しずかには弱い部分を最初に見せる。",
+      "evidence": [
+        {"kind": "web", "pointer": "https://ja.wikipedia.org/wiki/%E9%87%8E%E6%AF%94%E3%81%AE%E3%81%B3%E5%A4%AA"},
+        {"kind": "web", "pointer": "https://note.com/shatoru0619/n/neee3d31f983d"},
+        {"kind": "web", "pointer": "https://woman.mynavi.jp/article/140624-18/"},
+        {"kind": "web", "pointer": "http://legend-anime.com/archives/315"}
+      ]
+    },
+    {
+      "character": "スネ夫（歌詞では実名を出さない）",
+      "signals_without_name": [
+        "父は会社社長。複数の会社を経営する実業家で、テレビ局社長が父の友人という各方面のコネクション",
+        "小学生で月の小遣い1万円",
+        "別荘とクルーザー（クルーザーは中古で購入という細部）",
+        "最新型のラジコンとプラモデルの卓越した腕＝ディテールへの偏執",
+        "キツネ顔は母親譲り",
+        "新しいおもちゃ・ゲーム・ペットを見せびらかすところから話が始まる型",
+        "『三人ぶん』しか用意しない＝一人だけ外す仕切り方",
+        "将来の夢はデザイナーだが、設定上は貿易会社の社長（大会社ではないが忙しい）",
+        "臆病で寂しがり、輪から外れることを最も恐れる"
+      ],
+      "behavior_pattern": "自慢で場を開き、強い側（ガキ大将）につき、弱い側を一人だけ外す。単独では急に弱気になる。",
+      "family": "父は会社社長、母はキツネ顔の由来。いとこ（映像・機材に詳しい年上）というコネクション。",
+      "relational_dynamics": "ジャイアンには従い、のび太には要求する。金と情報を持っている側だが、決定権は常に他人にある。",
+      "evidence": [
+        {"kind": "web", "pointer": "https://ja.wikipedia.org/wiki/%E9%AA%A8%E5%B7%9D%E3%82%B9%E3%83%8D%E5%A4%AB"},
+        {"kind": "web", "pointer": "https://www.weblio.jp/content/%E9%AA%A8%E5%B7%9D%E3%82%B9%E3%83%8D%E5%A4%AB"},
+        {"kind": "web", "pointer": "https://financial-field.com/income/entry-186516"}
+      ]
+    },
+    {
+      "character": "しずか（歌詞では実名を出さない）",
+      "signals_without_name": [
+        "1日に3回は必ず入浴する（昼間から入ることもある）",
+        "バイオリンが下手で『ジャイアンの歌といい勝負』と評される一方、ピアノは上手",
+        "焼き芋が大好物だが、イメージダウンを恐れて秘密にしている（次点でチーズケーキ、寿司）",
+        "テストで85点を取って母親に叱られた＝85点で怒られる家",
+        "父・義雄は会社員でパイプ喫煙が趣味。母は厳格なしつけ",
+        "料理・裁縫・ガーデニング、バドミントン・水泳",
+        "プライバシーを侵されたときだけ本気で怒る"
+      ],
+      "behavior_pattern": "誰かが困っていると先に気づいて先に動く。優等生の型を保ちながら、好きなものだけは隠す。",
+      "family": "父・源義雄（会社員）、母（厳格）。将来はのび太と結婚しノビスケをもうける。",
+      "relational_dynamics": "全員から好意と役割を要求される側。誰の側にもつかず、結果として全員のケアを担う位置に置かれる。",
+      "evidence": [
+        {"kind": "web", "pointer": "https://ja.wikipedia.org/wiki/%E6%BA%90%E9%9D%99%E9%A6%99"},
+        {"kind": "web", "pointer": "https://doraemon.fandom.com/ja/wiki/%E6%BA%90_%E9%9D%99%E9%A6%99"}
+      ]
+    },
+    {
+      "character": "出木杉（歌詞では実名を出さない）",
+      "signals_without_name": [
+        "成績優秀かつスポーツ万能かつ人柄も良い＝欠点が無いこと自体が記号",
+        "クラス代表",
+        "欲しい物があっても親に頼らず、家庭教師のアルバイトで金を貯めて買う",
+        "小学生ながら外国人（スミス）と文通している",
+        "将来の夢は天文学者で、理想は火星で働くこと",
+        "勉強一辺倒ではなく漫画もゲームもやり、冗談も言う"
+      ],
+      "behavior_pattern": "頼まれる前に正解を出す。競わずに教える。恨みを買わないことに労力を割く。",
+      "family": "詳細な設定は薄いが、親に経済的に頼らない姿勢が明示される。",
+      "relational_dynamics": "のび太にとっては恋のライバルだが、のび太が同世代で唯一対等に接する相手でもある。ジャイアン・スネ夫の序列の外にいる。",
+      "evidence": [
+        {"kind": "web", "pointer": "https://ja.wikipedia.org/wiki/%E5%87%BA%E6%9C%A8%E6%9D%89%E8%8B%B1%E6%89%8D"},
+        {"kind": "web", "pointer": "https://dic.nicovideo.jp/a/%E5%87%BA%E6%9C%A8%E6%9D%89%E8%8B%B1%E6%89%8D"},
+        {"kind": "web", "pointer": "https://fanlabo.jp/doraemon/character/hidetoshi-dekisugi/"},
+        {"kind": "web", "pointer": "https://honcierge.jp/articles/shelf_story/6093"}
+      ]
+    },
+    {
+      "character": "ジャイアン（歌詞では実名を出さない）",
+      "signals_without_name": [
+        "実家は個人商店（原作では卵・缶詰・野菜。アニメでは剛田商店として食品・調味料・金物・ティッシュも扱う）",
+        "だみ声と破壊的な音痴。強制的に聴衆を集めるリサイタル。窓ガラスや機器が壊れるレベルで、映画では音響兵器として敵撃退に使われる",
+        "腕力は『正確グラフ』でスネ夫の約1.4倍、しずかの約1.7〜2倍、のび太の約3.3倍。子どもの中で最長身",
+        "妹は少女漫画家志望で穏やか。妹思い",
+        "たくあん・塩辛・ジャム・煮干し等を混ぜる破壊的な自作シチュー",
+        "母親の怒鳴り声にだけは頭が上がらない",
+        "夢は歌手（シンガーソングライター）。別作品では総合スーパーの経営者になっている",
+        "『おまえのものはおれのもの』という所有の論理"
+      ],
+      "behavior_pattern": "力で要求し、身内には涙もろい。友人がピンチのときだけ理屈抜きで前に出る。",
+      "family": "母（絶対的）、妹（漫画家志望）。実家は商店。",
+      "relational_dynamics": "スネ夫に持ち物を運ばせ、のび太に手柄と道具を要求する。要求する側でありながら、母と妹には従う。",
+      "evidence": [
+        {"kind": "web", "pointer": "https://ja.wikipedia.org/wiki/%E5%89%9B%E7%94%B0%E6%AD%A6"},
+        {"kind": "web", "pointer": "https://doraemon.fandom.com/ja/wiki/%E5%89%9B%E7%94%B0_%E6%AD%A6_(%E3%82%B8%E3%83%A3%E3%82%A4%E3%82%A2%E3%83%B3)"},
+        {"kind": "web", "pointer": "https://fanlabo.jp/doraemon/character/takeshi-goda/"}
+      ]
+    },
+    {
+      "character": "ドラえもん（フックでのみ実名を出す）",
+      "signals_without_name": [
+        "129.3という反復する数字（身長129.3cm・体重129.3kg・パワー129.3馬力）",
+        "耳が無い（ネズミにかじられて失った）",
+        "四次元ポケット＝無限に入るが、取り出すには中身を認識して手を突っ込む必要があり取り違えが起きる",
+        "量産型ロボットという出自"
+      ],
+      "behavior_pattern": "求められて道具を出し、使い方を誤った結果を回収する。",
+      "family": "妹型ロボットのドラミ。",
+      "relational_dynamics": "貸す側。所有はしていない。",
+      "evidence": [
+        {"kind": "web", "pointer": "https://ja.wikipedia.org/wiki/%E3%83%89%E3%83%A9%E3%81%88%E3%82%82%E3%82%93_(%E3%82%AD%E3%83%A3%E3%83%A9%E3%82%AF%E3%82%BF%E3%83%BC)"},
+        {"kind": "web", "pointer": "https://ja.wikipedia.org/wiki/%E5%9B%9B%E6%AC%A1%E5%85%83%E3%83%9D%E3%82%B1%E3%83%83%E3%83%88"},
+        {"kind": "web", "pointer": "http://legend-anime.com/archives/69"}
+      ]
+    }
+  ],
+  "adult_futures": [
+    {
+      "character": "のび太",
+      "option_a": {
+        "job": "射撃の腕を職業にした側（シューター系eスポーツ／実銃・クレー競技／狙って当てる仕事）",
+        "reality_check": "日本のeスポーツ市場は約235億円（世界市場は約28兆円）。日本のプロゲーマーの年収はトップで1000〜3000万円、一般プロで300〜800万円。2025年は世界で10500以上の大会、賞金総額2億7000万ドル超。日本国内は景品表示法との兼ね合いで賞金額が抑えられがちで、2024年時点の国内最高優勝賞金は1億5000万円。",
+        "evidence": [
+          {"kind": "web", "pointer": "https://www.anime.ac.jp/contents/column-2/esports/187/"},
+          {"kind": "web", "pointer": "https://jcg.co.jp/journal/journal-7133"},
+          {"kind": "web", "pointer": "https://dis-media.com/20260409_esupootsu.html"}
+        ]
+      },
+      "option_b": {
+        "job": "『寝るのが速い』が特技にならない国での夜勤・シフト労働者",
+        "reality_check": "日本人の平均睡眠時間はOECD調査で7時間22分、33カ国中最下位（OECD平均8時間28分）。別集計では7時間42分（462分）で最長の中国と1時間20分差。2025年の有職者1万人調査では6時間50分。都市部ほど短く、長時間労働と通勤時間が要因とされる。年次有給休暇取得率は2024年で66.9%。",
+        "evidence": [
+          {"kind": "web", "pointer": "https://tabizine.jp/article/577386/"},
+          {"kind": "web", "pointer": "https://brain-sleep.com/en/pages/research2025"},
+          {"kind": "web", "pointer": "https://diamond.jp/articles/-/367256?page=2"},
+          {"kind": "web", "pointer": "https://www.mhlw.go.jp/toukei/itiran/roudou/jikan/syurou/25/dl/gaikyou.pdf"}
+        ]
+      }
+    },
+    {
+      "character": "スネ夫",
+      "option_a": {
+        "job": "親の会社を継ぐ／継げない二代目",
+        "reality_check": "経営者の平均年齢60.7歳（2024年）。後継者不在率50.1%（2025年調査、7年連続改善だが10社に5社）。2025年までに70歳を迎える中小企業経営者245万人のうち約127万人が後継者未定。2024年に休廃業・解散した企業の社長の平均年齢は72.61歳で5年連続70代。休廃業した中規模企業の51.1%は黒字のまま廃業。廃業理由の約3割が後継者不在。",
+        "evidence": [
+          {"kind": "web", "pointer": "https://www.chusho.meti.go.jp/pamflet/hakusyo/2025/chusho/b1_1_9.html"},
+          {"kind": "web", "pointer": "https://jms-support.jp/event/kokeisyamondai/"},
+          {"kind": "web", "pointer": "https://mitsukijapan.com/ma/column/sme-owners-worried-about-lack-of-successors/"},
+          {"kind": "web", "pointer": "https://www.daiwahouse.co.jp/tochikatsu/souken/scolumn/sclm552.html"}
+        ]
+      },
+      "option_b": {
+        "job": "ラジコン・プラモの偏執を活かした演出・制作・映像側（動員を捌く側）",
+        "reality_check": "2024年のライブ・エンタテインメント市場は7605億円で過去最高（音楽5299億円・ステージ2306億円）、動員数8561万人。公演回数はコロナ前水準に戻っておらず、大規模会場への集中とチケット単価上昇が拡大要因。『推し活』が成長を支えているとされる（推し活市場は年間約3.5兆円、1人あたり年約25万円）。",
+        "evidence": [
+          {"kind": "web", "pointer": "https://corporate.pia.jp/news/detail_live_enta20250624.html"},
+          {"kind": "web", "pointer": "https://kai-you.net/article/92753"},
+          {"kind": "web", "pointer": "https://bizpa.net/mag/report-4978/"}
+        ]
+      }
+    },
+    {
+      "character": "しずか",
+      "option_a": {
+        "job": "世話焼き・気配りを職業にした側（介護・保育・看護などのケア労働）",
+        "reality_check": "令和7年賃金構造基本統計調査ベースで介護職の平均年収は施設介護388万円・訪問介護381万9000円。全産業平均は約546万円。月給ベースでは介護職員と全産業平均の差が8万3000円。保育士の平均年収427.6万円 vs 全職種平均478万円（約50万円差）。2026年度の介護報酬改定は+2.03%の見込み。",
+        "evidence": [
+          {"kind": "web", "pointer": "https://job-medley.com/tips/detail/36464/"},
+          {"kind": "web", "pointer": "https://www.excare.co.jp/ex-job/kaigo-salary-low/"},
+          {"kind": "web", "pointer": "https://www.careritz.co.jp/magazine/371115/"},
+          {"kind": "web", "pointer": "https://www.co-medical.com/knowledge/article365/"}
+        ]
+      },
+      "option_b": {
+        "job": "『85点で叱られた』優等生がそのまま総合職になった側",
+        "reality_check": "一般労働者の月額賃金は男性を100とすると女性は75.8（2024年賃金構造基本統計調査、1976年以降で格差最小）。第5次男女共同参画基本計画の『2025年までに女性管理職比率30%』は未達。2025年6月の女性活躍推進法改正で、2026年4月から男女間賃金差異の公表義務が301人以上→101人以上企業に拡大し、女性管理職比率の公表も義務化。",
+        "evidence": [
+          {"kind": "web", "pointer": "https://www.jil.go.jp/kokunai/blt/backnumber/2025/05/kokunai_02.html"},
+          {"kind": "web", "pointer": "https://jsite.mhlw.go.jp/aichi-roudoukyoku/kaisei_jokatsu_00003.html"},
+          {"kind": "web", "pointer": "https://www.tis.amano.co.jp/faq_column/4476/"}
+        ]
+      }
+    },
+    {
+      "character": "出木杉",
+      "option_a": {
+        "job": "模範解答を書き続けた先のキャリア官僚",
+        "reality_check": "国家公務員採用試験の申込者はこの10年で総合職・一般職ともに約3割減。2024年度の総合職志願者は1万8333人。2014年度採用の655人のうち23.2%が10年以内に退職（10年前の約3倍）、2023年度は採用後10年未満の退職者が203人で過去最多。繁忙期の長時間残業・休日出勤が常態化し、超過勤務手当が実態に即して支払われていないとの指摘。2025年3月の人事行政諮問会議最終提言は『公務が危機に瀕している』と表現。",
+        "evidence": [
+          {"kind": "web", "pointer": "https://www.nikkei.com/article/DGKKZO89460640Y5A610C2PD0000/"},
+          {"kind": "web", "pointer": "https://edenred.jp/article/hr-recruiting/268/"},
+          {"kind": "web", "pointer": "https://www.jinji.go.jp/kouho_houdo/koumuinhakusyo/hakusho/R4/1-2-01-2.html"},
+          {"kind": "web", "pointer": "https://jichitai.works/articles/2660"}
+        ]
+      },
+      "option_b": {
+        "job": "天文学者になりたかった側＝任期付きの研究者",
+        "reality_check": "修士課程修了者の博士後期課程への進学率は減少傾向で、理由の上位は『修了後の就職が心配である』。1990年代に博士号取得者数が大学教員数を上回り、2004年の大学法人化以降の運営費交付金減額で常勤ポストが減少、ポスドクの供給過剰は解消されていない。政府の想定では長くても3年程度で常勤ポストに就ける前提だった。博士後期課程修了6年半後の有期雇用率は17.5%。",
+        "evidence": [
+          {"kind": "web", "pointer": "https://www.nli-research.co.jp/report/detail/id=82304?site=nli"},
+          {"kind": "web", "pointer": "https://www.nippon.com/ja/currents/d00397/"},
+          {"kind": "web", "pointer": "https://www8.cao.go.jp/cstp/tyousakai/hyouka/haihu144/144_honpen3.pdf"}
+        ]
+      }
+    },
+    {
+      "character": "ジャイアン",
+      "option_a": {
+        "job": "歌手として本当に成功した側",
+        "reality_check": "2024年のライブ・エンタメ市場7605億円（音楽分野5299億円・前年比11.4%増）、動員数8561万人で過去最高。一方サブスクの1再生あたり作詞作曲家の取り分はApple Musicで約0.04円、YouTube Musicで約0.008円。ストリーミングでは原盤印税約5割・著作権12%が世界標準で、CD時代（原盤12〜15%・著作権6%）より配分比率自体は2〜3倍に増えている（＝率は上がったが単価が小さい構造）。",
+        "evidence": [
+          {"kind": "web", "pointer": "https://corporate.pia.jp/news/detail_live_enta20250624.html"},
+          {"kind": "web", "pointer": "https://www.musicman.co.jp/business/681475"},
+          {"kind": "web", "pointer": "https://note.com/magical_river/n/n727f8f6a52fa"},
+          {"kind": "web", "pointer": "https://note.com/yamabug/n/n36bae79552a1"}
+        ]
+      },
+      "option_b": {
+        "job": "実家の商店を継いだ側",
+        "reality_check": "令和6年度商店街実態調査で平均空き店舗率13.59%（前回13.77%）。空き店舗が今後『増加する』と答えた商店街が49.9%で最多。来街者が『減った』は前回55.1%→68.8%、『増えた』は11.8%→4.6%。長野県の令和6年度調査では空き店舗の40.6%が所有者に『店舗として利用するつもりがない』と回答。",
+        "evidence": [
+          {"kind": "web", "pointer": "https://www.syoutengai.or.jp/snews/nws-861/"},
+          {"kind": "web", "pointer": "https://www.chusho.meti.go.jp/shogyo/shogyo/shotengai_chousa.html"},
+          {"kind": "web", "pointer": "https://www.chusho.meti.go.jp/pamflet/hakusyo/2020/shokibo/b2_2_1.html"}
+        ]
+      }
+    }
+  ],
+  "gadget_specs": [
+    {
+      "name": "タイムふろしき",
+      "status": "round3で新規調査",
+      "function": "被せた物の周囲の時の流れが逆行または進行し、物そのものの状態が変容する。無機物・生物の両方に作用。物なら新品や原料に戻り、生物なら若返り・老化する。化石やワニ革のような死体の一部でも生前の状態まで戻して生き返らせられる。",
+      "constraint": "時を戻すか進めるかは風呂敷の表と裏で使い分け、表裏で配色が異なる（アニメ設定で赤系と青系）。標準寸法は1メートル四方。対象が風呂敷より巨大でも一部に被せれば効果は全体に及ぶ。四次元ポケットの中では機能しない。長時間使用すると原料にまで戻ってしまう。布が破れると大きな物への効果が限定される。年齢を戻しても記憶や精神は元のまま（魂には作用しない）。初出はてんとう虫コミックス第2巻。",
+      "lyric_fuel": "『裏返せば向きが変わる』『包める大きさは1メートル四方』『記憶だけは戻らない』の3点が全部オチに使える。",
+      "evidence": [
+        {"kind": "web", "pointer": "https://ja.wikipedia.org/wiki/%E3%82%BF%E3%82%A4%E3%83%A0%E3%81%B5%E3%82%8D%E3%81%97%E3%81%8D"},
+        {"kind": "web", "pointer": "https://dic.pixiv.net/a/%E3%82%BF%E3%82%A4%E3%83%A0%E3%81%B5%E3%82%8D%E3%81%97%E3%81%8D"},
+        {"kind": "web", "pointer": "https://moshimodogu.com/item/time-furoshiki"}
+      ]
+    },
+    {
+      "name": "透明マント",
+      "status": "round3で新規調査",
+      "function": "『細胞内光線通過糸』＝シースルー繊維で織られており、当たった光を反射も屈折もさせず完全に通過させることで、被った者の姿が誰からも見えなくなる。原作では頭から被って全身を覆う形で使用。",
+      "constraint": "原作では音を消す機能が無く、使用者の声は筒抜けで、油断すると居場所を特定される。アニメ版では作品により差があり、声も消える設定の回や、頭部・上半身に被せるだけで自動的に全身が透明化する描写、下半身がはみ出ていても全身が透明になる描写がある。使用者同士が互いを視認できるかは作品により言及の有無が分かれる。",
+      "lyric_fuel": "『姿は消えるが声は消えない』が最大の反転素材。ケア労働・非正規・投票率いずれにも接続できる。",
+      "evidence": [
+        {"kind": "web", "pointer": "https://ja.wikipedia.org/wiki/%E3%83%89%E3%83%A9%E3%81%88%E3%82%82%E3%82%93%E3%81%AE%E3%81%B2%E3%81%BF%E3%81%A4%E9%81%93%E5%85%B7_(%E3%81%A8%E3%81%82-%E3%81%A8%E3%81%93)"},
+        {"kind": "web", "pointer": "https://dic.nicovideo.jp/a/%E9%80%8F%E6%98%8E%E3%83%9E%E3%83%B3%E3%83%88"},
+        {"kind": "web", "pointer": "https://dic.pixiv.net/a/%E9%80%8F%E6%98%8E%E3%83%9E%E3%83%B3%E3%83%88(%E3%83%89%E3%83%A9%E3%81%88%E3%82%82%E3%82%93)"}
+      ]
+    },
+    {
+      "name": "ビッグライト",
+      "status": "round3で新規調査（時間制限の有無を確認）",
+      "function": "照射したあらゆる物体を大きくするライト。スモールライトの対。",
+      "constraint": "最大の制約は解除光線を出せないこと。一度大きくしたものを自力で元に戻せず、戻すにはスモールライトなど別の道具が必要。時間制限については資料が割れており、(a) 効果は永続でスモールライト（約3日で切れる）と非対称という説明と、(b) 劇場版『のび太の宇宙小戦争』で時間制限が明かされたとする説明の両方が流通している。",
+      "lyric_fuel": "『大きくしたものは自分では戻せない』が最強の一行。動員・会場・会社・見栄の全部に効く。",
+      "evidence": [
+        {"kind": "web", "pointer": "https://moshimodogu.com/item/big-light"},
+        {"kind": "web", "pointer": "https://dic.pixiv.net/a/%E3%83%93%E3%83%83%E3%82%B0%E3%83%A9%E3%82%A4%E3%83%88"},
+        {"kind": "web", "pointer": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q1480495994"}
+      ]
+    },
+    {
+      "name": "スモールライト",
+      "status": "round2収集の要約＋制約を追記",
+      "function": "照射したものの質量を変換して小さくする懐中電灯型の道具。照射時間で縮小率を調節できる。",
+      "constraint": "効力に時間制限があり、約3日後に効果が切れて元の大きさに戻る。",
+      "lyric_fuel": "『3日で戻るのは道具のほうだけ』。実質賃金・内容量・手取りに接続。",
+      "evidence": [
+        {"kind": "web", "pointer": "https://dic.pixiv.net/a/%E3%82%B9%E3%83%A2%E3%83%BC%E3%83%AB%E3%83%A9%E3%82%A4%E3%83%88"},
+        {"kind": "web", "pointer": "https://moshimodogu.com/item/big-light"}
+      ]
+    },
+    {
+      "name": "どこでもドア",
+      "status": "round2収集の要約",
+      "function": "ドアを開けると任意の場所につながる。",
+      "constraint": "10光年以上離れた星、『地平線テープ』等で作られた特別な世界、地図に入力されていない場所へは行けない。超空間にバリアが張ってあると通過できない。",
+      "lyric_fuel": "『地図に入力されていない場所には行けない』＝未来が誰にも入力されていない話に転用可能。",
+      "evidence": [{"kind": "web", "pointer": "https://ja.wikipedia.org/wiki/%E3%81%A9%E3%81%93%E3%81%A7%E3%82%82%E3%83%89%E3%82%A2"}]
+    },
+    {
+      "name": "タケコプター",
+      "status": "round2収集の要約",
+      "function": "頭部などに取り付けて空を飛ぶ小型プロペラ。時速80km・連続8時間の飛行が可能。",
+      "constraint": "時速80kmで8時間連続運転すると電池が上がる。頭に装着してからスイッチを入れないと道具だけが飛んでいく。",
+      "lyric_fuel": "『8時間で電池が上がる』＝労働時間の上限を道具のほうが守っている。",
+      "evidence": [{"kind": "web", "pointer": "https://ja.wikipedia.org/wiki/%E3%82%BF%E3%82%B1%E3%82%B3%E3%83%97%E3%82%BF%E3%83%BC"}]
+    },
+    {
+      "name": "もしもボックス",
+      "status": "round2収集の要約",
+      "function": "電話ボックス型。受話器を取り『もしも〜だったら』と話すとその通りの世界に作り変わる。",
+      "constraint": "元に戻すには受話器に『元に戻して』と話す必要があり、解除には使用者の声が必須。声を失うと二度と戻れない。",
+      "lyric_fuel": "『戻すのにも自分の声が要る』＝黙っている限り戻せない。",
+      "evidence": [
+        {"kind": "web", "pointer": "https://ja.wikipedia.org/wiki/%E3%82%82%E3%81%97%E3%82%82%E3%83%9C%E3%83%83%E3%82%AF%E3%82%B9"},
+        {"kind": "web", "pointer": "https://dic.nicovideo.jp/a/%E3%82%82%E3%81%97%E3%82%82%E3%83%9C%E3%83%83%E3%82%AF%E3%82%B9"}
+      ]
+    },
+    {
+      "name": "あんきパン",
+      "status": "round2収集の要約",
+      "function": "ノートや本に押し当てて写し取り、食べると内容を暗記できる。",
+      "constraint": "6ページ分で6枚切り1斤相当。小学4年の国語教科書234ページを覚えるには39斤ぶん食べる必要がある。効き目は永続しない。",
+      "lyric_fuel": "『39斤』という具体量と『効き目が永続しない』。学費と奨学金の対比に直結。",
+      "evidence": [
+        {"kind": "web", "pointer": "https://dora-world.com/sp/tencomi_detective/zannen/zannen_vol001.html"},
+        {"kind": "web", "pointer": "https://dic.pixiv.net/a/%E3%82%A2%E3%83%B3%E3%82%AD%E3%83%91%E3%83%B3"}
+      ]
+    },
+    {
+      "name": "ほんやくコンニャク",
+      "status": "round2収集の要約",
+      "function": "食べると外国語が母語に聞こえ、自分の言葉も相手の言語に変換される。文字・過去の時代の言語・宇宙人の言語・機械の音や信号まで訳せる。",
+      "constraint": "食べられないロボットには上に載せるだけで効く。訳せるのは言語であって意図ではない。",
+      "lyric_fuel": "『全部訳せるのに噛み合わない』。同じ日本語の会議室が落ち。",
+      "evidence": [
+        {"kind": "web", "pointer": "https://dic.pixiv.net/a/%E3%81%BB%E3%82%93%E3%82%84%E3%81%8F%E3%82%B3%E3%83%B3%E3%83%8B%E3%83%A3%E3%82%AF"},
+        {"kind": "web", "pointer": "https://ja.wikipedia.org/wiki/%E3%81%BB%E3%82%93%E3%82%84%E3%81%8F%E3%82%B3%E3%83%B3%E3%83%8B%E3%83%A3%E3%82%AF"}
+      ]
+    },
+    {
+      "name": "通りぬけフープ",
+      "status": "round2収集の要約",
+      "function": "壁にあてると輪の内側が向こう側まで穴でつながるフラフープ。",
+      "constraint": "直径は約80cmで伸縮性が無いため、それより大きなものは通れない。",
+      "lyric_fuel": "『穴の規格が先に決まっている』＝参入障壁の比喩。",
+      "evidence": [{"kind": "web", "pointer": "https://moshimodogu.com/item/torinuke-hoop"}]
+    }
+  ],
+  "culture_texture_additions": [
+    {
+      "item": "ふるさと納税",
+      "number": "令和6年度の受入額は1兆2728億円で5年連続過去最高、受入件数約5879万件、控除適用者は約1080万人で過去最高。",
+      "evidence": [
+        {"kind": "web", "pointer": "https://gentosha-go.com/articles/-/71143"},
+        {"kind": "web", "pointer": "https://shirube.zaikyo.or.jp/article/2025/08/04/10330174.html"},
+        {"kind": "web", "pointer": "https://www.yamada-partners.jp/tax-topics/r070804"}
+      ]
+    },
+    {
+      "item": "NISA",
+      "number": "口座数は2025年6月末で2696万口座、累計買付額63兆円（政府目標は2027年12月末までに3400万口座・56兆円）。2025年12月末時点では累計買付額約71兆円・口座数約2826万口座。",
+      "evidence": [
+        {"kind": "web", "pointer": "https://www.fsa.go.jp/policy/nisa/20250924.html"},
+        {"kind": "web", "pointer": "https://www.fsa.go.jp/policy/nisa/20250924/2506nisa-graph.pdf"},
+        {"kind": "web", "pointer": "https://www.nikkei.com/article/DGXZQOUB188MA0Y6A210C2000000/"}
+      ]
+    },
+    {
+      "item": "オンラインカジノ",
+      "number": "警察庁の初推計で利用経験者337万人、年間賭け金1兆2400億円（競輪を超える規模）。利用経験者の4割が違法性を認識していない。年代別は20代30%、30代29%、40代22%。2025年の摘発は158件で過去最多、前年のほぼ3倍。2025年9月施行の改正法で誘導広告も違法化。",
+      "evidence": [
+        {"kind": "web", "pointer": "https://www.nippon.com/ja/japan-data/h02344/"},
+        {"kind": "web", "pointer": "https://www.nikkei.com/article/DGXZQOUE113ZF0R10C25A3000000/"},
+        {"kind": "web", "pointer": "https://tokyonewsmedia.com/archives/21507"}
+      ]
+    },
+    {
+      "item": "サウナ",
+      "number": "2024年度のサウナ利用者推計1648万人（前年度1779万人から約131万人減）。内訳はヘビー187万人・ミドル421万人・ライト1040万人。コロナ前から推定1000万人減ったまま戻っていない。市場規模は約2000億円前後。『ととのう客』は5年で4割減という報道もある。",
+      "evidence": [
+        {"kind": "web", "pointer": "https://kyodonewsprwire.jp/release/202503075340"},
+        {"kind": "web", "pointer": "https://www.j-cast.com/2025/04/20503609.html?p=all"},
+        {"kind": "web", "pointer": "https://www.nikkei.com/article/DGXZQOUC291HF0Z20C25A3000000/"}
+      ]
+    },
+    {
+      "item": "ソシャゲ課金",
+      "number": "スマホゲームアプリに課金している人の割合は全体の35.2%。男性20代・30代と女性20代は50%以上が課金。20代の課金者限定の平均額は月4247円（前年公開版は5138円）。",
+      "evidence": [
+        {"kind": "web", "pointer": "https://news.yahoo.co.jp/expert/articles/0261eca0882e03cf41ddec984c5937e428a072b6"},
+        {"kind": "web", "pointer": "https://www.sbpayment.jp/en/news/press/2025/20250514_001447/"},
+        {"kind": "web", "pointer": "https://www.gamebusiness.jp/article/2025/05/15/24260.html"}
+      ]
+    },
+    {
+      "item": "マッチングアプリ",
+      "number": "20代の利用率53.9%、全体の利用経験率39.5%。パートナーとの出会いのきっかけとして20代28.7%・30代25.3%で最多。身近な人が交際に至った割合23.8%、結婚に至った割合20.6%。",
+      "evidence": [
+        {"kind": "web", "pointer": "https://mmdlabo.jp/investigation/detail_2489.html"},
+        {"kind": "web", "pointer": "https://matching-navi.jp/columns/matching-app-usage-stats/"},
+        {"kind": "web", "pointer": "https://www.buzzfeed.com/jp/ryokoiwagaki/survey-202506-views-ofn-marriage"}
+      ]
+    },
+    {
+      "item": "ライブ／推し活（round2からの更新）",
+      "number": "2024年のライブ・エンタメ市場7605億円・動員8561万人でいずれも過去最高。推し活市場は年間約3.5兆円、推し活人口推定1384万人、1人あたり年約25万円。",
+      "evidence": [
+        {"kind": "web", "pointer": "https://corporate.pia.jp/news/detail_live_enta20250624.html"},
+        {"kind": "web", "pointer": "https://kai-you.net/article/92753"},
+        {"kind": "web", "pointer": "https://bizpa.net/mag/report-4978/"}
+      ]
+    }
+  ],
+  "warnings": [
+    "ブロック1のキャラクター設定は Wikipedia・Fandom・ピクシブ百科事典・ニコニコ大百科・ファンサイトが出典で、一次資料（単行本・公式データベース）ではない。0.93秒・129.3・腕力3.3倍・空き缶6発・打率1分・防御率405.0・85点・月1万円・39斤・直径80cm・時速80km／8時間といった数値はリリックの武器になるが、商業リリース前には原作での再確認が望ましい。",
+    "タイムふろしきの『どちらの色の面が時間を戻すか』は資料で食い違っている（Wikipediaの記述は表＝進む／裏＝戻る、他の解説は赤い面が戻る・青い面が進む）。確実なのは『表裏で向きが逆になる』ことだけなので、歌詞では色を特定せず『裏返せば逆に回る』と書くのが安全。",
+    "ビッグライトの時間制限も資料で割れている（永続説と、劇場版で時間制限が明かされたとする説）。確実に使えるのは『解除光線が無い＝自力では元に戻せない』のほう。スモールライトの『約3日で戻る』は複数資料で一致している。",
+    "透明マントは原作とアニメで仕様が違う（原作は音を消さない／アニメの一部は声も消える）。『姿は消えるが声は消えない』を反転の軸に使う場合は、原作準拠であることを内部メモとして残すこと。",
+    "実在政治家の実名・実在の政治スキャンダル・特定の事件名は一切収集していない。政治は制度の構造と統計（政党交付金の5万円ライン、20代投票率39.01%、ジェンダーギャップ政治125位）だけで書くこと。",
+    "ブロック2の大人像はすべて fictional な想定であり、ユーザーが提供していない実話・経歴は一切含まない。統計はあくまで『その職業を選んだ人の現実側の相場』であって、キャラクターの経歴として断定してはいけない。",
+    "介護職の平均年収は調査主体と対象範囲で数字が割れる（施設388万円／訪問381.9万円、全産業平均546万円という組と、月給差8万3000円という組は出典が異なる）。歌詞では『全産業平均と月8万の差』のように桁と方向で使うほうが安全。",
+    "eスポーツのプロ年収（トップ1000〜3000万円、一般300〜800万円）は専門学校・業界メディアの推計であり、公的統計ではない。『トップは一千万、その下は三百万』程度の解像度で使うこと。",
+    "サブスク1再生あたりの単価（Apple Music 0.04円／YouTube Music 0.008円）は作詞作曲家の取り分であって、アーティスト（原盤側）の取り分ではない。歌詞で『一再生いくら』と言う場合、どちらの立場かで数字が変わる点に注意。",
+    "ふるさと納税・NISA・オンラインカジノ・サウナ・ソシャゲ課金・マッチングアプリはいずれも実在の制度・サービス一般であり、特定企業名や実在人物には触れていない。『小5で飽きた』の一行で使う際も、個社名ではなくカテゴリ名（ポイント、口座、アプリ、整う、課金）で書けば安全。",
+    "36小節の割り当てはバース3本しか無いため、14案のうち採用できるのは3案。キャラの重複を避けるなら、のび太系（4案）／スネ夫系（2案）／しずか系（2案）／出木杉系（3案）／ジャイアン系（3案）から1本ずつ選ぶ形になる。ジャイアン＝空き地のリサイタルに帰る話者と重なるため、ジャイアン枠をバースに使うかフック側に残すかは CP でユーザーに確認したほうがよい。"
+  ]
+}
