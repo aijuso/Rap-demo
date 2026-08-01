@@ -1,0 +1,5024 @@
+{
+  "schema": "research-bank/v1",
+  "theme": "秘密道具はすべて揃っていたのに、この社会は直らなかった。大人になった元・小5たちが、それぞれ一つの道具を持って現在地を報告する。",
+  "concept": "各バース＝1キャラ×1ひみつ道具×1つの現場。道具の制約が現実の制約の比喩になる構造で統一し、フックで『出してよドラえもん』→不在→『必要なのは道具じゃない、俺らだ』へ着地する。語彙は統計値ではなく『目に見え、手で触れ、音がして、値段がついている物』で構成する。",
+  "number_policy": "パーセンテージ・平均値・市場規模といった統計数値は歌詞素材として採らない。採るのは小さく具体的でそれ自体が可笑しい数字（0.93秒／八時間／一メートル四方／三人ぶん／八十五点／二千四百円／十五分刻み／二十分）だけ。",
+  "scene_refs": [
+    "A1: 打刻機・詰所・非常階段の踊り場・始発のホーム（0.93秒で寝る男×タケコプター×労働時間と値段のつかない才能）",
+    "A2: 応接間・法務局・銀行の窓口・倉庫（社長の息子×タイムふろしき×継ぐ相手のいない家業）",
+    "B1: 浴室・脱衣所・汚物処理室・ステーション・訪問先の玄関（一日三回風呂に入る女×透明マント×ケア労働の賃金と見えなくされること）",
+    "B2: 店のシャッター前・平台・空き地／コインパーキング・交通課の窓口・搬入口・楽屋（だみ声の男×ビッグライト×成功しても縮む取り分と無料で歌う自由）",
+    "共有: 空き地と土管・給食・上履き・連絡帳・朝礼・班（大人の場面と対にする子ども時代の物）",
+    "共有: 倍速視聴・切り抜き・投げ銭・推し活・返礼品・サウナ・ブレイキングダウン（『お前らが今ハマってるそれ、俺は小5で飽きた』の一行の材料）"
+  ],
+  "scout_seed_motifs": [
+    "タケコプター＝時速80km・連続8時間で電池が上がる／頭に装着してからスイッチを入れないと道具だけ飛ぶ",
+    "タイムふろしき＝標準寸法1メートル四方／表裏で時間の向きが逆／四次元ポケット内では機能しない／年齢を戻しても記憶は残る",
+    "透明マント＝細胞内光線通過糸で光を完全に通すが、原作に消音機能がなく声で居場所がばれる",
+    "ビッグライト＝解除光線を出せない＝大きくしたものを自分では戻せない",
+    "0.93秒で眠る／八十五点で叱られた家／三人ぶんしか用意しない癖／中古で買ったクルーザー／卵と缶詰の店／空き地のリサイタル",
+    "空き地はコインパーキングになり、公園にはボール遊び禁止の看板が立った"
+  ],
+  "window_coverage": {
+    "note": "8窓×4バース＋共有2枠。1窓も空にしていない。",
+    "windows": [
+      "object",
+      "action",
+      "place",
+      "time_or_number",
+      "sound",
+      "body",
+      "institution_or_money",
+      "relationship"
+    ]
+  },
+  "keywords": [
+    {
+      "id": "K001",
+      "surface": "打刻機",
+      "reading": "ダコッキ",
+      "mora_count": 4,
+      "vowel_skeleton": "a-o-Q-i",
+      "consonant_skeleton": "dkQk",
+      "consonant_skeleton_dotted": "d.k.Q.k",
+      "kind": "vocabulary",
+      "domain": "object",
+      "plain_meaning": "出退勤の時刻を記録する機械",
+      "usage_note": "頭に載せるスイッチ（タケコプター）と、腰の高さで押す機械の対比。『載せる』と『押す』で動作が韻を組める",
+      "verse": "A1",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://www.tablet-time-recorder.net/blog/others/4485"
+        },
+        {
+          "kind": "web",
+          "pointer": "https://biz.moneyforward.com/payroll/basic/95055/"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K002",
+      "surface": "社員証",
+      "reading": "シャインショウ",
+      "mora_count": 5,
+      "vowel_skeleton": "a-i-N-o-u",
+      "consonant_skeleton": "shy-Nshy-",
+      "consonant_skeleton_dotted": "shy.-.N.shy.-",
+      "kind": "vocabulary",
+      "domain": "object",
+      "plain_meaning": "首から下げる身分証。これをかざして打刻する",
+      "usage_note": "名前より先に番号が読まれる物。四次元ポケットではなく首から下がっているもの",
+      "verse": "A1",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://biz.moneyforward.com/payroll/basic/95055/"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K003",
+      "surface": "リールの紐",
+      "reading": "リールノヒモ",
+      "mora_count": 6,
+      "vowel_skeleton": "i-i-u-o-i-o",
+      "consonant_skeleton": "r:rnhm",
+      "consonant_skeleton_dotted": "r.:.r.n.h.m",
+      "kind": "vocabulary",
+      "domain": "object",
+      "plain_meaning": "社員証を伸ばして戻す巻き取り式の紐",
+      "usage_note": "伸びて必ず戻る＝定時に戻れない人間の反転画",
+      "verse": "A1",
+      "evidence": [
+        {
+          "kind": "dictionary",
+          "pointer": "general_knowledge: 日本語の日常生活語彙。特定の出典を要さない一般語"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K004",
+      "surface": "モバイルバッテリー",
+      "reading": "モバイルバッテリー",
+      "mora_count": 9,
+      "vowel_skeleton": "o-a-i-u-a-Q-e-i-i",
+      "consonant_skeleton": "mb-rbQtr:",
+      "consonant_skeleton_dotted": "m.b.-.r.b.Q.t.r.:",
+      "kind": "vocabulary",
+      "domain": "object",
+      "plain_meaning": "持ち歩く予備の電池",
+      "usage_note": "タケコプターの『8時間で電池が上がる』に直結。人間だけ予備電池を持たされる",
+      "verse": "A1",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://ja.wikipedia.org/wiki/%E3%82%BF%E3%82%B1%E3%82%B3%E3%83%97%E3%82%BF%E3%83%BC"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K005",
+      "surface": "栄養ドリンクの空き瓶",
+      "reading": "エイヨウドリンクノアキビン",
+      "mora_count": 13,
+      "vowel_skeleton": "e-i-o-u-o-i-N-u-o-a-i-i-N",
+      "consonant_skeleton": "--y-drNkn-kbN",
+      "consonant_skeleton_dotted": "-.-.y.-.d.r.N.k.n.-.k.b.N",
+      "kind": "vocabulary",
+      "domain": "object",
+      "plain_meaning": "飲み干した滋養強壮飲料の瓶",
+      "usage_note": "机の端に並ぶ本数がそのまま日数の記録になる",
+      "verse": "A1",
+      "evidence": [
+        {
+          "kind": "dictionary",
+          "pointer": "general_knowledge: 日本語の日常生活語彙。特定の出典を要さない一般語"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K006",
+      "surface": "定期券",
+      "reading": "テイキケン",
+      "mora_count": 5,
+      "vowel_skeleton": "e-i-i-e-N",
+      "consonant_skeleton": "t-kkN",
+      "consonant_skeleton_dotted": "t.-.k.k.N",
+      "kind": "vocabulary",
+      "domain": "object",
+      "plain_meaning": "一定区間を繰り返し乗るための切符",
+      "usage_note": "六か月ぶん前払いする＝辞められない金額を先に払っている物",
+      "verse": "A1",
+      "evidence": [
+        {
+          "kind": "dictionary",
+          "pointer": "general_knowledge: 日本語の日常生活語彙。特定の出典を要さない一般語"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K007",
+      "surface": "遅延証明書",
+      "reading": "チエンショウメイショ",
+      "mora_count": 8,
+      "vowel_skeleton": "i-e-N-o-u-e-i-o",
+      "consonant_skeleton": "ch-Nshy-m-shy",
+      "consonant_skeleton_dotted": "ch.-.N.shy.-.m.-.shy",
+      "kind": "vocabulary",
+      "domain": "object",
+      "plain_meaning": "電車の遅れを鉄道会社が証明する紙",
+      "usage_note": "遅れた理由だけは他人が証明してくれるが、疲れは誰も証明しない",
+      "verse": "A1",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://tenshoku.mynavi.jp/knowhow/caripedia/68/"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K008",
+      "surface": "つり革",
+      "reading": "ツリカワ",
+      "mora_count": 4,
+      "vowel_skeleton": "u-i-a-a",
+      "consonant_skeleton": "tsrkw",
+      "consonant_skeleton_dotted": "ts.r.k.w",
+      "kind": "vocabulary",
+      "domain": "object",
+      "plain_meaning": "電車で立って掴む輪",
+      "usage_note": "混雑率100%の定義が『座るか吊り革につかまれる』状態であること自体が可笑しい",
+      "verse": "A1",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://tenshoku.mynavi.jp/knowhow/caripedia/68/"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K009",
+      "surface": "座布団",
+      "reading": "ザブトン",
+      "mora_count": 4,
+      "vowel_skeleton": "a-u-o-N",
+      "consonant_skeleton": "zbtN",
+      "consonant_skeleton_dotted": "z.b.t.N",
+      "kind": "vocabulary",
+      "domain": "object",
+      "plain_meaning": "床に敷く四角い座り物",
+      "usage_note": "0.93秒で寝る男が枕にした物。大人になると会議室の椅子に変わる",
+      "verse": "A1",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://note.com/shatoru0619/n/neee3d31f983d"
+        },
+        {
+          "kind": "web",
+          "pointer": "https://ja.wikipedia.org/wiki/%E9%87%8E%E6%AF%94%E3%81%AE%E3%81%B3%E5%A4%AA"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K010",
+      "surface": "目薬",
+      "reading": "メグスリ",
+      "mora_count": 4,
+      "vowel_skeleton": "e-u-u-i",
+      "consonant_skeleton": "mgsr",
+      "consonant_skeleton_dotted": "m.g.s.r",
+      "kind": "vocabulary",
+      "domain": "object",
+      "plain_meaning": "目にさす薬",
+      "usage_note": "まぶたを開ける方に金を払っている図",
+      "verse": "A1",
+      "evidence": [
+        {
+          "kind": "dictionary",
+          "pointer": "general_knowledge: 日本語の日常生活語彙。特定の出典を要さない一般語"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K011",
+      "surface": "打刻する",
+      "reading": "ダコクスル",
+      "mora_count": 5,
+      "vowel_skeleton": "a-o-u-u-u",
+      "consonant_skeleton": "dkksr",
+      "consonant_skeleton_dotted": "d.k.k.s.r",
+      "kind": "vocabulary",
+      "domain": "action",
+      "plain_meaning": "出退勤の時刻を機械に記録する",
+      "usage_note": "『刻む』の字がラップ的。時間を刻んでいるのは自分ではなく機械",
+      "verse": "A1",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://www.tablet-time-recorder.net/blog/others/4485"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K012",
+      "surface": "舟を漕ぐ",
+      "reading": "フネヲコグ",
+      "mora_count": 5,
+      "vowel_skeleton": "u-e-o-o-u",
+      "consonant_skeleton": "fnwkg",
+      "consonant_skeleton_dotted": "f.n.w.k.g",
+      "kind": "vocabulary",
+      "domain": "action",
+      "plain_meaning": "居眠りして頭が前後に揺れる",
+      "usage_note": "空を飛ぶ道具の隣に置くと、移動手段が全部『眠り』になる笑い",
+      "verse": "A1",
+      "evidence": [
+        {
+          "kind": "dictionary",
+          "pointer": "general_knowledge: 日本語の日常生活語彙。特定の出典を要さない一般語"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K013",
+      "surface": "立ち寝",
+      "reading": "タチネ",
+      "mora_count": 3,
+      "vowel_skeleton": "a-i-e",
+      "consonant_skeleton": "tchn",
+      "consonant_skeleton_dotted": "t.ch.n",
+      "kind": "vocabulary",
+      "domain": "action",
+      "plain_meaning": "立ったまま眠ること",
+      "usage_note": "0.93秒の特技の大人版。原作の『立った姿勢から眠る』描写と直結",
+      "verse": "A1",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://note.com/shatoru0619/n/neee3d31f983d"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K014",
+      "surface": "定時で上がる",
+      "reading": "テイジデアガル",
+      "mora_count": 7,
+      "vowel_skeleton": "e-i-i-e-a-a-u",
+      "consonant_skeleton": "t-jd-gr",
+      "consonant_skeleton_dotted": "t.-.j.d.-.g.r",
+      "kind": "vocabulary",
+      "domain": "action",
+      "plain_meaning": "決まった終業時刻に退社する",
+      "usage_note": "『電池が上がる』との両義。H16の核",
+      "verse": "A1",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://biz.moneyforward.com/payroll/basic/51554/"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K015",
+      "surface": "電池が上がる",
+      "reading": "デンチガアガル",
+      "mora_count": 7,
+      "vowel_skeleton": "e-N-i-a-a-a-u",
+      "consonant_skeleton": "dNchg-gr",
+      "consonant_skeleton_dotted": "d.N.ch.g.-.g.r",
+      "kind": "vocabulary",
+      "domain": "action",
+      "plain_meaning": "バッテリーが切れて動かなくなる",
+      "usage_note": "タケコプターは時速80kmで8時間連続運転すると電池が上がる。道具のほうが定時で上がる",
+      "verse": "A1",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://ja.wikipedia.org/wiki/%E3%82%BF%E3%82%B1%E3%82%B3%E3%83%97%E3%82%BF%E3%83%BC"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K016",
+      "surface": "持ち帰る",
+      "reading": "モチカエル",
+      "mora_count": 5,
+      "vowel_skeleton": "o-i-a-e-u",
+      "consonant_skeleton": "mchk-r",
+      "consonant_skeleton_dotted": "m.ch.k.-.r",
+      "kind": "vocabulary",
+      "domain": "action",
+      "plain_meaning": "終わらない仕事を家へ持って行く",
+      "usage_note": "土産ではなく仕事を持ち帰る。打刻機の外側に出た時間",
+      "verse": "A1",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://www.kintaisystem.com/column/column121/"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K017",
+      "surface": "立て替える",
+      "reading": "タテカエル",
+      "mora_count": 5,
+      "vowel_skeleton": "a-e-a-e-u",
+      "consonant_skeleton": "ttk-r",
+      "consonant_skeleton_dotted": "t.t.k.-.r",
+      "kind": "vocabulary",
+      "domain": "action",
+      "plain_meaning": "自分の金で先に払っておく",
+      "usage_note": "経費も睡眠も先に自分が立て替える構造",
+      "verse": "A1",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://keiyaku-watch.jp/media/kisochishiki/payslip/"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K018",
+      "surface": "詰所",
+      "reading": "ツメショ",
+      "mora_count": 3,
+      "vowel_skeleton": "u-e-o",
+      "consonant_skeleton": "tsmshy",
+      "consonant_skeleton_dotted": "ts.m.shy",
+      "kind": "vocabulary",
+      "domain": "place",
+      "plain_meaning": "作業者が待機する小部屋",
+      "usage_note": "『詰める』の字で、部屋の名前がもう労働条件になっている",
+      "verse": "A1",
+      "evidence": [
+        {
+          "kind": "dictionary",
+          "pointer": "general_knowledge: 日本語の日常生活語彙。特定の出典を要さない一般語"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K019",
+      "surface": "荷捌き場",
+      "reading": "ニサバキバ",
+      "mora_count": 5,
+      "vowel_skeleton": "i-a-a-i-a",
+      "consonant_skeleton": "nsbkb",
+      "consonant_skeleton_dotted": "n.s.b.k.b",
+      "kind": "vocabulary",
+      "domain": "place",
+      "plain_meaning": "荷物を降ろして仕分ける場所",
+      "usage_note": "名詞なのに動詞が二つ入っている場所名",
+      "verse": "A1",
+      "evidence": [
+        {
+          "kind": "dictionary",
+          "pointer": "general_knowledge: 日本語の日常生活語彙。特定の出典を要さない一般語"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K020",
+      "surface": "非常階段の踊り場",
+      "reading": "ヒジョウカイダンノオドリバ",
+      "mora_count": 12,
+      "vowel_skeleton": "i-o-u-a-i-a-N-o-o-o-i-a",
+      "consonant_skeleton": "hjy-k-dNn-drb",
+      "consonant_skeleton_dotted": "h.jy.-.k.-.d.N.n.-.d.r.b",
+      "kind": "vocabulary",
+      "domain": "place",
+      "plain_meaning": "階段の折り返しにある平らな部分",
+      "usage_note": "誰も踊っていない『踊り場』。空を飛べる道具を持った男が立つ高さ",
+      "verse": "A1",
+      "evidence": [
+        {
+          "kind": "dictionary",
+          "pointer": "general_knowledge: 日本語の日常生活語彙。特定の出典を要さない一般語"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K021",
+      "surface": "駐輪場",
+      "reading": "チュウリンジョウ",
+      "mora_count": 6,
+      "vowel_skeleton": "u-u-i-N-o-u",
+      "consonant_skeleton": "chy-rNjy-",
+      "consonant_skeleton_dotted": "chy.-.r.N.jy.-",
+      "kind": "vocabulary",
+      "domain": "place",
+      "plain_meaning": "自転車を停める場所",
+      "usage_note": "タケコプターがあっても結局チャリを停める場所を探している",
+      "verse": "A1",
+      "evidence": [
+        {
+          "kind": "dictionary",
+          "pointer": "general_knowledge: 日本語の日常生活語彙。特定の出典を要さない一般語"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K022",
+      "surface": "仮眠室",
+      "reading": "カミンシツ",
+      "mora_count": 5,
+      "vowel_skeleton": "a-i-N-i-u",
+      "consonant_skeleton": "kmNshts",
+      "consonant_skeleton_dotted": "k.m.N.sh.ts",
+      "kind": "vocabulary",
+      "domain": "place",
+      "plain_meaning": "夜勤中に短く眠るための部屋",
+      "usage_note": "0.93秒で寝られる男には広すぎる部屋",
+      "verse": "A1",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://anamne.com/occupational-disease-careworker/"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K023",
+      "surface": "給湯室",
+      "reading": "キュウトウシツ",
+      "mora_count": 6,
+      "vowel_skeleton": "u-u-o-u-i-u",
+      "consonant_skeleton": "ky-t-shts",
+      "consonant_skeleton_dotted": "ky.-.t.-.sh.ts",
+      "kind": "vocabulary",
+      "domain": "place",
+      "plain_meaning": "湯を沸かす小部屋",
+      "usage_note": "会社で唯一、誰の役職も効かない三畳",
+      "verse": "A1",
+      "evidence": [
+        {
+          "kind": "dictionary",
+          "pointer": "general_knowledge: 日本語の日常生活語彙。特定の出典を要さない一般語"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K024",
+      "surface": "0.93秒",
+      "reading": "レイテンキュウサンビョウ",
+      "mora_count": 10,
+      "vowel_skeleton": "e-i-e-N-u-u-a-N-o-u",
+      "consonant_skeleton": "r-tNky-sNby-",
+      "consonant_skeleton_dotted": "r.-.t.N.ky.-.s.N.by.-",
+      "kind": "episode",
+      "domain": "time_or_number",
+      "plain_meaning": "立った姿勢から眠りに落ちるまでの時間",
+      "usage_note": "原作『ねむりの天才のび太』（てんとう虫コミックス30巻）由来。世界一速い特技に値札が付かない",
+      "verse": "A1",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://note.com/shatoru0619/n/neee3d31f983d"
+        },
+        {
+          "kind": "web",
+          "pointer": "https://ja.wikipedia.org/wiki/%E9%87%8E%E6%AF%94%E3%81%AE%E3%81%B3%E5%A4%AA"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "K025",
+      "surface": "八時間",
+      "reading": "ハチジカン",
+      "mora_count": 5,
+      "vowel_skeleton": "a-i-i-a-N",
+      "consonant_skeleton": "hchjkN",
+      "consonant_skeleton_dotted": "h.ch.j.k.N",
+      "kind": "vocabulary",
+      "domain": "time_or_number",
+      "plain_meaning": "タケコプターが連続で飛べる時間",
+      "usage_note": "労働時間の上限と一致するのが最大の皮肉",
+      "verse": "A1",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://ja.wikipedia.org/wiki/%E3%82%BF%E3%82%B1%E3%82%B3%E3%83%97%E3%82%BF%E3%83%BC"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K026",
+      "surface": "時速八十キロ",
+      "reading": "ジソクハチジュッキロ",
+      "mora_count": 9,
+      "vowel_skeleton": "i-o-u-a-i-u-Q-i-o",
+      "consonant_skeleton": "jskhchjyQkr",
+      "consonant_skeleton_dotted": "j.s.k.h.ch.jy.Q.k.r",
+      "kind": "vocabulary",
+      "domain": "time_or_number",
+      "plain_meaning": "タケコプターの飛行速度",
+      "usage_note": "高速道路の制限速度と同じ。空を飛んでも法定速度",
+      "verse": "A1",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://ja.wikipedia.org/wiki/%E3%82%BF%E3%82%B1%E3%82%B3%E3%83%97%E3%82%BF%E3%83%BC"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K027",
+      "surface": "始発",
+      "reading": "シハツ",
+      "mora_count": 3,
+      "vowel_skeleton": "i-a-u",
+      "consonant_skeleton": "shhts",
+      "consonant_skeleton_dotted": "sh.h.ts",
+      "kind": "vocabulary",
+      "domain": "time_or_number",
+      "plain_meaning": "その日最初に出る電車",
+      "usage_note": "飛べる道具を持っていても始発の時刻に起きている",
+      "verse": "A1",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://tenshoku.mynavi.jp/knowhow/caripedia/68/"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K028",
+      "surface": "十五分刻み",
+      "reading": "ジュウゴフンキザミ",
+      "mora_count": 8,
+      "vowel_skeleton": "u-u-o-u-N-i-a-i",
+      "consonant_skeleton": "jy-gfNkzm",
+      "consonant_skeleton_dotted": "jy.-.g.f.N.k.z.m",
+      "kind": "vocabulary",
+      "domain": "time_or_number",
+      "plain_meaning": "残業時間を15分単位で丸める運用",
+      "usage_note": "切り捨てられた14分が毎日どこかに消えている",
+      "verse": "A1",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://www.kintaisystem.com/column/column121/"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K029",
+      "surface": "六か月",
+      "reading": "ロッカゲツ",
+      "mora_count": 5,
+      "vowel_skeleton": "o-Q-a-e-u",
+      "consonant_skeleton": "rQkgts",
+      "consonant_skeleton_dotted": "r.Q.k.g.ts",
+      "kind": "vocabulary",
+      "domain": "time_or_number",
+      "plain_meaning": "定期券の最長期間",
+      "usage_note": "半年ぶん先に払った時点で、半年ぶん決まっている",
+      "verse": "A1",
+      "evidence": [
+        {
+          "kind": "dictionary",
+          "pointer": "general_knowledge: 日本語の日常生活語彙。特定の出典を要さない一般語"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K030",
+      "surface": "ピッ",
+      "reading": "ピッ",
+      "mora_count": 2,
+      "vowel_skeleton": "i-Q",
+      "consonant_skeleton": "pQ",
+      "consonant_skeleton_dotted": "p.Q",
+      "kind": "vocabulary",
+      "domain": "sound",
+      "plain_meaning": "ICカードをかざしたときの電子音",
+      "usage_note": "一日を始める音と終える音が同じ一音であること",
+      "verse": "A1",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://biz.moneyforward.com/payroll/basic/95055/"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K031",
+      "surface": "チン",
+      "reading": "チン",
+      "mora_count": 2,
+      "vowel_skeleton": "i-N",
+      "consonant_skeleton": "chN",
+      "consonant_skeleton_dotted": "ch.N",
+      "kind": "vocabulary",
+      "domain": "sound",
+      "plain_meaning": "電子レンジの加熱終了音",
+      "usage_note": "深夜の詰所で鳴る唯一の祝福音",
+      "verse": "A1",
+      "evidence": [
+        {
+          "kind": "dictionary",
+          "pointer": "general_knowledge: 日本語の日常生活語彙。特定の出典を要さない一般語"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K032",
+      "surface": "ジー",
+      "reading": "ジー",
+      "mora_count": 2,
+      "vowel_skeleton": "i-i",
+      "consonant_skeleton": "j:",
+      "consonant_skeleton_dotted": "j.:",
+      "kind": "vocabulary",
+      "domain": "sound",
+      "plain_meaning": "蛍光灯が発する低い連続音",
+      "usage_note": "静かなオフィスで一番大きい音",
+      "verse": "A1",
+      "evidence": [
+        {
+          "kind": "dictionary",
+          "pointer": "general_knowledge: 日本語の日常生活語彙。特定の出典を要さない一般語"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K033",
+      "surface": "いびき",
+      "reading": "イビキ",
+      "mora_count": 3,
+      "vowel_skeleton": "i-i-i",
+      "consonant_skeleton": "-bk",
+      "consonant_skeleton_dotted": "-.b.k",
+      "kind": "vocabulary",
+      "domain": "sound",
+      "plain_meaning": "眠っている人の呼吸音",
+      "usage_note": "0.93秒の男が自分で聞いたことのない音",
+      "verse": "A1",
+      "evidence": [
+        {
+          "kind": "dictionary",
+          "pointer": "general_knowledge: 日本語の日常生活語彙。特定の出典を要さない一般語"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K034",
+      "surface": "まぶた",
+      "reading": "マブタ",
+      "mora_count": 3,
+      "vowel_skeleton": "a-u-a",
+      "consonant_skeleton": "mbt",
+      "consonant_skeleton_dotted": "m.b.t",
+      "kind": "vocabulary",
+      "domain": "body",
+      "plain_meaning": "目を覆う皮膚",
+      "usage_note": "重さの単位が体で計られる",
+      "verse": "A1",
+      "evidence": [
+        {
+          "kind": "dictionary",
+          "pointer": "general_knowledge: 日本語の日常生活語彙。特定の出典を要さない一般語"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K035",
+      "surface": "目の下のクマ",
+      "reading": "メノシタノクマ",
+      "mora_count": 7,
+      "vowel_skeleton": "e-o-i-a-o-u-a",
+      "consonant_skeleton": "mnshtnkm",
+      "consonant_skeleton_dotted": "m.n.sh.t.n.k.m",
+      "kind": "vocabulary",
+      "domain": "body",
+      "plain_meaning": "睡眠不足でできる暗い影",
+      "usage_note": "顔に出る打刻記録",
+      "verse": "A1",
+      "evidence": [
+        {
+          "kind": "dictionary",
+          "pointer": "general_knowledge: 日本語の日常生活語彙。特定の出典を要さない一般語"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K036",
+      "surface": "寝違え",
+      "reading": "ネチガエ",
+      "mora_count": 4,
+      "vowel_skeleton": "e-i-a-e",
+      "consonant_skeleton": "nchg-",
+      "consonant_skeleton_dotted": "n.ch.g.-",
+      "kind": "vocabulary",
+      "domain": "body",
+      "plain_meaning": "眠り方が悪くて首を痛めること",
+      "usage_note": "0.93秒で寝る才能の副作用",
+      "verse": "A1",
+      "evidence": [
+        {
+          "kind": "dictionary",
+          "pointer": "general_knowledge: 日本語の日常生活語彙。特定の出典を要さない一般語"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K037",
+      "surface": "靴擦れ",
+      "reading": "クツズレ",
+      "mora_count": 4,
+      "vowel_skeleton": "u-u-u-e",
+      "consonant_skeleton": "ktszr",
+      "consonant_skeleton_dotted": "k.ts.z.r",
+      "kind": "vocabulary",
+      "domain": "body",
+      "plain_meaning": "靴で皮膚がすれてできる傷",
+      "usage_note": "飛べない足の証拠",
+      "verse": "A1",
+      "evidence": [
+        {
+          "kind": "dictionary",
+          "pointer": "general_knowledge: 日本語の日常生活語彙。特定の出典を要さない一般語"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K038",
+      "surface": "三六協定",
+      "reading": "サブロクキョウテイ",
+      "mora_count": 8,
+      "vowel_skeleton": "a-u-o-u-o-u-e-i",
+      "consonant_skeleton": "sbrkky-t-",
+      "consonant_skeleton_dotted": "s.b.r.k.ky.-.t.-",
+      "kind": "vocabulary",
+      "domain": "institution_or_money",
+      "plain_meaning": "時間外労働をさせるための労使協定（労基法36条）",
+      "usage_note": "名前が数字でできている制度。音が三三七拍子的に立つ",
+      "verse": "A1",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://www.tablet-time-recorder.net/blog/others/4485"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K039",
+      "surface": "勤務間インターバル",
+      "reading": "キンムカンインターバル",
+      "mora_count": 11,
+      "vowel_skeleton": "i-N-u-a-N-i-N-a-a-a-u",
+      "consonant_skeleton": "kNmkN-Nt:br",
+      "consonant_skeleton_dotted": "k.N.m.k.N.-.N.t.:.b.r",
+      "kind": "vocabulary",
+      "domain": "institution_or_money",
+      "plain_meaning": "終業から次の始業までに一定の休息を空ける制度",
+      "usage_note": "休むことに制度名が要る国。カタカナの長さ自体が笑い",
+      "verse": "A1",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://www.kaonavi.jp/dictionary/kimmukan_interval_seido/"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K040",
+      "surface": "みなし残業",
+      "reading": "ミナシザンギョウ",
+      "mora_count": 7,
+      "vowel_skeleton": "i-a-i-a-N-o-u",
+      "consonant_skeleton": "mnshzNgy-",
+      "consonant_skeleton_dotted": "m.n.sh.z.N.gy.-",
+      "kind": "vocabulary",
+      "domain": "institution_or_money",
+      "plain_meaning": "一定時間ぶんの残業代をあらかじめ給与に含める方式",
+      "usage_note": "『みなす』という動詞が制度名になっている",
+      "verse": "A1",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://biz.moneyforward.com/payroll/basic/51554/"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K041",
+      "surface": "深夜割増",
+      "reading": "シンヤワリマシ",
+      "mora_count": 7,
+      "vowel_skeleton": "i-N-a-a-i-a-i",
+      "consonant_skeleton": "shNywrmsh",
+      "consonant_skeleton_dotted": "sh.N.y.w.r.m.sh",
+      "kind": "vocabulary",
+      "domain": "institution_or_money",
+      "plain_meaning": "22時から翌5時の労働に付く割増賃金",
+      "usage_note": "眠らないことにだけ単価が付く",
+      "verse": "A1",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://biz.moneyforward.com/payroll/basic/51554/"
+        },
+        {
+          "kind": "web",
+          "pointer": "https://keiyaku-watch.jp/media/kisochishiki/payslip/"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K042",
+      "surface": "打刻漏れ",
+      "reading": "ダコクモレ",
+      "mora_count": 5,
+      "vowel_skeleton": "a-o-u-o-e",
+      "consonant_skeleton": "dkkmr",
+      "consonant_skeleton_dotted": "d.k.k.m.r",
+      "kind": "vocabulary",
+      "domain": "institution_or_money",
+      "plain_meaning": "打刻を忘れて記録が欠けること",
+      "usage_note": "『漏れ』が制度用語なのが可笑しい",
+      "verse": "A1",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://www.kintaisystem.com/column/column121/"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K043",
+      "surface": "始末書",
+      "reading": "シマツショ",
+      "mora_count": 4,
+      "vowel_skeleton": "i-a-u-o",
+      "consonant_skeleton": "shmtsshy",
+      "consonant_skeleton_dotted": "sh.m.ts.shy",
+      "kind": "vocabulary",
+      "domain": "institution_or_money",
+      "plain_meaning": "過失を報告して詫びる文書",
+      "usage_note": "押し忘れた一回に文章を書かされる",
+      "verse": "A1",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://www.kintaisystem.com/column/column120/"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K044",
+      "surface": "源泉徴収",
+      "reading": "ゲンセンチョウシュウ",
+      "mora_count": 8,
+      "vowel_skeleton": "e-N-e-N-o-u-u-u",
+      "consonant_skeleton": "gNsNchy-shy-",
+      "consonant_skeleton_dotted": "g.N.s.N.chy.-.shy.-",
+      "kind": "vocabulary",
+      "domain": "institution_or_money",
+      "plain_meaning": "給与から税を先に差し引く仕組み",
+      "usage_note": "『源泉』が温泉ではない方の意味で使われる語",
+      "verse": "A1",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://biz.moneyforward.com/payroll/basic/51554/"
+        },
+        {
+          "kind": "web",
+          "pointer": "https://keiyaku-watch.jp/media/kisochishiki/payslip/"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K045",
+      "surface": "通勤手当",
+      "reading": "ツウキンテアテ",
+      "mora_count": 7,
+      "vowel_skeleton": "u-u-i-N-e-a-e",
+      "consonant_skeleton": "ts-kNt-t",
+      "consonant_skeleton_dotted": "ts.-.k.N.t.-.t",
+      "kind": "vocabulary",
+      "domain": "institution_or_money",
+      "plain_meaning": "通勤にかかる交通費として支払われる手当",
+      "usage_note": "空を飛べば出ない金",
+      "verse": "A1",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://biz.moneyforward.com/payroll/basic/51554/"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K046",
+      "surface": "巻きでお願い",
+      "reading": "マキデオネガイ",
+      "mora_count": 7,
+      "vowel_skeleton": "a-i-e-o-e-a-i",
+      "consonant_skeleton": "mkd-ng-",
+      "consonant_skeleton_dotted": "m.k.d.-.n.g.-",
+      "kind": "episode",
+      "domain": "relationship",
+      "plain_meaning": "急いで進めてほしいと上から言われる言い方",
+      "usage_note": "四文字で急かす関係が全部見える台詞",
+      "verse": "A1",
+      "evidence": [
+        {
+          "kind": "dictionary",
+          "pointer": "general_knowledge: 日本語の日常生活語彙。特定の出典を要さない一般語"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "K047",
+      "surface": "引き継ぎ",
+      "reading": "ヒキツギ",
+      "mora_count": 4,
+      "vowel_skeleton": "i-i-u-i",
+      "consonant_skeleton": "hktsg",
+      "consonant_skeleton_dotted": "h.k.ts.g",
+      "kind": "vocabulary",
+      "domain": "relationship",
+      "plain_meaning": "仕事を次の人に渡すこと",
+      "usage_note": "渡す相手がいるうちはまだいい方だという含み。A2の承継と対",
+      "verse": "A1",
+      "evidence": [
+        {
+          "kind": "dictionary",
+          "pointer": "general_knowledge: 日本語の日常生活語彙。特定の出典を要さない一般語"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K048",
+      "surface": "まだ帰ってこないの",
+      "reading": "マダカエッテコナイノ",
+      "mora_count": 10,
+      "vowel_skeleton": "a-a-a-e-Q-e-o-a-i-o",
+      "consonant_skeleton": "mdk-Qtkn-n",
+      "consonant_skeleton_dotted": "m.d.k.-.Q.t.k.n.-.n",
+      "kind": "episode",
+      "domain": "relationship",
+      "plain_meaning": "家族から届く確認の連絡",
+      "usage_note": "小5のとき『宿題やったの』だった声が変わっただけ",
+      "verse": "A1",
+      "evidence": [
+        {
+          "kind": "dictionary",
+          "pointer": "general_knowledge: 日本語の日常生活語彙。特定の出典を要さない一般語"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "K049",
+      "surface": "実印",
+      "reading": "ジツイン",
+      "mora_count": 4,
+      "vowel_skeleton": "i-u-i-N",
+      "consonant_skeleton": "jts-N",
+      "consonant_skeleton_dotted": "j.ts.-.N",
+      "kind": "vocabulary",
+      "domain": "object",
+      "plain_meaning": "法務局に届け出た会社の代表者印",
+      "usage_note": "布より小さい丸一つで会社が動く。ふろしきと同じ『押し当てて効かせる』道具",
+      "verse": "A2",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://www.hankoya.com/untiku/company-inkan-type.html"
+        },
+        {
+          "kind": "web",
+          "pointer": "https://www.ricoh.co.jp/magazines/back-office/column/stamp-chigai/"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K050",
+      "surface": "朱肉",
+      "reading": "シュニク",
+      "mora_count": 3,
+      "vowel_skeleton": "u-i-u",
+      "consonant_skeleton": "shynk",
+      "consonant_skeleton_dotted": "shy.n.k",
+      "kind": "vocabulary",
+      "domain": "object",
+      "plain_meaning": "判子に付ける赤い印肉",
+      "usage_note": "赤という色と『肉』という字。押した瞬間だけ湿っている",
+      "verse": "A2",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://www.hankoya.com/untiku/company-inkan-type.html"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K051",
+      "surface": "角印",
+      "reading": "カクイン",
+      "mora_count": 4,
+      "vowel_skeleton": "a-u-i-N",
+      "consonant_skeleton": "kk-N",
+      "consonant_skeleton_dotted": "k.k.-.N",
+      "kind": "vocabulary",
+      "domain": "object",
+      "plain_meaning": "日常の業務書類に押す四角い会社の認印",
+      "usage_note": "四角いという点でタイムふろしき（一メートル四方）と形が揃う",
+      "verse": "A2",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://www.hankoya.com/untiku/company-inkan-type.html"
+        },
+        {
+          "kind": "web",
+          "pointer": "https://www.ricoh.co.jp/magazines/back-office/column/stamp-chigai/"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K052",
+      "surface": "印鑑カード",
+      "reading": "インカンカード",
+      "mora_count": 7,
+      "vowel_skeleton": "i-N-a-N-a-a-o",
+      "consonant_skeleton": "-NkNk:d",
+      "consonant_skeleton_dotted": "-.N.k.N.k.:.d",
+      "kind": "vocabulary",
+      "domain": "object",
+      "plain_meaning": "印鑑証明書を取るために必要なカード",
+      "usage_note": "判子が本物であることを証明するためのカード、という入れ子",
+      "verse": "A2",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://www.hankoya.com/untiku/company-inkan-type.html"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K053",
+      "surface": "収入印紙",
+      "reading": "シュウニュウインシ",
+      "mora_count": 7,
+      "vowel_skeleton": "u-u-u-u-i-N-i",
+      "consonant_skeleton": "shy-ny--Nsh",
+      "consonant_skeleton_dotted": "shy.-.ny.-.-.N.sh",
+      "kind": "vocabulary",
+      "domain": "object",
+      "plain_meaning": "契約書などに貼る税の証票",
+      "usage_note": "紙に紙を貼って金を払う",
+      "verse": "A2",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://www.proceo.jp/column/business-succession-procedures/"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K054",
+      "surface": "決算書",
+      "reading": "ケッサンショ",
+      "mora_count": 5,
+      "vowel_skeleton": "e-Q-a-N-o",
+      "consonant_skeleton": "kQsNshy",
+      "consonant_skeleton_dotted": "k.Q.s.N.shy",
+      "kind": "vocabulary",
+      "domain": "object",
+      "plain_meaning": "一年の会社の数字をまとめた書類",
+      "usage_note": "黒字のまま畳む話の物的証拠",
+      "verse": "A2",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://www.proceo.jp/column/business-succession-procedures/"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K055",
+      "surface": "社訓の額縁",
+      "reading": "シャクンノガクブチ",
+      "mora_count": 8,
+      "vowel_skeleton": "a-u-N-o-a-u-u-i",
+      "consonant_skeleton": "shykNngkbch",
+      "consonant_skeleton_dotted": "shy.k.N.n.g.k.b.ch",
+      "kind": "vocabulary",
+      "domain": "object",
+      "plain_meaning": "壁に掛けられた社の教えの額",
+      "usage_note": "誰も読まないのに拭かれている物",
+      "verse": "A2",
+      "evidence": [
+        {
+          "kind": "dictionary",
+          "pointer": "general_knowledge: 日本語の日常生活語彙。特定の出典を要さない一般語"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K056",
+      "surface": "三人ぶんの湯呑み",
+      "reading": "サンニンブンノユノミ",
+      "mora_count": 10,
+      "vowel_skeleton": "a-N-i-N-u-N-o-u-o-i",
+      "consonant_skeleton": "sNnNbNnynm",
+      "consonant_skeleton_dotted": "s.N.n.N.b.N.n.y.n.m",
+      "kind": "episode",
+      "domain": "object",
+      "plain_meaning": "来客用に三つだけ出される湯呑み",
+      "usage_note": "原作由来の『三人ぶんしか用意しない』癖を大人の応接間へ移した画。四人目の伏線",
+      "verse": "A2",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://ja.wikipedia.org/wiki/%E9%AA%A8%E5%B7%9D%E3%82%B9%E3%83%8D%E5%A4%AB"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "K057",
+      "surface": "中古のクルーザー",
+      "reading": "チュウコノクルーザー",
+      "mora_count": 9,
+      "vowel_skeleton": "u-u-o-o-u-u-u-a-a",
+      "consonant_skeleton": "chy-knkr:z:",
+      "consonant_skeleton_dotted": "chy.-.k.n.k.r.:.z.:",
+      "kind": "episode",
+      "domain": "object",
+      "plain_meaning": "人から買った中古の小型船",
+      "usage_note": "自慢の中身が『中古』であることが最初から書かれている",
+      "verse": "A2",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://ja.wikipedia.org/wiki/%E9%AA%A8%E5%B7%9D%E3%82%B9%E3%83%8D%E5%A4%AB"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "K058",
+      "surface": "社用車",
+      "reading": "シャヨウシャ",
+      "mora_count": 4,
+      "vowel_skeleton": "a-o-u-a",
+      "consonant_skeleton": "shyy-shy",
+      "consonant_skeleton_dotted": "shy.y.-.shy",
+      "kind": "vocabulary",
+      "domain": "object",
+      "plain_meaning": "会社名義の車",
+      "usage_note": "名義は会社、運転するのは息子",
+      "verse": "A2",
+      "evidence": [
+        {
+          "kind": "dictionary",
+          "pointer": "general_knowledge: 日本語の日常生活語彙。特定の出典を要さない一般語"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K059",
+      "surface": "判を押す",
+      "reading": "ハンヲオス",
+      "mora_count": 5,
+      "vowel_skeleton": "a-N-o-o-u",
+      "consonant_skeleton": "hNw-s",
+      "consonant_skeleton_dotted": "h.N.w.-.s",
+      "kind": "vocabulary",
+      "domain": "action",
+      "plain_meaning": "判子を押して承認する",
+      "usage_note": "『押す』の一回性。ふろしきの『包む』と並べる",
+      "verse": "A2",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://www.hankoya.com/untiku/company-inkan-type.html"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K060",
+      "surface": "包む",
+      "reading": "ツツム",
+      "mora_count": 3,
+      "vowel_skeleton": "u-u-u",
+      "consonant_skeleton": "tstsm",
+      "consonant_skeleton_dotted": "ts.ts.m",
+      "kind": "vocabulary",
+      "domain": "action",
+      "plain_meaning": "布で全体をくるむ",
+      "usage_note": "タイムふろしきの動詞。金を包む・話を包むの多義も効く",
+      "verse": "A2",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://ja.wikipedia.org/wiki/%E3%82%BF%E3%82%A4%E3%83%A0%E3%81%B5%E3%82%8D%E3%81%97%E3%81%8D"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K061",
+      "surface": "裏返す",
+      "reading": "ウラガエス",
+      "mora_count": 5,
+      "vowel_skeleton": "u-a-a-e-u",
+      "consonant_skeleton": "-rg-s",
+      "consonant_skeleton_dotted": "-.r.g.-.s",
+      "kind": "vocabulary",
+      "domain": "action",
+      "plain_meaning": "布の表裏を入れ替える",
+      "usage_note": "表裏で時間の向きが逆になる。反転そのものが動詞になっている",
+      "verse": "A2",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://ja.wikipedia.org/wiki/%E3%82%BF%E3%82%A4%E3%83%A0%E3%81%B5%E3%82%8D%E3%81%97%E3%81%8D"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K062",
+      "surface": "畳む",
+      "reading": "タタム",
+      "mora_count": 3,
+      "vowel_skeleton": "a-a-u",
+      "consonant_skeleton": "ttm",
+      "consonant_skeleton_dotted": "t.t.m",
+      "kind": "vocabulary",
+      "domain": "action",
+      "plain_meaning": "布を折る／店や会社をやめる",
+      "usage_note": "布と会社に同じ動詞が使える。A2の最強の両義語",
+      "verse": "A2",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://ja.wikipedia.org/wiki/%E3%82%BF%E3%82%A4%E3%83%A0%E3%81%B5%E3%82%8D%E3%81%97%E3%81%8D"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K063",
+      "surface": "名義を書き換える",
+      "reading": "メイギヲカキカエル",
+      "mora_count": 9,
+      "vowel_skeleton": "e-i-i-o-a-i-a-e-u",
+      "consonant_skeleton": "m-gwkkk-r",
+      "consonant_skeleton_dotted": "m.-.g.w.k.k.k.-.r",
+      "kind": "vocabulary",
+      "domain": "action",
+      "plain_meaning": "持ち主の名前を変更する",
+      "usage_note": "株式譲渡と変更登記の実務",
+      "verse": "A2",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://corporate.ai-con.lawyer/articles/management/9"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K064",
+      "surface": "手形を落とす",
+      "reading": "テガタヲオトス",
+      "mora_count": 7,
+      "vowel_skeleton": "e-a-a-o-o-o-u",
+      "consonant_skeleton": "tgtw-ts",
+      "consonant_skeleton_dotted": "t.g.t.w.-.t.s",
+      "kind": "vocabulary",
+      "domain": "action",
+      "plain_meaning": "期日に手形の支払いを済ませる",
+      "usage_note": "『落とす』が支払うの意味になる業界語",
+      "verse": "A2",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://www.hankoya.com/untiku/company-inkan-type.html"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K065",
+      "surface": "頭を下げる",
+      "reading": "アタマヲサゲル",
+      "mora_count": 7,
+      "vowel_skeleton": "a-a-a-o-a-e-u",
+      "consonant_skeleton": "-tmwsgr",
+      "consonant_skeleton_dotted": "-.t.m.w.s.g.r",
+      "kind": "vocabulary",
+      "domain": "action",
+      "plain_meaning": "詫びる・頼む姿勢をとる",
+      "usage_note": "自慢が家業だった男の現在の主要業務",
+      "verse": "A2",
+      "evidence": [
+        {
+          "kind": "dictionary",
+          "pointer": "general_knowledge: 日本語の日常生活語彙。特定の出典を要さない一般語"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K066",
+      "surface": "塗り分ける",
+      "reading": "ヌリワケル",
+      "mora_count": 5,
+      "vowel_skeleton": "u-i-a-e-u",
+      "consonant_skeleton": "nrwkr",
+      "consonant_skeleton_dotted": "n.r.w.k.r",
+      "kind": "vocabulary",
+      "domain": "action",
+      "plain_meaning": "模型を色ごとに塗り分ける",
+      "usage_note": "原作のプラモ・ラジコンの偏執。今は決算書の数字を色分けしている",
+      "verse": "A2",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://ja.wikipedia.org/wiki/%E9%AA%A8%E5%B7%9D%E3%82%B9%E3%83%8D%E5%A4%AB"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K067",
+      "surface": "応接間",
+      "reading": "オウセツマ",
+      "mora_count": 5,
+      "vowel_skeleton": "o-u-e-u-a",
+      "consonant_skeleton": "--stsm",
+      "consonant_skeleton_dotted": "-.-.s.ts.m",
+      "kind": "vocabulary",
+      "domain": "place",
+      "plain_meaning": "来客を通す部屋",
+      "usage_note": "湯呑みが三つ出る部屋",
+      "verse": "A2",
+      "evidence": [
+        {
+          "kind": "dictionary",
+          "pointer": "general_knowledge: 日本語の日常生活語彙。特定の出典を要さない一般語"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K068",
+      "surface": "法務局",
+      "reading": "ホウムキョク",
+      "mora_count": 5,
+      "vowel_skeleton": "o-u-u-o-u",
+      "consonant_skeleton": "h-mkyk",
+      "consonant_skeleton_dotted": "h.-.m.ky.k",
+      "kind": "vocabulary",
+      "domain": "place",
+      "plain_meaning": "登記を扱う役所",
+      "usage_note": "時間を戻す布より、こちらのほうが時間を確定させる",
+      "verse": "A2",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://corporate.ai-con.lawyer/articles/management/9"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K069",
+      "surface": "貸し会議室",
+      "reading": "カシカイギシツ",
+      "mora_count": 7,
+      "vowel_skeleton": "a-i-a-i-i-i-u",
+      "consonant_skeleton": "kshk-gshts",
+      "consonant_skeleton_dotted": "k.sh.k.-.g.sh.ts",
+      "kind": "vocabulary",
+      "domain": "place",
+      "plain_meaning": "時間貸しの会議部屋",
+      "usage_note": "自社ビルを売った後に会議をする場所",
+      "verse": "A2",
+      "evidence": [
+        {
+          "kind": "dictionary",
+          "pointer": "general_knowledge: 日本語の日常生活語彙。特定の出典を要さない一般語"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K070",
+      "surface": "銀行の窓口",
+      "reading": "ギンコウノマドグチ",
+      "mora_count": 9,
+      "vowel_skeleton": "i-N-o-u-o-a-o-u-i",
+      "consonant_skeleton": "gNk-nmdgch",
+      "consonant_skeleton_dotted": "g.N.k.-.n.m.d.g.ch",
+      "kind": "vocabulary",
+      "domain": "place",
+      "plain_meaning": "融資や振込を扱うカウンター",
+      "usage_note": "五十日に長い列ができる場所",
+      "verse": "A2",
+      "evidence": [
+        {
+          "kind": "dictionary",
+          "pointer": "general_knowledge: 日本語の日常生活語彙。特定の出典を要さない一般語"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K071",
+      "surface": "倉庫",
+      "reading": "ソウコ",
+      "mora_count": 3,
+      "vowel_skeleton": "o-u-o",
+      "consonant_skeleton": "s-k",
+      "consonant_skeleton_dotted": "s.-.k",
+      "kind": "vocabulary",
+      "domain": "place",
+      "plain_meaning": "在庫を置く建物",
+      "usage_note": "新品に戻したところで置き場所が要る",
+      "verse": "A2",
+      "evidence": [
+        {
+          "kind": "dictionary",
+          "pointer": "general_knowledge: 日本語の日常生活語彙。特定の出典を要さない一般語"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K072",
+      "surface": "一メートル四方",
+      "reading": "イチメートルシホウ",
+      "mora_count": 9,
+      "vowel_skeleton": "i-i-e-e-o-u-i-o-u",
+      "consonant_skeleton": "-chm:trshh-",
+      "consonant_skeleton_dotted": "-.ch.m.:.t.r.sh.h.-",
+      "kind": "vocabulary",
+      "domain": "time_or_number",
+      "plain_meaning": "タイムふろしきの標準寸法",
+      "usage_note": "会社も商店街も入らないサイズ。数字が小さいことがオチになる",
+      "verse": "A2",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://ja.wikipedia.org/wiki/%E3%82%BF%E3%82%A4%E3%83%A0%E3%81%B5%E3%82%8D%E3%81%97%E3%81%8D"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K073",
+      "surface": "三人ぶん",
+      "reading": "サンニンブン",
+      "mora_count": 6,
+      "vowel_skeleton": "a-N-i-N-u-N",
+      "consonant_skeleton": "sNnNbN",
+      "consonant_skeleton_dotted": "s.N.n.N.b.N",
+      "kind": "episode",
+      "domain": "time_or_number",
+      "plain_meaning": "三つだけ用意する習慣",
+      "usage_note": "H07の前振り。四人目がいない現在と回収で対",
+      "verse": "A2",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://ja.wikipedia.org/wiki/%E9%AA%A8%E5%B7%9D%E3%82%B9%E3%83%8D%E5%A4%AB"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "K074",
+      "surface": "四人目",
+      "reading": "ヨニンメ",
+      "mora_count": 4,
+      "vowel_skeleton": "o-i-N-e",
+      "consonant_skeleton": "ynNm",
+      "consonant_skeleton_dotted": "y.n.N.m",
+      "kind": "episode",
+      "domain": "time_or_number",
+      "plain_meaning": "用意されなかった一人",
+      "usage_note": "継ぐ相手のいなさを人数で言う",
+      "verse": "A2",
+      "evidence": [
+        {
+          "kind": "dictionary",
+          "pointer": "general_knowledge: 日本語の日常生活語彙。特定の出典を要さない一般語"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "K075",
+      "surface": "二代目",
+      "reading": "ニダイメ",
+      "mora_count": 4,
+      "vowel_skeleton": "i-a-i-e",
+      "consonant_skeleton": "nd-m",
+      "consonant_skeleton_dotted": "n.d.-.m",
+      "kind": "vocabulary",
+      "domain": "time_or_number",
+      "plain_meaning": "二番目の代表者",
+      "usage_note": "名前ではなく順番で呼ばれる立場",
+      "verse": "A2",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://www.proceo.jp/column/business-succession-procedures/"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K076",
+      "surface": "五十日",
+      "reading": "ゴトオビ",
+      "mora_count": 4,
+      "vowel_skeleton": "o-o-o-i",
+      "consonant_skeleton": "gt-b",
+      "consonant_skeleton_dotted": "g.t.-.b",
+      "kind": "vocabulary",
+      "domain": "time_or_number",
+      "plain_meaning": "5と10の付く日。支払いが集中し道と銀行が混む日",
+      "usage_note": "知っている人にだけ刺さる生活暦。読みが特殊で耳が止まる",
+      "verse": "A2",
+      "evidence": [
+        {
+          "kind": "dictionary",
+          "pointer": "general_knowledge: 日本語の日常生活語彙。特定の出典を要さない一般語"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "K077",
+      "surface": "ドン",
+      "reading": "ドン",
+      "mora_count": 2,
+      "vowel_skeleton": "o-N",
+      "consonant_skeleton": "dN",
+      "consonant_skeleton_dotted": "d.N",
+      "kind": "vocabulary",
+      "domain": "sound",
+      "plain_meaning": "判子を強く押す音",
+      "usage_note": "一メートル四方の布より、この一音のほうが強い",
+      "verse": "A2",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://www.hankoya.com/untiku/company-inkan-type.html"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K078",
+      "surface": "シュレッダー",
+      "reading": "シュレッダー",
+      "mora_count": 5,
+      "vowel_skeleton": "u-e-Q-a-a",
+      "consonant_skeleton": "shyrQd:",
+      "consonant_skeleton_dotted": "shy.r.Q.d.:",
+      "kind": "vocabulary",
+      "domain": "sound",
+      "plain_meaning": "書類を細かく裁断する機械の音",
+      "usage_note": "時間を戻す布の反対側にある機械。戻せない方の音",
+      "verse": "A2",
+      "evidence": [
+        {
+          "kind": "dictionary",
+          "pointer": "general_knowledge: 日本語の日常生活語彙。特定の出典を要さない一般語"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K079",
+      "surface": "保留メロディ",
+      "reading": "ホリュウメロディ",
+      "mora_count": 6,
+      "vowel_skeleton": "o-u-u-e-o-i",
+      "consonant_skeleton": "hry-mrd",
+      "consonant_skeleton_dotted": "h.ry.-.m.r.d",
+      "kind": "vocabulary",
+      "domain": "sound",
+      "plain_meaning": "電話を保留にしたときに流れる短い曲",
+      "usage_note": "何十年も同じ曲が鳴っている事務所",
+      "verse": "A2",
+      "evidence": [
+        {
+          "kind": "dictionary",
+          "pointer": "general_knowledge: 日本語の日常生活語彙。特定の出典を要さない一般語"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K080",
+      "surface": "引き出しの鍵",
+      "reading": "ヒキダシノカギ",
+      "mora_count": 7,
+      "vowel_skeleton": "i-i-a-i-o-a-i",
+      "consonant_skeleton": "hkdshnkg",
+      "consonant_skeleton_dotted": "h.k.d.sh.n.k.g",
+      "kind": "vocabulary",
+      "domain": "sound",
+      "plain_meaning": "実印をしまう引き出しを開け閉めする金属音",
+      "usage_note": "タイムマシンの引き出しと同じ家具から出る音",
+      "verse": "A2",
+      "evidence": [
+        {
+          "kind": "dictionary",
+          "pointer": "general_knowledge: 日本語の日常生活語彙。特定の出典を要さない一般語"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K081",
+      "surface": "親指の朱",
+      "reading": "オヤユビノシュ",
+      "mora_count": 6,
+      "vowel_skeleton": "o-a-u-i-o-u",
+      "consonant_skeleton": "-yybnshy",
+      "consonant_skeleton_dotted": "-.y.y.b.n.shy",
+      "kind": "vocabulary",
+      "domain": "body",
+      "plain_meaning": "判子を押したあと指に残る朱肉の赤",
+      "usage_note": "洗っても一日残る色",
+      "verse": "A2",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://www.hankoya.com/untiku/company-inkan-type.html"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K082",
+      "surface": "揉み手",
+      "reading": "モミデ",
+      "mora_count": 3,
+      "vowel_skeleton": "o-i-e",
+      "consonant_skeleton": "mmd",
+      "consonant_skeleton_dotted": "m.m.d",
+      "kind": "vocabulary",
+      "domain": "body",
+      "plain_meaning": "へつらうときに両手をこすり合わせる仕草",
+      "usage_note": "自慢していた手が今やっていること",
+      "verse": "A2",
+      "evidence": [
+        {
+          "kind": "dictionary",
+          "pointer": "general_knowledge: 日本語の日常生活語彙。特定の出典を要さない一般語"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K083",
+      "surface": "猫背",
+      "reading": "ネコゼ",
+      "mora_count": 3,
+      "vowel_skeleton": "e-o-e",
+      "consonant_skeleton": "nkz",
+      "consonant_skeleton_dotted": "n.k.z",
+      "kind": "vocabulary",
+      "domain": "body",
+      "plain_meaning": "背中が丸まった姿勢",
+      "usage_note": "応接のソファに座り続けた形",
+      "verse": "A2",
+      "evidence": [
+        {
+          "kind": "dictionary",
+          "pointer": "general_knowledge: 日本語の日常生活語彙。特定の出典を要さない一般語"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K084",
+      "surface": "手の甲のシミ",
+      "reading": "テノコウノシミ",
+      "mora_count": 7,
+      "vowel_skeleton": "e-o-o-u-o-i-i",
+      "consonant_skeleton": "tnk-nshm",
+      "consonant_skeleton_dotted": "t.n.k.-.n.sh.m",
+      "kind": "vocabulary",
+      "domain": "body",
+      "plain_meaning": "加齢でできる色素斑",
+      "usage_note": "布は物を新品に戻せるが、これは戻さない（記憶は残る）",
+      "verse": "A2",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://ja.wikipedia.org/wiki/%E3%82%BF%E3%82%A4%E3%83%A0%E3%81%B5%E3%82%8D%E3%81%97%E3%81%8D"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K085",
+      "surface": "事業承継",
+      "reading": "ジギョウショウケイ",
+      "mora_count": 7,
+      "vowel_skeleton": "i-o-u-o-u-e-i",
+      "consonant_skeleton": "jgy-shy-k-",
+      "consonant_skeleton_dotted": "j.gy.-.shy.-.k.-",
+      "kind": "vocabulary",
+      "domain": "institution_or_money",
+      "plain_meaning": "会社を次の代へ引き渡すこと",
+      "usage_note": "制度名がそのままバースの題名になる",
+      "verse": "A2",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://corporate.ai-con.lawyer/articles/management/9"
+        },
+        {
+          "kind": "web",
+          "pointer": "https://www.proceo.jp/column/business-succession-procedures/"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K086",
+      "surface": "株式譲渡",
+      "reading": "カブシキジョウト",
+      "mora_count": 7,
+      "vowel_skeleton": "a-u-i-i-o-u-o",
+      "consonant_skeleton": "kbshkjy-t",
+      "consonant_skeleton_dotted": "k.b.sh.k.jy.-.t",
+      "kind": "vocabulary",
+      "domain": "institution_or_money",
+      "plain_meaning": "株を譲って支配権を移すこと",
+      "usage_note": "紙の受け渡しで人生が移る",
+      "verse": "A2",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://corporate.ai-con.lawyer/articles/management/9"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K087",
+      "surface": "変更登記",
+      "reading": "ヘンコウトウキ",
+      "mora_count": 7,
+      "vowel_skeleton": "e-N-o-u-o-u-i",
+      "consonant_skeleton": "hNk-t-k",
+      "consonant_skeleton_dotted": "h.N.k.-.t.-.k",
+      "kind": "vocabulary",
+      "domain": "institution_or_money",
+      "plain_meaning": "役員や商号の変更を登記所に届けること",
+      "usage_note": "現実で唯一時間を確定させる手続き",
+      "verse": "A2",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://corporate.ai-con.lawyer/articles/management/9"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K088",
+      "surface": "連帯保証",
+      "reading": "レンタイホショウ",
+      "mora_count": 7,
+      "vowel_skeleton": "e-N-a-i-o-o-u",
+      "consonant_skeleton": "rNt-hshy-",
+      "consonant_skeleton_dotted": "r.N.t.-.h.shy.-",
+      "kind": "vocabulary",
+      "domain": "institution_or_money",
+      "plain_meaning": "債務者と同じ責任を負う保証",
+      "usage_note": "継ぐとは、これに判を押すこと",
+      "verse": "A2",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://www.proceo.jp/column/business-succession-procedures/"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K089",
+      "surface": "個人保証",
+      "reading": "コジンホショウ",
+      "mora_count": 6,
+      "vowel_skeleton": "o-i-N-o-o-u",
+      "consonant_skeleton": "kjNhshy-",
+      "consonant_skeleton_dotted": "k.j.N.h.shy.-",
+      "kind": "vocabulary",
+      "domain": "institution_or_money",
+      "plain_meaning": "経営者個人が会社の借入を保証すること",
+      "usage_note": "2020年に承継時の経営者保証を不要とする信用保証制度が創設された",
+      "verse": "A2",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://www.proceo.jp/column/business-succession-procedures/"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K090",
+      "surface": "解散登記",
+      "reading": "カイサントウキ",
+      "mora_count": 7,
+      "vowel_skeleton": "a-i-a-N-o-u-i",
+      "consonant_skeleton": "k-sNt-k",
+      "consonant_skeleton_dotted": "k.-.s.N.t.-.k",
+      "kind": "vocabulary",
+      "domain": "institution_or_money",
+      "plain_meaning": "会社をたたむための登記",
+      "usage_note": "『畳む』の法律上の呼び名",
+      "verse": "A2",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://corporate.ai-con.lawyer/articles/management/9"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K091",
+      "surface": "与信",
+      "reading": "ヨシン",
+      "mora_count": 3,
+      "vowel_skeleton": "o-i-N",
+      "consonant_skeleton": "yshN",
+      "consonant_skeleton_dotted": "y.sh.N",
+      "kind": "vocabulary",
+      "domain": "institution_or_money",
+      "plain_meaning": "相手にどれだけ貸せるかの判断",
+      "usage_note": "見栄の中身を数字で測る唯一の目",
+      "verse": "A2",
+      "evidence": [
+        {
+          "kind": "dictionary",
+          "pointer": "general_knowledge: 日本語の日常生活語彙。特定の出典を要さない一般語"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K092",
+      "surface": "継ぐ気はあるのか",
+      "reading": "ツグキハアルノカ",
+      "mora_count": 8,
+      "vowel_skeleton": "u-u-i-a-a-u-o-a",
+      "consonant_skeleton": "tsgkh-rnk",
+      "consonant_skeleton_dotted": "ts.g.k.h.-.r.n.k",
+      "kind": "episode",
+      "domain": "relationship",
+      "plain_meaning": "親から子へ向けられる問い",
+      "usage_note": "一度も『やりたいか』とは聞かれない",
+      "verse": "A2",
+      "evidence": [
+        {
+          "kind": "dictionary",
+          "pointer": "general_knowledge: 日本語の日常生活語彙。特定の出典を要さない一般語"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "K093",
+      "surface": "息子さん",
+      "reading": "ムスコサン",
+      "mora_count": 5,
+      "vowel_skeleton": "u-u-o-a-N",
+      "consonant_skeleton": "msksN",
+      "consonant_skeleton_dotted": "m.s.k.s.N",
+      "kind": "episode",
+      "domain": "relationship",
+      "plain_meaning": "取引先が二代目を呼ぶときの呼び方",
+      "usage_note": "四十を過ぎても名前で呼ばれない",
+      "verse": "A2",
+      "evidence": [
+        {
+          "kind": "dictionary",
+          "pointer": "general_knowledge: 日本語の日常生活語彙。特定の出典を要さない一般語"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "K094",
+      "surface": "番頭",
+      "reading": "バントウ",
+      "mora_count": 4,
+      "vowel_skeleton": "a-N-o-u",
+      "consonant_skeleton": "bNt-",
+      "consonant_skeleton_dotted": "b.N.t.-",
+      "kind": "vocabulary",
+      "domain": "relationship",
+      "plain_meaning": "古株の使用人・実務を仕切る人",
+      "usage_note": "社長より社歴が長い人間との力関係",
+      "verse": "A2",
+      "evidence": [
+        {
+          "kind": "dictionary",
+          "pointer": "general_knowledge: 日本語の日常生活語彙。特定の出典を要さない一般語"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K095",
+      "surface": "得意先",
+      "reading": "トクイサキ",
+      "mora_count": 5,
+      "vowel_skeleton": "o-u-i-a-i",
+      "consonant_skeleton": "tk-sk",
+      "consonant_skeleton_dotted": "t.k.-.s.k",
+      "kind": "vocabulary",
+      "domain": "relationship",
+      "plain_meaning": "長く取引のある相手",
+      "usage_note": "『得意』の字が入っているのに一番気を遣う相手",
+      "verse": "A2",
+      "evidence": [
+        {
+          "kind": "dictionary",
+          "pointer": "general_knowledge: 日本語の日常生活語彙。特定の出典を要さない一般語"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K096",
+      "surface": "名札",
+      "reading": "ナフダ",
+      "mora_count": 3,
+      "vowel_skeleton": "a-u-a",
+      "consonant_skeleton": "nfd",
+      "consonant_skeleton_dotted": "n.f.d",
+      "kind": "vocabulary",
+      "domain": "object",
+      "plain_meaning": "胸に付ける名前の札",
+      "usage_note": "付けているのに見られない。透明マントの逆側の物",
+      "verse": "B1",
+      "evidence": [
+        {
+          "kind": "dictionary",
+          "pointer": "general_knowledge: 日本語の日常生活語彙。特定の出典を要さない一般語"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K097",
+      "surface": "ゴム手袋",
+      "reading": "ゴムテブクロ",
+      "mora_count": 6,
+      "vowel_skeleton": "o-u-e-u-u-o",
+      "consonant_skeleton": "gmtbkr",
+      "consonant_skeleton_dotted": "g.m.t.b.k.r",
+      "kind": "vocabulary",
+      "domain": "object",
+      "plain_meaning": "手を守る使い捨ての手袋",
+      "usage_note": "一日に何十回はめて捨てる。素手で触れないことが仕事",
+      "verse": "B1",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://anamne.com/occupational-disease-careworker/"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K098",
+      "surface": "消毒液",
+      "reading": "ショウドクエキ",
+      "mora_count": 6,
+      "vowel_skeleton": "o-u-o-u-e-i",
+      "consonant_skeleton": "shy-dk-k",
+      "consonant_skeleton_dotted": "shy.-.d.k.-.k",
+      "kind": "vocabulary",
+      "domain": "object",
+      "plain_meaning": "手指やものを清潔にする薬液",
+      "usage_note": "消えているのは菌ではなく手の皮膚",
+      "verse": "B1",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://anamne.com/occupational-disease-careworker/"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K099",
+      "surface": "詰め替え用",
+      "reading": "ツメカエヨウ",
+      "mora_count": 6,
+      "vowel_skeleton": "u-e-a-e-o-u",
+      "consonant_skeleton": "tsmk-y-",
+      "consonant_skeleton_dotted": "ts.m.k.-.y.-",
+      "kind": "vocabulary",
+      "domain": "object",
+      "plain_meaning": "本体に中身だけ足すための袋入り商品",
+      "usage_note": "安いほうを選ぶ動作が一語で立つ。一日三回の風呂と対",
+      "verse": "B1",
+      "evidence": [
+        {
+          "kind": "dictionary",
+          "pointer": "general_knowledge: 日本語の日常生活語彙。特定の出典を要さない一般語"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K100",
+      "surface": "とろみ剤",
+      "reading": "トロミザイ",
+      "mora_count": 5,
+      "vowel_skeleton": "o-o-i-a-i",
+      "consonant_skeleton": "trmz-",
+      "consonant_skeleton_dotted": "t.r.m.z.-",
+      "kind": "vocabulary",
+      "domain": "object",
+      "plain_meaning": "飲み込みやすくするため飲み物に混ぜる粉",
+      "usage_note": "名前が可愛いのに命に直結する物",
+      "verse": "B1",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://kaigoshoku.mynavi.jp/contents/kaigonomirailab/works/upskilling/5457/"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K101",
+      "surface": "介護記録",
+      "reading": "カイゴキロク",
+      "mora_count": 6,
+      "vowel_skeleton": "a-i-o-i-o-u",
+      "consonant_skeleton": "k-gkrk",
+      "consonant_skeleton_dotted": "k.-.g.k.r.k",
+      "kind": "vocabulary",
+      "domain": "object",
+      "plain_meaning": "利用者の状態変化を書き残す記録",
+      "usage_note": "書かれていないことは、起きなかったことにされる",
+      "verse": "B1",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://kaigoshoku.mynavi.jp/contents/kaigonomirailab/glossary/work/148/"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K102",
+      "surface": "ナースコール",
+      "reading": "ナースコール",
+      "mora_count": 6,
+      "vowel_skeleton": "a-a-u-o-o-u",
+      "consonant_skeleton": "n:sk:r",
+      "consonant_skeleton_dotted": "n.:.s.k.:.r",
+      "kind": "vocabulary",
+      "domain": "object",
+      "plain_meaning": "呼び出しのボタンと受信機",
+      "usage_note": "名前を呼ばれず、音だけが人を呼ぶ",
+      "verse": "B1",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://www.kaigokensaku.mhlw.go.jp/commentary/glossary.html"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K103",
+      "surface": "蒸しタオル",
+      "reading": "ムシタオル",
+      "mora_count": 5,
+      "vowel_skeleton": "u-i-a-o-u",
+      "consonant_skeleton": "msht-r",
+      "consonant_skeleton_dotted": "m.sh.t.-.r",
+      "kind": "vocabulary",
+      "domain": "object",
+      "plain_meaning": "清拭に使う温かいタオル",
+      "usage_note": "入浴できない人の風呂。一日三回入る女がこれで人を洗う",
+      "verse": "B1",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://kaigoshoku.mynavi.jp/contents/kaigonomirailab/works/upskilling/5457/"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K104",
+      "surface": "シフト表",
+      "reading": "シフトヒョウ",
+      "mora_count": 5,
+      "vowel_skeleton": "i-u-o-o-u",
+      "consonant_skeleton": "shfthy-",
+      "consonant_skeleton_dotted": "sh.f.t.hy.-",
+      "kind": "vocabulary",
+      "domain": "object",
+      "plain_meaning": "勤務の割り当てが並んだ表",
+      "usage_note": "記号と色で人生の一か月が決まる紙",
+      "verse": "B1",
+      "evidence": [
+        {
+          "kind": "dictionary",
+          "pointer": "general_knowledge: 日本語の日常生活語彙。特定の出典を要さない一般語"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K105",
+      "surface": "ハンドクリーム",
+      "reading": "ハンドクリーム",
+      "mora_count": 7,
+      "vowel_skeleton": "a-N-o-u-i-i-u",
+      "consonant_skeleton": "hNdkr:m",
+      "consonant_skeleton_dotted": "h.N.d.k.r.:.m",
+      "kind": "vocabulary",
+      "domain": "object",
+      "plain_meaning": "荒れた手に塗る保湿剤",
+      "usage_note": "塗った端から消毒で落ちる",
+      "verse": "B1",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://anamne.com/occupational-disease-careworker/"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K106",
+      "surface": "移乗",
+      "reading": "イジョウ",
+      "mora_count": 3,
+      "vowel_skeleton": "i-o-u",
+      "consonant_skeleton": "-jy-",
+      "consonant_skeleton_dotted": "-.jy.-",
+      "kind": "vocabulary",
+      "domain": "action",
+      "plain_meaning": "ベッドから車椅子などへ乗り移らせる介助",
+      "usage_note": "腰痛の最大の原因。人を持ち上げるのに道具がない",
+      "verse": "B1",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://kaigoshoku.mynavi.jp/contents/kaigonomirailab/works/upskilling/5457/"
+        },
+        {
+          "kind": "web",
+          "pointer": "https://www.mhlw.go.jp/file/06-Seisakujouhou-11200000-Roudoukijunkyoku/0000041110_3.pdf"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K107",
+      "surface": "清拭",
+      "reading": "セイシキ",
+      "mora_count": 4,
+      "vowel_skeleton": "e-i-i-i",
+      "consonant_skeleton": "s-shk",
+      "consonant_skeleton_dotted": "s.-.sh.k",
+      "kind": "vocabulary",
+      "domain": "action",
+      "plain_meaning": "蒸しタオルなどで体を拭いて清潔にすること",
+      "usage_note": "漢字二字で場面が立つ。読みが分かる人だけに刺さる",
+      "verse": "B1",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://kaigoshoku.mynavi.jp/contents/kaigonomirailab/works/upskilling/5457/"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K108",
+      "surface": "口腔ケア",
+      "reading": "コウクウケア",
+      "mora_count": 6,
+      "vowel_skeleton": "o-u-u-u-e-a",
+      "consonant_skeleton": "k-k-k-",
+      "consonant_skeleton_dotted": "k.-.k.-.k.-",
+      "kind": "vocabulary",
+      "domain": "action",
+      "plain_meaning": "口の中を清潔に保つ介助",
+      "usage_note": "一番近い距離でする仕事",
+      "verse": "B1",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://kaigoshoku.mynavi.jp/contents/kaigonomirailab/works/upskilling/5457/"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K109",
+      "surface": "おむつを替える",
+      "reading": "オムツヲカエル",
+      "mora_count": 7,
+      "vowel_skeleton": "o-u-u-o-a-e-u",
+      "consonant_skeleton": "-mtswk-r",
+      "consonant_skeleton_dotted": "-.m.ts.w.k.-.r",
+      "kind": "vocabulary",
+      "domain": "action",
+      "plain_meaning": "排泄物のあと始末をする",
+      "usage_note": "誰の目にも触れないところで一日に何度も起きる動作",
+      "verse": "B1",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://kaigoshoku.mynavi.jp/contents/kaigonomirailab/works/upskilling/5457/"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K110",
+      "surface": "記録をつける",
+      "reading": "キロクヲツケル",
+      "mora_count": 7,
+      "vowel_skeleton": "i-o-u-o-u-e-u",
+      "consonant_skeleton": "krkwtskr",
+      "consonant_skeleton_dotted": "k.r.k.w.ts.k.r",
+      "kind": "vocabulary",
+      "domain": "action",
+      "plain_meaning": "業務の終わりに書類を書く",
+      "usage_note": "働いた時間の後ろに、書く時間がぶら下がっている",
+      "verse": "B1",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://kaigoshoku.mynavi.jp/contents/kaigonomirailab/glossary/work/148/"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K111",
+      "surface": "爪を切る",
+      "reading": "ツメヲキル",
+      "mora_count": 5,
+      "vowel_skeleton": "u-e-o-i-u",
+      "consonant_skeleton": "tsmwkr",
+      "consonant_skeleton_dotted": "ts.m.w.k.r",
+      "kind": "vocabulary",
+      "domain": "action",
+      "plain_meaning": "利用者の爪を短く整える",
+      "usage_note": "小さすぎて誰も値段を付けない仕事の代表",
+      "verse": "B1",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://kaigoshoku.mynavi.jp/contents/kaigonomirailab/works/upskilling/5457/"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K112",
+      "surface": "抱え上げる",
+      "reading": "カカエアゲル",
+      "mora_count": 6,
+      "vowel_skeleton": "a-a-e-a-e-u",
+      "consonant_skeleton": "kk--gr",
+      "consonant_skeleton_dotted": "k.k.-.-.g.r",
+      "kind": "vocabulary",
+      "domain": "action",
+      "plain_meaning": "人の体重を持ち上げる",
+      "usage_note": "ビッグライトもタケコプターも要らない、腰だけでやる",
+      "verse": "B1",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://www.mhlw.go.jp/file/06-Seisakujouhou-11200000-Roudoukijunkyoku/0000041110_3.pdf"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K113",
+      "surface": "名前を呼ぶ",
+      "reading": "ナマエヲヨブ",
+      "mora_count": 6,
+      "vowel_skeleton": "a-a-e-o-o-u",
+      "consonant_skeleton": "nm-wyb",
+      "consonant_skeleton_dotted": "n.m.-.w.y.b",
+      "kind": "vocabulary",
+      "domain": "action",
+      "plain_meaning": "相手の名で呼びかける",
+      "usage_note": "透明マントは音を消せない。この仕事の核",
+      "verse": "B1",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://dic.nicovideo.jp/a/%E9%80%8F%E6%98%8E%E3%83%9E%E3%83%B3%E3%83%88"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K114",
+      "surface": "浴室",
+      "reading": "ヨクシツ",
+      "mora_count": 4,
+      "vowel_skeleton": "o-u-i-u",
+      "consonant_skeleton": "ykshts",
+      "consonant_skeleton_dotted": "y.k.sh.ts",
+      "kind": "vocabulary",
+      "domain": "place",
+      "plain_meaning": "風呂場",
+      "usage_note": "一日三回入っていた場所が、今は職場",
+      "verse": "B1",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://ja.wikipedia.org/wiki/%E6%BA%90%E9%9D%99%E9%A6%99"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K115",
+      "surface": "脱衣所",
+      "reading": "ダツイジョ",
+      "mora_count": 4,
+      "vowel_skeleton": "a-u-i-o",
+      "consonant_skeleton": "dts-jy",
+      "consonant_skeleton_dotted": "d.ts.-.jy",
+      "kind": "vocabulary",
+      "domain": "place",
+      "plain_meaning": "服を脱ぎ着する部屋",
+      "usage_note": "湿度と体温の残る場所",
+      "verse": "B1",
+      "evidence": [
+        {
+          "kind": "dictionary",
+          "pointer": "general_knowledge: 日本語の日常生活語彙。特定の出典を要さない一般語"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K116",
+      "surface": "汚物処理室",
+      "reading": "オブツショリシツ",
+      "mora_count": 7,
+      "vowel_skeleton": "o-u-u-o-i-i-u",
+      "consonant_skeleton": "-btsshyrshts",
+      "consonant_skeleton_dotted": "-.b.ts.shy.r.sh.ts",
+      "kind": "vocabulary",
+      "domain": "place",
+      "plain_meaning": "排泄物の後処理をする専用の部屋",
+      "usage_note": "建物の図面に必ずあるのに誰も口に出さない部屋名",
+      "verse": "B1",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://www.kaigokensaku.mhlw.go.jp/commentary/glossary.html"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K117",
+      "surface": "ステーション",
+      "reading": "ステーション",
+      "mora_count": 5,
+      "vowel_skeleton": "u-e-e-o-N",
+      "consonant_skeleton": "st:shyN",
+      "consonant_skeleton_dotted": "s.t.:.shy.N",
+      "kind": "vocabulary",
+      "domain": "place",
+      "plain_meaning": "職員が記録と申し送りをする詰所",
+      "usage_note": "駅ではないほうのステーション",
+      "verse": "B1",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://www.kaigokensaku.mhlw.go.jp/commentary/glossary.html"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K118",
+      "surface": "休憩室",
+      "reading": "キュウケイシツ",
+      "mora_count": 6,
+      "vowel_skeleton": "u-u-e-i-i-u",
+      "consonant_skeleton": "ky-k-shts",
+      "consonant_skeleton_dotted": "ky.-.k.-.sh.ts",
+      "kind": "vocabulary",
+      "domain": "place",
+      "plain_meaning": "短い休みを取る部屋",
+      "usage_note": "休憩が制度としてしか存在しない部屋",
+      "verse": "B1",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://anamne.com/occupational-disease-careworker/"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K119",
+      "surface": "訪問先の玄関",
+      "reading": "ホウモンサキノゲンカン",
+      "mora_count": 11,
+      "vowel_skeleton": "o-u-o-N-a-i-o-e-N-a-N",
+      "consonant_skeleton": "h-mNskngNkN",
+      "consonant_skeleton_dotted": "h.-.m.N.s.k.n.g.N.k.N",
+      "kind": "vocabulary",
+      "domain": "place",
+      "plain_meaning": "利用者の自宅の入り口",
+      "usage_note": "他人の家の風呂を洗いに入る扉",
+      "verse": "B1",
+      "evidence": [
+        {
+          "kind": "dictionary",
+          "pointer": "general_knowledge: 日本語の日常生活語彙。特定の出典を要さない一般語"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K120",
+      "surface": "一日三回",
+      "reading": "イチニチサンカイ",
+      "mora_count": 8,
+      "vowel_skeleton": "i-i-i-i-a-N-a-i",
+      "consonant_skeleton": "-chnchsNk-",
+      "consonant_skeleton_dotted": "-.ch.n.ch.s.N.k.-",
+      "kind": "episode",
+      "domain": "time_or_number",
+      "plain_meaning": "入浴の回数",
+      "usage_note": "原作由来の記号。清潔でいることが今は仕事になっている",
+      "verse": "B1",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://ja.wikipedia.org/wiki/%E6%BA%90%E9%9D%99%E9%A6%99"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "K121",
+      "surface": "八十五点",
+      "reading": "ハチジュウゴテン",
+      "mora_count": 7,
+      "vowel_skeleton": "a-i-u-u-o-e-N",
+      "consonant_skeleton": "hchjy-gtN",
+      "consonant_skeleton_dotted": "h.ch.jy.-.g.t.N",
+      "kind": "episode",
+      "domain": "time_or_number",
+      "plain_meaning": "テストの点数",
+      "usage_note": "85点で叱られた家の子が、今は満点でも褒められない仕事にいる",
+      "verse": "B1",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://ja.wikipedia.org/wiki/%E6%BA%90%E9%9D%99%E9%A6%99"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "K122",
+      "surface": "夜勤明け",
+      "reading": "ヤキンアケ",
+      "mora_count": 5,
+      "vowel_skeleton": "a-i-N-a-e",
+      "consonant_skeleton": "ykN-k",
+      "consonant_skeleton_dotted": "y.k.N.-.k",
+      "kind": "vocabulary",
+      "domain": "time_or_number",
+      "plain_meaning": "夜勤が終わった朝の状態",
+      "usage_note": "明けているのは夜だけ",
+      "verse": "B1",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://anamne.com/occupational-disease-careworker/"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K123",
+      "surface": "二時の巡回",
+      "reading": "ニジノジュンカイ",
+      "mora_count": 7,
+      "vowel_skeleton": "i-i-o-u-N-a-i",
+      "consonant_skeleton": "njnjyNk-",
+      "consonant_skeleton_dotted": "n.j.n.jy.N.k.-",
+      "kind": "vocabulary",
+      "domain": "time_or_number",
+      "plain_meaning": "深夜に部屋を見回る決まりの時刻",
+      "usage_note": "懐中電灯の光の輪だけが動く時間",
+      "verse": "B1",
+      "evidence": [
+        {
+          "kind": "dictionary",
+          "pointer": "general_knowledge: 日本語の日常生活語彙。特定の出典を要さない一般語"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "K124",
+      "surface": "二十分",
+      "reading": "ニジップン",
+      "mora_count": 5,
+      "vowel_skeleton": "i-i-Q-u-N",
+      "consonant_skeleton": "njQpN",
+      "consonant_skeleton_dotted": "n.j.Q.p.N",
+      "kind": "vocabulary",
+      "domain": "time_or_number",
+      "plain_meaning": "訪問介護のサービス提供時間の刻み",
+      "usage_note": "人の生活が分単位で切られている",
+      "verse": "B1",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://www.kaigokensaku.mhlw.go.jp/commentary/glossary.html"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "K125",
+      "surface": "呼び出し音",
+      "reading": "ヨビダシオン",
+      "mora_count": 6,
+      "vowel_skeleton": "o-i-a-i-o-N",
+      "consonant_skeleton": "ybdsh-N",
+      "consonant_skeleton_dotted": "y.b.d.sh.-.N",
+      "kind": "vocabulary",
+      "domain": "sound",
+      "plain_meaning": "ナースコールが鳴る音",
+      "usage_note": "一日で一番回数を聞く音",
+      "verse": "B1",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://www.kaigokensaku.mhlw.go.jp/commentary/glossary.html"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K126",
+      "surface": "脱水の音",
+      "reading": "ダッスイノオト",
+      "mora_count": 7,
+      "vowel_skeleton": "a-Q-u-i-o-o-o",
+      "consonant_skeleton": "dQs-n-t",
+      "consonant_skeleton_dotted": "d.Q.s.-.n.-.t",
+      "kind": "vocabulary",
+      "domain": "sound",
+      "plain_meaning": "洗濯機が高速で回るときの唸り",
+      "usage_note": "夜勤中ずっと鳴っている生活音",
+      "verse": "B1",
+      "evidence": [
+        {
+          "kind": "dictionary",
+          "pointer": "general_knowledge: 日本語の日常生活語彙。特定の出典を要さない一般語"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K127",
+      "surface": "ドライヤー",
+      "reading": "ドライヤー",
+      "mora_count": 5,
+      "vowel_skeleton": "o-a-i-a-a",
+      "consonant_skeleton": "dr-y:",
+      "consonant_skeleton_dotted": "d.r.-.y.:",
+      "kind": "vocabulary",
+      "domain": "sound",
+      "plain_meaning": "髪を乾かす機械の風の音",
+      "usage_note": "他人の髪を乾かす時間",
+      "verse": "B1",
+      "evidence": [
+        {
+          "kind": "dictionary",
+          "pointer": "general_knowledge: 日本語の日常生活語彙。特定の出典を要さない一般語"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K128",
+      "surface": "すみません",
+      "reading": "スミマセン",
+      "mora_count": 5,
+      "vowel_skeleton": "u-i-a-e-N",
+      "consonant_skeleton": "smmsN",
+      "consonant_skeleton_dotted": "s.m.m.s.N",
+      "kind": "episode",
+      "domain": "sound",
+      "plain_meaning": "呼ばれたときに真っ先に出る言葉",
+      "usage_note": "謝っていないのに謝る形の言葉が口癖になる",
+      "verse": "B1",
+      "evidence": [
+        {
+          "kind": "dictionary",
+          "pointer": "general_knowledge: 日本語の日常生活語彙。特定の出典を要さない一般語"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "K129",
+      "surface": "腰",
+      "reading": "コシ",
+      "mora_count": 2,
+      "vowel_skeleton": "o-i",
+      "consonant_skeleton": "ksh",
+      "consonant_skeleton_dotted": "k.sh",
+      "kind": "vocabulary",
+      "domain": "body",
+      "plain_meaning": "上体を支える部位",
+      "usage_note": "介護作業の腰痛予防が厚労省の指針になるほど職業病として確立している",
+      "verse": "B1",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://www.mhlw.go.jp/file/06-Seisakujouhou-11200000-Roudoukijunkyoku/0000041110_3.pdf"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K130",
+      "surface": "手荒れ",
+      "reading": "テアレ",
+      "mora_count": 3,
+      "vowel_skeleton": "e-a-e",
+      "consonant_skeleton": "t-r",
+      "consonant_skeleton_dotted": "t.-.r",
+      "kind": "vocabulary",
+      "domain": "body",
+      "plain_meaning": "洗浄と消毒で皮膚が傷むこと",
+      "usage_note": "見える傷なのに、誰も労災だと思っていない",
+      "verse": "B1",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://anamne.com/occupational-disease-careworker/"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K131",
+      "surface": "腱鞘炎",
+      "reading": "ケンショウエン",
+      "mora_count": 6,
+      "vowel_skeleton": "e-N-o-u-e-N",
+      "consonant_skeleton": "kNshy--N",
+      "consonant_skeleton_dotted": "k.N.shy.-.-.N",
+      "kind": "vocabulary",
+      "domain": "body",
+      "plain_meaning": "腱と腱鞘の炎症",
+      "usage_note": "大人一人の体重を支え続ける手首に起きる",
+      "verse": "B1",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://hashtag-job.com/kaigo/column/column-kaigo-cate/tendinitis-caregiving/"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K132",
+      "surface": "あかぎれ",
+      "reading": "アカギレ",
+      "mora_count": 4,
+      "vowel_skeleton": "a-a-i-e",
+      "consonant_skeleton": "-kgr",
+      "consonant_skeleton_dotted": "-.k.g.r",
+      "kind": "vocabulary",
+      "domain": "body",
+      "plain_meaning": "冬に皮膚が割れて痛むこと",
+      "usage_note": "湯と水と消毒液で割れる",
+      "verse": "B1",
+      "evidence": [
+        {
+          "kind": "dictionary",
+          "pointer": "general_knowledge: 日本語の日常生活語彙。特定の出典を要さない一般語"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K133",
+      "surface": "声",
+      "reading": "コエ",
+      "mora_count": 2,
+      "vowel_skeleton": "o-e",
+      "consonant_skeleton": "k-",
+      "consonant_skeleton_dotted": "k.-",
+      "kind": "vocabulary",
+      "domain": "body",
+      "plain_meaning": "のどから出る音",
+      "usage_note": "原作の透明マントには消音機能がなく、声で居場所がばれる。姿が消えても残る唯一のもの",
+      "verse": "B1",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://dic.nicovideo.jp/a/%E9%80%8F%E6%98%8E%E3%83%9E%E3%83%B3%E3%83%88"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K134",
+      "surface": "処遇改善加算",
+      "reading": "ショグウカイゼンカサン",
+      "mora_count": 10,
+      "vowel_skeleton": "o-u-u-a-i-e-N-a-a-N",
+      "consonant_skeleton": "shyg-k-zNksN",
+      "consonant_skeleton_dotted": "shy.g.-.k.-.z.N.k.s.N",
+      "kind": "vocabulary",
+      "domain": "institution_or_money",
+      "plain_meaning": "介護職員の賃金改善に充てるための報酬上の加算",
+      "usage_note": "賃上げに『加算』という名前が付いている国。四字＋三字で口に乗る",
+      "verse": "B1",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://www.kaigo-center.or.jp/jigyo/service/know_how/syogukaizen.html"
+        },
+        {
+          "kind": "web",
+          "pointer": "https://www.fukushi.metro.tokyo.lg.jp/kourei/hoken/shogu/r8_shogu"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K135",
+      "surface": "介護報酬",
+      "reading": "カイゴホウシュウ",
+      "mora_count": 7,
+      "vowel_skeleton": "a-i-o-o-u-u-u",
+      "consonant_skeleton": "k-gh-shy-",
+      "consonant_skeleton_dotted": "k.-.g.h.-.shy.-",
+      "kind": "vocabulary",
+      "domain": "institution_or_money",
+      "plain_meaning": "介護サービスに支払われる公定の対価",
+      "usage_note": "値段を決める人がその場にいない",
+      "verse": "B1",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://www.kaigo-center.or.jp/jigyo/service/know_how/syogukaizen.html"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K136",
+      "surface": "ケアプラン",
+      "reading": "ケアプラン",
+      "mora_count": 5,
+      "vowel_skeleton": "e-a-u-a-N",
+      "consonant_skeleton": "k-prN",
+      "consonant_skeleton_dotted": "k.-.p.r.N",
+      "kind": "vocabulary",
+      "domain": "institution_or_money",
+      "plain_meaning": "介護サービスの利用計画書",
+      "usage_note": "計画に書かれていない優しさは無料",
+      "verse": "B1",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://www.kaigokensaku.mhlw.go.jp/commentary/glossary.html"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K137",
+      "surface": "要介護度",
+      "reading": "ヨウカイゴド",
+      "mora_count": 6,
+      "vowel_skeleton": "o-u-a-i-o-o",
+      "consonant_skeleton": "y-k-gd",
+      "consonant_skeleton_dotted": "y.-.k.-.g.d",
+      "kind": "vocabulary",
+      "domain": "institution_or_money",
+      "plain_meaning": "必要な介護の量を示す区分",
+      "usage_note": "人が段階で呼ばれる",
+      "verse": "B1",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://www.kaigokensaku.mhlw.go.jp/commentary/glossary.html"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K138",
+      "surface": "身体介護",
+      "reading": "シンタイカイゴ",
+      "mora_count": 7,
+      "vowel_skeleton": "i-N-a-i-a-i-o",
+      "consonant_skeleton": "shNt-k-g",
+      "consonant_skeleton_dotted": "sh.N.t.-.k.-.g",
+      "kind": "vocabulary",
+      "domain": "institution_or_money",
+      "plain_meaning": "体に直接触れる介助の区分",
+      "usage_note": "触れる仕事と触れない仕事で単価が違う",
+      "verse": "B1",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://www.kaigokensaku.mhlw.go.jp/commentary/glossary.html"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K139",
+      "surface": "生活援助",
+      "reading": "セイカツエンジョ",
+      "mora_count": 7,
+      "vowel_skeleton": "e-i-a-u-e-N-o",
+      "consonant_skeleton": "s-kts-Njy",
+      "consonant_skeleton_dotted": "s.-.k.ts.-.N.jy",
+      "kind": "vocabulary",
+      "domain": "institution_or_money",
+      "plain_meaning": "掃除・調理などの家事援助の区分",
+      "usage_note": "家事は『援助』という名前で値段が付く",
+      "verse": "B1",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://www.kaigokensaku.mhlw.go.jp/commentary/glossary.html"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K140",
+      "surface": "常勤換算",
+      "reading": "ジョウキンカンサン",
+      "mora_count": 8,
+      "vowel_skeleton": "o-u-i-N-a-N-a-N",
+      "consonant_skeleton": "jy-kNkNsN",
+      "consonant_skeleton_dotted": "jy.-.k.N.k.N.s.N",
+      "kind": "vocabulary",
+      "domain": "institution_or_money",
+      "plain_meaning": "職員数を常勤の人数に置き換えて数える方法",
+      "usage_note": "人が小数点で数えられる制度語",
+      "verse": "B1",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://www.kaigo-center.or.jp/jigyo/service/know_how/syogukaizen.html"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K141",
+      "surface": "夜勤手当",
+      "reading": "ヤキンテアテ",
+      "mora_count": 6,
+      "vowel_skeleton": "a-i-N-e-a-e",
+      "consonant_skeleton": "ykNt-t",
+      "consonant_skeleton_dotted": "y.k.N.t.-.t",
+      "kind": "vocabulary",
+      "domain": "institution_or_money",
+      "plain_meaning": "夜間勤務に付く手当",
+      "usage_note": "眠らないことにだけ名前が付く",
+      "verse": "B1",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://www.kaigo-center.or.jp/jigyo/service/know_how/syogukaizen.html"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K142",
+      "surface": "代わりはいる",
+      "reading": "カワリハイル",
+      "mora_count": 6,
+      "vowel_skeleton": "a-a-i-a-i-u",
+      "consonant_skeleton": "kwrh-r",
+      "consonant_skeleton_dotted": "k.w.r.h.-.r",
+      "kind": "episode",
+      "domain": "relationship",
+      "plain_meaning": "職場から向けられる言葉",
+      "usage_note": "消えても回る、と言われる側",
+      "verse": "B1",
+      "evidence": [
+        {
+          "kind": "dictionary",
+          "pointer": "general_knowledge: 日本語の日常生活語彙。特定の出典を要さない一般語"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "K143",
+      "surface": "ありがとうって言われるでしょ",
+      "reading": "アリガトウッテイワレルデショ",
+      "mora_count": 13,
+      "vowel_skeleton": "a-i-a-o-u-Q-e-i-a-e-u-e-o",
+      "consonant_skeleton": "-rgt-Qt-wrrdshy",
+      "consonant_skeleton_dotted": "-.r.g.t.-.Q.t.-.w.r.r.d.shy",
+      "kind": "episode",
+      "domain": "relationship",
+      "plain_meaning": "賃金の話をしたときに返ってくる決まり文句",
+      "usage_note": "感謝が通貨として使われる瞬間",
+      "verse": "B1",
+      "evidence": [
+        {
+          "kind": "dictionary",
+          "pointer": "general_knowledge: 日本語の日常生活語彙。特定の出典を要さない一般語"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "K144",
+      "surface": "女の子だから",
+      "reading": "オンナノコダカラ",
+      "mora_count": 8,
+      "vowel_skeleton": "o-N-a-o-o-a-a-a",
+      "consonant_skeleton": "-Nnnkdkr",
+      "consonant_skeleton_dotted": "-.N.n.n.k.d.k.r",
+      "kind": "episode",
+      "domain": "relationship",
+      "plain_meaning": "子どもの頃から言われ続けた理由づけ",
+      "usage_note": "85点で叱った家から続いている一本の線",
+      "verse": "B1",
+      "evidence": [
+        {
+          "kind": "dictionary",
+          "pointer": "general_knowledge: 日本語の日常生活語彙。特定の出典を要さない一般語"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "K145",
+      "surface": "シャッター",
+      "reading": "シャッター",
+      "mora_count": 4,
+      "vowel_skeleton": "a-Q-a-a",
+      "consonant_skeleton": "shyQt:",
+      "consonant_skeleton_dotted": "shy.Q.t.:",
+      "kind": "vocabulary",
+      "domain": "object",
+      "plain_meaning": "店の入口を閉ざす金属の巻き戸",
+      "usage_note": "上げる／下ろすで開店と廃業が同じ動作になる",
+      "verse": "B2",
+      "evidence": [
+        {
+          "kind": "dictionary",
+          "pointer": "general_knowledge: 日本語の日常生活語彙。特定の出典を要さない一般語"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K146",
+      "surface": "卵のパック",
+      "reading": "タマゴノパック",
+      "mora_count": 7,
+      "vowel_skeleton": "a-a-o-o-a-Q-u",
+      "consonant_skeleton": "tmgnpQk",
+      "consonant_skeleton_dotted": "t.m.g.n.p.Q.k",
+      "kind": "vocabulary",
+      "domain": "object",
+      "plain_meaning": "卵を十個入れて売る容器",
+      "usage_note": "実家が卵と缶詰の店だという設定を一語で立てる",
+      "verse": "B2",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://ja.wikipedia.org/wiki/%E5%89%9B%E7%94%B0%E6%AD%A6"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K147",
+      "surface": "缶詰",
+      "reading": "カンヅメ",
+      "mora_count": 4,
+      "vowel_skeleton": "a-N-u-e",
+      "consonant_skeleton": "kNzm",
+      "consonant_skeleton_dotted": "k.N.z.m",
+      "kind": "vocabulary",
+      "domain": "object",
+      "plain_meaning": "密封された保存食",
+      "usage_note": "賞味期限が長いだけで売れるわけではない物。『缶詰になる』の両義も効く",
+      "verse": "B2",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://ja.wikipedia.org/wiki/%E5%89%9B%E7%94%B0%E6%AD%A6"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K148",
+      "surface": "値札",
+      "reading": "ネフダ",
+      "mora_count": 3,
+      "vowel_skeleton": "e-u-a",
+      "consonant_skeleton": "nfd",
+      "consonant_skeleton_dotted": "n.f.d",
+      "kind": "vocabulary",
+      "domain": "object",
+      "plain_meaning": "商品に付ける価格の表示",
+      "usage_note": "貼り替える動作が生活の速度を見せる",
+      "verse": "B2",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://retailguide.tokubai.co.jp/knowledge/31994/"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K149",
+      "surface": "平台",
+      "reading": "ヒラダイ",
+      "mora_count": 4,
+      "vowel_skeleton": "i-a-a-i",
+      "consonant_skeleton": "hrd-",
+      "consonant_skeleton_dotted": "h.r.d.-",
+      "kind": "vocabulary",
+      "domain": "object",
+      "plain_meaning": "商品を平置きで見せる台状の什器",
+      "usage_note": "業界語。ステージの語と対にできる（人が立つ台／物を置く台）",
+      "verse": "B2",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://shimojima.jp/shop/pages/featurepage_juuki.aspx"
+        },
+        {
+          "kind": "web",
+          "pointer": "https://retailguide.tokubai.co.jp/knowledge/31994/"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K150",
+      "surface": "冷蔵ケース",
+      "reading": "レイゾウケース",
+      "mora_count": 7,
+      "vowel_skeleton": "e-i-o-u-e-e-u",
+      "consonant_skeleton": "r-z-k:s",
+      "consonant_skeleton_dotted": "r.-.z.-.k.:.s",
+      "kind": "vocabulary",
+      "domain": "object",
+      "plain_meaning": "冷やして陳列する什器",
+      "usage_note": "一晩中鳴っている、店で一番働いている物",
+      "verse": "B2",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://shimojima.jp/shop/pages/featurepage_juuki.aspx"
+        },
+        {
+          "kind": "web",
+          "pointer": "https://retailguide.tokubai.co.jp/knowledge/31994/"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K151",
+      "surface": "のぼり",
+      "reading": "ノボリ",
+      "mora_count": 3,
+      "vowel_skeleton": "o-o-i",
+      "consonant_skeleton": "nbr",
+      "consonant_skeleton_dotted": "n.b.r",
+      "kind": "vocabulary",
+      "domain": "object",
+      "plain_meaning": "店先に立てる細長い旗",
+      "usage_note": "風がないと何も言わない広告",
+      "verse": "B2",
+      "evidence": [
+        {
+          "kind": "dictionary",
+          "pointer": "general_knowledge: 日本語の日常生活語彙。特定の出典を要さない一般語"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K152",
+      "surface": "レジ横の肉まん",
+      "reading": "レジヨコノニクマン",
+      "mora_count": 9,
+      "vowel_skeleton": "e-i-o-o-o-i-u-a-N",
+      "consonant_skeleton": "rjyknnkmN",
+      "consonant_skeleton_dotted": "r.j.y.k.n.n.k.m.N",
+      "kind": "vocabulary",
+      "domain": "object",
+      "plain_meaning": "会計台の脇の温蔵ケースで売られる肉まん",
+      "usage_note": "冬の店先の匂いと湯気を一語で立てる",
+      "verse": "B2",
+      "evidence": [
+        {
+          "kind": "dictionary",
+          "pointer": "general_knowledge: 日本語の日常生活語彙。特定の出典を要さない一般語"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K153",
+      "surface": "ガムテープ",
+      "reading": "ガムテープ",
+      "mora_count": 5,
+      "vowel_skeleton": "a-u-e-e-u",
+      "consonant_skeleton": "gmt:p",
+      "consonant_skeleton_dotted": "g.m.t.:.p",
+      "kind": "vocabulary",
+      "domain": "object",
+      "plain_meaning": "段ボールを閉じる粘着テープ",
+      "usage_note": "搬入と閉店の両方で使われる",
+      "verse": "B2",
+      "evidence": [
+        {
+          "kind": "dictionary",
+          "pointer": "general_knowledge: 日本語の日常生活語彙。特定の出典を要さない一般語"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K154",
+      "surface": "収入証紙",
+      "reading": "シュウニュウショウシ",
+      "mora_count": 7,
+      "vowel_skeleton": "u-u-u-u-o-u-i",
+      "consonant_skeleton": "shy-ny-shy-sh",
+      "consonant_skeleton_dotted": "shy.-.ny.-.shy.-.sh",
+      "kind": "vocabulary",
+      "domain": "object",
+      "plain_meaning": "許可申請の手数料を納めるために貼る証票",
+      "usage_note": "道路使用許可の手数料は原則この紙で納める。タダで歌うのに貼る紙",
+      "verse": "B2",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://www.police.pref.hokkaido.lg.jp/guide/douro-shiyou/douro_shiyou.html"
+        },
+        {
+          "kind": "web",
+          "pointer": "https://www.bee-music.jp/vocal/column/improve/street-live-permission/"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K155",
+      "surface": "返し",
+      "reading": "カエシ",
+      "mora_count": 3,
+      "vowel_skeleton": "a-e-i",
+      "consonant_skeleton": "k-sh",
+      "consonant_skeleton_dotted": "k.-.sh",
+      "kind": "vocabulary",
+      "domain": "object",
+      "plain_meaning": "演者に向けたモニタースピーカー",
+      "usage_note": "現場の呼び名。自分の声が返ってくる箱",
+      "verse": "B2",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://l-tike.com/guide/teach_ticket_step06.html"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "K156",
+      "surface": "シールド",
+      "reading": "シールド",
+      "mora_count": 4,
+      "vowel_skeleton": "i-i-u-o",
+      "consonant_skeleton": "sh:rd",
+      "consonant_skeleton_dotted": "sh.:.r.d",
+      "kind": "vocabulary",
+      "domain": "object",
+      "plain_meaning": "楽器とアンプをつなぐケーブル",
+      "usage_note": "盾ではないほうのシールド",
+      "verse": "B2",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://l-tike.com/guide/teach_ticket_step06.html"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "K157",
+      "surface": "シャッターを上げる",
+      "reading": "シャッターヲアゲル",
+      "mora_count": 8,
+      "vowel_skeleton": "a-Q-a-a-o-a-e-u",
+      "consonant_skeleton": "shyQt:w-gr",
+      "consonant_skeleton_dotted": "shy.Q.t.:.w.-.g.r",
+      "kind": "vocabulary",
+      "domain": "action",
+      "plain_meaning": "店を開ける",
+      "usage_note": "一日の最初の動作であり、一番大きい音",
+      "verse": "B2",
+      "evidence": [
+        {
+          "kind": "dictionary",
+          "pointer": "general_knowledge: 日本語の日常生活語彙。特定の出典を要さない一般語"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K158",
+      "surface": "値札を貼り替える",
+      "reading": "ネフダヲハリカエル",
+      "mora_count": 9,
+      "vowel_skeleton": "e-u-a-o-a-i-a-e-u",
+      "consonant_skeleton": "nfdwhrk-r",
+      "consonant_skeleton_dotted": "n.f.d.w.h.r.k.-.r",
+      "kind": "vocabulary",
+      "domain": "action",
+      "plain_meaning": "価格の表示を新しくする",
+      "usage_note": "値段は物ではなく紙のほうを替えると変わる",
+      "verse": "B2",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://retailguide.tokubai.co.jp/knowledge/31994/"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K159",
+      "surface": "検品する",
+      "reading": "ケンピンスル",
+      "mora_count": 6,
+      "vowel_skeleton": "e-N-i-N-u-u",
+      "consonant_skeleton": "kNpNsr",
+      "consonant_skeleton_dotted": "k.N.p.N.s.r",
+      "kind": "vocabulary",
+      "domain": "action",
+      "plain_meaning": "納品された品を数と状態で確かめる",
+      "usage_note": "毎朝、他人が決めた数を数える仕事",
+      "verse": "B2",
+      "evidence": [
+        {
+          "kind": "dictionary",
+          "pointer": "general_knowledge: 日本語の日常生活語彙。特定の出典を要さない一般語"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K160",
+      "surface": "段ボールを潰す",
+      "reading": "ダンボールヲツブス",
+      "mora_count": 9,
+      "vowel_skeleton": "a-N-o-o-u-o-u-u-u",
+      "consonant_skeleton": "dNb:rwtsbs",
+      "consonant_skeleton_dotted": "d.N.b.:.r.w.ts.b.s",
+      "kind": "vocabulary",
+      "domain": "action",
+      "plain_meaning": "空き箱を踏んで平らにする",
+      "usage_note": "ビッグライトの逆をやっている画",
+      "verse": "B2",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://moshimodogu.com/item/big-light"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K161",
+      "surface": "搬入する",
+      "reading": "ハンニュウスル",
+      "mora_count": 6,
+      "vowel_skeleton": "a-N-u-u-u-u",
+      "consonant_skeleton": "hNny-sr",
+      "consonant_skeleton_dotted": "h.N.ny.-.s.r",
+      "kind": "vocabulary",
+      "domain": "action",
+      "plain_meaning": "機材や荷物を会場・店に入れる",
+      "usage_note": "ライブと商店で同じ動詞が使える",
+      "verse": "B2",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://l-tike.com/guide/teach_ticket_step06.html"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K162",
+      "surface": "音出し",
+      "reading": "オトダシ",
+      "mora_count": 4,
+      "vowel_skeleton": "o-o-a-i",
+      "consonant_skeleton": "-tdsh",
+      "consonant_skeleton_dotted": "-.t.d.sh",
+      "kind": "vocabulary",
+      "domain": "action",
+      "plain_meaning": "本番前に実際に音を鳴らして確認すること",
+      "usage_note": "現場語。空き地のリサイタルには存在しなかった工程",
+      "verse": "B2",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://l-tike.com/guide/teach_ticket_step06.html"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "K163",
+      "surface": "ハウる",
+      "reading": "ハウル",
+      "mora_count": 3,
+      "vowel_skeleton": "a-u-u",
+      "consonant_skeleton": "h-r",
+      "consonant_skeleton_dotted": "h.-.r",
+      "kind": "vocabulary",
+      "domain": "action",
+      "plain_meaning": "マイクとスピーカーが共鳴して甲高い音が出る",
+      "usage_note": "だみ声より先に会場を壊す音",
+      "verse": "B2",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://l-tike.com/guide/teach_ticket_step06.html"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "K164",
+      "surface": "声を張る",
+      "reading": "コエヲハル",
+      "mora_count": 5,
+      "vowel_skeleton": "o-e-o-a-u",
+      "consonant_skeleton": "k-whr",
+      "consonant_skeleton_dotted": "k.-.w.h.r",
+      "kind": "vocabulary",
+      "domain": "action",
+      "plain_meaning": "大きく通る声を出す",
+      "usage_note": "ビッグライトを当てなくても大きくできる唯一のもの",
+      "verse": "B2",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://moshimodogu.com/item/big-light"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K165",
+      "surface": "空き地",
+      "reading": "アキチ",
+      "mora_count": 3,
+      "vowel_skeleton": "a-i-i",
+      "consonant_skeleton": "-kch",
+      "consonant_skeleton_dotted": "-.k.ch",
+      "kind": "vocabulary",
+      "domain": "place",
+      "plain_meaning": "建物のない、囲われていない土地",
+      "usage_note": "原作の遊び場であり、リサイタルの会場。今は駐車場になっている",
+      "verse": "B2",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://allabout.co.jp/gm/gc/501645/"
+        },
+        {
+          "kind": "web",
+          "pointer": "https://maidonanews.jp/article/12871400"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K166",
+      "surface": "コインパーキング",
+      "reading": "コインパーキング",
+      "mora_count": 8,
+      "vowel_skeleton": "o-i-N-a-a-i-N-u",
+      "consonant_skeleton": "k-Np:kNg",
+      "consonant_skeleton_dotted": "k.-.N.p.:.k.N.g",
+      "kind": "vocabulary",
+      "domain": "place",
+      "plain_meaning": "時間貸しの駐車場",
+      "usage_note": "空き地の現在形。一分いくらで地面が売られている",
+      "verse": "B2",
+      "evidence": [
+        {
+          "kind": "dictionary",
+          "pointer": "general_knowledge: 日本語の日常生活語彙。特定の出典を要さない一般語"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K167",
+      "surface": "駅前ロータリー",
+      "reading": "エキマエロータリー",
+      "mora_count": 9,
+      "vowel_skeleton": "e-i-a-e-o-o-a-i-i",
+      "consonant_skeleton": "-km-r:tr:",
+      "consonant_skeleton_dotted": "-.k.m.-.r.:.t.r.:",
+      "kind": "vocabulary",
+      "domain": "place",
+      "plain_meaning": "駅前の車回し",
+      "usage_note": "路上ライブが最初に止められる場所",
+      "verse": "B2",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://www.bee-music.jp/vocal/column/improve/street-live-permission/"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K168",
+      "surface": "搬入口",
+      "reading": "ハンニュウグチ",
+      "mora_count": 6,
+      "vowel_skeleton": "a-N-u-u-u-i",
+      "consonant_skeleton": "hNny-gch",
+      "consonant_skeleton_dotted": "h.N.ny.-.g.ch",
+      "kind": "vocabulary",
+      "domain": "place",
+      "plain_meaning": "機材を入れる裏の出入口",
+      "usage_note": "客と同じ扉から入らない側の人生",
+      "verse": "B2",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://l-tike.com/guide/teach_ticket_step06.html"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K169",
+      "surface": "楽屋",
+      "reading": "ガクヤ",
+      "mora_count": 3,
+      "vowel_skeleton": "a-u-a",
+      "consonant_skeleton": "gky",
+      "consonant_skeleton_dotted": "g.k.y",
+      "kind": "vocabulary",
+      "domain": "place",
+      "plain_meaning": "出演者の控え室",
+      "usage_note": "空き地には無かった部屋",
+      "verse": "B2",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://l-tike.com/guide/teach_ticket_step06.html"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K170",
+      "surface": "アーケード",
+      "reading": "アーケード",
+      "mora_count": 5,
+      "vowel_skeleton": "a-a-e-e-o",
+      "consonant_skeleton": "-:k:d",
+      "consonant_skeleton_dotted": "-.:.k.:.d",
+      "kind": "vocabulary",
+      "domain": "place",
+      "plain_meaning": "商店街の屋根付き通路",
+      "usage_note": "雨は防ぐが人は呼べない",
+      "verse": "B2",
+      "evidence": [
+        {
+          "kind": "dictionary",
+          "pointer": "general_knowledge: 日本語の日常生活語彙。特定の出典を要さない一般語"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K171",
+      "surface": "交通課の窓口",
+      "reading": "コウツウカノマドグチ",
+      "mora_count": 10,
+      "vowel_skeleton": "o-u-u-u-a-o-a-o-u-i",
+      "consonant_skeleton": "k-ts-knmdgch",
+      "consonant_skeleton_dotted": "k.-.ts.-.k.n.m.d.g.ch",
+      "kind": "vocabulary",
+      "domain": "place",
+      "plain_meaning": "道路使用許可を申請する警察署の窓口",
+      "usage_note": "タダで歌う権利をもらいに行くカウンター",
+      "verse": "B2",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://www.npa.go.jp/bureau/traffic/seibi2/shinsei-todokede/dourosiyoukyoka/dourosiyoukyoka.html"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K172",
+      "surface": "二千四百円",
+      "reading": "ニセンヨンヒャクエン",
+      "mora_count": 9,
+      "vowel_skeleton": "i-e-N-o-N-a-u-e-N",
+      "consonant_skeleton": "nsNyNhyk-N",
+      "consonant_skeleton_dotted": "n.s.N.y.N.hy.k.-.N",
+      "kind": "vocabulary",
+      "domain": "time_or_number",
+      "plain_meaning": "道路使用許可申請の手数料の一例（静岡県、令和8年4月1日から）",
+      "usage_note": "額が小さいほど可笑しい。無料で歌うのに要る金額",
+      "verse": "B2",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://www.pref.shizuoka.jp/police/shinse/kotsu/doroshiyo.html"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K173",
+      "surface": "二千五百円",
+      "reading": "ニセンゴヒャクエン",
+      "mora_count": 8,
+      "vowel_skeleton": "i-e-N-o-a-u-e-N",
+      "consonant_skeleton": "nsNghyk-N",
+      "consonant_skeleton_dotted": "n.s.N.g.hy.k.-.N",
+      "kind": "vocabulary",
+      "domain": "time_or_number",
+      "plain_meaning": "道路使用許可申請の手数料の一例（北海道、収入証紙で納付）",
+      "usage_note": "都道府県で額が違うことも含めて可笑しい",
+      "verse": "B2",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://www.police.pref.hokkaido.lg.jp/guide/douro-shiyou/douro_shiyou.html"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K174",
+      "surface": "一週間前",
+      "reading": "イッシュウカンマエ",
+      "mora_count": 8,
+      "vowel_skeleton": "i-Q-u-u-a-N-a-e",
+      "consonant_skeleton": "-Qshy-kNm-",
+      "consonant_skeleton_dotted": "-.Q.shy.-.k.N.m.-",
+      "kind": "vocabulary",
+      "domain": "time_or_number",
+      "plain_meaning": "路上ライブの許可申請を出しておくべき目安",
+      "usage_note": "衝動で歌えなくなった距離",
+      "verse": "B2",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://www.bee-music.jp/vocal/column/improve/street-live-permission/"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K175",
+      "surface": "ノルマ二十枚",
+      "reading": "ノルマニジュウマイ",
+      "mora_count": 8,
+      "vowel_skeleton": "o-u-a-i-u-u-a-i",
+      "consonant_skeleton": "nrmnjy-m-",
+      "consonant_skeleton_dotted": "n.r.m.n.jy.-.m.-",
+      "kind": "vocabulary",
+      "domain": "time_or_number",
+      "plain_meaning": "出演者が売らされるチケットの枚数の目安",
+      "usage_note": "相場は1枚1500〜2500円を10〜20枚程度",
+      "verse": "B2",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://www.ticket.co.jp/entx/knowhow/ticket_quota/"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K176",
+      "surface": "ドリンク代",
+      "reading": "ドリンクダイ",
+      "mora_count": 6,
+      "vowel_skeleton": "o-i-N-u-a-i",
+      "consonant_skeleton": "drNkd-",
+      "consonant_skeleton_dotted": "d.r.N.k.d.-",
+      "kind": "vocabulary",
+      "domain": "time_or_number",
+      "plain_meaning": "入場時にチケットとは別に払う飲み物代",
+      "usage_note": "飲まない人からも取る、という構造が一語で立つ",
+      "verse": "B2",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://ja.wikipedia.org/wiki/%E3%83%A9%E3%82%A4%E3%83%96%E3%83%8F%E3%82%A6%E3%82%B9"
+        },
+        {
+          "kind": "web",
+          "pointer": "https://www.ticket.co.jp/entx/knowhow/ticket_quota/"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K177",
+      "surface": "十.二一パーセント",
+      "reading": "ジュッテンニイチパーセント",
+      "mora_count": 12,
+      "vowel_skeleton": "u-Q-e-N-i-i-i-a-a-e-N-o",
+      "consonant_skeleton": "jyQtNn-chp:sNt",
+      "consonant_skeleton_dotted": "jy.Q.t.N.n.-.ch.p.:.s.N.t",
+      "kind": "vocabulary",
+      "domain": "time_or_number",
+      "plain_meaning": "報酬から源泉徴収される所得税等の税率",
+      "usage_note": "10万円の報酬なら1万210円。端数の『二一』が耳に残る",
+      "verse": "B2",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/gensen/111209/01.htm"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K178",
+      "surface": "賞味期限",
+      "reading": "ショウミキゲン",
+      "mora_count": 6,
+      "vowel_skeleton": "o-u-i-i-e-N",
+      "consonant_skeleton": "shy-mkgN",
+      "consonant_skeleton_dotted": "shy.-.m.k.g.N",
+      "kind": "vocabulary",
+      "domain": "time_or_number",
+      "plain_meaning": "おいしく食べられる期限",
+      "usage_note": "缶詰の年数と、歌い手の年齢を並べられる",
+      "verse": "B2",
+      "evidence": [
+        {
+          "kind": "dictionary",
+          "pointer": "general_knowledge: 日本語の日常生活語彙。特定の出典を要さない一般語"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K179",
+      "surface": "ハウリング",
+      "reading": "ハウリング",
+      "mora_count": 5,
+      "vowel_skeleton": "a-u-i-N-u",
+      "consonant_skeleton": "h-rNg",
+      "consonant_skeleton_dotted": "h.-.r.N.g",
+      "kind": "vocabulary",
+      "domain": "sound",
+      "plain_meaning": "マイクとスピーカーの共鳴で出る高い音",
+      "usage_note": "だみ声の男の前座を務める音",
+      "verse": "B2",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://l-tike.com/guide/teach_ticket_step06.html"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K180",
+      "surface": "ガラガラ",
+      "reading": "ガラガラ",
+      "mora_count": 4,
+      "vowel_skeleton": "a-a-a-a",
+      "consonant_skeleton": "grgr",
+      "consonant_skeleton_dotted": "g.r.g.r",
+      "kind": "vocabulary",
+      "domain": "sound",
+      "plain_meaning": "シャッターを上げ下げする音",
+      "usage_note": "朝と夜で同じ音、意味が逆",
+      "verse": "B2",
+      "evidence": [
+        {
+          "kind": "dictionary",
+          "pointer": "general_knowledge: 日本語の日常生活語彙。特定の出典を要さない一般語"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K181",
+      "surface": "だみ声",
+      "reading": "ダミゴエ",
+      "mora_count": 4,
+      "vowel_skeleton": "a-i-o-e",
+      "consonant_skeleton": "dmg-",
+      "consonant_skeleton_dotted": "d.m.g.-",
+      "kind": "vocabulary",
+      "domain": "sound",
+      "plain_meaning": "濁ってざらついた声",
+      "usage_note": "名前を出さずに話者を特定させる最重要の記号",
+      "verse": "B2",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://ja.wikipedia.org/wiki/%E5%89%9B%E7%94%B0%E6%AD%A6"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K182",
+      "surface": "ワンツー",
+      "reading": "ワンツー",
+      "mora_count": 4,
+      "vowel_skeleton": "a-N-u-u",
+      "consonant_skeleton": "wNts:",
+      "consonant_skeleton_dotted": "w.N.ts.:",
+      "kind": "vocabulary",
+      "domain": "sound",
+      "plain_meaning": "マイクの調子を見るときの発声",
+      "usage_note": "空き地では誰もやらなかった儀式",
+      "verse": "B2",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://l-tike.com/guide/teach_ticket_step06.html"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "K183",
+      "surface": "喉",
+      "reading": "ノド",
+      "mora_count": 2,
+      "vowel_skeleton": "o-o",
+      "consonant_skeleton": "nd",
+      "consonant_skeleton_dotted": "n.d",
+      "kind": "vocabulary",
+      "domain": "body",
+      "plain_meaning": "声を出す器官",
+      "usage_note": "ビッグライトでは大きくできない部位",
+      "verse": "B2",
+      "evidence": [
+        {
+          "kind": "dictionary",
+          "pointer": "general_knowledge: 日本語の日常生活語彙。特定の出典を要さない一般語"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K184",
+      "surface": "潰れた声",
+      "reading": "ツブレタコエ",
+      "mora_count": 6,
+      "vowel_skeleton": "u-u-e-a-o-e",
+      "consonant_skeleton": "tsbrtk-",
+      "consonant_skeleton_dotted": "ts.b.r.t.k.-",
+      "kind": "vocabulary",
+      "domain": "body",
+      "plain_meaning": "使いすぎて掠れた声",
+      "usage_note": "だみ声の三十年後",
+      "verse": "B2",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://ja.wikipedia.org/wiki/%E5%89%9B%E7%94%B0%E6%AD%A6"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K185",
+      "surface": "肩",
+      "reading": "カタ",
+      "mora_count": 2,
+      "vowel_skeleton": "a-a",
+      "consonant_skeleton": "kt",
+      "consonant_skeleton_dotted": "k.t",
+      "kind": "vocabulary",
+      "domain": "body",
+      "plain_meaning": "荷を担ぐ部位",
+      "usage_note": "卵のケースとアンプを同じ肩で運ぶ",
+      "verse": "B2",
+      "evidence": [
+        {
+          "kind": "dictionary",
+          "pointer": "general_knowledge: 日本語の日常生活語彙。特定の出典を要さない一般語"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K186",
+      "surface": "腹から出す",
+      "reading": "ハラカラダス",
+      "mora_count": 6,
+      "vowel_skeleton": "a-a-a-a-a-u",
+      "consonant_skeleton": "hrkrds",
+      "consonant_skeleton_dotted": "h.r.k.r.d.s",
+      "kind": "vocabulary",
+      "domain": "body",
+      "plain_meaning": "腹式で声を出す",
+      "usage_note": "道具のいらない増幅装置",
+      "verse": "B2",
+      "evidence": [
+        {
+          "kind": "dictionary",
+          "pointer": "general_knowledge: 日本語の日常生活語彙。特定の出典を要さない一般語"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K187",
+      "surface": "道路使用許可",
+      "reading": "ドウロシヨウキョカ",
+      "mora_count": 8,
+      "vowel_skeleton": "o-u-o-i-o-u-o-a",
+      "consonant_skeleton": "d-rshy-kyk",
+      "consonant_skeleton_dotted": "d.-.r.sh.y.-.ky.k",
+      "kind": "vocabulary",
+      "domain": "institution_or_money",
+      "plain_meaning": "道路で工事や催しを行うために所轄警察署長から受ける許可",
+      "usage_note": "無料でやることに許可が要る、という一行がバースの核",
+      "verse": "B2",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://www.npa.go.jp/bureau/traffic/seibi2/shinsei-todokede/dourosiyoukyoka/dourosiyoukyoka.html"
+        },
+        {
+          "kind": "web",
+          "pointer": "https://www.bee-music.jp/vocal/column/improve/street-live-permission/"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K188",
+      "surface": "公園使用許可",
+      "reading": "コウエンシヨウキョカ",
+      "mora_count": 9,
+      "vowel_skeleton": "o-u-e-N-i-o-u-o-a",
+      "consonant_skeleton": "k--Nshy-kyk",
+      "consonant_skeleton_dotted": "k.-.-.N.sh.y.-.ky.k",
+      "kind": "vocabulary",
+      "domain": "institution_or_money",
+      "plain_meaning": "公園で催しを行うために管理者から受ける許可",
+      "usage_note": "空き地の代わりの公園にも窓口がある",
+      "verse": "B2",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://www.bee-music.jp/vocal/column/improve/street-live-permission/"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K189",
+      "surface": "チケットノルマ",
+      "reading": "チケットノルマ",
+      "mora_count": 7,
+      "vowel_skeleton": "i-e-Q-o-o-u-a",
+      "consonant_skeleton": "chkQtnrm",
+      "consonant_skeleton_dotted": "ch.k.Q.t.n.r.m",
+      "kind": "vocabulary",
+      "domain": "institution_or_money",
+      "plain_meaning": "出演者に課される販売枚数の義務",
+      "usage_note": "歌う権利を先に買わされる制度",
+      "verse": "B2",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://www.ticket.co.jp/entx/knowhow/ticket_quota/"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K190",
+      "surface": "印税",
+      "reading": "インゼイ",
+      "mora_count": 4,
+      "vowel_skeleton": "i-N-e-i",
+      "consonant_skeleton": "-Nz-",
+      "consonant_skeleton_dotted": "-.N.z.-",
+      "kind": "vocabulary",
+      "domain": "institution_or_money",
+      "plain_meaning": "作品の利用に応じて権利者へ支払われる対価",
+      "usage_note": "率は上がったのに単価が小さい構造",
+      "verse": "B2",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://www.musicman.co.jp/business/681475"
+        },
+        {
+          "kind": "web",
+          "pointer": "https://note.com/magical_river/n/n727f8f6a52fa"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K191",
+      "surface": "原盤権",
+      "reading": "ゲンバンケン",
+      "mora_count": 6,
+      "vowel_skeleton": "e-N-a-N-e-N",
+      "consonant_skeleton": "gNbNkN",
+      "consonant_skeleton_dotted": "g.N.b.N.k.N",
+      "kind": "vocabulary",
+      "domain": "institution_or_money",
+      "plain_meaning": "レコーディングされた音源そのものに関する権利",
+      "usage_note": "誰の声かではなく、誰が金を出したかで決まる権利",
+      "verse": "B2",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://www.musicman.co.jp/business/681475"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K192",
+      "surface": "インボイス",
+      "reading": "インボイス",
+      "mora_count": 5,
+      "vowel_skeleton": "i-N-o-i-u",
+      "consonant_skeleton": "-Nb-s",
+      "consonant_skeleton_dotted": "-.N.b.-.s",
+      "kind": "vocabulary",
+      "domain": "institution_or_money",
+      "plain_meaning": "適格請求書等保存方式",
+      "usage_note": "登録番号がないと取引から外される、という現場感",
+      "verse": "B2",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://www.nta.go.jp/taxes/shiraberu/zeimokubetsu/shohi/keigenzeiritsu/invoice_kojin_01.htm"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K193",
+      "surface": "支払調書",
+      "reading": "シハライチョウショ",
+      "mora_count": 7,
+      "vowel_skeleton": "i-a-a-i-o-u-o",
+      "consonant_skeleton": "shhr-chy-shy",
+      "consonant_skeleton_dotted": "sh.h.r.-.chy.-.shy",
+      "kind": "vocabulary",
+      "domain": "institution_or_money",
+      "plain_meaning": "支払った報酬と源泉税額を記載して税務署に出す書類",
+      "usage_note": "一年ぶんの声の値段が一枚の紙になる",
+      "verse": "B2",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/gensen/111209/01.htm"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K194",
+      "surface": "取り分",
+      "reading": "トリブン",
+      "mora_count": 4,
+      "vowel_skeleton": "o-i-u-N",
+      "consonant_skeleton": "trbN",
+      "consonant_skeleton_dotted": "t.r.b.N",
+      "kind": "vocabulary",
+      "domain": "institution_or_money",
+      "plain_meaning": "分配されるうちの自分の割合",
+      "usage_note": "箱は大きくなったのにこれだけ縮む",
+      "verse": "B2",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://note.com/magical_river/n/n727f8f6a52fa"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K195",
+      "surface": "母の怒鳴り声",
+      "reading": "ハハノドナリゴエ",
+      "mora_count": 8,
+      "vowel_skeleton": "a-a-o-o-a-i-o-e",
+      "consonant_skeleton": "hhndnrg-",
+      "consonant_skeleton_dotted": "h.h.n.d.n.r.g.-",
+      "kind": "episode",
+      "domain": "relationship",
+      "plain_meaning": "家業の店から飛んでくる叱責",
+      "usage_note": "力の強い男が唯一頭を上げられない相手",
+      "verse": "B2",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://ja.wikipedia.org/wiki/%E5%89%9B%E7%94%B0%E6%AD%A6"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "K196",
+      "surface": "妹",
+      "reading": "イモウト",
+      "mora_count": 4,
+      "vowel_skeleton": "i-o-u-o",
+      "consonant_skeleton": "-m-t",
+      "consonant_skeleton_dotted": "-.m.-.t",
+      "kind": "vocabulary",
+      "domain": "relationship",
+      "plain_meaning": "漫画家志望の年下のきょうだい",
+      "usage_note": "身内にだけ甘い側面を一語で立てる",
+      "verse": "B2",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://ja.wikipedia.org/wiki/%E5%89%9B%E7%94%B0%E6%AD%A6"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K197",
+      "surface": "恩師",
+      "reading": "オンシ",
+      "mora_count": 3,
+      "vowel_skeleton": "o-N-i",
+      "consonant_skeleton": "-Nsh",
+      "consonant_skeleton_dotted": "-.N.sh",
+      "kind": "vocabulary",
+      "domain": "relationship",
+      "plain_meaning": "世話になった先生",
+      "usage_note": "アリーナではなく、この人の前で歌うのが目的地",
+      "verse": "B2",
+      "evidence": [
+        {
+          "kind": "dictionary",
+          "pointer": "general_knowledge: 日本語の日常生活語彙。特定の出典を要さない一般語"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K198",
+      "surface": "常連",
+      "reading": "ジョウレン",
+      "mora_count": 4,
+      "vowel_skeleton": "o-u-e-N",
+      "consonant_skeleton": "jy-rN",
+      "consonant_skeleton_dotted": "jy.-.r.N",
+      "kind": "vocabulary",
+      "domain": "relationship",
+      "plain_meaning": "店に通い続ける客",
+      "usage_note": "動員ではなく顔で数えられる客",
+      "verse": "B2",
+      "evidence": [
+        {
+          "kind": "dictionary",
+          "pointer": "general_knowledge: 日本語の日常生活語彙。特定の出典を要さない一般語"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K199",
+      "surface": "土管",
+      "reading": "ドカン",
+      "mora_count": 3,
+      "vowel_skeleton": "o-a-N",
+      "consonant_skeleton": "dkN",
+      "consonant_skeleton_dotted": "d.k.N",
+      "kind": "vocabulary",
+      "domain": "object",
+      "plain_meaning": "空き地に積まれていたコンクリートの管",
+      "usage_note": "下水道工事の資材置き場が遊び場だった時代の記号",
+      "verse": "shared_childhood",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://maidonanews.jp/article/12871400"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "K200",
+      "surface": "ランドセル",
+      "reading": "ランドセル",
+      "mora_count": 5,
+      "vowel_skeleton": "a-N-o-e-u",
+      "consonant_skeleton": "rNdsr",
+      "consonant_skeleton_dotted": "r.N.d.s.r",
+      "kind": "vocabulary",
+      "domain": "object",
+      "plain_meaning": "小学生が背負う通学鞄",
+      "usage_note": "六年間で一度も軽くならなかった物",
+      "verse": "shared_childhood",
+      "evidence": [
+        {
+          "kind": "dictionary",
+          "pointer": "general_knowledge: 日本語の日常生活語彙。特定の出典を要さない一般語"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K201",
+      "surface": "上履き",
+      "reading": "ウワバキ",
+      "mora_count": 4,
+      "vowel_skeleton": "u-a-a-i",
+      "consonant_skeleton": "-wbk",
+      "consonant_skeleton_dotted": "-.w.b.k",
+      "kind": "vocabulary",
+      "domain": "object",
+      "plain_meaning": "校舎内で履く布靴",
+      "usage_note": "かかとを踏んでいたかどうかで人格が分かれた",
+      "verse": "shared_childhood",
+      "evidence": [
+        {
+          "kind": "dictionary",
+          "pointer": "general_knowledge: 日本語の日常生活語彙。特定の出典を要さない一般語"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K202",
+      "surface": "赤白帽",
+      "reading": "アカシロボウ",
+      "mora_count": 6,
+      "vowel_skeleton": "a-a-i-o-o-u",
+      "consonant_skeleton": "-kshrb-",
+      "consonant_skeleton_dotted": "-.k.sh.r.b.-",
+      "kind": "vocabulary",
+      "domain": "object",
+      "plain_meaning": "裏返して赤と白を使い分ける体育用の帽子",
+      "usage_note": "裏返すと立場が変わる＝タイムふろしきと同じ構造の子ども版",
+      "verse": "shared_childhood",
+      "evidence": [
+        {
+          "kind": "dictionary",
+          "pointer": "general_knowledge: 日本語の日常生活語彙。特定の出典を要さない一般語"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K203",
+      "surface": "連絡帳",
+      "reading": "レンラクチョウ",
+      "mora_count": 6,
+      "vowel_skeleton": "e-N-a-u-o-u",
+      "consonant_skeleton": "rNrkchy-",
+      "consonant_skeleton_dotted": "r.N.r.k.chy.-",
+      "kind": "vocabulary",
+      "domain": "object",
+      "plain_meaning": "学校と家庭が書いてやり取りする帳面",
+      "usage_note": "大人になってからの『申し送り』の原型",
+      "verse": "shared_childhood",
+      "evidence": [
+        {
+          "kind": "dictionary",
+          "pointer": "general_knowledge: 日本語の日常生活語彙。特定の出典を要さない一般語"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K204",
+      "surface": "集金袋",
+      "reading": "シュウキンブクロ",
+      "mora_count": 7,
+      "vowel_skeleton": "u-u-i-N-u-u-o",
+      "consonant_skeleton": "shy-kNbkr",
+      "consonant_skeleton_dotted": "shy.-.k.N.b.k.r",
+      "kind": "vocabulary",
+      "domain": "object",
+      "plain_meaning": "給食費などを入れて持たせる封筒",
+      "usage_note": "子どもが最初に運ぶ現金",
+      "verse": "shared_childhood",
+      "evidence": [
+        {
+          "kind": "dictionary",
+          "pointer": "general_knowledge: 日本語の日常生活語彙。特定の出典を要さない一般語"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K205",
+      "surface": "卒業アルバム",
+      "reading": "ソツギョウアルバム",
+      "mora_count": 8,
+      "vowel_skeleton": "o-u-o-u-a-u-a-u",
+      "consonant_skeleton": "stsgy--rbm",
+      "consonant_skeleton_dotted": "s.ts.gy.-.-.r.b.m",
+      "kind": "vocabulary",
+      "domain": "object",
+      "plain_meaning": "卒業時に配られる写真集",
+      "usage_note": "全員が同じ顔で写っている最後の記録",
+      "verse": "shared_childhood",
+      "evidence": [
+        {
+          "kind": "dictionary",
+          "pointer": "general_knowledge: 日本語の日常生活語彙。特定の出典を要さない一般語"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K206",
+      "surface": "通信簿",
+      "reading": "ツウシンボ",
+      "mora_count": 5,
+      "vowel_skeleton": "u-u-i-N-o",
+      "consonant_skeleton": "ts-shNb",
+      "consonant_skeleton_dotted": "ts.-.sh.N.b",
+      "kind": "vocabulary",
+      "domain": "object",
+      "plain_meaning": "成績と所見が書かれた冊子",
+      "usage_note": "0点も85点もここに載った",
+      "verse": "shared_childhood",
+      "evidence": [
+        {
+          "kind": "dictionary",
+          "pointer": "general_knowledge: 日本語の日常生活語彙。特定の出典を要さない一般語"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K207",
+      "surface": "給食のソフト麺",
+      "reading": "キュウショクノソフトメン",
+      "mora_count": 10,
+      "vowel_skeleton": "u-u-o-u-o-o-u-o-e-N",
+      "consonant_skeleton": "ky-shyknsftmN",
+      "consonant_skeleton_dotted": "ky.-.shy.k.n.s.f.t.m.N",
+      "kind": "vocabulary",
+      "domain": "object",
+      "plain_meaning": "学校給食向けに開発されたソフトスパゲッティ式めん",
+      "usage_note": "1960年代の東京で採用が始まり、関東・中部・中国地方の一部で出た。地域で通じる人と通じない人が分かれるのも味方になる",
+      "verse": "shared_childhood",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://macaro-ni.jp/61350"
+        },
+        {
+          "kind": "web",
+          "pointer": "https://www.maff.go.jp/j/pr/aff/2006/food01.html"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K208",
+      "surface": "揚げパン",
+      "reading": "アゲパン",
+      "mora_count": 4,
+      "vowel_skeleton": "a-e-a-N",
+      "consonant_skeleton": "-gpN",
+      "consonant_skeleton_dotted": "-.g.p.N",
+      "kind": "vocabulary",
+      "domain": "object",
+      "plain_meaning": "給食の定番として出た揚げた菓子パン",
+      "usage_note": "昭和50年代の給食メニューの代表",
+      "verse": "shared_childhood",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://www.maff.go.jp/j/pr/aff/2006/food01.html"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K209",
+      "surface": "日直",
+      "reading": "ニッチョク",
+      "mora_count": 4,
+      "vowel_skeleton": "i-Q-o-u",
+      "consonant_skeleton": "nQchyk",
+      "consonant_skeleton_dotted": "n.Q.chy.k",
+      "kind": "vocabulary",
+      "domain": "action",
+      "plain_meaning": "その日の当番として号令や記録を担当すること",
+      "usage_note": "一日だけ全員より前に立つ役",
+      "verse": "shared_childhood",
+      "evidence": [
+        {
+          "kind": "dictionary",
+          "pointer": "general_knowledge: 日本語の日常生活語彙。特定の出典を要さない一般語"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K210",
+      "surface": "廊下に立たされる",
+      "reading": "ロウカニタタサレル",
+      "mora_count": 9,
+      "vowel_skeleton": "o-u-a-i-a-a-a-e-u",
+      "consonant_skeleton": "r-knttsrr",
+      "consonant_skeleton_dotted": "r.-.k.n.t.t.s.r.r",
+      "kind": "vocabulary",
+      "domain": "action",
+      "plain_meaning": "罰として教室の外に立たされること",
+      "usage_note": "見えているのに教室から消される＝透明マントの原型",
+      "verse": "shared_childhood",
+      "evidence": [
+        {
+          "kind": "dictionary",
+          "pointer": "general_knowledge: 日本語の日常生活語彙。特定の出典を要さない一般語"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K211",
+      "surface": "体育座り",
+      "reading": "タイイクズワリ",
+      "mora_count": 7,
+      "vowel_skeleton": "a-i-i-u-u-a-i",
+      "consonant_skeleton": "t--kzwr",
+      "consonant_skeleton_dotted": "t.-.-.k.z.w.r",
+      "kind": "vocabulary",
+      "domain": "action",
+      "plain_meaning": "膝を抱えて床に座る姿勢",
+      "usage_note": "全員が同じ形にされる時間",
+      "verse": "shared_childhood",
+      "evidence": [
+        {
+          "kind": "dictionary",
+          "pointer": "general_knowledge: 日本語の日常生活語彙。特定の出典を要さない一般語"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K212",
+      "surface": "雑巾がけ",
+      "reading": "ゾウキンガケ",
+      "mora_count": 6,
+      "vowel_skeleton": "o-u-i-N-a-e",
+      "consonant_skeleton": "z-kNgk",
+      "consonant_skeleton_dotted": "z.-.k.N.g.k",
+      "kind": "vocabulary",
+      "domain": "action",
+      "plain_meaning": "床を雑巾で拭きながら走る掃除",
+      "usage_note": "労働の最初の形",
+      "verse": "shared_childhood",
+      "evidence": [
+        {
+          "kind": "dictionary",
+          "pointer": "general_knowledge: 日本語の日常生活語彙。特定の出典を要さない一般語"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K213",
+      "surface": "家庭訪問",
+      "reading": "カテイホウモン",
+      "mora_count": 7,
+      "vowel_skeleton": "a-e-i-o-u-o-N",
+      "consonant_skeleton": "kt-h-mN",
+      "consonant_skeleton_dotted": "k.t.-.h.-.m.N",
+      "kind": "vocabulary",
+      "domain": "institution_or_money",
+      "plain_meaning": "教師が児童の自宅を訪ねる学校行事",
+      "usage_note": "玄関先で親が正座した十五分",
+      "verse": "shared_childhood",
+      "evidence": [
+        {
+          "kind": "dictionary",
+          "pointer": "general_knowledge: 日本語の日常生活語彙。特定の出典を要さない一般語"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K214",
+      "surface": "朝礼",
+      "reading": "チョウレイ",
+      "mora_count": 4,
+      "vowel_skeleton": "o-u-e-i",
+      "consonant_skeleton": "chy-r-",
+      "consonant_skeleton_dotted": "chy.-.r.-",
+      "kind": "vocabulary",
+      "domain": "institution_or_money",
+      "plain_meaning": "始業前に全校で並んで話を聞く行事",
+      "usage_note": "立ったまま倒れる子が必ずいた",
+      "verse": "shared_childhood",
+      "evidence": [
+        {
+          "kind": "dictionary",
+          "pointer": "general_knowledge: 日本語の日常生活語彙。特定の出典を要さない一般語"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K215",
+      "surface": "班",
+      "reading": "ハン",
+      "mora_count": 2,
+      "vowel_skeleton": "a-N",
+      "consonant_skeleton": "hN",
+      "consonant_skeleton_dotted": "h.N",
+      "kind": "vocabulary",
+      "domain": "relationship",
+      "plain_meaning": "四〜六人で組まされる小集団",
+      "usage_note": "誰と組むかを自分で選べなかった単位。A2の『三人ぶん』と直結",
+      "verse": "shared_childhood",
+      "evidence": [
+        {
+          "kind": "dictionary",
+          "pointer": "general_knowledge: 日本語の日常生活語彙。特定の出典を要さない一般語"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K216",
+      "surface": "ボール遊び禁止",
+      "reading": "ボールアソビキンシ",
+      "mora_count": 9,
+      "vowel_skeleton": "o-o-u-a-o-i-i-N-i",
+      "consonant_skeleton": "b:r-sbkNsh",
+      "consonant_skeleton_dotted": "b.:.r.-.s.b.k.N.sh",
+      "kind": "vocabulary",
+      "domain": "place",
+      "plain_meaning": "公園に掲示される禁止表示",
+      "usage_note": "自治体の6割が都市公園でボール遊びを禁止しているとの調査がある。空き地の消滅と対で使える",
+      "verse": "shared_childhood",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://allabout.co.jp/gm/gc/501645/"
+        },
+        {
+          "kind": "web",
+          "pointer": "https://maidonanews.jp/article/12871400"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K217",
+      "surface": "倍速視聴",
+      "reading": "バイソクシチョウ",
+      "mora_count": 7,
+      "vowel_skeleton": "a-i-o-u-i-o-u",
+      "consonant_skeleton": "b-skshchy-",
+      "consonant_skeleton_dotted": "b.-.s.k.sh.chy.-",
+      "kind": "vocabulary",
+      "domain": "action",
+      "plain_meaning": "動画を1.5倍・2倍速で見ること",
+      "usage_note": "『お前らが今ハマってるそれ』の筆頭。速く見ることが趣味になった時代",
+      "verse": "now_air",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://forbesjapan.com/articles/detail/56321"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "K218",
+      "surface": "切り抜き",
+      "reading": "キリヌキ",
+      "mora_count": 4,
+      "vowel_skeleton": "i-i-u-i",
+      "consonant_skeleton": "krnk",
+      "consonant_skeleton_dotted": "k.r.n.k",
+      "kind": "vocabulary",
+      "domain": "object",
+      "plain_meaning": "長い配信から短く抜き出した動画",
+      "usage_note": "元ネタに一円も入らない構造の一語",
+      "verse": "now_air",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%81%E3%83%A3%E3%83%83%E3%83%88"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "K219",
+      "surface": "投げ銭",
+      "reading": "ナゲセン",
+      "mora_count": 4,
+      "vowel_skeleton": "a-e-e-N",
+      "consonant_skeleton": "ngsN",
+      "consonant_skeleton_dotted": "n.g.s.N",
+      "kind": "vocabulary",
+      "domain": "institution_or_money",
+      "plain_meaning": "配信者に視聴者が直接金を渡す仕組み",
+      "usage_note": "空き地のリサイタルには帽子すら置いていなかった",
+      "verse": "now_air",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://www.koukoku.jp/service/suketto/marketer/sns/%E3%80%902026%E5%B9%B4%E6%9C%80%E6%96%B0%E3%80%91youtube%E3%81%AE%E6%8A%95%E3%81%92%E9%8A%AD%E3%81%A8%E3%81%AF%EF%BC%9F%E5%8F%8E%E7%9B%8A%E5%8C%96%E3%81%AE%E4%BB%95%E7%B5%84%E3%81%BF%E3%82%84%E8%A8%AD/"
+        },
+        {
+          "kind": "web",
+          "pointer": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%81%E3%83%A3%E3%83%83%E3%83%88"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K220",
+      "surface": "スパチャ",
+      "reading": "スパチャ",
+      "mora_count": 3,
+      "vowel_skeleton": "u-a-a",
+      "consonant_skeleton": "spchy",
+      "consonant_skeleton_dotted": "s.p.chy",
+      "kind": "vocabulary",
+      "domain": "institution_or_money",
+      "plain_meaning": "スーパーチャットの略。金額に応じてコメントが目立つ",
+      "usage_note": "金額でコメントの大きさが変わる＝ビッグライトの現代版",
+      "verse": "now_air",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%81%E3%83%A3%E3%83%83%E3%83%88"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K221",
+      "surface": "推し活",
+      "reading": "オシカツ",
+      "mora_count": 4,
+      "vowel_skeleton": "o-i-a-u",
+      "consonant_skeleton": "-shkts",
+      "consonant_skeleton_dotted": "-.sh.k.ts",
+      "kind": "vocabulary",
+      "domain": "action",
+      "plain_meaning": "特定の対象を応援するための消費と行動",
+      "usage_note": "動員も市場も過去最高、という景気のいい話の中身",
+      "verse": "now_air",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://kai-you.net/article/92753"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K222",
+      "surface": "返礼品",
+      "reading": "ヘンレイヒン",
+      "mora_count": 6,
+      "vowel_skeleton": "e-N-e-i-i-N",
+      "consonant_skeleton": "hNr-hN",
+      "consonant_skeleton_dotted": "h.N.r.-.h.N",
+      "kind": "vocabulary",
+      "domain": "object",
+      "plain_meaning": "ふるさと納税の寄付に対して自治体が送る品",
+      "usage_note": "2025年10月からポータルサイトのポイント付与が禁止された。『得』が制度で削られる図",
+      "verse": "now_air",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://www.ht-tax.or.jp/topics/furusato-nozei-2025/"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K223",
+      "surface": "ポイント付与禁止",
+      "reading": "ポイントフヨキンシ",
+      "mora_count": 9,
+      "vowel_skeleton": "o-i-N-o-u-o-i-N-i",
+      "consonant_skeleton": "p-NtfykNsh",
+      "consonant_skeleton_dotted": "p.-.N.t.f.y.k.N.sh",
+      "kind": "vocabulary",
+      "domain": "institution_or_money",
+      "plain_meaning": "ふるさと納税仲介サイトでのポイント還元の禁止（2025年10月）",
+      "usage_note": "得のために制度を使う遊びが、制度で止められた",
+      "verse": "now_air",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://www.ht-tax.or.jp/topics/furusato-nozei-2025/"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K224",
+      "surface": "サブスク",
+      "reading": "サブスク",
+      "mora_count": 4,
+      "vowel_skeleton": "a-u-u-u",
+      "consonant_skeleton": "sbsk",
+      "consonant_skeleton_dotted": "s.b.s.k",
+      "kind": "vocabulary",
+      "domain": "institution_or_money",
+      "plain_meaning": "定額で使い放題になる契約",
+      "usage_note": "持たない代わりに、止めた瞬間ゼロになる",
+      "verse": "now_air",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://note.com/magical_river/n/n727f8f6a52fa"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K225",
+      "surface": "マッチングアプリ",
+      "reading": "マッチングアプリ",
+      "mora_count": 8,
+      "vowel_skeleton": "a-Q-i-N-u-a-u-i",
+      "consonant_skeleton": "mQchNg-pr",
+      "consonant_skeleton_dotted": "m.Q.ch.N.g.-.p.r",
+      "kind": "vocabulary",
+      "domain": "object",
+      "plain_meaning": "出会いを仲介するアプリ",
+      "usage_note": "20代の利用率53.9%。出会い方まで先に規格が決まっている",
+      "verse": "now_air",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://mmdlabo.jp/investigation/detail_2489.html"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K226",
+      "surface": "オンラインカジノ",
+      "reading": "オンラインカジノ",
+      "mora_count": 8,
+      "vowel_skeleton": "o-N-a-i-N-a-i-o",
+      "consonant_skeleton": "-Nr-Nkjn",
+      "consonant_skeleton_dotted": "-.N.r.-.N.k.j.n",
+      "kind": "vocabulary",
+      "domain": "institution_or_money",
+      "plain_meaning": "海外サイトでの賭博。日本からの利用は違法",
+      "usage_note": "警察庁の初推計で利用経験者337万人。2025年9月施行の改正法で誘導広告も違法化",
+      "verse": "now_air",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://www.nippon.com/ja/japan-data/h02344/"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K227",
+      "surface": "ととのう",
+      "reading": "トトノウ",
+      "mora_count": 4,
+      "vowel_skeleton": "o-o-o-u",
+      "consonant_skeleton": "ttn-",
+      "consonant_skeleton_dotted": "t.t.n.-",
+      "kind": "vocabulary",
+      "domain": "body",
+      "plain_meaning": "サウナと水風呂を経て訪れる感覚",
+      "usage_note": "2024年度の利用者推計は1648万人で前年度から減少。ブームの側の疲れ",
+      "verse": "now_air",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://kyodonewsprwire.jp/release/202503075340"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K228",
+      "surface": "ブレイキングダウン",
+      "reading": "ブレイキングダウン",
+      "mora_count": 9,
+      "vowel_skeleton": "u-e-i-i-N-u-a-u-N",
+      "consonant_skeleton": "br-kNgd-N",
+      "consonant_skeleton_dotted": "b.r.-.k.N.g.d.-.N",
+      "kind": "vocabulary",
+      "domain": "other",
+      "plain_meaning": "一分間の格闘技イベント",
+      "usage_note": "『お前らが今食いついて見てるそれ』の名指し。一分で決まる勝負と、三十年かかる話の対比",
+      "verse": "now_air",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://breakingdown.jp/"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K229",
+      "surface": "ラストコール",
+      "reading": "ラストコール",
+      "mora_count": 6,
+      "vowel_skeleton": "a-u-o-o-o-u",
+      "consonant_skeleton": "rstk:r",
+      "consonant_skeleton_dotted": "r.s.t.k.:.r",
+      "kind": "vocabulary",
+      "domain": "other",
+      "plain_meaning": "閉店前の最後の注文／同名のオーディション企画",
+      "usage_note": "二重の意味が最初から乗っている語",
+      "verse": "now_air",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://breakingdown.jp/"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "K230",
+      "surface": "ポイ活",
+      "reading": "ポイカツ",
+      "mora_count": 4,
+      "vowel_skeleton": "o-i-a-u",
+      "consonant_skeleton": "p-kts",
+      "consonant_skeleton_dotted": "p.-.k.ts",
+      "kind": "vocabulary",
+      "domain": "action",
+      "plain_meaning": "ポイントを貯めて得をする行動",
+      "usage_note": "小5の頃のベルマークが大人になった姿",
+      "verse": "now_air",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://www.ht-tax.or.jp/topics/furusato-nozei-2025/"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "K231",
+      "surface": "課金",
+      "reading": "カキン",
+      "mora_count": 3,
+      "vowel_skeleton": "a-i-N",
+      "consonant_skeleton": "kkN",
+      "consonant_skeleton_dotted": "k.k.N",
+      "kind": "vocabulary",
+      "domain": "institution_or_money",
+      "plain_meaning": "アプリやゲームに金を払うこと",
+      "usage_note": "スマホゲームに課金している人は全体の35.2%",
+      "verse": "now_air",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://www.sbpayment.jp/en/news/press/2025/20250514_001447/"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K232",
+      "surface": "NISA",
+      "reading": "ニーサ",
+      "mora_count": 3,
+      "vowel_skeleton": "i-i-a",
+      "consonant_skeleton": "n:s",
+      "consonant_skeleton_dotted": "n.:.s",
+      "kind": "vocabulary",
+      "domain": "institution_or_money",
+      "plain_meaning": "少額投資非課税制度",
+      "usage_note": "口座数は2025年6月末で2696万口座。制度の名前で会話が成立する時代",
+      "verse": "now_air",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://www.fsa.go.jp/policy/nisa/20250924.html"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K233",
+      "surface": "タイパ",
+      "reading": "タイパ",
+      "mora_count": 3,
+      "vowel_skeleton": "a-i-a",
+      "consonant_skeleton": "t-p",
+      "consonant_skeleton_dotted": "t.-.p",
+      "kind": "vocabulary",
+      "domain": "other",
+      "plain_meaning": "タイムパフォーマンス。時間あたりの満足度",
+      "usage_note": "0.93秒で寝る男が最強になる指標",
+      "verse": "now_air",
+      "evidence": [
+        {
+          "kind": "web",
+          "pointer": "https://forbesjapan.com/articles/detail/56321"
+        }
+      ],
+      "confidence": "medium"
+    }
+  ],
+  "warnings": [
+    "『0.93秒』『時速八十キロ／八時間』『一メートル四方』『三人ぶん』『八十五点』『だみ声』『一日三回の風呂』などの原作由来の設定値は Wikipedia・ニコニコ大百科・ファンサイト・note 等の二次資料に基づく。商業リリース前に単行本での再確認が望ましい。",
+    "『0.93秒』の読みは『レイテンキュウサンビョウ』としたが『ゼロテンキュウジュウサンビョウ』等の実演読みもあり得るため confidence を medium にした。実演時に確定すること。",
+    "『五十日（ゴトオビ）』『二十分（ニジップン）』『十.二一パーセント（ジュッテンニイチパーセント）』は読みが揺れる（ゴトウビ／ニジュップン／ジッテンニイチ）。ラップ上の実演読みで確定が必要なため confidence を medium にしている。",
+    "『返し』『シールド』『音出し』『ハウる』『ワンツー』はライブ現場の口語で、辞書的な定義が確立していない業界語。出典はライブ用語集・ライブハウス解説であり一次資料ではない。",
+    "道路使用許可の手数料は都道府県ごとに異なる（静岡県2400円・北海道2500円を確認）。歌詞で額を出す場合は『二千いくら』の解像度にとどめるか、都道府県を特定しないこと。",
+    "『十.二一パーセント』は報酬・料金等に対する源泉所得税等の税率であり、印税やライブギャラの手取り全体を説明する数字ではない。『引かれる側の税率』としてのみ使うこと。",
+    "処遇改善加算・介護報酬・要介護度・身体介護／生活援助はいずれも制度の『名前』のみを収集した。ユーザー方針により統計値・パーセンテージは本バンクに含めていない（今の空気の窓のみ、語の背景説明として最小限の数値を usage_note に残した）。",
+    "エピソード扱いの語（三人ぶんの湯呑み／継ぐ気はあるのか／代わりはいる／ありがとうって言われるでしょ／女の子だから／まだ帰ってこないの／巻きでお願い／すみません）はすべて fictional な連想素材であり、ユーザーが提供した実話ではない。事実として書かないこと。",
+    "実在政治家・実在の政治スキャンダル・党名は一切収集していない。制度は名称のみを扱っている。",
+    "原作の歌詞・主題歌・セリフの文言は一切収集していない。収集したのは設定・道具の仕様・キャラクターの記号と、現実世界の一般語彙・制度名のみ。",
+    "『ブレイキングダウン』『ラストコール』は実在の企画名。実在の出演者・運営者・個人には一切触れていない。歌詞で使う場合もカテゴリとしての言及にとどめること。",
+    "共有記憶の窓（土管・ソフト麺・揚げパン・赤白帽など）は世代と地域で共有度が大きく異なる。ソフト麺は関東・中部・中国地方の一部が中心で、全国共通の記憶ではない。"
+  ]
+}
